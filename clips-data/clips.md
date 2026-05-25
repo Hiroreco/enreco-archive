@@ -1202,7 +1202,7 @@ https://youtu.be/08IXKtolliQ?si=S8upnWIY-bagcXX-
 
 https://youtu.be/wbZUw7NGOPI?si=QWoDgi29wrO18z5L
 
-<!-- kiara, ina fuwawa -->
+<!-- kiara, ina, fuwawa -->
 
 https://youtu.be/Hz7KhKukUl8?si=fEFqX3ftP1vMOvzZ
 
@@ -1215,3 +1215,15 @@ https://youtu.be/imKRsWWMkZI?si=E3Q4L23E1LzLQ3-o
 https://youtu.be/QT5uUvfLMXs?si=78U0_y0F4wRN-ztr
 
 <!-- kronii, bijou, cecilia -->
+
+https://youtu.be/axLR2AnK37M?si=tIe4o8DkwlR-t0k-
+
+<!-- gigi, liz, ina -->
+
+https://youtu.be/T4m1qZPKdJQ?si=sQ_uGz_9OvP_emAI
+
+<!-- kiara, irys, bijou -->
+
+https://youtu.be/n5lkewsinoo?si=fDjYbFbiKnsngEKs
+
+<!-- shiori, cecilia -->

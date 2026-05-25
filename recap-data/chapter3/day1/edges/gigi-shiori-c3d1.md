@@ -18,3 +18,6 @@ Shiori, of course, didn't understand his pain, only confused and confounded that
 Gonathan's turmoil will only increase when he witnesses his beloved [friend move in with Shiori,](https://youtu.be/ZzXAmkDHgTY?t=10864) questioning whether Shiori knew of Immerkind's deep devotion to Fia.
 
 Perhaps these are shackles of a broken bond weighing them down.
+
+## Fanart
+["Gonathon knows the secret..." by spaceace_king](https://x.com/spaceace_king/status/2058783609037959576)

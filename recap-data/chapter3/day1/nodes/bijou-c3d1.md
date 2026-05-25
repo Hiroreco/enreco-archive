@@ -26,3 +26,8 @@ Despite not going to the Guild as the Star Seekers instructed, Bijou still goes 
 Finding she can progress no further, Bijou decides that it is time to work on further increasing her power, as well as find a place to take up residence. Luckily, Shiori comes along to aid with both, with the two going on an adventure to gather materials to strengthen themselves, and with Shiori inviting Bijou to live with her and Immerkind. Bijou is hesitant at first, believing she does not need anyone else to live with, but when she is unable to acquire a house of her own, she accepts Shiori's offer.
 
 Upon [discovering Mordon Ramsay's restaurant](https://www.youtube.com/watch?v=VuwvH2nOWxI&t=14730), Bijou realizes that getting Mordon on her side may be beneficial. Bijou thus offers to help Mordon clear her name by taking on the Dungeon together the next day, to which Mordon accepts. Knowing that Mordon is also investigating the true cause of Shakira's death, Bijou also hints to Mordon that the cake could have possibly been poisoned when left in the fridge, knowing that is exactly what she did to it.
+
+## Fanart
+["The uhh...house..." by robomb1192](https://x.com/robomb1192/status/2058856966961951126)
+
+["Bijou" by v1v1anite](https://x.com/v1v1anite/status/2058498520525500750)

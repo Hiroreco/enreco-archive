@@ -19,3 +19,6 @@ However, bonds were tested in the prison of Terminus. Immerkind was moved by Tam
 [The Stain Hat](#embed:https://youtu.be/ZSkPr-qXud0?t=11394)
 
 This is the bond that cannot be broken. But it may bend from time to time, but that is okay. True friendships will defy the outside forces of chaos.
+
+## Fanart
+["Knight of Pure Love" by eule_winters](https://x.com/eule_winters/status/2058895082850488712)

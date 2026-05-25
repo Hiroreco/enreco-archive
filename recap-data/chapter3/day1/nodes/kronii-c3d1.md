@@ -32,3 +32,8 @@ So much for a peaceful, quiet life.
 [Bro what did i dooo...](#embed:https://www.youtube.com/watch?t=12617&v=sT4tuLP6UJQ)
 
 Well, at least towards the very end of the day, finally some bit of peace and quiet. As Tam wrote her journey in a lone secluded corner, [documenting](https://www.youtube.com/watch?v=sT4tuLP6UJQ&t=13638) her woes.
+
+## Fanart
+["Tam’s new pet" by i](https://x.com/i/status/2058838173405622639)
+
+["Tam" by yuutomeh97](https://x.com/yuutomeh97/status/2058839249235886278)

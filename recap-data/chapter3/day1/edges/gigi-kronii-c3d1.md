@@ -16,3 +16,8 @@ The trials of Gonathon would only intensify, however. Gonathon and Immerkind onc
 Proclaiming she was simply Tam now, the former queen left Immerkind to profusely apologize to Gonathon and promise to him that they would find a way to save her. For the time being however, Gonathon has become a knight without a sovereign, the woman he had devoted his life to serving reduced to a gibbering husk of who she was once, and upon whom Gonathon [could not even bear to look.](https://www.youtube.com/watch?v=ZSkPr-qXud0&t=13403s)
 
 [That's not our queen!](#embed:https://www.youtube.com/watch?v=ZSkPr-qXud0&t=11980s)
+
+## Fanart
+["my name is Tam! who are you?" by dasdokter](https://x.com/dasdokter/status/2058789765709975701)
+
+["photorealistic depiction of rolling to take the hat" by leisurepass](https://x.com/leisurepass/status/2058779256814010493)

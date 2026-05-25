@@ -146,3 +146,6 @@
 それとも、これまで以上に暗い運命へと繋がっていくのか。
 
 その答えを知るのは、まだ先の話――。
+
+## ファンアート
+["so happy for her" by mokujyan](https://x.com/mokujyan/status/2058746541754744940)

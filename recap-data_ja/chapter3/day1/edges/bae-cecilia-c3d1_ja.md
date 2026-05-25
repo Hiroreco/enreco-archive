@@ -18,3 +18,6 @@
 今はまだ分からない。
 
 ただひとつ確かなのは――セシリアを切なげに見つめるBaeの視線の先に、別の誰かの存在が映り始めているということだ。
+
+## ファンアート
+["I'm doing the right thing… aren't I, Peasant?" by fongban_](https://x.com/fongban_/status/2058797463415452149)

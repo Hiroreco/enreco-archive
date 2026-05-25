@@ -55,3 +55,6 @@ Then she told her the very same thing she would later tell everyone else.
 She would vindicate her wife.
 
 [*For justice.*](#embed:https://www.youtube.com/watch?v=XD-K3AirOdA&t=13850)
+
+## Fanart
+["This is not a fairytale" by seapupu290495](https://x.com/seapupu290495/status/2058935583066714281)

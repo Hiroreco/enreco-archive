@@ -28,3 +28,8 @@ The Peasant journeyed far and wide, fishing in different lakes and rivers to fin
 She must use the lucky-bait at night but alas. Stains and [pufferfish](https://youtu.be/ZwqLwWTa98E?t=10371) intruded her quest. With nothing to show for her adventure, The Peasant heads off once again, stashing her treasure beneath the land before writing her days into her journal as she heads off for the day.
 
 Coin Count: 2070. The Peasant will be Rich once again.
+
+## Fanart
+["enreco, reign chaos" by nvmlyn](https://x.com/nvmlyn/status/2058763626195116263)
+
+["Hey Peasant" by fongban_](https://x.com/fongban_/status/2058635933055152319)

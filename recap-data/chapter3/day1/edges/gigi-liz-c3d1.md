@@ -28,3 +28,6 @@ Once comrades who fought together, they might now be forced to turn their blades
 And if that day ever came, the scarlet maiden urged Gonathon not to hold back. She asked him to remain the kind and just knight he had always been, and Gonathon agreed.
 
 The decision of which side to stand on had been made in mere moments, yet the fracture it caused would linger far longer than either of them wished.
+
+## Fanart
+["Where your loyalty lies" by sticker_sr](https://x.com/sticker_sr/status/2058797645305373150)

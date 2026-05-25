@@ -38,3 +38,8 @@ The revelation piqued her interest. And so, Nerissa listened attentively, in ful
 What did Shiori mean by"It smelled like home"? Why did the call end abruptly? What secrets would await her, and was this mystery truly connected to the identities they once possessed prior to each version of Libestal? 
 
 Nerissa Juliet had yet to find out. 
+
+## Fanart
+["Goofballs" by noirstein](https://x.com/noirstein/status/2058782884262252922)
+
+["Would you like to be my first?" by noirstein](https://x.com/noirstein/status/2058782884262252922)

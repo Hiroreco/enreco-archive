@@ -34,3 +34,10 @@ As a Sister of the Cloth, Shiori must not kill and keep her prayer hands clear o
 It was somewhat successful, as others read the news of Shakira's death and the doubtful light cast on the poor former therapist chef. Unfortunately, one of the readers included the still grieving widow [Roa, who promptly burst into tears.](https://youtu.be/ZzXAmkDHgTY?t=13700)
 
 After an eventful day, Shiori returns to Fia's Library to record the events in her journal.
+
+## Fanart
+["she lowkey evil" by unbabbles](https://x.com/unbabbles/status/2058265094564266080)
+
+["enreco day 1 2026 colorized" by unbabbles](https://x.com/unbabbles/status/2058789777919406406)
+
+<!-- gigi, bijou, calli, liz, nerissa -->

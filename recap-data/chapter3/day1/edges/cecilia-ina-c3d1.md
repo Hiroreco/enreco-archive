@@ -12,3 +12,6 @@ The whiplash of emotional events in the new kingdom left Immerkind exhausted. Sh
 The two converse by the river, searching for the elusive River Prince. They discuss the recent happenings and Ina discusses her progress through the tasks she was given. This discussion lights a fire in Immerkind who decides to work diligently tomorrow to keep up with her friend and rival.
 
 The Bonds of Knight and Hero rivals anything which tries to break it.
+
+## Fanart
+["The River prince is real!" by chalek0](https://x.com/chalek0/status/2058810274400899438)

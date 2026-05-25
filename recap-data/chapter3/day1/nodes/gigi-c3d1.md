@@ -26,3 +26,8 @@ Having fallen behind in the main quest due to his need to provide support to oth
 Finally Gonathon arrived at the Terminus quest. Seemingly unable to escape the pull of drama, Gonathon was left speechless as Immerkind gave Tam back [the stain hat](https://youtu.be/ZSkPr-qXud0?t=11394), the queen’s memories once more leaving her. Immerkind, realizing her mistake, promised Gonathon that they would find a way to remove the corrupting hat once and for all, and suggested that a new pet would perhaps be the key to it all.
 
 The humble knight’s day ended with a quaint interaction with Roa, one that took a turn for the disturbing as the clumsy feline [killed](https://youtu.be/ZSkPr-qXud0?t=13119) one of the horses they had summoned by accident. Fleeing back to the kingdom’s center, Gonathon retired for the day. While the knight’s first day in this strangely familiar land was not the most eventful, only time will tell what weird and exciting adventures lay in store.
+
+## Fanart
+["The knight has returned" by vapid_4](https://x.com/vapid_4/status/2058627778170196102)
+
+["A knight, tired and weary" by dreamplanes256](https://x.com/dreamplanes256/status/2058599384498229502)

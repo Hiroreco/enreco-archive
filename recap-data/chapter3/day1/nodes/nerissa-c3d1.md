@@ -39,3 +39,8 @@ She went around, examining each cell in the hopes of finding the mysterious pers
 [The year is 2011!](#embed:https://youtu.be/To_P9pUvMRA?t=6402)
 
 It didn't seem to be a great secret, but somehow, it worked! She was transported to the room she was searching for, and here [the secrets read...](https://youtu.be/To_P9pUvMRA?t=6429)
+
+## Fanart
+["is this The Witch of ENreco's Past in question" by i](https://x.com/i/status/2058813041404457219)
+
+["Nerissa’s Ending Screen" by i](https://x.com/i/status/2058763525506646067)

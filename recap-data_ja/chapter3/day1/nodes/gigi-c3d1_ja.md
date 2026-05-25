@@ -96,3 +96,8 @@
 この奇妙で懐かしい世界での初日は、飛び抜けて大きな出来事こそ少なかった。
 
 だが、この先彼を待ち受ける奇妙で刺激的な冒険がどのようなものになるのか――それはまだ誰にも分からない。
+
+## ファンアート
+["The knight has returned" by vapid_4](https://x.com/vapid_4/status/2058627778170196102)
+
+["A knight, tired and weary" by dreamplanes256](https://x.com/dreamplanes256/status/2058599384498229502)

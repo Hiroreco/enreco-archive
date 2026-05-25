@@ -84,3 +84,6 @@
 幾度もの寝不足と、丸々*四十分*にも及ぶ釣りの末――
 
 [リバー・プリンスは実在した！](#embed:https://www.youtube.com/watch?v=cLbDjefl2-w&t=17426s)
+
+## ファンアート
+["the River Prince is what?" by fluumf](https://x.com/fluumf/status/2058858304902980051)
