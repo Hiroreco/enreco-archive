@@ -442,7 +442,7 @@
           "id": "fia",
           "type": "image",
           "position": {
-            "x": 1100,
+            "x": 900,
             "y": 50
           },
           "data": {
@@ -538,22 +538,6 @@
         }
       ],
       "edges": [
-        {
-          "id": "calli-kiara",
-          "source": "calli",
-          "target": "kiara",
-          "sourceHandle": "right-2",
-          "targetHandle": "left-2",
-          "type": "fixed",
-          "data": {
-            "relationshipId": "its-complicated",
-            "title": "",
-            "content": "",
-            "pathType": "straight",
-            "day": 0
-          },
-          "selected": false
-        },
         {
           "id": "irys-ina",
           "source": "irys",
@@ -672,7 +656,7 @@
           "targetHandle": "bottom-1",
           "type": "fixed",
           "data": {
-            "relationshipId": "friends",
+            "relationshipId": "unrequited-love",
             "title": {
               "en": "Awkward Encounters",
               "ja": "気まずい再会"
@@ -701,7 +685,7 @@
           "targetHandle": "left-2",
           "type": "fixed",
           "data": {
-            "relationshipId": "unrequited-love",
+            "relationshipId": "romantic",
             "title": {
               "en": "Pretty Purple Chuuni",
               "ja": "厨二なパープルガール"
@@ -899,7 +883,7 @@
           "targetHandle": "top-2",
           "type": "fixed",
           "data": {
-            "relationshipId": "knight",
+            "relationshipId": "protector",
             "title": {
               "en": "Once a Queen, Now a Pawn",
               "ja": "かつては女王、今はただの駒"

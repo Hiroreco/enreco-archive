@@ -1,21 +1,7 @@
-import { GoogleGenerativeAI } from "@google/generative-ai";
 import fs from "fs/promises";
 import path from "path";
-import dotenv from "dotenv";
-dotenv.config();
 
-const GEMINI_API_KEY = process.env.GEMINI_API_KEY_TRANSLATION;
-
-if (!GEMINI_API_KEY) {
-    console.error("❌ Please set GEMINI_API_KEY environment variable");
-    process.exit(1);
-}
-
-const genAI = new GoogleGenerativeAI(GEMINI_API_KEY);
-const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash" });
-
-async function translateMarkdown(content: string): Promise<string> {
-    const prompt = `**タスク**: Minecraft RP「ENigmatic Recollection」（ホロライブEN）のマークダウンコンテンツを英語から日本語に翻訳してください。
+const prompt = `**タスク**: Minecraft RP「ENigmatic Recollection」（ホロライブEN）のマークダウンコンテンツを英語から日本語に翻訳してください。
 
 **文体・トーン**:
 - アニメ・ゲームサイトのエピソード要約のような読みやすい文体
@@ -55,20 +41,7 @@ async function translateMarkdown(content: string): Promise<string> {
 - <!-- type --> タグは翻訳しない
 **重要**: 直訳で意味が通らない表現があれば、文脈から推測してアニメ・ゲーム調の自然な日本語表現に修正してください。
 
-**出力**: 翻訳されたコンテンツのみを返してください。
-
----
-
-${content}`;
-
-    try {
-        const result = await model.generateContent(prompt);
-        const response = await result.response;
-        return response.text();
-    } catch (error) {
-        throw new Error(`Translation failed: ${error}`);
-    }
-}
+**出力**: 翻訳されたコンテンツのみを返してください。`;
 
 function createMirroredPath(originalPath: string): string {
     const relativePath = path.relative(process.cwd(), originalPath);
@@ -84,25 +57,18 @@ function createMirroredPath(originalPath: string): string {
 async function ensureDirectoryExists(dirPath: string): Promise<void> {
     try {
         await fs.mkdir(dirPath, { recursive: true });
-    } catch (error) {
+    } catch {
         // Directory might already exist, that's fine
     }
 }
 
-async function translateFile(
-    filePath: string,
-    rootDir?: string,
-    force: boolean = false,
-): Promise<void> {
+async function mirrorFile(filePath: string, rootDir?: string): Promise<void> {
     try {
-        const content = await fs.readFile(filePath, "utf-8");
-
         let outputPath: string;
 
         if (rootDir) {
             const relativePath = path.relative(rootDir, filePath);
             const parsedPath = path.parse(relativePath);
-
             const mirroredRoot = createMirroredPath(rootDir);
 
             outputPath = path.join(
@@ -120,36 +86,25 @@ async function translateFile(
             );
         }
 
-        if (!force) {
-            let exists = false;
-            try {
-                await fs.access(outputPath);
-                exists = true;
-            } catch {
-                // File doesn't exist, proceed
-            }
-
-            if (exists) {
-                console.log(`⏭️  Skipped (already exists): ${outputPath}`);
-                return;
-            }
+        try {
+            await fs.access(outputPath);
+            console.log(`⏭️  Skipped (already exists): ${outputPath}`);
+            return;
+        } catch {
+            // File doesn't exist, proceed
         }
 
-        console.log(`Translating: ${filePath}`);
-        const translatedContent = await translateMarkdown(content);
-
-        await fs.writeFile(outputPath, translatedContent, "utf-8");
+        await fs.writeFile(outputPath, "", "utf-8");
         console.log(`✅ Created: ${outputPath}`);
     } catch (error) {
-        console.error(`❌ Error translating ${filePath}:`, error);
+        console.error(`❌ Error mirroring ${filePath}:`, error);
     }
 }
 
-async function translateDirectory(
+async function mirrorDirectory(
     dirPath: string,
     rootDir: string,
     maxConcurrent: number = 3,
-    force: boolean = false,
 ): Promise<void> {
     try {
         const markdownFiles: Array<{ filePath: string; rootDir: string }> = [];
@@ -183,14 +138,12 @@ async function translateDirectory(
             const executing: Promise<void>[] = [];
 
             for (const { filePath, rootDir } of files) {
-                const promise = translateFile(filePath, rootDir, force).then(
-                    () => {
-                        processed++;
-                        console.log(
-                            `⚡ Progress: ${processed}/${total} files completed`,
-                        );
-                    },
-                );
+                const promise = mirrorFile(filePath, rootDir).then(() => {
+                    processed++;
+                    console.log(
+                        `⚡ Progress: ${processed}/${total} files completed`,
+                    );
+                });
 
                 executing.push(promise);
 
@@ -217,11 +170,10 @@ async function main() {
     const maxConcurrent = concurrencyArg
         ? parseInt(concurrencyArg.split("=")[1])
         : 3;
-    const force = process.argv.includes("--force");
 
     if (!targetPath) {
         console.error(
-            "Usage: tsx translate.ts <file-or-directory> [--concurrent=N] [--force]",
+            "Usage: tsx translate.ts <file-or-directory> [--concurrent=N]",
         );
         console.error("Examples:");
         console.error(
@@ -230,9 +182,7 @@ async function main() {
         console.error("  tsx translate.ts recap-data/chapter1/day1/edges");
         console.error("  tsx translate.ts recap-data");
         console.error("  tsx translate.ts recap-data --concurrent=5");
-        console.error("  tsx translate.ts recap-data --force");
         console.error("\nDefault concurrency: 3 files at once");
-        console.error("Use --force to overwrite existing translations");
         process.exit(1);
     }
 
@@ -256,25 +206,18 @@ async function main() {
             const rootDir = pathParts[0];
             const fullRootPath = path.resolve(process.cwd(), rootDir);
 
-            await translateFile(resolvedPath, fullRootPath, force);
+            await mirrorFile(resolvedPath, fullRootPath);
         } else if (stat.isDirectory()) {
-            console.log(`🚀 Translating all .md files in: ${resolvedPath}`);
+            console.log(`🚀 Mirroring all .md files in: ${resolvedPath}`);
             console.log(
                 `📁 Creating mirrored structure in: ${createMirroredPath(resolvedPath)}`,
             );
             console.log(`⚡ Concurrency: ${maxConcurrent} files at once`);
-            if (force)
-                console.log(`⚠️  Force mode: overwriting existing files`);
 
-            await translateDirectory(
-                resolvedPath,
-                resolvedPath,
-                maxConcurrent,
-                force,
-            );
+            await mirrorDirectory(resolvedPath, resolvedPath, maxConcurrent);
         }
 
-        console.log("✨ Translation complete!");
+        console.log("✨ Done!");
     } catch (error) {
         console.error(`❌ Error: ${error}`);
         process.exit(1);

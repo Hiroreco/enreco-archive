@@ -1,10 +1,5 @@
----
-title: kiara-raora-c3d1
-
----
-
-<!-- title: Freaky Deaky Taste -->  
-<!-- relationship: No Longer Together -->  
+<!-- title: Freaky Deaky Taste -->
+<!-- relationship: No Longer Together -->
 
 Shakira and Roa had been more than happy to see each other again. The cat and the phoenix walked hand in hand, two devoted lovers finally reunited. It had felt like forever since they had last touched each other, even if their separation had only been brief.
 
@@ -54,7 +49,8 @@ Then she told her the very same thing she would later tell everyone else.
 
 She would vindicate her wife.
 
-[*For justice.*](#embed:https://www.youtube.com/watch?v=XD-K3AirOdA&t=13850)
+[_For justice._](#embed:https://www.youtube.com/watch?v=XD-K3AirOdA&t=13850)
 
 ## Fanart
+
 ["This is not a fairytale" by seapupu290495](https://x.com/seapupu290495/status/2058935583066714281)

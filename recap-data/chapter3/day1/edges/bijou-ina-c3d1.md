@@ -14,6 +14,3 @@ Despite all of that, Bijou declined. She needed no company from anyone. She was 
 [It's fine, sister.](#embed:https://www.youtube.com/watch?v=VuwvH2nOWxI&t=10845)
 
 But despite everything, she still cared for her sister. Their ideals simply stood on opposite sides. Perhaps, even if she would not stay, she would still visit her sister's house every now and then.
-
-## Fanart
-["Wooden Shovel" by chalek0](https://x.com/chalek0/status/2058778646119080356)
