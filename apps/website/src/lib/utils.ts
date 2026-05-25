@@ -16,24 +16,22 @@ export function extractYouTubeVideoInfo(
 ): { videoId: string; startTime?: number } | null {
     if (!url) return null;
 
-    // First, extract the video ID using a more specific pattern
     const videoIdRegex =
         /(?:youtube\.com\/(?:watch\?v=|live\/|embed\/)|youtu\.be\/)([a-zA-Z0-9_-]{11})/i;
     const videoIdMatch = url.match(videoIdRegex);
 
-    if (!videoIdMatch) return null;
-
-    const videoId = videoIdMatch[1];
+    // Fallback: extract video ID from the `v` query param directly.
+    // This handles URLs where params are reordered, e.g. ?t=334&v=M1lDsivuVb8
+    const urlObj = new URL(url);
+    const videoId = videoIdMatch?.[1] ?? urlObj.searchParams.get("v") ?? null;
+    if (!videoId) return null;
 
     // Then, separately extract time parameters from query string
-    const urlObj = new URL(url);
     const startParam =
         urlObj.searchParams.get("start") || urlObj.searchParams.get("t");
-
     let startTime: number | undefined;
 
     if (startParam) {
-        // Handle different time formats
         if (
             startParam.includes("h") ||
             startParam.includes("m") ||
@@ -56,26 +54,21 @@ export function extractYouTubeVideoInfo(
     return { videoId, startTime };
 }
 
-// ...existing code...
-
 // Updated urlToEmbedUrl function
 export function urlToEmbedUrl(videoUrl: string | null): {
     videoid: string;
     params: string;
 } {
     if (!videoUrl) return { videoid: "", params: "" };
-
     const videoInfo = extractYouTubeVideoInfo(videoUrl);
-
     if (!videoInfo) return { videoid: "", params: "" };
-
     const params = videoInfo.startTime ? `start=${videoInfo.startTime}` : "";
-
     return {
         videoid: videoInfo.videoId,
         params,
     };
 }
+
 export const idFromChapterDayId = (
     chapter: number,
     day: number,
