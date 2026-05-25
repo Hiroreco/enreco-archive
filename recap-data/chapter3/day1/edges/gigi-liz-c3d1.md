@@ -1,5 +1,5 @@
 <!-- title: The Knights' Dilemma -->
-<!-- status: its-complicated -->
+<!-- relationship: It's complicated -->
 
 They were two of the most prestigious knights the kingdom had to offer, and they had fought side by side in countless battles before.
 

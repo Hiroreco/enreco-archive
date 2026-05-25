@@ -1,5 +1,5 @@
 <!-- title: So We're Doing This Again -->
-<!-- relationship: big-pink-cat -->
+<!-- relationship: Big Pink Cat -->
 
 She was Tam. Just Tam. She wanted her name to stay that way this [time](https://www.youtube.com/watch?v=sT4tuLP6UJQ&t=360)—simple, elegant. No more confusion, no more people making fun of the previous title she once carried. Just three letters, short and concise.
 
@@ -7,7 +7,7 @@ And yet somehow, somehow, she still ended up at the center of a joke that had pe
 
 [ITS TAMMMMM!!!](#embed:https://www.youtube.com/watch?v=sT4tuLP6UJQ&t=3493)
 
-Tam never thought a cat—a pink one, at that—could get on her nerves this much. She removed her last name *specifically* so this woman would stop butchering it into whatever cursed collection of vowels and syllables she could come up with. Tim. Tom. Tum. Tem. Might as well get all of them out of the way at this point. It was literally [spelled out](https://www.youtube.com/watch?v=sT4tuLP6UJQ&t=3690) character by character, for god’s sake!
+Tam never thought a cat—a pink one, at that—could get on her nerves this much. She removed her last name _specifically_ so this woman would stop butchering it into whatever cursed collection of vowels and syllables she could come up with. Tim. Tom. Tum. Tem. Might as well get all of them out of the way at this point. It was literally [spelled out](https://www.youtube.com/watch?v=sT4tuLP6UJQ&t=3690) character by character, for god’s sake!
 
 Was this some kind of cruel cosmic joke? Like beating a dead horse over and over again just so the universe could squeeze out one pathetic chuckle?
 
@@ -29,7 +29,7 @@ They told Tam to "reminisce" (force her to relive the past), tried to “mend th
 
 Mmm... meh.
 
-Still, Tam and Roa—or rather, "Ro," as Tam insisted on calling her—did seem *somewhat* closer afterward. Closer in the sense that they could finally say each other’s names without immediately turning it into a joke.
+Still, Tam and Roa—or rather, "Ro," as Tam insisted on calling her—did seem _somewhat_ closer afterward. Closer in the sense that they could finally say each other’s names without immediately turning it into a joke.
 
 Their [past](https://www.youtube.com/watch?v=sT4tuLP6UJQ&t=9766) had certainly been full of turmoil, but perhaps... perhaps things might change this time.
 

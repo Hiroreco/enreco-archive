@@ -29,3 +29,7 @@ Now _that’s_ drama.
 ![There wasn't even a birth party this time](/images-opt/kiara-dead-opt.webp)
 
 They still have the exact same job system as before, but who caaaaares about any of that when there’s fresh tea and absurdly spicy drama waiting to be devoured instead?
+
+## Official Work
+
+["Freaky Deaky Love (Chapter 3 Theme Song)"](https://www.youtube.com/watch?v=YBtaIGEkEOc)

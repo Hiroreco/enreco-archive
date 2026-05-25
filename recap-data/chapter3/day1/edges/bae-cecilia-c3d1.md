@@ -1,5 +1,5 @@
 <!-- title: Awkward Encounters -->
-<!-- relationship: unrequited-love -->
+<!-- relationship: Unrequited Love -->
 
 One can never forget her first love.
 
