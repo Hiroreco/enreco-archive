@@ -1,8 +1,3 @@
----
-title: ina-irys-c3d1
-
----
-
 <!-- title: the fuchsia looks bright -->
 <!-- relationship: Romantic -->
 

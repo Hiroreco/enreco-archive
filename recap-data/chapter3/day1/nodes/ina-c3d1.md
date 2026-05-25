@@ -1,8 +1,3 @@
----
-title: ina-c3d1
-
----
-
 <!-- title: NinoIna -->
 <!-- status: Alive -->
 
