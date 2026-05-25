@@ -9,7 +9,7 @@ She had been forced to watch her kingdom fall into ruin, tearfully abandoning it
 
 And yet, perhaps there was still a silver lining.
 
-[The next step](#embed:https://www.youtube.com/watch?t=1047&v=2rnclFeQ5EM)
+[The next step](#embed:https://www.youtube.com/watch?v=2rnclFeQ5EM&t=1047)
 
 She had once attempted to “cheat” fate by breaking away from the past, only for everything to arrive at the same doomed ending. So maybe the answer was the opposite.
 

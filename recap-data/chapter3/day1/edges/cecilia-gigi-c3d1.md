@@ -3,7 +3,7 @@
 
 Though times change, bonds between wolves do not.
 
-Gonathon called Immerkind, who excitedly said that he found a treasure for him. There, they meet the [ISexy Prophet](https://www.youtube.com/live/rjNDjL6R3-s?si=AfpiGMslXndmPuy3&t=3471), which leaves a critical puzzle for Immerkind. Gonathon is aware of how much Immerkind enjoys riddles, so his immediate thought was to call his trusted friend.
+Gonathon called Immerkind, who excitedly said that he found a treasure for her. There, they meet the [ISexy Prophet](https://www.youtube.com/live/rjNDjL6R3-s?si=AfpiGMslXndmPuy3&t=3471), which leaves a critical puzzle for Immerkind. Gonathon is aware of how much Immerkind enjoys riddles, so his immediate thought was to call his trusted friend.
 
 As the heroes toiled in the mines (again), Gonathon discovered that they are actually in 2011 and excitedly tells Immerkind. Upon hearing this, Immerkind realizes that this is the year in which the hit series Game of Thrones premiered on HBO!
 

@@ -47,7 +47,7 @@ Roa paused for only a moment before slowly standing upright once more.
 
 Then she told her the very same thing she would later tell everyone else.
 
-She would vindicate her wife.
+She would avenge her wife.
 
 [_For justice._](#embed:https://www.youtube.com/watch?v=XD-K3AirOdA&t=13850)
 

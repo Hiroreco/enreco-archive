@@ -23,13 +23,13 @@ She continued her day by completing her quests, claiming she had amnesia everywh
 
 She was so distracted by so many people that she hardly got the chance to do her actual tasks, be it with [Shiori](https://www.youtube.com/watch?v=sT4tuLP6UJQ&t=9094), [Immerkind](https://www.youtube.com/watch?v=sT4tuLP6UJQ&t=9278), and even Mordon Ramsey, whom she wasn't [too fond of](https://www.youtube.com/watch?v=sT4tuLP6UJQ&t=10298) as she recalled this "therapist" might have ruined her relationship with the Hot Pink One.
 
-She lost her [horse](https://www.youtube.com/watch?t=13102&v=sT4tuLP6UJQ) and had to beg the gods to give it back.
+She lost her [horse](https://www.youtube.com/watch?v=sT4tuLP6UJQ&t=13102) and had to beg the gods to give it back.
 
 She even got locked up in a prison cell just because she forgot the name of someone who wasn't even significant to her.
 
 So much for a peaceful, quiet life.
 
-[Bro what did i dooo...](#embed:https://www.youtube.com/watch?t=12617&v=sT4tuLP6UJQ)
+[Bro what did i dooo...](#embed:https://www.youtube.com/watch?v=sT4tuLP6UJQ&t=12617)
 
 Well, at least towards the very end of the day, finally some bit of peace and quiet. As Tam wrote her journey in a lone secluded corner, [documenting](https://www.youtube.com/watch?v=sT4tuLP6UJQ&t=13638) her woes.
 

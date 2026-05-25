@@ -5,7 +5,7 @@ Oh boy, she's back—that pink menace, that shade whose footsteps alone would sp
 
 And unexpectedly... she _actually_ remembered most of the mental damage she caused others back in those journeys.
 
-[Everyone is evil, I think](#embed:https://www.youtube.com/watch?t=334&v=M1lDsivuVb8)
+[Everyone is evil, I think](#embed:https://www.youtube.com/watch?v=M1lDsivuVb8&t=334)
 
 A reunion is usually a warm welcome, but for the Hot Pink One, she was initially skeptical and somewhat nervous, actually. Her last journey ended on a bitter note: her consort, the love of her life, NinoIna, left her; her other love of her life, Tam, rejected her entirely for what she did; she lost almost all her ties with them.
 
@@ -21,11 +21,11 @@ After Fia explained the situation to everyone, everyone was thrown into what see
 
 Her first major encounter with this kingdom's folks was with Nix, who asked her whether she would be joining the Rebellion or the Shining Stars. If you know this woman, you obviously know which side she's [choosing.](https://www.youtube.com/watch?v=M1lDsivuVb8&t=2658)
 
-She then continued her profession as a [chef,](https://www.youtube.com/watch?t=3516&v=M1lDsivuVb8) just like before, and started doing her quests, tasks, all that jazz. It was oddly calm, this first day. The Hot Pink One would do her tasks diligently, talk to passersby, and nothing too crazy happened.
+She then continued her profession as a [chef,](https://www.youtube.com/watch?v=M1lDsivuVb8&t=3516) just like before, and started doing her quests, tasks, all that jazz. It was oddly calm, this first day. The Hot Pink One would do her tasks diligently, talk to passersby, and nothing too crazy happened.
 
 Well, one of these passerby conversations wasn't too normal.
 
-[YOU'RE PREGANANAT?!](#embed:https://www.youtube.com/watch?t=4112&v=M1lDsivuVb8)
+[YOU'RE PREGANANAT?!](#embed:https://www.youtube.com/watch?v=M1lDsivuVb8&t=4112)
 
 During an interaction with Shakira, the pink one learned the shocking revelation that Shakira was pregnant! With whom? Who knows! But what matters is there is a baby in there! Goo goo gaga!
 
@@ -35,12 +35,12 @@ Well, let's just keep that in mind for now. Continuing on, she did quests, she e
 
 Nice, still a relatively normal day. Next sh— oh my god, Shakira's dead.
 
-[But she had a BABY!](#embed:https://www.youtube.com/watch?t=6914&v=M1lDsivuVb8)
+[But she had a BABY!](#embed:https://www.youtube.com/watch?v=M1lDsivuVb8&t=6914)
 
 H-how did this happen? Such a tragic event! Someone murdered her? Mordon Ramsay murdered her?! What about the baby?!
 
 It was a whole ordeal and everyone was talking about it, such a fleeting interaction and now she was gone...
 
-Well... what can you do. The death of the phoenix did linger in the pink one's mind as she wandered the kingdom and continued her tasks. She even [called](https://www.youtube.com/watch?t=9591&v=M1lDsivuVb8) the supposed murderer, but not to address the allegations—rather, to ask her how to make cake. That's how dedicated this chef was.
+Well... what can you do. The death of the phoenix did linger in the pink one's mind as she wandered the kingdom and continued her tasks. She even [called](https://www.youtube.com/watch?v=M1lDsivuVb8&t=9591) the supposed murderer, but not to address the allegations—rather, to ask her how to make cake. That's how dedicated this chef was.
 
 Finally, after a long chaotic day, she decided to call it a day much earlier than the others, but still, a crazy day nonetheless.
