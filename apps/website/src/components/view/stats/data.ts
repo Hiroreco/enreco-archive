@@ -27,18 +27,8 @@ const buildCumulativeGroupsFromChapter = (
         ? chapterRaw.factions
         : [];
 
-    const orderedGroupIds =
-        assignmentKey === "teamId"
-            ? Object.keys(
-                  Object.fromEntries(
-                      Object.entries(teamsMeta).filter(
-                          ([teamId]) => teamId !== "none",
-                      ),
-                  ),
-              )
-            : factionIds;
-
     const lastKnownGroupByMember = new Map<string, string>();
+    const discoveredGroupIds = new Set<string>();
 
     for (let chartIndex = 0; chartIndex < day; chartIndex += 1) {
         const chart = charts[chartIndex];
@@ -49,8 +39,22 @@ const buildCumulativeGroupsFromChapter = (
             if (!groupId || groupId === "none") continue;
 
             lastKnownGroupByMember.set(node.id, groupId);
+            discoveredGroupIds.add(groupId);
         }
     }
+
+    const orderedGroupIds =
+        assignmentKey === "teamId"
+            ? Object.keys(
+                  Object.fromEntries(
+                      Object.entries(teamsMeta).filter(
+                          ([teamId]) => teamId !== "none",
+                      ),
+                  ),
+              )
+            : factionIds.length > 0
+              ? factionIds
+              : Array.from(discoveredGroupIds);
 
     const membersByGroup = new Map<string, string[]>();
     for (const groupId of orderedGroupIds) {
