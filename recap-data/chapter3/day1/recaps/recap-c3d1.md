@@ -32,4 +32,4 @@ They still have the exact same job system as before, but who caaaaares about any
 
 ## Official Work
 
-["Freaky Deaky Love (Chapter 3 Theme Song)"](https://www.youtube.com/watch?v=YBtaIGEkEOc)
+["Freaky Deaky Love (Chapter 3 Theme Song)"](#out:https://www.youtube.com/watch?v=YBtaIGEkEOc)

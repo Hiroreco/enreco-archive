@@ -19,7 +19,7 @@ After the lengthy process of obtaining an iron pickaxe, Ina set her sights on th
 
 Despite the title, status, and quest, NinoIna seemed to be leading towards a peaceful life this time around. One devoid of gachas and drama alike. One where she could breeze through the day without much more than the thought of worry; the other heroes, unfortunately, [didn't get the memo.](www.youtube.com/watch?v=cLbDjefl2-w&t=6335s)
 
-Nevertheless, Ina found her way through the day’s trials and ended up at a door that... wouldn't open. 
+Nevertheless, Ina found her way through the day’s trials and ended up at a door that... wouldn't open.
 
 [That's it?](#embed:https://www.youtube.com/watch?v=cLbDjefl2-w&t=8382s)
 

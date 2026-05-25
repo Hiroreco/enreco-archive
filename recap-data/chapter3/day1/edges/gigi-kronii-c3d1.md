@@ -5,7 +5,7 @@ Among the familiar faces Gonathon was reunited to during the journey to the new 
 
 Some time later Gonathon was able to catch up with Tam and it was here that his worst fears were confirmed. Not only had the queen forgotten her status and many of her memories, but her amnesia had been caused by [a stain hat](https://www.youtube.com/watch?v=ZSkPr-qXud0&t=5594s) that had latched on to her head. Leaping into action, Gonathon made several attempts to persuade Tam to take off the hat and, realizing she would not budge, resorted to making several skill checks using dice. While Tam attempted to thwart Gonathon’s attempts using subterfuge, a further intervention by Immerkind finally managed to subdue the recalcitrant Tam, who relinquished the hat to Immerkind’s custody.
 
-[Roll for initiative!](embed:https://youtu.be/ZSkPr-qXud0?t=5863)
+[Roll for initiative!](#embed:https://youtu.be/ZSkPr-qXud0?t=5863)
 
 Alas, this would only serve to intensify Tam’s woes, as the queen fell into a spiral over her perceived lack of worth and imposter syndrome. Despite Gonathon and Immerkind reaffirming their vows and Gonathon promising to check-in on Tam, the queen’s condition would only worsen as the day went on.
 
@@ -15,4 +15,4 @@ The trials of Gonathon would only intensify, however. Gonathon and Immerkind onc
 
 Proclaiming she was simply Tam now, the former queen left Immerkind to profusely apologize to Gonathon and promise to him that they would find a way to save her. For the time being however, Gonathon has become a knight without a sovereign, the woman he had devoted his life to serving reduced to a gibbering husk of who she was once, and upon whom Gonathon [could not even bear to look.](https://www.youtube.com/watch?v=ZSkPr-qXud0&t=13403s)
 
-[That's not our queen!](embed:https://www.youtube.com/watch?v=ZSkPr-qXud0&t=11980s)
+[That's not our queen!](#embed:https://www.youtube.com/watch?v=ZSkPr-qXud0&t=11980s)

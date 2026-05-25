@@ -1,5 +1,5 @@
 <!-- title: So We're Doing This Again -->
-<!-- relationship: Big Pink Cat -->
+<!-- relationship: Cat -->
 
 She was Tam. Just Tam. She wanted her name to stay that way this [time](https://www.youtube.com/watch?v=sT4tuLP6UJQ&t=360)—simple, elegant. No more confusion, no more people making fun of the previous title she once carried. Just three letters, short and concise.
 

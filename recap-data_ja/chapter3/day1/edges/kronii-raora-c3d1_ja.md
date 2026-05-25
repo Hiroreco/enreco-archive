@@ -1,5 +1,5 @@
 <!-- title: またこれをやるのか -->
-<!-- relationship: Big Pink Cat -->
+<!-- relationship: Cat -->
 
 彼女はタム。
 ただのタム。

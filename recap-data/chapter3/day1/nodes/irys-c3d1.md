@@ -3,7 +3,7 @@
 
 Oh boy, she's back—that pink menace, that shade whose footsteps alone would spark fear in those who heard them, the homewrecker of the first journey, the romantic chaos sower of the second one. She's here, the Hot Pink One is back for her third reign of chaos.
 
-And unexpectedly... she *actually* remembered most of the mental damage she caused others back in those journeys.
+And unexpectedly... she _actually_ remembered most of the mental damage she caused others back in those journeys.
 
 [Everyone is evil, I think](#embed:https://www.youtube.com/watch?t=334&v=M1lDsivuVb8)
 
@@ -11,7 +11,7 @@ A reunion is usually a warm welcome, but for the Hot Pink One, she was initially
 
 But yet again, unexpectedly, maybe time had mended these fractures? Because NinoIna was willing to reconcile with the Hot Pink One (see [Ina-Hot Pink One](#edge:ina-irys)).
 
-Amazing news for the pink one then! Even her pink cat still thought fondly of her (see [Raora-Hot Pink One](#edge:irys-raora)), and her supposed [brother,](https://www.youtube.com/watch?v=M1lDsivuVb8&t=588) Bijou, too! 
+Amazing news for the pink one then! Even her pink cat still thought fondly of her (see [Raora-Hot Pink One](#edge:irys-raora)), and her supposed [brother,](https://www.youtube.com/watch?v=M1lDsivuVb8&t=588) Bijou, too!
 
 Then does that mean Tam als— nope, the moment she approached the azure maiden, a spit in the face was what she got. Seems like not everything can be mended by time (see [Hot Pink One-Tam](#edge:irys-kronii)).
 

@@ -1,5 +1,5 @@
 <!-- title: 騎士たちのジレンマ -->
-<!-- relationship: It's complicated -->
+<!-- relationship: It's Complicated -->
 
 二人は王国でも指折りの名誉ある騎士だった。
 

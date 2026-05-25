@@ -1,9 +1,9 @@
 <!-- title: Brothers in Dispute? -->
-<!-- relationship: Friend -->
+<!-- relationship: Friends -->
 
 In another universe, Gonathan would have been happy to see his brother find love. To see her move on from Immerkind to a happier and healthier relationship would have been great.
 
-[But, not to _Nix_.](https://youtu.be/ZwqLwWTa98E?t=3246)
+[But, not to _Nix_.](#embed:https://youtu.be/ZwqLwWTa98E?t=3246)
 
 Dishonorable, trickster.
 

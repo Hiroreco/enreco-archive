@@ -25,7 +25,7 @@ The two spoke briefly, and because Lady Bloodflame trusted her so deeply, she co
 
 But their conversation was interrupted by the arrival of the one person capable of shaking Lady Bloodflame’s world more than anyone else.
 
-[It's turning into a strawberry again](https://www.youtube.com/watch?v=2rnclFeQ5EM&t=1401s)
+[It's turning into a strawberry again](#embed:https://www.youtube.com/watch?v=2rnclFeQ5EM&t=1401s)
 
 Everything they had experienced together thus far—the pain, the memories, the feelings tangled between them—was complicated. The scarlet knight had many things she wished to ask Nerissa, many things she wished to say. But more pressing matters stood before them, so she buried those thoughts away for another time (see [Liz-Nerissa](#edge:liz-nerissa)).
 
@@ -79,7 +79,7 @@ Their marriage had been short, but the love they shared was no less real because
 
 Perhaps those words helped.
 
-[This is... so sad... _eats carrot_](https://www.youtube.com/watch?v=2rnclFeQ5EM&t=7273s)
+[This is... so sad... _eats carrot_](#embed:https://www.youtube.com/watch?v=2rnclFeQ5EM&t=7273s)
 
 And somehow, despite everything, Lady Bloodflame continued onward rather quickly for someone who had just lost a person so dear to her.
 

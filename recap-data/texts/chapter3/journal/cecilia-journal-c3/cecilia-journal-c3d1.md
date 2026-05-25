@@ -15,7 +15,7 @@ She seems of course very focused on saving her kingdom and she doesn't really se
 I hope that we can save he and her people and then she will be whole once more.
 
 PS:
-I found a home. This is the first time I've had a home that looked so grand. It felt nice. And comforting. 
+I found a home. This is the first time I've had a home that looked so grand. It felt nice. And comforting.
 Goodnight
 
 ~Knight Immerkind~
