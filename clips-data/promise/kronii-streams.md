@@ -13,3 +13,7 @@ https://www.youtube.com/watch?v=PukMnVXnJMo
 https://www.youtube.com/watch?v=II40tjM-mxg
 https://www.youtube.com/watch?v=jayBiB9euJU
 https://www.youtube.com/watch?v=YVyeKQ-6Ka8
+
+### Chapter 3
+
+https://www.youtube.com/watch?v=sT4tuLP6UJQ
