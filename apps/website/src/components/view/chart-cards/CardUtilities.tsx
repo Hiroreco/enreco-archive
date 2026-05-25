@@ -9,13 +9,14 @@ interface JournalUtilityProps {
 }
 
 const JournalUtility = ({ chapter, day, id }: JournalUtilityProps) => {
-    const journalId = `${id}-journal-c${chapter + 1}d${day + 1}`;
+    const normalizedId = id.replace(/^ch\d+-/, "");
+    const journalId = `${normalizedId}-journal-c${chapter + 1}d${day + 1}`;
     return <TextModal textId={journalId} label="" />;
 };
 
 const UTILITY_CONFIG = {
     journal: {
-        chapters: [1],
+        chapters: [1, 2],
         component: JournalUtility,
     },
 };
