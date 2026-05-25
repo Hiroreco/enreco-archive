@@ -1,7 +1,7 @@
 <!-- title: Peasant The Bae -->
 <!-- status: Alive -->
 
-Trapped in a similar white box with faces The Peasant Bae actually remembers. Something stirs within her as she witnessed the reunion of brothers, friends, Bae's own Brother, and... Immerkind. (See: [Bae-Cecilia](#edge:bae-cecilia))
+Trapped in a familiar white box with faces The Peasant Bae actually remembers. Something stirs within her as she witnessed the reunion of brothers, friends, Bae's own Brother, and... Immerkind. (See: [Bae-Cecilia](#edge:bae-cecilia))
 
 Once again. Bae finds herself in Fia's Library as the unwilling hero of Libestal. Words flowed out of her, a [message](https://youtu.be/ZwqLwWTa98E?t=2049) from above, reminding her and her companions of their place in this world. Hesitant but not entirely unwilling Bae takes up her dice once again.
 
@@ -17,7 +17,7 @@ But despite the disagreement, Gonathan does cherish the Peasant deeply, even enc
 
 And to questing Bae goes on again. Regaining her might and experience as she mines ores and slays the stains that roam the Kingdom of Libestal once again. She will become the richest peasant across the land. [With a few mishaps along the way.](https://youtu.be/ZwqLwWTa98E?t=5033)
 
-Eventually, Bae is dragged back into the plot as she must learn a secret to tell the guard... And so, Bae with that important quest in mind, [The Peasant went fishing.](https://youtu.be/ZwqLwWTa98E?t=6100)
+Eventually, Bae is dragged back into the plot as she must learn a secret to tell the guard... And so, with that important quest in mind, [The Peasant went fishing.](https://youtu.be/ZwqLwWTa98E?t=6100)
 
 But outside of fishing, it seems drama stirs with the Shining Stars and Rebels as Bae witnessed an argument erupt. Bae bore witness to the Hot Pink One's tale of her relationships woes last chapter.
 
