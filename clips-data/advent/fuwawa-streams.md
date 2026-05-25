@@ -17,3 +17,7 @@ https://www.youtube.com/watch?v=9A1cO7jL0jw
 https://www.youtube.com/watch?v=geV0HyX5LUA
 https://www.youtube.com/watch?v=eKVBp9EgDLc
 https://www.youtube.com/watch?v=a940cWsshj4
+
+### Chapter 3
+
+www.youtube.com/watch?v=YY5EJ_TX-iM

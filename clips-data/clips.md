@@ -1153,3 +1153,65 @@ https://www.youtube.com/watch?v=hDCdqSvzIXE
 https://www.youtube.com/watch?v=UTV52WRF5QQ
 
 <!-- nerissa -->
+
+### Chapter 3
+
+https://www.youtube.com/watch?v=fnCKAPRb508
+
+<!-- liz, ina -->
+
+https://youtu.be/xPsXJ8_CbAs?si=O9W-Th6K3ctdYzKl
+
+<!-- raora -->
+
+https://youtu.be/1zg5yXE5R4Q?si=LVBtQ_PXCnqfsKUs
+
+<!-- liz, nerissa -->
+
+https://youtu.be/lT0IUP6H1WM?si=K0itjW4kCtJc3QXp
+
+<!-- kronii, raora -->
+
+https://youtu.be/CYLGfRoXxF0?si=1CQSgURHKu9a7fKF
+
+<!-- mococo -->
+
+https://youtu.be/ZVcfto_0pWc?si=xlw07h1ttgDI_kqv
+
+<!-- calli, kiara -->
+
+https://youtu.be/dwhCyxOIXh8?si=6yHj07yOS664QBYW
+
+<!-- kronii, irys, bae -->
+
+https://youtu.be/fg_dHkzjbwE?si=pp2fwzpa0WFHKkRE
+
+<!-- shiori, gigi, cecilia -->
+
+https://youtu.be/8ynGjDOFIGg?si=h18jQs1TjB3Zeb8j
+
+<!-- ina, liz -->
+
+https://youtu.be/I0Nsh2yzRls?si=Y_DikzKz4y6QC3uP
+
+<!-- gigi, liz, ina -->
+
+https://youtu.be/08IXKtolliQ?si=S8upnWIY-bagcXX-
+
+<!-- calli, kiara, shiori, mococo, raora -->
+
+https://youtu.be/wbZUw7NGOPI?si=QWoDgi29wrO18z5L
+
+<!-- kiara, ina fuwawa -->
+
+https://youtu.be/Hz7KhKukUl8?si=fEFqX3ftP1vMOvzZ
+
+<!-- kiara, irys, bijou -->
+
+https://youtu.be/imKRsWWMkZI?si=E3Q4L23E1LzLQ3-o
+
+<!-- gigi, bijou, ina, kronii -->
+
+https://youtu.be/QT5uUvfLMXs?si=78U0_y0F4wRN-ztr
+
+<!-- kronii, bijou, cecilia -->
