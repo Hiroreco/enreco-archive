@@ -150,9 +150,9 @@
             "description": "Play minigames from the story",
             "games": {
                 "gambling": {
-                    "label": "Color Cannon (Chapter 1)",
-                    "intro": "The most frequently visited minigame—or rather, venue—of Chapter One was undoubtedly the <bold>Amber Coin Casino</bold> <icon></icon>, where everyone could indulge in their favorite pastime: gambling.",
-                    "rules": "The casino's signature minigame functions like a roulette of sorts. A board displays four different colors, each occupying a set number of squares with a corresponding multiplier:",
+                    "label": "Color Cannon",
+                    "intro": "One of the most frequently visited minigame—or rather, venue—where everyone could indulge in their favorite pastime: gambling.",
+                    "rules": "A board displays four different colors, each occupying a set number of squares with a corresponding multiplier:",
                     "blueSquares": "<color>Blue:</color> 12 squares, 2x multiplier",
                     "greenSquares": "<color>Green:</color> 8 squares, 3x multiplier",
                     "yellowSquares": "<color>Yellow:</color> 4 squares, 5x multiplier",
@@ -169,8 +169,8 @@
                     "outOfMoney": "Out of Money"
                 },
                 "memory": {
-                    "label": "Mind's Eye (Chapter 1)",
-                    "intro": "<bold>The Scarlet Wand <icon></icon>'s Memory Game</bold> was introduced on Day 7 of the journey. As its name suggests, its main purpose is to test the memory of our heroes.",
+                    "label": "Mind's Eye",
+                    "intro": "<bold>The Scarlet Wand <icon></icon>'s Memory Game</bold> was introduced on Day 7 of Chapter 1. As its name suggests, its main purpose is to test the memory of our heroes.",
                     "gameplay": "Upon starting the game, each round presents a white board where a number of squares light up in one of four colors—red, green, blue, or yellow. After about two seconds, the colors vanish, and the player must recreate the original pattern.",
                     "scoring": "If they get it right, their score increases, and the difficulty ramps up, presenting a more complex pattern. If they get it wrong, they lose points, and the difficulty decreases.",
                     "multiplayer": "The game continues until the 60-second timer runs out. Up to four players can compete at the same time, and whoever has the highest score at the end earns bragging rights.",
@@ -182,8 +182,8 @@
                     "stop": "Stop"
                 },
                 "chicken": {
-                    "label": "Chicken Rescue (Chapter 1)",
-                    "intro": "Just like the Scarlet Wand, the Cerulean Cup <icon></icon> launched their own minigame on Day 7. As representatives of empathy, they designed a game that would help spread that very value: <bold>Catching Chickens</bold>.",
+                    "label": "Chicken Rescue",
+                    "intro": "Just like the Scarlet Wand, the Cerulean Cup <icon></icon> launched their own minigame on Day 7 of Chapter 1. As representatives of empathy, they designed a game that would help spread that very value: <bold>Catching Chickens</bold>.",
                     "gameplay": "As the name suggests, the goal is simple—catch chickens… but empathetically. Players are presented with a board where chickens continuously spawn from the top and slowly fall downward. The objective? Move your basket horizontally along the bottom and catch as many falling chickens as possible within the time limit.",
                     "simple": "That's it. Simple and fun.",
                     "timestampCaption": "Spreading empathy through chickens",
@@ -516,14 +516,16 @@
         "Dawg": "Dawg",
         "It's Complicated": "It's Complicated",
         "The Wolf Pack": "The Wolf Pack",
+        "Wolf Pack": "Wolf Pack",
+        "Cat": "Cat",
         "Friends": "Friends",
         "Knight": "Knight",
         "Maid": "Maid",
         "Guard Dog": "Guard Dog",
         "Bros": "Bros",
         "Same Person": "Same Person",
-        "bad": "Bad",
-        "good": "Good",
+        "bad": "Rebellion",
+        "good": "Shining Stars",
         "chef": "Chef",
         "supplier": "Supplier",
         "smith": "Smith",

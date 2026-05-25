@@ -1,11 +1,7 @@
-import chapter1Raw from "#/recaps/chapter1.json";
+import chapter2Raw from "#/recaps/chapter2.json";
 import { CHARACTER_ID_NAME_MAP_EN, CHARACTER_ID_NAME_MAP_JA } from "@/lib/misc";
 import { day1Data } from "./stats-data/day1";
-import { day2Data } from "./stats-data/day2";
-import { day3Data } from "./stats-data/day3";
-import { day4Data } from "./stats-data/day4";
-import { day5Data } from "./stats-data/day5";
-import { day6Data } from "./stats-data/day6";
+
 import type { Talent, TrackerData } from "./types";
 
 type AssignmentKey = "teamId" | "faction";
@@ -27,18 +23,8 @@ const buildCumulativeGroupsFromChapter = (
         ? chapterRaw.factions
         : [];
 
-    const orderedGroupIds =
-        assignmentKey === "teamId"
-            ? Object.keys(
-                  Object.fromEntries(
-                      Object.entries(teamsMeta).filter(
-                          ([teamId]) => teamId !== "none",
-                      ),
-                  ),
-              )
-            : factionIds;
-
     const lastKnownGroupByMember = new Map<string, string>();
+    const discoveredGroupIds = new Set<string>();
 
     for (let chartIndex = 0; chartIndex < day; chartIndex += 1) {
         const chart = charts[chartIndex];
@@ -49,8 +35,22 @@ const buildCumulativeGroupsFromChapter = (
             if (!groupId || groupId === "none") continue;
 
             lastKnownGroupByMember.set(node.id, groupId);
+            discoveredGroupIds.add(groupId);
         }
     }
+
+    const orderedGroupIds =
+        assignmentKey === "teamId"
+            ? Object.keys(
+                  Object.fromEntries(
+                      Object.entries(teamsMeta).filter(
+                          ([teamId]) => teamId !== "none",
+                      ),
+                  ),
+              )
+            : factionIds.length > 0
+              ? factionIds
+              : Array.from(discoveredGroupIds);
 
     const membersByGroup = new Map<string, string[]>();
     for (const groupId of orderedGroupIds) {
@@ -273,33 +273,8 @@ export const talentById = (id: string): Talent | undefined =>
 export const TRACKER_DATA: TrackerData = {
     1: {
         ...day1Data,
-        teams: buildTeamsFromChapter(chapter1Raw, 1),
-        factions: buildFactionsFromChapter(chapter1Raw, 1),
-    },
-    2: {
-        ...day2Data,
-        teams: buildTeamsFromChapter(chapter1Raw, 2),
-        factions: buildFactionsFromChapter(chapter1Raw, 2),
-    },
-    3: {
-        ...day3Data,
-        teams: buildTeamsFromChapter(chapter1Raw, 3),
-        factions: buildFactionsFromChapter(chapter1Raw, 3),
-    },
-    4: {
-        ...day4Data,
-        teams: buildTeamsFromChapter(chapter1Raw, 4),
-        factions: buildFactionsFromChapter(chapter1Raw, 4),
-    },
-    5: {
-        ...day5Data,
-        teams: buildTeamsFromChapter(chapter1Raw, 5),
-        factions: buildFactionsFromChapter(chapter1Raw, 5),
-    },
-    6: {
-        ...day6Data,
-        teams: buildTeamsFromChapter(chapter1Raw, 6),
-        factions: buildFactionsFromChapter(chapter1Raw, 6),
+        teams: buildTeamsFromChapter(chapter2Raw, 1),
+        factions: buildFactionsFromChapter(chapter2Raw, 1),
     },
 };
 

@@ -24,6 +24,7 @@
         "download-images": "tsx scripts/fanart/download-images.ts",
         "inject-fanart": "tsx scripts/fanart/inject-fanart.ts",
         "inject-fanart-dates": "tsx scripts/fanart/inject-fanart-dates.ts",
+        "fanart-pipeline": "tsx scripts/fanart/fanart-pipeline.ts",
         "export-glossary": "tsx scripts/export-content/export-glossary.ts",
         "export-recaps": "tsx scripts/export-content/export-recaps.ts",
         "inject-glossary": "tsx scripts/inject-content/inject-glossary.ts",

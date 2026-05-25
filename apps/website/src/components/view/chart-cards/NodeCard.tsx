@@ -135,6 +135,12 @@ const NodeCard = ({
     }
 
     const isNodeRead = getReadStatus(readStatus, chapter, day, selectedNode.id);
+    // To change label depending on chapter (eg. Team, Job, etc.)
+    const teamLabelMap: Record<string, string> = {
+        0: tNodeCard("guild"),
+        1: tNodeCard("job"),
+        2: tNodeCard("job"),
+    };
 
     return (
         <VaulDrawer
@@ -198,11 +204,7 @@ const NodeCard = ({
                     >
                         <div className="flex flex-col items-center">
                             <div className="font-semibold">
-                                {chapter === 0
-                                    ? tNodeCard("guild")
-                                    : chapter === 1
-                                      ? tNodeCard("job")
-                                      : tNodeCard("team")}
+                                {teamLabelMap[chapter] || tNodeCard("guild")}
                             </div>
                             <div>
                                 {nodeTeam?.name

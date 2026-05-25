@@ -15,3 +15,7 @@ https://www.youtube.com/watch?v=OxKP4ED-xz8
 https://www.youtube.com/watch?v=l9HKSDG50HM
 https://www.youtube.com/watch?v=NSOuyMjCxPI
 https://www.youtube.com/watch?v=Y_f17MHHHzc
+
+### Chapter 3
+
+https://www.youtube.com/watch?v=cLbDjefl2-w

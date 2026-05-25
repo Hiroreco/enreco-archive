@@ -1,11 +1,10 @@
+import { constantLieChoice } from "@/components/view/stats/stats-data/day1/constant-tl";
+import { starSpeakersChoice } from "@/components/view/stats/stats-data/day1/star-speaker";
 import type { DayData } from "../../types";
-import { BASE_CONTINUOUS } from "../base-continuous";
-import { opinionRestChoice } from "./opinion_rest";
-import { petChoice } from "./pet";
-import { pizzaChoice } from "./pizza";
+import { faustDealChoice } from "@/components/view/stats/stats-data/day1/faust-deal";
 
 export const day1Data: DayData = {
     teams: [],
-    continuous: BASE_CONTINUOUS,
-    choices: [pizzaChoice, petChoice, opinionRestChoice],
+    continuous: [],
+    choices: [starSpeakersChoice, faustDealChoice, constantLieChoice],
 };
