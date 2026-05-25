@@ -1,6 +1,5 @@
-<!-- Title: Pretty Purple Chuuni -->
-<!-- Status: Here we go again -->
-
+<!-- title: Pretty Purple Chuuni -->
+<!-- relationship: Here we go again -->
 
 Beautiful purple hair, a chunni outfit that screams "I'm edgy", and a reckless, rogue-ish attitude towards the world.
 

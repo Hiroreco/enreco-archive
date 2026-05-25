@@ -1,6 +1,5 @@
-<!-- Title: Awkward Encounters -->
-<!-- Status: Distant -->
-
+<!-- title: Awkward Encounters -->
+<!-- relationship: Distant -->
 
 One can never forget her first love. 
 

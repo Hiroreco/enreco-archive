@@ -1,6 +1,5 @@
-<!-- Title: Brothers in Dispute? -->
-<!-- Status:  Bromance-->
-
+<!-- title: Brothers in Dispute? -->
+<!-- relationship:  Bromance-->
 
 In another universe, Gonathan would have been happy to see his brother find love. To see her move on from Immerkind to a happier and healthier relationship would have been great. 
 
