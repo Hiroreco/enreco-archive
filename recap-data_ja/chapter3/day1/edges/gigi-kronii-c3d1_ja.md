@@ -67,7 +67,7 @@
 
 ["queen?" by albertweskerh](https://x.com/albertweskerh/status/2059128627397263374)
 
-["my queen..." by _nontann](https://x.com/_nontann/status/2059060131103662382?s=20)
+["my queen..." by \_nontann](https://x.com/_nontann/status/2059060131103662382)
 
 ["Oh..." by werocosmiko](https://x.com/werocosmiko/status/2058800535583522856)
 

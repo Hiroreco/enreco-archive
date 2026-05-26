@@ -199,7 +199,7 @@ async function addFanartToRecap(
     const sectionHeading = type === "meme" ? "## Memes" : "## Fanart";
 
     // Build the new entry
-    let newEntry = `\n\n["${title}" by ${author}](${link})`;
+    let newEntry = `\n["${title}" by ${author}](${link})`;
     if (characters.length > 0) {
         const characterList = characters.join(", ");
         newEntry += `\n\n<!-- ${characterList} -->`;

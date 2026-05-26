@@ -21,4 +21,4 @@ After explaining the state of the world, Nix guided the heroes on what they need
 
 ## Fanart
 
-["Nix" by eule_winters](https://x.com/eule_winters/status/2058821626196828261?s=20)
+["Nix" by eule_winters](https://x.com/eule_winters/status/2058821626196828261)

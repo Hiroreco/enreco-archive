@@ -11,7 +11,7 @@ Friendship blossomed through battle, and soon enough, Shiori invited [Immerkind 
 
 ## Fanart
 
-["big fan of whatever's happening with these three this season" by ikana0777](https://x.com/ikana0777/status/2059027241909330302?s=20)
+["big fan of whatever's happening with these three this season" by ikana0777](https://x.com/ikana0777/status/2059027241909330302)
 
 ["Roomates" by alexuyoot](https://x.com/alexuyoot/status/2058861156824174941)
 

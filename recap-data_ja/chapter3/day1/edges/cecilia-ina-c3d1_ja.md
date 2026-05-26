@@ -19,6 +19,6 @@
 
 ## ファンアート
 
-["Late Night River Fishing" by johnneytoast](https://x.com/johnneytoast/status/2059045123384614998?s=20)
+["Late Night River Fishing" by johnneytoast](https://x.com/johnneytoast/status/2059045123384614998)
 
 ["The River prince is real!" by chalek0](https://x.com/chalek0/status/2058810274400899438)

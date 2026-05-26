@@ -53,9 +53,9 @@ She would avenge her wife.
 
 ## Fanart
 
-["Lets try again" by gaby_joestar](https://x.com/gaby_joestar/status/2059100327647801566?s=20)
+["Lets try again" by gaby_joestar](https://x.com/gaby_joestar/status/2059100327647801566)
 
-["Drowning" by keenbiscuit](https://x.com/keenbiscuit/status/2059040156766839196?s=20)
+["Drowning" by keenbiscuit](https://x.com/keenbiscuit/status/2059040156766839196)
 
 <!-- calli, bijou, shiori -->
 

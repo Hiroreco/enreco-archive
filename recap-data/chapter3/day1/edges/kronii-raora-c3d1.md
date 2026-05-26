@@ -43,6 +43,6 @@ After all, Roa was the one who stayed behind to see Tam off at the very end of t
 
 ## Fanart
 
-["Uno Reverse by Tam Gandr" by ichiyaichimaru](https://x.com/ichiyaichimaru/status/2059081827844076018?s=20)
+["Uno Reverse by Tam Gandr" by ichiyaichimaru](https://x.com/ichiyaichimaru/status/2059081827844076018)
 
 ["Bad Memories" by keenbiscuit](https://x.com/keenbiscuit/status/2058866704692936794)
