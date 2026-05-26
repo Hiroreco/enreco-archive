@@ -15,7 +15,7 @@ She would run into the hero NinoIna and the knight Immerkind before long, helpin
 
 [_The bearer of marvelous news_](#embed:https://www.youtube.com/watch?v=VXqngzJKNZU&t=3626s)
 
-The pet unboxing brought great joy to the three. Mordon went first, obtaining his very own sheep that she aptly named... Sauce! And from then on, between NinoIna's SIR MEOW and Immerkind's Moohternal, the kingdom was feeling more lively already. They were so cute!! Mordon couldn't help herself-- she wanted to get another one, something like a fox or a kitten would be nice. Is that a chicken?
+The pet unboxing brought great joy to the three. Mordon went first, obtaining her very own sheep that she aptly named... Sauce! And from then on, between NinoIna's SIR MEOW and Immerkind's Moohternal, the kingdom was feeling more lively already. They were so cute!! Mordon couldn't help herself-- she wanted to get another one, something like a fox or a kitten would be nice. Is that a chicken?
 
 She [named her second new friend "Shakira"](https://www.youtube.com/watch?v=VXqngzJKNZU&t=4546) in her friend's honor. Surely it wasn't too soon, right?
 
