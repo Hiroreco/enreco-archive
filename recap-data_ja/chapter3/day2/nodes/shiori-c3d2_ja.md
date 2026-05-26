@@ -92,6 +92,7 @@ _インクウェル教会。_
 その日の成果に満足した優しきシスターは、ようやく静かに眠りへ就くのだった。
 
 ## ファンアート
+
 ["Pixel Shiori" by okunashi27](https://x.com/okunashi27/status/2059224755480494511)
 
 ["Praying for your sins" by koemi_54](https://x.com/koemi_54/status/2059185732686643230)

@@ -73,4 +73,5 @@
 ああ――“魔女”になるというのは、なんと甘美なのだろう。
 
 ## ファンアート
+
 ["The Hermit" by thekaiyip](https://x.com/thekaiyip/status/2059075890387341540)

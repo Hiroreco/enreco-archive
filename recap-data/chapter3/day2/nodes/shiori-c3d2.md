@@ -19,7 +19,7 @@ Then, together, they entered the [Labyrinth of Knowledge.](https://www.youtube.c
 
 And as expected, it was suffering from beginning to end.
 
-There were endless parkour sections where a single mistake meant plummeting to one's doom, [puzzles](https://www.youtube.com/live/vRVwJrdNzGk?si=pVP708ZC89du7dY7&t=6456) that collectively consumed at least half of everyone's remaining sanity, and enough confusion to mentally exhaust both the people solving them *and* the people merely watching. Despite being called the "Labyrinth of Knowledge," the heroes gained very little actual wisdom from the experience. If anything, the dungeon served more as a brutal combination of physical cardio and psychological warfare.
+There were endless parkour sections where a single mistake meant plummeting to one's doom, [puzzles](https://www.youtube.com/live/vRVwJrdNzGk?si=pVP708ZC89du7dY7&t=6456) that collectively consumed at least half of everyone's remaining sanity, and enough confusion to mentally exhaust both the people solving them _and_ the people merely watching. Despite being called the "Labyrinth of Knowledge," the heroes gained very little actual wisdom from the experience. If anything, the dungeon served more as a brutal combination of physical cardio and psychological warfare.
 
 Still, they eventually managed to push through. After enduring what essentially felt like a seven-minute-long magical memory projection, they finally recovered fragments of their lost pasts.
 
@@ -37,7 +37,7 @@ Yet while trapped within her cell, Shiori came to a realization.
 
 The bookmarks may have been confiscated, but the stories themselves had already become part of her. Every memory, every piece of knowledge, every forbidden truth remained engraved within her mind. And for someone who possessed knowledge that dangerous, no prison bars in existence could truly contain her forever.
 
-Though, not *every* memory was kept, as Shiori herself knew *some* had been lost.
+Though, not _every_ memory was kept, as Shiori herself knew _some_ had been lost.
 
 [Ironic, isn't it](#embed:https://www.youtube.com/live/vRVwJrdNzGk?si=IWu2itGrXQoM2u6w&t=7960)
 
@@ -49,23 +49,23 @@ She had never really been the type to boast about herself, let alone dwell on he
 
 With the day's major task finally completed, most people gradually began heading off to rest. Shiori, however, stayed awake far longer than the others to work on something she had already planned since the previous day: the construction of a church.
 
-*The Church of Inkwell.*
+_The Church of Inkwell._
 
-She *was* a sister, after all, and a sister needed a place where people could gather, seek comfort, and receive help from others. It suited the kind-hearted archivist perfectly.
+She _was_ a sister, after all, and a sister needed a place where people could gather, seek comfort, and receive help from others. It suited the kind-hearted archivist perfectly.
 
-Well... the *idea* of the church was noble, at least.
+Well... the _idea_ of the church was noble, at least.
 
 Actually building it, however, required materials.
 
 And materials required money.
 
-And since the church was *for the people*, it only made sense that the people should help pay for it, right?
+And since the church was _for the people_, it only made sense that the people should help pay for it, right?
 
 [Like one of those salespeople](#embed:https://www.youtube.com/live/vRVwJrdNzGk?si=fdAQqtgJrhOh9mz9&t=14012)
 
 The whole scheme sounded suspiciously similar to a certain capitalistic green woman from a previous story who used lottery profits to fund a library, but Shiori had her own method: ~~forcing~~ generously encouraging people to purchase her personally written daily news entries.
 
-And she sold them to *everyone.*
+And she sold them to _everyone._
 
 [Tam,](https://www.youtube.com/live/vRVwJrdNzGk?si=VFxpXmJ5w_EsjOYl&t=14417) [Roa,](https://www.youtube.com/live/vRVwJrdNzGk?si=PHBAhYJuWWuE7VIn&t=14644) basically anyone unfortunate enough to wander within her vicinity became a potential customer. Naturally, all of them purchased her freshly written journals with expressions that were definitely not hesitant or mildly concerned whatsoever.
 
@@ -78,6 +78,7 @@ The Church of Inkwell was coming together nicely.
 Satisfied with the day's progress, the kindred sister finally called it a night.
 
 ## Fanart
+
 ["Pixel Shiori" by okunashi27](https://x.com/okunashi27/status/2059224755480494511)
 
 ["Praying for your sins" by koemi_54](https://x.com/koemi_54/status/2059185732686643230)

@@ -20,6 +20,7 @@
 果たして二人は、この壊れてしまった関係を修復できるのだろうか。
 
 ## ファンアート
+
 ["Silent treatment" by robomb1192](https://x.com/robomb1192/status/2059282555783061781)
 
 <!-- nerissa -->

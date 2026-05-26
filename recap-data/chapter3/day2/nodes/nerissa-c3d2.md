@@ -67,4 +67,5 @@ Everything worked according to the Witch's plan. Financially speaking, she reach
 Oh, how pleasing it was to become a witch!
 
 ## Fanart
+
 ["The Hermit" by thekaiyip](https://x.com/thekaiyip/status/2059075890387341540)

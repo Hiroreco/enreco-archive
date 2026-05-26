@@ -51,4 +51,5 @@
 一日の終わり、イマーキンドは[フィアへ別れを告げ](https://www.youtube.com/watch?v=mARNiVZCRbw&t=17210)、再び静かに日記へ向かうのだった。
 
 ## ファンアート
-["I love this Knight so much..." by appletomo_](https://x.com/appletomo_/status/2059161978942140699)
+
+["I love this Knight so much..." by appletomo\_](https://x.com/appletomo_/status/2059161978942140699)

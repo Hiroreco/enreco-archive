@@ -44,6 +44,7 @@
 何もかも出遅れてしまった一日ではあったが――それでも、“青き乙女”にとっては悪くない日だったようだ。
 
 ## ファンアート
+
 ["A Queen Defeated by Love" by yaymics](https://x.com/yaymics/status/2059190927319539968)
 
 ["who are you?" by koizumi_arata](https://x.com/koizumi_arata/status/2059069809602465854)

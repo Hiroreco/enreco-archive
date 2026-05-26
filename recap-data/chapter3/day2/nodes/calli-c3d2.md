@@ -28,6 +28,7 @@ But before long, it was time to tackle the first dungeon Terminus had to offer. 
 With all that said and done, while her party went forward to more adventures, Mordon was content to call it a night after a small talk with Faust about her next objective [(and a missed advertising opportunity)](https://www.youtube.com/watch?v=VXqngzJKNZU&t=13612). There was still a long way to go before she could redeem the name of Mordon Ramsay... but she was determined to see it through. Nothing was going to stop her from making some DAMN good food.
 
 ## Fanart
+
 ["mordan and gourmet potato salad" by toasty771](https://x.com/toasty771/status/2059138043001639373)
 
 ["Shakira's body" by seapupu290495](https://x.com/seapupu290495/status/2059279544922911168)

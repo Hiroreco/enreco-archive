@@ -101,6 +101,7 @@
 何があろうと、最高に美味い料理を作り続けるために。
 
 ## ファンアート
+
 ["mordan and gourmet potato salad" by toasty771](https://x.com/toasty771/status/2059138043001639373)
 
 ["Shakira's body" by seapupu290495](https://x.com/seapupu290495/status/2059279544922911168)

@@ -51,6 +51,7 @@ Now more [prepared for the days to come](https://youtu.be/t0aLqfBeqK0?t=9626), B
 Coin Count: 3526. Another day, another bunch of gold for Bae to earn.
 
 ## Fanart
+
 ["Polar The Bear" by chibikoshi](https://x.com/chibikoshi/status/2059124871821766996)
 
 <!-- raora -->

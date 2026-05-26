@@ -34,6 +34,7 @@
 [謙虚なる騎士の日誌](#embed:https://www.youtube.com/watch?v=J8CAzdF1qb4&t=11915)
 
 ## ファンアート
+
 ["Gonathon and Geep" by sethhhlhhh](https://x.com/sethhhlhhh/status/2059278746423804396)
 
 ["Melancholy of a queen's knight" by snoweagle110](https://x.com/snoweagle110/status/2059196894451314882)

@@ -46,4 +46,5 @@ Later that day, Immerkind [assists Shiori with building a farm](https://www.yout
 At the end of the day, Immerkind [bids farewell to Fia](https://www.youtube.com/watch?v=mARNiVZCRbw&t=17210) before quietly returning to her journal once again.
 
 ## Fanart
-["I love this Knight so much..." by appletomo_](https://x.com/appletomo_/status/2059161978942140699)
+
+["I love this Knight so much..." by appletomo\_](https://x.com/appletomo_/status/2059161978942140699)

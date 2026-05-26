@@ -26,6 +26,7 @@ Once everything was finally done, Tam ended her long day by writing in her [jour
 As late as she had been to everything, The Azure Maiden still had a pretty good day nonetheless.
 
 ## Fanart
+
 ["A Queen Defeated by Love" by yaymics](https://x.com/yaymics/status/2059190927319539968)
 
 ["who are you?" by koizumi_arata](https://x.com/koizumi_arata/status/2059069809602465854)

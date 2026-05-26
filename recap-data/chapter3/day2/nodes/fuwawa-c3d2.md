@@ -13,11 +13,11 @@ What could only be described as... true fear.
 
 [DON'T SCARE ME!](#embed:https://www.youtube.com/watch?v=jdWk5-BLjCw&t=3286s)
 
-Rawr! The only predator known to hunt men, its bulky, chunky, *terrifying* frame nearly doubled the girl in size. Its teeth looked razor sharp, its claws absurdly long, and there was absolutely no way she was getting anywhere near it. The fluffy one screamed, cried, and ran for her life while the beast relentlessly chased her down, refusing to let her escape.
+Rawr! The only predator known to hunt men, its bulky, chunky, _terrifying_ frame nearly doubled the girl in size. Its teeth looked razor sharp, its claws absurdly long, and there was absolutely no way she was getting anywhere near it. The fluffy one screamed, cried, and ran for her life while the beast relentlessly chased her down, refusing to let her escape.
 
 ...
 
-Okay, maybe that was *slightly* overdramatic, but at the start of the third day, Fuwawa and the others opened a special "gacha" present to receive their very own little companion. Well... *some* got little companions. As much as Fuwawa had wished for a cute little chicken, something everyone already knew she absolutely adored, she instead received the largest counterpart imaginable. White fur and all, who in their right mind thought a *POLAR BEAR* would make a [good pet?](https://www.youtube.com/watch?v=jdWk5-BLjCw&t=3450s)
+Okay, maybe that was _slightly_ overdramatic, but at the start of the third day, Fuwawa and the others opened a special "gacha" present to receive their very own little companion. Well... _some_ got little companions. As much as Fuwawa had wished for a cute little chicken, something everyone already knew she absolutely adored, she instead received the largest counterpart imaginable. White fur and all, who in their right mind thought a _POLAR BEAR_ would make a [good pet?](https://www.youtube.com/watch?v=jdWk5-BLjCw&t=3450s)
 
 Still, whether she liked it or not, she was basically obligated to take care of him now.
 
@@ -30,4 +30,5 @@ Once the dungeon was cleared, the fluffy one continued her day with even more qu
 With little else left to accomplish, and being the good doggo that she was, the fluffy one stayed behind to help those who still hadn't completed the day's dungeon before finally calling it a day herself.
 
 ## Fanart
+
 ["don't scare me" by fukuinu_daddy](https://x.com/fukuinu_daddy/status/2059277450664894635)

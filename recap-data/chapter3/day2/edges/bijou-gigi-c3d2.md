@@ -12,6 +12,7 @@ Gonathon for his part had remained adamant that Bijou still had good inside of h
 Only time will tell if the two can mend their fractured relationship.
 
 ## Fanart
+
 ["Silent treatment" by robomb1192](https://x.com/robomb1192/status/2059282555783061781)
 
 <!-- nerissa -->

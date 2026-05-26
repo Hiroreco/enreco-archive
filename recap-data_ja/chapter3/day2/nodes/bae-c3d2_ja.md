@@ -112,6 +112,7 @@
 また新たな一日、また新たなゴールド稼ぎの日々が始まる。
 
 ## ファンアート
+
 ["Polar The Bear" by chibikoshi](https://x.com/chibikoshi/status/2059124871821766996)
 
 <!-- raora -->
