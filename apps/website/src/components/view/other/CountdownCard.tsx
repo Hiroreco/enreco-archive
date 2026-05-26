@@ -8,7 +8,7 @@ import { useEffect, useRef, useState } from "react";
 
 // --- IMPORTANT ---
 // Change this value for each new countdown to trigger the animation for users again.
-const CURRENT_DAY = 1;
+const CURRENT_DAY = 2;
 const CURRENT_COUNTDOWN_VERSION = `c3d${CURRENT_DAY}`;
 
 // REMEMBER TO SET THIS TO FALSE AFTER THE UPDATE IS UP AND VICE VERSA
