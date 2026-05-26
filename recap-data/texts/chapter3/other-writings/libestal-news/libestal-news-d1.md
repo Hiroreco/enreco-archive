@@ -1,4 +1,4 @@
-<!-- title: Libestal News: Day 2 -->
+<!-- title: Libestal News: Day 1 -->
 
 **NEWS ALERT**
 
