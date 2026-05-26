@@ -3,16 +3,14 @@
 
 Another day, another chance to catch the elusive River Prince. But so focused was The Peasant on her quests the day before that, to her shock, she missed [Shakira's death!](https://youtu.be/t0aLqfBeqK0?t=372) And that Mordon Ramsay was the perpetrator. And not Bae herself since she was fishing the day away.
 
-So once again, Bae bought more lucky fishing bait before heading back to base to complete the quest. As a proud peasant, Bae didn't mind donating the money needed as well as the ores. 
+So once again, Bae bought more lucky fishing bait before heading back to base to complete the quest. As a proud peasant, Bae didn't mind donating the money needed as well as the ores.
 
 All that is left was the River Prince fish from Sidero. There, Mordon Ramsay was in the fields.
 "What happened to Shakira?" Bae asked. No, that was Mordon's pet.
 
+Then, Immerkind.
 
-Then, Immerkind. 
-
-The Knight was fighting stains and Bae, despite their painful history, covered the Knight's back, shielding her from another [stain's attack.](https://youtu.be/t0aLqfBeqK0?t=970) 
-
+The Knight was fighting stains and Bae, despite their painful history, covered the Knight's back, shielding her from another [stain's attack.](https://youtu.be/t0aLqfBeqK0?t=970)
 
 Matters of the heart aside, a quest still bothered Bae. To her utter horror, she found that some of the quests for the guild were indeed group quests, contributions shared between each member, and Bae may have unknowingly messed things up! As compensation, Bae would give Mococo 500 gold as recompense for the troubles she caused...
 
@@ -48,9 +46,6 @@ With heart beating loudly in her chest, Bae greeted her back. (See: [Bae-Cecilia
 
 With A not-quite-date set up between the two, Bae departed, talking to Shiori briefly about [her memory.](https://youtu.be/t0aLqfBeqK0?t=9367)
 
-
 Now more [prepared for the days to come](https://youtu.be/t0aLqfBeqK0?t=9626), Bae The Peasant headed off, writing in her journal as she looked on a hopeful future with Polar The Bear by her side.
-
-
 
 Coin Count: 3526. Another day, another bunch of gold for Bae to earn.

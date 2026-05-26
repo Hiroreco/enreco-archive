@@ -84,4 +84,5 @@
 どんな姿になっても、結局のところ彼女は、いつだって“フワワ”のままだった。
 
 ## ファンアート
+
 ["Horrible Horse" by soupppyyy](https://x.com/soupppyyy/status/2058768296451698770)

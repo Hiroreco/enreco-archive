@@ -1,5 +1,5 @@
 <!-- title: A Line Drawn in the Sand -->
-<!-- relationship: Enemies -->
+<!-- relationship: Enemy -->
 
 Thus far the opposing factions of Libestal had failed to cause any serious discord among the adventurers who had come to inhabit it. But if there was any clearer example of the potential for such differences in opinion to drive a wedge between former allies it was the case of Bijou and Gonathon. For while the two had enjoyed a fairly cordial relationship during their previous adventures, the two now stood opposed to one another.
 

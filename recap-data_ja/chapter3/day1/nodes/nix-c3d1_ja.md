@@ -31,4 +31,5 @@
 それは、彼女たちの新たな旅路が本当の意味で始まる、その第一歩となるのだった。
 
 ## ファンアート
+
 ["Nix" by eule_winters](https://x.com/eule_winters/status/2058821626196828261?s=20)

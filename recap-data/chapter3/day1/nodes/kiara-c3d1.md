@@ -19,4 +19,5 @@ And so, Shakira plunged into the fountain water below.
 [Tanakisha Karia of the Oranges was DEAD.](#embed:https://www.youtube.com/watch?v=u0Tu7_vfmQo&t=6294s)
 
 ## Fanart
+
 ["Oh, mori, when you cook like that you make a wawa go dead" by ogumashiro](https://x.com/ogumashiro/status/2059019424930132298)

@@ -1,5 +1,5 @@
-<!--Title: Nerissa Juliet-->
-<!--Status: Alive-->
+<!-- title: Nerissa Juliet-->
+<!-- status: Alive-->
 
 **Double, Double Toil and Trouble**
 
@@ -43,7 +43,7 @@ And where they met the Prisoner of Knowledge.
 
 The Prisoner dared them to follow. Unrelenting, the heroes did and overcame each hurdle they came across—the bouncy trampoline puzzle, the crystal puzzle, the sliding knight puzzle, and then the boss fight. And another boss fight. And another, and... another? Everything seemed like a broken record, as if they were trapped in a time loop.
 
-[Wow, what a nice view.](https://youtu.be/JixD1DhcNgc?t=9270)
+[Wow, what a nice view.](#embed:https://youtu.be/JixD1DhcNgc?t=9270)
 
 When would it ever end? By chanting "Revelation" of course (in the flashback).
 

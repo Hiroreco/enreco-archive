@@ -22,6 +22,7 @@ With others around her settling down for the night, Libestal's little witch deci
 And if she didn't, she could make her own! She was still both the only Jeweler _and_ Real Estate Agent in the kingdom, after all.
 
 ## Fanart
+
 ["Bau Bau" by fukuinu_daddy](https://x.com/fukuinu_daddy/status/2058922197264294016)
 
 <!-- fuwawa -->

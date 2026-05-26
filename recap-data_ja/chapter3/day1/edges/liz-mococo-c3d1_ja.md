@@ -28,4 +28,5 @@
 ["……私たちにはお互いがいる。私はずっとあなたを守るわ。"](#embed:https://www.youtube.com/watch?v=2rnclFeQ5EM&t=1826s)
 
 ## ファンアート
+
 ["Oath." by i](https://x.com/i/status/2059008438978457704)

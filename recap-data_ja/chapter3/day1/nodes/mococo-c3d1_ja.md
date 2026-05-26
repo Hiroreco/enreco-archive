@@ -50,6 +50,7 @@
 なにせ彼女は、この王国唯一のジュエラーであり、そして不動産王なのだから。
 
 ## ファンアート
+
 ["Bau Bau" by fukuinu_daddy](https://x.com/fukuinu_daddy/status/2058922197264294016)
 
 <!-- fuwawa -->

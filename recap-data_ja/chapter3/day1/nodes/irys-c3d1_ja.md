@@ -127,4 +127,5 @@
 とはいえ――やはり十分すぎるほど狂った一日だったのだが。
 
 ## ファンアート
+
 ["Hot Pink One!" by bebeko_z](https://x.com/bebeko_z/status/2058918410294296703)

@@ -46,4 +46,5 @@ Well... what can you do. The death of the phoenix did linger in the pink one's m
 Finally, after a long chaotic day, she decided to call it a day much earlier than the others, but still, a crazy day nonetheless.
 
 ## Fanart
+
 ["Hot Pink One!" by bebeko_z](https://x.com/bebeko_z/status/2058918410294296703)
