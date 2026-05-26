@@ -1,6 +1,6 @@
-<!-- title: The Shining Stars and The Rebellions -->
+<!-- title: The Shining Stars and The Rebellion -->
 
-## Day 1: The Shining Stars and The Rebellions
+## Day 1: The Shining Stars and The Rebellion
 
 We’ve been to a fabricated Libestal, journeyed through the ancient real Libestal, and even managed to save that ancient kingdom, though the ending was far from kind to the people involved. Still, the kingdom was technically saved nonetheless. So what would that kingdom look like now, after returning to the present? That is the setting for this third enigmatic journey.
 
