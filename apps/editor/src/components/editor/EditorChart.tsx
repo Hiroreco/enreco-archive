@@ -26,6 +26,7 @@ import {
     EditorImageNodeType,
 } from "@enreco-archive/common/types";
 import { MouseEventHandler, useCallback } from "react";
+import { useEditorStore } from "@/store/editorStore";
 
 const nodeTypes = {
     editorImage: EditorImageNode,
@@ -63,6 +64,8 @@ export default function EditorChart({
     onEdgeClick,
 }: EditorChartProps) {
     const { screenToFlowPosition } = useReactFlow();
+
+    const currentDay = useEditorStore(s => s.day);
 
     const addNode = useCallback(
         (x: number, y: number) => {
@@ -115,7 +118,7 @@ export default function EditorChart({
                     relationshipId: "",
                     title: "",
                     content: "",
-                    day: 0,
+                    day: currentDay ? currentDay : 0,
                     pathType: pathType,
                     offsets:
                         pathType === "custom"
