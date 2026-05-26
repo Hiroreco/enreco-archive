@@ -80,7 +80,7 @@ const buildCumulativeGroupsFromChapter = (
                     groupId !== "none"
                         ? groupId === "bad"
                             ? "/images-opt/faction-rebellion.svg"
-                            : "/images-opt/faction-shining-stars.svg"
+                            : "/images-opt/faction-shining-star.svg"
                         : undefined,
                 members: membersByGroup.get(groupId) || [],
             };
