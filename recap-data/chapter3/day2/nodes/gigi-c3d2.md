@@ -7,7 +7,7 @@ However as the two would soon discover, the day had other plans in store for the
 
 Doing his rounds throughout the kingdom, Gonathon bumped into many familiar faces. While most, such as [NinoIna](https://www.youtube.com/watch?v=J8CAzdF1qb4&t=490), were friendly, one in particular bore a great deal of animosity towards him. Bijou, firmly in the clutches of Nix's honeyed words, spared Gonathon a few moments to hurl bile before trotting off in a huff, the diminutive princess' antipathy towards the knight seeming to only deepen by the day (see [Bijou-Gonathon](#edge:bijou-gigi)).
 
-Gonathon himself had little tie to ponder her strange behavior, as he committed himself to upgrading his weapon. Following [a long-winded conversation](https://www.youtube.com/watch?v=J8CAzdF1qb4&t=1121) with Nerissa about the specifics of the fabled Game of Thrones, Gonathon encountered Shiori who had seemingly not given up on entangling the reluctant knight in her schemes (see [Gonathon-Shiori](#edge:gigi-shiori)).
+Gonathon himself had little time to ponder her strange behavior, as he committed himself to upgrading his weapon. Following [a long-winded conversation](https://www.youtube.com/watch?v=J8CAzdF1qb4&t=1121) with Nerissa about the specifics of the fabled Game of Thrones, Gonathon encountered Shiori who had seemingly not given up on entangling the reluctant knight in her schemes (see [Gonathon-Shiori](#edge:gigi-shiori)).
 
 [It's okay, I can wait for you!](#embed:https://www.youtube.com/watch?v=J8CAzdF1qb4&t=1646)
 

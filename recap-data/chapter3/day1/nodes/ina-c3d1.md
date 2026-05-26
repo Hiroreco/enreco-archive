@@ -17,7 +17,7 @@ With her mind promptly made up, Ina chose the path of the supplier and began her
 
 After the lengthy process of obtaining an iron pickaxe, Ina set her sights on the castle that housed those whom Nix called the "star speakers". These four folk were intrigued by Ina's story and attire, claiming that the monacre of the 'warrior of the stars' had not been heard of in a _thousand years_, and dubbing Ninom- I mean, NinoIna, a ["starborn"](https://www.youtube.com/watch?v=cLbDjefl2-w&t=5796s), tasked her with investigating a rift by the fountain.
 
-Despite the title, status, and quest, NinoIna seemed to be leading towards a peaceful life this time around. One devoid of gachas and drama alike. One where she could breeze through the day without much more than the thought of worry; the other heroes, unfortunately, [didn't get the memo.](www.youtube.com/watch?v=cLbDjefl2-w&t=6335s)
+Despite the title, status, and quest, NinoIna seemed to be leading towards a peaceful life this time around. One devoid of gachas and drama alike. One where she could breeze through the day without much more than the thought of worry; the other heroes, unfortunately, [didn't get the memo.](https://www.youtube.com/watch?v=cLbDjefl2-w&t=6335s)
 
 Nevertheless, Ina found her way through the day’s trials and ended up at a door that... wouldn't open.
 
