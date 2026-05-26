@@ -34,3 +34,9 @@ Following this latest trial, the two met up again near Star Speaker Hamal, who g
 In one final trial for the day, Immerkind admitted to having lied to accomplish Hamal's task, something which Gonathon [could not stomach](https://www.youtube.com/watch?v=J8CAzdF1qb4&t=11642). Through a slight of hand, Gonathon had Hamal ["forgive"](https://www.youtube.com/watch?v=J8CAzdF1qb4&t=11727) Immerkind, and with one last exchange of pleasantries, the two departed for the day. While the future likely holds numerous hardships for the two of them, one thing was made clear: they could always count on one another.
 
 [I could never have done it without you...](#embed:https://www.youtube.com/watch?v=J8CAzdF1qb4&t=11805)
+
+## Fanart
+
+["Gonathon" by tem_z0](https://x.com/tem_z0/status/2059248896984199561)
+
+<!-- shiori, kronii, ina -->

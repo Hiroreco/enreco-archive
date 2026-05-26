@@ -37,6 +37,10 @@ May the Mighty Phoenix above guide her...
 
 ## Fanart
 
+["Then" by the_inuhoshi](https://x.com/the_inuhoshi/status/2059038197053595896)
+
+<!-- mococo -->
+
 ["raised in a barn" by amiisaea](https://x.com/amiisaea/status/2059263012008260037)
 
 ["love for potato salad" by rikolyco_pene](https://x.com/rikolyco_pene/status/2059268510904381524)

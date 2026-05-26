@@ -107,3 +107,9 @@
 二人はいつだって、互いを頼ることができるのだ。
 
 [あなたがいなければ、きっと無理だった……](#embed:https://www.youtube.com/watch?v=J8CAzdF1qb4&t=11805)
+
+## ファンアート
+
+["Gonathon" by tem_z0](https://x.com/tem_z0/status/2059248896984199561)
+
+<!-- shiori, kronii, ina -->
