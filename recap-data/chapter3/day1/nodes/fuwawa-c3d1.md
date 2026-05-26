@@ -50,3 +50,6 @@ A shared [roof,](https://www.youtube.com/watch?v=YY5EJ_TX-iM&t=12736) kindly off
 And so, after a day that swung wildly between rebellion, confusion, terror, and fluffy calmness, Fuwawa finally called it a night.
 
 From the intimidating rebel seen at the end of the previous chapter, to the soft and comforting fluffy girl everyone knew so well, she remained unmistakably herself in the end.
+
+## Fanart
+["Horrible Horse" by soupppyyy](https://x.com/soupppyyy/status/2058768296451698770)

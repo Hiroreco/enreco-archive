@@ -73,6 +73,8 @@
 
 ## ファンアート
 
+["A Witch Born in Flame" by yaymics](https://x.com/yaymics/status/2058861249048268810)
+
 ["is this The Witch of ENreco's Past in question" by i](https://x.com/i/status/2058813041404457219)
 
 ["Nerissa’s Ending Screen" by i](https://x.com/i/status/2058763525506646067)

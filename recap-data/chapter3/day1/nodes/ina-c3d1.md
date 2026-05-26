@@ -37,4 +37,6 @@ It was a challenge, and after many sleepless nights and _forty_ whole minutes of
 
 ## Fanart
 
+["Chilling, fishing, ENreco back!" by arciarcy](https://x.com/arciarcy/status/2058998196836422078)
+
 ["the River Prince is what?" by fluumf](https://x.com/fluumf/status/2058858304902980051)

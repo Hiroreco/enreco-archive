@@ -20,3 +20,6 @@ And Roa returned that devotion in her own way. Aside from emotionally _appealing
 Which was... probably a good thing, yeah?
 
 [Maybe the most goated duo?](#embed:https://www.youtube.com/watch?v=M1lDsivuVb8&t=8070)
+
+## Fanart
+["The Return of the HPO" by pxadon](https://x.com/pxadon/status/2058791195531489435)

@@ -18,3 +18,6 @@ According to her, the kingdom’s rulers, the Star Speakers, had begun relentles
 To Fia, the description sounded like the Outsider.
 
 After explaining the state of the world, Nix guided the heroes on what they needed to do next, setting them upon the path that would mark the true beginning of their new journey.
+
+## Fanart
+["Nix" by eule_winters](https://x.com/eule_winters/status/2058821626196828261?s=20)
