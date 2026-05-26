@@ -1,9 +1,16 @@
 [
   {
+    "date": "2026-05-26",
+    "content": {
+      "en": "## Chapter 3 Day 2\n\n_May 26, 2026_\n\n### Update\n\n- **Content:** Added clips, fan art, and summaries for Chapter 3, Day 2.\n- **Music:** Added 4 new audio tracks used in Chapter 3.\n",
+      "ja": ""
+    }
+  },
+  {
     "date": "2026-05-25",
     "content": {
-      "en": "## Chapter 3 Day 1\r\n\r\n_May 25, 2026_\r\n\r\n### Update\r\n\r\n- **Content:** Clips, fan art, and summaries for Chapter 3, Day 1 have been added!\r\n\r\n### Feature\r\n\r\n- **Choice Tracking (Stats):** Chapter 3 introduces a dynamic new system where heroes face pivotal, day-by-day decisions. You can now track all of their choices in real-time via the Stats Modal.\r\n",
-      "ja": "## 第3章 1日目\r\n\r\n_2026年5月25日_\r\n\r\n## アップデート\r\n\r\n- **コンテンツ：** 第3章・1日目の切り抜き動画、ファンアート、および要約を追加しました！\r\n\r\n## 新機能\r\n\r\n- **選択の記録（ステータス）：** 第3章から、ヒーローたちが日々重大な決断を迫られる新システムが導入されます。彼らが選んだ苦渋の決断や軌跡は、すべてステータスモーダルから確認できます。\r\n"
+      "en": "",
+      "ja": "## 第3章 1日目\n\n_2026年5月25日_\n\n## アップデート\n\n- **コンテンツ：** 第3章・1日目の切り抜き動画、ファンアート、および要約を追加しました！\n\n## 新機能\n\n- **選択の記録（ステータス）：** 第3章から、ヒーローたちが日々重大な決断を迫られる新システムが導入されます。彼らが選んだ苦渋の決断や軌跡は、すべてステータスモーダルから確認できます。\n"
     }
   }
 ]
