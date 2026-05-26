@@ -5,7 +5,7 @@ import puppeteer from "puppeteer";
 import { exec } from "child_process";
 import { promisify } from "util";
 
-const SKIP_VIDEOS = true;
+const SKIP_VIDEOS = false;
 
 const execAsync = promisify(exec);
 

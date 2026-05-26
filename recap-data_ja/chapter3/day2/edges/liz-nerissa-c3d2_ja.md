@@ -74,6 +74,7 @@ _いや、これは今はまだチェストの中にしまっておこう。_
 もしかすると――魔女になったのは、[正しい選択](https://youtu.be/JixD1DhcNgc?t=14082)だったのかもしれない。
 
 ## ファンアート
+
 ["defintely not brainwashed" by arionwatches](https://x.com/arionwatches/status/2059149876219543732)
 
-["cant forget the way you tatste" by elisbian_](https://x.com/elisbian_/status/2043606158884393278)
+["cant forget the way you tatste" by elisbian\_](https://x.com/elisbian_/status/2043606158884393278)

@@ -1,5 +1,5 @@
 <!-- title: Just Allies -->
-<!-- relationship: Friends-->
+<!-- relationship: Friends -->
 
 The past two days have not been too kind to Mordon Ramsay. Be it the loss of a dear friend or the subsequent smear campaign against her, it was hard for the chef to catch a break. Although there seemed to always be one person whom she could rely on. Was it because she was absent for most, if not all, drama? Perhaps... But Mordon didn't care.
 

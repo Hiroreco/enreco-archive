@@ -7,10 +7,6 @@ cecilia-3d2
 Immerkinds most trusted ally!
 https://x.com/AlexuYoot/status/2059232005230125091
 
-ina-c3d2
-river prince is REAL!!
-https://x.com/shutowl/status/2059188328856211612
-
 liz-mococo-c3d2
 Then
 https://x.com/The_InuHoshi/status/2059038197053595896

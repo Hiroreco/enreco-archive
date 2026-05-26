@@ -1,9 +1,9 @@
-<!--title: Elizabeth Rose Bloodflame  -->
+<!-- title: Elizabeth Rose Bloodflame  -->
 <!-- status: Alive -->
 
-[Where do your loyalties lie, Lady Bloodflame? -Nerissa](https://www.youtube.com/live/sDjysXFWYbI?si=iRRcGIuE0qZjuCFz&t=12889)
+_"Where do your loyalties lie, Lady Bloodflame?"_
 
-[That is you as Lady Bloodflame, but who were you before Lady Bloodflame? -Shiori](https://www.youtube.com/live/uEB2dIe37oo?si=Th7PtivFyiDvoX66&t=24224)
+_That is you as Lady Bloodflame, but who were you before Lady Bloodflame?_
 
 A new day had risen for Lady Bloodflame, and what better way to start it than by fishing? As a member of the Rebellion, there were duties and responsibilities she had to fulfill in order for it to grow. While she was occupied, an unlikely guest appeared before Lady Bloodflame, and it was none other than Nyavella.
 
@@ -19,7 +19,7 @@ Back home, [she met with Nerissa and explored the changes to their home.](https:
 
 After joining Nerissa, Nyavella, Mococo, and Fuwawa in completing the Labyrinth, the group [successfully conquered it, and Shiori Nyavella regained some of her memories](https://www.youtube.com/live/7SzxeEiLGFs?si=eFPBf5I80J69EdQH&t=7734). As a post-labyrinth task, they were instructed to speak with the [Star Speaker Hamal to learn how negotiations work](https://www.youtube.com/live/7SzxeEiLGFs?si=9--G2e7ocbpz8fCx&t=8288). Without much thought, Lady Bloodflame agreed to whatever deal Nerissa offered her, without question, even though the terms seemed questionable.
 
-After completing the Secrets of Terminus Puzzle Area, [Lady Bloodflame was given a choice of horse armor](https://www.youtube.com/live/7SzxeEiLGFs?si=VGVYwo4Lxb-1nPyL&t=10667): either the Shining Stars Binding, the Stars armor but weaker, or the Rebellion Barding, the Rebel's armor but tougher. Still undecided, Lady Bloodflame heard Nerissa subtly mention that there was no good reason to choose the other option. Before Nerissa could even ask what she wanted, Lady Bloodflame decided to take the Rebel's armor instead. 
+After completing the Secrets of Terminus Puzzle Area, [Lady Bloodflame was given a choice of horse armor](https://www.youtube.com/live/7SzxeEiLGFs?si=VGVYwo4Lxb-1nPyL&t=10667): either the Shining Stars Binding, the Stars armor but weaker, or the Rebellion Barding, the Rebel's armor but tougher. Still undecided, Lady Bloodflame heard Nerissa subtly mention that there was no good reason to choose the other option. Before Nerissa could even ask what she wanted, Lady Bloodflame decided to take the Rebel's armor instead.
 
 The Bloodflame household had once again expanded, as two new residents joined them. [As if fate had played its part, both Lady Bloodflame and Nerissa each obtained pandas as their first pets](https://www.youtube.com/live/7SzxeEiLGFs?si=ZnEcDwWdGIjpqrcj&t=11874). Lady Bloodflame named hers Jack, while Nerissa named hers Shiopanda. The Bloodflame household became merrier with the addition of the adorable creatures living there.
 
@@ -27,7 +27,7 @@ As Lady Bloodflame began sorting out a garden for Nerissa to grow her crops, as 
 
 [Lady Bloodflame questioned Nyavella about why she had mentioned that she was part of the Coven](https://www.youtube.com/live/7SzxeEiLGFs?si=kfcj9izo9c-kd_97&t=13951). Nyavella explained that Lady Bloodflame had been following Nerissa like a dog and abandoning her fellow knights for her. Lady Bloodflame dismissed what Nyavella had said and decided to take the newspaper with a grain of salt. They parted ways, leaving Lady Bloodflame with much to think about.
 
-Some time later, [Nerissa returns to their home with Nyavella while Lady Bloodflame observes them](https://www.youtube.com/live/7SzxeEiLGFs?si=Y_3BnJmHvwLa1Fs_&t=14092). Nyavella attempts to sell the newspaper to Nerissa, but Lady Bloodflame goes between them and insists that they will be sharing the newspaper since they share the same home. Nyavella insists they still need to pay to help the church despite their protest. Lady Bloodflame, not wanting Nerissa to buy a newspaper from Nyavella, paid Nyavella the amount, which was again higher than the previous amount. 
+Some time later, [Nerissa returns to their home with Nyavella while Lady Bloodflame observes them](https://www.youtube.com/live/7SzxeEiLGFs?si=Y_3BnJmHvwLa1Fs_&t=14092). Nyavella attempts to sell the newspaper to Nerissa, but Lady Bloodflame goes between them and insists that they will be sharing the newspaper since they share the same home. Nyavella insists they still need to pay to help the church despite their protest. Lady Bloodflame, not wanting Nerissa to buy a newspaper from Nyavella, paid Nyavella the amount, which was again higher than the previous amount.
 
 The day ended with the Bloodflame household now having a garden, a basement storage area, and three new residents. It had been quite an eventful day for Lady Bloodflame.
 
@@ -36,6 +36,7 @@ Lady Bloodflame, once a proud and noble knight who would fight anyone she believ
 May the Mighty Phoenix above guide her...
 
 ## Fanart
+
 ["raised in a barn" by amiisaea](https://x.com/amiisaea/status/2059263012008260037)
 
 ["love for potato salad" by rikolyco_pene](https://x.com/rikolyco_pene/status/2059268510904381524)

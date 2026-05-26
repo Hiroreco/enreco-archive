@@ -11,7 +11,7 @@ Mordon screamed as if she'd seen a ghost! Someone had built a grave for Shakira 
 
 After that encounter, Mordon followed along her actual plan for today. In order to obtain a pet, there needed to be jewels and fish. She wasn't too keen on asking Mococo for favors, given how selfish the girl had been in their previous conversations, so she'd change jobs twice today-- to Jeweler and Supplier, respectively. Only temporarily, of course! She could never abandon the ways of the chef for long.
 
-She would run into the hero NinoIna and the knight Immerkind before long, helping them through their woes as they also mourned Shakira's passing. She was initially a little hesitant, but NinoIna's presence helped her feel safer in beginning a conversation. She'd had her back from the start, after all (see [Ina-Mordon: Mordon Just Allies](#ina-calli)). Although once she heard Immerkind had her back as well, she became much more at ease. Plus... Ina had the fish needed for this part of the operation! It was time for PETS!!
+She would run into the hero NinoIna and the knight Immerkind before long, helping them through their woes as they also mourned Shakira's passing. She was initially a little hesitant, but NinoIna's presence helped her feel safer in beginning a conversation. She'd had her back from the start, after all (see [Ina-Mordon: Mordon Just Allies](#edge:calli-ina)). Although once she heard Immerkind had her back as well, she became much more at ease. Plus... Ina had the fish needed for this part of the operation! It was time for PETS!!
 
 [_The bearer of marvelous news_](#embed:https://www.youtube.com/watch?v=VXqngzJKNZU&t=3626s)
 
@@ -19,7 +19,7 @@ The pet unboxing brought great joy to the three. Mordon went first, obtaining hi
 
 She [named her second new friend "Shakira"](https://www.youtube.com/watch?v=VXqngzJKNZU&t=4546) in her friend's honor. Surely it wasn't too soon, right?
 
-With that all said and done, Mordon began to work on her restaurant once more before the day's main event arrived. Shakira (the chicken) was catching a lot of attention as she did so-- Sister Shiori and the Peasant both thought Shakira (the warrior) had been reborn [(with the latter being scared half to death by this)](https://www.youtube.com/watch?v=VXqngzJKNZU&t=6309s), and to her relief, Roa was bittersweetly happy to see her fallen wife honored that way... even if she nearly incriminated herself AGAIN on the way out as she crossed Lady Bloodflame. 
+With that all said and done, Mordon began to work on her restaurant once more before the day's main event arrived. Shakira (the chicken) was catching a lot of attention as she did so-- Sister Shiori and the Peasant both thought Shakira (the warrior) had been reborn [(with the latter being scared half to death by this)](https://www.youtube.com/watch?v=VXqngzJKNZU&t=6309s), and to her relief, Roa was bittersweetly happy to see her fallen wife honored that way... even if she nearly incriminated herself AGAIN on the way out as she crossed Lady Bloodflame.
 
 [_Mordon, your shinigami is showing_](#embed:https://www.youtube.com/watch?v=VXqngzJKNZU&t=7358s)
 

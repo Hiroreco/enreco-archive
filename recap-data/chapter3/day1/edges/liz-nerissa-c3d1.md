@@ -1,5 +1,5 @@
 <!-- title: My Libestal -->
-<!-- relationship: Friends -->
+<!-- relationship: Alliance -->
 
 Within the traveling library that moved through time, Lady Bloodflame found herself whisked away by The Raven One.
 
