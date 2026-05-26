@@ -18,8 +18,8 @@ As for the heroes themselves, the day varied wildly from person to person. Some 
 
 Shakira also received a memorial of her own. Despite the short amount of time she spent in the kingdom, she clearly left a lasting impression on many of its residents.
 
-So overall, it was a relatively calm day.
+So overall, it was a relatively calm day- oh my god Roa had lost her mind.
 
-Well... not for Fuwawa. Someone please give that poor girl a chicken before her new "pet" shaves several years off her lifespan.
+Ah, um. Well. _Maybe_ some weren't so calm. But matter not! Because the pets were cute at least. Look look they're so cute right, aww so adorabl- WHO GAVE FUWAWA A POLAR BEAR—
 
 ![The fluffy one with a fluffy but not so cute pet](/images-opt/fuwawa-bear-opt.webp)
