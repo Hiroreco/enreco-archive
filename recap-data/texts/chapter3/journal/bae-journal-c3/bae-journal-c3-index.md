@@ -1,4 +1,4 @@
-<!-- entries: bae-journal-c3d1-->
+<!-- entries: bae-journal-c3d1, bae-journal-c3d2-->
 <!-- title: Bae's Journal Entries -->
 
 <!-- description -->
