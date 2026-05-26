@@ -12,7 +12,7 @@ const CURRENT_DAY = 2;
 const CURRENT_COUNTDOWN_VERSION = `c3d${CURRENT_DAY}`;
 
 // REMEMBER TO SET THIS TO FALSE AFTER THE UPDATE IS UP AND VICE VERSA
-const IS_VISIBLE = true;
+const IS_VISIBLE = false;
 
 // Returns the next occurrence of 2 AM JST (= 17:00 UTC).
 // Only called ONCE to set the target — not re-called on every tick.
