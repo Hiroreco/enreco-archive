@@ -12,7 +12,7 @@
 
 数々の障害を乗り越えた英雄たちは、アウトサイダーへ一歩近づくと同時に、**シオリ・ノヴェラ**の記憶を取り戻すことにも成功する。
 
-![知識の囚人との戦い](/images-opt/prisoner-of-knowledge-opt.webp)
+![知識の囚人との戦い](/images-opt/labyrinth-of-knowledge-opt.webp)
 
 ダンジョン攻略の外でも、王国の日常にはさらにもふもふした新要素が加わっていた。
 

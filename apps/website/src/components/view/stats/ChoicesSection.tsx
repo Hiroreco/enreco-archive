@@ -266,7 +266,15 @@ export function ChoicesSection({ choices, currentDay }: ChoicesSectionProps) {
                 </div>
             )}
             <SectionLabel>{t("oneTimeChoices")}</SectionLabel>
-            <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-3">
+            <div
+                className={`grid grid-cols-1 gap-3 ${
+                    displayData.length === 1
+                        ? ""
+                        : displayData.length === 2
+                          ? "sm:grid-cols-2"
+                          : "sm:grid-cols-2 xl:grid-cols-3"
+                }`}
+            >
                 {displayData.map((choice) => (
                     <ChoiceCard key={choice.id} choice={choice} />
                 ))}

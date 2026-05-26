@@ -8,7 +8,7 @@ Still, the challenge was understandable.
 
 Even reaching the dungeon required solving a riddle, and once inside, the labyrinth truly lived up to its name. The trials were not limited to puzzles alone, as adventurers also had to carefully navigate dangerous sections demanding precision and dexterity—all of which culminate to a fight with a literal talking book. After overcoming every obstacle, the heroes pushed one step closer toward finding the Outsider and, in the process, recovered the memories of **Shiori Novella.**
 
-![Battle against the Prisoner of Knowledge](/images-opt/prisoner-of-knowledge-opt.webp)
+![Battle against the Prisoner of Knowledge](/images-opt/labyrinth-of-knowledge-opt.webp)
 
 Outside of dungeon crawling, life around the kingdom gained a much fluffier addition: _pets._
 

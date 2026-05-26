@@ -35,7 +35,7 @@ Well, at least towards the very end of the day, finally some bit of peace and qu
 
 ## Fanart
 
-["I am no Queen" by unknown](https://fixupx.com/fuyukaish1/status/2059097804585197883?s=20)
+["I am no Queen" by fuyukaish1](https://x.com/fuyukaish1/status/2059097804585197883)
 
 ["Say my name" by kirayvacuo](https://x.com/kirayvacuo/status/2058907408861466824)
 
