@@ -50,3 +50,8 @@ The Witch as she now called herself, no longer hesitated to scheme. Every intera
 Seeing the once proud knight reduced to something [obedient](https://youtu.be/JixD1DhcNgc?t=14064), so eager to please, filled Nerissa with great satisfaction.
 
 Perhaps, becoming a Witch was the [right decision](https://youtu.be/JixD1DhcNgc?t=14082).
+
+## Fanart
+["defintely not brainwashed" by arionwatches](https://x.com/arionwatches/status/2059149876219543732)
+
+["cant forget the way you tatste" by elisbian_](https://x.com/elisbian_/status/2043606158884393278)

@@ -72,3 +72,8 @@ _いや、これは今はまだチェストの中にしまっておこう。_
 かつて誇り高かった騎士が、今ではあれほどまでに[従順](https://youtu.be/JixD1DhcNgc?t=14064)になり、嬉々として自分に尽くそうとする姿を見るたび、ネリッサは大きな満足感を覚えていた。
 
 もしかすると――魔女になったのは、[正しい選択](https://youtu.be/JixD1DhcNgc?t=14082)だったのかもしれない。
+
+## ファンアート
+["defintely not brainwashed" by arionwatches](https://x.com/arionwatches/status/2059149876219543732)
+
+["cant forget the way you tatste" by elisbian_](https://x.com/elisbian_/status/2043606158884393278)

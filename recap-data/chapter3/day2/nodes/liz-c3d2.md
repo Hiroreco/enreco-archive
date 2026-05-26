@@ -34,3 +34,8 @@ The day ended with the Bloodflame household now having a garden, a basement stor
 Lady Bloodflame, once a proud and noble knight who would fight anyone she believed to be evil, was slowly losing herself. Her once-strong complexion had started to fade. Were the choices she made incorrect? Did choosing to stay with her princess and sister cause her to lose her honor? Will living with Nerissa Juliet lead to a happy ending for Lady Bloodflame or to her fall...
 
 May the Mighty Phoenix above guide her...
+
+## Fanart
+["raised in a barn" by amiisaea](https://x.com/amiisaea/status/2059263012008260037)
+
+["love for potato salad" by rikolyco_pene](https://x.com/rikolyco_pene/status/2059268510904381524)

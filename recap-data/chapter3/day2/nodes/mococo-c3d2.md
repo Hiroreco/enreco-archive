@@ -18,3 +18,6 @@ Looking away from her frustrations, the little witch set up a small charm shop i
 The dungeon demanded a lot of physical and mental prowess of its adventurers. [Many screams were shared along the way](https://www.youtube.com/watch?v=7JCwz_K_r5M&t=5419). But sooner or later, they'd made it through mostly unscathed and recovered the memories of the Forbidden Archiver, [Shiori Novella](https://www.youtube.com/watch?v=7JCwz_K_r5M&t=7844).
 
 Back in Libestal, she was a bit tired, so she decided to speak to Faust tomorrow. She had to rest up, because there were so many more charms to be sold tomorrow!! BAU BAUUU!!
+
+## Fanart
+["Bweh" by akahana_sora](https://x.com/akahana_sora/status/2059130607872200847)
