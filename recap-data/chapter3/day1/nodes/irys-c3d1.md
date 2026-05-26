@@ -44,3 +44,7 @@ It was a whole ordeal and everyone was talking about it, such a fleeting interac
 Well... what can you do. The death of the phoenix did linger in the pink one's mind as she wandered the kingdom and continued her tasks. She even [called](https://www.youtube.com/watch?v=M1lDsivuVb8&t=9591) the supposed murderer, but not to address the allegations—rather, to ask her how to make cake. That's how dedicated this chef was.
 
 Finally, after a long chaotic day, she decided to call it a day much earlier than the others, but still, a crazy day nonetheless.
+
+## Fanart
+
+["Hot Pink One!" by bebeko_z](https://x.com/bebeko_z/status/2058918410294296703)

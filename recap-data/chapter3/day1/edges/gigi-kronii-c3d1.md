@@ -19,6 +19,14 @@ Proclaiming she was simply Tam now, the former queen left Immerkind to profusely
 
 ## Fanart
 
+["queen?" by albertweskerh](https://x.com/albertweskerh/status/2059128627397263374)
+
+["my queen..." by \_nontann](https://x.com/_nontann/status/2059060131103662382)
+
+["Oh..." by werocosmiko](https://x.com/werocosmiko/status/2058800535583522856)
+
+["Take it off, my Queen" by kenjikokun](https://x.com/kenjikokun/status/2058892291201441835)
+
 ["my name is Tam! who are you?" by dasdokter](https://x.com/dasdokter/status/2058789765709975701)
 
 ["photorealistic depiction of rolling to take the hat" by leisurepass](https://x.com/leisurepass/status/2058779256814010493)

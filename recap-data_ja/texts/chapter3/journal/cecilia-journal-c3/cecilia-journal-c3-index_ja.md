@@ -1,4 +1,4 @@
-<!-- entries: cecilia-journal-c3d1_ja -->
+<!-- entries: cecilia-journal-c3d1_ja, cecilia-journal-c3d2_ja -->
 <!-- title: セシリアの日記エントリー -->
 
 <!-- description -->

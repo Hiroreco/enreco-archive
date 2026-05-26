@@ -1,5 +1,5 @@
 <!-- title: My Libestal -->
-<!-- relationship: Friends -->
+<!-- relationship: Alliance -->
 
 Within the traveling library that moved through time, Lady Bloodflame found herself whisked away by The Raven One.
 
@@ -7,9 +7,13 @@ Within the traveling library that moved through time, Lady Bloodflame found hers
 
 Her Juliet took her outside to watch the stars—the beauty that surrounded them within the void. In this time of uncertainty, it felt like something precious to look up to.
 
-Lady Bloodflame looked at her, her eyes sparkling with awe and wonder. _"What a truly beautiful insight indeed."_
+Lady Bloodflame looked at her, her eyes sparkling with awe and wonder. _"What a truly beautiful sight indeed."_
 
-But when she lowered her gaze and met Nerissa's eyes, her true purpose was revealed. Nerissa confessed her doubts about Fia. About their quests as heroes. [Can she really be trusted?](#embed:https://www.youtube.com/live/2rnclFeQ5EM?si=modXYx2D4fvWS49x&t=1555) Lady Bloodflame was unsure. She was torn. Where should her loyalty lie?
+But when she lowered her gaze and met Nerissa's eyes, her true purpose was revealed. Nerissa confessed her doubts about Fia. About their quests as heroes.
+
+[Can she really be trusted?](#embed:https://www.youtube.com/live/2rnclFeQ5EM?si=modXYx2D4fvWS49x&t=1555)
+
+Lady Bloodflame was unsure. She was torn. Where should her loyalty lie?
 
 But she was a knight, and she had sworn an oath to her princess, her Juliet. And so, it was an oath she must honor.
 

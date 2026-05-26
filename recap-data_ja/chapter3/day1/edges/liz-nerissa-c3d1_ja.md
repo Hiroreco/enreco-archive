@@ -1,5 +1,5 @@
 <!-- title: 私のリベスタル -->
-<!-- relationship: Friends -->
+<!-- relationship: Alliance -->
 
 時を巡る旅の図書館の中で、レディ・ブラッドフレイムは“レイヴンワン”によって連れ出されることとなった。
 

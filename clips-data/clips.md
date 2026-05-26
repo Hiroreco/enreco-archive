@@ -1227,3 +1227,133 @@ https://youtu.be/T4m1qZPKdJQ?si=sQ_uGz_9OvP_emAI
 https://youtu.be/n5lkewsinoo?si=fDjYbFbiKnsngEKs
 
 <!-- shiori, cecilia -->
+
+https://youtu.be/gaXCO4KEN2k?si=aBQiL3l-fKWcwRnq
+
+<!-- gigi -->
+
+https://youtu.be/ACJmJBuhvRQ?si=8g2SXnd-w5je53pF
+
+<!-- shiori, liz -->
+
+https://youtu.be/VaU95zumRTg?si=fqh_PnihH2EPjFIu
+
+<!-- raora, gigi -->
+
+https://youtu.be/XEtYlV323ts?si=BAoqT-l5qXDUXcov
+
+<!-- nerissa, liz -->
+
+https://youtu.be/ov12Ta9c0Co?si=El6cY40iHJ0ctYTu
+
+<!-- ina, kronii -->
+
+https://youtu.be/4izQPcZJuEM?si=MqvycibVjtJX8BEV
+
+<!-- bijou -->
+
+https://youtu.be/r-zYuvTb-Gk?si=JU8Iv1l5qkQPhhQa
+
+<!-- kronii, bijou -->
+
+https://youtu.be/4o811j_LmUo?si=M84-e5kWxwsKVrum
+
+<!-- bijou, raora -->
+
+https://youtu.be/CDtGk86C904?si=B3ul9qscVFRCSLsa
+
+<!-- gigi, cecilia -->
+
+https://youtu.be/bwiaT4JZqNw?si=1hierKMYClqk8whA
+
+<!-- mococo -->
+
+https://youtu.be/r0sNSb5t32Q?si=rkUPX66cTrWIe69l
+
+
+<!-- mococo -->
+
+https://youtu.be/1DdeT4i5B2Q?si=Vhp7bqd08slHCZCI
+
+<!-- shiori, gigi -->
+
+https://youtu.be/j72PtXZFXYw?si=-P5oR52BP_W1gzf8
+
+<!-- kronii, shiori -->
+
+https://youtu.be/Ed9jpZPnc7o?si=s6CWArzNJZ-IUQiS
+
+<!-- raora, kronii -->
+
+https://youtu.be/e1WiUljbU9s?si=OPwJ8gLrG7wVwMOq
+
+<!-- mococo, cecilia -->
+
+https://youtu.be/BJqze8Munss?si=j_RWSeBHUmTDvJui
+
+<!-- liz -->
+
+https://youtu.be/MJ_c_KgAYlI?si=Ucr77Q1UZeoKEptG
+
+<!-- liz, mococo, gigi -->
+
+https://youtu.be/pydRqZ5Hhq8?si=z2zhrAPtlC2Oy7w2
+
+<!-- kronii, shiori -->
+
+https://youtu.be/ljBSyV9n0is?si=20DWbSrDtyWZg_ao
+
+<!-- calli, ina, cecilia -->
+
+https://youtu.be/8aKlmgzU4eI?si=jBCnN-OpVJr0DEW4
+
+<!-- fuwawa, kronii -->
+
+https://youtu.be/awauZb1w7Jc?si=6QiwoBnYEOTNY9pV
+
+<!-- fuwawa, mococo -->
+
+https://youtu.be/e-ioxIoxEoo?si=1rdQU75wazx2f6Sm
+
+<!-- liz, bae, ina -->
+
+https://youtu.be/W4f5lPRUp0A?si=URr9EBRWXmCzixeH
+
+<!-- raora, ina, kronii, fuwawa -->
+
+https://youtu.be/VPgyG8uGi7Q?si=c53VguPggOZyVVos
+
+<!-- raora, ina -->
+
+https://youtu.be/IXdHo_UQ7Lk?si=Sg2EXATp1ux_3IvF
+
+<!-- kronii, nerissa, cecilia, gigi -->
+
+https://youtu.be/YZeG95C6ok8?si=WI4nj1kFtpOcY5fo
+
+<!-- bae, gigi -->
+
+https://youtu.be/N1GeF0DE8FA?si=vdHhe3zla2gypNm1
+
+<!-- shiori, ina -->
+
+https://youtu.be/lW2FpXPhTN4?si=o2DHHQbN-FVdRHRs
+
+<!-- calli -->
+
+https://youtu.be/COVYBj6Zbew?si=XtrU-lrsgQWI6SSs
+
+
+<!-- calli -->
+
+https://youtu.be/sxIZnV1cpmc?si=xFwTMVSnCYFySQMc
+
+<!-- kronii, irys -->
+
+https://youtu.be/f-Hbe7E3Fgs?si=mdOlWLDJu0KYwa05
+
+<!-- calli, ina, bae, bijou -->
+
+https://youtu.be/9V209R9ZV9Y?si=whWiaW2IVuPmEIKh
+
+<!-- nerissa, gigi -->

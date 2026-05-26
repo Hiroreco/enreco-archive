@@ -3,6 +3,7 @@ import { CHARACTER_ID_NAME_MAP_EN, CHARACTER_ID_NAME_MAP_JA } from "@/lib/misc";
 import { day1Data } from "./stats-data/day1";
 
 import type { Talent, TrackerData } from "./types";
+import { day2Data } from "@/components/view/stats/stats-data";
 
 type AssignmentKey = "teamId" | "faction";
 
@@ -76,6 +77,12 @@ const buildCumulativeGroupsFromChapter = (
 
             return {
                 name: groupId,
+                image:
+                    groupId !== "none"
+                        ? groupId === "bad"
+                            ? "/images-opt/faction-rebellion.svg"
+                            : "/images-opt/faction-shining-star.svg"
+                        : undefined,
                 members: membersByGroup.get(groupId) || [],
             };
         })
@@ -275,6 +282,11 @@ export const TRACKER_DATA: TrackerData = {
         ...day1Data,
         teams: buildTeamsFromChapter(chapter2Raw, 1),
         factions: buildFactionsFromChapter(chapter2Raw, 1),
+    },
+    2: {
+        ...day2Data,
+        teams: buildTeamsFromChapter(chapter2Raw, 2),
+        factions: buildFactionsFromChapter(chapter2Raw, 2),
     },
 };
 

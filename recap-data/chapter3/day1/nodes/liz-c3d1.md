@@ -99,4 +99,6 @@ Only time would tell...
 
 ## Fanart
 
+["The Knight Bound by Loyalty" by yaymics](https://x.com/yaymics/status/2058876559474196636)
+
 ["so happy for her" by mokujyan](https://x.com/mokujyan/status/2058746541754744940)

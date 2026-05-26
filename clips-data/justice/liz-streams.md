@@ -25,3 +25,4 @@ https://www.youtube.com/watch?v=b-jTHH6GK5w
 ### Chapter 3
 
 https://www.youtube.com/watch?v=2rnclFeQ5EM
+https://www.youtube.com/watch?v=7SzxeEiLGFs

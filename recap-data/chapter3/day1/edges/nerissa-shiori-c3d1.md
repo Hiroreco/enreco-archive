@@ -41,6 +41,4 @@ Nerissa Juliet had yet to find out.
 
 ## Fanart
 
-["Goofballs" by noirstein](https://x.com/noirstein/status/2058782884262252922)
-
 ["Would you like to be my first?" by noirstein](https://x.com/noirstein/status/2058782884262252922)

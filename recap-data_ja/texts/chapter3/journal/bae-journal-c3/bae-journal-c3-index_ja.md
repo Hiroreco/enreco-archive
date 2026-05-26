@@ -1,4 +1,4 @@
-<!-- entries: bae-journal-c3d1_ja-->
+<!-- entries: bae-journal-c3d1_ja, bae-journal-c3d2_ja -->
 <!-- title: ベイの日記エントリー -->
 
 <!-- description -->
