@@ -17,7 +17,7 @@ Immerkind later runs into Juliet, where the two share concerns regarding the kin
 
 While farming quartz from the castle walls, Immerkind is surprised by Gonathon. The two discuss the ["Game of the Thrones"](https://www.youtube.com/watch?v=mARNiVZCRbw&t=6450) that Gonathon learned from NerissaJuliet. They speak of the many factions currently fighting one another, with Gonathon wondering if their own world mirrors such chaos.
 
-Immerkind then [offers Gonathon her support](https://www.youtube.com/watch?v=mARNiVZCRbw&t=6599) in taking Tam Gandr's hand and fleeing the kingdom together. The Knight encourages him to follow through with his plans, promising they will fight side by side to bring Tam back. Together, they vow to continue onward as wolves (see [Cecilia-Gigi: Wolves]).
+Immerkind then [offers Gonathon her support](https://www.youtube.com/watch?v=mARNiVZCRbw&t=6599) in taking Tam Gandr's hand and fleeing the kingdom together. The Knight encourages him to follow through with his plans, promising they will fight side by side to bring Tam back. Together, they vow to continue onward as wolves (see [Immerkind-Gonathon](#edge:cecilia-gigi)).
 
 The pair venture into a dungeon filled with puzzles, progressing through it in style with [Gonathon rapping while Immerkind beatboxes](https://www.youtube.com/watch?v=mARNiVZCRbw&t=8830).
 
