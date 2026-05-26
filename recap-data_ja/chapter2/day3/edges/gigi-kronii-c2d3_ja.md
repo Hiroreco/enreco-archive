@@ -11,4 +11,6 @@
 
 ## ファンアート
 
+["Poor Tam" by blaparky](https://x.com/blaparky/status/2059289999452127314)
+
 ["I will always be by your side" by Asashi](https://x.com/illust_asashi/status/1920369360209637411)

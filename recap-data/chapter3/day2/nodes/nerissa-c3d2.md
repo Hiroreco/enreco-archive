@@ -65,3 +65,6 @@ something wicked this way comes."**
 Everything worked according to the Witch's plan. Financially speaking, she reached her goal of acquiring [10,000 coins](https://youtu.be/JixD1DhcNgc?t=16626). Emotionally, Lady Bloodflame became more and more dependent on her. Whatever she wished, the knight succumbed [willingly](https://youtu.be/JixD1DhcNgc?t=14057), wherever she went, the knight followed like an obedient slave...
 
 Oh, how pleasing it was to become a witch!
+
+## Fanart
+["The Hermit" by thekaiyip](https://x.com/thekaiyip/status/2059075890387341540)

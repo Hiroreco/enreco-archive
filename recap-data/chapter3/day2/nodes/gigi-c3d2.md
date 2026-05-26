@@ -32,3 +32,12 @@ With the dungeon laid low, Gonathon and Immerkind returned to Libestal, only to 
 Following the arduous task of guiding Tam through [a number of riddles](https://www.youtube.com/watch?v=J8CAzdF1qb4&t=9182), Gonathon told his companions he would unfortunately need to retire early that day. However, his day would not end just yet. Returning to the Star Speakers, the clever knight was able to outwit [Speaker Hamal](https://www.youtube.com/watch?v=J8CAzdF1qb4&t=11506) and accomplish the next portion of his quest. And with that, the second day of Gonathon G's adventure came to a close.
 
 [The humble knight's journal](#embed:https://www.youtube.com/watch?v=J8CAzdF1qb4&t=11915)
+
+## Fanart
+["Gonathon and Geep" by sethhhlhhh](https://x.com/sethhhlhhh/status/2059278746423804396)
+
+["Melancholy of a queen's knight" by snoweagle110](https://x.com/snoweagle110/status/2059196894451314882)
+
+["The Humble Tragic Knight" by yaymics](https://x.com/yaymics/status/2059189887161573788)
+
+["more like gonathons of problems" by glitchshay](https://x.com/glitchshay/status/2059289996520284184)

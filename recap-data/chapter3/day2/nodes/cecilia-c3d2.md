@@ -44,3 +44,6 @@ Unfortunately, Gonathon accidentally stumbles upon the scene and discovers that 
 Later that day, Immerkind [assists Shiori with building a farm](https://www.youtube.com/watch?v=mARNiVZCRbw&t=16066) for the church so she will not starve. As she continues preparing the castle for Tam, Immerkind contemplates writing a letter to HeroIna, intrigued by whatever plans the [Hero seems to have in motion](https://www.youtube.com/watch?v=mARNiVZCRbw&t=16999).
 
 At the end of the day, Immerkind [bids farewell to Fia](https://www.youtube.com/watch?v=mARNiVZCRbw&t=17210) before quietly returning to her journal once again.
+
+## Fanart
+["I love this Knight so much..." by appletomo_](https://x.com/appletomo_/status/2059161978942140699)

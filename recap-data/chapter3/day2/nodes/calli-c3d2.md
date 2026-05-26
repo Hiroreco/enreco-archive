@@ -26,3 +26,10 @@ With that all said and done, Mordon began to work on her restaurant once more be
 But before long, it was time to tackle the first dungeon Terminus had to offer. Setting up a small food shop in front of the entrance as she did in times long past, she was a bit saddened to see some people actively avoid her meals, but thankfully, there were still some customers around willing to enjoy her cooking-- namely, her party members for today! She had agreed to go with Bijou at the end of the previous day, and besides her, she was also joined by Roa, NinoIna, and the Peasant. Together, they marched forward through puzzles, puzzles, puzzles, and [more puzzles](https://www.youtube.com/watch?v=VXqngzJKNZU&t=11262), eventually making it through the Labyrinth of Knowledge and recovering the memories of the Forbidden Archiver, [Shiori Novella](https://www.youtube.com/watch?v=VXqngzJKNZU&t=13149).
 
 With all that said and done, while her party went forward to more adventures, Mordon was content to call it a night after a small talk with Faust about her next objective [(and a missed advertising opportunity)](https://www.youtube.com/watch?v=VXqngzJKNZU&t=13612). There was still a long way to go before she could redeem the name of Mordon Ramsay... but she was determined to see it through. Nothing was going to stop her from making some DAMN good food.
+
+## Fanart
+["mordan and gourmet potato salad" by toasty771](https://x.com/toasty771/status/2059138043001639373)
+
+["Shakira's body" by seapupu290495](https://x.com/seapupu290495/status/2059279544922911168)
+
+<!-- kiara -->

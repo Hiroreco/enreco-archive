@@ -49,3 +49,6 @@
 その日の後半、イマーキンドは[シオリの農場作りを手伝う](https://www.youtube.com/watch?v=mARNiVZCRbw&t=16066)。教会で飢えずに暮らせるようにするためだ。さらにタムのための城作りを進める中で、彼女はヒーローイナへ手紙を書こうかと思案する。どうやらその[ヒーローは何か大きな計画](https://www.youtube.com/watch?v=mARNiVZCRbw&t=16999)を進めているようだった。
 
 一日の終わり、イマーキンドは[フィアへ別れを告げ](https://www.youtube.com/watch?v=mARNiVZCRbw&t=17210)、再び静かに日記へ向かうのだった。
+
+## ファンアート
+["I love this Knight so much..." by appletomo_](https://x.com/appletomo_/status/2059161978942140699)

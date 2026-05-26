@@ -403,7 +403,7 @@
             "changedFromTo": "changed from {from} to {to}",
             "movedFromTo": "moved from {from} to {to}",
             "noChanges": "No changes",
-            "teams": "Teams",
+            "teams": "Jobs",
             "factions": "Factions",
             "continuousChoices": "Continuous choices",
             "continuousDescription": "— can change between days",

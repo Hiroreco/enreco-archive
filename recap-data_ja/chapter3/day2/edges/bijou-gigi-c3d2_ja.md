@@ -18,3 +18,10 @@
 彼の姿を目にしただけで、その場を立ち去ってしまうほどに。
 
 果たして二人は、この壊れてしまった関係を修復できるのだろうか。
+
+## ファンアート
+["Silent treatment" by robomb1192](https://x.com/robomb1192/status/2059282555783061781)
+
+<!-- nerissa -->
+
+["look me in the eyes and tell me" by toasty771](https://x.com/toasty771/status/2059138043001639373)

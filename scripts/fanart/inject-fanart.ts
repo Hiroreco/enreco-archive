@@ -43,9 +43,6 @@ function runScript(cmd: string) {
 }
 
 async function main() {
-    // 0) Generate thumbnails
-    runScript("pnpm generate-thumbnails");
-
     // 1) Load base entries
     const baseEntries: LinkEntry[] = JSON.parse(
         await fs.readFile(LINKS_JSON, "utf-8"),

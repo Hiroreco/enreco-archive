@@ -100,3 +100,8 @@
 ――自分は近づいている。
 
 この世界の“本当の姿”へ、確実に。
+
+## ファンアート
+["raora doodles" by chiipzzer](https://x.com/chiipzzer/status/2059212797926355037)
+
+["Identity crisis is having a crisis" by padiberhoodie](https://x.com/padiberhoodie/status/2059220255764099081)

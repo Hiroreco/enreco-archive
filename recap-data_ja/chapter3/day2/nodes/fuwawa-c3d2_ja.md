@@ -32,3 +32,6 @@
 [あなた、タムだよね？](#embed:https://www.youtube.com/watch?v=jdWk5-BLjCw&t=11029s)
 
 やがて自分のやるべきことをほとんど終えたフワワは、“良いワンコ”らしく、その日のダンジョンをまだ終えていない仲間たちを最後まで手伝い続ける。そしてすべてを見届けた後、ようやく彼女自身もその日を終えるのだった。
+
+## ファンアート
+["don't scare me" by fukuinu_daddy](https://x.com/fukuinu_daddy/status/2059277450664894635)

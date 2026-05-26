@@ -28,3 +28,6 @@ Once the dungeon was cleared, the fluffy one continued her day with even more qu
 [You're Tam right?](#embed:https://www.youtube.com/watch?v=jdWk5-BLjCw&t=11029s)
 
 With little else left to accomplish, and being the good doggo that she was, the fluffy one stayed behind to help those who still hadn't completed the day's dungeon before finally calling it a day herself.
+
+## Fanart
+["don't scare me" by fukuinu_daddy](https://x.com/fukuinu_daddy/status/2059277450664894635)

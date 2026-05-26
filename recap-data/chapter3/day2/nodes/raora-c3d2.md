@@ -48,3 +48,8 @@ Frustration consumed her, accompanied by a splitting headache, yet beneath the p
 The feeling that she was getting closer.
 
 Closer to uncovering the true nature of this world.
+
+## Fanart
+["raora doodles" by chiipzzer](https://x.com/chiipzzer/status/2059212797926355037)
+
+["Identity crisis is having a crisis" by padiberhoodie](https://x.com/padiberhoodie/status/2059220255764099081)

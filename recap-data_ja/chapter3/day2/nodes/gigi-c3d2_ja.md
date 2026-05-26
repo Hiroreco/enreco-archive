@@ -32,3 +32,12 @@
 数々の[謎解き](https://www.youtube.com/watch?v=J8CAzdF1qb4&t=9182)をタムへ付き添って導いた後、ゴナソンは仲間たちへ「今日は早めに失礼しなければならない」と告げる。だが、彼の一日はまだ終わらなかった。スター・スピーカーズへ戻った騎士は、見事な機転によって[スピーカー・ハマル](https://www.youtube.com/watch?v=J8CAzdF1qb4&t=11506)を出し抜き、クエストの次なる段階を達成する。そしてこうして、ゴナソン・Gの冒険二日目は幕を閉じたのである。
 
 [謙虚なる騎士の日誌](#embed:https://www.youtube.com/watch?v=J8CAzdF1qb4&t=11915)
+
+## ファンアート
+["Gonathon and Geep" by sethhhlhhh](https://x.com/sethhhlhhh/status/2059278746423804396)
+
+["Melancholy of a queen's knight" by snoweagle110](https://x.com/snoweagle110/status/2059196894451314882)
+
+["The Humble Tragic Knight" by yaymics](https://x.com/yaymics/status/2059189887161573788)
+
+["more like gonathons of problems" by glitchshay](https://x.com/glitchshay/status/2059289996520284184)

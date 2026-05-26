@@ -102,6 +102,8 @@
 
 ## ファンアート
 
+["maybe you should be the kind instead" by kagatecat](https://x.com/kagatecat/status/2059181463795589122)
+
 ["I am no Queen" by fuyukaish1](https://x.com/fuyukaish1/status/2059097804585197883)
 
 ["Say my name" by kirayvacuo](https://x.com/kirayvacuo/status/2058907408861466824)

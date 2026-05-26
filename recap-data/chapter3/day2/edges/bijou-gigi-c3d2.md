@@ -10,3 +10,10 @@ And for Bijou at the very least, this kindled a festering bitterness towards the
 Gonathon for his part had remained adamant that Bijou still had good inside of her and stressed that he would find a way to save her. Bijou on the other hand, was quickly embracing the darkness inside of her, which was driving her to commit more and more heinous acts. By the time of their second day in Libestal, Bijou was so consumed by rancor for Gonathon that the mere sight of him was enough to drive her to depart a location.
 
 Only time will tell if the two can mend their fractured relationship.
+
+## Fanart
+["Silent treatment" by robomb1192](https://x.com/robomb1192/status/2059282555783061781)
+
+<!-- nerissa -->
+
+["look me in the eyes and tell me" by toasty771](https://x.com/toasty771/status/2059138043001639373)

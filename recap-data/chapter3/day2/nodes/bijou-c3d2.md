@@ -14,3 +14,6 @@ Learning from Faust that a Glass Compass is needed to enter Cell 0414, Bijou hea
 In the end, Bijou takes the compass without paying and makes her way to the gateway of the Labyrinth of Emotion. Once again, she finds a sense of familiarity, this time with the [shape of the gateway](https://www.youtube.com/watch?v=uZ0IMLL2Vxc&t=9935).
 
 With the Labyrinth of Emotion still closed, Bijou turns back with the intent of uncovering the Labyrinth of Knowledge's secrets. With Roa and NinoIna once more, and Tam and Fuwawa joining along, the five manage to discover one of the Labyrinth's secrets, yet find that there is still another to discover. Bijou swears that she will find this last secret, but with her affliction still weighing on her mind and body, that will have to wait until the next day. To recover from the affliction, Bijou decides to retire early, discovering that Tam had moved into the Shimmerstone house as well.
+
+## Fanart
+["Bijou..." by 147illu](https://x.com/147illu/status/2059220499465724026)

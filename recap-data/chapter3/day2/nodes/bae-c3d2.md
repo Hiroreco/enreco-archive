@@ -49,3 +49,8 @@ With A not-quite-date set up between the two, Bae departed, talking to Shiori br
 Now more [prepared for the days to come](https://youtu.be/t0aLqfBeqK0?t=9626), Bae The Peasant headed off, writing in her journal as she looked on a hopeful future with Polar The Bear by her side.
 
 Coin Count: 3526. Another day, another bunch of gold for Bae to earn.
+
+## Fanart
+["Polar The Bear" by chibikoshi](https://x.com/chibikoshi/status/2059124871821766996)
+
+<!-- raora -->

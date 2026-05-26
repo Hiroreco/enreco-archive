@@ -90,3 +90,16 @@ _インクウェル教会。_
 インクウェル教会は、着実に完成へ近づいていた。
 
 その日の成果に満足した優しきシスターは、ようやく静かに眠りへ就くのだった。
+
+## ファンアート
+["Pixel Shiori" by okunashi27](https://x.com/okunashi27/status/2059224755480494511)
+
+["Praying for your sins" by koemi_54](https://x.com/koemi_54/status/2059185732686643230)
+
+["innocent day for sister shiori" by unbabbles](https://x.com/unbabbles/status/2059147578927632570)
+
+<!-- gigi, calli -->
+
+["Like a dog" by i](https://x.com/i/status/2059159977097625646)
+
+<!-- liz -->
