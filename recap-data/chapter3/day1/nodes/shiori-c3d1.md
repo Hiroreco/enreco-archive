@@ -1,4 +1,4 @@
-<!-- title: Shiori Novella -->
+<!-- title: Sister Shiori -->
 <!-- status: Alive -->
 
 Shiori Nyavella is gone, and Shiori Novella, Sister Shiori to be exact, is here to stay. Now a sister of the cloth, Shiori is therefore definitely not evil even as she reconnected with her conspiring band of witches. Shiori even admired the stars with [Mordon Ramsay!](https://youtu.be/ZzXAmkDHgTY?t=1242). As the witches and Mordon conversed about being chefs once again, Shiori revealed that she would be a [chef for picnics,](https://youtu.be/ZzXAmkDHgTY?t=1335) a totally non-evil type of chef, reminiscing about the picnic from last "week." Unless _some_ of the food is poisoned, but Sister Shiori will never do that, of course.
