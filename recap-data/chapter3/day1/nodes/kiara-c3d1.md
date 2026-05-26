@@ -1,4 +1,4 @@
-<!-- title: Tanakisha Karia of the Oranges -->
+<!-- title: Tanakisha "Shakira" Karia of the Oranges -->
 <!-- status: Dead -->
 
 Back in the mysterious white room, Tanakisha Karia found herself awakened once more. This time didn't feel too different for her. For one, she was able to recognize some familiar faces, such as Lady Bloodflame, Roa, and Mordan Ramsey's... These were the people she knew she could trust.
