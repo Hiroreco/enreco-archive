@@ -42,7 +42,7 @@ Soon a new area was accessible which can only mean one thing... [New areas to fi
 
 ["Hi, Peasant"](#embed:https://youtu.be/t0aLqfBeqK0?t=9172)
 
-With heart beating loudly in her chest, Bae greeted her back. (See: [Bae-Cecilia](#embed:bae-cecilia))
+With heart beating loudly in her chest, Bae greeted her back. (See: [Bae-Cecilia](#edge:bae-cecilia))
 
 With A not-quite-date set up between the two, Bae departed, talking to Shiori briefly about [her memory.](https://youtu.be/t0aLqfBeqK0?t=9367)
 
