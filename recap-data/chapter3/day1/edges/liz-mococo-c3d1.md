@@ -24,4 +24,5 @@ There was no doubt in Elizabeth's mind that the days ahead would be incredibly h
 ["...we've got each other. I'll always protect you."](#embed:https://www.youtube.com/watch?v=2rnclFeQ5EM&t=1826s)
 
 ## Fanart
+
 ["Oath." by i](https://x.com/i/status/2059008438978457704)

@@ -199,7 +199,7 @@ async function addFanartToRecap(
     const sectionHeading = type === "meme" ? "## Memes" : "## Fanart";
 
     // Build the new entry
-    let newEntry = `\n["${title}" by ${author}](${link})`;
+    let newEntry = `\n\n["${title}" by ${author}](${link})`;
     if (characters.length > 0) {
         const characterList = characters.join(", ");
         newEntry += `\n\n<!-- ${characterList} -->`;
@@ -207,7 +207,10 @@ async function addFanartToRecap(
 
     // Find the section
     const sectionMatch = content.match(
-        new RegExp(`^${sectionHeading.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}\\s*$`, "m"),
+        new RegExp(
+            `^${sectionHeading.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}\\s*$`,
+            "m",
+        ),
     );
 
     let updatedContent: string;
@@ -281,9 +284,7 @@ async function main() {
         // Parse filename to get chapter and day
         const parsed = parseFilename(entry.filename);
         if (!parsed) {
-            console.warn(
-                `⚠️  Invalid filename format: ${entry.filename}`,
-            );
+            console.warn(`⚠️  Invalid filename format: ${entry.filename}`);
             continue;
         }
 
@@ -294,9 +295,7 @@ async function main() {
             parsed.day,
         );
         if (!recapPath) {
-            console.warn(
-                `⚠️  Could not find recap file for ${entry.filename}`,
-            );
+            console.warn(`⚠️  Could not find recap file for ${entry.filename}`);
             continue;
         }
 
@@ -395,9 +394,7 @@ async function main() {
         console.log("✅ fanart.md cleaned up");
     }
 
-    console.log(
-        `\n📊 Summary: Added ${addedCount}, Skipped ${skippedCount}`,
-    );
+    console.log(`\n📊 Summary: Added ${addedCount}, Skipped ${skippedCount}`);
 }
 
 main().catch((err) => {
