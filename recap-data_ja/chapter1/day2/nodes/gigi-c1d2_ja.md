@@ -28,4 +28,3 @@
 ## ファンアート
 
 ["Humble knight" by angartissart](https://x.com/angartissart/status/2034594597884809432)
-

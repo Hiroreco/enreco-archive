@@ -29,6 +29,10 @@ The humble knight’s day ended with a quaint interaction with Roa, one that too
 
 ## Fanart
 
+["Gonthon G" by ozasdf](https://x.com/ozasdf/status/2059014654471610581)
+
+["My knight" by rikuje](https://x.com/rikuje/status/2058920482318254455)
+
 ["The knight has returned" by vapid_4](https://x.com/vapid_4/status/2058627778170196102)
 
 ["A knight, tired and weary" by dreamplanes256](https://x.com/dreamplanes256/status/2058599384498229502)

@@ -48,3 +48,6 @@ _いったい何が起こるっていうの――_
 そしてシャキーラは、そのまま噴水の水中へと落ちていく。
 
 [オレンジのタナキシャ・カリアは死亡した。](#embed:https://www.youtube.com/watch?v=u0Tu7_vfmQo&t=6294s)
+
+## ファンアート
+["Oh, mori, when you cook like that you make a wawa go dead" by ogumashiro](https://x.com/ogumashiro/status/2059019424930132298)

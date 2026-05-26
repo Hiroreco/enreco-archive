@@ -22,3 +22,6 @@ After that, the little witch and her knight would cross paths again shortly afte
 There was no doubt in Elizabeth's mind that the days ahead would be incredibly hectic, but there was nothing to worry about. As long as she was there to make sure her little sister was happy and safe... it would mean it was all worth it.
 
 ["...we've got each other. I'll always protect you."](#embed:https://www.youtube.com/watch?v=2rnclFeQ5EM&t=1826s)
+
+## Fanart
+["Oath." by i](https://x.com/i/status/2059008438978457704)

@@ -102,6 +102,12 @@
 
 ## ファンアート
 
+["I am no Queen" by unknown](https://fixupx.com/fuyukaish1/status/2059097804585197883?s=20)
+
+["Say my name" by kirayvacuo](https://x.com/kirayvacuo/status/2058907408861466824)
+
+["Tam is so traumatized..." by headlessmiku](https://x.com/headlessmiku/status/2058766304472113554)
+
 ["Tam’s new pet" by i](https://x.com/i/status/2058838173405622639)
 
 ["Tam" by yuutomeh97](https://x.com/yuutomeh97/status/2058839249235886278)

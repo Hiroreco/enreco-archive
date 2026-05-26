@@ -57,4 +57,10 @@
 
 ## ファンアート
 
+["Lets try again" by gaby_joestar](https://x.com/gaby_joestar/status/2059100327647801566?s=20)
+
+["Drowning" by keenbiscuit](https://x.com/keenbiscuit/status/2059040156766839196?s=20)
+
+<!-- calli, bijou, shiori -->
+
 ["This is not a fairytale" by seapupu290495](https://x.com/seapupu290495/status/2058935583066714281)

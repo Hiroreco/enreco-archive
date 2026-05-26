@@ -29,6 +29,8 @@ Upon [discovering Mordon Ramsay's restaurant](https://www.youtube.com/watch?v=Vu
 
 ## Fanart
 
+["Bijou" by uocasan](https://x.com/uocasan/status/2058720134844600540)
+
 ["The uhh...house..." by robomb1192](https://x.com/robomb1192/status/2058856966961951126)
 
 ["Bijou" by v1v1anite](https://x.com/v1v1anite/status/2058498520525500750)

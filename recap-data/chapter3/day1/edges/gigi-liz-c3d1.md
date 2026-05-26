@@ -31,4 +31,8 @@ The decision of which side to stand on had been made in mere moments, yet the fr
 
 ## Fanart
 
+["It is for dramatic effect" by koizumi_arata](https://x.com/koizumi_arata/status/2059050759459606925)
+
+<!-- Ina -->
+
 ["Where your loyalty lies" by sticker_sr](https://x.com/sticker_sr/status/2058797645305373150)
