@@ -100,6 +100,50 @@
             "sourceUrl": "/audio/songs/ingame/ingame-yukyu-no-narrator.mp3",
             "coverUrl": "/images-opt/song-chapter-2-opt.webp",
             "duration": "01:48"
+        },
+        {
+            "title": "Fall-Winter",
+            "info": {
+                "en": "Prolouge Theme (Chapter 3)",
+                "ja": "プロローグテーマ（第3章）"
+            },
+            "originalUrl": "https://audiostock.net/tracks/38841",
+            "sourceUrl": "/audio/songs/ingame/ingame-fall-winter.mp3",
+            "coverUrl": "/images-opt/song-chapter-3-opt.webp",
+            "duration": "02:02"
+        },
+        {
+            "title": "Freedom on the Sea",
+            "info": {
+                "en": "Rebellion Guild Theme (Chapter 3)",
+                "ja": "反乱ギルドのテーマ（第3章）"
+            },
+            "originalUrl": "https://audiostock.net/tracks/50218",
+            "sourceUrl": "/audio/songs/ingame/ingame-freedom-on-the-sea.mp3",
+            "coverUrl": "/images-opt/song-chapter-3-opt.webp",
+            "duration": "02:35"
+        },
+        {
+            "title": "Victims Who Know the Truth about the God of Lies",
+            "info": {
+                "en": "Wilderness Theme (Chapter 3)",
+                "ja": "荒野のテーマ（第3章）"
+            },
+            "originalUrl": "https://audiostock.net/tracks/963293",
+            "sourceUrl": "/audio/songs/ingame/ingame-victims-who-know-the-truth-about-the-god-of-lies.mp3",
+            "coverUrl": "/images-opt/song-chapter-3-opt.webp",
+            "duration": "03:06"
+        },
+        {
+            "title": "A Song that Imagines a Prison",
+            "info": {
+                "en": "Terminus Theme (Chapter 3)",
+                "ja": "Terminusのテーマ（第3章）"
+            },
+            "originalUrl": "https://audiostock.net/tracks/959892",
+            "sourceUrl": "/audio/songs/ingame/ingame-a-song-that-imagines-a-prison.mp3",
+            "coverUrl": "/images-opt/song-chapter-3-opt.webp",
+            "duration": "00:59"
         }
     ],
     "stream": [
