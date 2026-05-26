@@ -1,6 +1,6 @@
 <!-- title: The Labyrinth of Knowledge and Pets -->
 
-## Day 2: The Labyrinth of Knowledge and Pets
+## Day 2: A Calm Day In Disguise
 
 The first dungeon of this journey, the **Labyrinth of Knowledge,** has finally opened for the heroes to once again experience the joy of falling to their doom while solving puzzles that somehow take far longer than necessary. In fairness, when a group of five people collectively operates on roughly four braincells, complications are inevitable.
 
