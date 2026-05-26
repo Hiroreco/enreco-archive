@@ -1,5 +1,4 @@
 <!-- title: Bijou the Stained -->
-
 <!-- status: Alive -->
 
 The day begins for our Stain Princess with a case of the sniffles. It appears that overnight, she had gained some sort of affliction that would linger over her for the day. No matter. She pushes forward, greeting her fellow members of the Rebellion with a good morning, in particular including one Roa. (See: [Bijou-Roa](#edge:bijou-raora))

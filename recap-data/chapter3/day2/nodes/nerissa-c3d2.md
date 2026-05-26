@@ -3,11 +3,11 @@
 
 **Double, Double Toil and Trouble**
 
-It was all but routine—rise early, toil in the garden, complete the [quests](https://youtu.be/JixD1DhcNgc?t=2147) for the day. She had experienced all of it before, in the past two worlds she had been in. And for the third time, she apparently perfected each of them. 
+It was all but routine—rise early, toil in the garden, complete the [quests](https://youtu.be/JixD1DhcNgc?t=2147) for the day. She had experienced all of it before, in the past two worlds she had been in. And for the third time, she apparently perfected each of them.
 
-For Nerissa Juliet, it was important to be intentional. 
+For Nerissa Juliet, it was important to be intentional.
 
-Today, the goal was to amass a large sum of money: [10,000 coins](https://youtu.be/JixD1DhcNgc?t=1052) to be exact. For whatever reason, we were left clueless. Perhaps she was saving for something expensive. Maybe it just felt good to look at. Or... possibly, she was preparing a hefty capital for her vices (i.e., gambling). *wink*
+Today, the goal was to amass a large sum of money: [10,000 coins](https://youtu.be/JixD1DhcNgc?t=1052) to be exact. For whatever reason, we were left clueless. Perhaps she was saving for something expensive. Maybe it just felt good to look at. Or... possibly, she was preparing a hefty capital for her vices (i.e., gambling). _wink_
 
 As she went about her day, she crossed paths with the other heroes: [NinoIna](https://youtu.be/JixD1DhcNgc?t=2222) and her new pet, and [Stained Bijou and Roa](https://youtu.be/JixD1DhcNgc?t=2655) at the Mission Board. She inquired about how Roa coped with the death of her late wife and learned that a service was being planned in memory of her. She then extended her condolences and eagerness to join the occasion.
 
@@ -15,9 +15,9 @@ She was about to part ways with them when Roa asked if she could [buy some food 
 
 Hard work definitely paid off!
 
-----
+---
 
-Satisfied with her sales, she decided to visit her home, or rather, Lady Bloodflame's, where she had her spacious loft. (If you think about it, she's practically *on top of her*. It didn't mean anything, surely.)
+Satisfied with her sales, she decided to visit her home, or rather, Lady Bloodflame's, where she had her spacious loft. (If you think about it, she's practically _on top of her_. It didn't mean anything, surely.)
 
 Lady Bloodflame seemed surprised, but it was her princess anyway, so she didn't really mind. In fact, she seemed rather pleased that she would be able to monitor her with ease. Fumbling as she always had, she bade goodbye to her maiden and went out for fishing.
 
@@ -29,12 +29,13 @@ The accidental meeting with Gonathon brought up a very "out of this world" topic
 
 She likened the series to their current situation. Set in medieval times, the power struggle between factions was apparent, as experienced in Modern Libestal too.
 
-Indeed, if Libestal were Game of Thrones, the current Nerissa Juliet would fit the role of Cersei Lannister—cunning and manipulative, she'd do whatever it takes to survive and gain power. *Laughs in evil*
+Indeed, if Libestal were Game of Thrones, the current Nerissa Juliet would fit the role of Cersei Lannister—cunning and manipulative, she'd do whatever it takes to survive and gain power. _Laughs in evil_
 
 ---
+
 [**It's Better if You Don't Know that I Know You Know what I Know**](#embed:https://youtu.be/JixD1DhcNgc?t=5821)
 
-Now, it was time to face the main quest for the day. Nerissa Juliet, along with her beloved Knight, Sister Shiori, and the Twins, Fuwawa and Lil Witch Mococo, journeyed to the Terminus to seek the Outsider. 
+Now, it was time to face the main quest for the day. Nerissa Juliet, along with her beloved Knight, Sister Shiori, and the Twins, Fuwawa and Lil Witch Mococo, journeyed to the Terminus to seek the Outsider.
 
 Transported to the dungeon, they were greeted by endless stacks of books. At the center lay an open door that teleported them to the actual Labyrinth of Knowledge.
 
@@ -50,7 +51,7 @@ When would it ever end? By chanting "Revelation" of course (in the flashback).
 
 **It's all coming back**
 
-Victorious, the team finally escaped the labyrinth. [Shiori gained her memories back](https://youtu.be/JixD1DhcNgc?t=9384), while Nerissa Juliet recalled some more fragments of her own past returning. 
+Victorious, the team finally escaped the labyrinth. [Shiori gained her memories back](https://youtu.be/JixD1DhcNgc?t=9384), while Nerissa Juliet recalled some more fragments of her own past returning.
 
 How... Lady Bloodflame, yes, how Lady Bloodflame had hurt her in their past lives. How she rejected her affections, accused her of being a witch...
 
