@@ -3,4 +3,4 @@
 
 <!-- description -->
 
-Elizabeth Rose Bloodflame's daily journal entries during Chapter 2.
+Lady Elizabeth Bloodflame's daily journal entries during Chapter 2.

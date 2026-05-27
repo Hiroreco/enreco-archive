@@ -1,4 +1,4 @@
-<!-- title: Elizabeth Rose Bloodflame -->
+<!-- title: Lady Elizabeth Bloodflame -->
 <!-- status: Alive -->
 
 The journey thus far had been a strange one, to say the least.

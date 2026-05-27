@@ -1,4 +1,4 @@
-<!-- title: Elizabeth Smith Bloodflame -->
+<!-- title: Lady Elizabeth Bloodflame -->
 <!-- status: Alive -->
 
 **Are You Okay?**

@@ -1,4 +1,4 @@
-<!-- title: Elizabeth Rose Bloodflame -->
+<!-- title: Lady Elizabeth Bloodflame -->
 <!-- status: Alive -->
 
 Right as she was regaining her composure after a long slumber—ever since the battle against the corrupted King—Elizabeth suddenly found herself thrown into a place that somewhat resembled a library, where a cat named Fia greeted her and explained the current situation.

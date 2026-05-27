@@ -1,4 +1,4 @@
-<!-- title: Elizabeth Rose Bloodflame -->
+<!-- title: Lady Elizabeth Bloodflame -->
 <!-- status: Alive -->
 
 Today was set to be a simple one for Miss Bloodflame. Nothing grand or intense—just what she’d call a "guerrilla" adventure, aimed mostly at catching up on quests and general progress.
