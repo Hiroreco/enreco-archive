@@ -15,7 +15,7 @@ Nix is one who offers an escape from the painful reality she lives in. From bein
 
 But despite this disagreement, the two are deeply bonded. Not even romance can break their Bromance.
 
-Gonathan believes in the bond he and The Peasant Bae has. That Bae can be the bigger person that may inspire Immerkind to follow her.
+Gonathan believes in the bond he and The Peasant Bae have. That Bae can be the bigger person who may inspire Immerkind to follow her.
 
 ## Fanart
 

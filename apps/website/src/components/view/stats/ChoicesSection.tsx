@@ -11,7 +11,7 @@ import {
 } from "@enreco-archive/common-ui/components/dialog";
 import { useTranslations } from "next-intl";
 import { useState } from "react";
-import { talentById, TRACKER_DATA } from "./data";
+import { getTalentForDay, TRACKER_DATA } from "./data";
 import { MemberAvatar } from "./MemberAvatar";
 import type { Choice, ChoiceType, LocalizedString } from "./types";
 import { Button } from "@enreco-archive/common-ui/components/button";
@@ -64,10 +64,12 @@ function OpinionModal({
     choice,
     open,
     onOpenChange,
+    currentDay,
 }: {
     choice: Choice;
     open: boolean;
     onOpenChange: (open: boolean) => void;
+    currentDay: number;
 }) {
     const tCommon = useTranslations("common");
     const locale = useSettingStore((state) => state.locale);
@@ -84,7 +86,7 @@ function OpinionModal({
                 </DialogDescription>
                 <div className="flex flex-col gap-2  max-h-[70dvh] overflow-y-auto px-2">
                     {opinions.map((entry) => {
-                        const talent = talentById(entry.talent);
+                        const talent = getTalentForDay(entry.talent, currentDay);
                         if (!talent) return null;
                         return (
                             <div
@@ -121,7 +123,7 @@ function OpinionModal({
     );
 }
 
-function OpinionBody({ choice }: { choice: Choice }) {
+function OpinionBody({ choice, currentDay }: { choice: Choice; currentDay: number }) {
     const locale = useSettingStore((state) => state.locale);
     const t = useTranslations("modals.stats");
     const [modalOpen, setModalOpen] = useState(false);
@@ -133,7 +135,7 @@ function OpinionBody({ choice }: { choice: Choice }) {
         <>
             <div className="flex flex-col gap-1.5">
                 {visible.map((entry) => {
-                    const talent = talentById(entry.talent);
+                    const talent = getTalentForDay(entry.talent, currentDay);
                     if (!talent) return null;
                     return (
                         <div
@@ -173,12 +175,13 @@ function OpinionBody({ choice }: { choice: Choice }) {
                 choice={choice}
                 open={modalOpen}
                 onOpenChange={setModalOpen}
+                currentDay={currentDay}
             />
         </>
     );
 }
 
-function BarBody({ choice }: { choice: Choice }) {
+function BarBody({ choice, currentDay }: { choice: Choice; currentDay: number }) {
     const locale = useSettingStore((state) => state.locale);
     const options = choice.options ?? [];
     const totalVotes = options.reduce((s, o) => s + o.members.length, 0);
@@ -188,9 +191,9 @@ function BarBody({ choice }: { choice: Choice }) {
             {options.map((opt, i) => {
                 const color = OPTION_COLORS[i % OPTION_COLORS.length];
                 const memberTalents = opt.members
-                    .map(talentById)
+                    .map((memberId) => getTalentForDay(memberId, currentDay))
                     .filter(Boolean) as NonNullable<
-                    ReturnType<typeof talentById>
+                    ReturnType<typeof getTalentForDay>
                 >[];
                 const label = getLocalizedText(opt.label, locale);
 
@@ -210,7 +213,7 @@ function BarBody({ choice }: { choice: Choice }) {
     );
 }
 
-function ChoiceCard({ choice }: { choice: Choice }) {
+function ChoiceCard({ choice, currentDay }: { choice: Choice; currentDay: number }) {
     const locale = useSettingStore((state) => state.locale);
     return (
         <div className="border rounded-xl p-4 flex flex-col gap-3">
@@ -220,9 +223,9 @@ function ChoiceCard({ choice }: { choice: Choice }) {
             </p>
 
             {choice.type === "opinion" ? (
-                <OpinionBody choice={choice} />
+                <OpinionBody choice={choice} currentDay={currentDay} />
             ) : (
-                <BarBody choice={choice} />
+                <BarBody choice={choice} currentDay={currentDay} />
             )}
         </div>
     );
@@ -239,18 +242,21 @@ export function ChoicesSection({ choices, currentDay }: ChoicesSectionProps) {
     // Find latest day with choices if current day has none
     const hasData = choices.length > 0;
     let fallbackData: Choice[] | null = null;
+    let fallbackDay = -1;
 
     if (!hasData) {
         for (let day = currentDay - 1; day >= 1; day--) {
             const dayData = TRACKER_DATA[day];
             if (dayData && dayData.choices.length > 0) {
                 fallbackData = dayData.choices;
+                fallbackDay = day;
                 break;
             }
         }
     }
 
     const displayData = hasData ? choices : fallbackData;
+    const dataDay = hasData ? currentDay : fallbackDay;
 
     if (!displayData || displayData.length === 0) {
         return null; // No data found even in fallback
@@ -276,7 +282,11 @@ export function ChoicesSection({ choices, currentDay }: ChoicesSectionProps) {
                 }`}
             >
                 {displayData.map((choice) => (
-                    <ChoiceCard key={choice.id} choice={choice} />
+                    <ChoiceCard
+                        key={choice.id}
+                        choice={choice}
+                        currentDay={dataDay}
+                    />
                 ))}
             </div>
         </section>

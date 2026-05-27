@@ -7281,18 +7281,6 @@
     "type": "art"
   },
   {
-    "url": "https://x.com/toasty771/status/2059138043001639373",
-    "label": "\"look me in the eyes and tell me\"",
-    "author": "toasty771",
-    "chapter": 2,
-    "day": 1,
-    "characters": [
-      "bijou",
-      "gigi"
-    ],
-    "type": "art"
-  },
-  {
     "url": "https://x.com/tem_z0/status/2059248896984199561",
     "label": "\"Gonathon\"",
     "author": "tem_z0",
@@ -7351,6 +7339,17 @@
     "day": 1,
     "characters": [
       "bijou"
+    ],
+    "type": "art"
+  },
+  {
+    "url": "https://x.com/toasty771/status/2059138043001639373",
+    "label": "\"mordan and gourmet potato salad\"",
+    "author": "toasty771",
+    "chapter": 2,
+    "day": 1,
+    "characters": [
+      "calli"
     ],
     "type": "art"
   },

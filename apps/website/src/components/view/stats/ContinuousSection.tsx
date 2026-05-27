@@ -1,5 +1,5 @@
 import type { ContinuousChoice, DayData, LocalizedString } from "./types";
-import { talentById, TALENTS } from "./data";
+import { getTalentForDay, TALENTS } from "./data";
 import { SectionLabel } from "@/components/view/stats/TeamSection";
 import { StatBar } from "@/components/view/stats/StatBar";
 import { ContinuousSummary } from "@/components/view/stats/ContinuousSummary";
@@ -48,6 +48,7 @@ export function ContinuousSection({
         }
     }
 
+    const dataDay = hasData ? currentDay : fallbackDay;
     const displayData = hasData ? continuous : fallbackData;
 
     if (!displayData || displayData.length === 0) {
@@ -102,9 +103,11 @@ export function ContinuousSection({
                                             : undefined;
 
                                     const memberTalents = opt.members
-                                        .map(talentById)
+                                        .map((memberId) =>
+                                            getTalentForDay(memberId, dataDay),
+                                        )
                                         .filter(Boolean) as NonNullable<
-                                        ReturnType<typeof talentById>
+                                        ReturnType<typeof getTalentForDay>
                                     >[];
 
                                     const label = getLocalizedText(

@@ -91,6 +91,12 @@ _インクウェル教会。_
 
 その日の成果に満足した優しきシスターは、ようやく静かに眠りへ就くのだった。
 
+...
+
+シャキーラの墓を掘り返した挙句、その遺体を盗み出していたのだ。
+
+[ちょっとしたイタズラってやつ](#embed:https://www.youtube.com/watch?t=9012&v=vRVwJrdNzGk)
+
 ## ファンアート
 
 ["Pixel Shiori" by okunashi27](https://x.com/okunashi27/status/2059224755480494511)
