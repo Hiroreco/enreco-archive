@@ -3,7 +3,7 @@ import { MemberAvatar } from "@/components/view/stats/MemberAvatar";
 import { AnimatePresence, motion } from "framer-motion";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
-import { talentById } from "./data";
+import { getTalentForDay } from "./data";
 import { SectionLabel } from "./TeamSection";
 import type { TeamData } from "./types";
 
@@ -59,7 +59,7 @@ export function FactionsSection({
                                 <div className="flex flex-wrap gap-1.5">
                                     <AnimatePresence>
                                         {unique.map((id) => {
-                                            const talent = talentById(id);
+                                            const talent = getTalentForDay(id, currentDay);
                                             return talent ? (
                                                 <motion.div
                                                     key={id}
