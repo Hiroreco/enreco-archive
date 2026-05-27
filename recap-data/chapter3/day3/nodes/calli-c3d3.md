@@ -1,5 +1,4 @@
 <!-- title: Mordon Ramsay -->
-
 <!-- status: Alive -->
 
 Mordon Ramsay did not have an "active POV" on this particular day, though that hardly spared her from the usual chaos constantly surrounding her existence, especially the accusations that had haunted her ever since the very first day.
