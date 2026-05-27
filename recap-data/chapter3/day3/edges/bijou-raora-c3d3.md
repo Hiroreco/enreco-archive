@@ -1,5 +1,5 @@
-<!-- title: The Enlightened --> 
-<!-- relationship: Alliance --> 
+<!-- title: The Enlightened -->
+<!-- relationship: Alliance -->
 
 Early in the morning, Bijou [makes a call](https://www.youtube.com/watch?v=3iXshLxO3-E&t=3945) to Roa, inquiring about what she had accomplished the previous night. Roa informs Bijou that she had escaped again and also that she had made Shiori aware of her capability to go beyond the borders of the world.
 

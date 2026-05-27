@@ -3,7 +3,7 @@
 
 Something was wrong.
 
-From the moment Mococo woke up for her third day as the best (and only) jeweler in Libestal, she was already a little frustrated. How come Sister Shiori and Nerissa seemed... [a little unsatisfied with her work?](https://www.youtube.com/live/AQ80hyGfzxI?si=g8h3CsYbwcXO0UTO&t=519) She doesn't understand; they can't get their charms from anywhere else, and she puts so much effort into them. What right do they have to complain? So what if they're still "Basic"?! She's giving them really good deals, y'know!! 
+From the moment Mococo woke up for her third day as the best (and only) jeweler in Libestal, she was already a little frustrated. How come Sister Shiori and Nerissa seemed... [a little unsatisfied with her work?](https://www.youtube.com/live/AQ80hyGfzxI?si=g8h3CsYbwcXO0UTO&t=519) She doesn't understand; they can't get their charms from anywhere else, and she puts so much effort into them. What right do they have to complain? So what if they're still "Basic"?! She's giving them really good deals, y'know!!
 
 But it's not like it'll be a problem, aha. The charm monopoly is all hers! She won't have to worry about silly things like market space.
 
@@ -29,7 +29,7 @@ Once she split off from him, she met up with Knight Immerkind to mine together. 
 
 [It's very effective magic, you know.](#embed:https://www.youtube.com/live/AQ80hyGfzxI?si=bl1Y8Dnk7alMfdeZ&t=2932)
 
-Finally, it was time for the little witch to brave the daily big adventure. But... forming a party this time around [wasn't super easy](https://www.youtube.com/live/AQ80hyGfzxI?si=uzav9sctDuldR1GL&t=4283). She had agreed to go with Sister Shiori, but she also wanted to go with her own sister! Unfortunately, the knight was already partying with Nerissa Juliet, and her current party had four people in it. She had to choose one or the other. Lady Bloodflame wasn't super keen on letting her around Mordon Ramsay, but... a promise was a promise. 
+Finally, it was time for the little witch to brave the daily big adventure. But... forming a party this time around [wasn't super easy](https://www.youtube.com/live/AQ80hyGfzxI?si=uzav9sctDuldR1GL&t=4283). She had agreed to go with Sister Shiori, but she also wanted to go with her own sister! Unfortunately, the knight was already partying with Nerissa Juliet, and her current party had four people in it. She had to choose one or the other. Lady Bloodflame wasn't super keen on letting her around Mordon Ramsay, but... a promise was a promise.
 
 The sisters went their own ways as Mococo joined Sister Shiori, Mordon Ramsay, and Fuwawa in the Labyrinth of Emotion. There were many puzzles along the way, but the highlights for her were definitely the many emotion-themed rooms along the way! Their party would work through the perils of the heart, and together, they recovered the memories of the Imprisoned Jewel, [Koseki Bijou.](https://www.youtube.com/live/AQ80hyGfzxI?si=ZjVBjvmjYvj-QZgf&t=6673)
 
