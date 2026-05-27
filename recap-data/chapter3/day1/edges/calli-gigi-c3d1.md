@@ -14,3 +14,7 @@ But then wolf got into trouble. Wolf accused of killing [orange bird](https://ww
 But true wolf bond strong. Wolf never abandon wolf. Pack stay together forever. No matter what.
 
 [Woof awoo woof woof](#embed:https://www.youtube.com/watch?v=ZSkPr-qXud0&t=13588)
+
+## Fanart
+
+["Mordan Ramsay has me" by watashigazza](https://x.com/watashigazza/status/2059577916804231521)

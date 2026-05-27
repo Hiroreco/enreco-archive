@@ -80,9 +80,10 @@ _そんなこと、あり得るの？_
 そして次の日が静かに近づく中、ロアは今日もまた、誰も見ようとしない真実を背負いながら歩み続けるのだった。
 
 ## ファンアート
+
 ["Sniffler" by v1r4yl1](https://x.com/v1r4yl1/status/2059376636164706483)
 
-["find the truth" by yani111_](https://x.com/yani111_/status/2059491246838607961)
+["find the truth" by yani111\_](https://x.com/yani111_/status/2059491246838607961)
 
 ["REVOLUTION!!!!" by saltedfishc](https://x.com/saltedfishc/status/2059541894456291833)
 

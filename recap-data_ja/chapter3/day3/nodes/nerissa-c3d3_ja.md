@@ -105,6 +105,7 @@ Boom Shakalah kalah, hips don't lie.
 「……そもそも、私は最初から人間じゃなかったのかもしれない」
 
 ## ファンアート
+
 ["Foul Art Thou Witch" by blaparky](https://x.com/blaparky/status/2059655528809394188)
 
 ["Give in." by yeyas_ink](https://x.com/yeyas_ink/status/2059599142205440080)

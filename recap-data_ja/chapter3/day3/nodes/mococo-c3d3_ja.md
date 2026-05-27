@@ -56,4 +56,5 @@
 ……それに、チャーム1個1000コインって安いからね！？ マジで！！！
 
 ## ファンアート
+
 ["Pixel Mococo" by okunashi27](https://x.com/okunashi27/status/2059583707191951364)

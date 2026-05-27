@@ -18,6 +18,7 @@
 [神々の怒り](embed:https://www.youtube.com/watch?v=J8CAzdF1qb4&t=10369)
 
 ## ファンアート
+
 ["And you are?" by dreamplanes256](https://x.com/dreamplanes256/status/2059590123571089495)
 
 ["My queen..." by _hydrawxyl_](https://x.com/_hydrawxyl_/status/2059280317782126859)

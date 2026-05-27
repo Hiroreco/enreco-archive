@@ -61,4 +61,5 @@
 所持金: 4037コイン。
 
 ## ファンアート
-["peasant and the bear" by _nontann](https://x.com/_nontann/status/2059440692779434161)
+
+["peasant and the bear" by \_nontann](https://x.com/_nontann/status/2059440692779434161)

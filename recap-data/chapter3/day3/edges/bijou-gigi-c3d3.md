@@ -25,6 +25,10 @@ Despite Bijou's riddle proving to be insurmountable at a glance, Gonathon remain
 
 ## Fanart
 
+["THE cinema" by h0_pj](https://x.com/h0_pj/status/2059651484032348617)
+
+<!-- raora, ina, mococo -->
+
 ["we are enemies" by domaincelestia](https://x.com/domaincelestia/status/2059415586367557843)
 
 ["The plot thickens..." by chalek0](https://x.com/chalek0/status/2059514485879017845)

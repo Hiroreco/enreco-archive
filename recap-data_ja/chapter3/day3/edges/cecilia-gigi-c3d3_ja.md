@@ -22,6 +22,7 @@
 こうして一日の終わり、ネリッサ・ジュリエットが再び近づいてきたことを察したイマーキンドは、慌ててゴナソンへ警告を送るのだった（詳細は[Immerkind-Juliet](#edge:cecilia-nerissa)を参照）。
 
 ## ファンアート
+
 ["well at least..." by rando_zlink](https://x.com/rando_zlink/status/2059367280954560799)
 
 ["Orb" by enefwastaken](https://x.com/enefwastaken/status/2059497770826834152)

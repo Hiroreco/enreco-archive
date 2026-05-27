@@ -77,6 +77,7 @@
 ――もしかすると、今必要なのは、ただ静かに眠ることなのかもしれなかった。
 
 ## ファンアート
+
 ["Are you alright?" by weirdohere74942](https://x.com/weirdohere74942/status/2059563601355248087)
 
 ["You look a bit pale" by frostowolf](https://x.com/frostowolf/status/2059602690309857767)
