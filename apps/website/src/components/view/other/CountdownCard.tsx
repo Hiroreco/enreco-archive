@@ -8,27 +8,18 @@ import { useEffect, useRef, useState } from "react";
 
 // --- IMPORTANT ---
 // Change this value for each new countdown to trigger the animation for users again.
-const CURRENT_DAY = 2;
+const CURRENT_DAY = 3;
 const CURRENT_COUNTDOWN_VERSION = `c3d${CURRENT_DAY}`;
 
 // REMEMBER TO SET THIS TO FALSE AFTER THE UPDATE IS UP AND VICE VERSA
-const IS_VISIBLE = false;
+const IS_VISIBLE = true;
 
-// Returns the next occurrence of 2 AM JST (= 17:00 UTC).
-// Only called ONCE to set the target — not re-called on every tick.
-function getTargetDate(): Date {
-    const now = new Date();
-    const target = new Date(now);
-    target.setUTCHours(17, 0, 0, 0);
-    if (target <= now) {
-        target.setUTCDate(target.getUTCDate() + 1);
-    }
-    return target;
-}
+// Fixed target: May 28 2026, 2:00 AM JST = May 27 2026, 17:00 UTC
+const TARGET_DATE = new Date("2026-05-27T17:00:00.000Z");
 
-function getTimeLeft(target: Date) {
+function getTimeLeft() {
     const now = new Date();
-    const diff = target.getTime() - now.getTime();
+    const diff = TARGET_DATE.getTime() - now.getTime();
     if (diff <= 0) return null;
 
     const totalSeconds = Math.floor(diff / 1000);
@@ -47,11 +38,7 @@ const CountdownCard = ({ isInLoadingScreen }: CountdownCardProps) => {
     const t = useTranslations("countdownCard");
     const [isOpen, setIsOpen] = useState(false);
 
-    // Target is fixed on mount — never recomputed, so countdown stops at zero
-    const targetRef = useRef<Date>(getTargetDate());
-    const [timeLeft, setTimeLeft] = useState(() =>
-        getTimeLeft(targetRef.current),
-    );
+    const [timeLeft, setTimeLeft] = useState(() => getTimeLeft());
 
     const currentCard = useViewStore((state) => state.currentCard);
     const hasVisitedBefore = usePersistedViewStore(
@@ -107,7 +94,7 @@ const CountdownCard = ({ isInLoadingScreen }: CountdownCardProps) => {
     useEffect(() => {
         if (!timeLeft) return;
         const interval = setInterval(() => {
-            const newTimeLeft = getTimeLeft(targetRef.current);
+            const newTimeLeft = getTimeLeft();
             setTimeLeft(newTimeLeft);
             if (!newTimeLeft) clearInterval(interval);
         }, 1000);
