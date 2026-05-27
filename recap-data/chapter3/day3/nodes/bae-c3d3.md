@@ -13,7 +13,7 @@ Gonathon expressed his doubts, remembering the trying times Bae went through; Im
 
 A series of emotions went through Bae as she spoke to Immerkind: elation that Immerkind remembered the promise and absolute [despair](https://youtu.be/JAibEhH7R1E?t=733) when she mentioned inviting Roa to their promised time together.
 
-Nonetheless, Gonathon pushed Bae forward, encouraging her to be a little reckless. For that is how you win a fair maiden who is in love with a plushed cat. With Recklessness. (See: [Bae-Gigi](#embed:bae-gigi))
+Nonetheless, Gonathon pushed Bae forward, encouraging her to be a little reckless. For that is how you win a fair maiden who is in love with a plushed cat. With Recklessness. (See: [Bae-Gigi](#edge:bae-gigi))
 
 Luckily, her Brother-in-arms Gonathon had a plan. He invited another, Kouseki Bijou, to distract Roa so Bae and Cecilia can spend time together.
 
@@ -31,7 +31,7 @@ Before further misunderstandings occurred, [Cecilia expressed disappointment](ht
 
 Heart in her throat, Bae was relieved to hear that Gonathon was somehow able to convince Roa and that the four of them will go. [Alone.](https://youtu.be/JAibEhH7R1E?t=3703)
 
-With a Cheer from Roa, Bae and Immerkind headed towards the dungeon together. (See: [Bae-Cecelia](#embed:bae-cecilia))
+With a Cheer from Roa, Bae and Immerkind headed towards the dungeon together. (See: [Bae-Cecelia](#edge:bae-cecilia))
 
 The two showed great synergy as they worked through the dungeon together, going through each room of emotion. Joy, sorrow, fun, and anger. The duo experienced each of emotion as they faced each thril. [Especially anger](https://youtu.be/JAibEhH7R1E?t=7006).
 
