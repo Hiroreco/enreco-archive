@@ -78,3 +78,11 @@ Anger, melancholy, disgust, and joy—these various emotions, both beautiful and
 Nerissa Juliet wondered. Was it because she had now become a Witch? Was this the cost of abandoning her humanity? Or perhaps...
 
 "...I was never human to begin with."
+
+## Fanart
+
+["Foul Art Thou Witch" by blaparky](https://x.com/blaparky/status/2059655528809394188)
+
+["Give in." by yeyas_ink](https://x.com/yeyas_ink/status/2059599142205440080)
+
+["Woe is Juliet" by lordjoeboto](https://x.com/lordjoeboto/status/2059537223049953523)

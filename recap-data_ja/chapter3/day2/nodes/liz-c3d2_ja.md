@@ -153,6 +153,10 @@
 
 ## ファンアート
 
+["whimsy gone" by blueplankton](https://x.com/blueplankton/status/2059312471358476736)
+
+["You want some potato salad?" by _somero_](https://x.com/_somero_/status/2059305040570163655)
+
 ["Then" by the_inuhoshi](https://x.com/the_inuhoshi/status/2059038197053595896)
 
 <!-- mococo -->

@@ -77,3 +77,19 @@ A non-euclidean cube of glass floating silently in the air.
 Roa carefully inspects the object before ultimately deciding to return to town [voluntarily](https://www.youtube.com/watch?v=MGo9h3BNyj0&t=14630), fearing that lingering too long might attract the suspicions of the powers lurking beyond reality itself.
 
 And so, as the next day slowly approaches, Roa continues onward, burdened by truths no one else wishes to see.
+
+## Fanart
+
+["Sniffler" by v1r4yl1](https://x.com/v1r4yl1/status/2059376636164706483)
+
+["find the truth" by yani111\_](https://x.com/yani111_/status/2059491246838607961)
+
+["REVOLUTION!!!!" by saltedfishc](https://x.com/saltedfishc/status/2059541894456291833)
+
+["They're always watching" by chiipzzer](https://x.com/chiipzzer/status/2059576190101258283)
+
+["HAHAHAHAHAHAHAHA" by yazawayukine](https://x.com/yazawayukine/status/2059609045431140645)
+
+["She saw the sheep." by ahriyamna](https://x.com/ahriyamna/status/2059603376845771251)
+
+["Illumination" by snoweagle110](https://x.com/snoweagle110/status/2059481760174596139)

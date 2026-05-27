@@ -28,3 +28,7 @@ Fearful of the church's intentions, Ina decided to step back from the sermon and
 Wanting to know more, Ina chose to attend the sermon in secret, using an invisibility potion she had fished up prior, and with the aid of her sister, who covered for her when her cover was close to being [blown](https://www.youtube.com/watch?v=GzBAUkX8-r0&t=11266s). But the potion ran out too quickly, and Ina had to dash. Returning with more potions, Ina learnt that the entire thing was an attempt to blame Mordon Ramsay for the death of Shakira.
 
 After a few [close calls](https://www.youtube.com/watch?v=GzBAUkX8-r0&t=11698s), Ina managed to sneak away and collect her thoughts before continuing on her quest for the Amulet of Levitation. She gave over the charms and was immediately met with demands for Gourmet Savoury Fish Soup. After handing the soup to Maaz—and avoiding any "spillage"—Ina finally acquired the amulet before submitting some charms to the community center as her last act of the day.
+
+## Fanart
+
+["Popcorn" by ddolbang11](https://x.com/ddolbang11/status/2059494180062421330)

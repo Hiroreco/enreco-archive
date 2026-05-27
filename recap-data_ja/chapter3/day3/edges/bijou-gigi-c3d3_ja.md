@@ -81,3 +81,8 @@
 だが悠長に構えている時間はない。
 
 最終決戦まで、残された日はあと二日しかなかったのだから。
+
+## ファンアート
+["we are enemies" by domaincelestia](https://x.com/domaincelestia/status/2059415586367557843)
+
+["The plot thickens..." by chalek0](https://x.com/chalek0/status/2059514485879017845)

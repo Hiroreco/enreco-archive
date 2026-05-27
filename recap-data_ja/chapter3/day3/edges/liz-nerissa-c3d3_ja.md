@@ -123,3 +123,14 @@
 一緒に酒を飲みながら話せば、残る不安もわだかまりも解消できるはずだ。
 
 ……一体、最悪の事態なんて何が起こるというのだろうか？
+
+## ファンアート
+["You serve the witch." by meyshi29](https://x.com/meyshi29/status/2059544824848711933)
+
+["Mirror" by prmkq_](https://x.com/prmkq_/status/2059562389524430989)
+
+["This" by rosai_avila98](https://x.com/rosai_avila98/status/2059593587130536036)
+
+["ugh" by mcrtj00](https://x.com/mcrtj00/status/2059551226426237297)
+
+["Nerissa is Listening" by the_dankwave](https://x.com/the_dankwave/status/2059526494523961399)

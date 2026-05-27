@@ -54,3 +54,7 @@ After the day was done and her treasures stashed once again, Bae wrote in her Jo
 [And mayhaps revealed her heart to Immerkind by accident when she spoke the words aloud](#embed:https://youtu.be/JAibEhH7R1E?t=12823)
 
 Coin count: 4037.
+
+## Fanart
+
+["peasant and the bear" by \_nontann](https://x.com/_nontann/status/2059440692779434161)

@@ -14,3 +14,8 @@
 夜になる頃、一行は“葬儀”が行われている教会を訪れる。そこでニノイナは、説教の目的そのものに不信感を抱いていること、さらに祈祷書の中に潜む不気味なカルト的空気についても率直に疑念を口にする（詳細は[Cecilia-Gigi](#edge:cecilia-gigi)を参照）。
 
 こうして夜が更け、イマーキンドは再び日記を書きながら一日を締めくくろうとしていた。しかし、平穏は最後まで訪れない。凍り付いた[ペイザン・ザ・ベイ](https://www.youtube.com/live/gDiqP1BVNXY?si=PZhj4DI_L9VQHIUU&t=16352)を目撃した騎士は、この世界で次々に起こる異変に圧倒されてしまう。失意の中、イマーキンドはその日を終え、せめて明日こそは、さらなる混乱ではなく答えが得られることを願いながら静かに身を引くのだった。
+
+## ファンアート
+["Immerkind" by tobemi_art](https://x.com/tobemi_art/status/2059557473455874200)
+
+["stupid chud son" by dumpstercatzz](https://x.com/dumpstercatzz/status/2059311958978105633)

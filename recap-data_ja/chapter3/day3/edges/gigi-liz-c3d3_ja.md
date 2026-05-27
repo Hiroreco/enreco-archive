@@ -75,3 +75,12 @@
 今の自分は、見た目も振る舞いも、かつての“自分らしさ”から少しずつ離れてしまっているのだと。
 
 ――もしかすると、今必要なのは、ただ静かに眠ることなのかもしれなかった。
+
+## ファンアート
+["Are you alright?" by weirdohere74942](https://x.com/weirdohere74942/status/2059563601355248087)
+
+["You look a bit pale" by frostowolf](https://x.com/frostowolf/status/2059602690309857767)
+
+["I like where this is going" by np_mango](https://x.com/np_mango/status/2059534010527760508)
+
+["Oaths" by np_mango](https://x.com/np_mango/status/2059381357814432030)

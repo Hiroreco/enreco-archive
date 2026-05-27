@@ -22,3 +22,9 @@ All was not lost however, as after a bit of reflection Bijou decided to make a w
 [What have I got in my pocket?](#embed:https://www.youtube.com/watch?v=3iXshLxO3-E&t=13780)
 
 Despite Bijou's riddle proving to be insurmountable at a glance, Gonathon remained resolute that he would be able to succeed and win over the ornery gem girl. Perhaps with Immerkind at his side the rock's riddle could be solved, but time was of the essence as there remained only two days left before the final confrontation.
+
+## Fanart
+
+["we are enemies" by domaincelestia](https://x.com/domaincelestia/status/2059415586367557843)
+
+["The plot thickens..." by chalek0](https://x.com/chalek0/status/2059514485879017845)

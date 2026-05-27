@@ -16,3 +16,9 @@ Guiding Tam by the hand to the location of the riddles, Gonathon’s attempts to
 While Tam would [next delve](https://www.youtube.com/watch?v=J8CAzdF1qb4&t=10489) into the day’s dungeon, Gonathon was unable to accompany her. Tasked with a number of burdensome duties, the queen’s most loyal knight was forced to take his leave. While Immerkind worked in the shadows after Gonathon’s departure to further their plot, it would seem that [yet another day](https://www.youtube.com/watch?v=J8CAzdF1qb4&t=12018) would pass with Tam still unable to touch the precious memories Gonathon yearned for her to remember.
 
 [Wrath of the Gods](#embed:https://www.youtube.com/watch?v=J8CAzdF1qb4&t=10369)
+
+## Fanart
+
+["And you are?" by dreamplanes256](https://x.com/dreamplanes256/status/2059590123571089495)
+
+["My queen..." by _hydrawxyl_](https://x.com/_hydrawxyl_/status/2059280317782126859)

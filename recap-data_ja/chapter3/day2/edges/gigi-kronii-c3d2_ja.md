@@ -16,3 +16,8 @@
 その後、タムは[次なる試練](https://www.youtube.com/watch?v=J8CAzdF1qb4&t=10489)として、その日のダンジョンへと挑むことになる。しかし、ゴナソンは彼女に同行することができなかった。数々の重責を背負うことになった女王の最も忠実な騎士は、やむを得ずその場を離れることになる。ゴナソンが去った後も、イマーキンドは密かに計画を進めていたが――結局のところ、[またしても](https://www.youtube.com/watch?v=J8CAzdF1qb4&t=12018)、タムがゴナソンの望む大切な記憶へ辿り着くことは叶わぬまま、一日が終わろうとしていた。
 
 [神々の怒り](embed:https://www.youtube.com/watch?v=J8CAzdF1qb4&t=10369)
+
+## ファンアート
+["And you are?" by dreamplanes256](https://x.com/dreamplanes256/status/2059590123571089495)
+
+["My queen..." by _hydrawxyl_](https://x.com/_hydrawxyl_/status/2059280317782126859)

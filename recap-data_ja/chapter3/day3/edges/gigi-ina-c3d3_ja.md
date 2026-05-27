@@ -16,3 +16,6 @@
 静かな暮らしを望んでいたはずのニノイナ。しかし第三の日、彼女の勇気ある行動はゴナソンだけでなく、シャイニングスターズ全員を救うこととなった。
 
 [彼女のアイロンもなかなか美味しい](#embed:https://www.youtube.com/watch?v=uLitDJpSaKQ&t=4759s)
+
+## ファンアート
+["They're losing it..." by blaparky](https://x.com/blaparky/status/2059495768705363994)

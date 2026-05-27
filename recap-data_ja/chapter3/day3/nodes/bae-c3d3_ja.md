@@ -59,3 +59,6 @@
 [そして、思わず口にしてしまった言葉で、イマーキンドへ自分の想いを漏らしてしまった……のかもしれない。](#embed:https://youtu.be/JAibEhH7R1E?t=12823)
 
 所持金: 4037コイン。
+
+## ファンアート
+["peasant and the bear" by _nontann](https://x.com/_nontann/status/2059440692779434161)

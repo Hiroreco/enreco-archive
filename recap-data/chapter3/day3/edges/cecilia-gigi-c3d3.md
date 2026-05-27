@@ -20,3 +20,9 @@ Yet the troubles of the day were far from over.
 Gonathon soon expresses his concerns regarding Lady BloodFlame’s growing relationship with Nerissa Juliet, particularly the disturbing changes [occurring to her eyes](https://www.youtube.com/live/gDiqP1BVNXY?si=fXg0K0MK_2fvjYDj&t=15593). Together, the two devise a plan to pull Nerissa Juliet away from the scarlet maiden. Unfortunately, the scheme quickly crumbles when Nerissa sees through their [deceit](https://www.youtube.com/live/gDiqP1BVNXY?si=brIJNd8eYtG0Na5O&t=15952) and abruptly departs.
 
 The day finally comes to a close with Immerkind hurriedly sending a warning to Gonathon as Nerissa Juliet approaches once more (see [Immerkind-Juliet](#edge:cecilia-nerissa)).
+
+## Fanart
+
+["well at least..." by rando_zlink](https://x.com/rando_zlink/status/2059367280954560799)
+
+["Orb" by enefwastaken](https://x.com/enefwastaken/status/2059497770826834152)

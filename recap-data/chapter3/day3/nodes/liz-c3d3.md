@@ -52,3 +52,11 @@ Lady Bloodflame accepts their offer and decides to trust them both with her life
 Is Lady Bloodflame’s life in safe hands? Is the sudden change in her eyes only a minor thing, or does it mean something much deeper?
 
 Lady Bloodflame, please remain who you are...
+
+## Fanart
+
+["ominous noise" by punikiart](https://x.com/punikiart/status/2059425719483044263)
+
+["Come back to your senses" by \_\_akkanen](https://x.com/__akkanen/status/2059630294249111785)
+
+["homophobia in its eyes" by hotchippyy](https://x.com/hotchippyy/status/2059620799116620107)

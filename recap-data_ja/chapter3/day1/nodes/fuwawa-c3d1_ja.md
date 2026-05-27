@@ -85,4 +85,6 @@
 
 ## ファンアート
 
+["our home?" by yomikakisan](https://x.com/yomikakisan/status/2059482313453670441)
+
 ["Horrible Horse" by soupppyyy](https://x.com/soupppyyy/status/2058768296451698770)

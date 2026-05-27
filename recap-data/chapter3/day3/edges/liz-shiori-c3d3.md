@@ -44,3 +44,7 @@ After that, immediately she started to question everyone on who had stolen the b
 A funeral requested by Roa, the wife of the deceased.
 
 The greatest miscommunication of the century.
+
+## Fanart
+
+["Evil tickle tickle tickle!" by sleepyyua](https://x.com/sleepyyua/status/2059493524073275753)

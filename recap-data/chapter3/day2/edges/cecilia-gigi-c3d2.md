@@ -37,6 +37,10 @@ In one final trial for the day, Immerkind admitted to having lied to accomplish 
 
 ## Fanart
 
+["Kind recognize kindness" by rikuje](https://x.com/rikuje/status/2059591111849758865)
+
+["ISEXY" by i](https://x.com/i/status/2059312471358476736)
+
 ["Gonathon" by tem_z0](https://x.com/tem_z0/status/2059248896984199561)
 
 <!-- shiori, kronii, ina -->

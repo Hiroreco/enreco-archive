@@ -78,3 +78,18 @@ _そんなこと、あり得るの？_
 ロアは慎重にその物体を観察する。しかし最終的には、あまり長居すれば現実の外側に潜む“何か”から疑念を向けられるかもしれないと恐れ、自らの意思で[街へ戻る](https://www.youtube.com/watch?v=MGo9h3BNyj0&t=14630)。
 
 そして次の日が静かに近づく中、ロアは今日もまた、誰も見ようとしない真実を背負いながら歩み続けるのだった。
+
+## ファンアート
+["Sniffler" by v1r4yl1](https://x.com/v1r4yl1/status/2059376636164706483)
+
+["find the truth" by yani111_](https://x.com/yani111_/status/2059491246838607961)
+
+["REVOLUTION!!!!" by saltedfishc](https://x.com/saltedfishc/status/2059541894456291833)
+
+["They're always watching" by chiipzzer](https://x.com/chiipzzer/status/2059576190101258283)
+
+["HAHAHAHAHAHAHAHA" by yazawayukine](https://x.com/yazawayukine/status/2059609045431140645)
+
+["She saw the sheep." by ahriyamna](https://x.com/ahriyamna/status/2059603376845771251)
+
+["Illumination" by snoweagle110](https://x.com/snoweagle110/status/2059481760174596139)

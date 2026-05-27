@@ -68,4 +68,6 @@ Oh, how pleasing it was to become a witch!
 
 ## Fanart
 
+["I wouldn't wish to hurt you" by duckmode_cz](https://x.com/duckmode_cz/status/2059345094332104796)
+
 ["The Hermit" by thekaiyip](https://x.com/thekaiyip/status/2059075890387341540)

@@ -98,3 +98,15 @@ With a quick pivot, Lady Bloodflame tried to ease the clear tension. Nerissa mad
 Surely, a drink together along with a discussion could resolve any lingering tensions and worries.
 
 What was the worst that could happen, after all?
+
+## Fanart
+
+["You serve the witch." by meyshi29](https://x.com/meyshi29/status/2059544824848711933)
+
+["Mirror" by prmkq\_](https://x.com/prmkq_/status/2059562389524430989)
+
+["This" by rosai_avila98](https://x.com/rosai_avila98/status/2059593587130536036)
+
+["ugh" by mcrtj00](https://x.com/mcrtj00/status/2059551226426237297)
+
+["Nerissa is Listening" by the_dankwave](https://x.com/the_dankwave/status/2059526494523961399)

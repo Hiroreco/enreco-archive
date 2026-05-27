@@ -34,3 +34,11 @@ Now alone with the fallen knight, Gonathon probed her defenses in order to find 
 It was then that a dark shadow descended, as Nerissa revealed herself. Realizing that Gonathon sought to undo the spell she had cast upon the hapless Bloodflame, Nerissa walked with Gonathon across the kingdom and engaged in what she referred to as a friendly [sparring match](https://www.youtube.com/watch?v=uLitDJpSaKQ&t=13589s). While Nerissa left Gonathon alone in the end, it was clear that the witch was not done with the humble knight just yet. Only time would tell what challenges awaited him.
 
 [The Knight's 3rd journal](#embed:https://www.youtube.com/watch?v=uLitDJpSaKQ&t=14071s)
+
+## Fanart
+
+["Gonathon" by squaredriceball](https://x.com/squaredriceball/status/2059539663489221093)
+
+["I'm so scared" by np_mango](https://x.com/np_mango/status/2059511535840453039)
+
+["Gonathon G" by anonamos_701](https://x.com/anonamos_701/status/2059432560959312117)

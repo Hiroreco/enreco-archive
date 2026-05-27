@@ -48,3 +48,13 @@ Smiling, Lady Bloodflame assured him that her path, though unusual with the Rebe
 There was a sense of relief talking about things with a comrade. But with that came the honest truth: she was not herself in looks or actions.
 
 Perhaps a night of rest was required.
+
+## Fanart
+
+["Are you alright?" by weirdohere74942](https://x.com/weirdohere74942/status/2059563601355248087)
+
+["You look a bit pale" by frostowolf](https://x.com/frostowolf/status/2059602690309857767)
+
+["I like where this is going" by np_mango](https://x.com/np_mango/status/2059534010527760508)
+
+["Oaths" by np_mango](https://x.com/np_mango/status/2059381357814432030)

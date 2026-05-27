@@ -51,3 +51,10 @@
 最終的にネリッサはゴナソンを見逃した。だが、魔女がまだ謙虚なる騎士へ執着していることは明らかだった。彼を待ち受ける次なる試練が何なのか――それを知るのは、まだ先のことである。
 
 [騎士の三日目の日誌](#embed:https://www.youtube.com/watch?v=uLitDJpSaKQ&t=14071s)
+
+## ファンアート
+["Gonathon" by squaredriceball](https://x.com/squaredriceball/status/2059539663489221093)
+
+["I'm so scared" by np_mango](https://x.com/np_mango/status/2059511535840453039)
+
+["Gonathon G" by anonamos_701](https://x.com/anonamos_701/status/2059432560959312117)

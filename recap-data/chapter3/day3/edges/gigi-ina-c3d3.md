@@ -16,3 +16,7 @@ This quick-thinking proved vital, as during [the ceremony](https://www.youtube.c
 Despite her desire to live a simple life, NinoIna's heroism on the third day saved not only Gonathon, but the entire Shining Stars as a whole.
 
 [Her iron also tastes pretty good](#embed:https://www.youtube.com/watch?v=uLitDJpSaKQ&t=4759s)
+
+## Fanart
+
+["They're losing it..." by blaparky](https://x.com/blaparky/status/2059495768705363994)

@@ -20,3 +20,8 @@
 やがてゴナソンは、レディ・ブラッドフレイムとネリッサ・ジュリエットの関係が深まっていることへの懸念を口にする。特に彼女の[瞳に起きている異変](https://www.youtube.com/live/gDiqP1BVNXY?si=fXg0K0MK_2fvjYDj&t=15593)は、どうしても見過ごせないものだった。そこで二人は、ネリッサ・ジュリエットを緋色の乙女から引き離そうと作戦を立てる。しかしその企みは、ネリッサに[嘘を見抜かれた](https://www.youtube.com/live/gDiqP1BVNXY?si=brIJNd8eYtG0Na5O&t=15952)ことであっけなく崩壊し、彼女はその場を立ち去ってしまう。
 
 こうして一日の終わり、ネリッサ・ジュリエットが再び近づいてきたことを察したイマーキンドは、慌ててゴナソンへ警告を送るのだった（詳細は[Immerkind-Juliet](#edge:cecilia-nerissa)を参照）。
+
+## ファンアート
+["well at least..." by rando_zlink](https://x.com/rando_zlink/status/2059367280954560799)
+
+["Orb" by enefwastaken](https://x.com/enefwastaken/status/2059497770826834152)

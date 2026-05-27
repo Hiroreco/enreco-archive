@@ -1,36 +1,20 @@
-cecilia-gigi-c3d2
-Gonathon
-https://x.com/Tem_Z0/status/2059248896984199561
-shiori, kronii, ina
+gigi-kronii-c3d2
+Poor Tam
+https://x.com/BlaParky/status/2059289999452127314
 
-cecilia-3d2
-Immerkinds most trusted ally!
-https://x.com/AlexuYoot/status/2059232005230125091
+recap-c3d2
+The Rebellion
+https://x.com/Chalek0/status/2059396208527888550
 
-liz-nerissa-c3d2
-cant forget the way you tatste
-https://x.com/Elisbian_/status/2043606158884393278
+calli-gigi-c3d1
+Mordan Ramsay has me
+https://x.com/WatashiGazza/status/2059577916804231521
 
-ina-c3d2
-river prince is REAL!!
-https://x.com/shutowl/status/2059188328856211612
+ceciia-gigi-c3d3
+calm before the storm
+https://x.com/EK96290589/status/2059323763704181219
 
-liz-mococo-c3d2
-Then
-https://x.com/The_InuHoshi/status/2059038197053595896
-
-mococo-c3d2
-Bweh
-https://x.com/Akahana_Sora/status/2059130607872200847
-
-liz-nerissa-c3d2
-defintely not brainwashed
-https://x.com/ArionWatches/status/2059149876219543732
-
-liz-c3d2
-love for potato salad
-https://x.com/rikolyco_pene/status/2059268510904381524
-
-liz-c3d2
-raised in a barn
-https://x.com/amiisaea/status/2059263012008260037
+bijou-gigi-c3d3
+THE cinema
+https://x.com/h0_pj/status/2059651484032348617
+raora, ina, mococo

@@ -129,3 +129,9 @@ More than anything else, she felt annoyed. Confused.
 And disappointed.
 
 ["She deserved better"](#embed:https://www.youtube.com/live/PNrclGd76n4?si=OJdhQvYXUEsnh1q0&t=12694)
+
+## Fanart
+
+["learn how to fish now" by haaro_69](https://x.com/haaro_69/status/2059294782388908311)
+
+["Shakira on the Cross" by elisbian\_](https://x.com/elisbian_/status/2059578460432146678)

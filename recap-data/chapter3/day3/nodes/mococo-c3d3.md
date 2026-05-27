@@ -36,3 +36,7 @@ The sisters went their own ways as Mococo joined Sister Shiori, Mordon Ramsay, a
 After a quick encounter with the incomprehensible immediately afterward, Mococo collected her thoughts and marched forward. After doing some more quests, she set up her shop and called it a night in her home.
 
 Tomorrow is another day! They would see the strength of her products in time... and, yes! 1000 coins for ONE charm IS cheap!!! TRUST!!!
+
+## Fanart
+
+["Pixel Mococo" by okunashi27](https://x.com/okunashi27/status/2059583707191951364)

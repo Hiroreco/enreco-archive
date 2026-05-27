@@ -52,3 +52,6 @@
 しかもそれは、故人の妻であるロアの希望によるものだった。
 
 世紀最大級のすれ違いである。
+
+## ファンアート
+["Evil tickle tickle tickle!" by sleepyyua](https://x.com/sleepyyua/status/2059493524073275753)

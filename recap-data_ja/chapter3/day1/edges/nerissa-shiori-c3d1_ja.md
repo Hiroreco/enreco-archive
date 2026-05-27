@@ -69,4 +69,6 @@
 
 ## ファンアート
 
+["Together" by yomosaka](https://x.com/yomosaka/status/2059390718159016269)
+
 ["Would you like to be my first?" by noirstein](https://x.com/noirstein/status/2058782884262252922)
