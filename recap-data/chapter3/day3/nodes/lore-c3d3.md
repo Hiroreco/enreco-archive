@@ -1,4 +1,4 @@
-<!-- title: Lore Summary -->
+<!-- title: The Lore of Lisbestal -->
 <!-- status: None -->
 
 #### Main Story
