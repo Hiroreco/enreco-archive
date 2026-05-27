@@ -8,7 +8,7 @@ The church has been finished.
 
 It looked majestic in the light, and the funeral prep was made.
 
-The chaos was expected after that.
+The chaos was expected after 'that'.
 
 What's amusing to me is that no one expected this.
 
