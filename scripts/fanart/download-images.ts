@@ -134,6 +134,7 @@ async function run() {
             "https://x.com/i/status/2058813041404457219",
             "https://x.com/rikuje/status/2059591111849758865",
             "https://x.com/seapupu290495/status/2059279544922911168",
+            "https://x.com/werocosmiko/status/2058800535583522856",
         ];
         if (blacklist.includes(entry.url)) {
             console.log(`↻ Skipping ${entry.url} (blacklisted)`);

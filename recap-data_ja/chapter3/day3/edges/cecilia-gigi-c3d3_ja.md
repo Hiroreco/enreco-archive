@@ -23,6 +23,8 @@
 
 ## ファンアート
 
+["calm before the storm" by ek96290589](https://x.com/ek96290589/status/2059323763704181219)
+
 ["well at least..." by rando_zlink](https://x.com/rando_zlink/status/2059367280954560799)
 
 ["Orb" by enefwastaken](https://x.com/enefwastaken/status/2059497770826834152)
