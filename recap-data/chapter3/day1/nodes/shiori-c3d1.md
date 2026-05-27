@@ -15,11 +15,11 @@ Soon enough, Shiori found herself in an audience with the Star Speakers. They in
 
 Sister Shiori entered [Terminus](https://youtu.be/ZzXAmkDHgTY?t=4750), finding the place a little bit too familiar with its towering cells and iron bars, she told her fellow witches. Prisoner after [prisoner](https://youtu.be/ZzXAmkDHgTY?t=5053) trapped behind bars. Did perhaps Shiori do something that she forgot that warranted a punishment? Strange that this is a memory that escapes her.
 
-In order to proceed further, Shiori must find a secret to tell the Constant. Shiori chose to [call Gonathan.](https://youtu.be/ZzXAmkDHgTY?t=5358) Is there something about the Knight that reeks of secrecy to Shiori? Perhaps her recent head trauma unveiled an intuition even when the memory is lacking. Either way, Shiori asks Gonathan if there is a secret he knows that can help her. (See: [Shiori-Gigi](#edge:gigi-shiori))
+In order to proceed further, Shiori must find a secret to tell the Constant. Shiori chose to [call Gonathon.](https://youtu.be/ZzXAmkDHgTY?t=5358) Is there something about the Knight that reeks of secrecy to Shiori? Perhaps her recent head trauma unveiled an intuition even when the memory is lacking. Either way, Shiori asks Gonathon if there is a secret he knows that can help her. (See: [Shiori-Gigi](#edge:gigi-shiori))
 
-Soon enough, Sister Shiori happened upon [three interesting riddles](https://youtu.be/ZzXAmkDHgTY?t=5956), solving them swiftly to reveal the entrance to an interesting Labrynth. Enlightened, Shiori would tell others to ask others as well to ask Gonathan about his secret in order to pass the quest as well.
+Soon enough, Sister Shiori happened upon [three interesting riddles](https://youtu.be/ZzXAmkDHgTY?t=5956), solving them swiftly to reveal the entrance to an interesting Labrynth. Enlightened, Shiori would tell others to ask others as well to ask Gonathon about his secret in order to pass the quest as well.
 
-Shiori met with Shakira and Roa by the fountain in the town square to witness a joyful occasion. Children. They watched with bated breath as Shakira ate the fertility cake made by Mordan Ramsay... only for Shakira to be poisoned! She fell into the water and [drowned.](https://youtu.be/ZzXAmkDHgTY?t=6661). As a Sister of the Cloth, Shiori beckoned Mordon Ramsay, the only suspect, to confess once Shiori finished her church, only for Mordon to run away screaming innocence.
+Shiori met with Shakira and Roa by the fountain in the town square to witness a joyful occasion. Children. They watched with bated breath as Shakira ate the fertility cake made by Mordon Ramsay... only for Shakira to be poisoned! She fell into the water and [drowned.](https://youtu.be/ZzXAmkDHgTY?t=6661). As a Sister of the Cloth, Shiori beckoned Mordon Ramsay, the only suspect, to confess once Shiori finished her church, only for Mordon to run away screaming innocence.
 
 But what is a sister without a church? Thankfully, little witch Mococo, now a real estate agent, showed Shiori around, letting Shiori claim a few properties as her own.
 
@@ -27,7 +27,7 @@ But what is a sister without a church? Thankfully, little witch Mococo, now a re
 
 Soon enough, Shiori ventured forth to quest once more, inviting a certain kind knight to help her to another knight's dismay. Bijou would also find a [home in Shiori's house](https://youtu.be/ZzXAmkDHgTY?t=13018) since Mococo's monopoly on the housing market made it difficult for others to purchase their own home. (See: [Shiori-Cecilia](#edge:cecilia-shiori))
 
-As a Sister of the Cloth, Shiori must not kill and keep her prayer hands clear of blood. So, Shiori invited fellow witch Bijou to accompany her on her quest to slay stains. There, Shiori learns that Bijou is being [suspected](https://youtu.be/ZzXAmkDHgTY?t=11984) by her sister and Gonathan for being the real killer and not Mordan Ramsay. Shiori proposed a plan.
+As a Sister of the Cloth, Shiori must not kill and keep her prayer hands clear of blood. So, Shiori invited fellow witch Bijou to accompany her on her quest to slay stains. There, Shiori learns that Bijou is being [suspected](https://youtu.be/ZzXAmkDHgTY?t=11984) by her sister and Gonathon for being the real killer and not Mordon Ramsay. Shiori proposed a plan.
 
 [Forming the Libestal News](#embed:https://youtu.be/ZzXAmkDHgTY?t=13236)
 

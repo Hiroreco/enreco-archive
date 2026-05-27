@@ -21,7 +21,7 @@ She continued her day by completing her quests, claiming she had amnesia everywh
 
 [Some relationships can stay](#embed:https://www.youtube.com/watch?v=sT4tuLP6UJQ&t=5852)
 
-She was so distracted by so many people that she hardly got the chance to do her actual tasks, be it with [Shiori](https://www.youtube.com/watch?v=sT4tuLP6UJQ&t=9094), [Immerkind](https://www.youtube.com/watch?v=sT4tuLP6UJQ&t=9278), and even Mordon Ramsey, whom she wasn't [too fond of](https://www.youtube.com/watch?v=sT4tuLP6UJQ&t=10298) as she recalled this "therapist" might have ruined her relationship with the Hot Pink One.
+She was so distracted by so many people that she hardly got the chance to do her actual tasks, be it with [Shiori](https://www.youtube.com/watch?v=sT4tuLP6UJQ&t=9094), [Immerkind](https://www.youtube.com/watch?v=sT4tuLP6UJQ&t=9278), and even Mordon Ramsay, whom she wasn't [too fond of](https://www.youtube.com/watch?v=sT4tuLP6UJQ&t=10298) as she recalled this "therapist" might have ruined her relationship with the Hot Pink One.
 
 She lost her [horse](https://www.youtube.com/watch?v=sT4tuLP6UJQ&t=13102) and had to beg the gods to give it back.
 

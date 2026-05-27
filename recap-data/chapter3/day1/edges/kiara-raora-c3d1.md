@@ -21,7 +21,7 @@ Everything _had_ been going well.
 
 ...
 
-She met Shiori and Mordan Ramsay, who offered their services regarding a delicacy known as the [**Fertility Cake**](https://www.youtube.com/watch?v=XD-K3AirOdA&t=1520)—a chocolate cake said to guarantee the future birth of a child.
+She met Shiori and Mordon Ramsay, who offered their services regarding a delicacy known as the [**Fertility Cake**](https://www.youtube.com/watch?v=XD-K3AirOdA&t=1520)—a chocolate cake said to guarantee the future birth of a child.
 
 The married couple opened the box and carefully took the cake out. There appeared to be something else inside besides the cake itself, though Roa had been far too excited by the moment to notice what it was.
 

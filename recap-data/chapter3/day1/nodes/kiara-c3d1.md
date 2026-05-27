@@ -1,7 +1,7 @@
 <!-- title: Tanakisha "Shakira" Karia of the Oranges -->
 <!-- status: Dead -->
 
-Back in the mysterious white room, Tanakisha Karia found herself awakened once more. This time didn't feel too different for her. For one, she was able to recognize some familiar faces, such as Lady Bloodflame, Roa, and Mordan Ramsey's... These were the people she knew she could trust.
+Back in the mysterious white room, Tanakisha Karia found herself awakened once more. This time didn't feel too different for her. For one, she was able to recognize some familiar faces, such as Lady Bloodflame, Roa, and Mordon Ramsay's... These were the people she knew she could trust.
 
 New adventures awaited her. The orange phoenix reclaimed the name "Shakira", an old name of hers that was short and sweet. To pair with that, she returned to the Smith job as that was what she was best at. What was also sweet was her reunion with her wife. See [Kiara-Raora: Freaky Deaky Taste](#edge:kiara-raora)
 

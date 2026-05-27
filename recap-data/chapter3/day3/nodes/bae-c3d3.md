@@ -9,7 +9,7 @@ In the midst of her preparations, she came by Gonathon. With a giddiness in her 
 
 [Bae took a risk and asked Cecilia to a Dungeon Date!... Kinda.](#embed:https://youtu.be/JAibEhH7R1E?t=561)
 
-Gonathon expressed his doubts, remembering the trying times Bae went through; Immerkind's first rejection. Bae panicked, realising that she never emphasised that it was a 'date date' as she intended. Following Gonathan's advice, The Peasant called the Kind Knight to quickly clear it up.
+Gonathon expressed his doubts, remembering the trying times Bae went through; Immerkind's first rejection. Bae panicked, realising that she never emphasised that it was a 'date date' as she intended. Following Gonathon's advice, The Peasant called the Kind Knight to quickly clear it up.
 
 A series of emotions went through Bae as she spoke to Immerkind: elation that Immerkind remembered the promise and absolute [despair](https://youtu.be/JAibEhH7R1E?t=733) when she mentioned inviting Roa to their promised time together.
 

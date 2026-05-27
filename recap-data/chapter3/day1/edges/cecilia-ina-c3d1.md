@@ -5,7 +5,7 @@ As Immerkind and Ina continue to adjust to the new world, they encounter each ot
 
 Immerkind confides in HeroIna, one of the few who has chosen to [stay with Fia](https://www.youtube.com/live/rjNDjL6R3-s?si=fTnPnei3hNcj7aTo&t=3359), that she fears too many friends are choosing to side with Nix instead of Fia. But the Hero assures the Knight that his path has not swayed. The two set off on their respective tasks.
 
-The whiplash of emotional events in the new kingdom left Immerkind exhausted. She picks up his trusty fishing rod and departs for the nearest river. As Immerkind waives goodbye to a passing Mordan Ramsey, she is beset by a foul stain. Caught off guard, she was not ready to parry its attack when, suddenly, a beam of purple light slays the beast. HeroIna has arrived.
+The whiplash of emotional events in the new kingdom left Immerkind exhausted. She picks up his trusty fishing rod and departs for the nearest river. As Immerkind waives goodbye to a passing Mordon Ramsay, she is beset by a foul stain. Caught off guard, she was not ready to parry its attack when, suddenly, a beam of purple light slays the beast. HeroIna has arrived.
 
 [You Saved Me!](#embed:https://www.youtube.com/live/rjNDjL6R3-s?si=s-RAuht6_g_T1kqS&t=14439)
 

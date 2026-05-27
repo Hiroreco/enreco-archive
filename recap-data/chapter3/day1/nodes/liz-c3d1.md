@@ -55,7 +55,7 @@ And now, that change had become clearer than ever before. She was willing to def
 
 [A blade for others](#embed:https://www.youtube.com/watch?v=2rnclFeQ5EM&t=3587s)
 
-Gonathan, however, did not share her conviction. A fellow knight who valued honor and justice as deeply as she once did, he was devastated by her decision (see [Gonathon-Elizabeth](#edge:gigi-liz)).
+Gonathon, however, did not share her conviction. A fellow knight who valued honor and justice as deeply as she once did, he was devastated by her decision (see [Gonathon-Elizabeth](#edge:gigi-liz)).
 
 ...
 

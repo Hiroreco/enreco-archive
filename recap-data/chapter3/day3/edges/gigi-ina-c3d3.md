@@ -11,7 +11,7 @@ NinoIna provided Gonathon with some powerful charms, finally giving the knight s
 
 Destiny had much more in store for Gonathon and NinoIna however, as following their dungeon crawl they prepared to attend Sister Shiori's religious ceremony. Upon receiving the hymn Shiori passed out, NinoIna made a shocking discovery: the hymn would summon the baleful forces of [DMCA](https://www.youtube.com/watch?v=GzBAUkX8-r0&t=10857)! Racing to Gonathon and the other Shining Stars, Ina [implored](https://www.youtube.com/watch?v=uLitDJpSaKQ&t=10685s) them to not sing the hymn, lest they be corrupted and become heretics.
 
-This quick-thinking proved vital, as during [the ceremony](https://www.youtube.com/watch?v=uLitDJpSaKQ&t=11178s) the initial suspicions casted on Shiori's intentions by Ina allowed Gonathon and the others to discover the full extent of the witch's machinations, and in turn saved Mordan Ramsay from being falsely convicted of murdering Shakira.
+This quick-thinking proved vital, as during [the ceremony](https://www.youtube.com/watch?v=uLitDJpSaKQ&t=11178s) the initial suspicions casted on Shiori's intentions by Ina allowed Gonathon and the others to discover the full extent of the witch's machinations, and in turn saved Mordon Ramsay from being falsely convicted of murdering Shakira.
 
 Despite her desire to live a simple life, NinoIna's heroism on the third day saved not only Gonathon, but the entire Shining Stars as a whole.
 

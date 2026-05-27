@@ -9,9 +9,9 @@ Once again. Bae finds herself in Fia's Library as the unwilling hero of Libestal
 
 Witty, daring, charming, and, more importantly, so chuuni. Bae was immediately smitten. A way to get over Immerkind? And when the stranger, Nix, extended her hand, a way... to escape the "Hero" title. Bae took it. Was this the right decision? Only time can tell.
 
-Elated by this _revelation_ Bae quickly called Gonathan to tell him of the good news. To her dismay, her brother in all but blood had a different opinion. (See: [Bae-Gigi](#edge:bae-gigi))
+Elated by this _revelation_ Bae quickly called Gonathon to tell him of the good news. To her dismay, her brother in all but blood had a different opinion. (See: [Bae-Gigi](#edge:bae-gigi))
 
-But despite the disagreement, Gonathan does cherish the Peasant deeply, even encouraging her of her [bright future.](https://youtu.be/ZwqLwWTa98E?t=3369)
+But despite the disagreement, Gonathon does cherish the Peasant deeply, even encouraging her of her [bright future.](https://youtu.be/ZwqLwWTa98E?t=3369)
 
 [Once again, The Peasant Supplies.](#embed:https://youtu.be/ZwqLwWTa98E?t=3512)
 
