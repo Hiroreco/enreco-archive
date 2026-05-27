@@ -1,46 +1,100 @@
-<!-- title: To hate or to endure -->
-<!-- relationship: It's Complicated -->
+<!-- title: The Throne -->
+<!-- relationship: Toxic Yuri -->
 
-**Complexion**
+**BAD PUPPY**
 
-As she walked along the way towards her daily goals, a heavy sigh left Lady Bloodflame as Shiori, of all people, pulled up alongside her, requesting more upgrade stones. Hoping to make it a swift conversation, she explained everything that would be needed.
+Nothing was more upsetting than your pet behaving in ways you didn't approve of. They had to be taught some lessons.
 
-Amongst the discussion of what would be necessary, a soon-to-be-repeated topic made itself known: how _sick_ she looked. Despite remarking on it, the questionable Shiori hadn't even noticed her eyes. Waving her hand, Lady Bloodflame waved the topic off.
+Nerissa, having learned from Immerkind that her knight was giving away stuff for [free](https://www.youtube.com/watch?v=LJoWhfyEV1Q&t=2808), had to reprimand her.
 
-[Personal space please...](#embed:https://www.youtube.com/live/rg_rZ8reBVA?si=OPxGK9cryFDaJlpY&t=2222)
+And so, not wasting any time, the Raven One mounted her horse and set forth on her journey in search of Lady Bloodflame.
 
-But when pressed on why she hadn't just done a trade, quickly she stumbled out an excuse: she was _sick_. Nothing would be worse than spreading a disease around, especially to a sister.
+After a handful of distractions along the way, she eventually found her in the plaza, [passing by](https://www.youtube.com/watch?v=LJoWhfyEV1Q&t=3339) as she was speaking with Sister Shiori about forming a party for the dungeon.
 
-After some exhausting banter, Lady Bloodflame rubbed her forehead in exasperation before getting tickled and then taking off in frustration, but not before providing one more explanation to Shiori on how to upgrade the weapon.
+_Perfect timing!_
 
-And reminding the other that no, she doesn't hate her.
+Without asking much of the poor knight's opinion, Nerissa promptly declared that she and Lady Bloodflame would go together. Alone.
 
----
+Having the matter settled to her satisfaction, the Witch whisked the redhead away to chastise her.
 
-**Prayers to be Bought**
+Lady Bloodflame fell silent, finding herself in an awkward spot. _Well, the cat was out of the bag!_ She confessed and presented her case, arguing that it was only because of her altruistic nature.
 
-Later in the day, she found herself in front of the church of Shiori... for some kind of opening. Who knew what kind of church it would be and what sermons would be represented here. The thought was headache-inducing for the knight, but she said she'd be present.
+Yet...
 
-Upon arrival, she was immediately harassed to purchase a prayer book for an entire 50 gold. Groaning, she gave in and bought one, but the moment Nerissa wanted one, [haggling](https://www.youtube.com/watch?v=rg_rZ8reBVA&t=11031) was attempted.
+["No."](#embed:https://www.youtube.com/watch?v=rg_rZ8reBVA&t=3305)
 
-Anything to avoid _too_ much funding to whatever may come of a church from Shiori.
-
-Still, why had she even bought the book when she wasn't even interested in the church to begin with?
+That single word commanded Lady Bloodflame to fall back like a hushed puppy.
 
 ---
 
-**How** **_Dare_** **You**
+**NERISSA KNOWS BEST**
 
-Stepping inside before the ceremony was to begin, Lady Bloodflame inspected the small, but quaint church. It was better than she had expected. Nerissa was next to her when she heard a loud gasp from the other. Her eyes were drawn up above the altar to a singular box hanging from above.
+Weariness gradually took over. The knight felt all the weight in her mind, foggy as it already had been, making sense of Nerissa's resolve.
 
-With brows furrowed, she looked over at the other, [questioning](https://www.youtube.com/watch?v=rg_rZ8reBVA&t=11123) what was going on. When words couldn't be summoned to describe what was seen, she was told to inspect the box herself.
+She began [doubting](https://youtu.be/LJoWhfyEV1Q?t=3466) everything: Fia, Immerkind, the two factions... She needed space to breathe, to put these things in perspective.
 
-Walking over, she opened it, presuming something incredulous of course, but to see the body of her fellow fallen knight Shakira in that box... it stunned her. Turning on her heel, she had to dash outside to let the rainbow out.
+But when her loyalty was questioned, Lady Bloodflame fell to one knee, immediately submitting to Nerissa's whims. Certainly, the princess _knew_ what was best for them. She had entrusted her life to the Witch a long time ago. And in return, she had promised to stay by her side for as long as she lived.
 
-After that, immediately she started to question everyone on who had stolen the body of someone who had already been defiled by death. When she finally caught Shiori, she was told it was a funeral.
+---
 
-[I... Is that so](#embed:https://www.youtube.com/watch?v=rg_rZ8reBVA&t=11302)
+**QUIT PLAYING GAMES WITH MY HEART**
 
-A funeral requested by Roa, the wife of the deceased.
+The [Labyrinth of Emotions](https://www.youtube.com/watch?v=LJoWhfyEV1Q&t=4478) served not only as a physical quest to overcome, but rather, a challenge to face their own emotions.
 
-The greatest miscommunication of the century.
+While the two enjoyed each other's company solving puzzles and exploring the beautiful palace, an unsettling reality cast its shadow over them.
+
+What of their feelings?
+
+Was Lady Bloodflame truly, madly, deeply in love with her princess? Or was she just being manipulated? Puppeteered, dancing in the palm of the Witch's hand.
+
+Did Nerissa Juliet truly want to exact her revenge out of spite? Or was she just yearning, afraid of losing her only love? So much so that she had to leash her and manipulate her to stay by her side.
+
+They... hadn't confronted it yet.
+
+Perhaps once they reached the last room, they would find the answer. Maybe when they had overcome the dungeon.
+
+Or perhaps, it was too soon to even bring this to light.
+
+---
+
+**THY WILL BE DONE**
+
+In order to enter the next dungeon, they had yet to acquire a special relic, the Amulet of Levitation. Faust presented them with two options: negotiate with Maaz or steal it.
+
+The knight sought Nerissa's opinion at first. Yet, when the maiden gave her answer, Lady Bloodflame stared in surprise before attempting to reason with her.
+
+_Stealing is wrong!_ she argued, hoping Nerissa would reconsider.
+
+However, she had already made up her mind. After all, they had been deceived before. And was deception truly any different from theft?
+
+Still, the matter unsettled the knight. It was against her Code of Chivalry, and an honorable knight must uphold such principles at all costs!
+
+["As MY knight"](#embed:https://youtu.be/LJoWhfyEV1Q?t=7780)
+
+The tone of the Witch's voice rose, emphasizing _her_ claim over the Jade Sword warrior.
+
+Lady Bloodflame broke into a sweat. For the first time since swearing her fealty to the princess, doubt crept into her heart. Doubts about her morals, about her loyalty. About whether devotion to one person justified betraying the ideals she once lived by.
+
+For the first time, she had to choose between right and wrong...
+
+She chose Nerissa Juliet.
+
+And with that, right and wrong ceased to matter. What mattered was to keep the Witch in the highest regard. To place her above all else, seated upon the throne within her heart.
+
+---
+
+**NOT YOUR KNIGHT**
+
+_"Is Gonathon [trustworthy?](https://www.youtube.com/watch?v=rg_rZ8reBVA&t=11731)"_
+
+It was such an absurd question that Lady Bloodflame blinked for a few moments. Of course her fellow knight was trustworthy. Through thick and thin, they had each other's backs. There was no need to question whether Gonathon had done anything to even remotely cause a sense of distrust.
+
+But had the other actually talked about killing the faction following Nix?
+
+Was her Princess in danger from someone she had considered one of the greatest comrades you could have?
+
+With a quick pivot, Lady Bloodflame tried to ease the clear tension. Nerissa made it clear that she got a feeling of "ick" from Gonathon. Surely, it was some misunderstanding.
+
+Surely, a drink together along with a discussion could resolve any lingering tensions and worries.
+
+What was the worst that could happen, after all?

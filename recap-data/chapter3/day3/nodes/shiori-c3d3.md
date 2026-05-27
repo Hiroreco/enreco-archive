@@ -51,6 +51,9 @@ Still, before that, she devised a little game.
 
 Using what she claimed was “magic,” Shiori created two different versions of a ["prayer guide."](https://www.youtube.com/live/PNrclGd76n4?si=jC4AcLS2oR_2OdKw&t=10568) Most of the copies contained identical prayers, but one was subtly different. According to Shiori’s logic, whoever ended up reading the unique version aloud would reveal themselves as Shakira’s killer.
 
+- Read [Inkwell Prayer](#text:inkwell-prayer)
+- Read [Inkwell Prayer (Mordon)](#text:inkwell-prayer-mori)
+
 With everything finally prepared, she summoned the kingdom to the church for the grand event.
 
 Unfortunately for her, things did not go quite as planned.

@@ -1,4 +1,4 @@
-<!-- title: The Labyrinth of Knowledge and Pets -->
+<!-- title: A Calm Day In Disguise -->
 
 ## Day 2: A Calm Day In Disguise
 
