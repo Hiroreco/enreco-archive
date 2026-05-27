@@ -607,6 +607,28 @@
           },
           "selected": false,
           "dragging": false
+        },
+        {
+          "id": "lore",
+          "type": "image",
+          "position": {
+            "x": 1100,
+            "y": 50
+          },
+          "data": {
+            "title": "",
+            "content": "",
+            "imageSrc": "/images-opt/node-lore-opt.webp",
+            "teamId": "none",
+            "status": "",
+            "day": 0,
+            "bgCardColor": "#1d2d65"
+          },
+          "measured": {
+            "width": 100,
+            "height": 100
+          },
+          "selected": false
         }
       ],
       "edges": [
@@ -1653,6 +1675,28 @@
           },
           "selected": false,
           "dragging": false
+        },
+        {
+          "id": "lore",
+          "type": "image",
+          "position": {
+            "x": 1100,
+            "y": 50
+          },
+          "data": {
+            "title": "",
+            "content": "",
+            "imageSrc": "/images-opt/node-lore-opt.webp",
+            "teamId": "none",
+            "status": "",
+            "day": 1,
+            "bgCardColor": "#1d2d65"
+          },
+          "measured": {
+            "width": 100,
+            "height": 100
+          },
+          "selected": false
         }
       ],
       "edges": [
@@ -2214,6 +2258,28 @@
           },
           "selected": false,
           "dragging": false
+        },
+        {
+          "id": "lore",
+          "type": "image",
+          "position": {
+            "x": 1100,
+            "y": 50
+          },
+          "data": {
+            "title": "",
+            "content": "",
+            "imageSrc": "/images-opt/node-lore-opt.webp",
+            "teamId": "none",
+            "status": "",
+            "day": 2,
+            "bgCardColor": "#1d2d65"
+          },
+          "measured": {
+            "width": 100,
+            "height": 100
+          },
+          "selected": false
         }
       ],
       "edges": [
@@ -2483,6 +2549,29 @@
               "VL": 46,
               "HC": 0,
               "VR": 46,
+              "HR": 0
+            }
+          },
+          "selected": false
+        },
+        {
+          "id": "cecilia-nerissa",
+          "source": "cecilia",
+          "target": "nerissa",
+          "sourceHandle": "bottom-2",
+          "targetHandle": "left-3",
+          "type": "fixed",
+          "data": {
+            "relationshipId": "its-complicated",
+            "title": "",
+            "content": "",
+            "pathType": "custom",
+            "day": 2,
+            "offsets": {
+              "HL": 0,
+              "VL": 0,
+              "HC": -162.98058709600028,
+              "VR": -22.610023643375747,
               "HR": 0
             }
           },
