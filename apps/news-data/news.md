@@ -156,3 +156,5 @@ https://x.com/hololive_En/status/2059447019278913605
 https://x.com/hololive_En/status/2059499845015015920
 https://x.com/hololive_En/status/2059439442511712696
 https://x.com/hololive_En/status/2059440700861919706
+https://x.com/hololive_En/status/2059443217251332466?s=20
+https://x.com/tskai_xx/status/2059472567145275416?s=20

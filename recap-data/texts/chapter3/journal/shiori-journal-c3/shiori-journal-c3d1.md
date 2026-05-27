@@ -6,11 +6,11 @@ Today was a handful!
 
 I have been recruited by Nix, only to come to the realization that their base is absolutely suckish!
 
-There's no furniture, there's barely any food, and all of them speak silly._
+There's no furniture, there's barely any food, and all of them speak silly.
 
 I was also privvy to witnessing the end of poor Shakira Shakira Her Hips Don't Lie But They Unfortunately and Certainly Did Freaking Die.
 
-She fell into the fountain after eating some cake and just.. drowned. Died. Just gone. Her body's completely missing_
+She fell into the fountain after eating some cake and just... drowned. Died. Just gone. Her body's completely missing.
 
 Roa was inconsolable.
 
