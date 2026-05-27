@@ -19,7 +19,7 @@ Thankfully, despite the tension, the group eventually reached an agreement that 
 
 Before venturing into the next dungeon, Koseki Bijou privately approaches Roa regarding strange “glitches” she had begun experiencing (see [Bijou-Raora](#edge:bijou-raora)).
 
-Soon after, Roa, Ninoina, Gonathon, and Bijou enter the enigma known as the [Labyrinth of Emotion](https://www.youtube.com/watch?v=MGo9h3BNyj0&t=5500).
+Soon after, Roa, NinoIna, Gonathon, and Bijou enter the enigma known as the [Labyrinth of Emotion](https://www.youtube.com/watch?v=MGo9h3BNyj0&t=5500).
 
 But the deeper Roa wandered into the day, the louder the voices became.
 
