@@ -2,7 +2,7 @@
 
 import { useTranslations } from "next-intl";
 import type { TeamData, LocalizedString } from "./types";
-import { TRACKER_DATA, talentById } from "./data";
+import { TRACKER_DATA, getTalentForDay } from "./data";
 import { MemberAvatar } from "@/components/view/stats/MemberAvatar";
 import { useSettingStore } from "@/store/settingStore";
 import {
@@ -22,6 +22,15 @@ function getLocalizedText(
 ): string {
     if (typeof text === "string") return text;
     return text[locale];
+}
+
+function getMemberDisplayName(
+    memberId: string,
+    day: number,
+    locale: "en" | "ja",
+): string {
+    const talent = getTalentForDay(memberId, day);
+    return talent ? getLocalizedText(talent.name, locale) : memberId;
 }
 
 interface FactionsSummaryProps {
@@ -174,7 +183,11 @@ export function FactionsSummary({ currentDay }: FactionsSummaryProps) {
                                                     key={idx}
                                                     className="text-muted-foreground list-none"
                                                 >
-                                                    {dayChange.member}{" "}
+                                                    {getMemberDisplayName(
+                                                        dayChange.member,
+                                                        day,
+                                                        locale,
+                                                    )}{" "}
                                                     {dayChange.change}
                                                 </li>
                                             );
@@ -195,8 +208,9 @@ export function FactionsSummary({ currentDay }: FactionsSummaryProps) {
                                                         {groupedChange.members.map(
                                                             (memberId) => {
                                                                 const talent =
-                                                                    talentById(
+                                                                    getTalentForDay(
                                                                         memberId,
+                                                                        day,
                                                                     );
                                                                 return talent ? (
                                                                     <MemberAvatar

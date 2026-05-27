@@ -2,10 +2,68 @@ import chapter2Raw from "#/recaps/chapter2.json";
 import { CHARACTER_ID_NAME_MAP_EN, CHARACTER_ID_NAME_MAP_JA } from "@/lib/misc";
 import { day1Data } from "./stats-data/day1";
 
-import type { Talent, TrackerData } from "./types";
+import type { Talent, TrackerData, LocalizedString } from "./types";
 import { day2Data } from "@/components/view/stats/stats-data";
 
 type AssignmentKey = "teamId" | "faction";
+
+type TitleMap = Record<string, LocalizedString>;
+
+const buildNodeTitlesFromChapter = (
+    chapterRaw: any,
+    day: number,
+): TitleMap => {
+    const chart = chapterRaw.charts?.[day - 1];
+    const titles: TitleMap = {};
+
+    if (!chart?.nodes) {
+        return titles;
+    }
+
+    for (const node of chart.nodes) {
+        if (node?.id && node?.data?.title) {
+            titles[node.id] = node.data.title;
+        }
+    }
+
+    return titles;
+};
+
+const NODE_TITLES_BY_DAY: Record<number, TitleMap> =
+    Object.fromEntries(
+        (chapter2Raw.charts || []).map((chart: any, index: number) => [
+            index + 1,
+            buildNodeTitlesFromChapter(chapter2Raw, index + 1),
+        ]),
+    );
+
+const getTalentNameForDay = (
+    id: string,
+    day: number,
+): LocalizedString | undefined => {
+    for (let currentDay = day; currentDay > 0; currentDay -= 1) {
+        const talentName = NODE_TITLES_BY_DAY[currentDay]?.[id];
+        if (talentName) {
+            return talentName;
+        }
+    }
+
+    return undefined;
+};
+
+const getBaseTalentById = (id: string): Talent | undefined =>
+    TALENTS.find((t) => t.id === id);
+
+export const getTalentForDay = (
+    id: string,
+    day: number,
+): Talent | undefined => {
+    const talent = getBaseTalentById(id);
+    if (!talent) return undefined;
+
+    const nameOverride = getTalentNameForDay(id, day);
+    return nameOverride ? { ...talent, name: nameOverride } : talent;
+};
 
 type GroupData = {
     name: string;
@@ -270,9 +328,6 @@ export const TALENTS: Talent[] = [
         image: "/images-opt/node-raora-opt.webp",
     },
 ];
-
-export const talentById = (id: string): Talent | undefined =>
-    TALENTS.find((t) => t.id === id);
 
 // Ensure each day's teams are derived from the chapter data so they reflect
 // the actual assignments in the chapter JSON. Other day-specific data
