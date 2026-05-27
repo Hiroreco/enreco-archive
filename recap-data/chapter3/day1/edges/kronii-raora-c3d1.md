@@ -17,7 +17,7 @@ If you’re gonna do it to her, she can do it right back.
 
 [Ahh, Rora. Rao? Ro.](#embed:https://www.youtube.com/watch?v=sT4tuLP6UJQ&t=3779)
 
-As Roa repeatedly asked Tam to say her name properly, Tam simply ignored her. Never before had the phrase "a taste of one’s own medicine" felt so fitting, because the pink cat was slowly [losing her mind](https://www.youtube.com/watch?v=sT4tuLP6UJQ&t=3894) over it as well. It was sweet sweet [payback.](https://www.youtube.com/watch?v=sT4tuLP6UJQ&t=4370)
+As Roa repeatedly asked Tam to say her name properly, Tam simply ignored her. Never before had the phrase "a taste of one’s own medicine" felt so fitting, because the pink cat was slowly [losing her mind](https://www.youtube.com/watch?v=sT4tuLP6UJQ&t=3894) over it as well. It was sweet, sweet, [payback.](https://www.youtube.com/watch?v=sT4tuLP6UJQ&t=4370)
 
 However, for reasons unknown, Tam seemed to attract pink beings into her life like a curse. Just like the previous journey, first there was the pink "one", and now there was a pink "cat" making themselves a blight upon her day.
 

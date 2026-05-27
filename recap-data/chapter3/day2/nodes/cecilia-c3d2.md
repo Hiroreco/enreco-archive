@@ -15,15 +15,15 @@ Later, Immerkind [prepares a letter](https://www.youtube.com/watch?v=mARNiVZCRbw
 
 Immerkind later runs into Juliet, where the two share concerns regarding the kingdom's leadership. The Knight finds comfort knowing others also harbor doubts about the [four heads of future Libestal](https://www.youtube.com/watch?v=mARNiVZCRbw&t=5800).
 
-While farming quartz from the castle walls, Immerkind is surprised by Gonathon. The two discuss the ["Game of the Thrones"](https://www.youtube.com/watch?v=mARNiVZCRbw&t=6450) that Gonathon learned from NerissaJuliet. They speak of the many factions currently fighting one another, with Gonathon wondering if their own world mirrors such chaos.
+While farming quartz from the castle walls, Immerkind is surprised by Gonathon. The two discuss the ["Game of Thrones"](https://www.youtube.com/watch?v=mARNiVZCRbw&t=6450) that Gonathon learned from NerissaJuliet. They speak of the many factions currently fighting one another, with Gonathon wondering if their own world mirrors such chaos.
 
 Immerkind then [offers Gonathon her support](https://www.youtube.com/watch?v=mARNiVZCRbw&t=6599) in taking Tam Gandr's hand and fleeing the kingdom together. The Knight encourages him to follow through with his plans, promising they will fight side by side to bring Tam back. Together, they vow to continue onward as wolves (see [Immerkind-Gonathon](#edge:cecilia-gigi)).
 
-The pair venture into a dungeon filled with puzzles, progressing through it in style with [Gonathon rapping while Immerkind beatboxes](https://www.youtube.com/watch?v=mARNiVZCRbw&t=8830).
+The pair ventures into a dungeon filled with puzzles, progressing through it in style with [Gonathon rapping while Immerkind beatboxes](https://www.youtube.com/watch?v=mARNiVZCRbw&t=8830).
 
 Soon after, the two depart for the [Labyrinth of Knowledge](https://www.youtube.com/watch?v=mARNiVZCRbw&t=9090). The dungeon tests their trust through countless leaps of faith and dangerous challenges. Together, they effortlessly solve riddles while Immerkind quietly wonders whether regaining her memories would truly be worth it. As they delve deeper into the labyrinth, the two wolves confront the [Prisoner of Knowledge](https://www.youtube.com/watch?v=mARNiVZCRbw&t=10878). Through teamwork and unwavering trust, they fight their way to victory.
 
-[It takes Two to find a way Out](#embed:https://www.youtube.com/watch?v=mARNiVZCRbw&t=11276)
+[It takes two to find a way out](#embed:https://www.youtube.com/watch?v=mARNiVZCRbw&t=11276)
 
 After defeating the boss, they find themselves standing atop a tower.
 
@@ -33,7 +33,7 @@ Their celebration is short-lived as they are suddenly swept into the memories of
 
 Later, Immerkind receives a [phone call from Shiori](https://www.youtube.com/watch?v=mARNiVZCRbw&t=13005), who offers comforting advice. Shiori reassures the Knight that her choices were understandable before asking for assistance in building a farm for the church. She even offers Immerkind a place to stay.
 
-Upon returning to town, Immerkind encounters Roa and playfully chastises her ally for forgetting about their previous adventure together. The two [promise to explore another dungeon together](https://www.youtube.com/watch?v=mARNiVZCRbw&t=13915) alongside Peasant the Bae. Afterward, Immerkind returns to the castle to continue her quests, though she grows uneasy over a suspicious task assigned by a merchant. Worried, she confides in Fia before frantically calling Juliet for advice.
+Upon returning to town, Immerkind encounters Roa and playfully chastises her for forgetting about their previous adventure together. The two [promise to explore another dungeon together](https://www.youtube.com/watch?v=mARNiVZCRbw&t=13915) alongside Peasant the Bae. Afterward, Immerkind returns to the castle to continue her quests, though she grows uneasy over a suspicious task assigned by a merchant. Worried, she confides in Fia before frantically calling Juliet for advice.
 
 Together, Immerkind and Juliet stage an elaborate act in front of the merchant, pretending that Immerkind had scammed Juliet.
 
