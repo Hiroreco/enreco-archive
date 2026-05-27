@@ -7,7 +7,7 @@ Nevertheless, mischief remained strong within Sister Shiori as she pulled Mordon
 
 [Rebellion.](#embed:https://youtu.be/ZzXAmkDHgTY?t=2622)
 
-It's amusing how time goes forward yet rewinds. Another rebellion and another chef's hat sat on top of Shiori's sisterly veil. But dang, finding eggs was the true formidable task as Shiori asked [one person](https://youtu.be/ZzXAmkDHgTY?t=3148) after another to find them, including a certain orange knight. Thankfully, Juliet managed to lead the way to where they could hunt for chickens outside the castle gates. There, Shiori pondered wether they truly made a difference for the kingdom. In perhaps a brief moment of madness, she saw a [cow as herself](https://youtu.be/ZzXAmkDHgTY?t=3828).
+It's amusing how time goes forward yet rewinds. Another rebellion and another chef's hat sat on top of Shiori's sisterly veil. But dang, finding eggs was the true formidable task as Shiori asked [one person](https://youtu.be/ZzXAmkDHgTY?t=3148) after another to find them, including a certain orange knight. Thankfully, Juliet managed to lead the way to where they could hunt for chickens outside the castle gates. There, Shiori pondered whether they truly made a difference for the kingdom. In perhaps a brief moment of madness, she saw a [cow as herself](https://youtu.be/ZzXAmkDHgTY?t=3828).
 
 [Potato Salad...](#embed:https://youtu.be/ZzXAmkDHgTY?t=4042)
 
