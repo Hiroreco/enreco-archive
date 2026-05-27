@@ -1,3 +1,5 @@
+<!-- title: A Plagued Kingdom and a Forgotten Memorial -->
+
 ## Day 3: A Plagued Kingdom and a Forgotten Memorial
 
 The second dungeon marked yet another step closer to finding the Outsider: the **Labyrinth of Emotions.** Once again, our heroes were forced to confront unfamiliar trials, uncover hidden truths, and reclaim fragments of memories long lost to time. This time, the memories belonged to **Koseki Bijou.**

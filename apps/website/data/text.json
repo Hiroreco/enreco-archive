@@ -2511,6 +2511,17 @@
           "en": "coin remaining: 3526\n\ngodspeed to becoming the richest in the land\n\ntoday we made a new friend\n\npolar the bear\n\nforever my baby\nmy best friend\nmy companion in life\n\ntoday i learned about the unforgiving nature of life\n\nyou must pay for even the possibilities of mistakes\n\nnothing is forgiven\n\nonce your set your mind and understand you shall be free\n\nopen your heart\n\nfor you are destined peasant for great things.\n\nSIGNED PEASANT",
           "ja": "残りコイン：3526\n\nこの地で一番の大富豪になるために、前進あるのみ\n\n今日は新しい友達ができた\n\nクマのポーラー\n\n永遠のベイビー\n最高の親友\n人生の相棒\n\n今日は人生の容赦なさを学んだ\n\n可能性だけでも代償は支払わなければならない\n\n何も許されない\n\n一度覚悟を決め、理解した時、お前は自由になれる\n\n心を開け\n\nなぜならペイザン、お前は偉大な運命を背負っているのだから\n\n――ペイザンより"
         }
+      },
+      {
+        "id": "bae-journal-c3d3",
+        "title": {
+          "en": "Bae's Journal Entry: Day 3",
+          "ja": "ベイの日記：3日目"
+        },
+        "content": {
+          "en": "coin remaining: 4307\n\ni will become the richest in the land.\n\ntoday i was able to go on a dungeon quest ALONE with Immerkind..\n\nmaybe i just need more exposure therapy to get over my feelings for her...\n\nshe's right in front me and yet i cannot help myself feel drawn to her presence\n\nthe way she utters my name is so sweet in my ear\n\nbut i know i must get over her\n\nfor tomorrow holds new adventures\n\nnew meetings...\n\nand perhaps...\n\na new love...\n\nSIGNED PEASANT",
+          "ja": "残りコイン：4307\n\n私はこの地で一番の大富豪になる。\n\n今日はイマーキンドと二人きりでダンジョンクエストに行けた……\n\nたぶん、彼女への気持ちを乗り越えるには、もっと慣れるしかないんだと思う……\n\n目の前にいるだけなのに、どうしても彼女の存在に惹かれてしまう\n\n私の名前を呼ぶ声が、耳に甘く響くんだ\n\nでも、乗り越えなきゃいけないって分かってる\n\nだって明日には新しい冒険が待ってるから\n\n新しい出会いも……\n\nそして、もしかしたら……\n\n新しい恋も……\n\n署名：ペイザン・ザ・ベイ"
+        }
       }
     ]
   },
@@ -2569,8 +2580,19 @@
           "ja": "イマーキンドの日誌：二日目"
         },
         "content": {
-          "en": "Dear Diary,\n\nI realise today again that all I need to is to stay positive and hopeful.\n\nI should not listen to the quiet words in my non-beating heart. To the doubts that are creeping in while I slowly but surely keep goin.\n\nHow do we know which side to fight for. How do we know what Ipanina truly wants. And how do we know how to fix the mistakes we make.\n\nI am still learning all of this. But I hope the Princess, my friends and the voices in my head keep staying with me until I have figured it all out. Until I have found true meaning to this existence.\n\nYours truly\nKnight Immerkind",
+          "en": "Dear Diary,\n\nI realise today again that all I need to is to stay positive and hopeful.\n\nI should not listen to the quiet words in my non-beating heart. To the doubts that are creeping in while I slowly but surely keep goin.\n\nHow do we know which side to fight for. How do we know what Iphanina truly wants. And how do we know how to fix the mistakes we make.\n\nI am still learning all of this. But I hope the Princess, my friends and the voices in my head keep staying with me until I have figured it all out. Until I have found true meaning to this existence.\n\nYours truly\nKnight Immerkind",
           "ja": "親愛なる日記へ\n\n今日、私は改めて気づいた。大切なのは、前向きで希望を持ち続けることなのだと。\n\n鼓動しないこの心の奥で囁く静かな声に、耳を傾けすぎてはいけない。ゆっくりと、それでも確実に進み続ける私の中へ忍び寄る疑念に。\n\n私たちは、どちら側のために戦うべきなのだろう。イパニナが本当に望んでいるものは何なのだろう。そして、自分たちが犯した過ちを、どうすれば正せるのだろう。\n\n私はまだ、そのすべてを学んでいる途中だ。\n\nそれでも願わくば、姫様と、友人たちと、頭の中に響く声たちが、私が答えを見つけるその日まで共にいてくれますように。\n\nこの存在に、本当の意味を見出せるその時まで。\n\n敬具\n騎士イマーキンド"
+        }
+      },
+      {
+        "id": "cecilia-journal-c3d3",
+        "title": {
+          "en": "Immerkind's Journal Entry: Day 3",
+          "ja": "イマーキンドの日記：3日目"
+        },
+        "content": {
+          "en": "Dear Diary,\n\ntoday\na lot of things happened\n\nYours\nK. Immerknight",
+          "ja": "親愛なる日記へ\n\n今日は\nいろんなことがあった\n\n以上\n\nK・イマーキナイトより"
         }
       }
     ]
@@ -2608,6 +2630,17 @@
           "en": "Thanks to Immerkind, we've come up with a plan to get the Queen's memory back!\n\nHonestly, it's not much of a plan, but at least we have one and I choose to believe in it.\n\nWhen the Queen gets her memory back, I hope she looks at me and calls to me the same way she always does.\n\nIf the memories here in Libestal make us too sad, then we only need to make new ones.\n\nAs long as the Queen remembers, then it'll be fine.",
           "ja": "イマーキンドのおかげで、ついに女王の記憶を取り戻すための作戦ができた！\n\n正直、大した計画ってわけじゃない。けど、少なくとも“計画”はある。だから俺は、それを信じることにした。\n\n女王が記憶を取り戻した時、また昔みたいに俺を見て、俺の名前を呼んでくれたらいいな。\n\nもしリベスタルでの記憶が悲しすぎるものだったとしても、その時は新しい思い出を作ればいい。\n\n女王さえ覚えていてくれるなら、それでいいんだ。"
         }
+      },
+      {
+        "id": "gigi-journal-c3d3",
+        "title": {
+          "en": "Gonathon's Journal Entry: Day 3",
+          "ja": "ゴナソンの日記：3日目"
+        },
+        "content": {
+          "en": "A lot happened today. I went into the newest dungeon with Foa, MinoIna, and Bijou. A Bijou who is still quite hostile, but it seems she is coming around.\n\nThere was a funeral for Shakira and her body was strung across the wall.\n\nA terrible sight for anyone with eyes and it made me reconsider things.\n\nI've been so blinded by wanting things, that I was ignoring all the signs placed before me.\n\nThere's something not right and it's a knights duty to get to the bottom of it.",
+          "ja": "今日は本当に色々なことがあった。\n\n俺はフォア、ミノイナ、そしてビジューと共に新しいダンジョンへ向かった。\nビジューは相変わらずかなり刺々しかったが、それでも少しずつ打ち解け始めている気がする。\n\nシャキーラの葬儀もあった。\nそして彼女の遺体は壁に吊るされていた。\n\n目のある者なら誰にとっても耐え難い光景だった。\nそしてそれは、俺に色々なことを考え直させた。\n\n俺は“欲しいもの”ばかりに目を向けすぎていた。\nそのせいで、ずっと目の前に置かれていた数々の兆候を見落としていたんだ。\n\n何かがおかしい。\nそして、その真実を突き止めるのが騎士の務めだ。"
+        }
       }
     ]
   },
@@ -2641,8 +2674,33 @@
           "ja": "タムの日誌：二日目"
         },
         "content": {
-          "en": "**Day 2**\n\nToday was good! Went to go to the Labyrinth of Knowledge with Foa, MinoIna, Princess Bijou, and the Fluffy One.\n\nSister Shiori offered her home and I took a corner!\n\nAnd then I fought some Manta stains with Sister Shiori.\n\nImmerkind wants to give me a pet but Gonathon has to be there so it will have to be for later.\n\nFoa has lost it after the murder of her wife and asked me to join the Illumination. I tell her that I trust her words but how could I if she's telling me that she phased through the world or that this world in general is not real?\n\nRegardless, I have money now! Yay!",
+          "en": "**Day 2**\n\nToday was good! Went to go to the Labyrinth of Knowledge with Roa, NinoIna, Princess Bijou, and the Fluffy One.\n\nSister Shiori offered her home and I took a corner!\n\nAnd then I fought some Manta stains with Sister Shiori.\n\nImmerkind wants to give me a pet but Gonathon has to be there so it will have to be for later.\n\nRoa has lost it after the murder of her wife and asked me to join the Illumination. I tell her that I trust her words but how could I if she's telling me that she phased through the world or that this world in general is not real?\n\nRegardless, I have money now! Yay!",
           "ja": "**二日目**\n\n今日は楽しかった！ フォア、ミノイナ、ビジュー姫、それからふわふわな子と一緒に知識の迷宮へ行った。\n\nシスター・シオリが家を貸してくれて、私は隅っこを使わせてもらうことになった！\n\nそれからシスター・シオリと一緒にマンタステインとも戦った。\n\nイマーキンドがペットをくれるらしいけど、ゴナソンも一緒じゃないといけないみたいだから、それはまた今度。\n\n奥さんを殺されてから、フォアは完全におかしくなっちゃったみたいで、“イルミネーション”に入らないかって誘われた。彼女の言葉は信じたいけど、「世界をすり抜けた」とか「そもそもこの世界は現実じゃない」とか言われても、どう信じればいいんだろう？\n\nまあ、それはそれとして、お金ができた！ やったー！"
+        }
+      }
+    ]
+  },
+  "nerissa-journal-c3": {
+    "chapter": 3,
+    "category": "journal",
+    "title": {
+      "en": "Nerissa Juliet's Journal Entries",
+      "ja": "ネリッサ・ジュリエットの日記帳"
+    },
+    "description": {
+      "en": "Nerissa Juliet's daily journal entries during Chapter 3.",
+      "ja": "チャプター3におけるネリッサ・ジュリエットの日々の日記エントリー。"
+    },
+    "entries": [
+      {
+        "id": "nerissa-journal-c3d3",
+        "title": {
+          "en": "Nerissa Juliet's Journal Entry: Day 3",
+          "ja": "ネリッサ・ジュリエットの日記：3日目"
+        },
+        "content": {
+          "en": "**Day 3 Journal:**\n\nToday was filled with many satisfactions. I had the pleasure of having Lady Bloodflame follow me into the dungeon. Strange, tomorrow's dungeon feels... familiar somehow. With the way it's being described. It seems Lady Bloodflame is incredibly malleable. I plan to continue to use her for our mutual advantage – clearly she is unwell and not in her right mind, so she will continue to require my gentle guidance and opinion. I hope she will do the right thing and continue to hold it in highest regard.\n\nI have also advanced my cooking career! I am now able to make milkshakes, among other things. I have been requested to make more pet food, but I have no cod, so it is currently off the table. I have also regained my memories of Bijou. I really did consider her a princess, but it seems like she is some sort of gem girl. A gem girl able to control the emotions of those around her – but curious, I feel no such effect. Mayhaps it is because I am a witch? Has becoming so caused me to abandon my humanity? Or maybe I was never human to begin with.\n\nSigning off,\nNerissa Juliet",
+          "ja": "**3日目の日記：**\n\n今日は満足のいくことがたくさんあった。\nレディ・ブラッドフレイムを連れてダンジョンへ行けたのは、とても楽しかったわ。\n\n不思議ね。明日のダンジョンは……なぜだか妙に懐かしい感じがする。話を聞いている限りでは。\n\nそれにしても、レディ・ブラッドフレイムは驚くほど扱いやすい。これからもお互いの利益のために、彼女には上手く動いてもらうつもりよ。明らかに彼女は体調が悪く、正常な判断ができていないもの。だから今後も、私の優しい導きと意見を必要とするでしょうね。彼女が正しい選択をして、それを最も大切なものとして扱い続けてくれることを願っているわ。\n\nそれから、料理人としてのキャリアも進展した！\n今ではミルクシェイクなんかも作れるようになったの。ほかにも色々ね。\n\nまたペットフードを作ってほしいと頼まれたけれど、タラがないから今は保留中。\n\nそれと、ビジューについての記憶も取り戻した。\n私は本当に彼女を“姫”のように思っていたみたい。でも実際は、彼女は何か……宝石の少女みたいな存在だったらしい。\n\n周囲の感情を操れる宝石の少女。\nでも不思議なことに、私はその影響をまったく感じない。\n\nもしかして、それは私が“魔女”だから？\n魔女になったことで、人間性を捨ててしまったのかしら？\n\nあるいは――\n\nそもそも私は最初から人間じゃなかったのかもしれない。\n\n――ここまで。\nネリッサ・ジュリエット"
         }
       }
     ]
@@ -2666,8 +2724,30 @@
           "ja": "シオリの日記エントリー：1日目"
         },
         "content": {
-          "en": "**Day 1**\n\nToday was a handful!\n\nI have been recruited by Nix, only to come to the realization that their base is absolutely suckish!\n\nThere's no furniture, there's barely any food, and all of them speak silly._\n\nI was also privvy to witnessing the end of poor Shakira Shakira Her Hips Don't Lie But They Unfortunately and Certainly Did Freaking Die.\n\nShe fell into the fountain after eating some cake and just.. drowned. Died. Just gone. Her body's completely missing_\n\nRoa was inconsolable.\n\nBeyond that, I decided to bunker up with Immerkind and Bijou since they were homeless.\n\nIt was done out of impulse, but I think we'll all get along well!\n\nGonathon is also now our neighbor.\n\nFor some reason, he wants a perfect view of our living room.\n\nI figured 'why not?'\n\nMaybe he's lonely? I decided to make that area a kitchen so he can always watch us craft and cook.\n\nI dunno, it was strange.",
+          "en": "**Day 1**\n\nToday was a handful!\n\nI have been recruited by Nix, only to come to the realization that their base is absolutely suckish!\n\nThere's no furniture, there's barely any food, and all of them speak silly.\n\nI was also privvy to witnessing the end of poor Shakira Shakira Her Hips Don't Lie But They Unfortunately and Certainly Did Freaking Die.\n\nShe fell into the fountain after eating some cake and just... drowned. Died. Just gone. Her body's completely missing.\n\nRoa was inconsolable.\n\nBeyond that, I decided to bunker up with Immerkind and Bijou since they were homeless.\n\nIt was done out of impulse, but I think we'll all get along well!\n\nGonathon is also now our neighbor.\n\nFor some reason, he wants a perfect view of our living room.\n\nI figured 'why not?'\n\nMaybe he's lonely? I decided to make that area a kitchen so he can always watch us craft and cook.\n\nI dunno, it was strange.",
           "ja": "**1日目**\n\n今日は本当に大変だった！\n\nニクスに勧誘されたんだけど、いざ拠点に行ってみたら、まあ最悪！\n\n家具はないし、食料もほとんどないし、みんな変なしゃべり方するし。\\_\n\nそれに、かわいそうな「シャキーラ・シャキーラ・ヒップス・ドント・ライ・バット・ゼイ・アンフォーチュネイトリー・アンド・サーテンリー・ディド・フリーキング・ダイ」の最期まで目撃しちゃった。\n\nケーキを食べたあと噴水に落ちて、そのまま……溺れて。死んじゃった。\n本当にそのまま消えちゃった感じ。遺体も完全に行方不明\\_\n\nロアは取り乱してて、とても見ていられなかった。\n\nそれはさておき、住む場所がなかったイマーキンドとビジューを家に住まわせることにした。\n\n勢いで決めちゃったけど、きっとみんなでうまくやっていけると思う！\n\nそれと、ゴナソンが隣人になった。\n\nなぜか私たちのリビングが完璧に見える位置を欲しがってて。\n\nまあ、「別にいっか？」って思った。\n\nもしかしたら寂しいのかもしれないし？\nだから、そこをキッチンにすることにした。いつでも私たちがクラフトしたり料理したりする様子を見られるようにね。\n\n……なんか変だったけど。"
+        }
+      },
+      {
+        "id": "shiori-journal-c3d2",
+        "title": {
+          "en": "Shiori's Journal Entry: Day 2",
+          "ja": "シオリの日記：2日目"
+        },
+        "content": {
+          "en": "**Day 2**\n\nI got my memories back and continued to work for the benefit of the Church of Inkwell.\n\nIt is going splendidly. Today was rather slow. Outside the perilous and dangerous dungeon, there was an insanely attractive, intelligent, handsome book boss of some sort.\n\nIt was rather violent in a brutally sexy way.\n\nI couldn't help but feel a rush of adrenaline and love as I fought for my life with the help of Lady, Julie, and FWA & Moc.\n\nOutside that, I noticed that there was a grave for Shakira near the gate.\n\nThere were plenty of flowers there and I thought it was lovely.\n\nI was really confused as to why her body looked like raw chicken, but I guess that's her soul.\n\nI have a vague feeling about this Gigi impostor.\n\nI dunno, I think Nyavella must've been in some really really down in the dumps sort of mentality to be fond of that thing.\n\nEh, girls be girls I guess.\n\nTo me, due to the time travel, my memories are a little imperfect despite recovering some fragments.\n\nOh well.\n\nAt least I HAVE THE FLOCK.\n\nTHE FLOCKIEST thing to EVER flock that FLOCKED.",
+          "ja": "**2日目**\n\n私は記憶を取り戻し、“インクウェル教会”のために働き続けた。\n\nすべては素晴らしく進んでいる。今日は比較的ゆっくりした一日だった。\n\n危険極まりないダンジョンの外には、信じられないほど魅力的で、知的で、ハンサムな本のボスみたいな存在がいた。\n\nしかも、残酷なくらいセクシーな暴れっぷりだった。\n\nレディ、ジュリー、そしてFWA＆モックの助けを借りながら命懸けで戦っている時、私は興奮と愛で胸が高鳴るのを感じずにはいられなかった。\n\nそれはさておき、門の近くにシャキーラのお墓があることに気づいた。\n\n花がたくさん供えられていて、とても素敵だった。\n\nどうして彼女の遺体が生のチキンみたいな見た目なのかは本当に謎だったけど、きっとあれが魂なんでしょう。\n\nあと、この“ギギの偽物”には何となく違和感がある。\n\nうーん、ニャヴェラって、あんなものを好きになるくらいには、相当メンタルが落ち込んでたんじゃないかなって思う。\n\nまぁ、女の子ってそういうものだよね。\n\n私の場合、タイムトラベルの影響で、記憶をいくらか取り戻してもまだ完璧じゃない。\n\nまあいいか。\n\n少なくとも、私には“群れ”があるんだから。\n\n史上最も“群れ”てる、究極に“群れ”な“群れ”よ。"
+        }
+      },
+      {
+        "id": "shiori-journal-c3d3",
+        "title": {
+          "en": "Shiori's Journal Entry: Day 3",
+          "ja": ""
+        },
+        "content": {
+          "en": "**Day 3**\n\nToday was a splendid day where things actually progressed.\n\nThe church has been finished.\n\nIt looked majestic in the light, and the funeral prep was made.\n\nThe chaos was expected after 'that'.\n\nWhat's amusing to me is that no one expected this.\n\nEveryone (except my favorite gem) was flabbergasted.\n\nThey looked down on my methods, yet no one has the courage nor the pixelated balls to do anything about Shakira's memory.\n\nThey whine. They mourn. They talk about how she was an amazing person.\n\nBut when someone dies, the grief is so clearly temporary for most.\n\nWhat exactly are they doing to honor her death?\n\nThey simply forget the way she died?\n\nThat she ate a suspicious cake, choked, then drowned?\n\nAnd no one even made the effort to host a funeral.\n\nNo one made any events surrounding this except a eulogy, crocodile tears, and just 'remembering the good times'.\n\nShakira deserved better than just a passing thought.",
+          "ja": ""
         }
       }
     ]
@@ -2704,6 +2784,42 @@
         "content": {
           "en": "**Libestal News**\n\n**Day 2**\n\nIn honor of Shakira Shakira Her Hips Don't Lie, a grave site was constructed near the kingdom's gate.\n\nThe Labyrinth of Knowledge has opened up for the chosen ones.\n\nShiori Novella (Or is it Nayella? Our reporters are still unsure) has recovered the useless memory of having her book stolen by prison guards.\n\nWhen interviewed, she shrugged and said, \"Lmao, they gave it to some crypto scammer.\"\n\nTo the west of the gate, the Church of Inkwell is currently in the making.\n\nA farm was installed nearby too. A secret project in honor of a **** is also being constructed by the kind and amazing Immerknight.\n\nTeam Nix is still dirt poor and unable to purchase construction blocks.\n\nMordon Ramsay's restaurant is open for business and is charging ludicrous prices of 200-300 coins.\n\nTheir food is still of suspicious quality.\n\nBe sure to tune in for tomorrow's Inkwell News!\n\nP.S.\nMordon Ramsay's chicken is named Shakira. Could it be her reincarnation? Then what is inside the coffin?",
           "ja": ""
+        }
+      }
+    ]
+  },
+  "shiori-prayer-guide": {
+    "chapter": 3,
+    "category": "other-writings",
+    "title": {
+      "en": "Inkwell Prayer Guide",
+      "ja": "インクウェル祈祷ガイド"
+    },
+    "description": {
+      "en": "The two variations of the Inkwell Prayer Guide written by Sister Shiori",
+      "ja": "シスター・シオリによって書かれた、二種類の“インクウェル祈祷ガイド”。"
+    },
+    "entries": [
+      {
+        "id": "inkwell-prayer",
+        "title": {
+          "en": "Inkwell Prayer",
+          "ja": "インクウェルの祈り（モルダン版）"
+        },
+        "content": {
+          "en": "Inkwell Prayer Guide\n\nBoom shakalakalaka\nDoom shikala\n\nZoom zoom Skibidi dooda\n\nBoat boat sheep watch\n\nHBO 2011\n\nSHAKIRA SHAKIRA",
+          "ja": "インクウェル祈祷ガイド\n\nBoom shakalakalaka\nBoom boom beep boop\n\nババブーイ\n\nいつだってノリノリでいこう\n\nドゥーム！！\n\n闇のバナナ\nシャキーラ シャキーラ"
+        }
+      },
+      {
+        "id": "inkwell-prayer-mori",
+        "title": {
+          "en": "Inkwell Prayer (Mordan version)",
+          "ja": "インクウェルの祈り"
+        },
+        "content": {
+          "en": "Inkwell Prayer Guide\n\nBoom shakalakalaka\nBoom boom beep boop\n\nBababooy\n\nAlways boogie down\n\nDOOM!!\n\nBanana of Darkness\nShakira Shakira",
+          "ja": "インクウェル祈祷ガイド\n\nBoom shakalakalaka\nDoom shikala\n\nZoom zoom Skibidi dooda\n\nBoat boat sheep watch\n\nHBO 2011\n\nSHAKIRA SHAKIRA"
         }
       }
     ]
