@@ -255,8 +255,15 @@ export const useAudioStore = create<
         set({ bgm: newBgm, bgmVolume: newBgmVolume, currentBgmKey: newBgmKey });
 
         setTimeout(() => {
-            newBgm.play();
-            newBgm.fade(0, newBgmVolume, fadeInDuration);
+            if (get().bgm !== newBgm) {
+                newBgm.unload();
+                return;
+            }
+
+            if (!newBgm.playing()) {
+                newBgm.play();
+                newBgm.fade(0, newBgmVolume, fadeInDuration);
+            }
         }, fadeOutDuration);
     },
 

@@ -70,6 +70,7 @@ const Lightbox = ({
     const backdropFilter = useSettingStore((state) => state.backdropFilter);
     const carouselRef = useRef<HTMLDivElement>(null);
     const thumbnailRefs = useRef<(HTMLDivElement | null)[]>([]);
+    const pausedBgmForVideoRef = useRef(false);
     const playBGM = useAudioStore((state) => state.playBGM);
     const pauseBGM = useAudioStore((state) => state.pauseBGM);
 
@@ -207,14 +208,12 @@ const Lightbox = ({
 
     // Pauses BGM when lightbox opens and current entry is a video, resumes when closed
     useEffect(() => {
-        if (isOpen) {
-            if (currentGalleryItem.type === "video") {
-                pauseBGM();
-            } else {
-                playBGM();
-            }
-        } else {
+        if (isOpen && currentGalleryItem.type === "video") {
+            pauseBGM();
+            pausedBgmForVideoRef.current = true;
+        } else if (pausedBgmForVideoRef.current) {
             playBGM();
+            pausedBgmForVideoRef.current = false;
         }
     }, [isOpen, currentGalleryItem.type, playBGM, pauseBGM]);
 
