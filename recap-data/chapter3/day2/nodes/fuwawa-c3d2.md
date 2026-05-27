@@ -1,7 +1,7 @@
 <!-- title: Fuwawa -->
 <!-- status: Alive -->
 
-Sure, there was a dungeon opening today, one that might unlock more past memories of her comrades and uncover even more mysteries about the world itself. Sure, the [drama and news](https://www.youtube.com/watch?v=jdWk5-BLjCw&t=885s) surrounding Shakira's death were still spreading everywhere, with people continuing to speculate about the culprit while Mordon stubbornly maintained her innocence.
+Sure, there was a dungeon opening today, one that might unlock more memories of her comrades and uncover even more mysteries about the world itself. Sure, the [drama and news](https://www.youtube.com/watch?v=jdWk5-BLjCw&t=885s) surrounding Shakira's death were still spreading everywhere, with people continuing to speculate about the culprit while Mordon stubbornly maintained her innocence.
 
 But all of that paled in comparison to the true terror inflicted upon this fluffy one that day.
 
