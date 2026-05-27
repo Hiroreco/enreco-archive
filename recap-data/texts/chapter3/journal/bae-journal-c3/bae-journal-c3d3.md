@@ -14,7 +14,7 @@ the way she utters my name is so sweet in my ear
 
 but i know i must get over her
 
-for tomorrow holds* new adventures
+for tomorrow holds new adventures
 
 new meetings...
 
