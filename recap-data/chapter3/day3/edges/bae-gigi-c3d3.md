@@ -1,5 +1,5 @@
 <!-- title: Holding Out For A Wingman -->
-<!-- status: Friends -->
+<!-- relationship: Friends -->
 
 Do-do, do-do
 Do-do, do-do
@@ -29,4 +29,3 @@ I'm holding out for a wingman 'til the morning light (Wingman 'til the morning l
 He's gotta be sure and it's gotta be soon
 
 And he's gotta be larger than life, [larger than life!](https://www.youtube.com/live/JAibEhH7R1E?si=VJuk7S0OsoE18Zyx&t=8648)
-

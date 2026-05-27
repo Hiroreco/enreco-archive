@@ -9,7 +9,7 @@ In the midst of her preparations, she came by Gonathon. With a giddiness in her 
 
 [Bae took a risk and asked Cecilia to a Dungeon Date!... Kinda.](#embed:https://youtu.be/JAibEhH7R1E?t=561)
 
-Gonathon expressed his doubts, remembering the trying times Bae went through; Immerkind's first rejection. Bae panicked, realising that she never emphasised that it was a 'date date' as she intended.  Following Gonathan's advice, The Peasant called the Kind Knight to quickly clear it up.
+Gonathon expressed his doubts, remembering the trying times Bae went through; Immerkind's first rejection. Bae panicked, realising that she never emphasised that it was a 'date date' as she intended. Following Gonathan's advice, The Peasant called the Kind Knight to quickly clear it up.
 
 A series of emotions went through Bae as she spoke to Immerkind: elation that Immerkind remembered the promise and absolute [despair](https://youtu.be/JAibEhH7R1E?t=733) when she mentioned inviting Roa to their promised time together.
 
@@ -23,7 +23,7 @@ And finally, a quest to be done: the glass compass. Frustration built up as the 
 
 [She took the glass compass by force.](#embed:https://youtu.be/JAibEhH7R1E?t=2871)
 
-Now hands dirtied with a questionable action, Bae took to to the fields to prepare bread for the party. In the midst of it, Immerkind called Bae. 
+Now hands dirtied with a questionable action, Bae took to to the fields to prepare bread for the party. In the midst of it, Immerkind called Bae.
 
 It seemed there were some confusion, mayhaps due to Gonathon's machinations, that the party now had to be split up! One too many for a party of five.
 
@@ -33,9 +33,9 @@ Heart in her throat, Bae was relieved to hear that Gonathon was somehow able to 
 
 With a Cheer from Roa, Bae and Immerkind headed towards the dungeon together. (See: [Bae-Cecelia](#embed:bae-cecilia))
 
-The two showed great synergy as they worked through the dungeon together, going through each room of emotion. Joy, sorrow, fun, and anger. The duo experienced each of emotion as they faced each thril. [Especially anger](https://youtu.be/JAibEhH7R1E?t=7006). 
+The two showed great synergy as they worked through the dungeon together, going through each room of emotion. Joy, sorrow, fun, and anger. The duo experienced each of emotion as they faced each thril. [Especially anger](https://youtu.be/JAibEhH7R1E?t=7006).
 
-Then, as if they were about to be prisoners themselves, caged behind crystal walls, [the gods answered the call](https://youtu.be/JAibEhH7R1E?t=7895) and Peasant and Immerkind were freed. They hoped to venture together again in the future. 
+Then, as if they were about to be prisoners themselves, caged behind crystal walls, [the gods answered the call](https://youtu.be/JAibEhH7R1E?t=7895) and Peasant and Immerkind were freed. They hoped to venture together again in the future.
 
 [A platonic push against a shoulder.](#embed:https://youtu.be/JAibEhH7R1E?t=8580)
 
@@ -44,7 +44,6 @@ At the end of their not-date dungeoning, Cecilia begged Bae to change allegiance
 Roa was also very much eager to hear any updates from Bae regarding her and Immerkind, the widowed cat commented on how Immerkind and the Peasant suited each other. Bae, though flattered, changed the subject quickly and inquired about Roa's services once again.
 
 But once again, it wouldn't be a normal day in Libestal without chaos more Chaotic than Chaos itself, as Bae arrived to church to hear their beloved Shakira's body missing for [her own funeral](https://youtu.be/JAibEhH7R1E?t=11230) and Mordon Ramsay brought to the [spotlight once again](https://youtu.be/JAibEhH7R1E?t=11370). But Bae was a wary Peasant. The newly established church was suspicious for the hatred it spread.
-
 
 And of course, the matter of [Shakira's body hanging](https://youtu.be/JAibEhH7R1E?t=11631) for sale on the Church wall was quite... something.
 

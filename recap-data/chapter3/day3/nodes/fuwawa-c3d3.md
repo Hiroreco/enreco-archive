@@ -3,7 +3,7 @@
 
 [“Let’s make a shop!”](https://www.youtube.com/watch?v=-KfXS2FJl2o&t=249) Fuwawa excitedly declared at the start of her third day. Watching everyone around her run their own businesses made the fluffy doggo want one of her own too. It looked fun, after all—and more importantly, it made money!
 
-Back in the previous journey, Fuwawa *had* owned a shop already, a cozy little café. But things were different this time. She was no longer a cook, meaning she had to work with what her current profession specialized in instead.
+Back in the previous journey, Fuwawa _had_ owned a shop already, a cozy little café. But things were different this time. She was no longer a cook, meaning she had to work with what her current profession specialized in instead.
 
 Upgrade stones.
 

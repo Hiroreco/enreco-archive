@@ -6,7 +6,7 @@
 
 一日の始まりから間もなく、ゴナソンは[農民ベーに呼び止められる。](https://www.youtube.com/watch?v=uLitDJpSaKQ&t=489s)どうやら混沌の齧歯類は、以前のリベスタルでの失恋をすっかり忘れてしまったらしく、再びイマーキンドへ恋心を募らせていた。そして彼女は、ゴナソンへ助力を懇願する。困っている友人を見捨てられない騎士は、ベーとイマーキンドがその日のダンジョン探索で一緒になれるよう計画を立て始めた。（参照: [Bae-Gonathon](#edge:bae-gigi)）
 
-[君の心は本当に純粋だ！](#embed: [https://www.youtube.com/watch?v=uLitDJpSaKQ&t=744s](https://www.youtube.com/watch?v=uLitDJpSaKQ&t=744s))
+[君の心は本当に純粋だ！](#embed:https://www.youtube.com/watch?v=uLitDJpSaKQ&t=744s)
 
 いくつかの依頼をこなした後、今度はシオリに呼び止められる。いつものような取り留めのない話の中で、彼女は自身の教会が完成間近であると[語った。](https://youtu.be/uLitDJpSaKQ?t=1332) その時のゴナソンは、まさかその教会が、この日最も凄惨な出来事の舞台になるとは想像もしていなかった。
 
@@ -16,7 +16,7 @@
 
 [溶岩チキンの古代賛歌](#embed:https://youtu.be/uLitDJpSaKQ?t=2251)
 
-巧みな説得と、少々の[ harmlessな嘘](https://www.youtube.com/watch?v=uLitDJpSaKQ&t=3226s)を交えた結果、ゴナソンはイマーキンドを説得し、ベーと二人きりでダンジョンへ向かわせることに成功する。（参照: [Gonathon-Immerkind](#edge:cecilia-gigi)）
+巧みな説得と、少々の[harmlessな嘘](https://www.youtube.com/watch?v=uLitDJpSaKQ&t=3226s)を交えた結果、ゴナソンはイマーキンドを説得し、ベーと二人きりでダンジョンへ向かわせることに成功する。（参照: [Gonathon-Immerkind](#edge:cecilia-gigi)）
 
 その結果、ゴナソンのパーティにはロア、ビジュー、そして忠実なるニノイナが残った。胸に気まぐれを抱き、ニノイナから授かった[チャーム](https://youtu.be/uLitDJpSaKQ?t=4811)で身を守りながら、ゴナソンは仲間たちと共にラビリンス・オブ・エモーションへと足を踏み入れる。
 

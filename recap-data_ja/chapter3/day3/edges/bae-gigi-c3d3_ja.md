@@ -1,5 +1,5 @@
 <!-- title: ウィングマンを求めて -->
-<!-- relationship: 友達 -->
+<!-- relationship: Friends -->
 
 ドゥードゥー、ドゥードゥー
 ドゥードゥー、ドゥードゥー

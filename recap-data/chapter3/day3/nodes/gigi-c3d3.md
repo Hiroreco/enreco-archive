@@ -5,7 +5,7 @@ Following a fairly uneventful second day with Immerkind, the third would prove t
 
 Shortly after starting his day, Gonathon was [called upon by](https://www.youtube.com/watch?v=uLitDJpSaKQ&t=489s) Bae the Peasant. It seemed the chaotic rodent had forgotten her ordeal in the past Libestal and had once again become enamored with Immerkind, and she begged Gonathon for his aid. Never one to turn down a friend in need, Gonathon hatched a plan to ensure that Bae and Immerkind would end up together on the day's dungeon expedition (see [Bae-Gonathon](#edge:bae-gigi)).
 
-[Your heart is pure!](#embed: https://www.youtube.com/watch?v=uLitDJpSaKQ&t=744s)
+[Your heart is pure!](#embed:https://www.youtube.com/watch?v=uLitDJpSaKQ&t=744s)
 
 Following a bit of questing, Gonathon was further interrupted by Shiori who, among her usual ramblings, [mentioned](https://youtu.be/uLitDJpSaKQ?t=1332) that her church was nearing completion. Little did the knight know that the church would become the site of one of the day's most harrowing moments.
 

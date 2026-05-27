@@ -11,7 +11,7 @@ As Shiori began her morning, she stumbled across Roa—or at least, someone who 
 
 It startled Shiori deeply, though it would not be the last strange encounter she would have with the pink feline that day (see [Roa-Shiori](#edge:raora-shiori)). Still, the scene planted an idea in her mind, one that perfectly matched the atmosphere she wanted for the gathering later that night.
 
-Something centered around *death*.
+Something centered around _death_.
 
 Afterwards, she resumed work on the chapel. The interior still lacked its finishing touches, so Shiori spent the day gathering the final materials she needed. Some she collected herself, while others she acquired through the [help](https://www.youtube.com/live/PNrclGd76n4?si=mmjDaUjMDsj1Oy_n&t=1731) of those around her.
 
@@ -45,7 +45,7 @@ And perhaps, through that funeral, she could expose the one responsible for Shak
 
 …Well, sort of.
 
-Because Shiori’s *actual* plan was to eventually sell the stolen corpse for a large amount of money.
+Because Shiori’s _actual_ plan was to eventually sell the stolen corpse for a large amount of money.
 
 Still, before that, she devised a little game.
 
@@ -109,7 +109,7 @@ Why did their grief disappear so quickly?
 
 To Shiori, it all felt hollow. Temporary. Performative.
 
-She had gone out of her way to build an entire funeral, to dedicate days of effort towards commemorating someone who had only been their companion for less than a single day. And while her methods were undeniably questionable, at least she *did* something.
+She had gone out of her way to build an entire funeral, to dedicate days of effort towards commemorating someone who had only been their companion for less than a single day. And while her methods were undeniably questionable, at least she _did_ something.
 
 She cared enough to try.
 

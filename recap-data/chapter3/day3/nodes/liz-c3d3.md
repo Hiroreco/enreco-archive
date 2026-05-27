@@ -1,5 +1,5 @@
-<!--title: Elizabeth Rose Bloodflame  -->
-<!--status: Unwell -->
+<!-- title: Elizabeth Rose Bloodflame  -->
+<!-- status: Unwell -->
 
 Lady Bloodflame stared at herself, her face pale, complexion weak, and one eye now changed to blue. She thought to herself—
 
