@@ -274,6 +274,7 @@ export const CHARACTER_ID_NAME_MAP_EN: Record<string, string> = {
     cecilia: "Cecilia Immergreen",
     raora: "Raora Panthera",
     iphania: "Iphania",
+    nix: "Nix",
 };
 
 export const CHARACTER_ID_NAME_MAP_JA: Record<string, string> = {
@@ -297,6 +298,7 @@ export const CHARACTER_ID_NAME_MAP_JA: Record<string, string> = {
     cecilia: "セシリア・イマーグリーン",
     raora: "ラオラ・パンテラ",
     iphania: "イファニア",
+    nix: "ニックス",
 };
 
 export const getCharacterIdNameMap = (
@@ -349,6 +351,7 @@ export const CHARACTER_ORDER = [
     "gigi",
     "raora",
     "iphania",
+    "nix",
 ];
 
 /**

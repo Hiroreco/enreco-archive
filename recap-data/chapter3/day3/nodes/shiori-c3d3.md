@@ -134,4 +134,6 @@ And disappointed.
 
 ["learn how to fish now" by haaro_69](https://x.com/haaro_69/status/2059294782388908311)
 
-["Shakira on the Cross" by elisbian\_](https://x.com/elisbian_/status/2059578460432146678)
+["Shakira on the Cross" by elisbian\_](https://x.com/elisbian_/status/2059578460432146678)z
+
+<!-- kiara -->
