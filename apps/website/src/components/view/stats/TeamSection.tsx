@@ -3,7 +3,7 @@ import { TeamsSummary } from "@/components/view/stats/TeamsSummary";
 import { AnimatePresence, motion } from "framer-motion";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
-import { talentById } from "./data";
+import { getTalentForDay } from "./data";
 import type { TeamData } from "./types";
 
 interface TeamsSectionProps {
@@ -71,7 +71,7 @@ export function TeamsSection({ teams, currentDay }: TeamsSectionProps) {
                                 <div className="flex flex-wrap gap-1.5">
                                     <AnimatePresence>
                                         {unique.map((id) => {
-                                            const talent = talentById(id);
+                                            const talent = getTalentForDay(id, currentDay);
                                             return talent ? (
                                                 <motion.div
                                                     key={id}

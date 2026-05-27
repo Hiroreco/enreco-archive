@@ -65,38 +65,44 @@ export function StatsModal({ open, onClose, currentDay }: StatsModalProps) {
 
     return (
         <Dialog open={open} onOpenChange={onClose}>
-            <DialogContent className="max-w-4xl">
-                <DialogHeader className="flex flex-row items-end justify-between border-b pb-2">
-                    <DialogTitle asChild>
-                        <div className="flex items-center gap-2">
-                            <div className="text-xl font-bold">
-                                {t("title")}
+            <DialogContent className="max-w-4xl max-h-[90vh] flex flex-col">
+                <div>
+                    <DialogHeader className="flex flex-row items-end justify-between border-b pb-2 min-h-0">
+                        <DialogTitle asChild>
+                            <div className="flex items-center gap-2">
+                                <div className="text-xl font-bold">
+                                    {t("title")}
+                                </div>
+                                <StatsInfoModal />
                             </div>
-                            <StatsInfoModal />
+                        </DialogTitle>
+                        <div className="flex items-center gap-2.5">
+                            <Select
+                                value={day.toString()}
+                                onValueChange={(val) => setDay(Number(val))}
+                            >
+                                <SelectTrigger className="w-24">
+                                    <SelectValue />
+                                </SelectTrigger>
+                                <SelectContent>
+                                    {Array.from(
+                                        { length: TOTAL_DAYS },
+                                        (_, i) => i + 1,
+                                    ).map((d) => (
+                                        <SelectItem
+                                            key={d}
+                                            value={d.toString()}
+                                        >
+                                            {tCommon("day", { val: d })}
+                                        </SelectItem>
+                                    ))}
+                                </SelectContent>
+                            </Select>
                         </div>
-                    </DialogTitle>
-                    <div className="flex items-center gap-2.5">
-                        <Select
-                            value={day.toString()}
-                            onValueChange={(val) => setDay(Number(val))}
-                        >
-                            <SelectTrigger className="w-24">
-                                <SelectValue />
-                            </SelectTrigger>
-                            <SelectContent>
-                                {Array.from(
-                                    { length: TOTAL_DAYS },
-                                    (_, i) => i + 1,
-                                ).map((d) => (
-                                    <SelectItem key={d} value={d.toString()}>
-                                        {tCommon("day", { val: d })}
-                                    </SelectItem>
-                                ))}
-                            </SelectContent>
-                        </Select>
-                    </div>
-                </DialogHeader>
-                <div className="flex flex-col gap-8 py-6 max-w-5xl mx-auto px-4 max-h-[80dvh] overflow-y-auto overflow-x-hidden">
+                    </DialogHeader>
+                </div>
+
+                <div className="flex flex-col gap-8 py-6 max-w-5xl mx-auto px-4 flex-1 overflow-y-auto overflow-x-hidden">
                     <TeamsSection teams={data.teams ?? []} currentDay={day} />
                     <FactionsSection
                         factions={data.factions}
