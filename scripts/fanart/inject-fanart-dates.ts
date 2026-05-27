@@ -82,6 +82,9 @@ async function main() {
         "https://x.com/daiyaekaku/status/1920683282439516582",
         "https://x.com/daiyaekaku/status/1923920501631578438",
         "https://x.com/yakimi27/status/1925898088876568829",
+        "https://x.com/fukuinu_daddy/status/2058922197264294016",
+
+        "https://x.com/dasdokter/status/2058789765709975701",
     ];
 
     let processedCount = 0;

@@ -11,13 +11,13 @@ Awkward. Nervous. Mumbling.
 
 The knight fumbled helplessly, struggling to form even a coherent sentence. His head was crowded with grief and guilt. Grief for how everything had ended, guilt for what he himself had done.
 
-Shiori had forgotten it all, and Gonathon knew that. He had known it for a long time now. But then why couldn't *he* [let it go?](https://www.youtube.com/watch?t=1700&v=J8CAzdF1qb4)
+Shiori had forgotten it all, and Gonathon knew that. He had known it for a long time now. But then why couldn't _he_ [let it go?](https://www.youtube.com/watch?t=1700&v=J8CAzdF1qb4)
 
 The [rooftop](https://www.youtube.com/watch?v=J8CAzdF1qb4&t=1903), the moments they had shared there, the things they had done together. He wanted to tell her about all of it, about the life they once had. Yet something kept stopping him. Something deep inside refused to let him speak. Maybe it was his conscience. Maybe it was the fear that dragging those memories back into the light would only hurt her again.
 
-Or perhaps, buried somewhere deep within him, there was still a selfish desire for her to have remembered at least *something*.
+Or perhaps, buried somewhere deep within him, there was still a selfish desire for her to have remembered at least _something_.
 
-As the day went on, and the two crossed paths [time and time](https://www.youtube.com/watch?t=2487&v=J8CAzdF1qb4) again, the urge only grew stronger. It gnawed at him relentlessly. He did not need reconciliation, nor judgment. He simply wanted to *know* whether Shiori truly remembered nothing at all. Some desires were difficult to explain. Human emotions often exist without reason, even to the person feeling them.
+As the day went on, and the two crossed paths [time and time](https://www.youtube.com/watch?t=2487&v=J8CAzdF1qb4) again, the urge only grew stronger. It gnawed at him relentlessly. He did not need reconciliation, nor judgment. He simply wanted to _know_ whether Shiori truly remembered nothing at all. Some desires were difficult to explain. Human emotions often exist without reason, even to the person feeling them.
 
 And so, after spending the day journeying together, at the very end of it all, the knight finally gathered enough courage to ask:
 

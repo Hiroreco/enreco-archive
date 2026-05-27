@@ -5,11 +5,11 @@ The Azure queen returned to this kingdom that had traumatized her many, many tim
 
 And sure enough, she was also here, and Tam was _not_ pleased (see [Hot Pink One-Tam](#edge:irys-kronii)).
 
-That unpleasant face was here, but Tam tried her best not to pay it any concern and started her journey in this kingdom, a future version of Libestal. Will she be queen again in this journey? Will she gain devoted followers like how she did back in the previous journeys? That's what many might think this queen would be concerned about. But for Tam, she did not want any of those headaches again, she just wanted peace. To be alone. To be devoid of thoughts and anguish.
+That unpleasant face was here, but Tam tried her best not to pay it any concern and started her journey in this kingdom, a future version of Libestal. Will she be queen again in this journey? Will she gain devoted followers as she did back in the previous journeys? That's what many might think this queen would be concerned about. But for Tam, she did not want any of those headaches again, she just wanted peace. To be alone. To be devoid of thoughts and anguish.
 
 [Head empty, no thoughts](#embed:https://www.youtube.com/watch?v=sT4tuLP6UJQ&t=1794)
 
-As she stepped foot into the kingdom, she was faced with a choice: which faction would she join, the "Shining Stars" or the "Rebellion"? Tam chose the [former](https://www.youtube.com/watch?v=sT4tuLP6UJQ&t=2237). She decided to be a supplier, just like last time. All presets completed, it was time for her to embark on her new journey.
+As she set foot into the kingdom, she was faced with a choice: which faction would she join, the "Shining Stars" or the "Rebellion"? Tam chose the [former](https://www.youtube.com/watch?v=sT4tuLP6UJQ&t=2237). She decided to be a supplier, just like last time. All presets completed, it was time for her to embark on her new journey.
 
 New journey, but old Tam. The ex-queen still had her harsh tone of speaking, even managed to make Immerkind run off [crying](https://www.youtube.com/watch?v=sT4tuLP6UJQ&t=2745) with it, still had her monotone and [unbothered](https://www.youtube.com/watch?v=sT4tuLP6UJQ&t=2803) attitude towards anything and everything. Maybe the authority was gone, but the Tam-ness was still there.
 
@@ -29,9 +29,9 @@ She even got locked up in a prison cell just because she forgot the name of some
 
 So much for a peaceful, quiet life.
 
-[Bro what did i dooo...](#embed:https://www.youtube.com/watch?v=sT4tuLP6UJQ&t=12617)
+[Bro, what did I dooo...](#embed:https://www.youtube.com/watch?v=sT4tuLP6UJQ&t=12617)
 
-Well, at least towards the very end of the day, finally some bit of peace and quiet. As Tam wrote her journey in a lone secluded corner, [documenting](https://www.youtube.com/watch?v=sT4tuLP6UJQ&t=13638) her woes.
+Well, at least towards the very end of the day, finally a bit of peace and quiet. As Tam wrote her journey in a lone secluded corner, [documenting](https://www.youtube.com/watch?v=sT4tuLP6UJQ&t=13638) her woes.
 
 ## Fanart
 

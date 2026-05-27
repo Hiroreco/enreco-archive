@@ -128,4 +128,6 @@
 
 ## ファンアート
 
+["The Bane of Queen Tam Gandr'" by danishakmal_04](https://x.com/danishakmal_04/status/2059461243694665933)
+
 ["Hot Pink One!" by bebeko_z](https://x.com/bebeko_z/status/2058918410294296703)

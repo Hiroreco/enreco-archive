@@ -51,6 +51,14 @@ Closer to uncovering the true nature of this world.
 
 ## Fanart
 
+["The Sheep" by ddolbang11](https://x.com/ddolbang11/status/2059634430579499467)
+
+["It's so beautiful" by keenbiscuit](https://x.com/keenbiscuit/status/2059587053827104775)
+
+["An enigma" by snoweagle110](https://x.com/snoweagle110/status/2059457701491683746)
+
+["The Onesheep is real." by lavendulan](https://x.com/lavendulan/status/2059301550082916615)
+
 ["raora doodles" by chiipzzer](https://x.com/chiipzzer/status/2059212797926355037)
 
 ["Identity crisis is having a crisis" by padiberhoodie](https://x.com/padiberhoodie/status/2059220255764099081)

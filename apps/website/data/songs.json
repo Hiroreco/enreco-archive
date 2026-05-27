@@ -144,6 +144,17 @@
             "sourceUrl": "/audio/songs/ingame/ingame-a-song-that-imagines-a-prison.mp3",
             "coverUrl": "/images-opt/song-chapter-3-opt.webp",
             "duration": "00:59"
+        },
+        {
+            "title": "Alchemist",
+            "info": {
+                "en": "Labirynth of Emotions Theme (Chapter 3)",
+                "ja": "感情の迷宮のテーマ（第3章）"
+            },
+            "originalUrl": "https://audiostock.net/tracks/34767",
+            "sourceUrl": "/audio/songs/ingame/ingame-alchemist.mp3",
+            "coverUrl": "/images-opt/song-chapter-3-opt.webp",
+            "duration": "02:06"
         }
     ],
     "stream": [

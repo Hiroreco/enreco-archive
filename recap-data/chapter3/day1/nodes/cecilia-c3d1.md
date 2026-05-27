@@ -5,13 +5,13 @@ Immerkind awakens from his slumber and is beset by temporary deafness. The event
 
 The Shining Stars were teleported by Fia to the new Libestal, where Knight Immerkind was being recruited by a mysterious Nix. Taken aback by the forwardness of this stranger, she politely declines as [his heart stays true to Fia](https://www.youtube.com/live/rjNDjL6R3-s?si=2-Tgs5fp2S-THkOQ&t=2488).
 
-Immerkind explores the familiar but different city when she encounters Tam Gandr, The Hot Pink One, and Princess Bijou. She greets her fellow Shining Stars, who begin to question why they stay loyal to Fia. Immerkind takes upon his horse and gallops away in dismay.
+Immerkind explores the familiar but different city when she encounters Tam Gandr, The Hot Pink One, and Princess Bijou. She greets her fellow Shining Stars, who begin to question why they stay loyal to Fia. Immerkind gets upon his horse and gallops away in dismay.
 
 Gonathon calls Immerkind (see [Cecilia-Gigi](#edge:cecilia-gigi)) who tells him that he has found a treasure that she might like. There, they meet the [ISexy Prophet](https://www.youtube.com/live/rjNDjL6R3-s?si=AfpiGMslXndmPuy3&t=3471), which leaves a critical puzzle for Immerkind that she looks forward to resolving.
 
 Immerkind mused that there can be no way the supplier's job will be the same as before. After all, would it not make sense to choose a path she is familiar with in an unfamiliar world? She accepted the supplier position.
 
-She ventured forth to the fields to complete his jobs and ran into devious stains. His search for lapis lazuli allowed for him to run into many others toiling away in the mines. She learns from Gonathan that the year is 2011, which triggers Immerkind to remember a critical fact.
+She ventured forth to the fields to complete his jobs and ran into devious stains. His search for lapis lazuli allowed him to run into many others toiling away in the mines. She learns from Gonathan that the year is 2011, which triggers Immerkind to remember a critical fact.
 
 [2011: The Time HBO Premiered Game of Thrones!](#embed:https://www.youtube.com/live/rjNDjL6R3-s?si=SuY2XwGOfFzgcEvQ&t=4948)
 **Writer's note: not sponsored**
@@ -20,7 +20,7 @@ Immerkind chaperones Bijou back to the kingdom. There, they converse about the f
 
 Upon returning to the city, Immerkind finds moments of fun and merriment with Tam Gandr and Gonathon, where [Immerkind excitedly explains](https://www.youtube.com/live/rjNDjL6R3-s?si=aAcYSQ8wNrPgAgFg&t=6429) the meaning behind his name. The banter continues and ultimately leads to a game of chance where Immerkind wins the cursed hat from Tam.
 
-As Immerkind continues to toil with his work, sister Shiori called and requests his services. They return to the Cliffs, where Shiori must slay several slimes. The sister offers a house for Immerkind to stay in. Immerkind mulls how the [housing situation is crazy](https://www.youtube.com/live/rjNDjL6R3-s?si=wKLSL_fUkZLmLBtY&t=8618) with most houses being held by Mococo and Shiori. Despite being in opposing parties, they agree to stay together in a house, much to Gonathon's dismay, but that won't stop their friendship (see [Shiori-Cecilia: My Roommate is in love with a Marketable Plush]).
+As Immerkind continues to toil with his work, sister Shiori calls and requests his services. They return to the Cliffs, where Shiori must slay several slimes. The sister offers a house for Immerkind to stay in. Immerkind mulls how the [housing situation is crazy](https://www.youtube.com/live/rjNDjL6R3-s?si=wKLSL_fUkZLmLBtY&t=8618) with most houses being held by Mococo and Shiori. Despite being in opposing parties, they agree to stay together in a house, much to Gonathon's dismay, but that won't stop their friendship (see [Shiori-Cecilia](#edge:cecilia-shiori)).
 
 Immerkind departs his new dwelling and sets forth to the castle for his [audience with Fia](https://www.youtube.com/live/rjNDjL6R3-s?si=5MgMovwebSk6uiPu&t=9331). Immerkind takes a knee and confides his concerns about the people they are fighting. Fia assuages his concerns, but she still has some reservations due to the people in the castle that she calls impostors.
 

@@ -75,6 +75,8 @@ _いや、これは今はまだチェストの中にしまっておこう。_
 
 ## ファンアート
 
+["The Devil Laughed" by kizuru09](https://x.com/kizuru09/status/2059417591895167198)
+
 ["defintely not brainwashed" by arionwatches](https://x.com/arionwatches/status/2059149876219543732)
 
 ["cant forget the way you tatste" by elisbian\_](https://x.com/elisbian_/status/2043606158884393278)

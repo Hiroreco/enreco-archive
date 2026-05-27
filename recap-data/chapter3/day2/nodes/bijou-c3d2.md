@@ -17,4 +17,6 @@ With the Labyrinth of Emotion still closed, Bijou turns back with the intent of 
 
 ## Fanart
 
+["stain princess" by dinas81800](https://x.com/dinas81800/status/2059265541488234583)
+
 ["Bijou..." by 147illu](https://x.com/147illu/status/2059220499465724026)

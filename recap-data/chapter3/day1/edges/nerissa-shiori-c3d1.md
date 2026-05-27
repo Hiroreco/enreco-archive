@@ -33,12 +33,14 @@ An Anomaly that smelled like home
 
 This time, Sister Shiori called Nerissa Juliet on the phone, informing her of a mysterious place she had found. She later revealed that it felt familiar somehow, reminding her of their old [home](https://youtu.be/To_P9pUvMRA?t=4901) from the distant past. A world unknown to the Ancient nor to the Modern Libestal.
 
-The revelation piqued her interest. And so, Nerissa listened attentively, in full, anticipation building up as Shiori spoke more. But, as the Archiver delved deeper, the call was cut short.
+The revelation piqued her interest. And so, Nerissa listened attentively, in full anticipation as Shiori spoke more. But, as the Archiver delved deeper, the call was cut short.
 
 What did Shiori mean by"It smelled like home"? Why did the call end abruptly? What secrets would await her, and was this mystery truly connected to the identities they once possessed prior to each version of Libestal?
 
 Nerissa Juliet had yet to find out.
 
 ## Fanart
+
+["Together" by yomosaka](https://x.com/yomosaka/status/2059390718159016269)
 
 ["Would you like to be my first?" by noirstein](https://x.com/noirstein/status/2058782884262252922)

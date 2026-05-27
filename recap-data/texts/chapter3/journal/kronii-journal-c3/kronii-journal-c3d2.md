@@ -2,7 +2,7 @@
 
 **Day 2**
 
-Today was good! Went to go to the Labyrinth of Knowledge with Foa, MinoIna, Princess Bijou, and the Fluffy One.
+Today was good! Went to go to the Labyrinth of Knowledge with Roa, NinoIna, Princess Bijou, and the Fluffy One.
 
 Sister Shiori offered her home and I took a corner!
 

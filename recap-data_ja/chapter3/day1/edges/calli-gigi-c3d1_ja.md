@@ -24,3 +24,7 @@
 狼、ずっと一緒。
 
 [ワフ アウォー ワフワフ](#embed:https://www.youtube.com/watch?v=ZSkPr-qXud0&t=13588)
+
+## ファンアート
+
+["Mordan Ramsay has me" by watashigazza](https://x.com/watashigazza/status/2059577916804231521)

@@ -3,16 +3,13 @@ import { CHARACTER_ID_NAME_MAP_EN, CHARACTER_ID_NAME_MAP_JA } from "@/lib/misc";
 import { day1Data } from "./stats-data/day1";
 
 import type { Talent, TrackerData, LocalizedString } from "./types";
-import { day2Data } from "@/components/view/stats/stats-data";
+import { day2Data, day3Data } from "@/components/view/stats/stats-data";
 
 type AssignmentKey = "teamId" | "faction";
 
 type TitleMap = Record<string, LocalizedString>;
 
-const buildNodeTitlesFromChapter = (
-    chapterRaw: any,
-    day: number,
-): TitleMap => {
+const buildNodeTitlesFromChapter = (chapterRaw: any, day: number): TitleMap => {
     const chart = chapterRaw.charts?.[day - 1];
     const titles: TitleMap = {};
 
@@ -29,13 +26,12 @@ const buildNodeTitlesFromChapter = (
     return titles;
 };
 
-const NODE_TITLES_BY_DAY: Record<number, TitleMap> =
-    Object.fromEntries(
-        (chapter2Raw.charts || []).map((chart: any, index: number) => [
-            index + 1,
-            buildNodeTitlesFromChapter(chapter2Raw, index + 1),
-        ]),
-    );
+const NODE_TITLES_BY_DAY: Record<number, TitleMap> = Object.fromEntries(
+    (chapter2Raw.charts || []).map((chart: any, index: number) => [
+        index + 1,
+        buildNodeTitlesFromChapter(chapter2Raw, index + 1),
+    ]),
+);
 
 const getTalentNameForDay = (
     id: string,
@@ -342,6 +338,11 @@ export const TRACKER_DATA: TrackerData = {
         ...day2Data,
         teams: buildTeamsFromChapter(chapter2Raw, 2),
         factions: buildFactionsFromChapter(chapter2Raw, 2),
+    },
+    3: {
+        ...day3Data,
+        teams: buildTeamsFromChapter(chapter2Raw, 3),
+        factions: buildFactionsFromChapter(chapter2Raw, 3),
     },
 };
 

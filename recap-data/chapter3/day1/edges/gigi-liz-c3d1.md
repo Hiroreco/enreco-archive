@@ -5,7 +5,7 @@ They were two of the most prestigious knights the kingdom had to offer, and they
 
 Though their relationship had started somewhat rocky, time slowly forged mutual respect between them, and eventually, they became friends. Good ones, even.
 
-But no bridge of comradeship, no matter how sturdy, can remain whole forever once cracks begin to form. Given enough reason, those fractures only grow, until eventually, the bridge collapses under its own weight.
+But no bridge of comradeship, no matter how sturdy, can remain whole forever once cracks begin to form. Given enough reason, those fractures only grow until eventually, the bridge collapses under its own weight.
 
 [A decision, and the price paid for it](#embed:https://www.youtube.com/watch?v=2rnclFeQ5EM&t=4700)
 

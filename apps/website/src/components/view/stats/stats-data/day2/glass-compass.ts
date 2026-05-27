@@ -22,7 +22,7 @@ export const glassCompassObtainMethodChoice: Choice = {
         },
         {
             label: { en: "Black Market", ja: "ブラックマーケット" },
-            members: ["bijou", "fuwawa", "raora", "bae"],
+            members: ["bijou", "fuwawa", "raora", "bae", "mococo"],
         },
     ],
 };

@@ -1,7 +1,7 @@
 <!-- title: Road to Amends? -->
 <!-- relationship: Friends -->
 
-They meet once again in the fields of Sidero, as Peasant and Knight fighting stains back to back.
+They meet once again in the fields of Sidero, as Peasant and Knight fighting stains side by side.
 
 Even when her words were rough, Bae inquired about Immerkind's well-being, finding out she is well and was building a castle for the former queen Tam to Bae's confusion.
 
@@ -13,8 +13,8 @@ An awkwardness that both would want gone as they met again later in the day.
 
 Fondness can only be described as Bae watched Immerkind snuggle against Polar The Bear.
 
-It seems their relationship, ambigious as it is to Bae, may improve in the future.
+It seems their relationship, ambiguous as it is to Bae, may improve in the future.
 
-With Immerkind expressing regret how she treated someone dear to her and would like to make amends.
+With Immerkind expressing regret for how she treated someone dear to her and would like to make amends.
 
 Bae took another step forward, offering a shoulder for a once friend to lean on as she suggested for the two of them to [work together](https://youtu.be/t0aLqfBeqK0?t=9296) in the next Labrynth when the morrow comes.
