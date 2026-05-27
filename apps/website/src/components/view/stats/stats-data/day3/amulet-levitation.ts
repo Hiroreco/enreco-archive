@@ -28,6 +28,7 @@ export const amuletOfLevitationMethodChoice: Choice = {
                 "nerissa",
                 "bae",
                 "raora",
+                "liz",
             ],
         },
     ],

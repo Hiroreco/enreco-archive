@@ -13,7 +13,7 @@ After claiming victory against the Prisoner of Emotion and finding a secret room
 
 With this victory, Ina managed to claim the Lens of revealing and used it to seek answers. What she saw shocked her so much, she couldn't even find the [right words to say](www.youtube.com/watch?v=GzBAUkX8-r0&t=7825s). In fact, it shocked her so much that she blacked out.
 
-But more shocking than that is what she witnessed when she came to. It seemed that the ideals of Gonathon and Bijou had clashed, and Ina and Roa had [front row seats](https://www.youtube.com/watch?v=GzBAUkX8-r0&t=8425s). (see [Bijou-Gigi](#embed:bijou-gigi))
+But more shocking than that is what she witnessed when she came to. It seemed that the ideals of Gonathon and Bijou had clashed, and Ina and Roa had [front row seats](https://www.youtube.com/watch?v=GzBAUkX8-r0&t=8425s). (see [Bijou-Gigi](#edge:bijou-gigi))
 
 Speaking to Faust, Ina learnt of the Amulet of Levitation, which would allow her to bypass a lava lake, gaining access to the next dungeon. The Amulet could be procured through Maaz of the star speakers, but Nix suggested they attempt to claim one through _stealing_ one from her instead. Ina quickly shut down Nix's blasphemous proposal and headed to Maaz to see whether she would be willing to give one to her.
 
