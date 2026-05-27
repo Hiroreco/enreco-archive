@@ -1,0 +1,34 @@
+import type { Choice } from "../../types";
+
+export const amuletOfLevitationMethodChoice: Choice = {
+    id: "amuletOfLevitationMethod",
+    question: {
+        en: "Method to Obtain an Amulet of Levitation",
+        ja: "浮遊のアミュレットの入手方法",
+    },
+    type: "multi",
+    options: [
+        {
+            label: {
+                en: "Negotiate with Maaz",
+                ja: "マアズと交渉する",
+            },
+            members: ["ina", "gigi", "cecilia", "calli"],
+        },
+        {
+            label: {
+                en: "Steal the Amulet",
+                ja: "アミュレットを盗む",
+            },
+            members: [
+                "mococo",
+                "shiori",
+                "bijou",
+                "elizabeth",
+                "nerissa",
+                "bae",
+                "raora",
+            ],
+        },
+    ],
+};

@@ -20,7 +20,7 @@ export const blackMarketMethodChoice: Choice = {
                 en: "Take without paying",
                 ja: "支払わずに持ち去る",
             },
-            members: ["bijou", "fuwawa", "raora", "bae"],
+            members: ["bijou", "fuwawa", "raora", "bae", "mococo"],
         },
     ],
 };
