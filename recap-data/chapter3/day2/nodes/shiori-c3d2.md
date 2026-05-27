@@ -77,6 +77,12 @@ The Church of Inkwell was coming together nicely.
 
 Satisfied with the day's progress, the kindred sister finally called it a night.
 
+...
+
+Oh forgot to mention, she dug ug a grave and stole Shakira's corpse.
+
+[We do a little trolling](#embed:https://www.youtube.com/watch?t=9012&v=vRVwJrdNzGk)
+
 ## Fanart
 
 ["Pixel Shiori" by okunashi27](https://x.com/okunashi27/status/2059224755480494511)

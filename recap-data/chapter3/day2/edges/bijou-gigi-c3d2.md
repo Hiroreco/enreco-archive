@@ -16,5 +16,3 @@ Only time will tell if the two can mend their fractured relationship.
 ["Silent treatment" by robomb1192](https://x.com/robomb1192/status/2059282555783061781)
 
 <!-- nerissa -->
-
-["look me in the eyes and tell me" by toasty771](https://x.com/toasty771/status/2059138043001639373)
