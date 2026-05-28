@@ -8,7 +8,7 @@ In honor of Shakira Shakira Her Hips Don't Lie, a grave site was constructed nea
 
 The Labyrinth of Knowledge has opened up for the chosen ones.
 
-Shiori Novella (Or is it Nayella? Our reporters are still unsure) has recovered the useless memory of having her book stolen by prison guards.
+Shiori Novella (Or is it Nyaella? Our reporters are still unsure) has recovered the useless memory of having her book stolen by prison guards.
 
 When interviewed, she shrugged and said, "Lmao, they gave it to some crypto scammer."
 

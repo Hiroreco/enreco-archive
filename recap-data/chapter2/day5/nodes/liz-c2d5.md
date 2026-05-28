@@ -1,4 +1,4 @@
-<!-- title: Elizabeth Smith Bloodflame -->
+<!-- title: Lady Elizabeth Bloodflame -->
 <!-- status: Alive -->
 
 Right from the start of the fifth day, Elizabeth already had company. She was greeted by [Roa and Bijou](https://www.youtube.com/live/9gL4We5utAk?t=490s)—friendly morning hellos, head pats exchanged—until the blue bird lady popped in, completely ruining the mood (or more accurately, ruining Elizabeth’s ability to keep her composure).

@@ -8,14 +8,14 @@ import { useEffect, useRef, useState } from "react";
 
 // --- IMPORTANT ---
 // Change this value for each new countdown to trigger the animation for users again.
-const CURRENT_DAY = 3;
+const CURRENT_DAY = 4;
 const CURRENT_COUNTDOWN_VERSION = `c3d${CURRENT_DAY}`;
 
 // REMEMBER TO SET THIS TO FALSE AFTER THE UPDATE IS UP AND VICE VERSA
-const IS_VISIBLE = false;
+const IS_VISIBLE = true;
 
 // Fixed target: May 28 2026, 2:00 AM JST = May 27 2026, 17:00 UTC
-const TARGET_DATE = new Date("2026-05-27T17:00:00.000Z");
+const TARGET_DATE = new Date("2026-05-28T17:00:00.000Z");
 
 function getTimeLeft() {
     const now = new Date();

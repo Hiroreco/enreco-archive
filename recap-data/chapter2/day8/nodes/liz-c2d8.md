@@ -1,9 +1,9 @@
-<!-- title: Elizabeth Smith Bloodflame -->
+<!-- title: Lady Elizabeth Bloodflame -->
 <!-- status: Alive -->
 
 **Knight's Log 006**
 
-A knight of honor. Smith of the Jade Forge. Elizabeth Rose Bloodflame.
+A knight of honor. Smith of the Jade Forge. Lady Elizabeth Bloodflame.
 
 [Spilled ink, soaked in sorrow](https://www.youtube.com/live/b-jTHH6GK5w?si=-HpFkakfPqE6y6EO&t=363). Written words of emotions across pages filled with lies. Fragile memories sold for coin. Works of a true witch.
 

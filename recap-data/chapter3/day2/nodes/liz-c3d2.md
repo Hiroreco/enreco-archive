@@ -1,4 +1,4 @@
-<!-- title: Elizabeth Rose Bloodflame  -->
+<!-- title: Lady Elizabeth Bloodflame  -->
 <!-- status: Alive -->
 
 _"Where do your loyalties lie, Lady Bloodflame?"_

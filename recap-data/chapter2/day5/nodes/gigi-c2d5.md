@@ -19,7 +19,7 @@ An intense duel saw Gonathon emerging victorious and a flood of memories returni
 
 [For my own code, For my own honor! The way of a knight!](#embed:https://youtu.be/alQr5XqoUPs?t=7585)
 
-Following this, Gonathon met with the aloof, but deeply familiar, Elizabeth Rose Bloodflame (see [Elizabeth-Gonathon: Honor and Justice](#edge:liz-gigi)). As a fellow knight, Liz had become concerned with Gonathon’s dealings with Shiori. She, too, asked Gonathon what he was fighting for, and after being asked what she thought of Gonathon, the Scarlet Knight described the [deep kinship](https://youtu.be/alQr5XqoUPs?t=10855) she felt for Gonathon, Immerkind, and Roa. The two agreed they shared a special bond and resolved to fight for an even higher cause than mere honor or love: that of Justice. Filled with resolve, Gonathon went forth to confront his greatest challenge of the day: reconciling with Shiori.
+Following this, Gonathon met with the aloof, but deeply familiar, Lady Elizabeth Bloodflame (see [Elizabeth-Gonathon: Honor and Justice](#edge:liz-gigi)). As a fellow knight, Liz had become concerned with Gonathon’s dealings with Shiori. She, too, asked Gonathon what he was fighting for, and after being asked what she thought of Gonathon, the Scarlet Knight described the [deep kinship](https://youtu.be/alQr5XqoUPs?t=10855) she felt for Gonathon, Immerkind, and Roa. The two agreed they shared a special bond and resolved to fight for an even higher cause than mere honor or love: that of Justice. Filled with resolve, Gonathon went forth to confront his greatest challenge of the day: reconciling with Shiori.
 
 [The Knights heed the call for Justice](#embed:https://youtu.be/alQr5XqoUPs?t=10989)
 

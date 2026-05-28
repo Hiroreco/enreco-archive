@@ -1,4 +1,4 @@
-<!-- title: Elizabeth Rose Bloodflame  -->
+<!-- title: Lady Elizabeth Bloodflame  -->
 <!-- status: Unwell -->
 
 Lady Bloodflame stared at herself, her face pale, complexion weak, and one eye now changed to blue. She thought to herself—
@@ -19,9 +19,9 @@ With many thoughts swirling in her mind, Lady Bloodflame visits [Shakira's grave
 
 Still, she holds onto a quiet belief that Shakira will one day return, as she was a Mighty Phoenix. Lady Bloodflame continues to pray for her return, hoping that they will become friends again, as Shakira was the one who made her feel warmer.
 
-The loss of Shakira has truly shaken Lady Bloodflame, to the point that she [confronts](https://www.youtube.com/live/rg_rZ8reBVA?si=z42aFzetPCQ2mU94&t=1783) Ramsey for naming her pet chick Shakira. Ramsey explains that she named it after her lost friend, and that it is her business how she chooses to grieve that loss.
+The loss of Shakira has truly shaken Lady Bloodflame, to the point that she [confronts](https://www.youtube.com/live/rg_rZ8reBVA?si=z42aFzetPCQ2mU94&t=1783) Ramsay for naming her pet chick Shakira. Ramsay explains that she named it after her lost friend, and that it is her business how she chooses to grieve that loss.
 
-Lady Bloodflame, still unsettled, walks away and remarks that it makes sense, since Ramsey is no longer a knight.
+Lady Bloodflame, still unsettled, walks away and remarks that it makes sense, since Ramsay is no longer a knight.
 
 After they separated, Lady Bloodflame [contemplates](https://www.youtube.com/live/rg_rZ8reBVA?si=dheTjXv3yqBUip-p&t=3452) Immerkind in her mind. Despite what Nerissa had told her, she has felt comfortable around Immerkind from the beginning. She does not believe Immerkind is the type who would seek to conquer others.
 
@@ -37,15 +37,15 @@ Lady Bloodflame attends the event Shiori organized, only to discover it was a [f
 
 Overcome with nausea, she runs outside and is forced to let all the rainbow out.
 
-Despite the confusion, the ceremony continues. However, after they finish reading the Inkwell Prayer Guide, Nyavella reveals it was a way to expose the [suspect](https://www.youtube.com/live/rg_rZ8reBVA?si=CpQSV8jwociVdiVK&t=11650) in Shakira’s murder—and claims it to be Ramsey.
+Despite the confusion, the ceremony continues. However, after they finish reading the Inkwell Prayer Guide, Nyavella reveals it was a way to expose the [suspect](https://www.youtube.com/live/rg_rZ8reBVA?si=CpQSV8jwociVdiVK&t=11650) in Shakira’s murder—and claims it to be Ramsay.
 
-Ramsey denies the accusation, while her wolf pack steps in to protect her. Lady Bloodflame asks Gonathan if he truly believes Ramsey is innocent, and Gonathan insists that he trusts her.
+Ramsay denies the accusation, while her wolf pack steps in to protect her. Lady Bloodflame asks Gonathon if he truly believes Ramsay is innocent, and Gonathon insists that he trusts her.
 
-Lady Bloodflame tries to [convince](https://www.youtube.com/live/rg_rZ8reBVA?si=52QEE5CYEbZ905aQ&t=11728) Nerissa to trust Gonathan, but this leads to a heated exchange between them. Lady Bloodflame then suggests they settle the matter in the tavern, and both eventually agree.
+Lady Bloodflame tries to [convince](https://www.youtube.com/live/rg_rZ8reBVA?si=52QEE5CYEbZ905aQ&t=11728) Nerissa to trust Gonathon, but this leads to a heated exchange between them. Lady Bloodflame then suggests they settle the matter in the tavern, and both eventually agree.
 
-Later that day, after all the commotion at the church, Gonathan [asks](https://www.youtube.com/live/rg_rZ8reBVA?si=BtDEi2qk3naXA-fC&t=12250) to speak with Lady Bloodflame and Immerkind. Lady Bloodflame agrees and suggests continuing the discussion at her home (see [Gigi-Elizabeth](#edge:gigi-liz)).
+Later that day, after all the commotion at the church, Gonathon [asks](https://www.youtube.com/live/rg_rZ8reBVA?si=BtDEi2qk3naXA-fC&t=12250) to speak with Lady Bloodflame and Immerkind. Lady Bloodflame agrees and suggests continuing the discussion at her home (see [Gigi-Elizabeth](#edge:gigi-liz)).
 
-After their conversation, Lady Bloodflame returns home and shows Gonathan the strange letters she received. Worried about the unknown, she wants to stay up to keep [watch](https://www.youtube.com/live/rg_rZ8reBVA?si=DOrxzc0Wh2dsQTJh&t=13450), but Gonathan and Nerissa convince her to rest, noting that she still looks unwell.
+After their conversation, Lady Bloodflame returns home and shows Gonathon the strange letters she received. Worried about the unknown, she wants to stay up to keep [watch](https://www.youtube.com/live/rg_rZ8reBVA?si=DOrxzc0Wh2dsQTJh&t=13450), but Gonathon and Nerissa convince her to rest, noting that she still looks unwell.
 
 Lady Bloodflame accepts their offer and decides to trust them both with her life.
 

@@ -11,4 +11,4 @@ Escape from the consequences of being a hero.
 
 Escape the pain of a rejected love.
 
-Her brother, Gonathan, worries it might be a rebound, but for now, The Peasant Bae is too enraptured by her purple beauty to agree.
+Her brother, Gonathon, worries it might be a rebound, but for now, The Peasant Bae is too enraptured by her purple beauty to agree.

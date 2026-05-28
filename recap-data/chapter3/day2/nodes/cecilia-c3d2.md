@@ -3,13 +3,13 @@
 
 Immerkind begins the day by greeting Fia, where the two discuss her purpose. Iphania wishes to save Libestal first and then [save herself next](https://www.youtube.com/watch?v=mARNiVZCRbw&t=664). Though the Knight still carries concerns from the previous day, especially after hearing so many allies voice worries about Fia, it does not stop her from facing the day with renewed vigor.
 
-As Immerkind heads toward the gate, her gaze catches an odd sight: [Shakira's tombstone](https://www.youtube.com/watch?v=mARNiVZCRbw&t=983). Stunned, the Knight approaches the grave. While paying her respects, Ina and Mordon Ramsey soon arrive to do the same.
+As Immerkind heads toward the gate, her gaze catches an odd sight: [Shakira's tombstone](https://www.youtube.com/watch?v=mARNiVZCRbw&t=983). Stunned, the Knight approaches the grave. While paying her respects, Ina and Mordon Ramsay soon arrive to do the same.
 
 [Her hips don't lie, Shakira Shakira~](#embed:https://www.youtube.com/watch?v=mARNiVZCRbw&t=1149)
 
 Continuing onward, she later [stumbles upon the Lucky Coin](https://www.youtube.com/watch?v=mARNiVZCRbw&t=1670) and marvels that the venue still stands after so many years. Some say the color cannon never stopped firing.
 
-The gambling continues as Mordon Ramsey completes the quest to unlock pets. Mordon, Ina, and Immerkind gather together to [open their pet boxes](https://www.youtube.com/watch?v=mARNiVZCRbw&t=1899). Ina successfully obtains a cat and proudly shows it off while Immerkind happily walks around with [Moohternal](https://www.youtube.com/watch?v=mARNiVZCRbw&t=2248).
+The gambling continues as Mordon Ramsay completes the quest to unlock pets. Mordon, Ina, and Immerkind gather together to [open their pet boxes](https://www.youtube.com/watch?v=mARNiVZCRbw&t=1899). Ina successfully obtains a cat and proudly shows it off while Immerkind happily walks around with [Moohternal](https://www.youtube.com/watch?v=mARNiVZCRbw&t=2248).
 
 Later, Immerkind [prepares a letter](https://www.youtube.com/watch?v=mARNiVZCRbw&t=2702) for Tam asking about her five favorite animals before departing to begin laying the foundation for a new castle. As the Knight works the fields, she confides the stresses of this new life to the voices in her mind and reflects on her longing for Iphania. Throughout the day, she ventures across the kingdom completing tasks and crossing paths with Bijou, Peasant the Bae, and Lady Bloodflame.
 

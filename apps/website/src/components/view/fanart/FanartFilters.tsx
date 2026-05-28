@@ -73,6 +73,7 @@ export const CHARACTER_ICON_MAP: Record<string, string> = {
     raora: "node-raora-opt.webp",
     gigi: "node-gigi-opt.webp",
     iphania: "node-iphania-opt.webp",
+    nix: "node-nix-opt.webp",
 };
 
 const FanartFilters = ({

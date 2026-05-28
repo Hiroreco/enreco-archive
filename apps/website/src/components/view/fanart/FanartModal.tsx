@@ -22,6 +22,7 @@ import { getBlurDataURL, isEdge, isNode } from "@/lib/utils";
 import Image from "next/image";
 import { useViewStore } from "@/store/viewStore";
 import { useShallow } from "zustand/react/shallow";
+import { useLocalizedData } from "@/hooks/useLocalizedData";
 
 export interface FanartEntry {
     url: string;
@@ -63,6 +64,7 @@ const FanartModal = ({
 }: FanartModalProps) => {
     const t = useTranslations("modals.art.card");
     const locale = useSettingStore((state) => state.locale);
+    const { getChapter } = useLocalizedData();
 
     const {
         chapter,
@@ -159,10 +161,17 @@ const FanartModal = ({
     }, [fanart]);
 
     const days = useMemo(() => {
-        const allDays = new Set<number>();
-        fanart.forEach((entry) => allDays.add(entry.day));
-        return Array.from(allDays).sort((a, b) => a - b);
-    }, [fanart]);
+        const chapterNumbers =
+            selectedChapter === "all" ? chapters : [parseInt(selectedChapter)];
+        const numberOfDays = Math.max(
+            0,
+            ...chapterNumbers.map(
+                (chapter) => getChapter(chapter).numberOfDays,
+            ),
+        );
+
+        return Array.from({ length: numberOfDays }, (_, day) => day);
+    }, [chapters, getChapter, selectedChapter]);
 
     // Full filtered fanart (without pagination)
     const allFilteredFanart = useMemo(() => {
@@ -576,6 +585,12 @@ const FanartModal = ({
     useEffect(() => {
         setSelectedDay(day.toString() || "all");
     }, [day]);
+
+    useEffect(() => {
+        if (selectedDay !== "all" && !days.includes(parseInt(selectedDay))) {
+            setSelectedDay("all");
+        }
+    }, [days, selectedDay]);
 
     useEffect(() => {
         if (!open) {

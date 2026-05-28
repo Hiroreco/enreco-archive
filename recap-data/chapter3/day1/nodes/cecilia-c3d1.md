@@ -11,7 +11,7 @@ Gonathon calls Immerkind (see [Cecilia-Gigi](#edge:cecilia-gigi)) who tells him 
 
 Immerkind mused that there can be no way the supplier's job will be the same as before. After all, would it not make sense to choose a path she is familiar with in an unfamiliar world? She accepted the supplier position.
 
-She ventured forth to the fields to complete his jobs and ran into devious stains. His search for lapis lazuli allowed him to run into many others toiling away in the mines. She learns from Gonathan that the year is 2011, which triggers Immerkind to remember a critical fact.
+She ventured forth to the fields to complete his jobs and ran into devious stains. His search for lapis lazuli allowed him to run into many others toiling away in the mines. She learns from Gonathon that the year is 2011, which triggers Immerkind to remember a critical fact.
 
 [2011: The Time HBO Premiered Game of Thrones!](#embed:https://www.youtube.com/live/rjNDjL6R3-s?si=SuY2XwGOfFzgcEvQ&t=4948)
 **Writer's note: not sponsored**

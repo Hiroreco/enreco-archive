@@ -11,7 +11,7 @@ The things she crafts and purchases are disappearing and appearing.
 
 There are a few people around the kingdom who have adopted some sheep.
 
-Namely, Mordon Ramsey and Gonathan have sheep following them as Bijou points out.
+Namely, Mordon Ramsay and Gonathon have sheep following them as Bijou points out.
 
 Roa warns the princess that the sheep are now among us.
 
@@ -19,9 +19,9 @@ Roa warns the princess that the sheep are now among us.
 
 The two members of The Illumination promise to visit the Gap tomorrow [together](https://www.youtube.com/live/MGo9h3BNyj0?si=lFpqAsO1PTKpUedz&t=5196).
 
-Alongside NinoIna and Gonathan, both Bijou and Roa find an open window that leads outside the castle while going through the Labyrinth of Emotion.
+Alongside NinoIna and Gonathon, both Bijou and Roa find an open window that leads outside the castle while going through the Labyrinth of Emotion.
 
-Both of them believe that this will help them escape this reality, which is awkward because NinoIna and Gonathan were openly listening to their supposedly secret conversation.
+Both of them believe that this will help them escape this reality, which is awkward because NinoIna and Gonathon were openly listening to their supposedly secret conversation.
 
 Is this what it means to be a [secret organization](https://www.youtube.com/watch?v=MGo9h3BNyj0&t=5940)?
 
