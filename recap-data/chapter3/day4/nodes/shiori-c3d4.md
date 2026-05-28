@@ -5,7 +5,7 @@ It was going to be a peaceful day in Libestal, thought Sister Shiori, until she 
 
 Sister Shiori, now joined by her coven, entered Gonathan's house only to be greeted by dark, beady eyes. A sheep stood in the middle of the room, a chest by its feet.
 
-A chest held a [mysterious poem.](#embed:https://youtu.be/o-aseqW0iiU?t=368)
+A chest held a [mysterious poem.](https://youtu.be/o-aseqW0iiU?t=368)
 
 An occurrence at several other homes.
 

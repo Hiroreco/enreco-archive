@@ -30,5 +30,3 @@ Gonathon's Pearl...the one he truly loved, one who he had wrenched from the abys
 Begging Tam to remove the stain [afflicting](https://www.youtube.com/live/mss5t4szFko?si=Kgcqjj6OOeAVnFH-&t=11354) her, the sudden support of Bloodflame and Nerissa caused Tam's senses to spark back into action. Drawing Gonathon aside, she raised the question: could the two truly be trusted?
 
 From here, Tam roped Gonathon into attempting to [spy](https://www.youtube.com/watch?v=mss5t4szFko&t=12225s) on Shiori, but the now alert witch stonewalled all attempts to access the church basement. Admitting defeat, Tam and Gonathon shared a tender moment, with Gonathon once more determined to save her, no matter the cost.
-
-[Day 4's Journal](#embed:https://www.youtube.com/live/mss5t4szFko?si=KNQp730NMk22wPvl&t=13250)
