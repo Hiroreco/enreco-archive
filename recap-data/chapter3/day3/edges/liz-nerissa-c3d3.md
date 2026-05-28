@@ -1,4 +1,4 @@
-\<!-- title: The Throne -->
+<!-- title: The Throne -->
 <!-- relationship: Toxic Yuri -->
 
 **BAD PUPPY**
