@@ -11,7 +11,7 @@ Completing the beginner jeweler quest, Bijou finds she needs more materials to s
 
 As the others begin to awaken, Bijou greets those she comes across. Among these is Fuwawa, to whom Bijou passes on the Rebellion's smithing duties. She also calls Roa, asking about what Roa had accomplished the previous night. (see: [Bijou-Roa](#edge:bijou-raora))
 
-Our Stain Princess also calls Gonathon, after narrowly missing his call. The knight asks the princess if she would be willing to take on the Labyrinth of Emotion together, to which Bijou hesitantly accepts. (see: [Bijou-Gonathon: An Unexpected Journey](#edge:bijou-gigi)).
+Our Stain Princess also calls Gonathon after narrowly missing his call. The knight asks the princess if she would be willing to take on the Labyrinth of Emotion together, to which Bijou hesitantly accepts. (see: [Bijou-Gonathon: An Unexpected Journey](#edge:bijou-gigi)).
 
 Upon gaining the ability to make Greater Charms, Bijou began offering her services to others. The intention here was not to make money or to be helpful to others, no. She simply wanted to [destroy the economy](https://www.youtube.com/watch?v=3iXshLxO3-E&t=6585), and Mococo's monopoly along with it.
 
@@ -27,4 +27,4 @@ Following this, however, Bijou found herself in a confrontation with Gonathon, c
 
 Following her heist of Maaz's quarters for an Amulet of Levitation, Bijou arrived at Shiori's church for the event Shiori had invited her to. Ultimately, things got... quite chaotic, to put it lightly. In the end, [Bijou asked Shiori why she had done this](https://www.youtube.com/watch?v=3iXshLxO3-E&t=15400), and while Shiori's explanation was just to remind everyone of Shakira's murder, Bijou commended Shiori for the chaos she sowed.
 
-With Shakira's body still up for sale in the church, Bijou decides that she would like to buy herself and [approaches Shiori about doing so](https://www.youtube.com/watch?v=3iXshLxO3-E&t=16490). Getting a special deal of only 1500 coins, Bijou decides she wants to use the body to cause as much madness as possible within the kingdom, and that she will work through the night while no guards were around to halt her plans. We shall just have to see what the result will be...
+With Shakira's body still up for sale in the church, Bijou decides that she would like to buy herself and [approaches Shiori about doing so](https://www.youtube.com/watch?v=3iXshLxO3-E&t=16490). Getting a special deal of only 1500 coins, Bijou decides she wants to use the body to cause as much madness as possible within the kingdom, and that she will work through the night while no guards are around to halt her plans. We shall just have to see what the result will be...
