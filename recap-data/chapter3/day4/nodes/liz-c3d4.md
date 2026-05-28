@@ -48,3 +48,15 @@ It takes Lady Bloodflame, Nerissa, and Tam to comfort a crying Gonathan, who cla
 So... does this mean Lady Bloodflame may be freed from whatever has been binding her? Will the changes happening to her continue?
 
 One can only hope she remains true to herself...
+
+## Fanart
+
+["cool eyes lbf" by meyshi29](https://x.com/meyshi29/status/2059830354064929067)
+
+["Blue eyes suit you" by yuri_kyanon](https://x.com/yuri_kyanon/status/2059845178022879590)
+
+["Daughter of Fire and Ruin" by _somero_](https://x.com/_somero_/status/2059946238599172249)
+
+["I'm quite alright" by ek96290589](https://x.com/ek96290589/status/2059970821595316452)
+
+["Blue" by zn1o0njndv59706](https://x.com/zn1o0njndv59706/status/2059898859011367209)

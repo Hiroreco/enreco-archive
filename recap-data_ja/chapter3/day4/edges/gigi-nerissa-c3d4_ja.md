@@ -38,17 +38,3 @@
 友人なのか。ライバルなのか。仲間なのか。それとも宿敵なのか。
 
 もしかすると、翌日のダンジョンがその答えを示してくれるのかもしれない。もっとも、二人きりで挑むと誓い合ったはずのその計画も、結局は今日の騒動に巻き込まれた四人全員で挑む可能性を残したまま、その日は幕を閉じた。
-
-## ファンアート
-
-["sir gonathon" by ibunniez\_](https://x.com/ibunniez_/status/2059859805788057748)
-
-["Everything Will be Okay?" by av13km](https://x.com/av13km/status/2059971316799987938)
-
-["Pathetic little puppy boy" by blueplankton](https://x.com/blueplankton/status/2059988219769532776)
-
-["shakira died for our sins" by \_nontann](https://x.com/_nontann/status/2059865951462699365)
-
-["Again?" by painko3o](https://x.com/painko3o/status/2059894034378739957)
-
-["Sometimes you gotta keep truckin." by comicdud](https://x.com/comicdud/status/2059826455769452552)

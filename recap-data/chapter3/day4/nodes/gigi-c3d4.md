@@ -32,3 +32,17 @@ Begging Tam to remove the stain [afflicting](https://www.youtube.com/live/mss5t4
 From here, Tam roped Gonathon into attempting to [spy](https://www.youtube.com/watch?v=mss5t4szFko&t=12225s) on Shiori, but the now alert witch stonewalled all attempts to access the church basement. Admitting defeat, Tam and Gonathon shared a tender moment, with Gonathon once more determined to save her, no matter the cost.
 
 [Day 4's Journal](#embed:https://www.youtube.com/live/mss5t4szFko?si=KNQp730NMk22wPvl&t=13250)
+
+## Fanart
+
+["sir gonathon" by ibunniez\_](https://x.com/ibunniez_/status/2059859805788057748)
+
+["Everything Will be Okay?" by av13km](https://x.com/av13km/status/2059971316799987938)
+
+["Pathetic little puppy boy" by blueplankton](https://x.com/blueplankton/status/2059988219769532776)
+
+["shakira died for our sins" by \_nontann](https://x.com/_nontann/status/2059865951462699365)
+
+["Again?" by painko3o](https://x.com/painko3o/status/2059894034378739957)
+
+["Sometimes you gotta keep truckin." by comicdud](https://x.com/comicdud/status/2059826455769452552)

@@ -51,3 +51,15 @@
 そして彼女に起きている変化は、この先も進み続けるのだろうか。
 
 ただ一つ願うのは――彼女が最後まで“彼女自身”であり続けることだけだ。
+
+## ファンアート
+
+["cool eyes lbf" by meyshi29](https://x.com/meyshi29/status/2059830354064929067)
+
+["Blue eyes suit you" by yuri_kyanon](https://x.com/yuri_kyanon/status/2059845178022879590)
+
+["Daughter of Fire and Ruin" by _somero_](https://x.com/_somero_/status/2059946238599172249)
+
+["I'm quite alright" by ek96290589](https://x.com/ek96290589/status/2059970821595316452)
+
+["Blue" by zn1o0njndv59706](https://x.com/zn1o0njndv59706/status/2059898859011367209)

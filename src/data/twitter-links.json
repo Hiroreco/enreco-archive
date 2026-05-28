@@ -8941,78 +8941,6 @@
     "type": "art"
   },
   {
-    "url": "https://x.com/ibunniez_/status/2059859805788057748",
-    "label": "\"sir gonathon\"",
-    "author": "ibunniez_",
-    "chapter": 2,
-    "day": 3,
-    "characters": [
-      "gigi",
-      "nerissa"
-    ],
-    "type": "art"
-  },
-  {
-    "url": "https://x.com/av13km/status/2059971316799987938",
-    "label": "\"Everything Will be Okay?\"",
-    "author": "av13km",
-    "chapter": 2,
-    "day": 3,
-    "characters": [
-      "gigi",
-      "nerissa"
-    ],
-    "type": "art"
-  },
-  {
-    "url": "https://x.com/blueplankton/status/2059988219769532776",
-    "label": "\"Pathetic little puppy boy\"",
-    "author": "blueplankton",
-    "chapter": 2,
-    "day": 3,
-    "characters": [
-      "gigi",
-      "nerissa"
-    ],
-    "type": "art"
-  },
-  {
-    "url": "https://x.com/_nontann/status/2059865951462699365",
-    "label": "\"shakira died for our sins\"",
-    "author": "_nontann",
-    "chapter": 2,
-    "day": 3,
-    "characters": [
-      "gigi",
-      "nerissa"
-    ],
-    "type": "art"
-  },
-  {
-    "url": "https://x.com/painko3o/status/2059894034378739957",
-    "label": "\"Again?\"",
-    "author": "painko3o",
-    "chapter": 2,
-    "day": 3,
-    "characters": [
-      "gigi",
-      "nerissa"
-    ],
-    "type": "art"
-  },
-  {
-    "url": "https://x.com/comicdud/status/2059826455769452552",
-    "label": "\"Sometimes you gotta keep truckin.\"",
-    "author": "comicdud",
-    "chapter": 2,
-    "day": 3,
-    "characters": [
-      "gigi",
-      "nerissa"
-    ],
-    "type": "art"
-  },
-  {
     "url": "https://x.com/tianshiko/status/2059777733400441067",
     "label": "\"The Princess and Her Knight\"",
     "author": "tianshiko",
@@ -9073,66 +9001,6 @@
     "type": "art"
   },
   {
-    "url": "https://x.com/meyshi29/status/2059830354064929067",
-    "label": "\"cool eyes lbf\"",
-    "author": "meyshi29",
-    "chapter": 2,
-    "day": 3,
-    "characters": [
-      "liz",
-      "raora"
-    ],
-    "type": "art"
-  },
-  {
-    "url": "https://x.com/yuri_kyanon/status/2059845178022879590",
-    "label": "\"Blue eyes suit you\"",
-    "author": "yuri_kyanon",
-    "chapter": 2,
-    "day": 3,
-    "characters": [
-      "liz",
-      "raora"
-    ],
-    "type": "art"
-  },
-  {
-    "url": "https://x.com/_somero_/status/2059946238599172249",
-    "label": "\"Daughter of Fire and Ruin\"",
-    "author": "_somero_",
-    "chapter": 2,
-    "day": 3,
-    "characters": [
-      "liz",
-      "raora"
-    ],
-    "type": "art"
-  },
-  {
-    "url": "https://x.com/ek96290589/status/2059970821595316452",
-    "label": "\"I'm quite alright\"",
-    "author": "ek96290589",
-    "chapter": 2,
-    "day": 3,
-    "characters": [
-      "liz",
-      "raora"
-    ],
-    "type": "art"
-  },
-  {
-    "url": "https://x.com/zn1o0njndv59706/status/2059898859011367209",
-    "label": "\"Blue\"",
-    "author": "zn1o0njndv59706",
-    "chapter": 2,
-    "day": 3,
-    "characters": [
-      "liz",
-      "raora"
-    ],
-    "type": "art"
-  },
-  {
     "url": "https://x.com/rlus654/status/2059801831212216798",
     "label": "\"Turning Purple\"",
     "author": "rlus654",
@@ -9178,6 +9046,72 @@
     "type": "art"
   },
   {
+    "url": "https://x.com/ibunniez_/status/2059859805788057748",
+    "label": "\"sir gonathon\"",
+    "author": "ibunniez_",
+    "chapter": 2,
+    "day": 3,
+    "characters": [
+      "gigi"
+    ],
+    "type": "art"
+  },
+  {
+    "url": "https://x.com/av13km/status/2059971316799987938",
+    "label": "\"Everything Will be Okay?\"",
+    "author": "av13km",
+    "chapter": 2,
+    "day": 3,
+    "characters": [
+      "gigi"
+    ],
+    "type": "art"
+  },
+  {
+    "url": "https://x.com/blueplankton/status/2059988219769532776",
+    "label": "\"Pathetic little puppy boy\"",
+    "author": "blueplankton",
+    "chapter": 2,
+    "day": 3,
+    "characters": [
+      "gigi"
+    ],
+    "type": "art"
+  },
+  {
+    "url": "https://x.com/_nontann/status/2059865951462699365",
+    "label": "\"shakira died for our sins\"",
+    "author": "_nontann",
+    "chapter": 2,
+    "day": 3,
+    "characters": [
+      "gigi"
+    ],
+    "type": "art"
+  },
+  {
+    "url": "https://x.com/painko3o/status/2059894034378739957",
+    "label": "\"Again?\"",
+    "author": "painko3o",
+    "chapter": 2,
+    "day": 3,
+    "characters": [
+      "gigi"
+    ],
+    "type": "art"
+  },
+  {
+    "url": "https://x.com/comicdud/status/2059826455769452552",
+    "label": "\"Sometimes you gotta keep truckin.\"",
+    "author": "comicdud",
+    "chapter": 2,
+    "day": 3,
+    "characters": [
+      "gigi"
+    ],
+    "type": "art"
+  },
+  {
     "url": "https://x.com/mikururun/status/2059681373250637860",
     "label": "\"based on ophelia\"",
     "author": "mikururun",
@@ -9211,7 +9145,61 @@
     ],
     "type": "art"
   },
-
+  {
+    "url": "https://x.com/meyshi29/status/2059830354064929067",
+    "label": "\"cool eyes lbf\"",
+    "author": "meyshi29",
+    "chapter": 2,
+    "day": 3,
+    "characters": [
+      "liz"
+    ],
+    "type": "art"
+  },
+  {
+    "url": "https://x.com/yuri_kyanon/status/2059845178022879590",
+    "label": "\"Blue eyes suit you\"",
+    "author": "yuri_kyanon",
+    "chapter": 2,
+    "day": 3,
+    "characters": [
+      "liz"
+    ],
+    "type": "art"
+  },
+  {
+    "url": "https://x.com/_somero_/status/2059946238599172249",
+    "label": "\"Daughter of Fire and Ruin\"",
+    "author": "_somero_",
+    "chapter": 2,
+    "day": 3,
+    "characters": [
+      "liz"
+    ],
+    "type": "art"
+  },
+  {
+    "url": "https://x.com/ek96290589/status/2059970821595316452",
+    "label": "\"I'm quite alright\"",
+    "author": "ek96290589",
+    "chapter": 2,
+    "day": 3,
+    "characters": [
+      "liz"
+    ],
+    "type": "art"
+  },
+  {
+    "url": "https://x.com/zn1o0njndv59706/status/2059898859011367209",
+    "label": "\"Blue\"",
+    "author": "zn1o0njndv59706",
+    "chapter": 2,
+    "day": 3,
+    "characters": [
+      "liz"
+    ],
+    "type": "art"
+  },
   {
     "url": "https://x.com/krabsticksart/status/2059613414356594834",
     "label": "\"Juliet\"",

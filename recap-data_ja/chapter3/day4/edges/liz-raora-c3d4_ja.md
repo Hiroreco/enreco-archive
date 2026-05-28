@@ -20,15 +20,3 @@
 だが、その議論は突如として中断される。二人は、例の羊たち自身だと主張する存在から突然[襲撃](https://www.youtube.com/watch?v=P3uwaftxSG0&t=1630)を受け、それぞれ別方向へ逃げることを余儀なくされたのだ。
 
 ――そしてこうして、レディ・ブラッドフレイムもまた、悟りへ至った。
-
-## ファンアート
-
-["cool eyes lbf" by meyshi29](https://x.com/meyshi29/status/2059830354064929067)
-
-["Blue eyes suit you" by yuri_kyanon](https://x.com/yuri_kyanon/status/2059845178022879590)
-
-["Daughter of Fire and Ruin" by _somero_](https://x.com/_somero_/status/2059946238599172249)
-
-["I'm quite alright" by ek96290589](https://x.com/ek96290589/status/2059970821595316452)
-
-["Blue" by zn1o0njndv59706](https://x.com/zn1o0njndv59706/status/2059898859011367209)

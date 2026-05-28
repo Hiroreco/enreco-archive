@@ -83,7 +83,7 @@ async function main() {
         "https://x.com/daiyaekaku/status/1923920501631578438",
         "https://x.com/yakimi27/status/1925898088876568829",
         "https://x.com/fukuinu_daddy/status/2058922197264294016",
-
+        "https://x.com/legz0s/status/2058813041404457219",
         "https://x.com/dasdokter/status/2058789765709975701",
     ];
 

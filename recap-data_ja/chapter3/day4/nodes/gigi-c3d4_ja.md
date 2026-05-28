@@ -44,3 +44,17 @@
 観念して引き下がった後、タムとゴナソンは静かなひとときを共有する。どれほどの代償を払おうとも、必ず彼女を救う――ゴナソンは改めてそう心に誓うのだった。
 
 [4日目の日誌](#embed:https://www.youtube.com/live/mss5t4szFko?si=KNQp730NMk22wPvl&t=13250)
+
+## ファンアート
+
+["sir gonathon" by ibunniez\_](https://x.com/ibunniez_/status/2059859805788057748)
+
+["Everything Will be Okay?" by av13km](https://x.com/av13km/status/2059971316799987938)
+
+["Pathetic little puppy boy" by blueplankton](https://x.com/blueplankton/status/2059988219769532776)
+
+["shakira died for our sins" by \_nontann](https://x.com/_nontann/status/2059865951462699365)
+
+["Again?" by painko3o](https://x.com/painko3o/status/2059894034378739957)
+
+["Sometimes you gotta keep truckin." by comicdud](https://x.com/comicdud/status/2059826455769452552)
