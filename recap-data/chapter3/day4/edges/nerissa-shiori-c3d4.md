@@ -1,5 +1,5 @@
 <!-- title: Sisters of the Cloth-->
-<!-- status: friends -->
+<!-- relationship: Friends -->
 
 Bonded by the advent of the past, tied to the coven in the present, and now a future of conspiracy brings the two closer as the fourth day dawns on Libestal.
 

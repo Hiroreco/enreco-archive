@@ -1,11 +1,3 @@
-kiara-c3d3
-based on ophelia
-https://x.com/Mikururun/status/2059681373250637860
-
-raoara-c3d3
-Third eye unlocked
-https://x.com/madchaco/status/2059674141452865976
-
 gigi-liz-c3d3
 im not okay
 https://x.com/NP_Mango/status/2059534010527760508
@@ -32,10 +24,6 @@ https://x.com/SquaredRiceBall/status/2059991143493124587
 cecilia-c3d4
 Hello Fia.
 https://x.com/JTNintendoFan64/status/2059975726158471499
-
-gigi-krnoii-c3d4
-Tam protecting his humble knight
-https://x.com/BardtheBarista/status/2059925784198844816
 
 gigi-c3d4
 https://x.com/WatashiGazza/status/2059921794518425650

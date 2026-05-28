@@ -37,6 +37,8 @@ With a wistful melancholy, Gonathon described his [monarch](https://www.youtube.
 
 ## Fanart
 
+["Tam protecting his humble knight" by bardthebarista](https://x.com/bardthebarista/status/2059925784198844816)
+
 ["lucky color" by fongban\_](https://x.com/fongban_/status/2059874971753803937)
 
 <!-- bae, raora -->

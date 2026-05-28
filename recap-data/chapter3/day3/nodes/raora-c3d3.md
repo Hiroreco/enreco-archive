@@ -80,6 +80,8 @@ And so, as the next day slowly approaches, Roa continues onward, burdened by tru
 
 ## Fanart
 
+["Third eye unlocked" by madchaco](https://x.com/madchaco/status/2059674141452865976)
+
 ["NEVER SURRENDER" by byako_p](https://x.com/byako_p/status/2059839913432949208)
 
 ["The Rao Show" by slapdashtw](https://x.com/slapdashtw/status/2059866070090191034)

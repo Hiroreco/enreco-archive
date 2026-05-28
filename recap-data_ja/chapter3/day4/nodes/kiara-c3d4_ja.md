@@ -10,6 +10,8 @@
 
 ## ファンアート
 
+["based on ophelia" by mikururun](https://x.com/mikururun/status/2059681373250637860)
+
 ["our requiem" by lestkrr](https://x.com/lestkrr/status/2059996337358147803)
 
 <!-- shiori -->

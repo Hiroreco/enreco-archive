@@ -1,9 +1,9 @@
 <!-- title: Mirror Magic Mix -->
-<!-- status: It's Complicated -->
+<!-- relationship: It's Complicated -->
 
 They say opposites attract. But does that mean they always have perfect synergy?
 
-Fuwawa and Mococo had been at odds for a good while now. Sure, they're members of the same coven; Sure, they may have helped Shiori and the others pull some theatrics off right before they embarked on this next step of their journey; And sure, they LOOK really similar; one could easily mistake them for twins. Even their pets ended up being named the same by coincidence. But did any of that really matter when, to themselves, the other was always so gosh darn INFURIATING to be around?! 
+Fuwawa and Mococo had been at odds for a good while now. Sure, they're members of the same coven; Sure, they may have helped Shiori and the others pull some theatrics off right before they embarked on this next step of their journey; And sure, they LOOK really similar; one could easily mistake them for twins. Even their pets ended up being named the same by coincidence. But did any of that really matter when, to themselves, the other was always so gosh darn INFURIATING to be around?!
 
 ["What's with your wolf...?" "What's with YOUR wolf?!"](#embed:https://www.youtube.com/live/T5wi-wnloHQ?si=Vjj_UD5AY4HRtO95&t=4328)
 
