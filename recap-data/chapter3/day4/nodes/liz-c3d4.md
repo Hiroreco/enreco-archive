@@ -39,7 +39,7 @@ After completing Vega’s task, Lady Bloodflame heads toward the [church](https:
 
 A series of fishing-rod shenanigans follows, ultimately ending with Lady Bloodflame giving Nerissa a [kiss](https://www.youtube.com/live/HEWSty8elxo?si=rRzJsPaZcEdXqpHI&t=9599).
 
-Shortly after, Nerissa [invites](https://x.com/musclesap/status/2059996810404303110?s=20) her to spar at the arena, where they have two draws and one round won by Nerissa. The final round ends in a draw, with their bets being a kiss and a figurine box. They agree it still counts as a win, so Lady Bloodflame kisses Nerissa, and Nerissa promises to give her a gift.
+Shortly after, Nerissa invites her to spar at the arena, where they have two draws and one round won by Nerissa. The final round ends in a draw, with their bets being a kiss and a figurine box. They agree it still counts as a win, so Lady Bloodflame kisses Nerissa, and Nerissa promises to give her a gift.
 
 After their spar, things take a drastic turn when Lady Bloodflame is [informed](https://www.youtube.com/live/HEWSty8elxo?si=ZHO-WJCMI6LnoY4-&t=14265) that Gonathan and Tam were caught peeping at Nyavella while she was naked. This leads her to scold Gonathan, and painful memories are unearthed in the process.
 
