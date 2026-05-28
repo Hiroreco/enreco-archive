@@ -19,7 +19,7 @@ Even defending Sister Shiori when the conspiracy was almost revealed to the unwo
 
 Eventually, Sister Shiori would further reveal her grand plan:
 
-[A Gate to Hell](#embed:https://youtu.be/o-aseqW0iiU?t=8380), where she'll summon the King of Hell.
+[A Gate to Hell](#embed:https://youtu.be/o-aseqW0iiU?t=8380)
 
 Nerissa Juliet would also add her own deviousness to the plot:
 

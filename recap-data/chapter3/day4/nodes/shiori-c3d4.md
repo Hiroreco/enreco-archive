@@ -45,7 +45,7 @@ To further prepare for the future, Shiori approached Prisoner Zero's cell for he
 
 To truly prove her freedom, [Sister Shiori antagonized Lady Bloodflame](https://youtu.be/o-aseqW0iiU?t=7192) once again.
 
-With one storyline out of the way, Sister Shiori headed back to her church to finish the setup for her own plot, Nerissa Juliet joining her soon after. Sister Shiori noticed Nerissa Juliet's bemusement over her memory and inquired about her well-being. (See: Shiori-Nerissa c3d4)
+With one storyline out of the way, Sister Shiori headed back to her church to finish the setup for her own plot, Nerissa Juliet joining her soon after. Sister Shiori noticed Nerissa Juliet's bemusement over her memory and inquired about her well-being. (See: [Shiori-Nerissa](#edge:nerissa-shiori))
 
 As the two talked, Shiori finally revealed the secret:
 
