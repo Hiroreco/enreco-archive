@@ -5,7 +5,7 @@ The Peasant toiled. She mined. She fished. Bae worked throughout the night, buil
 
 [Diamonds](#embed:https://youtu.be/BmINsLSSjq0?t=693)
 
-And continued to do so throughout the day as many of our heroes seeked The Peasant's services, mayhaps for some gold and a little snack [in exchange](https://youtu.be/BmINsLSSjq0?t=483). And with her shrewd and money-making ways, the road to being the Richess Peasant in all the Lands was closer than ever.
+And continued to do so throughout the day as many of our heroes seeked The Peasant's services, mayhaps for some gold and a little snack [in exchange](https://youtu.be/BmINsLSSjq0?t=483). And with her shrewd and money-making ways, the road to being the Richest Peasant in all the Lands was closer than ever.
 
 But, away from Bae's business as a supplier was a business she will never open a shop for. For Bae was still a peasant and does not know the way of [shopkeeping](https://youtu.be/BmINsLSSjq0?t=892). A humble Rat, seeking the joys of fishing and wandering the fields with [Polar](https://youtu.be/BmINsLSSjq0?t=941) by her side.
 

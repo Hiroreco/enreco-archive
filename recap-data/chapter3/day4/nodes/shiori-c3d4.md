@@ -3,7 +3,7 @@
 
 It was going to be a peaceful day in Libestal, thought Sister Shiori, until she found the [blood](https://youtu.be/o-aseqW0iiU?t=335) on her path. Red and dried, almost like dust, it led to multiple houses, staining each door, and the Illumination posters that hung nearby.
 
-Sister Shiori, now joined by her coven, entered Gonathan's house only to be greeted by dark, beady eyes. A sheep stood in the middle of the room, a chest by its feet.
+Sister Shiori, now joined by her coven, entered Gonathon's house only to be greeted by dark, beady eyes. A sheep stood in the middle of the room, a chest by its feet.
 
 A chest held a [mysterious poem.](https://youtu.be/o-aseqW0iiU?t=368)
 
@@ -51,7 +51,7 @@ As the two talked, Shiori finally revealed the secret:
 
 [It was a gate to another world](#embed:https://youtu.be/o-aseqW0iiU?t=8380)
 
-Shiori received a call from Lady Bloodflame. The Crimson Knight beckoned the Sister to the Arena for a spar. Sister Shiri obliged, calling out the knight for choosing a weak opponent. The battle ensued, and as the Sister predicted, Lady Bloodflame won handily. Though, as a recompense, the knight paid the Sister with gold and agreed to help supply her project, the nature of it, the knight was doubtful about its actual nature.
+Shiori received a call from Lady Bloodflame. The Crimson Knight beckoned the Sister to the Arena for a spar. Sister Shiori obliged, calling out the knight for choosing a weak opponent. The battle ensued, and as the Sister predicted, Lady Bloodflame won handily. Though, as a recompense, the knight paid the Sister with gold and agreed to help supply her project, the nature of it, the knight was doubtful about its actual nature.
 
 And the actual nature of it? Sister Shiori unveiled it to Nerissa Juliet:
 
