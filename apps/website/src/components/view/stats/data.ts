@@ -1,9 +1,13 @@
 import chapter2Raw from "#/recaps/chapter2.json";
 import { CHARACTER_ID_NAME_MAP_EN, CHARACTER_ID_NAME_MAP_JA } from "@/lib/misc";
-import { day1Data } from "./stats-data/day1";
 
 import type { Talent, TrackerData, LocalizedString } from "./types";
-import { day2Data, day3Data } from "@/components/view/stats/stats-data";
+import {
+    day1Data,
+    day2Data,
+    day3Data,
+    day4Data,
+} from "@/components/view/stats/stats-data";
 
 type AssignmentKey = "teamId" | "faction";
 
@@ -343,6 +347,11 @@ export const TRACKER_DATA: TrackerData = {
         ...day3Data,
         teams: buildTeamsFromChapter(chapter2Raw, 3),
         factions: buildFactionsFromChapter(chapter2Raw, 3),
+    },
+    4: {
+        ...day4Data,
+        teams: buildTeamsFromChapter(chapter2Raw, 4),
+        factions: buildFactionsFromChapter(chapter2Raw, 4),
     },
 };
 

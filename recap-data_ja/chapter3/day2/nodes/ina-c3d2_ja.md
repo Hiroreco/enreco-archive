@@ -91,4 +91,6 @@ SIR MEOWを連れたニノイナは、その後エサ用の素材集めや寄付
 
 ## ファンアート
 
+["Behold, Sir Meow" by wydken](https://x.com/wydken/status/2059399123233546564)
+
 ["river prince is REAL!!" by shutowl](https://x.com/shutowl/status/2059188328856211612)

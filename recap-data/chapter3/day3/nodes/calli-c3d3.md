@@ -9,8 +9,10 @@ But eventually came the true _main course_ of the day.
 
 The unfortunate chef, already infamous for allegedly poisoning her comrade on the very first day, once again found herself dragged beneath the shadow of suspicion. Between her ominous reputation, the giant scythe she carried everywhere, and the growing image of her as death incarnate itself, the rumors surrounding her had not improved with time.
 
-And so, as she attended the supposed "funeral" of the very person she had once been accused of murdering; the accusations inevitably resurfaced once more (see [Sister Shiori](#node:shiori)).
+And so, as she attended the supposed "funeral" of the very person she had once been accused of murdering, the accusations inevitably resurfaced once more (see [Sister Shiori](#node:shiori)).
 
 ## Fanart
+
+["The Observer of Discord" by yaymics](https://x.com/yaymics/status/2059914683511869631)
 
 ["Joy" by maxartist555](https://x.com/maxartist555/status/2059616845762904318)

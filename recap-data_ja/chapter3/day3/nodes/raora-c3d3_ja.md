@@ -81,6 +81,16 @@ _そんなこと、あり得るの？_
 
 ## ファンアート
 
+["Third eye unlocked" by madchaco](https://x.com/madchaco/status/2059674141452865976)
+
+["NEVER SURRENDER" by byako_p](https://x.com/byako_p/status/2059839913432949208)
+
+["The Rao Show" by slapdashtw](https://x.com/slapdashtw/status/2059866070090191034)
+
+["Fantasitc Ms.Panthera" by yerbmeow](https://x.com/yerbmeow/status/2059706394303996057)
+
+["ITS THE SHEEP" by tabsarts](https://x.com/tabsarts/status/2059474972243112245)
+
 ["Sniffler" by v1r4yl1](https://x.com/v1r4yl1/status/2059376636164706483)
 
 ["find the truth" by yani111\_](https://x.com/yani111_/status/2059491246838607961)

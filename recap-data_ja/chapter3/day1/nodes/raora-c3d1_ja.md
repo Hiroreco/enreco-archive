@@ -52,3 +52,7 @@
 ……
 
 ――それが、何の前触れもなく崩れ落ちるまでは。（see [Shakira-Roa](#edge:kiara-raora)）
+
+## ファンアート
+
+["The Big Cat Who Wander Through Love" by yaymics](https://x.com/yaymics/status/2059534992426840268)

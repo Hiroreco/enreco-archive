@@ -25,7 +25,7 @@ Towards the end of the day, Lady Bloodflame found herself being called by Gonath
 
 But the idea of sitting up in a tree for the first time seemed charming enough that she climbed it, questioning the small child along the way before the two settled in on a large branch.
 
-All of this for some fresh air with words of concern from Gonathon. Once again she was being told she didn't look like herself. That she looked... unusual.
+All of this for some fresh air with words of concern from Gonathon. Once again, she was being told she didn't look like herself. That she looked... unusual.
 
 ["Homochromia? Heterophia? Homoph-"](#embed:https://www.youtube.com/live/rg_rZ8reBVA?si=2jRlzsVofqqO3fDB&t=12842)
 
@@ -33,7 +33,7 @@ Again, it was nothing more than a lot of traveling, work, and the loss of her cl
 
 And again, her eye was brought up. Sighing in exhaustion on this topic, she explained it away once again, waving her hand as she blew it off.
 
-Then the ring was questioned. A simple little gift from Nerissa Juliet. Without hesitation, she handed it over when requested. It was nothing more than just a ring given to her. Quietly she watched as it was inspected before being handed back over.
+Then the ring was questioned. A simple little gift from Nerissa Juliet. Without hesitation, she handed it over when requested. It was nothing more than just a ring given to her. Quietly, she watched as it was inspected before being handed back over.
 
 Flipping the script, Lady Bloodflame asked if Gonathon was okay. Frowning, she listened to the worries of her friend. With so much going on, how was she to keep checking in on everyone to ensure they were okay? With all the travel on top of it, she knew that Libestal wasn't a place because of being a city or a kingdom.
 
@@ -45,11 +45,17 @@ Gonathon paused briefly, looking away before explaining how much Lady Bloodflame
 
 Smiling, Lady Bloodflame assured him that her path, though unusual with the Rebellion, was simply to keep a knightly promise to protect Lady Juliet and her sister Mococo. She was still a knight.
 
-There was a sense of relief talking about things with a comrade. But with that came the honest truth: she was not herself in looks or actions.
+There was a sense of relief in talking about things with a comrade. But with that came the honest truth: she was not herself in looks or actions.
 
 Perhaps a night of rest was required.
 
 ## Fanart
+
+["knights in arms!" by leisurepass](https://x.com/leisurepass/status/2059803062642848245)
+
+<!-- nerissa, cecilia -->
+
+["please save Lady Bloodflame" by zh4skl](https://x.com/zh4skl/status/2059733860619796519)
 
 ["Are you alright?" by weirdohere74942](https://x.com/weirdohere74942/status/2059563601355248087)
 

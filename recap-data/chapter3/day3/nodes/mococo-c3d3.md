@@ -39,4 +39,8 @@ Tomorrow is another day! They would see the strength of her products in time... 
 
 ## Fanart
 
+["Mocopoly" by keenbiscuit](https://x.com/keenbiscuit/status/2059366013997855231)
+
+["Buying the whole stree" by goondius](https://x.com/goondius/status/2059396483741364293)
+
 ["Pixel Mococo" by okunashi27](https://x.com/okunashi27/status/2059583707191951364)

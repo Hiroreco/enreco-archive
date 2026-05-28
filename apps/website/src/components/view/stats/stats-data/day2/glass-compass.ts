@@ -18,6 +18,7 @@ export const glassCompassObtainMethodChoice: Choice = {
                 "cecilia",
                 "kronii",
                 "ina",
+                "calli",
             ],
         },
         {

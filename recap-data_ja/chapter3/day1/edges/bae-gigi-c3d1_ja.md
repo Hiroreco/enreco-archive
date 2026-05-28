@@ -32,4 +32,4 @@
 
 ## ファンアート
 
-["Phone Troubles" by i](https://x.com/i/status/2058872790863003926)
+["Phone Troubles" by i](https://x.com/Lil_Leaflet_/status/2058872790863003926)

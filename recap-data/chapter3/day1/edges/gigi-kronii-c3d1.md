@@ -19,6 +19,8 @@ Proclaiming she was simply Tam now, the former queen left Immerkind to profusely
 
 ## Fanart
 
+["Crumbling Statue" by thereal_hai](https://x.com/thereal_hai/status/2059673254210769378)
+
 ["queen?" by albertweskerh](https://x.com/albertweskerh/status/2059128627397263374)
 
 ["my queen..." by \_nontann](https://x.com/_nontann/status/2059060131103662382)

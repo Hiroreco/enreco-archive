@@ -1,4 +1,4 @@
-<!-- entries: kronii-journal-c3d1, kronii-journal-c3d2 -->
+<!-- entries: kronii-journal-c3d1, kronii-journal-c3d2, kronii-journal-c3d4 -->
 <!-- title: Kronii's Journal Entries -->
 
 <!-- description -->

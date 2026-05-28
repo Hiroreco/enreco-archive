@@ -10,17 +10,17 @@ export const maazNegotiationSoupChoice: Choice = {
     options: [
         {
             label: {
-                en: "Leave the soup",
-                ja: "スープをそのままにする",
+                en: "Take the soup",
+                ja: "スープを受け取る",
             },
-            members: ["ina"],
+            members: ["ina", "gigi"],
         },
         {
             label: {
                 en: "Spill the soup",
                 ja: "スープをこぼす",
             },
-            members: [],
+            members: ["kronii"],
         },
     ],
 };

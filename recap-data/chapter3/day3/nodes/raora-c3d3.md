@@ -3,7 +3,7 @@
 
 The ocean breeze greeting Roa by the port felt lifeless.
 
-The kingdom’s streets, buildings, even her own home, all looked foreign to her now. Dozens of impossibilities still lingered beyond her sight, waiting patiently to reveal themselves.
+The kingdom’s streets, buildings, and even her own home all looked foreign to her now. Dozens of impossibilities still lingered beyond her sight, waiting patiently to reveal themselves.
 
 That is why Roa was determined to prove a point to the non-believers, the skeptics, and those who brushed her off as nothing more than a grieving widow.
 
@@ -23,7 +23,7 @@ Soon after, Roa, NinoIna, Gonathon, and Bijou enter the enigma known as the [Lab
 
 But the deeper Roa wandered into the day, the louder the voices became.
 
-A disturbing [message](https://www.youtube.com/live/MGo9h3BNyj0?si=8cBYe4AldnmslPaq&t=9585) from the voices inside her head claimed that Shakira’s death occurred because she escaped the simulations, and that Roa now had to uncover the truth if she ever wished to see her again. Rather than reject the message, Roa acknowledged it calmly before explaining the exhausting burden she carried every day pretending that everything was normal around others. For the sake of her own sanity, she wore a mask of conformity.
+A disturbing [message](https://www.youtube.com/live/MGo9h3BNyj0?si=8cBYe4AldnmslPaq&t=9585) from the voices inside her head claimed that Shakira’s death occurred because she escaped the simulations, and that Roa now had to uncover the truth if she ever wished to see her again. Rather than reject the message, Roa acknowledged it calmly before explaining the exhausting burden she carried every day, pretending that everything was normal around others. For the sake of her own sanity, she wore a mask of conformity.
 
 By afternoon, the church ceremony finally beckoned, prompting Roa to hurry toward the [event](https://www.youtube.com/watch?v=MGo9h3BNyj0&t=10885).
 
@@ -37,9 +37,9 @@ And then she saw it.
 
 A black sheep named “The Flock.”
 
-A solitary mass of putrid black fiber stood motionless beside the oak doors. Its rectangular pupils remained perfectly parallel to the earth beneath its obsidian hooves. The sight alone sent Roa’s paranoia spiraling out of control. Almost immediately, she became convinced the church’s true purpose was to offer prayers to the sheep itself.
+A solitary mass of putrid black fiber stood motionless beside the oak doors. Its rectangular pupils remained perfectly parallel to the earth beneath its obsidian hooves. The sight alone sent Roa’s paranoia spiraling out of control. Almost immediately, she became convinced the church’s true purpose was to offer prayers to the sheep themselves.
 
-Roa desperately asks Sister Shiori to remove the creature, only for the Sister to respond with laughter. Eventually the sheep wandered away, but the suffocating feeling it left behind remained.
+Roa desperately asks Sister Shiori to remove the creature, only for the Sister to respond with laughter. Eventually, the sheep wandered away, but the suffocating feeling it left behind remained.
 
 Finally entering the church, Roa approached the altar only to discover what appeared to be… an empty box.
 
@@ -70,7 +70,7 @@ But there, beyond the walls, she discovered another anomaly.
 
 A solitary impossibility.
 
-A non-euclidean cube of glass floating silently in the air.
+A non-Euclidean cube of glass floating silently in the air.
 
 [A cube that shouldn't exist.](#embed:https://www.youtube.com/watch?v=MGo9h3BNyj0&t=14460)
 
@@ -79,6 +79,16 @@ Roa carefully inspects the object before ultimately deciding to return to town [
 And so, as the next day slowly approaches, Roa continues onward, burdened by truths no one else wishes to see.
 
 ## Fanart
+
+["Third eye unlocked" by madchaco](https://x.com/madchaco/status/2059674141452865976)
+
+["NEVER SURRENDER" by byako_p](https://x.com/byako_p/status/2059839913432949208)
+
+["The Rao Show" by slapdashtw](https://x.com/slapdashtw/status/2059866070090191034)
+
+["Fantasitc Ms.Panthera" by yerbmeow](https://x.com/yerbmeow/status/2059706394303996057)
+
+["ITS THE SHEEP" by tabsarts](https://x.com/tabsarts/status/2059474972243112245)
 
 ["Sniffler" by v1r4yl1](https://x.com/v1r4yl1/status/2059376636164706483)
 

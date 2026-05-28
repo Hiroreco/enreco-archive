@@ -1,4 +1,4 @@
-<!-- entries: shiori-journal-c3d1, shiori-journal-c3d2, shiori-journal-c3d3 -->
+<!-- entries: shiori-journal-c3d1, shiori-journal-c3d2, shiori-journal-c3d3, shiori-journal-c3d4 -->
 <!-- title: Shiori's Journal Entries -->
 
 <!-- description -->

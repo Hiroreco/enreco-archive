@@ -1,4 +1,4 @@
-<!-- entries: shiori-journal-c3d1_ja, shiori-journal-c3d2_ja -->
+<!-- entries: shiori-journal-c3d1_ja, shiori-journal-c3d2_ja, shiori-journal-c3d3_ja, shiori-journal-c3d4_ja -->
 <!-- title: シオリの日記エントリー -->
 
 <!-- description -->

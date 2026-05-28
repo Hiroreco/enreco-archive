@@ -9,13 +9,15 @@ Soon after, Immerkind begins constructing Tam Gandr’s [castle](https://www.you
 
 However, resources soon become an issue. Realizing she lacks sufficient funds, Immerkind openly pleads for assistance, only to discover that many others are struggling just as much. In response, the knight gathers a party consisting of members from several different [factions](https://www.youtube.com/live/gDiqP1BVNXY?si=CVyQ3G7vWC8OOihC&t=5356) to hunt slimes together. During this time, Nerissa takes the opportunity to thank Immerkind for the [flowers](https://www.youtube.com/live/gDiqP1BVNXY?t=5870s) she had sent earlier, causing the knight to gleefully hop around the witch in excitement.
 
-Not long after, Immerkind reunites with Gonathon, who happily announces that he has joined her party alongside Bae the Peasant. Unfortunately, their plans immediately hit a snag when they realize the party is already full. Rather than complain, Gonathon chooses to accompany Roa, NinoIna, another Roa, and Bijou into the dungeon instead, allowing the Peasant to remain with Immerkind.
+Not long after, Immerkind reunites with Gonathon, who happily announces that he has joined her party alongside Bae the Peasant. Unfortunately, their plans immediately hit a snag when they realize the party is already full. Rather than complain, Gonathon chooses to accompany Roa, NinoIna, and Bijou into the dungeon instead, allowing the Peasant to remain with Immerkind.
 
 Later that day, at the church where a supposed “funeral” was taking place, NinoIna openly voices her distrust regarding the purpose of the sermon, as well as the disturbingly cult-like undertones hidden within the prayer book (see [Cecilia-Gigi](#edge:cecilia-gigi)).
 
 As night falls, Immerkind concludes her day by once again writing within her journal. Yet peace never truly comes easy. Upon discovering a frozen [Peasant the Bae](https://www.youtube.com/live/gDiqP1BVNXY?si=PZhj4DI_L9VQHIUU&t=16352), the knight is left overwhelmed by everything unfolding around her. In dismay, she retreats for the day, hoping perhaps that tomorrow might bring answers instead of more uncertainty.
 
 ## Fanart
+
+["Immerkind" by renveriouz](https://x.com/renveriouz/status/2059670465137021289)
 
 ["Immerkind" by tobemi_art](https://x.com/tobemi_art/status/2059557473455874200)
 

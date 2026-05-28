@@ -192,6 +192,20 @@
 
 ## ファンアート
 
+["draw with me" by anonamos_701](https://x.com/anonamos_701/status/2059700098410725415)
+
+<!-- raora -->
+
+["The Funeral" by unbabbles](https://x.com/unbabbles/status/2059769601576128660)
+
+["Shakira deserved better" by hiroavrs](https://x.com/hiroavrs/status/2059645622639280514)
+
+["A New Path in Solitude" by greenieart7](https://x.com/greenieart7/status/2059699755026936073)
+
+["Thus feeling must be love." by deromaru](https://x.com/deromaru/status/2059589758989250980)
+
 ["learn how to fish now" by haaro_69](https://x.com/haaro_69/status/2059294782388908311)
 
-["Shakira on the Cross" by elisbian\_](https://x.com/elisbian_/status/2059578460432146678)
+["Shakira on the Cross" by elisbian\_](https://x.com/elisbian_/status/2059578460432146678)z
+
+<!-- kiara -->

@@ -28,3 +28,7 @@ Though she wouldn't be completely alone in this quest. Both NinoIna and Gonathon
 After splitting off from her, Mordon begins to finally build her restaurant before calling it a night. The road she made is paved with good intentions, and while she can't say she's all too excited to find out where her journey's going to end up leading her... she hopes to be able to help more people than she's harmed once it's all said and done.
 
 ["Good food will save the world... even if it's not my good food."](#embed:https://www.youtube.com/watch?v=jWrom0fcdQk&t=10268)
+
+## Fanart
+
+["its a setup" by 534834t](https://x.com/534834t/status/2059736027636609152)

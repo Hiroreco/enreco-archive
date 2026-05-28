@@ -1,4 +1,4 @@
-<!-- entries: bae-journal-c3d1, bae-journal-c3d2, bae-journal-c3d3 -->
+<!-- entries: bae-journal-c3d1, bae-journal-c3d2, bae-journal-c3d3, bae-journal-c3d4 -->
 <!-- title: Bae's Journal Entries -->
 
 <!-- description -->

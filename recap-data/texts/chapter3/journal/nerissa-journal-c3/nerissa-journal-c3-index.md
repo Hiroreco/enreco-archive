@@ -1,4 +1,4 @@
-<!-- entries: nerissa-journal-c3d3 -->
+<!-- entries: nerissa-journal-c3d3, nerissa-journal-c3d4 -->
 <!-- title: Nerissa Juliet's Journal Entries -->
 
 <!-- description -->

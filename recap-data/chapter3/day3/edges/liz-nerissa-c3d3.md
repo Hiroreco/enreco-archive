@@ -41,7 +41,7 @@ But when her loyalty was questioned, Lady Bloodflame fell to one knee, immediate
 
 The [Labyrinth of Emotions](https://www.youtube.com/watch?v=LJoWhfyEV1Q&t=4478) served not only as a physical quest to overcome, but rather, a challenge to face their own emotions.
 
-While the two enjoyed each other's company solving puzzles and exploring the beautiful palace, an unsettling reality cast its shadow over them.
+While the two enjoyed each other's company, solving puzzles and exploring the beautiful palace, an unsettling reality cast its shadow over them.
 
 What of their feelings?
 
@@ -87,7 +87,7 @@ And with that, right and wrong ceased to matter. What mattered was to keep the W
 
 _"Is Gonathon [trustworthy?](https://www.youtube.com/watch?v=rg_rZ8reBVA&t=11731)"_
 
-It was such an absurd question that Lady Bloodflame blinked for a few moments. Of course her fellow knight was trustworthy. Through thick and thin, they had each other's backs. There was no need to question whether Gonathon had done anything to even remotely cause a sense of distrust.
+It was such an absurd question that Lady Bloodflame blinked for a few moments. Of course, her fellow knight was trustworthy. Through thick and thin, they had each other's backs. There was no need to question whether Gonathon had done anything to even remotely cause a sense of distrust.
 
 But had the other actually talked about killing the faction following Nix?
 
@@ -100,6 +100,14 @@ Surely, a drink together along with a discussion could resolve any lingering ten
 What was the worst that could happen, after all?
 
 ## Fanart
+
+["she's kinda possesive" by kurxkur](https://x.com/kurxkur/status/2059745113660699001)
+
+["It's beautiful isn't it?" by w4nwoof](https://x.com/w4nwoof/status/2059376961189749038)
+
+["Lets steal it" by nojamseo](https://x.com/nojamseo/status/2059724853821988965)
+
+["My Knight" by keiseeaaa](https://x.com/keiseeaaa/status/2059671651294580859)
 
 ["You serve the witch." by meyshi29](https://x.com/meyshi29/status/2059544824848711933)
 

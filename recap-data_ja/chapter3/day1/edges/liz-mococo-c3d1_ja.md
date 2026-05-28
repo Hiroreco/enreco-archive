@@ -29,4 +29,4 @@
 
 ## ファンアート
 
-["Oath." by i](https://x.com/i/status/2059008438978457704)
+["Oath." by i](https://x.com/Hanaswing/status/2059008438978457704)

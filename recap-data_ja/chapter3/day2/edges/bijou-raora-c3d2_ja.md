@@ -30,3 +30,7 @@
 さらにロアは、自宅の地下に組織のための秘密基地を建設し始めた。
 
 そして最後に、二人はロアがシャキーラのために建てた墓の前で[静かに祈りを捧げ](https://www.youtube.com/watch?v=uSz1tR2SU28&t=14535)、ビジューが休むため、その場で別れるのだった。
+
+## ファンアート
+
+["The Illumination" by thatcello](https://x.com/thatcello/status/2059673814708211976)

@@ -19,11 +19,11 @@ With many thoughts swirling in her mind, Lady Bloodflame visits [Shakira's grave
 
 Still, she holds onto a quiet belief that Shakira will one day return, as she was a Mighty Phoenix. Lady Bloodflame continues to pray for her return, hoping that they will become friends again, as Shakira was the one who made her feel warmer.
 
-The loss of Shakira has truly shaken Lady Bloodflame, to the point that she [confronts](https://www.youtube.com/live/rg_rZ8reBVA?si=z42aFzetPCQ2mU94&t=1783) Ramsay for naming her pet chick Shakira. Ramsay explains that she named it after her lost friend, and that it is her business how she chooses to grieve that loss.
+The loss of Shakira has truly shaken Lady Bloodflame to the point that she [confronts](https://www.youtube.com/live/rg_rZ8reBVA?si=z42aFzetPCQ2mU94&t=1783) Ramsay for naming her pet chick Shakira. Ramsay explains that she named it after her lost friend and that it is her business how she chooses to grieve that loss.
 
 Lady Bloodflame, still unsettled, walks away and remarks that it makes sense, since Ramsay is no longer a knight.
 
-After they separated, Lady Bloodflame [contemplates](https://www.youtube.com/live/rg_rZ8reBVA?si=dheTjXv3yqBUip-p&t=3452) Immerkind in her mind. Despite what Nerissa had told her, she has felt comfortable around Immerkind from the beginning. She does not believe Immerkind is the type who would seek to conquer others.
+After they separated, Lady Bloodflame [contemplates](https://www.youtube.com/live/rg_rZ8reBVA?si=dheTjXv3yqBUip-p&t=3452) Immerkind in her mind. Despite what Nerissa had told her, she had felt comfortable around Immerkind from the beginning. She does not believe Immerkind is the type who would seek to conquer others.
 
 After conquering the Labyrinth of Emotion and witnessing the Stained Princess’s memories, Faust requests that they retrieve an item. Lady Bloodflame is then faced with a [choice](https://www.youtube.com/live/rg_rZ8reBVA?si=HgdWoDPfsqJRpEv7&t=7591), to do what is right by speaking to Maaz, or steal it instead.
 
@@ -54,6 +54,8 @@ Is Lady Bloodflame’s life in safe hands? Is the sudden change in her eyes only
 Lady Bloodflame, please remain who you are...
 
 ## Fanart
+
+["Shakira...???" by haiwazenko](https://x.com/haiwazenko/status/2059740911723020292)
 
 ["ominous noise" by punikiart](https://x.com/punikiart/status/2059425719483044263)
 
