@@ -1,5 +1,5 @@
 <!-- title: Take my Revolution-->
-<!-- status: It's complicated-->
+<!-- status: It's Complicated-->
 
 **Our unity was so strong**
 
