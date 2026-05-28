@@ -21,16 +21,16 @@ Some time later, Gonathon took Tam to see Shiori's church and lay eyes on where 
 
 [Victory for the blue team!](#embed:https://www.youtube.com/watch?v=mss5t4szFko&t=9841s)
 
-A short time later, the two were accosted by Bloodflame and Nerissa, the rebels accusing them of peeking on an undressed Shiori. When Gonathon protested he had never seen a naked woman, Lady Bloodflame reacted in shock that he had never seen his "Pearl's pearls." Having the memory of his lost love dredged up drove Gonathon over the edge. Realizing he had lost two of his treasured loved ones to memory loss and determined not to lose a third, he pleaded to Tam with renewed vigor to take off the stain that was devouring her memories.
+A short time later, the two were [accosted](https://www.youtube.com/watch?v=mss5t4szFko&t=10558s) by Bloodflame and Nerissa, the rebels accusing them of peeking on an undressed Shiori. When Gonathon protested he had never seen a naked woman, Lady Bloodflame reacted in shock that he had never seen his "Pearl's pearls." Having the memory of his lost love dredged up drove Gonathon over the edge. Realizing he had lost two of his treasured loved ones to memory loss and determined not to lose a third, he pleaded to Tam with renewed vigor to take off the stain that was devouring her memories.
 
 [A queen's twisted resolve](#embed:https://www.youtube.com/watch?v=mss5t4szFko&t=11183s)
 
-Tam bluntly refused, and even with Nerissa and Lady Bloodflame supporting him, Gonathon once more failed to get through to his queen. At the same time, the sight of the rebels supporting Gonathon snapped Tam out of her stupor. Seeking to distract Gonathon, the queen brought him back to the church to spy on Shiori and Nerissa. Alas, the two were quickly spotted and, following a conversation about Shiori's intentions, the two retreated.
+Tam bluntly refused, and even with Nerissa and Lady Bloodflame supporting him, Gonathon once more failed to get through to his queen. At the same time, the sight of the rebels supporting Gonathon snapped Tam out of her stupor. Seeking to distract Gonathon, the queen brought him [back to the church](https://www.youtube.com/watch?v=mss5t4szFko&t=12111s) to spy on Shiori and Nerissa. Alas, the two were quickly spotted and, following a conversation about Shiori's intentions, the two retreated.
 
-Returning to the kingdom, Gonathon showed Tam the site of his and Immerkind's planned castle for her. Touched by the sentiment, Tam began asking Gonathon questions about his knighthood. If Immerkind served Fia, then Gonathon must also serve some kind of royal too.
+Returning to the kingdom, Gonathon showed Tam the site of his and Immerkind's [planned castle](https://www.youtube.com/watch?v=mss5t4szFko&t=12530s) for her. Touched by the sentiment, Tam began asking Gonathon questions about his knighthood. If Immerkind served Fia, then Gonathon must also serve some kind of royal too.
 
 [Who do you wish to serve?](#embed:https://www.youtube.com/watch?v=mss5t4szFko&t=13067s)
 
 With a wistful melancholy, Gonathon described his [monarch](https://www.youtube.com/watch?v=mss5t4szFko&t=13083s): a queen whom he served with his entire being. While his queen remained locked in the grips of amnesia, Gonathon was determined to not give up. He would find a way to save his queen!
 
-[**Tam's meat is SOOOO good!**](#embed:https://www.youtube.com/watch?v=mss5t4szFko&t=9989s)
+[Tam's meat is SOOOO good!](#embed:https://www.youtube.com/watch?v=mss5t4szFko&t=9989s)
