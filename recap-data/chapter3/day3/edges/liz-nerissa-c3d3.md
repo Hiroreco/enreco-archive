@@ -1,4 +1,4 @@
-<!-- title: The Throne -->
+\<!-- title: The Throne -->
 <!-- relationship: Toxic Yuri -->
 
 **BAD PUPPY**
@@ -41,7 +41,7 @@ But when her loyalty was questioned, Lady Bloodflame fell to one knee, immediate
 
 The [Labyrinth of Emotions](https://www.youtube.com/watch?v=LJoWhfyEV1Q&t=4478) served not only as a physical quest to overcome, but rather, a challenge to face their own emotions.
 
-While the two enjoyed each other's company solving puzzles and exploring the beautiful palace, an unsettling reality cast its shadow over them.
+While the two enjoyed each other's company, solving puzzles and exploring the beautiful palace, an unsettling reality cast its shadow over them.
 
 What of their feelings?
 
@@ -87,7 +87,7 @@ And with that, right and wrong ceased to matter. What mattered was to keep the W
 
 _"Is Gonathon [trustworthy?](https://www.youtube.com/watch?v=rg_rZ8reBVA&t=11731)"_
 
-It was such an absurd question that Lady Bloodflame blinked for a few moments. Of course her fellow knight was trustworthy. Through thick and thin, they had each other's backs. There was no need to question whether Gonathon had done anything to even remotely cause a sense of distrust.
+It was such an absurd question that Lady Bloodflame blinked for a few moments. Of course, her fellow knight was trustworthy. Through thick and thin, they had each other's backs. There was no need to question whether Gonathon had done anything to even remotely cause a sense of distrust.
 
 But had the other actually talked about killing the faction following Nix?
 

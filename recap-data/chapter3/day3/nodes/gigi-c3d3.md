@@ -7,9 +7,9 @@ Shortly after starting his day, Gonathon was [called upon by](https://www.youtub
 
 [Your heart is pure!](#embed:https://www.youtube.com/watch?v=uLitDJpSaKQ&t=744s)
 
-Following a bit of questing, Gonathon was further interrupted by Shiori who, among her usual ramblings, [mentioned](https://youtu.be/uLitDJpSaKQ?t=1332) that her church was nearing completion. Little did the knight know that the church would become the site of one of the day's most harrowing moments.
+Following a bit of questing, Gonathon was further interrupted by Shiori, who, among her usual ramblings, [mentioned](https://youtu.be/uLitDJpSaKQ?t=1332) that her church was nearing completion. Little did the knight know that the church would become the site of one of the day's most harrowing moments.
 
-A chance encounter with Little Witch Mococo led Gonathon to teach the young canine about Santa Claus and, after trying to insist the contrary, he agreed to Mococo's assertions that he was in fact the mythical gift giver. A far more [serious discussion](https://www.youtube.com/watch?v=uLitDJpSaKQ&t=2328s) was to be had with Bijou, as Gonathon once again attempted to reach out to the angsty gemstone but was met with a rebuff focusing on the knight's insistence that their past experiences should affect the here and now.
+A chance encounter with Little Witch Mococo led Gonathon to teach the young canine about Santa Claus, and, after trying to insist the contrary, he agreed to Mococo's assertions that he was, in fact, the mythical gift giver. A far more [serious discussion](https://www.youtube.com/watch?v=uLitDJpSaKQ&t=2328s) was to be had with Bijou, as Gonathon once again attempted to reach out to the angsty gemstone but was met with a rebuff focusing on the knight's insistence that their past experiences should affect the here and now.
 
 [The Ancient Hymn of Lava Chicken](#embed:https://youtu.be/uLitDJpSaKQ?t=2251)
 
@@ -27,7 +27,7 @@ Next came the anticipated funeral ceremony of Shakira at Shiori's church. What s
 
 Gonathon's final trial of the day would prove to be perhaps his most harrowing yet. Having encountered Lady Bloodflame earlier (see [Elizabeth-Gonathon](#embed:gigi-liz)), the humble knight had noticed the [corruption](https://www.youtube.com/watch?v=uLitDJpSaKQ&t=12031s) that had taken hold of her. Realizing that Nerissa Juliet was surely the cause, Gonathon conspired with Immerkind to isolate Bloodflame by distracting Nerissa.
 
-Now alone with the fallen knight, Gonathon probed her defenses in order to find [a means of saving her.](https://www.youtube.com/watch?v=uLitDJpSaKQ&t=12667s) The two had a long heart-to-heart where, despite the corruption seething in her veins, the true Lady Bloodflame reappeared if only for a moment. Seeing his fellow knight in pain only served to motivate Gonathon even more to save her.
+Now alone with the fallen knight, Gonathon probed her defenses to find [a means of saving her.](https://www.youtube.com/watch?v=uLitDJpSaKQ&t=12667s) The two had a long heart-to-heart where, despite the corruption seething in her veins, the true Lady Bloodflame reappeared if only for a moment. Seeing his fellow knight in pain only served to motivate Gonathon even more to save her.
 
 [You are my Libestal](#embed:https://www.youtube.com/watch?v=uLitDJpSaKQ&t=12855s)
 

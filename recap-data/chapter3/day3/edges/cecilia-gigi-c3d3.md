@@ -1,7 +1,7 @@
 <!-- title: A Bond Between Knights -->
 <!-- relationship: Wolf Pack -->
 
-A bond between Knights and Justice is as unbreakable as diamond itself.
+A bond between Knights and Justice is as unbreakable as a diamond itself.
 
 The Knight Immerkind runs into Gonathon, who excitedly proclaims that he has joined her party alongside Bae the Peasant. However, their enthusiasm is quickly cut short when they discover the party is already full. Without hesitation, [Gonathon makes the decision](https://www.youtube.com/live/gDiqP1BVNXY?si=It8wod19sPKfYyMR&t=6800) to venture into the dungeon alongside Roa, NinoIna, another Roa, and Koseki Bijou so that the Peasant may instead accompany Immerkind.
 
@@ -11,7 +11,7 @@ The two knights reunite once more at Terminus, where they encounter Bijou again.
 
 Later, Gonathon attempts to engage Immerkind in a series of hypotheticals, though the conversation repeatedly derails into discussions of Gods Above, Quartz, and countless other distractions. Despite looming deadlines imposed by the Gods themselves, the two spend their time bantering and laughing together like true companions.
 
-Their journey eventually leads them to the church, where they encounter LadyBloodFlame. There, Gonathon immediately notices the unsettling changes in her [demeanor and physical appearance](https://www.youtube.com/live/gDiqP1BVNXY?si=ptRWTGMxt9A6B_f_&t=14852). Before long, the pair become entangled in the chaotic controversy surrounding Shakira’s death, as Sister Shiori seeks to bring [judgment](https://www.youtube.com/live/gDiqP1BVNXY?si=qQoU9G3A6Gj0764z&t=14977) upon whoever was responsible for the killing.
+Their journey eventually leads them to the church, where they encounter LadyBloodFlame. There, Gonathon immediately notices the unsettling changes in her [demeanor and physical appearance](https://www.youtube.com/live/gDiqP1BVNXY?si=ptRWTGMxt9A6B_f_&t=14852). Before long, the pair became entangled in the chaotic controversy surrounding Shakira’s death, as Sister Shiori seeks to bring [judgment](https://www.youtube.com/live/gDiqP1BVNXY?si=qQoU9G3A6Gj0764z&t=14977) upon whoever was responsible for the killing.
 
 In the midst of the growing turmoil, Immerkind and Gonathon [attempt to console](https://www.youtube.com/live/gDiqP1BVNXY?si=NEJmpPsAlclZoqyq&t=15053) the accused Mordon Ramsay, hoping to calm the increasingly chaotic congregation. Once outside, however, Gonathon finally opens up to Immerkind about his fears and sorrow. Through tears, he confesses his worries regarding Sister Shiori and how deeply he still misses [his pearl](https://www.youtube.com/live/gDiqP1BVNXY?si=f9QINUr3Tqg71iVS&t=15366). He fears that his growing attachment to Shiori may simply be an attempt to fill the void left behind by the one he once loved. Immerkind gently reassures him, warning him not to mistake Shiori’s kindness for love itself.
 

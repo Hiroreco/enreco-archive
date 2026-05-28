@@ -3,7 +3,7 @@
 
 The ocean breeze greeting Roa by the port felt lifeless.
 
-The kingdom’s streets, buildings, even her own home, all looked foreign to her now. Dozens of impossibilities still lingered beyond her sight, waiting patiently to reveal themselves.
+The kingdom’s streets, buildings, and even her own home all looked foreign to her now. Dozens of impossibilities still lingered beyond her sight, waiting patiently to reveal themselves.
 
 That is why Roa was determined to prove a point to the non-believers, the skeptics, and those who brushed her off as nothing more than a grieving widow.
 
@@ -23,7 +23,7 @@ Soon after, Roa, NinoIna, Gonathon, and Bijou enter the enigma known as the [Lab
 
 But the deeper Roa wandered into the day, the louder the voices became.
 
-A disturbing [message](https://www.youtube.com/live/MGo9h3BNyj0?si=8cBYe4AldnmslPaq&t=9585) from the voices inside her head claimed that Shakira’s death occurred because she escaped the simulations, and that Roa now had to uncover the truth if she ever wished to see her again. Rather than reject the message, Roa acknowledged it calmly before explaining the exhausting burden she carried every day pretending that everything was normal around others. For the sake of her own sanity, she wore a mask of conformity.
+A disturbing [message](https://www.youtube.com/live/MGo9h3BNyj0?si=8cBYe4AldnmslPaq&t=9585) from the voices inside her head claimed that Shakira’s death occurred because she escaped the simulations, and that Roa now had to uncover the truth if she ever wished to see her again. Rather than reject the message, Roa acknowledged it calmly before explaining the exhausting burden she carried every day, pretending that everything was normal around others. For the sake of her own sanity, she wore a mask of conformity.
 
 By afternoon, the church ceremony finally beckoned, prompting Roa to hurry toward the [event](https://www.youtube.com/watch?v=MGo9h3BNyj0&t=10885).
 
@@ -37,9 +37,9 @@ And then she saw it.
 
 A black sheep named “The Flock.”
 
-A solitary mass of putrid black fiber stood motionless beside the oak doors. Its rectangular pupils remained perfectly parallel to the earth beneath its obsidian hooves. The sight alone sent Roa’s paranoia spiraling out of control. Almost immediately, she became convinced the church’s true purpose was to offer prayers to the sheep itself.
+A solitary mass of putrid black fiber stood motionless beside the oak doors. Its rectangular pupils remained perfectly parallel to the earth beneath its obsidian hooves. The sight alone sent Roa’s paranoia spiraling out of control. Almost immediately, she became convinced the church’s true purpose was to offer prayers to the sheep themselves.
 
-Roa desperately asks Sister Shiori to remove the creature, only for the Sister to respond with laughter. Eventually the sheep wandered away, but the suffocating feeling it left behind remained.
+Roa desperately asks Sister Shiori to remove the creature, only for the Sister to respond with laughter. Eventually, the sheep wandered away, but the suffocating feeling it left behind remained.
 
 Finally entering the church, Roa approached the altar only to discover what appeared to be… an empty box.
 
@@ -70,7 +70,7 @@ But there, beyond the walls, she discovered another anomaly.
 
 A solitary impossibility.
 
-A non-euclidean cube of glass floating silently in the air.
+A non-Euclidean cube of glass floating silently in the air.
 
 [A cube that shouldn't exist.](#embed:https://www.youtube.com/watch?v=MGo9h3BNyj0&t=14460)
 
