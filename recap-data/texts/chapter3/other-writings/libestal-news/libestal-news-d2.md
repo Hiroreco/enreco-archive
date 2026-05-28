@@ -14,7 +14,7 @@ When interviewed, she shrugged and said, "Lmao, they gave it to some crypto scam
 
 To the west of the gate, the Church of Inkwell is currently in the making.
 
-A farm was installed nearby too. A secret project in honor of a ***** is also being constructed by the kind and amazing Immerknight.
+A farm was installed nearby too. A secret project in honor of a **\*** is also being constructed by the kind and amazing Immerknight.
 
 Team Nix is still dirt poor and unable to purchase construction blocks.
 
@@ -23,8 +23,6 @@ Mordon Ramsay's restaurant is open for business and is charging ludicrous prices
 Their food is still of suspicious quality.
 
 Be sure to tune in for tomorrow's Inkwell News!
-
-
 
 P.S.
 

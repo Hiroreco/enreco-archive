@@ -52,4 +52,5 @@
 そして町中を満たす混沌の[ハーモニー](https://www.youtube.com/live/T5wi-wnloHQ?si=3v5qfogVlaAndEXE&t=17475)の中で、ふわふわの乙女はようやくその日を終えることにしたのだった。
 
 ## ファンアート
+
 ["pixel fuwawa" by okunashi27](https://x.com/okunashi27/status/2059957745470902760)

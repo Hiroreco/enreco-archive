@@ -18,6 +18,7 @@
 どうやら、“ステインを宿すビジュー”の旅路の続きは、また別の日を待つことになりそうだ。
 
 ## ファンアート
+
 ["mmm soup" by krabsticksart](https://x.com/krabsticksart/status/2059612998550130739)
 
 <!-- cecilia -->

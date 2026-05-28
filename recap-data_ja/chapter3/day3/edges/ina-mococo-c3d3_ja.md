@@ -38,4 +38,5 @@
 それが今のモココの、唯一にして最大の目標だったのである。
 
 ## ファンアート
+
 ["the end of the mocopoly" by werteriobqa](https://x.com/werteriobqa/status/2059808604073370071)

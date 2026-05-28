@@ -38,7 +38,8 @@
 [タムの肉、うますぎる！！！](#embed:https://www.youtube.com/watch?v=mss5t4szFko&t=9989s)
 
 ## ファンアート
-["lucky color" by fongban_](https://x.com/fongban_/status/2059874971753803937)
+
+["lucky color" by fongban\_](https://x.com/fongban_/status/2059874971753803937)
 
 <!-- bae, raora -->
 

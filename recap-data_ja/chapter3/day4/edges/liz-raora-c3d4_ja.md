@@ -22,6 +22,7 @@
 ――そしてこうして、レディ・ブラッドフレイムもまた、悟りへ至った。
 
 ## ファンアート
+
 ["cool eyes lbf" by meyshi29](https://x.com/meyshi29/status/2059830354064929067)
 
 ["Blue eyes suit you" by yuri_kyanon](https://x.com/yuri_kyanon/status/2059845178022879590)

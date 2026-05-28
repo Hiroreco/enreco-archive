@@ -15,7 +15,7 @@
         "preeditor": "pnpm run copy-resources",
         "editor": "turbo run editor",
         "format": "prettier --write \"**/*.{ts,tsx,md}\"",
-        "format-md": "prettier --write \"recap-data/chapter3/**/*.md\"",
+        "format-md": "prettier --write \"{recap-data,recap-data_ja}/chapter3/**/*.md\"",
         "lint": "turbo run lint",
         "optimize-images": "tsx scripts/core/optimize-images.ts",
         "generate-thumbnails": "tsx scripts/core/generate-thumbnails.ts",

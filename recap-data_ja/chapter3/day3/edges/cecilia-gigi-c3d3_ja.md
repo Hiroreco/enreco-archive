@@ -23,7 +23,7 @@
 
 ## ファンアート
 
-["IMERKIND YOU DUMB" by fongban_](https://x.com/fongban_/status/2059633440287555610)
+["IMERKIND YOU DUMB" by fongban\_](https://x.com/fongban_/status/2059633440287555610)
 
 <!-- bae -->
 

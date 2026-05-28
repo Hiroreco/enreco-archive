@@ -116,4 +116,5 @@
 ["おいしい料理が世界を救う……たとえ、それが私の料理じゃなかったとしても。"](#embed:https://www.youtube.com/watch?v=jWrom0fcdQk&t=10268)
 
 ## ファンアート
+
 ["its a setup" by 534834t](https://x.com/534834t/status/2059736027636609152)
