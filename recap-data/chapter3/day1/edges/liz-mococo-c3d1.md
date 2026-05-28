@@ -25,4 +25,4 @@ There was no doubt in Elizabeth's mind that the days ahead would be incredibly h
 
 ## Fanart
 
-["Oath." by i](https://x.com/i/status/2059008438978457704)
+["Oath." by i](https://x.com/Hanaswing/status/2059008438978457704)

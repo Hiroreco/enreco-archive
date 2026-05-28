@@ -31,6 +31,6 @@ When the time came for her to decide what occupation to take, she did not think 
 
 ["it was the only option, right? ...right?" by ogumashiro](https://x.com/ogumashiro/status/2058899855821406310)
 
-["Nerissa’s Opening Screen" by i](https://x.com/i/status/2058764089401528674)
+["Nerissa’s Opening Screen" by i](https://x.com/paw_chie/status/2058764089401528674)
 
 ["Lady Bloodflame" by cressentiaqin](https://x.com/cressentiaqin/status/2058267690960335248)

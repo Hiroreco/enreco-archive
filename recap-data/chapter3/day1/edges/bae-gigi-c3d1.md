@@ -19,4 +19,4 @@ Gonathon believes in the bond he and The Peasant Bae have. That Bae can be the b
 
 ## Fanart
 
-["Phone Troubles" by i](https://x.com/i/status/2058872790863003926)
+["Phone Troubles" by i](https://x.com/Lil_Leaflet_/status/2058872790863003926)

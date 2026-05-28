@@ -110,6 +110,6 @@
 
 ["Tam is so traumatized..." by headlessmiku](https://x.com/headlessmiku/status/2058766304472113554)
 
-["Tam’s new pet" by i](https://x.com/i/status/2058838173405622639)
+["Tam’s new pet" by i](https://x.com/kagatecat/status/2058838173405622639)
 
 ["Tam" by yuutomeh97](https://x.com/yuutomeh97/status/2058839249235886278)
