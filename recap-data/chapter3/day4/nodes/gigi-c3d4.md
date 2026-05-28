@@ -15,6 +15,8 @@ Having been harried by the Gods Above, Gonathon and Tam had had little time to p
 
 Emerging victorious for the second time that day, Gonathon was tasked next by Star Speaker Vega with selecting one that was his exact mirror. It was here that a shadowy figure emerged: Nerissa Juliet, demon of song (see [Gonathon-Nerissa](#edge:gigi-nerissa)). But Nerissa was not there to quarrel, but rather to invite Gonathon to tackle the next day's dungeon with her, as she saw Gonathon to be her mirror. Perplexed by her true motives, but never one to doubt such an earnest request, Gonathon humbly agreed.
 
+[Nerissa wants...Gonathon?](#embed:https://www.youtube.com/watch?v=mss5t4szFko&t=8836s)
+
 Reuniting with his queen, Gonathon felt it necessary to show her the site of Shiori's defacement of [Shakira's body,](https://www.youtube.com/watch?v=mss5t4szFko&t=9223s) as the knight had firmly decided the witch stood in opposition to him and his cause. However, upon reaching the church the two discovered a [hole in the floor.](https://www.youtube.com/watch?v=mss5t4szFko&t=9522s) Never one to back down from exploring the unknown, Gonathon and Tam leapt into it feet first. It was there they encountered an indignant Shiori, the witch clearly up to some shadowy machinations in the depths of the holy house. Wiping their memories, Shiori sent the duo back to the surface.
 
 Walking around in a daze, the two eventually met up with Nerissa and Lady Bloodflame once more. The two rebels challenged the Shining Stars to a [sparring match.](https://www.youtube.com/watch?v=mss5t4szFko&t=9820s) Tam and her knight easily emerged victorious. However, the malignant pair were not quite done with Gonathon just yet, as Lady Bloodflame swiftly re-emerged, now accusing Gonathon and Tam of having peeked in on an undressed Shiori. With no memory of what occurred in the church's underhalls, Gonathon protested strongly, stating he had never seen an undressed woman in his life.
@@ -23,8 +25,10 @@ Walking around in a daze, the two eventually met up with Nerissa and Lady Bloodf
 
 Gonathon's Pearl...the one he truly loved, one who he had wrenched from the abyss of amnesia and who just as easily vanished in an instant. Hearing the mention of her sent the knight into a spiral of despair. First his Pearl, then Shiori, and now Tam, just how many people would he lose before the Fates were satisfied?
 
+[A knight's crash out](#embed:https://www.youtube.com/watch?v=mss5t4szFko&t=10452s)
+
 Begging Tam to remove the stain [afflicting](https://www.youtube.com/live/mss5t4szFko?si=Kgcqjj6OOeAVnFH-&t=11354) her, the sudden support of Bloodflame and Nerissa caused Tam's senses to spark back into action. Drawing Gonathon aside, she raised the question: could the two truly be trusted?
 
-From here, Tam roped Gonathon into attempting to spy on Shiori, but the now alert witch stonewalled all attempts to access the church basement. Admitting defeat, Tam and Gonathon shared a tender moment, with Gonathon once more determined to save her, no matter the cost.
+From here, Tam roped Gonathon into attempting to [spy](https://www.youtube.com/watch?v=mss5t4szFko&t=12225s) on Shiori, but the now alert witch stonewalled all attempts to access the church basement. Admitting defeat, Tam and Gonathon shared a tender moment, with Gonathon once more determined to save her, no matter the cost.
 
 [Day 4's Journal](#embed:https://www.youtube.com/live/mss5t4szFko?si=KNQp730NMk22wPvl&t=13250)
