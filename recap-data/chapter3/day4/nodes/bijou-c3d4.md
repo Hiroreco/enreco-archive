@@ -1,6 +1,5 @@
 <!-- title: Bijou the Stained -->
-
-<!-- Status: Extremely Afflicted -->
+<!-- status: Extremely Afflicted -->
 
 Bijou the Stained tried to open her eyes—wait, why weren't they opening? Why couldn't she move? It seems that her affliction had worsened, resulting in a "mental liquid spill" that left her body paralyzed and unable to awaken. And just when she had been planning to spread chaos with Shakira's body!
 
