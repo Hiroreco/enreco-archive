@@ -98,7 +98,12 @@ const NodeCard = ({
 
     function onReadChange(isRead: boolean) {
         if (selectedNode) {
-            setReadStatus(chapter, day, selectedNode.id, isRead);
+            setReadStatus(
+                chapter,
+                selectedNode.data.day ?? day,
+                selectedNode.id,
+                isRead,
+            );
         } else {
             console.error("onReadChange called with null selectedNode");
         }
@@ -134,7 +139,13 @@ const NodeCard = ({
         }
     }
 
-    const isNodeRead = getReadStatus(readStatus, chapter, day, selectedNode.id);
+    const selectedNodeDay = selectedNode.data.day ?? day;
+    const isNodeRead = getReadStatus(
+        readStatus,
+        chapter,
+        selectedNodeDay,
+        selectedNode.id,
+    );
     // To change label depending on chapter (eg. Team, Job, etc.)
     const teamLabelMap: Record<string, string> = {
         0: tNodeCard("guild"),

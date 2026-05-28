@@ -99,7 +99,12 @@ const EdgeCard = ({
 
     function onReadChange(isRead: boolean) {
         if (selectedEdge) {
-            setReadStatus(chapter, day, selectedEdge.id, isRead);
+            setReadStatus(
+                chapter,
+                selectedEdge.data?.day ?? day,
+                selectedEdge.id,
+                isRead,
+            );
         } else {
             console.error("onReadChange called with null selectedEdge");
         }
@@ -147,7 +152,13 @@ const EdgeCard = ({
         );
     }
 
-    const isEdgeRead = getReadStatus(readStatus, chapter, day, selectedEdge.id);
+    const selectedEdgeDay = selectedEdge.data?.day ?? day;
+    const isEdgeRead = getReadStatus(
+        readStatus,
+        chapter,
+        selectedEdgeDay,
+        selectedEdge.id,
+    );
 
     const availiableEdges: FixedEdgeType[] = [];
     for (const chart of charts) {
