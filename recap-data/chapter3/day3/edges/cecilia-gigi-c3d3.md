@@ -3,7 +3,7 @@
 
 A bond between Knights and Justice is as unbreakable as diamond itself.
 
-The Knight Immerkind runs into Gonathon, who excitedly proclaims that he has joined her party alongside Bae the Peasant. However, their enthusiasm is quickly cut short when they discover the party is already full. Without hesitation, [Gonathon makes the decision](https://www.youtube.com/live/gDiqP1BVNXY?si=It8wod19sPKfYyMR&t=6800) to venture into the dungeon alongside Roa, NinoIna, another Roa, and Koseki Bijou so that the Peasant may instead accompany Immerkind.
+The Knight Immerkind runs into Gonathon, who excitedly proclaims that he has joined her party alongside Bae the Peasant. However, their enthusiasm is quickly cut short when they discover the party is already full. Without hesitation, [Gonathon makes the decision](https://www.youtube.com/live/gDiqP1BVNXY?si=It8wod19sPKfYyMR&t=6800) to venture into the dungeon alongside Roa, NinoIna, and Koseki Bijou so that the Peasant may instead accompany Immerkind.
 
 [Meet the Justashians](#embed:https://www.youtube.com/live/gDiqP1BVNXY?si=BtnPYFdZMGvn6F6G&t=7005)
 
