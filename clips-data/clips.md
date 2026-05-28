@@ -1270,7 +1270,6 @@ https://youtu.be/bwiaT4JZqNw?si=1hierKMYClqk8whA
 
 https://youtu.be/r0sNSb5t32Q?si=rkUPX66cTrWIe69l
 
-
 <!-- mococo -->
 
 https://youtu.be/1DdeT4i5B2Q?si=Vhp7bqd08slHCZCI
@@ -1342,7 +1341,6 @@ https://youtu.be/lW2FpXPhTN4?si=o2DHHQbN-FVdRHRs
 <!-- calli -->
 
 https://youtu.be/COVYBj6Zbew?si=XtrU-lrsgQWI6SSs
-
 
 <!-- calli -->
 
@@ -1472,7 +1470,6 @@ https://youtu.be/AFlKs-FLNt0?si=WxAI0J46TXEViX5g
 
 https://youtu.be/SKcU7MQEBI4?si=fgTfOh26dbSxGCsb
 
-
 <!-- calli, shiori -->
 
 https://youtu.be/iue73Gs_VsY?si=rMp09Kflmy2Y966v
@@ -1518,3 +1515,147 @@ https://youtu.be/LduY3nZQ_pg?si=KhqJWkY83R9xfofa
 https://youtu.be/9hRRDbgiME4?si=Bzhf2RHhEoCeI4oK
 
 <!-- ina, bijou, gigi -->
+
+https://youtu.be/HmsDMAO8h94?si=ungAUZkkx0hx4vec
+
+<!-- nerissa, liz -->
+
+https://youtu.be/m0dYrV4J190?si=s6mPYO517ZAPFjli
+
+<!-- nerissa, liz, gigi -->
+
+https://youtu.be/IvgoBFyXAvo?si=fA61dsXS_XTcF3gL
+
+<!-- raora, ina, bijou, shiori -->
+
+https://youtu.be/LP8ntyqgN04?si=7IBhtqI3RX_IFIGK
+
+<!-- calli, bijou -->
+
+https://youtu.be/Q9EEJxE0IPs?si=lmS9HRhY8ifAdPga
+
+<!-- shiori -->
+
+https://youtu.be/JaGk3ctby_c?si=iHeDudkKKI1-EBeP
+
+<!-- kiara, raora -->
+
+https://youtu.be/-E-vFy4B8wM?si=gMJ_owytSTqoi1ub
+
+<!-- ina, bae -->
+
+https://youtu.be/tcvaJLdcxQU?si=JF0s_jZVFxlZtj9y
+
+<!-- raora, bijou -->
+
+https://youtu.be/-eXuEUBZyo8?si=oX9P2Kh5IvJ-y3Br
+
+<!-- raora -->
+
+https://youtu.be/Dt7DaFhDpas?si=zS1uXO3Kk57uB_8T
+
+<!-- shiori, liz -->
+
+https://youtu.be/jWs1pxyz4hY?si=howS6Hy2B-QFwrjP
+
+<!-- shiori, gigi -->
+
+https://youtu.be/jj1OOm9PBbQ?si=xb30j_Q9-0g8chgp
+
+<!-- bijou, shiori -->
+
+https://youtu.be/gjvm2Ud13Fc?si=O7Q-akgEstlndMqC
+
+<!-- kronii -->
+
+https://youtu.be/9JoRqKicJ6c?si=FfJVklR0bChF8uDm
+
+<!-- ina, cecilia -->
+
+https://youtu.be/1CfiaF7o8io?si=j370LGLJlN9jvDc3
+
+<!-- gigi -->
+
+https://youtu.be/iMak-QIm0T0?si=4ZizqGmR2XQHCsqO
+
+<!-- gigi -->
+
+https://youtu.be/pvFBQedjzgQ?si=Ma4RavS--HVTFd1J
+
+<!-- bae, gigi -->
+
+https://youtu.be/rAakmWanAmw?si=dP1OjVuWAW5rQbNO
+
+<!-- calli, bijou, raora -->
+
+https://youtu.be/ZRCtS-Gi1tw?si=iemH5RwBjICG_6eR
+
+<!-- bijou,liz -->
+
+https://youtu.be/nT-_MOSsmC4?si=2WBC2oIn63Rtjjtc
+
+<!-- kronii, shiori, gigi -->
+
+https://youtu.be/9v0tKZ5H298?si=qISnv3YtbKWNciGB
+
+<!-- kronii -->
+
+https://youtu.be/NG_hQNxAhFg?si=qjUCfZuhykmpgKwM
+
+<!-- gigi -->
+
+https://youtu.be/_ObYV-T5Dms?si=92su5hLQSZseToaC
+
+<!-- ina, kronii, shiori, gigi -->
+
+https://youtu.be/XtIwp0I5Lks?si=9JTIQooANRDVBYbw
+
+<!-- fuwawa, mococo -->
+
+https://youtu.be/sTFrO10y0Cc?si=E1Jw2ezp4QseBR6K
+
+<!-- kronii, mococo -->
+
+https://youtu.be/ePnxwRSoLcw?si=Ep62cTvyPguvK4K2
+
+<!-- gigi -->
+
+https://youtu.be/yV8YYU2ybk0?si=dIXbpXom3lCgGRE2
+
+<!-- kronii, raora -->
+
+https://youtu.be/er9ovdiM-V0?si=wWG6d6_2qj0A0zMo
+
+<!-- kronii, gigi -->
+
+https://youtu.be/6Zl8Uy3aBTE?si=kptqTPTtAc-N2HNN
+
+<!-- bijou -->
+
+https://youtu.be/k52SOnnaaUE?si=o9ZmhmDKRaKU4XdE
+
+<!-- kronii, fuwawa -->
+
+https://youtu.be/ZIhy5X8b5I0?si=y_7tdioAhO1IiLeF
+
+<!-- kronii, nerissa -->
+
+https://youtu.be/5ZrXHOkopzQ?si=5ZSBeZH1Qbs1EUUE
+
+<!-- fuwawa, mococo -->
+
+https://youtu.be/vMGWvYcFd5s?si=EpYGVzMOcnsCfqds
+
+<!-- ina, cecilia -->
+
+https://youtu.be/80zr1vwuamU?si=39K8fUmF0nnVW1L7
+
+<!-- nerissa, gigi -->
+
+https://youtu.be/T6tXkh4t3tk?si=qYB6Ewk71GFg4Kkq
+
+<!-- raora -->
+
+https://youtu.be/rtyoDQturbE?si=bqWn7gX_IMux2oBy
+
+<!-- nerissa, liz -->
