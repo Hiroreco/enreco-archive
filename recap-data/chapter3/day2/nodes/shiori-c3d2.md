@@ -93,6 +93,6 @@ Oh forgot to mention, she dug ug a grave and stole Shakira's corpse.
 
 <!-- gigi, calli -->
 
-["Like a dog" by i](https://x.com/i/status/2059159977097625646)
+["Like a dog" by i](https://x.com/noirstein/status/2059159977097625646)
 
 <!-- liz -->
