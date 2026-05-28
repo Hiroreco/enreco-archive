@@ -249,6 +249,22 @@ export const CONTRIBUTORS: Credit[] = [
                     ja: ["第2章：ジジ関連のエントリー"],
                 },
             },
+            {
+                name: "SteelPokeNinja",
+                socials: "https://x.com/SteelPokeNinja",
+                credits: {
+                    en: ["Chapter 3: Bijou related entries"],
+                    ja: ["第3章：ビジュー関連のエントリー"],
+                },
+            },
+            {
+                name: "Seventysix",
+                socials: "https://x.com/Victory7TCX",
+                credits: {
+                    en: ["Chapter 3: Raora related entries"],
+                    ja: ["第3章：ラオラ関連のエントリー"],
+                },
+            },
         ],
     },
 ];
