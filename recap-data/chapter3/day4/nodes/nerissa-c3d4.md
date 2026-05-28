@@ -73,3 +73,6 @@ Contemplating, she wondered if she could ever truly let go of her "Romeo." Just 
 She had to. Right? Even if she was terrified of the outcome. Even if it meant Lady Bloodflame would no longer look her way again.
 
 But wait... did she *really* have to [break their bond?](https://youtu.be/60_Pduc0ODY?t=8222) (See [Liz-Nerissa](#edge:liz-nerissa))
+
+## Fanart
+["Juliet" by krabsticksart](https://x.com/krabsticksart/status/2059613414356594834)

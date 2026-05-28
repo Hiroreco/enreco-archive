@@ -65,3 +65,8 @@
 ペイザンは[実質的にフワワの全財産](https://youtu.be/BmINsLSSjq0?t=11365)と、伝説級アップグレードストーン二個を手に入れたのである。
 
 所持コイン：22248枚。
+
+## ファンアート
+["Turning Purple" by rlus654](https://x.com/rlus654/status/2059801831212216798)
+
+["Peasant's Treasure" by fongban_](https://x.com/fongban_/status/2059971535432253904)

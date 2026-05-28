@@ -76,3 +76,6 @@ Someone else had gone through the same insanity alongside her, just as confused 
 (See [Gonathon-Tam](#edge:gigi-kronii))
 
 And so, after everything was finally over, Tam settled down inside the library, documenting the chaos-filled, utterly [wild day.](https://www.youtube.com/watch?v=JZ2gO4qDJ2w&t=13231)
+
+## Fanart
+["let's take a closer look" by henryshalun_1](https://x.com/henryshalun_1/status/2059920969813385257)

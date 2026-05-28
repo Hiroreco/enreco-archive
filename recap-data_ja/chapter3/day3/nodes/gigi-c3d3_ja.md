@@ -54,6 +54,12 @@
 
 ## ファンアート
 
+["relaxed" by blueplankton](https://x.com/blueplankton/status/2059675841383305283)
+
+["Big G" by shmungerbungus](https://x.com/shmungerbungus/status/2059690880140005721)
+
+["Do something, please" by enefwastaken](https://x.com/enefwastaken/status/2059695691685872081)
+
 ["Gonathon" by squaredriceball](https://x.com/squaredriceball/status/2059539663489221093)
 
 ["I'm so scared" by np_mango](https://x.com/np_mango/status/2059511535840453039)

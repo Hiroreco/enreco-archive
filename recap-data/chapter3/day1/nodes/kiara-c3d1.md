@@ -20,4 +20,6 @@ And so, Shakira plunged into the fountain water below.
 
 ## Fanart
 
+["The Phoenix Who Burned the Brightest" by yaymics](https://x.com/yaymics/status/2059535825772179735)
+
 ["Oh, mori, when you cook like that you make a wawa go dead" by ogumashiro](https://x.com/ogumashiro/status/2059019424930132298)

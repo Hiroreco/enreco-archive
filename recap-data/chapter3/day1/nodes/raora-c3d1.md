@@ -26,3 +26,6 @@ Everything felt perfect. This new kingdom, this new life—it all felt like pure
 ...
 
 Until it all crumbled away when she least expected it (see [Shakira-Roa](#edge:kiara-raora))
+
+## Fanart
+["The Big Cat Who Wander Through Love" by yaymics](https://x.com/yaymics/status/2059534992426840268)

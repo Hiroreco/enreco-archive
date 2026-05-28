@@ -55,6 +55,8 @@ Lady Bloodflame, please remain who you are...
 
 ## Fanart
 
+["Shakira...???" by haiwazenko](https://x.com/haiwazenko/status/2059740911723020292)
+
 ["ominous noise" by punikiart](https://x.com/punikiart/status/2059425719483044263)
 
 ["Come back to your senses" by \_\_akkanen](https://x.com/__akkanen/status/2059630294249111785)

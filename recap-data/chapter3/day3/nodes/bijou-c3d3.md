@@ -28,3 +28,6 @@ Following this, however, Bijou found herself in a confrontation with Gonathon, c
 Following her heist of Maaz's quarters for an Amulet of Levitation, Bijou arrived at Shiori's church for the event Shiori had invited her to. Ultimately, things got... quite chaotic, to put it lightly. In the end, [Bijou asked Shiori why she had done this](https://www.youtube.com/watch?v=3iXshLxO3-E&t=15400), and while Shiori's explanation was just to remind everyone of Shakira's murder, Bijou commended Shiori for the chaos she sowed.
 
 With Shakira's body still up for sale in the church, Bijou decides that she would like to buy herself and [approaches Shiori about doing so](https://www.youtube.com/watch?v=3iXshLxO3-E&t=16490). Getting a special deal of only 1500 coins, Bijou decides she wants to use the body to cause as much madness as possible within the kingdom, and that she will work through the night while no guards are around to halt her plans. We shall just have to see what the result will be...
+
+## Fanart
+["Join the darkness" by f1shtako](https://x.com/f1shtako/status/2059743168350875972)

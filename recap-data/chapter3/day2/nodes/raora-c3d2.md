@@ -51,6 +51,8 @@ Closer to uncovering the true nature of this world.
 
 ## Fanart
 
+["The sheep was only the begining..." by lavendulan](https://x.com/lavendulan/status/2060002325646000178)
+
 ["The Sheep" by ddolbang11](https://x.com/ddolbang11/status/2059634430579499467)
 
 ["It's so beautiful" by keenbiscuit](https://x.com/keenbiscuit/status/2059587053827104775)

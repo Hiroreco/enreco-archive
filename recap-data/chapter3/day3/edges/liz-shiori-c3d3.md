@@ -47,4 +47,6 @@ The greatest miscommunication of the century.
 
 ## Fanart
 
+["The impossible friendship?" by spaceace_king](https://x.com/spaceace_king/status/2059506198630842400)
+
 ["Evil tickle tickle tickle!" by sleepyyua](https://x.com/sleepyyua/status/2059493524073275753)

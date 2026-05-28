@@ -107,3 +107,6 @@ _もっと互いを知りたいなら_
 ――だが、待ってほしい。
 
 本当に彼女たちは、[その絆を断ち切らなければならない](https://youtu.be/60_Pduc0ODY?t=8222)のだろうか？（参照: [リズ＝ネリッサ](#edge:liz-nerissa)）
+
+## ファンアート
+["Juliet" by krabsticksart](https://x.com/krabsticksart/status/2059613414356594834)

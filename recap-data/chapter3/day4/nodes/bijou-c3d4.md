@@ -12,3 +12,8 @@ With time before the Labyrinth of Song was unlocked, Bijou still wanted to do so
 Bijou also received calls from Roa and Shiori, both inviting her to enter the Labyrinth of Song together. Soon after, [she stumbled upon Shiori's build site](https://youtu.be/o-aseqW0iiU?t=3516), receiving headpats and recounting the events of her morning to Shiori. Using the... creative way of leaving the building site, she then returned to haunting the others.
 
 Ultimately, it was decided that she would join alongside Tam Gandr, Roa, the Peasant, and Gonathon in order to tackle the dungeons that the group needed to do. However, Bijou found she was quite worn out by her affliction and decided to [part with the group](https://www.youtube.com/watch?v=P3uwaftxSG0&t=4235) in order to let herself rest and recover. It seems we shall have to wait for another day for the journey of Bijou the Stained to continue.
+
+## Fanart
+["mmm soup" by krabsticksart](https://x.com/krabsticksart/status/2059612998550130739)
+
+<!-- cecilia -->

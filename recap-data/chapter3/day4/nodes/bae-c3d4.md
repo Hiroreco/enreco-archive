@@ -32,3 +32,8 @@ Another area to explore, a new ore to [mine](https://youtu.be/BmINsLSSjq0?t=9673
 And of course, not without one last business deal... The Peasant [essentially took all of Fuwawa's gold](https://youtu.be/BmINsLSSjq0?t=11365) and 2 legendary upgrade stones.
 
 Coin count: 22248.
+
+## Fanart
+["Turning Purple" by rlus654](https://x.com/rlus654/status/2059801831212216798)
+
+["Peasant's Treasure" by fongban_](https://x.com/fongban_/status/2059971535432253904)

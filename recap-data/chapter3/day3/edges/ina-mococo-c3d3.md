@@ -14,3 +14,6 @@ Ina merely giggled in response and went on with her day, calmly learning how to 
 And yet, despite this adversity, Ina would still find success with her new job in quite a short time. With her dedication, focus, and lack of stress, Ina was able to successfully [agree to an important trade](https://www.youtube.com/watch?v=GzBAUkX8-r0&t=5085) with Gonathon before they headed out for the dungeon.
 
 As for Mococo... well, maybe she could learn to share in due time if she put the effort in. But she didn't want to. Right now, she was dead-set on making sure NOBODY would EVER buy Ina's charms.
+
+## Fanart
+["the end of the mocopoly" by werteriobqa](https://x.com/werteriobqa/status/2059808604073370071)

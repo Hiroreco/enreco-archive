@@ -25,6 +25,12 @@ Despite Bijou's riddle proving to be insurmountable at a glance, Gonathon remain
 
 ## Fanart
 
+["Nothing between us." by aciayadi](https://x.com/aciayadi/status/2059926361091997907)
+
+["cinema (with popcorn)" by seapupu290495](https://x.com/seapupu290495/status/2059658700256928083)
+
+<!-- ina -->
+
 ["THE cinema" by h0_pj](https://x.com/h0_pj/status/2059651484032348617)
 
 <!-- raora, ina, mococo -->

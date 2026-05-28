@@ -20,3 +20,14 @@ At one point, Lady Bloodflame briefly brought up Roa's former title as queen. Ro
 Their discussion was abruptly interrupted when they were suddenly [attacked](https://www.youtube.com/watch?v=P3uwaftxSG0&t=1630) by what they claimed were the sheep themselves, forcing the two to flee in separate directions.
 
 And just like that, Lady Bloodflame became enlightened as well.
+
+## Fanart
+["cool eyes lbf" by meyshi29](https://x.com/meyshi29/status/2059830354064929067)
+
+["Blue eyes suit you" by yuri_kyanon](https://x.com/yuri_kyanon/status/2059845178022879590)
+
+["Daughter of Fire and Ruin" by _somero_](https://x.com/_somero_/status/2059946238599172249)
+
+["I'm quite alright" by ek96290589](https://x.com/ek96290589/status/2059970821595316452)
+
+["Blue" by zn1o0njndv59706](https://x.com/zn1o0njndv59706/status/2059898859011367209)

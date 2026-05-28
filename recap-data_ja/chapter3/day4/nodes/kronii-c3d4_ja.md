@@ -112,3 +112,6 @@
 そして、すべてがようやく終わった後。
 
 タムは図書館へ腰を落ち着け、その混沌と騒動に満ちた、とんでもなく[カオスな一日](https://www.youtube.com/watch?v=JZ2gO4qDJ2w&t=13231)を記録していった。
+
+## ファンアート
+["let's take a closer look" by henryshalun_1](https://x.com/henryshalun_1/status/2059920969813385257)

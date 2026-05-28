@@ -84,3 +84,16 @@
 そして明日、大規模な“狭間”への遠征が行われるかもしれないという期待を胸に、ロアは誇らしげに叫んだ。
 
 [ビバ・ラ・ラオボリューション！](#embed:https://www.youtube.com/watch?v=P3uwaftxSG0&t=12885)
+
+## ファンアート
+["Breaking Deminsions" by chada_ijwtmcs](https://x.com/chada_ijwtmcs/status/2059928827066003771)
+
+["She was right all along" by anonkun52297249](https://x.com/anonkun52297249/status/2059976181949366557)
+
+["its the sheep" by albertweskerh](https://x.com/albertweskerh/status/2059832641541865613)
+
+["VIVA LA RAOVOLUTION" by padiberhoodie](https://x.com/padiberhoodie/status/2059868040582598769)
+
+["Raora" by chiipzzer](https://x.com/chiipzzer/status/2059919662586982656)
+
+["Join me." by ddolbang11](https://x.com/ddolbang11/status/2059886600776265936)

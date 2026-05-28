@@ -26,3 +26,12 @@
 
 そして最終的に、ベー自身もイマーキンドへの想いを断ち切らなければならないと認める。
 ……その過程で、うっかり[再び告白してしまいながら。](https://youtu.be/JAibEhH7R1E?t=12832)
+
+## ファンアート
+["Beautiful view" by noenvva](https://x.com/noenvva/status/2059867083257917749)
+
+["doomed arc" by fongban_](https://x.com/fongban_/status/2059487445926965619)
+
+["the peasant is frozen..." by jhgardener_](https://x.com/jhgardener_/status/2059660925687529714)
+
+["Dungeon Date" by iennie_](https://x.com/iennie_/status/2059741950505603161)

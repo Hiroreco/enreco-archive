@@ -29,6 +29,8 @@ With all that said and done, while her party went forward to more adventures, Mo
 
 ## Fanart
 
+["MORDAN & Shakira" by 2h2xo2is2h2o](https://x.com/2h2xo2is2h2o/status/2059666782793990266)
+
 ["mordan and gourmet potato salad" by toasty771](https://x.com/toasty771/status/2059138043001639373)
 
 ["Shakira's body" by seapupu290495](https://x.com/seapupu290495/status/2059279544922911168)

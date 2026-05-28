@@ -78,6 +78,12 @@
 
 ## ファンアート
 
+["knights in arms!" by leisurepass](https://x.com/leisurepass/status/2059803062642848245)
+
+<!-- nerissa, cecilia -->
+
+["please save Lady Bloodflame" by zh4skl](https://x.com/zh4skl/status/2059733860619796519)
+
 ["Are you alright?" by weirdohere74942](https://x.com/weirdohere74942/status/2059563601355248087)
 
 ["You look a bit pale" by frostowolf](https://x.com/frostowolf/status/2059602690309857767)

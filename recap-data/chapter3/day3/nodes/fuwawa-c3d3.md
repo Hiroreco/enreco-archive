@@ -26,3 +26,10 @@ So, with a cheerful heart and a sense of fulfillment, Fuwawa happily decided to 
 A short one, perhaps.
 
 But a good one nonetheless.
+
+## Fanart
+["The Quite Gentle Fluff" by yaymics](https://x.com/yaymics/status/2059915065889886626)
+
+["Bauken Bonds" by byako_p](https://x.com/byako_p/status/2059457961966117201)
+
+<!-- mococo -->

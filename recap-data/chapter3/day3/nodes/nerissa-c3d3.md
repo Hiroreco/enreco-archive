@@ -81,6 +81,10 @@ Nerissa Juliet wondered. Was it because she had now become a Witch? Was this the
 
 ## Fanart
 
+["Microknight" by _n4hkz_](https://x.com/_n4hkz_/status/2059763867878592880)
+
+<!-- gigi -->
+
 ["Foul Art Thou Witch" by blaparky](https://x.com/blaparky/status/2059655528809394188)
 
 ["Give in." by yeyas_ink](https://x.com/yeyas_ink/status/2059599142205440080)

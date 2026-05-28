@@ -14,3 +14,6 @@ Suspecting that the world they are in is a simulation, and with Bijou believing 
 [The Illumination](#embed:https://www.youtube.com/watch?v=uSz1tR2SU28&t=13930)
 
 The two decide to leave secret messages around the kingdom in order to leave clues for anyone else who may get curious about the nature of the world. Roa also begins construction on a secret base for the Society beneath her house. The two then [pay their respects](https://www.youtube.com/watch?v=uSz1tR2SU28&t=14535) at the grave Roa had built for Shakira before parting ways so Bijou could rest.
+
+## Fanart
+["The Illumination" by thatcello](https://x.com/thatcello/status/2059673814708211976)

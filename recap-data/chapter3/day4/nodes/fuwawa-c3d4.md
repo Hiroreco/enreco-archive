@@ -48,3 +48,6 @@ Many were surprised to see the normally soft and gentle doggo acting so assertiv
 Thankfully, she eventually recovered the missing vinyls. Satisfied, Fuwawa returned to her lovely neighborhood and went from house to house, ~~blasting~~ softly and harmoniously playing every song she owned.
 
 And within the chaotic [harmony](https://www.youtube.com/live/T5wi-wnloHQ?si=3v5qfogVlaAndEXE&t=17475) of overlapping music filling the town, the fluffy maiden finally decided to call it a day.
+
+## Fanart
+["pixel fuwawa" by okunashi27](https://x.com/okunashi27/status/2059957745470902760)

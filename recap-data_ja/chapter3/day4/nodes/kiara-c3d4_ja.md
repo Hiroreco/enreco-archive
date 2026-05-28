@@ -7,3 +7,8 @@
 /- 『オデュッセイア』（ホメロス）
 
 （[ロア](#node:raora)を参照）
+
+## ファンアート
+["our requiem" by lestkrr](https://x.com/lestkrr/status/2059996337358147803)
+
+<!-- shiori -->

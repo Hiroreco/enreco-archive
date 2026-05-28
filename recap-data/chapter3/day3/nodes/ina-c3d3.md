@@ -31,4 +31,6 @@ After a few [close calls](https://www.youtube.com/watch?v=GzBAUkX8-r0&t=11698s),
 
 ## Fanart
 
+["River Prince monopoly" by xyphona_](https://x.com/xyphona_/status/2059716740817301755)
+
 ["Popcorn" by ddolbang11](https://x.com/ddolbang11/status/2059494180062421330)

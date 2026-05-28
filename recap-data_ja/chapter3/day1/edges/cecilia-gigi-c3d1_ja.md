@@ -25,4 +25,6 @@
 
 ## ファンアート
 
+["Beneath different lights" by weiiyxn](https://x.com/weiiyxn/status/2059645702540870089)
+
 ["Knight of Pure Love" by eule_winters](https://x.com/eule_winters/status/2058895082850488712)

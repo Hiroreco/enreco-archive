@@ -13,4 +13,6 @@ And so, as she attended the supposed "funeral" of the very person she had once b
 
 ## Fanart
 
+["The Observer of Discord" by yaymics](https://x.com/yaymics/status/2059914683511869631)
+
 ["Joy" by maxartist555](https://x.com/maxartist555/status/2059616845762904318)

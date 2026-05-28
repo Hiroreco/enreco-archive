@@ -62,4 +62,8 @@
 
 ## ファンアート
 
+["peasant the bae and polar the bear" by the_dankwave](https://x.com/the_dankwave/status/2059318227717795942)
+
+["The first death is the heart." by the_dankwave](https://x.com/the_dankwave/status/2059683525197258898)
+
 ["peasant and the bear" by \_nontann](https://x.com/_nontann/status/2059440692779434161)

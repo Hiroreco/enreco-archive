@@ -23,6 +23,10 @@
 
 ## ファンアート
 
+["IMERKIND YOU DUMB" by fongban_](https://x.com/fongban_/status/2059633440287555610)
+
+<!-- bae -->
+
 ["calm before the storm" by ek96290589](https://x.com/ek96290589/status/2059323763704181219)
 
 ["well at least..." by rando_zlink](https://x.com/rando_zlink/status/2059367280954560799)

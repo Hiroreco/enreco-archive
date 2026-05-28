@@ -126,6 +126,14 @@
 
 ## ファンアート
 
+["she's kinda possesive" by kurxkur](https://x.com/kurxkur/status/2059745113660699001)
+
+["It's beautiful isn't it?" by w4nwoof](https://x.com/w4nwoof/status/2059376961189749038)
+
+["Lets steal it" by nojamseo](https://x.com/nojamseo/status/2059724853821988965)
+
+["My Knight" by keiseeaaa](https://x.com/keiseeaaa/status/2059671651294580859)
+
 ["You serve the witch." by meyshi29](https://x.com/meyshi29/status/2059544824848711933)
 
 ["Mirror" by prmkq\_](https://x.com/prmkq_/status/2059562389524430989)
