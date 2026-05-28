@@ -8,7 +8,7 @@ And they truly committed themselves to it, very diligently in fact.
 
 The **Labyrinth of Song** fully embraced its musical theme, introducing unique puzzles and challenges centered around melodies and sound. Every button pressed rang out with a different note, while each completed section rewarded challengers with another soft lullaby, almost as if the dungeon itself was trying to soothe them while they slowly lost their minds venturing through. In the end, their efforts allowed them to finally recover the memories of Nerissa Ravencroft.
 
-![Labirynth of Song]
+![Labirynth of Song](/images-opt/labyrinth-of-song-opt.webp)
 
 But as the day went on, it became increasingly clear that while one side of the kingdom still maintained that initial calm atmosphere, the other was descending deeper and deeper into complete absurdity.
 
@@ -18,6 +18,6 @@ Meanwhile, the very same woman they were accused of spying on was apparently in 
 
 Even the people directly involved could barely comprehend what was actually happening anymore.
 
-![Caught in 4k]
+![Caught in 4k](/images-opt/kronii-caught-opt.webp)
 
 Still, with only two days left before the end, who could really blame these dorks for whatever shenanigans they managed to stumble into next?
