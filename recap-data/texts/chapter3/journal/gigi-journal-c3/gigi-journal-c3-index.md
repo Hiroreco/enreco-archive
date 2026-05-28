@@ -1,4 +1,4 @@
-<!-- entries: gigi-journal-c3d1, gigi-journal-c3d2, gigi-journal-c3d3 -->
+<!-- entries: gigi-journal-c3d1, gigi-journal-c3d2, gigi-journal-c3d3, gigi-journal-c3d4 -->
 <!-- title: Gonathon's Journal Entries -->
 
 <!-- description -->
