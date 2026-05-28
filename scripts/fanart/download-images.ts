@@ -135,6 +135,10 @@ async function run() {
             "https://x.com/rikuje/status/2059591111849758865",
             "https://x.com/seapupu290495/status/2059279544922911168",
             "https://x.com/werocosmiko/status/2058800535583522856",
+            "https://x.com/kurxkur/status/2059745113660699001",
+            "https://x.com/vvtoll/status/2059823321966116895",
+            "https://x.com/koizumi_arata/status/2059890256988488105",
+            "https://x.com/yerbmeow/status/2059706394303996057",
         ];
         if (blacklist.includes(entry.url)) {
             console.log(`↻ Skipping ${entry.url} (blacklisted)`);

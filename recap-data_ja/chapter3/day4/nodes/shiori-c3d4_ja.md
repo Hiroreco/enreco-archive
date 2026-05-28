@@ -114,3 +114,12 @@
 その後、ネリッサ・ジュリエットと共に図書館へ向かった二人は、それぞれの日誌へ筆を走らせる――
 
 [黄衣の王](#embed:https://youtu.be/o-aseqW0iiU?t=17472)
+
+## ファンアート
+["your beloved in my hand" by hanaraiee](https://x.com/hanaraiee/status/2059969082590703623)
+
+["Shioriiiiiiin" by b0na25](https://x.com/b0na25/status/2059971134507073971)
+
+["sheep libestal" by unbabbles](https://x.com/unbabbles/status/2059874261620101458)
+
+<!-- liz, mococo, raora -->

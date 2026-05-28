@@ -76,3 +76,12 @@ Of course, the troublesome duo earlier would only call the Sister once again, Si
 Together with Nerissa Juliet, they go to the Library and wrote in their respective journals...
 
 [The Yellow King](#embed:https://youtu.be/o-aseqW0iiU?t=17472)
+
+## Fanart
+["your beloved in my hand" by hanaraiee](https://x.com/hanaraiee/status/2059969082590703623)
+
+["Shioriiiiiiin" by b0na25](https://x.com/b0na25/status/2059971134507073971)
+
+["sheep libestal" by unbabbles](https://x.com/unbabbles/status/2059874261620101458)
+
+<!-- liz, mococo, raora -->

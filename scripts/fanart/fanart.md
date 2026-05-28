@@ -25,15 +25,6 @@ liz-shiori-c3d4
 https://x.com/faelapin/status/2059887586559070234
 mococo, nerissa, bijou
 
-shiori-c3d4
-sheep libestal
-https://x.com/unbabbles/status/2059874261620101458
-liz, mococo, raora
-
-shiori-c3d4
-Shioriiiiiiin
-https://x.com/B0NA25/status/2059971134507073971
-
 cecilia-c3d4
 Knight Immerkind
 https://x.com/SquaredRiceBall/status/2059991143493124587
@@ -53,7 +44,3 @@ When you fall into a hole and...
 kronii-c3d4
 https://x.com/h0_pj/status/2059994941590511882
 raora, shiori
-
-shiori-c3d4
-your beloved in my hand
-https://x.com/Hanaraiee/status/2059969082590703623
