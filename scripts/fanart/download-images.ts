@@ -131,7 +131,7 @@ async function run() {
         const blacklist = [
             "https://x.com/gaby_joestar/status/2059100327647801566",
             "https://x.com/kenjikokun/status/2058892291201441835",
-            "https://x.com/i/status/2058813041404457219",
+            "https://x.com/Legz0s/status/2058813041404457219",
             "https://x.com/rikuje/status/2059591111849758865",
             "https://x.com/seapupu290495/status/2059279544922911168",
             "https://x.com/werocosmiko/status/2058800535583522856",
