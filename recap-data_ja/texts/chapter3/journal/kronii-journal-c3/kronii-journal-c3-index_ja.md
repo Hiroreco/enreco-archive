@@ -1,4 +1,4 @@
-<!-- entries: kronii-journal-c3d1_ja, kronii-journal-c3d2_ja -->
+<!-- entries: kronii-journal-c3d1_ja, kronii-journal-c3d2_ja, kronii-journal-c3d4_ja -->
 <!-- title: クロニーの日記エントリー -->
 
 <!-- description -->
