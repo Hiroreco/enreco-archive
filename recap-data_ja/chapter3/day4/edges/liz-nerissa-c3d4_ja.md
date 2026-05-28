@@ -1,5 +1,5 @@
 <!-- title: Take my Revolution-->
-<!-- status: It's Complicated-->
+<!-- relationship: It's Complicated-->
 
 **私たちの絆はとても強かった**
 
@@ -92,9 +92,10 @@ _なんて懐かしいのだろう。_
 ――要求は却下された。
 
 ## ファンアート
+
 ["The Princess and Her Knight" by tianshiko](https://x.com/tianshiko/status/2059777733400441067)
 
-["tearing at the seams" by elisbian_](https://x.com/elisbian_/status/2059973557799756175)
+["tearing at the seams" by elisbian\_](https://x.com/elisbian_/status/2059973557799756175)
 
 ["The last few days it's been so hot..." by yaymics](https://x.com/yaymics/status/2059831314304417936)
 
