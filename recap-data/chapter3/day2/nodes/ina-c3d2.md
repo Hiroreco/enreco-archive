@@ -23,7 +23,7 @@ Obtaining a tome from the dungeon, the heroes ventured to Fia for answers, who n
 
 The former took her to Hamal of the Star Speakers, who requested details about a deal with a rival. Luckily for Ina, a certain Rosen Maiden had made that task relatively easy.
 
-[**could**n't have done it better myself](#embed:https://www.youtube.com/watch?v=SbYxNyu5Zn4&t=12030s)
+[**cod**n't have done it better myself](#embed:https://www.youtube.com/watch?v=SbYxNyu5Zn4&t=12030s)
 
 After procuring the time piece, Ina determined it best to aid Tam in her quest to best the dungeon before calling it a night.
 
