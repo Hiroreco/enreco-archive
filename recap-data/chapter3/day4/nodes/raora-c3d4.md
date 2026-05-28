@@ -27,7 +27,7 @@ The poster depicted a sealed emblem etched into a square: an unblinking eye susp
 
 Following the blood trail deeper into the basement, Roa descended carefully into the darkness. Before she could reach the bottom, however, she encountered a geometry of horror.
 
-A grotesque construct of pale cuboids stood before her, its edges unnaturally sharp, too precise to belong to anything living. Its silhouette vaguely resembled some kind of beast, yet remained impossible to properly comprehend. A creature of pure [ambiguity](https://www.youtube.com/watch?v=P3uwaftxSG0&t=660).
+A grotesque construct of pale cuboids stood before her, its edges unnaturally sharp, too precise to belong in this reality. Its silhouette vaguely resembled some kind of beast, yet remained impossible to properly comprehend. A creature of pure [ambiguity](https://www.youtube.com/watch?v=P3uwaftxSG0&t=660).
 
 Terrified, Roa screamed and fled into the streets.
 
@@ -77,7 +77,13 @@ Earlier tensions between Roa and Tam had caused some [conflict](https://www.yout
 
 Later on, Tam attempted to visit Roa's house to collect the present Roa had prepared for her. Roa welcomed her warmly, only for Tam to suddenly [walk away at the last second](https://www.youtube.com/watch?v=P3uwaftxSG0&t=12280).
 
-Roa also reunited with Fuwawa, this time alongside Nerissa. Despite previous disagreements regarding the Illumination, Roa explained the situation in full to the blue witch. Later, when the two met again, Nerissa accepted the truth wholeheartedly and even offered to accompany Roa the next time she ventured into the Gap. ([Next time](https://www.youtube.com/watch?v=P3uwaftxSG0&t=12845))
+Roa later spotted Nerissa wandering through the streets and immediately approached the blue witch.
+
+She explained everything to her in full detail—the truth behind the Gap, the strange revelations she had witnessed, and the existence of the massive glass tower she called the _"Fourth Wall."_
+
+To Roa's surprise, Nerissa accepted the story wholeheartedly. Rather than mocking her like the others had, the demon singer listened with genuine interest and even offered to accompany Roa the next time she ventured into the Gap.
+
+[Next time](#embed:https://www.youtube.com/watch?v=P3uwaftxSG0&t=12845)
 
 With the possibility of a grand expedition into the Gap awaiting tomorrow, Roa raised her voice proudly for all to hear:
 
