@@ -13,7 +13,7 @@ export const amuletOfLevitationMethodChoice: Choice = {
                 en: "Negotiate with Maaz",
                 ja: "マアズと交渉する",
             },
-            members: ["ina", "gigi", "cecilia", "calli"],
+            members: ["ina", "gigi", "cecilia", "calli", "kronii"],
         },
         {
             label: {
