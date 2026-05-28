@@ -47,4 +47,4 @@ It didn't seem to be a great secret, but somehow, it worked! She was transported
 
 ["is this The Witch of ENreco's Past in question" by i](https://x.com/i/status/2058813041404457219)
 
-["Nerissa’s Ending Screen" by i](https://x.com/i/status/2058763525506646067)
+["Nerissa’s Ending Screen" by i](https://x.com/Elisbian_/status/2058763525506646067)
