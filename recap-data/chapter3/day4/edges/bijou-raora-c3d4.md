@@ -10,4 +10,5 @@ Despite the whispers and accusations surrounding Roa, Bijou once again reaffirme
 The jeweler then spoke about her recent trip into the dungeon alongside Shiori. Hearing this immediately caught Roa's attention. She began to think there might be a way for them to explore the dungeon together next time, allowing her to observe the woman of the cloth more closely from within the shadows of the expedition itself.
 
 ## Fanart
+
 ["no one will believe you" by ediialex](https://x.com/ediialex/status/2059849718998413634)

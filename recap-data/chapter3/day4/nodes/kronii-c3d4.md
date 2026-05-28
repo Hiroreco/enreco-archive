@@ -17,7 +17,7 @@ Sadly for poor Tam, it wasn't just her peers determined to test her patience.
 
 [You thief! You're disgusting!](#embed:https://www.youtube.com/watch?v=JZ2gO4qDJ2w&t=4319)
 
-She *just* wanted to enter the new labyrinth, but somehow the journey there turned into a ridiculous wild goose chase filled with long, unnecessary, [tedious chores.](https://www.youtube.com/watch?v=JZ2gO4qDJ2w&t=4936) Needless to say, she was not having a good day.
+She _just_ wanted to enter the new labyrinth, but somehow the journey there turned into a ridiculous wild goose chase filled with long, unnecessary, [tedious chores.](https://www.youtube.com/watch?v=JZ2gO4qDJ2w&t=4936) Needless to say, she was not having a good day.
 
 [She's very calm, you see](#embed:https://www.youtube.com/watch?v=JZ2gO4qDJ2w&t=5375)
 
@@ -25,7 +25,7 @@ Once the prerequisites were finally fulfilled, she reached the [Labyrinth of Son
 
 She could've ended the day there.
 
-But you know what? Why not explore a little? Surely she'd suffered enough already. Surely fate wouldn't dare throw even *more* problems at her now, right?
+But you know what? Why not explore a little? Surely she'd suffered enough already. Surely fate wouldn't dare throw even _more_ problems at her now, right?
 
 ...Right?
 
@@ -47,7 +47,7 @@ She looked down, braced herself, and jumped.
 
 The moment she landed, she immediately realized she'd stumbled onto something she absolutely was not supposed to see.
 
-Deep underground, Shiori and Nerissa were working on some kind of secret project, and the second they noticed Tam standing there, they immediately ordered her to leave. Or rather, they *forced* her to leave. The two erased her memories of the encounter entirely before sending her back to the surface.
+Deep underground, Shiori and Nerissa were working on some kind of secret project, and the second they noticed Tam standing there, they immediately ordered her to leave. Or rather, they _forced_ her to leave. The two erased her memories of the encounter entirely before sending her back to the surface.
 
 ...
 
@@ -78,4 +78,5 @@ Someone else had gone through the same insanity alongside her, just as confused 
 And so, after everything was finally over, Tam settled down inside the library, documenting the chaos-filled, utterly [wild day.](https://www.youtube.com/watch?v=JZ2gO4qDJ2w&t=13231)
 
 ## Fanart
+
 ["let's take a closer look" by henryshalun_1](https://x.com/henryshalun_1/status/2059920969813385257)

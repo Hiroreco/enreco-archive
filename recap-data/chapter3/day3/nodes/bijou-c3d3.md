@@ -30,4 +30,5 @@ Following her heist of Maaz's quarters for an Amulet of Levitation, Bijou arrive
 With Shakira's body still up for sale in the church, Bijou decides that she would like to buy herself and [approaches Shiori about doing so](https://www.youtube.com/watch?v=3iXshLxO3-E&t=16490). Getting a special deal of only 1500 coins, Bijou decides she wants to use the body to cause as much madness as possible within the kingdom, and that she will work through the night while no guards are around to halt her plans. We shall just have to see what the result will be...
 
 ## Fanart
+
 ["Join the darkness" by f1shtako](https://x.com/f1shtako/status/2059743168350875972)

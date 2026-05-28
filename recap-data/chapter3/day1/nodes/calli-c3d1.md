@@ -30,4 +30,5 @@ After splitting off from her, Mordon begins to finally build her restaurant befo
 ["Good food will save the world... even if it's not my good food."](#embed:https://www.youtube.com/watch?v=jWrom0fcdQk&t=10268)
 
 ## Fanart
+
 ["its a setup" by 534834t](https://x.com/534834t/status/2059736027636609152)

@@ -23,7 +23,7 @@ The day finally comes to a close with Immerkind hurriedly sending a warning to G
 
 ## Fanart
 
-["IMERKIND YOU DUMB" by fongban_](https://x.com/fongban_/status/2059633440287555610)
+["IMERKIND YOU DUMB" by fongban\_](https://x.com/fongban_/status/2059633440287555610)
 
 <!-- bae -->
 

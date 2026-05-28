@@ -22,6 +22,7 @@ As Gonathon protested his innocence, Nerissa offered a rather [direct solution](
 When the dust finally settled, the relationship between Gonathon and Nerissa remained as unresolved as ever. Friends, rivals, allies, or mortal enemies? Perhaps the following day's dungeon would provide some clarity, though despite their earlier conviction to face it alone together, the day ended with the possibility that all four members in today's kerfuffle would enter together.
 
 ## Fanart
+
 ["Poor Gonathon" by koizumi_arata](https://x.com/koizumi_arata/status/2059890256988488105)
 
 ["A Pure Knight" by blaparky](https://x.com/blaparky/status/2059877498004087133)

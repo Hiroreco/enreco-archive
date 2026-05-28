@@ -34,6 +34,7 @@ And of course, not without one last business deal... The Peasant [essentially to
 Coin count: 22248.
 
 ## Fanart
+
 ["Turning Purple" by rlus654](https://x.com/rlus654/status/2059801831212216798)
 
-["Peasant's Treasure" by fongban_](https://x.com/fongban_/status/2059971535432253904)
+["Peasant's Treasure" by fongban\_](https://x.com/fongban_/status/2059971535432253904)

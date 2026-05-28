@@ -36,7 +36,8 @@ With a wistful melancholy, Gonathon described his [monarch](https://www.youtube.
 [Tam's meat is SOOOO good!](#embed:https://www.youtube.com/watch?v=mss5t4szFko&t=9989s)
 
 ## Fanart
-["lucky color" by fongban_](https://x.com/fongban_/status/2059874971753803937)
+
+["lucky color" by fongban\_](https://x.com/fongban_/status/2059874971753803937)
 
 <!-- bae, raora -->
 

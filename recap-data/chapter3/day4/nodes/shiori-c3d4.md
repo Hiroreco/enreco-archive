@@ -1,7 +1,7 @@
 <!-- title: Sister Shiori -->
 <!-- status: Alive -->
 
-It was going to be a peaceful day in Libestal, thought Sister Shiori, until she found the [blood](https://youtu.be/o-aseqW0iiU?t=335) on her path. Red and dried, almost like dust, it led to multiple houses, staining each door, and the Illumination posters that hung nearby. 
+It was going to be a peaceful day in Libestal, thought Sister Shiori, until she found the [blood](https://youtu.be/o-aseqW0iiU?t=335) on her path. Red and dried, almost like dust, it led to multiple houses, staining each door, and the Illumination posters that hung nearby.
 
 Sister Shiori, now joined by her coven, entered Gonathan's house only to be greeted by dark, beady eyes. A sheep stood in the middle of the room, a chest by its feet.
 
@@ -9,7 +9,7 @@ A chest held a [mysterious poem.](#embed:https://youtu.be/o-aseqW0iiU?t=368)
 
 An occurrence at several other homes.
 
-Cryptic. It could have only been done by a madwoman. Touched by an otherworldly force and having seen things no mortal should have ever seen. Veiled by an innocent air that belies insanity. 
+Cryptic. It could have only been done by a madwoman. Touched by an otherworldly force and having seen things no mortal should have ever seen. Veiled by an innocent air that belies insanity.
 
 [It could only be Roa](#embed:https://youtu.be/o-aseqW0iiU?t=713)
 
@@ -27,7 +27,7 @@ Nerissa Juliet came by the Church, looking for Sister Shiori. Amused, hearing th
 
 Shortly after, the two would join Lady Bloodflame, Mococo, and Fuwawa for the Labyrinth of Song. It would be a musical-themed parkour theme park, [Sister Shiori said](https://youtu.be/o-aseqW0iiU?t=4544), and it was so.
 
-They danced as they jumped from platform to platform with the music stringing along with them as Sister Shiori ragebaited Lady Bloodflame in tune with the beat. 
+They danced as they jumped from platform to platform with the music stringing along with them as Sister Shiori ragebaited Lady Bloodflame in tune with the beat.
 
 'Twas truly a trial of balance, musical knowledge, and, of course, memory.
 
@@ -41,7 +41,7 @@ And a final bit of song to truly complete the challenge:
 
 What memories did Sister Shiori associate with this song? We may never know.
 
-To further prepare for the future, Shiori approached Prisoner Zero's cell for help. But it seems the prisoner was more interested in the philosophy of freedom. 
+To further prepare for the future, Shiori approached Prisoner Zero's cell for help. But it seems the prisoner was more interested in the philosophy of freedom.
 
 To truly prove her freedom, [Sister Shiori antagonized Lady Bloodflame](https://youtu.be/o-aseqW0iiU?t=7192) once again.
 
@@ -78,6 +78,7 @@ Together with Nerissa Juliet, they go to the Library and wrote in their respecti
 [The Yellow King](#embed:https://youtu.be/o-aseqW0iiU?t=17472)
 
 ## Fanart
+
 ["your beloved in my hand" by hanaraiee](https://x.com/hanaraiee/status/2059969082590703623)
 
 ["Shioriiiiiiin" by b0na25](https://x.com/b0na25/status/2059971134507073971)

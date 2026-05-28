@@ -9,6 +9,7 @@ lest I become a curse from the gods upon you."
 (see [Roa](#node:raora))
 
 ## Fanart
+
 ["our requiem" by lestkrr](https://x.com/lestkrr/status/2059996337358147803)
 
 <!-- shiori -->

@@ -16,4 +16,5 @@ And yet, despite this adversity, Ina would still find success with her new job i
 As for Mococo... well, maybe she could learn to share in due time if she put the effort in. But she didn't want to. Right now, she was dead-set on making sure NOBODY would EVER buy Ina's charms.
 
 ## Fanart
+
 ["the end of the mocopoly" by werteriobqa](https://x.com/werteriobqa/status/2059808604073370071)
