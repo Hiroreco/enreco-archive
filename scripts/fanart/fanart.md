@@ -21,35 +21,14 @@ liz-chapter3d3
 Lady Bloodflame
 https://x.com/Minalinzee/status/2059853716425945184
 
-gigi-kronii-c3d4
-Lucky Color
-https://x.com/BlaParky/status/2059839922685837535
-
-gigi-kronii-c3d4
-lucky color
-https://x.com/Fongban_/status/2059874971753803937
-bae, raora
-
 liz-shiori-c3d4
 https://x.com/faelapin/status/2059887586559070234
 mococo, nerissa, bijou
-
-gigi-liz-c3d4
-A Pure Knight
-https://x.com/BlaParky/status/2059877498004087133
 
 shiori-c3d4
 sheep libestal
 https://x.com/unbabbles/status/2059874261620101458
 liz, mococo, raora
-
-gigi-liz-c3d4
-Poor Gonathon
-https://x.com/koizumi_arata/status/2059890256988488105
-
-liz-nerissa-c3d4
-I'M NORMAL ABOUT THEM
-https://x.com/unreallyhooman/status/2059854215741055454
 
 shiori-c3d4
 Shioriiiiiiin
@@ -78,19 +57,3 @@ raora, shiori
 shiori-c3d4
 your beloved in my hand
 https://x.com/Hanaraiee/status/2059969082590703623
-
-liz-nerissa-c3d4
-throwing up...
-https://x.com/Usually0fflin3/status/2059850891390505116
-
-liz-nerissa-c3d4
-The last few days it's been so hot...
-https://x.com/YayMics/status/2059831314304417936
-
-liz-nerissa-c3d4
-tearing at the seams
-https://x.com/Elisbian_/status/2059973557799756175
-
-liz-nerissa-c3d4
-The Princess and Her Knight
-https://x.com/tianshiko/status/2059777733400441067

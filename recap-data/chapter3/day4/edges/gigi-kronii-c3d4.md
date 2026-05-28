@@ -34,3 +34,10 @@ Returning to the kingdom, Gonathon showed Tam the site of his and Immerkind's [p
 With a wistful melancholy, Gonathon described his [monarch](https://www.youtube.com/watch?v=mss5t4szFko&t=13083s): a queen whom he served with his entire being. While his queen remained locked in the grips of amnesia, Gonathon was determined to not give up. He would find a way to save his queen!
 
 [Tam's meat is SOOOO good!](#embed:https://www.youtube.com/watch?v=mss5t4szFko&t=9989s)
+
+## Fanart
+["lucky color" by fongban_](https://x.com/fongban_/status/2059874971753803937)
+
+<!-- bae, raora -->
+
+["Lucky Color" by blaparky](https://x.com/blaparky/status/2059839922685837535)

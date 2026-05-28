@@ -86,3 +86,14 @@ Calmly, the knight explained to her that Gonathon was a brother in arms. A fello
 More than enough had been exposed in the onsen in the Libestal of old. A memory not forgotten of how close the two had been, skin-to-skin contact as she avoided eye contact awkwardly.
 
 Request: denied.
+
+## Fanart
+["The Princess and Her Knight" by tianshiko](https://x.com/tianshiko/status/2059777733400441067)
+
+["tearing at the seams" by elisbian_](https://x.com/elisbian_/status/2059973557799756175)
+
+["The last few days it's been so hot..." by yaymics](https://x.com/yaymics/status/2059831314304417936)
+
+["throwing up..." by usually0fflin3](https://x.com/usually0fflin3/status/2059850891390505116)
+
+["I'M NORMAL ABOUT THEM" by unreallyhooman](https://x.com/unreallyhooman/status/2059854215741055454)

@@ -36,3 +36,10 @@
 どこか寂しげな表情を浮かべながら、ゴナソンは自らの[君主](https://www.youtube.com/watch?v=mss5t4szFko&t=13083s)について語る。彼がその身も魂も捧げて仕えた、一人の女王。たとえ今は記憶喪失に囚われていようとも、ゴナソンは決して諦めない。必ずや、自分の女王を救ってみせるのだと。
 
 [タムの肉、うますぎる！！！](#embed:https://www.youtube.com/watch?v=mss5t4szFko&t=9989s)
+
+## ファンアート
+["lucky color" by fongban_](https://x.com/fongban_/status/2059874971753803937)
+
+<!-- bae, raora -->
+
+["Lucky Color" by blaparky](https://x.com/blaparky/status/2059839922685837535)
