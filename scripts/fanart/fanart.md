@@ -2,9 +2,6 @@ gigi-liz-c3d3
 im not okay
 https://x.com/NP_Mango/status/2059534010527760508
 
-raora-c3d3
-https://x.com/LordJoeboto/status/2059772151700308443
-
 gigu-kronii-c3d4
 you look tuff
 https://x.com/Zuardstar/status/2059846391040716928
@@ -25,10 +22,19 @@ cecilia-c3d4
 Hello Fia.
 https://x.com/JTNintendoFan64/status/2059975726158471499
 
-gigi-c3d4
-https://x.com/WatashiGazza/status/2059921794518425650
-When you fall into a hole and...
+gigi-shiori-c3d5
+https://x.com/unbabbles/status/2060226332169040380
+liz, bijou
 
-kronii-c3d4
-https://x.com/h0_pj/status/2059994941590511882
-raora, shiori
+fuwawa-mococo-c3d5
+Where is Mococo??? REEEEEEDDDDD!!!
+https://x.com/nyangnyang3580/status/2060332773098037597
+
+gigi-liz-c3d5
+You are my Libestal
+https://x.com/A1ma3ru/status/2060266287373168980
+
+recap-c3d5
+Sacrifice
+https://x.com/keenbiscuit/status/2060358342921613402
+shiori, bijou, raora, nerissa, kiara

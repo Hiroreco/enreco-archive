@@ -1,0 +1,9 @@
+<!-- title: Ritual Scripture -->
+
+It began even before your eyes moved across the first word, an infectious disease that feeds on your soft tissues and bones.
+
+Something behind your eyes wasn't there before; it burrows like worms through your skull like wildfire through thought alone, an idea turned obsession.
+
+You are hereby claimed by madness forever more. A puppet with strings for the outer gods as to one chosen by he and I we lay claim to your heart and soul.
+
+Your mind and veins must wear a mask forever more and if you are the unchosen what await you is...

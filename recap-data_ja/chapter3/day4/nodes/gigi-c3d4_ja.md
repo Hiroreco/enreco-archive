@@ -47,6 +47,12 @@
 
 ## ファンアート
 
+["bad end" by migokami](https://x.com/migokami/status/2060094461913497674)
+
+["I miss you" by mushydumplin](https://x.com/mushydumplin/status/2060107589023879239)
+
+["When you fall into a hole and..." by watashigazza](https://x.com/watashigazza/status/2059921794518425650)
+
 ["sir gonathon" by ibunniez\_](https://x.com/ibunniez_/status/2059859805788057748)
 
 ["Everything Will be Okay?" by av13km](https://x.com/av13km/status/2059971316799987938)

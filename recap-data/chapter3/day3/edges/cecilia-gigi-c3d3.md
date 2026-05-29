@@ -23,6 +23,10 @@ The day finally comes to a close with Immerkind hurriedly sending a warning to G
 
 ## Fanart
 
+["Must. Get. Stronger." by emillemaiki](https://x.com/emillemaiki/status/2060011116093374595)
+
+<!-- liz, nerissa -->
+
 ["IMERKIND YOU DUMB" by fongban\_](https://x.com/fongban_/status/2059633440287555610)
 
 <!-- bae -->

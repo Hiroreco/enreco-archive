@@ -20,7 +20,7 @@ export const declareUndyingLoveChoice: Choice = {
                 en: "Never",
                 ja: "絶対に無理",
             },
-            members: ["fuwawa", "mococo"],
+            members: ["fuwawa", "mococo", "bijou"],
         },
     ],
 };

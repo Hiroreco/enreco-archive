@@ -140,6 +140,8 @@ async function findRecapFile(
     chapter: number,
     day: number,
 ): Promise<string | null> {
+    const exactFilename = `${character}-c${chapter}d${day}.md`;
+
     // Try nodes directory first
     const nodesDir = path.resolve(
         process.cwd(),
@@ -151,9 +153,7 @@ async function findRecapFile(
 
     try {
         const files = await fs.readdir(nodesDir);
-        const found = files.find(
-            (f) => f.startsWith(character) && f.endsWith(".md"),
-        );
+        const found = files.find((f) => f === exactFilename);
         if (found) {
             return path.join(nodesDir, found);
         }
@@ -172,9 +172,7 @@ async function findRecapFile(
 
     try {
         const files = await fs.readdir(edgesDir);
-        const found = files.find(
-            (f) => f.startsWith(character) && f.endsWith(".md"),
-        );
+        const found = files.find((f) => f === exactFilename);
         if (found) {
             return path.join(edgesDir, found);
         }

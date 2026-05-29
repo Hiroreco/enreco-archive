@@ -7,6 +7,7 @@ import {
     day2Data,
     day3Data,
     day4Data,
+    day5Data,
 } from "@/components/view/stats/stats-data";
 
 type AssignmentKey = "teamId" | "faction";
@@ -352,6 +353,11 @@ export const TRACKER_DATA: TrackerData = {
         ...day4Data,
         teams: buildTeamsFromChapter(chapter2Raw, 4),
         factions: buildFactionsFromChapter(chapter2Raw, 4),
+    },
+    5: {
+        ...day5Data,
+        teams: buildTeamsFromChapter(chapter2Raw, 5),
+        factions: buildFactionsFromChapter(chapter2Raw, 5),
     },
 };
 

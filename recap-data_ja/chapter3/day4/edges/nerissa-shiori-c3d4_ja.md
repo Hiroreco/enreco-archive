@@ -39,3 +39,7 @@
 
 世界を越え、時を越えても続いていくような――
 シスター・シオリとネリッサ・ジュリエット、二人の「聖布のシスターズ」の確かな友情が。
+
+## ファンアート
+
+["You will not remember anything" by duckmode_cz](https://x.com/duckmode_cz/status/2060058664241893852)

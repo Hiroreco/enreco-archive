@@ -79,6 +79,14 @@ Together with Nerissa Juliet, they go to the Library and wrote in their respecti
 
 ## Fanart
 
+["Look into my eyes" by unbabbles](https://x.com/unbabbles/status/2060095559336116432)
+
+["A queen dawned in golden silk" by derved\_](https://x.com/derved_/status/2060113424143491547)
+
+["I really hate nosy people..." by anonamos_701](https://x.com/anonamos_701/status/2060147709081014562)
+
+["Lost sheep" by spaceace_king](https://x.com/spaceace_king/status/2060163598773825963)
+
 ["your beloved in my hand" by hanaraiee](https://x.com/hanaraiee/status/2059969082590703623)
 
 ["Shioriiiiiiin" by b0na25](https://x.com/b0na25/status/2059971134507073971)

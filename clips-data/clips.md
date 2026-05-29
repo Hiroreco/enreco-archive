@@ -1659,3 +1659,55 @@ https://youtu.be/T6tXkh4t3tk?si=qYB6Ewk71GFg4Kkq
 https://youtu.be/rtyoDQturbE?si=bqWn7gX_IMux2oBy
 
 <!-- nerissa, liz -->
+
+https://youtu.be/NFaNUUaH758?si=VfRalxQJkJOFfOK_
+
+<!-- gigi, kronii, nerissa -->
+
+https://youtu.be/wGW5K4pKeM8?si=mIna6dMEVv7wf-zw
+
+<!-- gigi, bijou -->
+
+https://youtu.be/spXS5z5T80o?si=jmQJtyEE3SCQUFr3
+
+<!-- bijou, raora, shiori, nerissa, gigi, kronii -->
+
+https://youtu.be/khXFu9RhSDA?si=8KqF78DJfRAlQz1F
+
+<!-- nerissa, shiori, bijou, raora -->
+
+https://youtu.be/t3skQ_Z5vT8?si=mY24ok-hAl6woQoH
+
+<!-- fuwawa, nerissa, calli, liz -->
+
+https://youtu.be/MFCCVAFpyLE?si=DtnTWHyEhVKF2BWk
+
+<!-- kronii, cecilia -->
+
+https://youtu.be/1sikFFftYrs?si=XEZP67IILdCbFtXj
+
+<!-- cecilia, raora -->
+
+https://youtu.be/6-INgHnXCWQ?si=2LHRU9pxvFCiOgpS
+
+<!-- bijou, raora -->
+
+https://youtu.be/S2znf8j9va4?si=xPHd-IHj-xY3AmBD
+
+<!-- raora, kronii -->
+
+https://youtu.be/6Pj5pbGuSwA?si=hqwv26SV7WH_bSxT
+
+<!-- calli, cecilia, fuwawa, mococo -->
+
+https://youtu.be/ee1k6454HdE?si=ciyEcEa5KELlASDx
+
+<!-- nerissa, mococo, liz -->
+
+https://youtu.be/ZMPRXhq2-hY?si=ARlVZH3vod7m-frF
+
+<!-- shiori, nerissa -->
+
+https://youtu.be/hIL9FqHkI2k?si=Ew4tIO9XfKsEXAXj
+
+<!-- nerissa, liz, fuwawa, mococo -->

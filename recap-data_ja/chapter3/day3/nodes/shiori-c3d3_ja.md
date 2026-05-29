@@ -192,6 +192,8 @@
 
 ## ファンアート
 
+["ENreco Shiorin" by ristarx1](https://x.com/ristarx1/status/2060085997812191528)
+
 ["draw with me" by anonamos_701](https://x.com/anonamos_701/status/2059700098410725415)
 
 <!-- raora -->

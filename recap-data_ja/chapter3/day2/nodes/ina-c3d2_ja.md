@@ -7,7 +7,7 @@
 
 ダンジョン？ 笑わせないでほしい。
 
-彼女の頭の中を占めていたのは、ただ一つ――待ち望んでいた[_ペット_](www.youtube.com/watch?v=SbYxNyu5Zn4&t=87s)の存在だった。
+彼女の頭の中を占めていたのは、ただ一つ――待ち望んでいた[_ペット_](https://www.youtube.com/watch?v=SbYxNyu5Zn4&t=87s)の存在だった。
 
 ……しかし、そんな彼女の計画は早々に脱線することになる。
 
@@ -35,13 +35,13 @@
 
 モードン・ラムゼイによる神がかった前振りの末、SIR MEOWはニノイナの腕の中へやって来た。
 
-SIR MEOWはどこかマイペースな猫だった。 [ゴナソン](www.youtube.com/watch?v=SbYxNyu5Zn4&t=3264s)からおやつをもらって素直に受け取る一方で、モココが挨拶した時には[小馬鹿にしたように笑う](www.youtube.com/watch?v=SbYxNyu5Zn4&t=3264s)など、いたずらっぽい一面も見せていた。
+SIR MEOWはどこかマイペースな猫だった。 [ゴナソン](https://www.youtube.com/watch?v=SbYxNyu5Zn4&t=3264s)からおやつをもらって素直に受け取る一方で、モココが挨拶した時には[小馬鹿にしたように笑う](https://www.youtube.com/watch?v=SbYxNyu5Zn4&t=3264s)など、いたずらっぽい一面も見せていた。
 
 SIR MEOWを連れたニノイナは、その後エサ用の素材集めや寄付集めに時間を費やすことにする。
 
 そして偶然にも、モードン・ラムゼイも同じ考えだった（詳しくは[Calli-Ina](#edge:calli-ina)）。
 
-いくつかの騒動を経て、リバー・プリンスを一匹売却し（それを見たとある[ペイザン](www.youtube.com/watch?v=SbYxNyu5Zn4&t=4950s)は大層不満そうだった）、ニノイナは次なる目標――チャームポーチへ意識を向ける。
+いくつかの騒動を経て、リバー・プリンスを一匹売却し（それを見たとある[ペイザン](https://www.youtube.com/watch?v=SbYxNyu5Zn4&t=4950s)は大層不満そうだった）、ニノイナは次なる目標――チャームポーチへ意識を向ける。
 
 しかし、ここで彼女はある問題に気づく。
 
@@ -90,6 +90,8 @@ SIR MEOWを連れたニノイナは、その後エサ用の素材集めや寄付
 そして、そのまま一日の幕を閉じたのだった。
 
 ## ファンアート
+
+["The elusive river prince" by unreallyhooman](https://x.com/unreallyhooman/status/2060281474323034538)
 
 ["Behold, Sir Meow" by wydken](https://x.com/wydken/status/2059399123233546564)
 
