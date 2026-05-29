@@ -39,6 +39,14 @@
 
 ## ファンアート
 
+["we love our Queen!" by enefwastaken](https://x.com/enefwastaken/status/2060142855461462315)
+
+<!-- raora -->
+
+["The Cost" by blaparky](https://x.com/blaparky/status/2060020594847191059)
+
+<!-- shiori -->
+
 ["Tam protecting his humble knight" by bardthebarista](https://x.com/bardthebarista/status/2059925784198844816)
 
 ["lucky color" by fongban\_](https://x.com/fongban_/status/2059874971753803937)

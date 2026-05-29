@@ -55,6 +55,8 @@ Lady Bloodflame, please remain who you are...
 
 ## Fanart
 
+["She's not well" by unknown](https://vxtwitter.com/eyes0p0d/status/2060058635653591515)
+
 ["Shakira...???" by haiwazenko](https://x.com/haiwazenko/status/2059740911723020292)
 
 ["ominous noise" by punikiart](https://x.com/punikiart/status/2059425719483044263)

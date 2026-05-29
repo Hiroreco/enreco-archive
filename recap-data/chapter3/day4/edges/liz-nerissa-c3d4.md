@@ -89,6 +89,12 @@ Request: denied.
 
 ## Fanart
 
+["cut my life expectancy" by unknown](https://vxtwitter.com/renshifter/status/2060093868079812629)
+
+["fishng frenzy" by unknown](https://vxtwitter.com/ogumashiro/status/2060113715911909847)
+
+["I was a demon." by unknown](https://vxtwitter.com/thekaiyip/status/2060134721678651520)
+
 ["The Princess and Her Knight" by tianshiko](https://x.com/tianshiko/status/2059777733400441067)
 
 ["tearing at the seams" by elisbian\_](https://x.com/elisbian_/status/2059973557799756175)

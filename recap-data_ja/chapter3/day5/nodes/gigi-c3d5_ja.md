@@ -52,3 +52,14 @@
 果たして最終日はどのような結末を迎えるのだろうか――その答えを知るのは、時だけである。
 
 [5日目の日誌](#embed:https://www.youtube.com/watch?v=w2BCfGaek4g&t=15879s)
+
+## ファンアート
+["GO GET THEM" by unknown](https://vxtwitter.com/watashigazza/status/2060346032127693058)
+
+["gonathan" by unknown](https://vxtwitter.com/sethhhlhhh/status/2060028013111390505)
+
+["Good guy pretty tough" by unknown](https://vxtwitter.com/ev_7_w/status/2060076004291314100)
+
+["Gonathon G." by unknown](https://vxtwitter.com/drac_o_weeb/status/2060103937705881691)
+
+["Resting sir knight" by unknown](https://vxtwitter.com/a_mirusa/status/2060156517400342886)

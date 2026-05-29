@@ -24,3 +24,8 @@ The two had little time to indulge in further pleasantries, as the true extent o
 Alas, Tam and Immerkind were unable to locate Shiori's eldritch chambers, in part because Immerkind was [unable](https://www.youtube.com/watch?v=w2BCfGaek4g&t=15397s) to wrangle the ornery azure maiden. Despite rejecting her royal status, Tam had in many ways become even more demanding, requesting a castle be constructed for her panda. The Shining Stars realized their best course of action was to infiltrate the church the next day, and with Immerkind and Gonathon already having been put through the ritual, the untouched Tam was deemed the ideal bait, given her status and antagonistic relationship with Shiori.
 
 While Tam was quick to object, Gonathon [reminded](https://www.youtube.com/watch?v=w2BCfGaek4g&t=15675s) her that she was now their equal, and had to pull her weight just like the rest of them. And with that, the group parted ways. While Gonathon may no longer be the queen's knight, he had become something even greater: Tam Gandr's most trusted friend.
+
+## Fanart
+["Maybe?" by unknown](https://vxtwitter.com/painko3o/status/2060263467647385697)
+
+["Thus The Knight Advances Forward" by blaparky](https://x.com/blaparky/status/2060236165077463079)

@@ -100,3 +100,8 @@
 だが彼は、それ以上の存在になっていた。
 
 ――タム・ガンドルが最も信頼する友人へと。
+
+## ファンアート
+["Maybe?" by unknown](https://vxtwitter.com/painko3o/status/2060263467647385697)
+
+["Thus The Knight Advances Forward" by blaparky](https://x.com/blaparky/status/2060236165077463079)

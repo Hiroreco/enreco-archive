@@ -17,6 +17,8 @@
 
 ## ファンアート
 
+["Distract" by unknown](https://vxtwitter.com/kirbyotaku/status/2060097726432616808)
+
 ["Immerkind" by renveriouz](https://x.com/renveriouz/status/2059670465137021289)
 
 ["Immerkind" by tobemi_art](https://x.com/tobemi_art/status/2059557473455874200)

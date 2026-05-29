@@ -23,6 +23,10 @@
 
 ## ファンアート
 
+["Must. Get. Stronger." by unknown](https://vxtwitter.com/emillemaiki/status/2060011116093374595)
+
+<!-- liz, nerissa -->
+
 ["IMERKIND YOU DUMB" by fongban\_](https://x.com/fongban_/status/2059633440287555610)
 
 <!-- bae -->

@@ -140,3 +140,12 @@ rriinnggg rriinnnggg
 Gonathon missed the first call and quickly redialed.
 
 ["Hey, this is Sister Shiori speaking!"](#embed:https://youtu.be/w2BCfGaek4g?t=9389)
+
+## Fanart
+["doubts?" by unknown](https://vxtwitter.com/monochi_21/status/2060025215992975663)
+
+["Like A Black Pearl In The Sky..." by unknown](https://vxtwitter.com/blaparky/status/2060213161685631405)
+
+["I do care about you" by unknown](https://vxtwitter.com/shir000__/status/2060290299210117342)
+
+["Kiss" by unknown](https://vxtwitter.com/painko3o/status/2060299813518790988)

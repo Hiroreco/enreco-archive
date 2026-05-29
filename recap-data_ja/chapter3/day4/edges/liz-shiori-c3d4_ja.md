@@ -79,3 +79,6 @@
 憎み合っているわけではない。
 
 ……だが、シスター・シオリという女は、本当に“話したい”と思うのが難しい相手だった。
+
+## ファンアート
+["friendliest of spars" by unknown](https://vxtwitter.com/hotchippyy/status/2060102257434411332)

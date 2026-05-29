@@ -92,3 +92,10 @@
 かつての忠臣たち、そして今なお忠臣であり続ける人々と時間を過ごし、彼女は["タムダ"](https://www.youtube.com/watch?v=phkMUVqF6aY&t=11704s)という名のパンダを手に入れる。そしてとても[大切に](https://www.youtube.com/watch?v=phkMUVqF6aY&t=13155s)「可愛がり」、さらにイマーカインドが彼女のために建設を始めたという[城](https://www.youtube.com/watch?v=phkMUVqF6aY&t=12772s)も訪れた。
 
 そして最後には、一日とは思えないほど濃密な出来事の数々を振り返りながら、タムは静かに腰を下ろし、その日に起きたすべてを["日記"](https://www.youtube.com/live/phkMUVqF6aY?si=tD4nVwbj0z-VL6vP&t=14416)へ書き記したのだった。
+
+## ファンアート
+["Looks stupid" by unknown](https://vxtwitter.com/albertweskerh/status/2060244059361620194)
+
+["Forget and to be Fallen" by unknown](https://vxtwitter.com/yuutomeh97/status/2060273303160590431)
+
+["Tamda" by unknown](https://vxtwitter.com/koizumi_arata/status/2060316172290064839)

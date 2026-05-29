@@ -104,3 +104,14 @@
 そこでイマーカインドは、最後にもう一度だけジュリエットと静かに言葉を交わした。
 
 [彼女が悪人なはず、ないよね……？](#embed:https://www.youtube.com/watch?v=IpNXgvS3QjM&t=21252)
+
+## ファンアート
+["the Knight's Break Day" by unknown](https://vxtwitter.com/jhgardener_/status/2060022422196388295)
+
+["A knight of Libestal" by unknown](https://vxtwitter.com/imabaker111/status/2060047172171874799)
+
+["Princess???" by unknown](https://vxtwitter.com/rando_zlink/status/2060066642676355213)
+
+["Immerkind and her son" by unknown](https://vxtwitter.com/fr0ggsterr/status/2060106877975896530)
+
+["I will protect you" by unknown](https://vxtwitter.com/nei_0n/status/2060240904217415900)

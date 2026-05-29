@@ -66,3 +66,10 @@ While searching for one, however, she stumbled upon a group calling themselves "
 Still, despite the looming tension hanging over the kingdom, the rest of Tam’s day was surprisingly warm. She spent time with the people who once were, and still remained, her loyal followers. She acquired a panda named ["Tamda,"](https://www.youtube.com/watch?v=phkMUVqF6aY&t=11704s) whom she "loved" very [dearly](https://www.youtube.com/watch?v=phkMUVqF6aY&t=13155s) and visited the [castle](https://www.youtube.com/watch?v=phkMUVqF6aY&t=12772s) Immerkind had apparently begun constructing in her honor.
 
 And by the end of it all, after a day that felt like an entire lifetime compressed into a single whirlwind, Tam sat down and quietly ["journaled"](https://www.youtube.com/live/phkMUVqF6aY?si=tD4nVwbj0z-VL6vP&t=14416) everything that had happened.
+
+## Fanart
+["Looks stupid" by unknown](https://vxtwitter.com/albertweskerh/status/2060244059361620194)
+
+["Forget and to be Fallen" by unknown](https://vxtwitter.com/yuutomeh97/status/2060273303160590431)
+
+["Tamda" by unknown](https://vxtwitter.com/koizumi_arata/status/2060316172290064839)

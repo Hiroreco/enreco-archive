@@ -81,6 +81,8 @@ _そんなこと、あり得るの？_
 
 ## ファンアート
 
+["For those who would stare into god's domain" by lordjoeboto](https://x.com/lordjoeboto/status/2059772151700308443)
+
 ["Third eye unlocked" by madchaco](https://x.com/madchaco/status/2059674141452865976)
 
 ["NEVER SURRENDER" by byako_p](https://x.com/byako_p/status/2059839913432949208)

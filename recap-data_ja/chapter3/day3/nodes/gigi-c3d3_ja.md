@@ -54,6 +54,8 @@
 
 ## ファンアート
 
+["Conturbatio et Decretum" by spiderlycoris](https://x.com/spiderlycoris/status/2060350494179205611)
+
 ["relaxed" by blueplankton](https://x.com/blueplankton/status/2059675841383305283)
 
 ["Big G" by shmungerbungus](https://x.com/shmungerbungus/status/2059690880140005721)

@@ -68,6 +68,10 @@
 
 ## ファンアート
 
+["Peasant's going through it" by hiraethshoujo](https://x.com/hiraethshoujo/status/2060242622279827847)
+
+<!-- cecilia -->
+
 ["Turning Purple" by rlus654](https://x.com/rlus654/status/2059801831212216798)
 
 ["Peasant's Treasure" by fongban\_](https://x.com/fongban_/status/2059971535432253904)
