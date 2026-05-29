@@ -215,7 +215,7 @@
 
 他の者たちは忘れているのに。
 
-（参照: [Shiori-Roa](#edge:shiori-raora)）
+（参照: [Shiori-Roa](#edge:raora-shiori)）
 
 たとえロア自身が忘れていても。
 
