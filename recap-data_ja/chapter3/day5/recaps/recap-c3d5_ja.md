@@ -51,3 +51,9 @@ _団結_
 それとも、本当に大切なその瞬間に、互いへ背を向けてしまうのだろうか。
 
 ![門を開く甘き毒](/images-opt/queen-in-yellow-opt.webp)
+
+## ファンアート
+
+["Sacrifice" by keenbiscuit](https://x.com/keenbiscuit/status/2060358342921613402)
+
+<!-- shiori, bijou, raora, nerissa, kiara -->

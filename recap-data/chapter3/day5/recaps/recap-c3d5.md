@@ -25,3 +25,9 @@ And as the final day drew ever closer, tensions tightened across the kingdom lik
 When the end finally arrives, will they unite together one last time... or turn their backs against one another when it matters most?
 
 ![A sweet poison to open the gate](/images-opt/queen-in-yellow-opt.webp)
+
+## Fanart
+
+["Sacrifice" by keenbiscuit](https://x.com/keenbiscuit/status/2060358342921613402)
+
+<!-- shiori, bijou, raora, nerissa, kiara -->
