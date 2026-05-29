@@ -2486,7 +2486,7 @@
       "ja": "ベイの日記エントリー"
     },
     "description": {
-      "en": "Peasant Da Bae's daily journal entries during Chapter 3.",
+      "en": "Peasant Bae's daily journal entries during Chapter 3.",
       "ja": "ペイザン・ザ・ベイによる、チャプター3期間中の日々の日記エントリー。"
     },
     "entries": [
@@ -2532,6 +2532,17 @@
         "content": {
           "en": "coin remaining: 22248\n\nthe peasant is rising in fortune\n\nbut no matter the joys of materialism one must never forget the humble nature of peasantry\n\ntoday was a bustling day for business tomorrow we can only hope it continues\n\ni will build an empire of the peasant\n\ni will realise my dream\n\ni will become RICH\n\nSIGNED\n\nA Humble Peasant",
           "ja": "残りコイン：22248\n\nペイザンの財産は着実に増えている\n\nだが、どれほど物質的な豊かさに喜びを見出そうとも\n決してペイザントとしての慎ましき心を忘れてはならない\n\n今日は商売が大いに繁盛した日だった\n明日もこの勢いが続くことを願うばかりだ\n\n私はペイザンの帝国を築き上げる\n\n私は夢を叶える\n\nそして私は――金持ちになる\n\n署名\n\n慎ましきペイザント"
+        }
+      },
+      {
+        "id": "bae-journal-c3d5",
+        "title": {
+          "en": "Bae's Journal Entry: Day 5",
+          "ja": "ベイの日記：5日目"
+        },
+        "content": {
+          "en": "coin REMAINING\n\n49578",
+          "ja": "残りコイン\n\n49578"
         }
       }
     ]
@@ -2605,6 +2616,17 @@
           "en": "Dear Diary,\n\ntoday\na lot of things happened\n\nYours\nK. Immerknight",
           "ja": "親愛なる日記へ\n\n今日は\nいろんなことがあった\n\n以上\n\nK・イマーキナイトより"
         }
+      },
+      {
+        "id": "cecilia-journal-c3d5",
+        "title": {
+          "en": "Immerkind's Journal Entry: Day 5",
+          "ja": "イマーカインドの日記：5日目"
+        },
+        "content": {
+          "en": "Dear Diary,\n\ntoday I saw how smart NinoIna is, and how courageous merlin is! It was quite nice to go on adventures together.\n\nI must build a castle...\n\nGonathon is convinced that Juliet is also cursed by the curse of Advent.\n\nHowever, I do not believe so. If anything happens, I must warn her!\n\nYour Immerknight\n\nPS: Around Tam I sometimes don't feel quite like myself... there's something about her that draws out words out of myself I wouldn't usually speak. It is quite frightening.",
+          "ja": "親愛なる日記へ\n\n今日はニノイナがどれほど賢いか、そしてマーリンがどれほど勇敢かを見ることができた！ 一緒に冒険するのは本当に楽しかった。\n\n私はお城を建てなければならない……\n\nゴナソンは、ジュリエットもまたアドベントの呪いにかかっていると確信している。\n\nだが、私はそうは思わない。もし何かが起きるようなら、彼女に警告しなければ！\n\nあなたのイマー騎士より\n\n追伸：タムのそばにいると、時々自分が自分ではないような気がする……。彼女には何か、人に普段なら口にしないような言葉を引き出してしまう不思議な力があるんだ。それが少し怖い。"
+        }
       }
     ]
   },
@@ -2663,6 +2685,17 @@
           "en": "No matter how much I may deny. I remember much, but no one seems to remember me.\n\nI hope what I am doing is right. I hope that one day, the Queen will remember me, and tell me that I, Gonathon, was doing good.",
           "ja": "どれだけ否定しようとしても、私は多くを覚えている。\nだが、誰も私のことを覚えていないようだ。\n\n自分のしていることが正しいのだと信じたい。\nいつの日か、女王が私を思い出し――\n\nそして、ゴナソン、お前は立派だったと、そう言ってくれる日が来ることを願っている。"
         }
+      },
+      {
+        "id": "gigi-journal-c3d5",
+        "title": {
+          "en": "Gonathon's Journal Entry: Day 5",
+          "ja": "ゴナソンの日記：5日目"
+        },
+        "content": {
+          "en": "**Day 5????*\n\nThere's something wrong with Sister Shiori, Nerissa Juliet, The Little Princess, and ...unsure about the other two.\n\nImmerkind and I are attempting to get to the bottom of this, as knights, and we have recruited others as well.\n\nEarlier, I felt like I was about to lose a part of myself, the Queen not remembering, Shakira's ghost, the sins I hold.\n\nBut it is in choosing to do what I think is right, that we can move forward.\n\nI do not know if I am making the right decisions. I may no longer be a knight to the Queen, but at least we are friends.\n\nAnd tomorrow we will continue to do what is right, to us.",
+          "ja": "**5日目……？？？**\n\nシスター・シオリ、ネリッサ・ジュリエット、小さな姫、そして……残りの二人についてはまだ確信が持てないが、何かがおかしい。\n\nイマーカインドと私は騎士としてこの謎の真相を突き止めようとしている。そして、他にも協力者を募った。\n\n少し前、私は自分自身の一部を失いかけているような気がしていた。女王の忘却、シャキーラの亡霊、そして私が背負う罪。\n\nだが、自分が正しいと信じることを選び続けることで、人は前へ進めるのだと思う。\n\n自分の決断が正しいのかはわからない。もはや私は女王に仕える騎士ではないのかもしれない。だが、少なくとも私たちは友人だ。\n\nそして明日もまた、私たちは自分たちなりの正しさを貫き続ける。"
+        }
       }
     ]
   },
@@ -2674,7 +2707,7 @@
       "ja": "クロニーの日記エントリー"
     },
     "description": {
-      "en": "Tam Gandr's daily journal entries during Chapter 3.",
+      "en": "Tam's daily journal entries during Chapter 3.",
       "ja": "タム・ガンドルによる、チャプター3期間中の日々の日記エントリー。"
     },
     "entries": [
@@ -2709,6 +2742,17 @@
         "content": {
           "en": "**Day 4**\n\nStar Speaker Maaz... that sick old woman... corrupted by greed... extortion... how corrupt the Star Speakers must be to let someone in like that and let it slide, turning a blind eye to such crime...\n\nAre the Star Speakers truly benevolent?\n\nIt's getting difficult to define good and evil. Vile actions are seen as shortcuts and honesty goes unrewarded. If that is the case, then what is the point being on the side of good?\n\nNerissa Juliet is suspicious and plants the seeds of doubt onto others, but she has also helped Gonathon and I with our tasks. An evil person can make kind gestures and a supposedly heroic individual, like Lady Bloodflame, can commit heinous crimes.\n\nIf this is the case, those boundaries are so difficult to navigate through...\n\nI don't know if being on the good side is beneficial... I have no money and I always feel like I need to work harder than others. It's getting harder to resist everyday.\n\nOn a side note, everyone seems to want my pet. Why is that?\n\nIt fills me with joy, helps me see certain things that I normally wouldn't be able to see, and my worries never last too long.\n\nI  \n\nWhat was I writing about?  \n\nYAY I can't wait for tomorrow, I'm excited to see everyone!",
           "ja": "**4日目**\n\nスター・スピーカー・マーズ……あの性根の腐った老婆……\n強欲に堕ち、恐喝まがいのことまでして……\n\nあんな人物を受け入れ、見て見ぬふりをするなんて、スター・スピーカーという組織そのものがどれほど腐敗しているのか想像もつかない……\n\n本当にスター・スピーカーは善なる存在なのだろうか？\n\n善と悪の境界が、どんどん曖昧になってきている。\n\n卑劣な行為は“近道”として扱われ、誠実さには何の報いもない。もしそれがこの世界の在り方なのだとしたら、善の側に立つ意味なんて本当にあるのだろうか？\n\nネリッサ・ジュリエットは疑わしい人物で、人に疑念の種を植え付ける。けれど、その一方で彼女はゴナソンと私を手助けしてくれた。\n\n逆に、レディ・ブラッドフレイムのような“英雄”と呼ばれる人物が、平然と恐ろしい行いをしている。\n\nもしそうなら、その境界線を見極めるのはあまりにも難しすぎる……\n\n善側にいることが、本当に得になるのか分からない……\n\nお金もないし、いつだって他人より努力しなきゃいけない気がする。毎日、抗い続けるのがどんどん苦しくなっていく。\n\nそれはそうと、みんなやたら私のペットを欲しがってるみたい。\nなんで？\n\nあの子は私を幸せな気持ちにしてくれるし、普段なら見えないものまで見せてくれる。\nそれに、不安だってすぐ消えていく。\n\n私は——\n\n何を書いてたんだっけ？\n\nやったー！ 明日が待ちきれない！\nみんなに会えるの楽しみ！"
+        }
+      },
+      {
+        "id": "kronii-journal-c3d5",
+        "title": {
+          "en": "Tam's Journal Entry: Day 5",
+          "ja": "タムの日記：5日目"
+        },
+        "content": {
+          "en": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaahhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuughhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh\n\nI don't wanna dieeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeevuuuuuuuuuuuuuuuuughhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh they're guinbg to killmneeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeevuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuugahhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh",
+          "ja": "ああああああああああああああああああああああああああぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううぐああああああああああああああああああああああああああ\n\n死にたくなああああああああああああああああああああああああいぃぃぃぃぃぃぃぃぃぃぃぃぃぃぃぃぃぃぃぃぃぃぃぃぃぃぃぃぃぃぃぃぃぃぃぃぃぃぃぃぃぃぃぃぃぃぃぃぃぃぃヴううううううううううううううううううぐあああああああああああああああああああああああああ\n\nみんなが私を殺しに来るううううううううううううううううううううううううううううううううううううううううううぅぅぅぃぃぃぃぃぃぃぃぃぃぃぃぃぃぃぃぃぃぃぃぃぃぃぃぃぃぃぃぃぃぃぃぃぃぃぃぃぃぃぃぃぃぃぃぃぃぃぃヴううううううううううううううううううううううううううううううううううううぐあああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああっっっ！！！"
         }
       }
     ]
@@ -2839,6 +2883,31 @@
         "content": {
           "en": "**Libestal News**\n\n**Day 2**\n\nIn honor of Shakira Shakira Her Hips Don't Lie, a grave site was constructed near the kingdom's gate.\n\nThe Labyrinth of Knowledge has opened up for the chosen ones.\n\nShiori Novella (Or is it Nyavella? Our reporters are still unsure) has recovered the useless memory of having her book stolen by prison guards.\n\nWhen interviewed, she shrugged and said, \"Lmao, they gave it to some crypto scammer.\"\n\nTo the west of the gate, the Church of Inkwell is currently in the making.\n\nA farm was installed nearby too. A secret project in honor of a **\\*** is also being constructed by the kind and amazing Immerknight.\n\nTeam Nix is still dirt poor and unable to purchase construction blocks.\n\nMordon Ramsay's restaurant is open for business and is charging ludicrous prices of 200-300 coins.\n\nTheir food is still of suspicious quality.\n\nBe sure to tune in for tomorrow's Inkwell News!\n\nP.S.\n\nMordon Ramsay's chicken is named Shakira. Could it be her reincarnation? Then what is inside the coffin?",
           "ja": ""
+        }
+      }
+    ]
+  },
+  "ritual-scripture": {
+    "chapter": 3,
+    "category": "other-writings",
+    "title": {
+      "en": "Ritual Scripture",
+      "ja": "儀式の聖典"
+    },
+    "description": {
+      "en": "Sister Shiori's ritual scripture for her sacrifices.",
+      "ja": "シスター・シオリが生贄の儀式で用いる聖典。"
+    },
+    "entries": [
+      {
+        "id": "ritual-scripture",
+        "title": {
+          "en": "Ritual Scripture",
+          "ja": "儀式の聖典"
+        },
+        "content": {
+          "en": "It began even before your eyes moved across the first word, an infectious disease that feeds on your soft tissues and bones.\n\nSomething behind your eyes wasn't there before; it burrows like worms through your skull like wildfire through thought alone, an idea turned obsession.\n\nYou are hereby claimed by madness forever more. A puppet with strings for the outer gods as to one chosen by he and I we lay claim to your heart and soul.\n\nYour mind and veins must wear a mask forever more and if you are the unchosen what await you is...",
+          "ja": "それは、あなたの視線が最初の一文字に触れるよりも前から始まっていた。\n\n柔らかな肉と骨を糧に広がる、伝染する病。\n\n瞳の奥には、以前は存在しなかった何かがいる。思考の中を駆ける山火事のように、頭蓋の内側を虫のように這い回り、ただの発想を執着へと変えていく。\n\nここに宣言する。あなたは永遠に狂気のものとなった。\n\n外なる神々に糸を握られた操り人形。彼と私に選ばれし者として、あなたの心と魂は我らの所有となる。\n\nあなたの精神と血脈は、これより永遠に仮面を被り続けなければならない。\n\nそして、もし選ばれなかった者であるならば――あなたを待つものは……。"
         }
       }
     ]

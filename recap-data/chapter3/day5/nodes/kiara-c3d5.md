@@ -20,4 +20,4 @@
 
 See [Roa](#node:raora)
 See [Bijou the Stained](#node:bijou)
-See [Roa-Shiori](#node:raora-shiori)
+See [Roa-Shiori](#edge:raora-shiori)

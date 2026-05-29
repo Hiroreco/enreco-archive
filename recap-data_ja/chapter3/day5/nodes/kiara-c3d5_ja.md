@@ -20,4 +20,4 @@
 
 参照 [ロア](#node:raora)
 参照 [ビジュー・ザ・ステイン](#node:bijou)
-参照 [ロア-シオリ](#node:raora-shiori)
+参照 [ロア-シオリ](#edge:raora-shiori)

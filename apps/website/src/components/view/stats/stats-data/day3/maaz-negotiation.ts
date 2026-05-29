@@ -20,7 +20,7 @@ export const maazNegotiationSoupChoice: Choice = {
                 en: "Spill the soup",
                 ja: "スープをこぼす",
             },
-            members: ["kronii"],
+            members: ["kronii", "calli", "cecilia"],
         },
     ],
 };
