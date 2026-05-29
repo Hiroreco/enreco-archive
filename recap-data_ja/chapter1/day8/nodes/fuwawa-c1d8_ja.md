@@ -5,7 +5,7 @@
 
 答えを探し求めるフワワは、最も信頼する二人――[ゴナソンとエリザベス](https://www.youtube.com/live/31OnEJrRDfU?feature=shared&t=808)を訪ねる。二人は王国全体に恐ろしい「穢れ」が蔓延していることを告げ、さらに衝撃的な事実を明かす。なんと、フワワのかけがえのない仲間モココがその「穢れ」に侵されてしまったというのだ。フワワの不安は瞬く間に現実のものとなる。彼女の目の前で、モココは狂気に憑りつかれたように暴れ回っていた。かつての優しく遊び好きな面影はそこにはなく、獣のような咆哮を上げ、大地を荒らし尽くす姿があった。
 
-[モココは何をしている？](#embed:https://www.youtube.com/live/31OnEJrRDfU?si=Be-tl0XykKPAJTZ8&start=939)
+[モココは何をしている？](#embed:https://www.youtube.com/live/31OnEJrRDfU?start=939)
 
 周囲の仲間たちはフワワに警告を発する。もしモココを止められなければ、最悪の場合、[絞首台](https://www.youtube.com/live/31OnEJrRDfU?feature=shared&t=1204)で処刑されることになると。その言葉にフワワの心は打ち砕かれる。王国を覆っていた和やかな空気は消え去り、人々の顔は沈痛な面持ちに変わっていた。いつも明るくフワワを支えてくれるエリザベスさえも、事の重大さを示すかのように[重い表情](https://www.youtube.com/live/31OnEJrRDfU?feature=shared&t=1298)を浮かべていた。
 
@@ -13,7 +13,7 @@
 
 しかし、その平穏は長くは続かない。モココの苦痛に満ちた叫び声が響き渡ると、仲間の苦しむ姿を見過ごせなかったフワワは、思わず駆け寄ってしまう。だが、それは罠だった。完全に「穢れ」に堕ちたモココは、フワワを引き寄せ、自らと同じくステインに染め上げてしまうのだった。
 
-[ふわふわの彼女が穢れる](#embed:https://www.youtube.com/live/31OnEJrRDfU?si=q2tl8yV-u4MXCXum&start=2792)
+[ふわふわの彼女が穢れる](#embed:https://www.youtube.com/live/31OnEJrRDfU?start=2792)
 
 フワワもまた「穢れ」に侵され、ネリッサやモココと共に王国を荒廃させる側へと回ってしまう。ステインは彼女の心を歪め、大切にしてきた畑を破壊し、さらには愛してやまなかった[ニワトリたちを自らの手で](https://www.youtube.com/live/31OnEJrRDfU?feature=shared&t=2925)殺してしまうほどの狂気へと駆り立てる。フワワの[悲鳴](https://www.youtube.com/live/31OnEJrRDfU?feature=shared&t=3519)が大地に響き渡る――それは、もはや自分を制御できない者の、苦痛と絶望に満ちた叫びだった。
 
@@ -23,7 +23,7 @@
 
 だが、その喜びも束の間。モココがうっかりと、またしてもニワトリの群れを全滅させてしまう。
 
-[_♪ ユレタ ユガンダ セカイニ ダンダン ♪_](#embed:https://www.youtube.com/live/31OnEJrRDfU?si=7TsPwSbv9amxpvre&start=7268)
+[_♪ ユレタ ユガンダ セカイニ ダンダン ♪_](#embed:https://www.youtube.com/live/31OnEJrRDfU?start=7268)
 
 悲しみは拭いきれないものの、フワワは仲間たちと共に[最終決戦](https://www.youtube.com/live/31OnEJrRDfU?feature=shared&t=7996)へと挑む。勇敢に戦い、ついにステインを打ち倒した彼女たち。しかし、そこで明らかになったのは、真の脅威がずっと陰に潜んでいたという衝撃の事実――その正体は、王その人だったのだ（参照 [王: 真なる悪](#node:king)）。
 

@@ -11,7 +11,7 @@
 
 王国に戻ると、ネリッサから急報が届く。何らかの異変に侵された王女ビジューが庭園で暴れ回り、作物を荒らしているというのだ。
 
-[姫さま！やめてください！](#embed:https://www.youtube.com/live/lNIoudshEkQ?si=ajv6J5vhEfVVJG5M&start=4343)
+[姫さま！やめてください！](#embed:https://www.youtube.com/live/lNIoudshEkQ?start=4343)
 
 キアラとネリッサは必死に食い止めようとするも、二人の努力も虚しくビジューは去っていった。庭園にはただ荒廃が広がり、そこに立ち尽くす二人の胸には深い喪失感が残された。
 

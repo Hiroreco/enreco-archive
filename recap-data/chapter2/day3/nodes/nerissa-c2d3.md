@@ -9,7 +9,7 @@ Her prep began with a visit to the newly opened Gacharms shop, which—despite h
 
 With a few shiny new charms in hand, she turned her attention to upgrading her weapon. That meant she needed a smith, and who else came to mind but _that_ one? Whether it was from fragmented memories or just picking up on increasingly obvious signals, Nerissa had started to notice the Scarlet Knight’s... affections. She couldn’t help but enjoy teasing her a little, especially now that she suspected he might be holding back details about their shared history (see [Elizabeth–Nerissa](#edge:liz-nerissa)).
 
-Eventually, she joined forces with Roa and Tam to take on the Stronghold of Ruin. They triumphed (after extremely arduous challenges, such as that of [basic arithmetic](https://www.youtube.com/live/vMdhvi8dHN4?si=jktjQ0j4VDY6INeR&t=11623)), freed the Outlander, and naturally—what followed was not a solemn debrief, but a full-blown gossip session speculating on his _very_ interesting dynamic with the Princess.
+Eventually, she joined forces with Roa and Tam to take on the Stronghold of Ruin. They triumphed (after extremely arduous challenges, such as that of [basic arithmetic](https://www.youtube.com/live/vMdhvi8dHN4?t=11623)), freed the Outlander, and naturally—what followed was not a solemn debrief, but a full-blown gossip session speculating on his _very_ interesting dynamic with the Princess.
 
 [Are they related?](#embed:https://youtu.be/vMdhvi8dHN4?t=12507s)
 

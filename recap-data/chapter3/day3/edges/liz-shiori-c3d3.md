@@ -7,7 +7,7 @@ As she walked along the way towards her daily goals, a heavy sigh left Lady Bloo
 
 Amongst the discussion of what would be necessary, a soon-to-be-repeated topic made itself known: how _sick_ she looked. Despite remarking on it, the questionable Shiori hadn't even noticed her eyes. Waving her hand, Lady Bloodflame waved the topic off.
 
-[Personal space please...](#embed:https://www.youtube.com/live/rg_rZ8reBVA?si=OPxGK9cryFDaJlpY&t=2222)
+[Personal space please...](#embed:https://www.youtube.com/live/rg_rZ8reBVA?t=2222)
 
 But when pressed on why she hadn't just done a trade, quickly she stumbled out an excuse: she was _sick_. Nothing would be worse than spreading a disease around, especially to a sister.
 

@@ -13,7 +13,7 @@
 不安を抱えたモココは、同じく状況に戸惑っている様子の相棒WOOFに癒やされながら掃除を始める。しかし――
 
 な、なんだアレは！？
-[_羊？？_](https://www.youtube.com/live/teJSRYWdIXc?si=BmdDkZKRZBoxmzGM&t=3830)
+[_羊？？_](https://www.youtube.com/live/teJSRYWdIXc?t=3830)
 
 突然現れた羊の像と、そこに残されたメモは、モココの不安をさらに掻き立てた。急いで素材を持ち出し、外へ調査に向かった彼女だったが、そこで待っていたのは予想外の光景。
 
@@ -25,7 +25,7 @@
 もっと楽しいことを考えなきゃ！
 たとえば――お金とか！ MONEY！！！
 
-なんと、[売上が入ったのだ！！！](https://www.youtube.com/live/teJSRYWdIXc?si=zPD85BN7UQnuajoU&t=598)
+なんと、[売上が入ったのだ！！！](https://www.youtube.com/live/teJSRYWdIXc?t=598)
 
 その事実だけで、モココの気分は少しだけ持ち直す。そしてネリッサとシスター・シオリと合流し、現在起きている騒動について話し合うことになった。シスター・シオリは、犯人はロアではないかと疑い、彼女の家を調べようと提案する。
 
@@ -33,13 +33,13 @@
 
 モココ、ロアに家なんて渡してないのに。
 
-[「ここ、空っぽのはずなのに！！！ なんでぇ！？」](#embed:https://www.youtube.com/live/teJSRYWdIXc?si=vePwggB4MwpBLFCN&t=954)
+[「ここ、空っぽのはずなのに！！！ なんでぇ！？」](#embed:https://www.youtube.com/live/teJSRYWdIXc?t=954)
 
 小さな魔女は当然ながら不機嫌だった。たしかにここは普段使っていない別宅ではある。だが、それでも“自分の家”には違いないのだ！！
 
-しかもロア本人の様子も意味不明だった。シスター・シオリへ怒鳴っていたかと思えば、次の瞬間にはレディ・ブラッドフレイムの隣で[過呼吸を起こしていた](https://www.youtube.com/live/teJSRYWdIXc?si=WWhhWE3QW5fvTS9f&t=1265)。
+しかもロア本人の様子も意味不明だった。シスター・シオリへ怒鳴っていたかと思えば、次の瞬間にはレディ・ブラッドフレイムの隣で[過呼吸を起こしていた](https://www.youtube.com/live/teJSRYWdIXc?t=1265)。
 
-どうやら昨夜、モココが寝た後に“爆発”だの“シャカラカ”だの、とんでもないことが起きていたらしい。そして今度は、ロアがモココとフワワに[「真実を知ってほしい」](https://www.youtube.com/live/teJSRYWdIXc?si=AN5kMQGWRt3HCC2w&t=1670)と言い出した。
+どうやら昨夜、モココが寝た後に“爆発”だの“シャカラカ”だの、とんでもないことが起きていたらしい。そして今度は、ロアがモココとフワワに[「真実を知ってほしい」](https://www.youtube.com/live/teJSRYWdIXc?t=1670)と言い出した。
 
 嫌な予感しかしなかった。
 
@@ -51,16 +51,16 @@
 
 それだけが、今の彼女の救いだった。
 
-[人生における二つの確かなもの――太陽の光と、お金](#embed:https://www.youtube.com/live/teJSRYWdIXc?si=wXVS6O26ZFJUGxbp&t=1750)
+[人生における二つの確かなもの――太陽の光と、お金](#embed:https://www.youtube.com/live/teJSRYWdIXc?t=1750)
 
-気持ちを落ち着けたモココは、いつもの素材集めへと向かう。そんな中、新しい場所を発見し、さらに[カラーカノン](https://www.youtube.com/live/teJSRYWdIXc?si=UYIqMaA2LvXiXDcU&t=2063)というゲームまで見つけた。
+気持ちを落ち着けたモココは、いつもの素材集めへと向かう。そんな中、新しい場所を発見し、さらに[カラーカノン](https://www.youtube.com/live/teJSRYWdIXc?t=2063)というゲームまで見つけた。
 
 なんだか楽しそう！
 しかも妙に懐かしい感じがする……。
 
 彼女は「後でもう一度来よう」と心に決める。
 
-さらにこの日、リトルウィッチは[大好きなお姉ちゃん](https://www.youtube.com/live/teJSRYWdIXc?si=y-yFbtarj3g_7Dq8&t=3976)とたっぷり一緒の時間を過ごした。それこそが、二人にとって一番安心できる過ごし方だったからだ。（参照: Elizabeth-Mococo day1）
+さらにこの日、リトルウィッチは[大好きなお姉ちゃん](https://www.youtube.com/live/teJSRYWdIXc?t=3976)とたっぷり一緒の時間を過ごした。それこそが、二人にとって一番安心できる過ごし方だったからだ。（参照: Elizabeth-Mococo day1）
 
 そして再びダンジョンパーティを組む時間がやってくる。
 
@@ -70,7 +70,7 @@
 
 今日は絶対に。
 
-[「誰か追い出せない？」](#embed:https://www.youtube.com/live/teJSRYWdIXc?si=KAa1CpgVghh0SJOE&t=4081)
+[「誰か追い出せない？」](#embed:https://www.youtube.com/live/teJSRYWdIXc?t=4081)
 
 最初はフワワ。
 次はゴナソン。
@@ -81,13 +81,13 @@
 
 しかも騒動はダンジョンへ入る前から始まっていた。
 
-どうやら[狼は浮遊に慣れていない](https://www.youtube.com/live/teJSRYWdIXc?si=iKlTOEt4OP4dL8Di&t=4700)らしい。
+どうやら[狼は浮遊に慣れていない](https://www.youtube.com/live/teJSRYWdIXc?t=4700)らしい。
 
 実際にダンジョンへ足を踏み入れると、モココはラビリンス・オブ・ソングの幻想的な雰囲気に圧倒される。
 
-旋律や賛歌に導かれながら進み、途中には[今週一かわいい光景](https://www.youtube.com/live/teJSRYWdIXc?si=YlkRVtFpLIAGQKXI&t=6298)まで待っていた。
+旋律や賛歌に導かれながら進み、途中には[今週一かわいい光景](https://www.youtube.com/live/teJSRYWdIXc?t=6298)まで待っていた。
 
-そして彼女たちは、“音の悪魔”――[ネリッサ・レイヴンクロフト](https://www.youtube.com/live/teJSRYWdIXc?si=0xRmpr6L_yx3pJg6&t=6666)の記憶を取り戻す。
+そして彼女たちは、“音の悪魔”――[ネリッサ・レイヴンクロフト](https://www.youtube.com/live/teJSRYWdIXc?t=6666)の記憶を取り戻す。
 
 一日の冒険を終えた後、モココはファウストと会った流れで囚人ゼロの元を訪れる。そしてそこで、ここ数日ずっと避け続けていた厄介な問題へ、ついに向き合わされることになった。（参照: [Fuwawa-Mococo](#edge:fuwawa-mococo)）
 
@@ -95,7 +95,7 @@
 
 だからこそモココは、また素材集めへ没頭することで頭を冷やそうとする。
 
-その後起きた大きな出来事と言えば、自分以上に[怪しい商売をしている店主](https://www.youtube.com/live/teJSRYWdIXc?si=UEQXlWKcO3tyUgwS&t=13034)と遭遇したことくらい。そしてもう一つは、姉から“親友”WOOFへの正しい餌の与え方を教わったことだった。
+その後起きた大きな出来事と言えば、自分以上に[怪しい商売をしている店主](https://www.youtube.com/live/teJSRYWdIXc?t=13034)と遭遇したことくらい。そしてもう一つは、姉から“親友”WOOFへの正しい餌の与え方を教わったことだった。
 
 ……だから泣いてたのか。
 おっと。

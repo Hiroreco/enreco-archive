@@ -76,7 +76,7 @@
 
 そして――
 手が、私の頬に触れた。その温もり。
-[優しい頭ポンポン](https://www.youtube.com/live/m5VOeHvSgbI?si=t7-UotzcICQjtvlw&t=16175)。
+[優しい頭ポンポン](https://www.youtube.com/live/m5VOeHvSgbI?t=16175)。
 あどけない笑顔。その一瞬が、時を止めた。
 彼女は今度は、笑いながら「魔女」と呼んだ。
 すると、それまでの痛みが、ゆっくりと溶けていくのを感じた。

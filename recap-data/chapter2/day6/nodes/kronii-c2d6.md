@@ -15,13 +15,13 @@ Even then, Queen Tam had a more troubling matter at hand: Roa Pandora and what h
 
 [Sassy cat](#embed:https://youtu.be/jayBiB9euJU?t=670)
 
-Queen Tam proceeded to form a party with Shiori, Immerkind, and Fuwawa—a surprising combination, to say the least—to tackle the [ritual](https://www.youtube.com/live/jayBiB9euJU?si=_OcZUoqnxheMyQ4e&t=953).
+Queen Tam proceeded to form a party with Shiori, Immerkind, and Fuwawa—a surprising combination, to say the least—to tackle the [ritual](https://www.youtube.com/live/jayBiB9euJU?t=953).
 
 The ritual itself was odd and likely confused most of those involved, including Queen Tam. Either that or she simply couldn’t help but act suspicious (which was ironic, considering that finding the suspicious one was one of the main objectives of the ritual).
 
 Having finished the ritual without learning much of anything, Queen Tam had a quick conversation with Shiori—who wanted to organize a celebration for the HPO’s constipation upon her return. The Queen begrudgingly agreed and then headed to the main hall to gather materials from the shops.
 
-[Not fertilized, just constipated](#embed:https://www.youtube.com/live/jayBiB9euJU?si=tksE1UT02lekWEbi&t=2380)
+[Not fertilized, just constipated](#embed:https://www.youtube.com/live/jayBiB9euJU?t=2380)
 
 The Queen was surprisingly willing to help Shiori with the cursed celebration for HPO. At the site of the event was a huge picnic blanket laid out in the field beside Fuwawa’s shop, with an amazing backdrop of Gonathon’s Treehouse. The tree’s owner even dropped by to donate materials for the decorations.
 
@@ -39,7 +39,7 @@ Indeed, that day was uneventful—at least in comparison with the tumultuous pre
 
 After a brief exchange of howls with her knights, Gonathon and Immerkind, they all decided to tackle the Star Site: Chaos dungeon in order to retrieve the hidden treasure. Of course, this triggered [painful memories](https://youtu.be/jayBiB9euJU?t=7690) from the previous day for the Queen, who had suffered through the same dungeon over and over due to unsuccessful attempts—on top of the heated arguments with the two women she was secretly juggling.
 
-After being [sandwiched](https://www.youtube.com/live/jayBiB9euJU?si=4RccvR8LrKblthRi&t=9682) in a closet between Gonathon and Immerkind (yes, quite the jump of events), the Queen listened to her Humble Knight's recent woes. Apparently, Lady Bloodflame told him that Shiori was a scammer who sold memories because she remembered everything about them. Somehow, gossiping about Nerissa and Lady Bloodflame led to the three howling at the moon. No mentions of [maids](https://youtu.be/jayBiB9euJU?t=9901) were made by Immerkind.
+After being [sandwiched](https://www.youtube.com/live/jayBiB9euJU?t=9682) in a closet between Gonathon and Immerkind (yes, quite the jump of events), the Queen listened to her Humble Knight's recent woes. Apparently, Lady Bloodflame told him that Shiori was a scammer who sold memories because she remembered everything about them. Somehow, gossiping about Nerissa and Lady Bloodflame led to the three howling at the moon. No mentions of [maids](https://youtu.be/jayBiB9euJU?t=9901) were made by Immerkind.
 
 Getting ready to conclude the day by writing her journal entry, Queen Tam's entry ended on a happy note, saying she was excited for the next day.
 
@@ -49,7 +49,7 @@ The day actually ended with a burst of drama under the “ITS GAS” signboard i
 
 The situation grew even more bizarre for the Queen and her Humble Knight when Shiori kept asking him to talk in private. Sensing more heartbreak for the gullible knight, Queen Tam did her best to separate him from Shiori and save him—much like how Gonathon had been there for her the previous day. It was then revealed that, somehow, Shiori was pregnant and that Gonathon wanted to take responsibility for the supposed child. Queen Tam managed to convince Gonathon that handholding does not indeed make babies and that this Shiori was manipulating him like clay in her hands—him and Bijou both. They howled to seal their new understanding.
 
-[I'm too sleepy for this](#embed:https://www.youtube.com/live/jayBiB9euJU?si=JBsNjpi3chQw5tVT&t=12650)
+[I'm too sleepy for this](#embed:https://www.youtube.com/live/jayBiB9euJU?t=12650)
 
 With that, the Queen retired for the day and went to her perfect slumber once again.
 

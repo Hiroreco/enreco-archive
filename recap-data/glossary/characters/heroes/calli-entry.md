@@ -33,9 +33,9 @@ Calli also played a critical role in the battle against the corruption on the fi
 
 The reaper’s second journey began with a duty already resting on her shoulders. Along with Shakira, she was chosen as one of the “Lore Keepers,” tasked with recording the heroes’ daily adventures for the Library.
 
-Unlike many others, she retained all her memories from the previous journey. So, she thought, why not build another food establishment? Being a chef again felt only natural. Adopting the name _Mordan Ramsey_, she opened a new restaurant that doubled as an inn—offering both meals and lodging—and even included a secret fight club, where she and her [“Wolf Pack”](https://www.youtube.com/live/uX0rZYSrb4Q?si=ygzF1V3H5aVxDjwl&t=6658) occasionally held sparring sessions.
+Unlike many others, she retained all her memories from the previous journey. So, she thought, why not build another food establishment? Being a chef again felt only natural. Adopting the name _Mordan Ramsey_, she opened a new restaurant that doubled as an inn—offering both meals and lodging—and even included a secret fight club, where she and her [“Wolf Pack”](https://www.youtube.com/live/uX0rZYSrb4Q?t=6658) occasionally held sparring sessions.
 
-That wasn’t all. Calli also put her other skills to work by opening a therapy stall, offering a listening ear and wise counsel to troubled hearts for a modest fee of 300 coins. This service quickly proved indispensable; as the kingdom’s chaos escalated, more and more people [flocked](https://www.youtube.com/live/ABO6qUKDBG0?si=zw4PRzXBRiyCgpjw&t=14246) to her for help—so many, in fact, that the therapist herself began to wish she could get therapy.
+That wasn’t all. Calli also put her other skills to work by opening a therapy stall, offering a listening ear and wise counsel to troubled hearts for a modest fee of 300 coins. This service quickly proved indispensable; as the kingdom’s chaos escalated, more and more people [flocked](https://www.youtube.com/live/ABO6qUKDBG0?t=14246) to her for help—so many, in fact, that the therapist herself began to wish she could get therapy.
 
 > It may be best to confront the issue at the source... Have you considered murder as an option?
 

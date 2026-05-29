@@ -13,7 +13,7 @@
 
 こうした出来事に首を突っ込むことは滅多にないフワワだったが、さすがに少し気になってしまう。
 
-[「国境が崩壊する」？](#embed:https://www.youtube.com/live/Db4P0eDfOMY?si=IVf_l27WEeApig-Y&t=1666)
+[「国境が崩壊する」？](#embed:https://www.youtube.com/live/Db4P0eDfOMY?t=1666)
 
 確かに謎めいている。
 
@@ -27,7 +27,7 @@
 
 ダンジョン遠征の前には、まず[模擬戦の訓練](https://www.youtube.com/watch?v=Db4P0eDfOMY&t=3915s)に参加する。
 
-そしてその後、レディ・ブラッドフレイム、シオリ、モココと合流し、[ラビリンス・オブ・デュアリティ](https://www.youtube.com/live/Db4P0eDfOMY?si=8ltE2Ks7A8_tgorL&t=6762)へ挑んだ。
+そしてその後、レディ・ブラッドフレイム、シオリ、モココと合流し、[ラビリンス・オブ・デュアリティ](https://www.youtube.com/live/Db4P0eDfOMY?t=6762)へ挑んだ。
 
 そのダンジョンのテーマは、徹頭徹尾「二人一組」。
 
@@ -99,7 +99,7 @@
 
 あるいは、そうするべきだった。
 
-[ば、バウバウ！？！？](#embed:https://www.youtube.com/live/Db4P0eDfOMY?si=SXHMGELCh98FJGTW&t=13714)
+[ば、バウバウ！？！？](#embed:https://www.youtube.com/live/Db4P0eDfOMY?t=13714)
 
 突如として、フワワはシャキーラの亡霊に追いかけ回されることになる。
 

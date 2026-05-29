@@ -11,7 +11,7 @@ Princess Bijou quickly realizes she must take up a new lifestyle, as the role of
 
 [GET A JOB.](#embed:https://youtu.be/pEAXwijhfFY?t=1762)
 
-Bijou decided to become a Jeweler—the most natural choice for her, as a rock. She could even take parts of herself apart if she had to. She soon finds company with others who also took up the same role. Roa, a jewel entrepreneur, is quick to bring innocent jewelers like Bijou under her wing as employees for her up-and-coming [business](https://www.youtube.com/live/pEAXwijhfFY?si=pm8ohz6scqKw0s6B&t=2864). Through their partnership, they realize the potential of selling charms to the other heroes.
+Bijou decided to become a Jeweler—the most natural choice for her, as a rock. She could even take parts of herself apart if she had to. She soon finds company with others who also took up the same role. Roa, a jewel entrepreneur, is quick to bring innocent jewelers like Bijou under her wing as employees for her up-and-coming [business](https://www.youtube.com/live/pEAXwijhfFY?t=2864). Through their partnership, they realize the potential of selling charms to the other heroes.
 
 Our Princess isn’t used to the commoner life. She was once spoiled by being so rich that money was no object to her. The realization of having to make her own money and soiling her hands with hard work was... a foreign concept for her. Nonetheless, she forged on, determined to build her business. ["Princesses don't earn, they receive!"](https://youtu.be/pEAXwijhfFY?t=6275)
 
@@ -25,7 +25,7 @@ The rest of her day is spent building what will become the establishment for her
 
 Oh, and lava chicken.
 
-[Lalalava, Chichichicken](#embed:https://www.youtube.com/live/pEAXwijhfFY?si=g_MMHUO1MJ6g91V1&t=12480)
+[Lalalava, Chichichicken](#embed:https://www.youtube.com/live/pEAXwijhfFY?t=12480)
 
 ## Fanart
 

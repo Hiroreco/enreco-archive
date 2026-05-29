@@ -40,11 +40,11 @@ Ultimately, with the combined efforts of the remaining heroes—most notably her
 **Name:** Koseki Bijou
 **Job:** Jeweler
 
-In this second chapter, the mischievous gem maiden had lost all memories of her previous journey. So naturally, she did what made perfect sense: declared a random stranger—[the Hot Pink One](#entry:irys-entry)—as her [brother](https://www.youtube.com/live/xzAqu4vkY7I?si=eLLiweZ183nhGJCJ&t=2233).
+In this second chapter, the mischievous gem maiden had lost all memories of her previous journey. So naturally, she did what made perfect sense: declared a random stranger—[the Hot Pink One](#entry:irys-entry)—as her [brother](https://www.youtube.com/live/xzAqu4vkY7I?t=2233).
 
 She was obsessed with this “onii-chan,” wagging after her whenever she was near, snuggling up to her like an actual little brother asking about her school day (don’t question the gender dynamic here). She cared so much about her that she was even willing to leap off a cliff beside her during her darkest moment. She even organized an entire gender reveal party in her honor. Once again, Bijou's dedication and commitment were front and center.
 
-In contrast, her so-called brother had done virtually nothing good for her. If anything, she caused her more familial trauma than comfort, to the point where the poor gem had to rely on _maps_ as her coping [mechanism](https://www.youtube.com/live/4_zJe0t0558?si=fuv5o4ggw4tby11g&t=13403).
+In contrast, her so-called brother had done virtually nothing good for her. If anything, she caused her more familial trauma than comfort, to the point where the poor gem had to rely on _maps_ as her coping [mechanism](https://www.youtube.com/live/4_zJe0t0558?t=13403).
 
 Bijou also served as a diligent employee at the Gacharm business, a loyal wingwoman and sidekick for her boss, Roa, and a loving sister to Ina—once again, the two reunited from their past journey. Tam also became her mother, simply because Bijou wanted her to be. Déjà vu?
 

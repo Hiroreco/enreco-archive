@@ -10,7 +10,7 @@
 
 その異様な言動は、仲間たちを困惑させ、深い不安に陥れた。
 
-[ダイヤ…ダイヤ…ダイヤ…](#embed:https://www.youtube.com/live/mxOT9QEg5dI?si=QIefO6CBGQ4gie&start=315)
+[ダイヤ…ダイヤ…ダイヤ…](#embed:https://www.youtube.com/live/mxOT9QEg5dI?start=315)
 
 一体何があったのかと問われても、アメリアは断片的な記憶しか思い出せない。
 ただ「取り戻さなければならない」と、命の危機に瀕しているかのような切迫感を口にした。
@@ -30,7 +30,7 @@
 一冊の本に手を伸ばすが、どうしても手が届かない。
 そこへ幽霊の姿のネリッサが現れ、図らずもアメリアを心底震え上がらせてしまう。
 
-[「あ”あ”あ”あ”あ”あ”あ”あ”！」](#embed:https://www.youtube.com/live/mxOT9QEg5dI?si=lLk-ar130gfWZU1x&start=2120)
+[「あ”あ”あ”あ”あ”あ”あ”あ”！」](#embed:https://www.youtube.com/live/mxOT9QEg5dI?start=2120)
 
 本の内容は、アメリアが求める直接的な答えを教えてはくれなかった。だがネリッサはその物語を読み解き、
 「そこに描かれていた騎士は――“ダイヤモンド”と呼ばれていた」と告げる。

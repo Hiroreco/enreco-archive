@@ -34,12 +34,12 @@ Yet with the help of her comrades, the corruption was vanquished, and Fuwawa ret
 
 Carrying the same warm-hearted spirit into the second chapter, Fuwawa took on the role of a [chef](#entry:jobs-entry)—not for power or glory, but simply because she wanted to make others smile through her cooking. With that goal, she wasted no time building a cozy little café, hoping it could become a space where people could come together in a kingdom rife with drama.
 
-She worked hard, gathering ingredients and crafting dishes with care. Things, however, didn’t go as planned. For days, not a single dish was sold. Her café was quiet, ignored. She began to feel invisible, thinking the other chefs were just too good. With no involvement in anyone else's wild adventures, Fuwawa began to wonder if her dream had been too naive. [Loneliness](https://www.youtube.com/live/geV0HyX5LUA?si=LCtvw4QaRwM0kijj&t=11917) crept in.
+She worked hard, gathering ingredients and crafting dishes with care. Things, however, didn’t go as planned. For days, not a single dish was sold. Her café was quiet, ignored. She began to feel invisible, thinking the other chefs were just too good. With no involvement in anyone else's wild adventures, Fuwawa began to wonder if her dream had been too naive. [Loneliness](https://www.youtube.com/live/geV0HyX5LUA?t=11917) crept in.
 
 > Hang in there, me.
 > I just have to believe...
 
-But then at the end of Day 4, a kind [orange lady](#entry:kiara-entry) gave her the boost she needed. Word spread of the wholesome chef and her heartfelt dishes. People flocked to her café. Her food sold out. The fluffy one was [overjoyed,](https://www.youtube.com/live/Yv3kKfGJUfI?si=0iZ1c9GCaj656Svv&t=546) and not only that, she was commissioned to prepare a grand buffet for the kingdom’s gender reveal party.
+But then at the end of Day 4, a kind [orange lady](#entry:kiara-entry) gave her the boost she needed. Word spread of the wholesome chef and her heartfelt dishes. People flocked to her café. Her food sold out. The fluffy one was [overjoyed,](https://www.youtube.com/live/Yv3kKfGJUfI?t=546) and not only that, she was commissioned to prepare a grand buffet for the kingdom’s gender reveal party.
 
 It felt like the perfect ending.
 

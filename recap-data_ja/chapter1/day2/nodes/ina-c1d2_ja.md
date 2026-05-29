@@ -23,6 +23,6 @@
 
 その後は、カリの「お父さんっぽい」[言動](https://www.youtube.com/live/z4R10dPeuwY?feature=shared&t=7411)を観察して思わず笑みをこぼしたり、ネリッサと遭遇した際には、自慢げにダイヤの剣を見せびらかしたりと、こうした一つ一つの交流が、彼女にこの王国の多彩な個性を深く理解させていったのでした。
 
-[ダイヤの剣を見せびらかすイナ](#embed:https://www.youtube.com/live/z4R10dPeuwY?si=GDfvf9GNu8D0JHOx&start=7120)
+[ダイヤの剣を見せびらかすイナ](#embed:https://www.youtube.com/live/z4R10dPeuwY?start=7120)
 
 夜が訪れる頃、イナはいつもと違う、珍しい選択をします。それは、*オーシャンテンプルダンジョン*に再び挑み、[今度は一人で](https://www.youtube.com/live/z4R10dPeuwY?feature=shared&t=9950)攻略することでした。おそらく、“ソロレベリング”のスリルに惹かれ、その挑戦を心から楽しんでいたのでしょう。

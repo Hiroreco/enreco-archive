@@ -24,7 +24,7 @@ The dungeon’s atmosphere was oppressive and grim, resembling a massive, forebo
 
 Unlike the dungeons before it, the Heart of Ruin featured no puzzles or riddles.
 
-The heroes began their journey in a darkened library, where a select few among them—**Fuwawa, Mococo, Bijou, Nerissa, and Shiori**—were revealed to be [cursed](https://www.youtube.com/live/FlPFFE5_X3Y?si=X225RDkHgfG9S-lA&t=8877), having succumbed to the corruption. Twisted by its influence, they turned against the rest of the party, [hindering](https://www.youtube.com/live/FlPFFE5_X3Y?si=Y0CkESZCjPvnlNT4&t=9221) their progress and becoming obstacles along the path forward. The remaining heroes were tasked with purifying their friends.
+The heroes began their journey in a darkened library, where a select few among them—**Fuwawa, Mococo, Bijou, Nerissa, and Shiori**—were revealed to be [cursed](https://www.youtube.com/live/FlPFFE5_X3Y?t=8877), having succumbed to the corruption. Twisted by its influence, they turned against the rest of the party, [hindering](https://www.youtube.com/live/FlPFFE5_X3Y?t=9221) their progress and becoming obstacles along the path forward. The remaining heroes were tasked with purifying their friends.
 
 Within this first library was a book titled _“Prelude of Ruin,”_ hinting at the events and powers that brought the kingdom to its current state.
 
@@ -32,7 +32,7 @@ Within this first library was a book titled _“Prelude of Ruin,”_ hinting at 
 
 Progressing onward, the heroes were thrown into a series of arenas where they fought off waves of Stains. Each victory built up **Purification Energy**. The goal was to fill this energy meter to cleanse their corrupted comrades. However, their progress was threatened by attacks and traps from their cursed allies, which drained the energy meter and delayed their rescue.
 
-Only once the meter was filled could each corrupted hero [be freed](https://www.youtube.com/live/FlPFFE5_X3Y?si=gTrix4HT7CG7-0Xx&t=9250) and return to the group.
+Only once the meter was filled could each corrupted hero [be freed](https://www.youtube.com/live/FlPFFE5_X3Y?t=9250) and return to the group.
 
 #### The Final Battle
 
@@ -51,7 +51,7 @@ Defeating this entity meant liberation: of the land, the Princess, and the Outla
 > No... No... Nothing stays pure.
 > I'll show you.
 
-[The battle against The Curse](#embed:https://www.youtube.com/live/mb91g7vQSnA?si=aPXghWa1h648PaCG&t=6678)
+[The battle against The Curse](#embed:https://www.youtube.com/live/mb91g7vQSnA?t=6678)
 
 But this was not the end.
 As the heroes would soon learn, the events on the final day would change everything.

@@ -34,7 +34,7 @@ Ina proved herself to be loyal and dependable, both to her guild and to her belo
 **Name:** NinoIna
 **Job:** Jeweler
 
-Ina maintained her calm and collected nature into the second journey. While everyone else was out scamming each other or stirring up chaos at the start, she spent her time quietly farming [potatoes](https://www.youtube.com/live/BkJIFGhpKIY?si=TOOasp2g_o_oVHFp&t=6891) by her humble abode.
+Ina maintained her calm and collected nature into the second journey. While everyone else was out scamming each other or stirring up chaos at the start, she spent her time quietly farming [potatoes](https://www.youtube.com/live/BkJIFGhpKIY?t=6891) by her humble abode.
 
 > Oh Potato Fairy, tell me. What must I do.
 > Should I fry them?

@@ -21,7 +21,7 @@ Her determination was unwavering, but so intense that she became detached from t
 
 ### How it went
 
-On Day 4, while going about her usual work, she spotted a wandering chicken near her café. The sight reminded her of her first journey, when she had cared for flocks of her own. Feeling nostalgic, she took the chicken in as a companion and named it [Moco-chan](https://www.youtube.com/live/geV0HyX5LUA?si=MON2jav5merqyE4a&t=3907).
+On Day 4, while going about her usual work, she spotted a wandering chicken near her café. The sight reminded her of her first journey, when she had cared for flocks of her own. Feeling nostalgic, she took the chicken in as a companion and named it [Moco-chan](https://www.youtube.com/live/geV0HyX5LUA?t=3907).
 
 > Moco-chan, ehehehe.
 > We're going to stay together forever, right?
@@ -42,7 +42,7 @@ Just as despair was settling in, **Kiara** noticed the struggling chef. Without 
 
 That single act of kindness set off a chain reaction. Word spread. One customer turned into two, then many more. Fuwawa’s food was finally getting the love it deserved.
 
-Upon realizing what was happening, Fuwawa was [overjoyed.](https://www.youtube.com/live/Yv3kKfGJUfI?si=0iZ1c9GCaj656Svv&t=546)
+Upon realizing what was happening, Fuwawa was [overjoyed.](https://www.youtube.com/live/Yv3kKfGJUfI?t=546)
 
 ### How it ended
 

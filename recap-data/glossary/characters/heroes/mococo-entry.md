@@ -27,7 +27,7 @@ By the second day, she had discovered [FaunaMart’s lottery tickets](#entry:fau
 
 Yet there were glimpses of something more to her. Her obsession with money led her to understand she actually needed to _work_ for it—do business, hustle, and earn her keep. Her sister and friends were still the most important things in her life. Underneath it all, Mococo was terrified of being alone. Eventually, she managed to quit gambling—at least until NanaEleven tempted her back.
 
-By the journey’s end, she fell to the corruption—first swayed by Bijou’s influence, and by far the most afflicted of all. She hurt others, ravaged the lands, slaughtered animals and destroyed crops, which led everyone to pull away from her—the very thing she dreaded most. Even Elizabeth, whom she adored most, looked on with [wary eyes.](https://www.youtube.com/live/6TXwZjXEoxk?si=N5N4vgyOALaXs9db&t=1610)
+By the journey’s end, she fell to the corruption—first swayed by Bijou’s influence, and by far the most afflicted of all. She hurt others, ravaged the lands, slaughtered animals and destroyed crops, which led everyone to pull away from her—the very thing she dreaded most. Even Elizabeth, whom she adored most, looked on with [wary eyes.](https://www.youtube.com/live/6TXwZjXEoxk?t=1610)
 
 But with everyone’s help, Mococo was saved. She carried immense gratitude in her heart. For all her chaos, she was still just a kind, innocent puppy at her core.
 
@@ -40,7 +40,7 @@ The second journey offered Mococo a fresh start. Determined to do better, she vo
 
 And she did. As a dedicated jeweler and loyal employee of [Gacharms,](#entry:raora-entry) she kept herself busy and, with no lottery around, was spared from falling into old habits again. Sure, the gambling didn’t vanish completely, but it was far less destructive this time.
 
-Her chaotic nature persisted, though. Eavesdropping became a new hobby—on one occasion, she overheard Mordan’s therapy session and decided to open her own [therapy business.](https://www.youtube.com/live/T2StVW1kSxw?si=-ZizHO6g5xCSHEr9&t=9493) Never mind the lack of credentials; her sessions consisted of “uh huh, yeah, just follow your heart,” delivered like a true pro. But hey, for dirt-cheap prices, you got what you paid for.
+Her chaotic nature persisted, though. Eavesdropping became a new hobby—on one occasion, she overheard Mordan’s therapy session and decided to open her own [therapy business.](https://www.youtube.com/live/T2StVW1kSxw?t=9493) Never mind the lack of credentials; her sessions consisted of “uh huh, yeah, just follow your heart,” delivered like a true pro. But hey, for dirt-cheap prices, you got what you paid for.
 
 > That’s what therapy is like, huh? Just nod, say “uh huh,” “mm,” “yeah.”
 > You don't need a lisence for this stuff.

@@ -26,7 +26,7 @@
 - 参加者全員を**数値の順番通り**に正しく並べること。
 - あるいは、「呪われし者」を見破り、投票によって排除すること。
 
-[儀式の様子](#embed:https://www.youtube.com/live/tJ_YXGE3o2w?si=PuRoJPyk6DJCIjQC&t=5809)
+[儀式の様子](#embed:https://www.youtube.com/live/tJ_YXGE3o2w?t=5809)
 
 ### 報酬
 

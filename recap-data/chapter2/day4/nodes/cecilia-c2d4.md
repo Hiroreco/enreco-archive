@@ -15,7 +15,7 @@ Cecilia seeks an audience with the princess in order to finally be told the trut
 
 Once Immerkind learns the truth about the Outsider, Tam Gandr explains how time travel could still explain how Iphania and the Outsider are siblings. This means Cecilia still has a chance, and this moment brings Queen Tam and Cecilia closer.
 
-[Drinks under the bridge](#embed:https://www.youtube.com/live/NGC0VaSUPnE?si=PSdF1DRfJUXe6ZXR&t=15970)
+[Drinks under the bridge](#embed:https://www.youtube.com/live/NGC0VaSUPnE?t=15970)
 
 Cecilia continues to toil for money to pay off her debts and purchase the ring for Iphania; however, she continues to be involved in the struggles of her fellow Starlights. She eventually earns enough money and gleefully pays off her debt and [purchases the ring](https://www.youtube.com/watch?v=NGC0VaSUPnE&t=19525s).
 

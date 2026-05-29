@@ -24,9 +24,9 @@
 
 主なパズルは3種類：
 
-- **壺割り:** 手がかりを元に、並んだ中から正しい[5つの壺](https://www.youtube.com/live/N3v-MJXHQ0w?si=jWPSiUlHzjpY3R3E&t=3275)を見つけて壊す。
-- **館の迷宮:** 無数の偽りの扉が並ぶ混乱の[迷宮](https://www.youtube.com/live/N3v-MJXHQ0w?si=7nPVVdHr_PtQeouW&t=3540)を突破し、出口を探し当てる。
-- **スズラン探し:** いくつものチェストを調べ、\_スズラン\_と呼ばれる[花](https://www.youtube.com/live/N3v-MJXHQ0w?si=2D9pH-3fNKE1RX3u&t=4573)を集める。
+- **壺割り:** 手がかりを元に、並んだ中から正しい[5つの壺](https://www.youtube.com/live/N3v-MJXHQ0w?t=3275)を見つけて壊す。
+- **館の迷宮:** 無数の偽りの扉が並ぶ混乱の[迷宮](https://www.youtube.com/live/N3v-MJXHQ0w?t=3540)を突破し、出口を探し当てる。
+- **スズラン探し:** いくつものチェストを調べ、\_スズラン\_と呼ばれる[花](https://www.youtube.com/live/N3v-MJXHQ0w?t=4573)を集める。
 
 ### 報酬
 

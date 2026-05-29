@@ -13,7 +13,7 @@
 
 最終日に備える決意を固めたモココは、その後しばらく素材集めやポテトサラダの大量生産で資金を稼ぐことに専念します。努力の甲斐あって、所持金は一万コインを突破。試しにカジノへ挑戦し、連敗の末に見事大勝利を収め、勝利の美酒に酔いしれました。
 
-[イエエエエエエエエエエエエエイ!!!](#embed:https://www.youtube.com/live/qFnAgJtQtiY?si=fPjknD7-xV_5KP6U&start=12471)
+[イエエエエエエエエエエエエエイ!!!](#embed:https://www.youtube.com/live/qFnAgJtQtiY?start=12471)
 
 ですが、そんな楽しい一日も長くは続きませんでした。その日の後、モココにフワワから慌てた声で連絡が入ります。彼女の大切なニワトリたちが[忽然と姿を消した](https://www.youtube.com/live/qFnAgJtQtiY?feature=shared&t=11111)というのです。泣き崩れるフワワを見て、モココは心配になり、調査を決意します。真っ先に疑ったのは[フォーナマート](https://www.youtube.com/live/qFnAgJtQtiY?feature=shared&t=11362)でした。証拠はなかったものの、ニワトリをさらってクジ券に加工したのではないか、と推理したのです。荒唐無稽に聞こえるかもしれませんが、あのフォーナマートならあり得なくもない話でした。
 
@@ -23,7 +23,7 @@
 
 そこから先の記憶は、曖昧なものでした。
 
-[B̶̢̫̝̖̗̘̹̩͇̦̋̉̀̀Ȃ̵͉͇̰͓̝̩̙͍̒̋ͅǗ̶̗̇͌̋ ̷̨̝̲̱͂͛̄̃͑̈́̋̏̚͝B̶̢͚̬͕͔̟̻͓̉̏́̏̍̊̄̇̀̐̀́̚͝A̸̛̞͚̪͕͙͎̒̏͂̍̍͋͝U̴̲͇̗͈͑̒̄͛̓̓͌̅̄̔̚](#embed:https://www.youtube.com/live/qFnAgJtQtiY?si=I8pw4o1eeG_aDK5a&start=12974)
+[B̶̢̫̝̖̗̘̹̩͇̦̋̉̀̀Ȃ̵͉͇̰͓̝̩̙͍̒̋ͅǗ̶̗̇͌̋ ̷̨̝̲̱͂͛̄̃͑̈́̋̏̚͝B̶̢͚̬͕͔̟̻͓̉̏́̏̍̊̄̇̀̐̀́̚͝A̸̛̞͚̪͕͙͎̒̏͂̍̍͋͝U̴̲͇̗͈͑̒̄͛̓̓͌̅̄̔̚](#embed:https://www.youtube.com/live/qFnAgJtQtiY?start=12974)
 
 やがてモココが[正気を取り戻した](https://www.youtube.com/live/qFnAgJtQtiY?feature=shared&t=13135)時には、まるで深い眠りから覚めたような感覚でした。インベントリにあの帽子がある理由も、爪に血が付いている理由も思い出せません。泣きながらフワワがニワトリの行方を問い詰めても、[答えられることは何もなかった](https://www.youtube.com/live/qFnAgJtQtiY?feature=shared&t=13238)のです。
 

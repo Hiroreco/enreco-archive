@@ -7,7 +7,7 @@ Afterward, Roa and Lady Bloodflame swept through the town together, tearing down
 
 Confused by the sudden appearance of these abominations, Lady Bloodflame questioned what exactly was happening. Roa hesitated at first, clearly uncertain whether she should explain the truth yet again, but eventually decided to lead the knight toward the harbor where it felt like a [safer place](https://www.youtube.com/watch?v=P3uwaftxSG0&t=1280) to speak openly.
 
-There, Roa once again revealed her theories regarding the sheep and the fractures within reality itself. Surprisingly, Lady Bloodflame did not reject her words. Instead, the red knight nodded along and even contributed her own observations, pointing out how the previous realm had strangely lacked [horses](https://www.youtube.com/live/P3uwaftxSG0?si=nZPYhIKN8iiWJ9wr&t=1458), only for them to suddenly exist once again in this world.
+There, Roa once again revealed her theories regarding the sheep and the fractures within reality itself. Surprisingly, Lady Bloodflame did not reject her words. Instead, the red knight nodded along and even contributed her own observations, pointing out how the previous realm had strangely lacked [horses](https://www.youtube.com/live/P3uwaftxSG0?t=1458), only for them to suddenly exist once again in this world.
 
 That alone felt deeply unsettling.
 

@@ -6,7 +6,7 @@
 
 ## Overview
 
-**Memories:** [Recollected](https://youtu.be/qV7dgz75tVo?si=0-9CnAZpmqpDPNnO)
+**Memories:** [Recollected](https://youtu.be/qV7dgz75tVo)
 **Revelation:** [Chrono Surge](#entry:chrono-surge-entry)
 
 Tam Gandr, now fully remembered as Ouro Kronii, was infamous in the kingdom for her oppressive charisma, razor-sharp tongue, inflated narcissism, and most of all—her endlessly boasted, self-proclaimed status as Queen.
@@ -37,7 +37,7 @@ Tam began her second journey with no memory of the first one. Gone was the comma
 
 That peace didn’t last.
 
-After reclaiming her memories at [Star Site: Chronos](#entry:star-site-chronos-entry)—where the Warden, Ouro Kronii, reawakened within her—Tam was pulled back into chaos. Her fumbling knight Gonathon brought [drama](https://www.youtube.com/live/YVyeKQ-6Ka8?si=vXgt9AUn-I4rIQ5o&t=11385) to her door via a complicated telenovela-like story with Shiori. Cecilia publicly framed her as a tyrannical queen. Things got so bad that even her therapist asked if she’d considered murder as a reasonable solution.
+After reclaiming her memories at [Star Site: Chronos](#entry:star-site-chronos-entry)—where the Warden, Ouro Kronii, reawakened within her—Tam was pulled back into chaos. Her fumbling knight Gonathon brought [drama](https://www.youtube.com/live/YVyeKQ-6Ka8?t=11385) to her door via a complicated telenovela-like story with Shiori. Cecilia publicly framed her as a tyrannical queen. Things got so bad that even her therapist asked if she’d considered murder as a reasonable solution.
 
 Yet the most tumultuous arc was her relationship with the [Hot Pink One](#entry:irys-entry). Fate had seemingly given them a second chance. Early on, the two bonded, exchanged cheesy nicknames like “Tammy” and “Pinky,” and formed a surprisingly sweet connection.
 

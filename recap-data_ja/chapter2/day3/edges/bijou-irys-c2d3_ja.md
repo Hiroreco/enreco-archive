@@ -8,7 +8,7 @@
 
 しかし、そこで彼女が目にしたのは、対峙とはかけ離れた光景だった。
 
-[ハッピーバースデー!](#embed:https://www.youtube.com/live/EKjcWfEGsB0?si=s8GiS__Q7mOaFuB_&t=436)
+[ハッピーバースデー!](#embed:https://www.youtube.com/live/EKjcWfEGsB0?t=436)
 
 なんと、店の――いや、正確には彼女の家の中心にぽっかりと開いた木の幹の中から――兄が「ハッピーバースデー！」と飛び出してきたのだ。陽気で懐かしい歌を響かせながら、彼女の誕生日を祝うために。
 

@@ -35,4 +35,4 @@ Gonathon did not know. All he knew was that these unresolved feelings would like
 
 ...But did Shiori truly remember nothing at all?
 
-[You like this guy?](#embed:https://www.youtube.com/live/vRVwJrdNzGk?si=VAQq5PgF9qr9SyZi&t=2442)
+[You like this guy?](#embed:https://www.youtube.com/live/vRVwJrdNzGk?t=2442)

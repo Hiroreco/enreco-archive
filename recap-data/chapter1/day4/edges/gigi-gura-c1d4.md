@@ -19,7 +19,7 @@ Was it all in good fun? Probably. But for Gonathon, it was an ordeal.
 
 Somewhere along the way, though, an odd camaraderie formed between the unlikely trio. Beneath the layers of teasing and chaos, Gura and Gonathon found common ground—or at least enough of it to compare the length and girth of their hats.
 
-[Big Gnome Man](#embed:https://www.youtube.com/live/72SJQRQ7qi0?si=cUCbHoToUYsfGNWz&t=13728)
+[Big Gnome Man](#embed:https://www.youtube.com/live/72SJQRQ7qi0?t=13728)
 
 ## Fanart
 

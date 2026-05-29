@@ -43,7 +43,7 @@
 
 そして――選択の時が訪れる。
 
-[レベリオン vs シャイニングスターズ](#embed:https://www.youtube.com/live/2rnclFeQ5EM?si=gc6xDzQakf3gCmrw&t=2787)
+[レベリオン vs シャイニングスターズ](#embed:https://www.youtube.com/live/2rnclFeQ5EM?t=2787)
 
 ニクスは英雄たちに問いかけた。
 

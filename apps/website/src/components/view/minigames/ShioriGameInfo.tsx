@@ -16,7 +16,7 @@ const ShioriGameInfo = () => {
             <p>{t("options")}</p>
             <p>{t("challenge")}</p>
             <TimestampHref
-                href="https://www.youtube.com/live/gVAtGMLBJos?si=EyxaXf2cdLNBNqxy&t=1107"
+                href="https://www.youtube.com/live/gVAtGMLBJos?t=1107"
                 caption={t("timestampCaption")}
                 type="embed"
             />

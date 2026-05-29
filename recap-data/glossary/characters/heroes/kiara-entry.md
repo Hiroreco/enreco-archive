@@ -18,7 +18,7 @@ Shakira, short for Tanakisha Karia and now known as Kiara, is an almighty phoeni
 **Name:** Tanakisha Karia of the Oranges, Shakira, The Savior of the Lesbians
 **Guild:** Amber Coin
 
-Tanakisha Karia’s destiny was clear from the moment she awoke: to save the ~~lesbians~~ Libestans. Embracing such a heroic calling, the orange lady always tried her best to stand on the side of justice. She reported potential [scams](https://www.youtube.com/live/qKlzaYirN88?feature=shared&t=1129) to Queen Tam Gandr, shielded her friends from deceit, and openly challenged misdeeds. When Nerissa kept pestering Elizabeth to gain her affection, Shakira didn’t hesitate to [call her out.](https://www.youtube.com/live/3cr3DLpyB60?si=lQ_VjUGHZ9A1G2r7&t=13330)
+Tanakisha Karia’s destiny was clear from the moment she awoke: to save the ~~lesbians~~ Libestans. Embracing such a heroic calling, the orange lady always tried her best to stand on the side of justice. She reported potential [scams](https://www.youtube.com/live/qKlzaYirN88?feature=shared&t=1129) to Queen Tam Gandr, shielded her friends from deceit, and openly challenged misdeeds. When Nerissa kept pestering Elizabeth to gain her affection, Shakira didn’t hesitate to [call her out.](https://www.youtube.com/live/3cr3DLpyB60?t=13330)
 
 Life could feel lonely in her guild; the Amber Coin had far fewer members than most, especially after one wandered off to the woods and another switched guilds. Still, she pressed on undeterred.
 
@@ -45,7 +45,7 @@ Sometimes, though, her eagerness to help caused trouble of its own. With only th
 
 Her relationships in this chapter were far more entangled than in the first, where she largely kept to herself. She even developed a crush on Immerkind… who happened to be her cousin. Perhaps a sign of just how starved for romance she was after her lonely first journey.
 
-Naturally, that didn’t pan out. But when Shakira hit her lowest point, feeling alone in a kingdom overflowing with romance, she found hope in an unexpected place: a certain beeg cat. In a sudden, heartwarming turn, Kiara married Roa, her newfound admiration [blossoming](https://www.youtube.com/live/ngfdLbrpeM4?si=eGpYwslFn09813CQ&t=13080) into love. Her second chapter closed on a truly wholesome note. She’d finally earned the happy ending to her love story—what more could anyone want?
+Naturally, that didn’t pan out. But when Shakira hit her lowest point, feeling alone in a kingdom overflowing with romance, she found hope in an unexpected place: a certain beeg cat. In a sudden, heartwarming turn, Kiara married Roa, her newfound admiration [blossoming](https://www.youtube.com/live/ngfdLbrpeM4?t=13080) into love. Her second chapter closed on a truly wholesome note. She’d finally earned the happy ending to her love story—what more could anyone want?
 
 ## Trivia
 

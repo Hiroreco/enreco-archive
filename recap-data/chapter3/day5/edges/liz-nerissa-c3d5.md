@@ -69,7 +69,7 @@ Lady Bloodflame arrived, unsurprised. As if she already knew what Nerissa was ab
 
 The maiden handed the rose and ring to her, and with confidence, declared:
 
-["Lady Bloodflame, be mine"](#embed:https://www.youtube.com/live/4anxJRoJo4s?si=cYDR5cbVw-5VqPK_&t=19610)
+["Lady Bloodflame, be mine"](#embed:https://www.youtube.com/live/4anxJRoJo4s?t=19610)
 
 The Jade Knight did not need to think. It was as if she was waiting for this very moment—for the maiden to finally admit her feelings. That she did not only think of her as a "roommate" but someone far more special.
 

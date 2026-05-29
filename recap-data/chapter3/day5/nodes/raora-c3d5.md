@@ -20,7 +20,7 @@ A quest required Roa's immediate attention, so off to the prison cell area she g
 
 Prison Zero even reveals his true name as:
 
-[AAAHHHH!](#embed:https://www.youtube.com/live/rFmdOarYXuE?si=z5VHbHRDtqRMz1Wr&t=2446)
+[AAAHHHH!](#embed:https://www.youtube.com/live/rFmdOarYXuE?t=2446)
 
 After helping the Libestal citizens, Roa stumbled upon Lady Bloodflame.
 They discussed each other's well-being and activities they have been up to since they last spoke. Both of them waved goodbye momentarily because they found each other again later with Mococo assisting them where to find [enigmatic stones](https://www.youtube.com/watch?v=rFmdOarYXuE&t=4165).

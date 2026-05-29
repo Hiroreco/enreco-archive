@@ -3,7 +3,7 @@
 
 Spotting some familiar figures within earshot of her, puzzle pieces of past memories immediately fell into place—NinoIna's title of Hero, and her sister, who she once freed from the influence of Ruination, all history from the lost mirage that was the realm of Libestal.
 
-A fellow fluent [catto speaker](https://www.youtube.com/live/BkJIFGhpKIY?si=AdkRu0SJWePxchf7&t=479) helped Ina recount her previous journey of Empathy, confirming the King of the false Libestal as a masquerade of the Outsider. Beyond the Library shelves was the true Libestal back in the past, which harbored the genesis of the Outsider (no thanks to the birds and the bees—and some alleged fairy godmother), and The Librarian’s scattered memories paramount to unraveling the Outsider’s destiny.
+A fellow fluent [catto speaker](https://www.youtube.com/live/BkJIFGhpKIY?t=479) helped Ina recount her previous journey of Empathy, confirming the King of the false Libestal as a masquerade of the Outsider. Beyond the Library shelves was the true Libestal back in the past, which harbored the genesis of the Outsider (no thanks to the birds and the bees—and some alleged fairy godmother), and The Librarian’s scattered memories paramount to unraveling the Outsider’s destiny.
 
 Fia’s memory fragments, which crashed onto the land as felled stars, had become strongholds of the Ruination. Ina was to seek assistance from the court’s mages as they gradually map out safe paths to travel to those Star Sites throughout the week. That was, if she could channel her navigation skills to find the castle exit.
 
@@ -15,9 +15,9 @@ Ina was eager to shirk the status of unemployed Hero and attain grand riches, em
 
 She was making good progress on her first Jewel-working task, when she became enamored by the beautiful sights of the mature untended fields next to the castle. As she uprooted and replanted the wheats and potatoes, a faraway whisper motivated her to pour her heart and soul into honoring the potato harvests. Ina vowed to make the "potato fairy" proud through her dedication.
 
-[Potato...](#embed:https://www.youtube.com/live/BkJIFGhpKIY?si=TOOasp2g_o_oVHFp&t=6891)
+[Potato...](#embed:https://www.youtube.com/live/BkJIFGhpKIY?t=6891)
 
-Roa cornered the currently-independent Jeweler Ina to inquire on her non-profiteering business practices. Later on, Ina was beckoned to join Roa and Bijou at the Lucky Lounge, conducting their first union meeting as Jewelers to discuss a [joint venture](https://www.youtube.com/live/BkJIFGhpKIY?si=5zYHHtJtycqaYXKe&t=10388), in a thinly-veiled attempt by Roa to monopolize the _gacha_-fied Charm market. With a preliminary agreement to sell Basic Charms at 150 Coins, the Jewelers settled on their future shop name "Ga*charms*."
+Roa cornered the currently-independent Jeweler Ina to inquire on her non-profiteering business practices. Later on, Ina was beckoned to join Roa and Bijou at the Lucky Lounge, conducting their first union meeting as Jewelers to discuss a [joint venture](https://www.youtube.com/live/BkJIFGhpKIY?t=10388), in a thinly-veiled attempt by Roa to monopolize the _gacha_-fied Charm market. With a preliminary agreement to sell Basic Charms at 150 Coins, the Jewelers settled on their future shop name "Ga*charms*."
 
 The cautious self-proclaimed Hero toiled the rest of the day away clearing the entire Quest board gaining many a Coin, plus experience that she could no longer take in due to the technical fatigue of battle. Regardless, she was content with completing her commitments, getting a view of the [beautiful artworks in Pygmalion's gallery](https://www.youtube.com/watch?v=BkJIFGhpKIY&t=12937s) and spending some of her disposable income on failed attempts to get a new hat.
 

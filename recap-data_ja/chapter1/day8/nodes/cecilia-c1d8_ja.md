@@ -15,7 +15,7 @@
 
 それでも、彼女は計画の続行を決意する。ファウナの協力を取り付け、儀式を完成させると、特製の“ケーキ”も用意した。
 
-[古代の儀式を執り行う](#embed:https://www.youtube.com/live/4co7VDSYTqU?si=QuTTkq8TrPrr-k4U&start=3197)
+[古代の儀式を執り行う](#embed:https://www.youtube.com/live/4co7VDSYTqU?start=3197)
 
 時間ができたセシリアは、仲間たちと語らうことにした。ナナムーやファウナを相手に、例の王に関する陰謀論――「王は邪悪だ」といった、いつもの[おしゃべり](https://www.youtube.com/live/4co7VDSYTqU?feature=shared&t=3652)を披露し、盛り上がる。
 

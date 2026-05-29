@@ -7,4 +7,4 @@ Before IRyS could even process, let alone answer, Immerkind offered no further c
 
 It left IRyS more confused than anything. Troubled, even. What was that about? What was Immerkind planning? Whatever it was, it didn’t feel like something to take lightly.
 
-[What the heck did that mean?](#embed:https://www.youtube.com/live/EKjcWfEGsB0?si=2_5TN6ArM8cZMpyW&t=837)
+[What the heck did that mean?](#embed:https://www.youtube.com/live/EKjcWfEGsB0?t=837)

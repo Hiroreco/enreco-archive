@@ -7,4 +7,4 @@
 
 こうして姫は、次なる使命を課した。次の『スターサイト』を調査せよ、と。そこにこそ、彼らが探し求める答えが眠っているかもしれないのだから――。
 
-[次に待つものは？](#embed:https://www.youtube.com/live/uX0rZYSrb4Q?si=UABlcxchRxHiGh_d&t=7144)
+[次に待つものは？](#embed:https://www.youtube.com/live/uX0rZYSrb4Q?t=7144)

@@ -5,11 +5,11 @@ After the absolute disasterclass that was her fumbling mess the day before, the 
 
 Her strategy was simple: flatter her. Call her beautiful—no, _gorgeous_—praise the majestic feathers by her hips, and even show off a bit of her smithing expertise by crafting an upgrade stone just for her. All while staying calm, cool, and collected.
 
-And it was working... until Nerissa gave her a [rose](https://www.youtube.com/live/CVF91CqGD80?si=NRlhYHYNbLkCksuF&t=7618) in return.
+And it was working... until Nerissa gave her a [rose](https://www.youtube.com/live/CVF91CqGD80?t=7618) in return.
 
 That’s when the cracks began to show.
 
-[Uhh, umm... uhhh...](#embed:https://www.youtube.com/live/CVF91CqGD80?si=1dSFxlg0GsDPjdU7&t=7799)
+[Uhh, umm... uhhh...](#embed:https://www.youtube.com/live/CVF91CqGD80?t=7799)
 
 First came the fluster. Then the fidgeting. Heat crawled up her face. In a desperate attempt to wrestle back control of the situation, she called Nerissa a witch—clearly hoping the accusation would distract from the butterflies wreaking havoc in her chest. But it only made things worse. “How so?” Nerissa asked. And thus began Elizabeth’s spiral.
 
@@ -31,7 +31,7 @@ A "reward" for the performance.
 
 The strawberry glowed so red it might as well have been a beacon.
 
-[Ahhh, umm... AHHHH](#embed:https://www.youtube.com/live/CVF91CqGD80?si=0WJ6A3s8dUHs0eLF&t=8123)
+[Ahhh, umm... AHHHH](#embed:https://www.youtube.com/live/CVF91CqGD80?t=8123)
 
 ## Fanart
 

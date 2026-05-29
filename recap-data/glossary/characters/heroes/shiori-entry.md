@@ -29,7 +29,7 @@ Shiori just wanted a simple life. But fate had other plans.
 
 Amidst the chaos, however, she found herself intrigued by Gonathon G—a sincere, loyal knight devoted to his Pearl. Something about his earnestness stirred something in her. She tried to win him over, but when she saw his heart already belonged to someone else, she let it go, quietly and respectfully.
 
-All of that might sound like harmless, comedic fluff, but those distractions obscured a deeper thread. Throughout the journey, Shiori dropped [cryptic remarks](https://www.youtube.com/live/dTf0g5tqzBU?si=Tv8iBK5Q96G63XiA&t=6689) suggesting she had never truly lost her memories at all—that she was merely playing along.
+All of that might sound like harmless, comedic fluff, but those distractions obscured a deeper thread. Throughout the journey, Shiori dropped [cryptic remarks](https://www.youtube.com/live/dTf0g5tqzBU?t=6689) suggesting she had never truly lost her memories at all—that she was merely playing along.
 
 It all came to a head in one final statement:
 
@@ -41,7 +41,7 @@ It all came to a head in one final statement:
 **Name:** Shiori Nyavella
 **Job:** Chef
 
-Chapter 2 began much like the first: Shiori was still odd, still drifting, still spouting peculiar lines. But this time, she chose to be more present, more deliberate in her interactions. She made stronger bonds, opened up, got involved. For some, it was refreshing. For others, like poor Mordan Ramsey, it was a nightmare, as Shiori [terrorized](https://www.youtube.com/live/zCWoxMbOZPk?si=Y_mj_z_Qpgx2OJKj&t=11795) the tavern owner endlessly in every way possible.
+Chapter 2 began much like the first: Shiori was still odd, still drifting, still spouting peculiar lines. But this time, she chose to be more present, more deliberate in her interactions. She made stronger bonds, opened up, got involved. For some, it was refreshing. For others, like poor Mordan Ramsey, it was a nightmare, as Shiori [terrorized](https://www.youtube.com/live/zCWoxMbOZPk?t=11795) the tavern owner endlessly in every way possible.
 
 But this new openness led to one of the chapter’s most significant romances: her relationship with [Gonathon](#entry:gigi-entry). Fate had seemingly offered Shiori another shot at the orange knight—now with no memories of his past beloved, who was no longer around.
 
@@ -51,7 +51,7 @@ In truth, Shiori took things further: she _wiped_ him from her memory entirely.
 
 Because yes—Shiori could manipulate memories. Whether she could do it to others was unclear, but she could certainly do it to herself.
 
-Beyond being a butter-churning, beet-eating chef, Shiori held another secret identity: _an Archiver_. She took on writing commissions, often silly "fanfics," but hidden among them were the “Memory” commissions. These were not fiction. These were truths—recollections of real [memories,](https://www.youtube.com/live/tJ_YXGE3o2w?si=7ajFqe3fWIHtWYs2&t=11107) forgotten or buried.
+Beyond being a butter-churning, beet-eating chef, Shiori held another secret identity: _an Archiver_. She took on writing commissions, often silly "fanfics," but hidden among them were the “Memory” commissions. These were not fiction. These were truths—recollections of real [memories,](https://www.youtube.com/live/tJ_YXGE3o2w?t=11107) forgotten or buried.
 
 Some found these tales amusing, while others found them disturbing. Some doubted their veracity. But Shiori insisted: _she never lied. Everything she wrote was the truth._
 

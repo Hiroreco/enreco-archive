@@ -5,4 +5,4 @@
 
 どうやら、リベスタル王国を災厄から救ったはずの名もなき英雄こそが、皮肉にもアウトサイダー誕生の引き金となっていたようなのだ。この矛盾に満ちた事実に、フィアは戸惑いを隠せない。真の姿を解き明かすためには、まだ見つかっていない、物語の残りのピースを探し出す必要がある。
 
-[矛盾する論理](#embed:https://www.youtube.com/live/wnQuawM-3Jc?si=xOEGDFaE3UrQyFHt&t=9209)
+[矛盾する論理](#embed:https://www.youtube.com/live/wnQuawM-3Jc?t=9209)

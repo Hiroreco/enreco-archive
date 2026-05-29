@@ -5,7 +5,7 @@
 
 しかし、一筋縄ではいかないのがこのパーティーの常。ダンジョン突入前から、なんとも奇妙な会話が飛び交った――シオリを搾乳するだの、ビジューの足を噛むだの、果てはリベスタルの王のズボンの怪しいシミの話まで、話はあらぬ方向へ。
 
-[搾乳と足舐め](#embed:https://www.youtube.com/live/Y2LV1PUQ0S8?si=yn517J-yzXmBKacT&start=963)
+[搾乳と足舐め](#embed:https://www.youtube.com/live/Y2LV1PUQ0S8?start=963)
 
 ダンジョンを無事クリアした後、ビジューはゴナソンが妻ジョン・ワトソンと[結婚](https://www.youtube.com/live/Y2LV1PUQ0S8?feature=shared&t=3111)する場になぜか立ち会うことに。だがその直後、ホットピンクワンが新妻に言い寄ろうとしているのを目撃する。仲間想いな（フリをする）ビジューはすぐさまゴナソンに知らせ、ゴナソンは血相を変えて駆けつけ、無事（？）[最愛の妻](https://www.youtube.com/live/Y2LV1PUQ0S8?feature=shared&t=4490)を取り戻したのだった。
 

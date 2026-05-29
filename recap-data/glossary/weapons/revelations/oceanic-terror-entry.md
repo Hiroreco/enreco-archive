@@ -14,4 +14,4 @@ Once the princess of Atlantis, the trident perfectly suits her royal, oceanic he
 
 When the fork’s ability is activated, Gura summons a surge of shimmering blue waves, like a cascading watery curtain, crashing toward her enemies and dealing damage. Some say the attack can push foes back as well, though sightings of that happening are few and far between.
 
-[Become wet!](#embed:https://www.youtube.com/live/PJtapc2_7ok?si=cvMAuRigm1F37XG_&t=5396)
+[Become wet!](#embed:https://www.youtube.com/live/PJtapc2_7ok?t=5396)

@@ -24,7 +24,7 @@ But the truth hit, slowly at first, then all at once. The response wasn’t what
 
 That was when the dam broke.
 
-[It's over](#embed:https://www.youtube.com/live/I75IWfMGVgM?si=u-PlbeDW8LMpZi8Y&t=9163)
+[It's over](#embed:https://www.youtube.com/live/I75IWfMGVgM?t=9163)
 
 Tears flowed—not from weakness, but from the raw weight of unreciprocated love.
 

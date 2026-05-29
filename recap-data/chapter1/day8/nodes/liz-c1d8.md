@@ -3,7 +3,7 @@
 
 Throughout her journey, Elizabeth experienced flashes of memories—snapshots of her time in the kingdom. They ranged from moments of deep camaraderie to reflections on her ideals. But this time, the memory was different—darker and more vivid.
 
-[A knight, and a sight of ruin](#embed:https://www.youtube.com/live/_urPfTQnLes?si=rKBD2pyCzW9lFY-3&start=329)
+[A knight, and a sight of ruin](#embed:https://www.youtube.com/live/_urPfTQnLes?start=329)
 
 In her vision, Elizabeth trudged through a land once bright and lively, now consumed by fire and decay. The sight was grim: charred fields, crumbled homes, and lifeless landscapes. She wanted to believe it was a nightmare, but the heavy air told her it was all too real. The corruption—the vile force she had sworn to protect against—had spread far and wide.
 
@@ -11,19 +11,19 @@ Just the day before, Elizabeth had bid her companions farewell, leaving the king
 
 Awakening in the ruined kingdom, Elizabeth stood alone. Amid the desolation, only a solitary Scarlet Knight remained. The loneliness was suffocating. To honor her lost chickens, she built a small memorial before beginning the arduous task of cleaning the ruined land by herself.
 
-[I feel... alone](#embed:https://www.youtube.com/live/_urPfTQnLes?si=ecdhhjj71kzhplJw&start=1670)
+[I feel... alone](#embed:https://www.youtube.com/live/_urPfTQnLes?start=1670)
 
 Companionship came only when the other heroes awoke. Among them were Calli, the trusted tavern owner, and Elizabeth’s guildmate. Together, they speculated on the corruption’s [origins](https://www.youtube.com/live/_urPfTQnLes?feature=shared&t=5396). Initially, Elizabeth suspected Nerissa, the "witch," but Nerissa proclaimed her innocence. Suspicion then fell on Koseki Bijou, whose behavior had grown increasingly erratic.
 
 Determined to uncover the truth, Elizabeth drank an invisibility potion, intending to spy on Bijou. But her stealth attempt ended in a less-than-graceful predicament.
 
-[I am the Magical Talking Cape!](#embed:https://www.youtube.com/live/_urPfTQnLes?si=sgeX8b8c-lLqAn0n&start=7369)
+[I am the Magical Talking Cape!](#embed:https://www.youtube.com/live/_urPfTQnLes?start=7369)
 
 Despite the setbacks, Elizabeth’s confrontation with Bijou yielded critical evidence: the princess was indeed [corrupted](https://www.youtube.com/live/_urPfTQnLes?feature=shared&t=7533). In a private conversation with Calli, Elizabeth learned unsettling secrets about the [kingdom](https://www.youtube.com/live/_urPfTQnLes?feature=shared&t=7755). Guards spoke in cryptic riddles, and her guild’s presence in the castle had seemingly vanished. Elizabeth trusted Calli’s words but struggled to reconcile these revelations with her loyalty to the kingdom.
 
 Suspicion weighed heavily on Elizabeth’s mind, and even small interactions between her companions sparked doubt. When Nerissa and Amelia entered the onsen together, Elizabeth’s curiosity led her to drink another invisibility potion—only to find herself in yet another sticky situation.
 
-[I am THE Magical Talking Cape!](#embed:https://www.youtube.com/live/_urPfTQnLes?si=d0gdqZP1KC_9-3ud&start=8425)
+[I am THE Magical Talking Cape!](#embed:https://www.youtube.com/live/_urPfTQnLes?start=8425)
 
 Despite her struggles with stealth, Elizabeth’s interactions with her quirky comrades began to soften her once-hardened demeanor. Her stoic facade cracked when Gonathon mentioned Fuwawa’s outrageous claim that the chickens Elizabeth had lovingly raised were [hers](https://www.youtube.com/live/_urPfTQnLes?feature=shared&t=9134).
 
@@ -49,7 +49,7 @@ However, their victory revealed a devastating truth: the king they had sworn to 
 
 Unable to raise her sword at first, Elizabeth clung to denial. But the sight of her friends in pain—Mococo suffering most of all—shattered her resolve. The king had to pay for his betrayal. And so, for the first time, Elizabeth wielded her blade not for her king, but for her comrades.
 
-[For Justice!](#embed:https://www.youtube.com/live/_urPfTQnLes?si=xQsUGR_UZBcLZWQP&start=17881)
+[For Justice!](#embed:https://www.youtube.com/live/_urPfTQnLes?start=17881)
 
 When the journey ended, the heroes found themselves once again in the white room where it all [began](https://www.youtube.com/live/_urPfTQnLes?feature=shared&t=18386).
 

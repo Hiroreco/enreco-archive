@@ -19,7 +19,7 @@
 
 [AMOGUS](#embed:https://www.youtube.com/watch?v=MGo9h3BNyj0&t=5050)
 
-“イルミネーション”の二人は、翌日には共に[ギャップ](https://www.youtube.com/live/MGo9h3BNyj0?si=lFpqAsO1PTKpUedz&t=5196)を訪れることを約束する。
+“イルミネーション”の二人は、翌日には共に[ギャップ](https://www.youtube.com/live/MGo9h3BNyj0?t=5196)を訪れることを約束する。
 
 その後、ニノイナとゴナソンを伴いながら、“感情の迷宮”を進んでいたビジューとロアは、城の外へ通じる開いた窓を発見する。
 

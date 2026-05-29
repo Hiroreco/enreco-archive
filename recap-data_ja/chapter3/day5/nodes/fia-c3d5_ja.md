@@ -7,7 +7,7 @@
 
 だが、誰もが先へ進もうとしたその時、フィアが英雄たちを呼び止め、最後の提案を持ちかける。
 
-[選ぶのはあなたたち](#embed:https://www.youtube.com/live/phkMUVqF6aY?si=y7q22RTXG2FImiTH&t=6604)
+[選ぶのはあなたたち](#embed:https://www.youtube.com/live/phkMUVqF6aY?t=6604)
 
 フィアは、もし本気でアウトサイダーに勝利したいのなら、今だけでも互いの確執や対立を脇に置き、一つになって進まなければならないと訴えた。
 

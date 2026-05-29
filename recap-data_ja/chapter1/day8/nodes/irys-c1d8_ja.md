@@ -7,7 +7,7 @@
 
 その瞬間、突然の混乱が巻き起こる。
 
-[ホットピンクワン登場！](#embed:https://www.youtube.com/live/pH9lSCrTVMY?si=x4Ho305cyOfZiPj&start=410)
+[ホットピンクワン登場！](#embed:https://www.youtube.com/live/pH9lSCrTVMY?start=410)
 
 > その帽子を取れ！
 > 伴侶よ、その帽子を今すぐ取るんだ！

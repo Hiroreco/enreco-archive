@@ -42,7 +42,7 @@ And as each day passed, the pink one's entanglement with others grew more and mo
 
 New threads formed: romantic, platonic, and confusing, sometimes all three. She shared mouth-to-mouth meals with a pink cat, declared best friendship with Immerkind (or so the green one claimed), and became part of a peculiar cult known as the "Inbread."
 
-Her familial side blossomed—with Koseki Bijou as her [brother](https://www.youtube.com/live/EKjcWfEGsB0?si=s8GiS__Q7mOaFuB_&t=436), endlessly devoted to her throughout the journey. Ina, her eternal consort, also remained steadfast as her romantic partner. And Tam Gandr, a new and passionate love interest, stood by her side, someone to constantly banter back and forth with.
+Her familial side blossomed—with Koseki Bijou as her [brother](https://www.youtube.com/live/EKjcWfEGsB0?t=436), endlessly devoted to her throughout the journey. Ina, her eternal consort, also remained steadfast as her romantic partner. And Tam Gandr, a new and passionate love interest, stood by her side, someone to constantly banter back and forth with.
 
 Everything was going great, until the [last few days.](#entry:hot-pink-one-collapse-entry)
 

@@ -7,7 +7,7 @@ Ina was told by her sister that there would be a party soon—specifically, a pa
 
 Excited? Nervous? Not exactly. Ina had no idea what the occasion was about, but knowing her consort, it could be anything. She was used to the shenanigans by now.
 
-Still, there was time before the event, so she joined the rest of the heroes to face the [final dungeon](https://www.youtube.com/live/Y_f17MHHHzc?si=bGojR6ml6N4nD56H&t=3175), the ultimate battle against the Heart of Ruin, to save the world. They succeeded, but throughout it all, the purple one’s thoughts kept circling back to her consort.
+Still, there was time before the event, so she joined the rest of the heroes to face the [final dungeon](https://www.youtube.com/live/Y_f17MHHHzc?t=3175), the ultimate battle against the Heart of Ruin, to save the world. They succeeded, but throughout it all, the purple one’s thoughts kept circling back to her consort.
 
 The party invitation reminded her just how much she loved that woman—her eyes, her wild hair, and more than anything, how she had always been there, even in the darkest of times. Ina wanted to return that love, to show it clearly. So, she wrote a heartfelt letter, a confession of her desire to take the pink one as her wife.
 

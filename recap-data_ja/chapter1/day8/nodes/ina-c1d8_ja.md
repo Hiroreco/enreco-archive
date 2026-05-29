@@ -11,7 +11,7 @@
 
 一行は急いで図書館へ。セシリアは手がかりとなる書物を見つけ出す。そこには「再生が待つ炎の終焉」と記されていた。イナはそれがボルケーノダンジョンであることをすぐに理解し、さらにその場所を示す地図まで手渡されたのだった。
 
-[黄金のリンゴの場所](#embed:https://www.youtube.com/live/NdWqpuyH0Zg?si=Cg4nfvYiqUw5a_yx&start=1256)
+[黄金のリンゴの場所](#embed:https://www.youtube.com/live/NdWqpuyH0Zg?start=1256)
 
 マリオと共にボルケーノダンジョンの入口へたどり着いた彼女たちは、そこでなんと[二つの黄金のリンゴ](https://www.youtube.com/live/NdWqpuyH0Zg?feature=shared&t=1718)を発見する。
 
@@ -27,6 +27,6 @@
 
 脅威は去った――だが、平穏が長く続くことはないだろう。新たな試練が待ち受けているに違いなかった。それでも、イナはその瞬間を噛みしめることにした。友と、仲間と、家族と、そして愛すべき混沌の妻と共に。（参照 [イナ-ホットピンクワン: 永遠の伴侶](#edge:irys-ina)）
 
-[どう説明すればいいのか](#embed:https://www.youtube.com/live/NdWqpuyH0Zg?si=aaRis0u8KSJBqAkw&start=6494)
+[どう説明すればいいのか](#embed:https://www.youtube.com/live/NdWqpuyH0Zg?start=6494)
 
 [ステインキング](https://www.youtube.com/live/NdWqpuyH0Zg?feature=shared&t=7620)との最終決戦は、最後に残された残酷な真実を突きつけるものとなった。（参照 [王: 真なる悪](#node:king)）そして勇者たちは、旅の始まりの場所――[白い部屋](https://www.youtube.com/live/NdWqpuyH0Zg?feature=shared&t=9255)へと戻されたのだった。
