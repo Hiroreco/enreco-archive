@@ -26,6 +26,6 @@ To me, due to the time travel, my memories are a little imperfect despite recove
 
 Oh well.
 
-At least I HAVE THE FLOCK.
+At least I have THE FLOCK.
 
 THE FLOCKIEST thing to EVER flock that FLOCKED.

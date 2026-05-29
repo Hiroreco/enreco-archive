@@ -13,7 +13,7 @@ The thought of that vile creature haunted her mind for a moment, yet she refused
 
 Ignoring the pious woman’s protests, Roa [plunged herself](https://www.youtube.com/watch?v=MGo9h3BNyj0&t=780) into the freezing ocean waters, desperate to dismiss what Shiori believed were mere hallucinations. Afterwards, she called the Sister back to arrange a [ceremonial burial](https://www.youtube.com/watch?v=MGo9h3BNyj0&t=1280) for her wife.
 
-Later, Roa takes a short break alongside Ninoina, Immerkind, and Nerissa to [slay stains](https://www.youtube.com/watch?v=MGo9h3BNyj0&t=1725). Though the task itself was simple enough, she soon found herself trapped within the complicated web of relationships surrounding Immerkind, the Peasant, and Gonathon. Their conversations were deeply [complicated](https://www.youtube.com/watch?v=MGo9h3BNyj0&t=3870), filled with tangled emotions and uncertain intentions.
+Later, Roa takes a short break alongside NinoIna, Immerkind, and Nerissa to [slay stains](https://www.youtube.com/watch?v=MGo9h3BNyj0&t=1725). Though the task itself was simple enough, she soon found herself trapped within the complicated web of relationships surrounding Immerkind, the Peasant, and Gonathon. Their conversations were deeply [complicated](https://www.youtube.com/watch?v=MGo9h3BNyj0&t=3870), filled with tangled emotions and uncertain intentions.
 
 Thankfully, despite the tension, the group eventually reached an agreement that satisfied everyone involved.
 

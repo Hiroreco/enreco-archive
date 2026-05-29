@@ -46,7 +46,7 @@ import { useLocalizedData } from "@/hooks/useLocalizedData";
 import { resolveDataForDay } from "@/lib/chart-utils";
 import { useMusicPlayerStore } from "@/store/musicPlayerStore";
 import {
-    countReadElements,
+    getReadStatus,
     usePersistedViewStore,
 } from "@/store/persistedViewStore";
 import { isEdge, isNode } from "@xyflow/react";
@@ -150,8 +150,6 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
 
     // Persisted Store
     const readStatus = usePersistedViewStore((state) => state.readStatus);
-    // Not wrapping this in useMemo because by doing so, it won't get updated as any of the read status changes.
-    const readCount = countReadElements(readStatus, chapter, day);
 
     // New-news tracking
     const newsData = (newsDataEn as any[]) || [];
@@ -357,6 +355,21 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
             completeData.edges.filter((edge) => edge.data?.day === day).length,
         [completeData.nodes, completeData.edges, day],
     );
+
+    const readCount = useMemo(() => {
+        const currentDayIds = [
+            ...completeData.nodes
+                .filter((node) => node.data.day === day)
+                .map((node) => node.id),
+            ...completeData.edges
+                .filter((edge) => edge.data?.day === day)
+                .map((edge) => edge.id),
+        ];
+
+        return currentDayIds.filter((id) =>
+            getReadStatus(readStatus, chapter, day, id),
+        ).length;
+    }, [chapter, completeData.edges, completeData.nodes, day, readStatus]);
 
     const fanartModalKey = `${selectedElement?.id ?? "default"}-${chapter}-${day}`;
 
