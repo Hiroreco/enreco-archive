@@ -47,7 +47,7 @@ She knew what the drink was. And with her allies gone, she had no one left. But 
 
 The duel commenced—sister versus sister. A fierce clash. But with only half a heart remaining, Ina emerged victorious.
 
-Standing atop her Moai statue, surrounded by friends, family, and the uncorrupted, Bijou finally relented. She drank the Essence of Empathy—and the Corruption was [no more.](https://www.youtube.com/live/u3MQlnSHfhA?feature=shared&t=12247)
+Standing atop her Moai statue, surrounded by friends, family, and the uncorrupted, Bijou finally relented. She drank the Essence of Empathy—and the Corruption was [no more.](https://www.youtube.com/live/u3MQlnSHfhA?t=12247)
 
 ## Credits
 

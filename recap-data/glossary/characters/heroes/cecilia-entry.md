@@ -18,16 +18,16 @@ Cecilia was an enigma: a theorist, a contrarian, a knight who only served royalt
 **Name:** Cecilia Immergreen
 **Guild:** Scarlet Wand
 
-Cecilia’s journey in the first chapter was a little different from most. She wasn’t one for manual labor to earn money or goods—instead, she preferred shortcuts, [leeching](https://www.youtube.com/live/-QKg8Fau9GM?feature=shared&t=3020) off others with shameless ease. Need money? She’d "borrow" it and promise to pay it back (spoiler: she never did). A hat for sale? She’d offer a live performance and a couple of junk items in exchange. Weapons? Tools? She was “far too busy” to get them herself. Easy, quick, and sweat-free.
+Cecilia’s journey in the first chapter was a little different from most. She wasn’t one for manual labor to earn money or goods—instead, she preferred shortcuts, [leeching](https://www.youtube.com/live/-QKg8Fau9GM?t=3020) off others with shameless ease. Need money? She’d "borrow" it and promise to pay it back (spoiler: she never did). A hat for sale? She’d offer a live performance and a couple of junk items in exchange. Weapons? Tools? She was “far too busy” to get them herself. Easy, quick, and sweat-free.
 
-She was, after all, a member of the [Scarlet Wand](#entry:guilds-entry), a guild grounded in intelligence and curiosity, and she embodied both traits. As early as the second day, Cecilia was already spouting [conspiracy theories](https://www.youtube.com/live/-QKg8Fau9GM?feature=shared&t=3869) about the kingdom, the king, and the grand scheme behind it all. Many thought she was crazy—until her theories turned out to be true.
+She was, after all, a member of the [Scarlet Wand](#entry:guilds-entry), a guild grounded in intelligence and curiosity, and she embodied both traits. As early as the second day, Cecilia was already spouting [conspiracy theories](https://www.youtube.com/live/-QKg8Fau9GM?t=3869) about the kingdom, the king, and the grand scheme behind it all. Many thought she was crazy—until her theories turned out to be true.
 
 That sharp green mind of hers landed her many questionable "opportunities." Penniless from her aversion to work, she advertised herself into a slew of roles: German teacher for her guildmates, marketer for [FaunaMart’s lottery,](#entry:faunamart-entry) and even a lawyer for a feral dog threatening to sue the aforementioned lottery. A conwoman with no licenses in any field, yet always ready to lend a hand. Better Call Doll!
 
 > Legal help? No, I'm Any Help!
 > I don't have a lisence but I did take a bar exam.
 
-In the latter half of the journey, Cecilia claimed yet another title: Koseki Bijou’s knight. The moment she learned the gem girl was of (self-proclaimed) royal status, she swooped in. Not out of loyalty, but with a scheming mind, planning to use the princess as a puppet and eventually rule the kingdom from the shadows. Her plan nearly [worked:](https://www.youtube.com/live/4co7VDSYTqU?feature=shared&t=5496) she even performed a supposed ancient ritual to gain control of the princess. But before she could take it further, time ran out.
+In the latter half of the journey, Cecilia claimed yet another title: Koseki Bijou’s knight. The moment she learned the gem girl was of (self-proclaimed) royal status, she swooped in. Not out of loyalty, but with a scheming mind, planning to use the princess as a puppet and eventually rule the kingdom from the shadows. Her plan nearly [worked:](https://www.youtube.com/live/4co7VDSYTqU?t=5496) she even performed a supposed ancient ritual to gain control of the princess. But before she could take it further, time ran out.
 
 ### Chapter 2
 

@@ -24,9 +24,9 @@ And she didn’t do it to flaunt her wealth—though she’d admit her deep pock
 
 > Uh, Romeo, I'll call you later. I'm currently being chased by a dog, she says she wants my money... AH!
 
-More of her heart showed in how she helped Gonathon mend ties with his beloved, acting as his number one [wing-woman.](https://www.youtube.com/live/qdYQ5j-0sQI?feature=shared&t=2806)
+More of her heart showed in how she helped Gonathon mend ties with his beloved, acting as his number one [wing-woman.](https://www.youtube.com/live/qdYQ5j-0sQI?t=2806)
 
-Curiosity was also a defining trait; she proudly embodied the clever, inquisitive spirit of the Scarlet Wand. She explored nearly every corner of the kingdom, speaking to countless citizens, uncovering secrets that others missed. She even [theorized](https://www.youtube.com/live/qdYQ5j-0sQI?feature=shared&t=12299) early on that the king was evil, a claim later proven true. Truly, the Scarlet Wand’s reputation for wit was in good hands.
+Curiosity was also a defining trait; she proudly embodied the clever, inquisitive spirit of the Scarlet Wand. She explored nearly every corner of the kingdom, speaking to countless citizens, uncovering secrets that others missed. She even [theorized](https://www.youtube.com/live/qdYQ5j-0sQI?t=12299) early on that the king was evil, a claim later proven true. Truly, the Scarlet Wand’s reputation for wit was in good hands.
 
 Yet for all her maturity and responsibility, Nerissa’s composure often crumbled in matters of the heart. No, not in the many questionable polygamous ties she shared with four other women, but rather in her growing closeness with one particular scarlet knight: [Elizabeth Rose Bloodflame.](#entry:liz-entry)
 

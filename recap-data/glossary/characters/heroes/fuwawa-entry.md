@@ -18,7 +18,7 @@ Fuwawa Abyssgard was one of the few "normal" heroes amidst the chaos. Rarely dra
 **Name:** Fuwawa Abyssgard
 **Guild:** Jade Sword
 
-Though she began more lost than most, Fuwawa showed a strong will to grow, learning as she went. With the help of Elizabeth, her trusty bread lady, she found her footing and steadily carved her own path. She never gambled, never stirred up conflict—just focused on her quests. This made her a sharp contrast to her fuzzier counterpart, [Mococo](#entry:mococo-entry), who frequently got into trouble. Fuwawa spent much of her time keeping an eye on her until she finally got so fed up that she [gave up](https://www.youtube.com/live/cYvEiwlPkW0?feature=shared&t=2121) trying altogether.
+Though she began more lost than most, Fuwawa showed a strong will to grow, learning as she went. With the help of Elizabeth, her trusty bread lady, she found her footing and steadily carved her own path. She never gambled, never stirred up conflict—just focused on her quests. This made her a sharp contrast to her fuzzier counterpart, [Mococo](#entry:mococo-entry), who frequently got into trouble. Fuwawa spent much of her time keeping an eye on her until she finally got so fed up that she [gave up](https://www.youtube.com/live/cYvEiwlPkW0?t=2121) trying altogether.
 
 > What do you think Elizabeth? I don't think she'll have enough money to buy food...
 > I'm sorry Nerissa, that's between you and her, I have nothing to do with it.

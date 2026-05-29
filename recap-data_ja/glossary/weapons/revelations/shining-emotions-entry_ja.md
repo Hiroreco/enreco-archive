@@ -17,6 +17,6 @@
 魔法のような華やかさこそないものの、その効果は驚くほど実用的で、敵にとってはまさに悪夢！
 ダイヤモンド級の硬さを誇る宝石が、音速で顔面に直撃したら……どんな相手でも、その日一日は台無しになってしまうこと間違いなしです！
 
-[もっとパワーを！](#embed:https://www.youtube.com/live/Fr6yMByDTIs?feature=shared&t=8524)
+[もっとパワーを！](#embed:https://www.youtube.com/live/Fr6yMByDTIs?t=8524)
 
 そして、第2章からは、この強力な武器に新たな[遠距離攻撃](#entry:revelations-entry)の能力も追加されました！

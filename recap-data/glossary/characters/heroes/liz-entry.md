@@ -22,7 +22,7 @@ Elizabeth began her journey with a conviction that would define her character th
 
 But as noble as she was, Elizabeth was also terribly clumsy and somewhat clueless when it came to the inner workings of the kingdom. The systems were far too advanced for a classical knight like her, and more often than not, she ended up needing help instead of giving it.
 
-Still, her spirit mattered most. Her genuine care and kindness made her a dependable companion to many. She was the ever-trusty guardian of the two doggos, a reliable comrade to her guildmate Calli, and the first to stand up to Tam for her arrogance. She even [adopted](https://www.youtube.com/live/oVguNTPnDww?feature=shared&t=1902) Bijou temporarily, just because the gem maiden asked her to.
+Still, her spirit mattered most. Her genuine care and kindness made her a dependable companion to many. She was the ever-trusty guardian of the two doggos, a reliable comrade to her guildmate Calli, and the first to stand up to Tam for her arrogance. She even [adopted](https://www.youtube.com/live/oVguNTPnDww?t=1902) Bijou temporarily, just because the gem maiden asked her to.
 
 She did it all because she believed it was her duty as a knight. It was what she should do—what her King would want.
 

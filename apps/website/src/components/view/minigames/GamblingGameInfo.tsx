@@ -56,7 +56,7 @@ const GamblingGameInfo = () => {
             <p>{t("gameplay")}</p>
             <p>{t("winning")}</p>
             <TimestampHref
-                href="https://www.youtube.com/live/PJtapc2_7ok?feature=shared&t=11173"
+                href="https://www.youtube.com/live/PJtapc2_7ok?t=11173"
                 caption={t("timestampCaption")}
                 type="embed"
             />

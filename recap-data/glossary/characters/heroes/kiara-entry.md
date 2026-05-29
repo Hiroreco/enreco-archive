@@ -18,14 +18,14 @@ Shakira, short for Tanakisha Karia and now known as Kiara, is an almighty phoeni
 **Name:** Tanakisha Karia of the Oranges, Shakira, The Savior of the Lesbians
 **Guild:** Amber Coin
 
-Tanakisha Karia’s destiny was clear from the moment she awoke: to save the ~~lesbians~~ Libestans. Embracing such a heroic calling, the orange lady always tried her best to stand on the side of justice. She reported potential [scams](https://www.youtube.com/live/qKlzaYirN88?feature=shared&t=1129) to Queen Tam Gandr, shielded her friends from deceit, and openly challenged misdeeds. When Nerissa kept pestering Elizabeth to gain her affection, Shakira didn’t hesitate to [call her out.](https://www.youtube.com/live/3cr3DLpyB60?t=13330)
+Tanakisha Karia’s destiny was clear from the moment she awoke: to save the ~~lesbians~~ Libestans. Embracing such a heroic calling, the orange lady always tried her best to stand on the side of justice. She reported potential [scams](https://www.youtube.com/live/qKlzaYirN88?t=1129) to Queen Tam Gandr, shielded her friends from deceit, and openly challenged misdeeds. When Nerissa kept pestering Elizabeth to gain her affection, Shakira didn’t hesitate to [call her out.](https://www.youtube.com/live/3cr3DLpyB60?t=13330)
 
 Life could feel lonely in her guild; the Amber Coin had far fewer members than most, especially after one wandered off to the woods and another switched guilds. Still, she pressed on undeterred.
 
 > She left us, she left us.
 > And our guild was already so small...
 
-She rarely entertained nonsense from anyone, remaining confident and unwavering in her judgment. Yet, by journey’s end, this phoenix found herself yearning for someone to love and come home to. She showed interest in a certain [humble knight,](https://www.youtube.com/live/3cr3DLpyB60?feature=shared&t=21557) but his heart was already taken. In the end, she learned to keep moving forward on her own.
+She rarely entertained nonsense from anyone, remaining confident and unwavering in her judgment. Yet, by journey’s end, this phoenix found herself yearning for someone to love and come home to. She showed interest in a certain [humble knight,](https://www.youtube.com/live/3cr3DLpyB60?t=21557) but his heart was already taken. In the end, she learned to keep moving forward on her own.
 
 ### Chapter 2
 

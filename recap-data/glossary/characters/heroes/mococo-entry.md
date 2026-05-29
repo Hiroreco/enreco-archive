@@ -18,7 +18,7 @@ Mococo Abyssgard was hardly the image of a typical hero. Notorious for her lotte
 **Name:** Mococo Abyssgard
 **Guild:** Jade Sword
 
-Mococo’s journey began in a vulnerable place. Before Elizabeth promised to be her protector and big sister, she was terrified of this strange new world—easily frightened and desperate not to be left [alone.](https://www.youtube.com/live/OSjlqA0FS9Q?feature=shared&t=4128) But with her friends’ support, she slowly found her footing, working hard and living up to her role as a hero—though that didn’t last long.
+Mococo’s journey began in a vulnerable place. Before Elizabeth promised to be her protector and big sister, she was terrified of this strange new world—easily frightened and desperate not to be left [alone.](https://www.youtube.com/live/OSjlqA0FS9Q?t=4128) But with her friends’ support, she slowly found her footing, working hard and living up to her role as a hero—though that didn’t last long.
 
 By the second day, she had discovered [FaunaMart’s lottery tickets](#entry:faunamart-entry). It started with just a couple, but soon grew to hundreds, as the doggo blew through her funds despite everyone’s concerns. What began as harmless fun soon spiraled into an addiction. Mococo became a problem herself, extorting friends for more money and [straining relationships.](#entry:lottery-fiasco-entry)
 

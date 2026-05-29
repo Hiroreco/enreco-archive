@@ -5,11 +5,11 @@
 
 タムが自分に特別な想いを抱いていると確信したマリオは、意を決してゴナソンに、とある壮大なプロポーズ計画の承認を求めに行きました。長い説得の末、ついにゴナソンも首を縦に振ってくれました。
 
-[これは真実の愛](#embed:https://www.youtube.com/live/Rd0awHHBTiA?feature=shared&t=2860)
+[これは真実の愛](#embed:https://www.youtube.com/live/Rd0awHHBTiA?t=2860)
 
 こうして、マリオはプロポーズの準備を開始。空に巨大なメッセージを浮かべ、「結婚してくれる？」と、タムへのまっすぐな愛を告白しました。これまでの確執をすべて終わらせる、まさに真実の愛の告白として――。
 
-[これ以上ない誠実なプロポーズ](#embed:https://www.youtube.com/live/Rd0awHHBTiA?feature=shared&t=5630)
+[これ以上ない誠実なプロポーズ](#embed:https://www.youtube.com/live/Rd0awHHBTiA?t=5630)
 
 そして、皆が固唾を呑んで見守る中、タムは[「はい」](https://x.com/ourokronii/status/1832266311625306551)と答え、その愛を受け入れたのです。
 

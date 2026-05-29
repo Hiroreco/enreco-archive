@@ -5,7 +5,7 @@
 
 そして、彼女は成功した。
 
-[私の支配下に](#embed:https://www.youtube.com/live/4co7VDSYTqU?feature=shared&t=5496)
+[私の支配下に](#embed:https://www.youtube.com/live/4co7VDSYTqU?t=5496)
 
 ついに、長きにわたる周到な策略の末、彼女はプリンセスを手に入れた！ さらには……王国すべてをも！
 

@@ -14,10 +14,10 @@
 
 しかし、武器が似ていても、その使い方はまるで正反対。フワワが必要な時や悪しき敵に対してのみツメを振るうのに対し、モココは無関係な通行人にさえ平気でツメを向けるのです。標的の多くはなぜかネリッサで、その理由は不明――いえ、もしかしたら誰もが察しているのかもしれませんね。
 
-[金出せー！](#embed:https://www.youtube.com/live/5swK4fB2smo?feature=shared&t=1373)
+[金出せー！](#embed:https://www.youtube.com/live/5swK4fB2smo?t=1373)
 
 無害なニワトリでさえも、このもふもふ悪魔犬の怒りからは逃れられません。「大いなる力には大いなる責任が伴う」とはよく言いますが、その力がギャンブル狂の悪魔犬の手に渡ったら……あとは運に任せるしかないでしょう。
 
-[あああああああああ!!!!!](#embed:https://www.youtube.com/live/6TXwZjXEoxk?feature=shared&t=7274)
+[あああああああああ!!!!!](#embed:https://www.youtube.com/live/6TXwZjXEoxk?t=7274)
 
 そして第2章からは、この武器に新たな[遠距離攻撃](#entry:revelations-entry)が加わりました。

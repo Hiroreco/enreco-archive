@@ -20,13 +20,13 @@ Tam Gandr, now fully remembered as Ouro Kronii, was infamous in the kingdom for 
 
 The name Tam was given by Gonathon, an acronym for _The Azure Maiden_. "Gandr," the surname, was proudly self-appointed. From the moment she met the [King of Libestal](#entry:outsider-entry), Tam twisted his request for aid into a royal proposal and immediately crowned herself Queen.
 
-On the first day, she was already amassing devoted followers. [Gonathon](#entry:gigi-entry) stood as her most loyal knight, ready to defend her at every turn, whether she was being accused of illegitimacy or stirring up conflict herself by flaunting her so-called royalty. Usually, it was the [latter.](https://www.youtube.com/live/zgioohaY0m4?feature=shared&t=9013)
+On the first day, she was already amassing devoted followers. [Gonathon](#entry:gigi-entry) stood as her most loyal knight, ready to defend her at every turn, whether she was being accused of illegitimacy or stirring up conflict herself by flaunting her so-called royalty. Usually, it was the [latter.](https://www.youtube.com/live/zgioohaY0m4?t=9013)
 
-But for every follower, Tam earned herself a rival. Elizabeth was the first to call out Tam’s “fake” queen status, while Raora positioned herself as a competing royal. And to be fair, their suspicions were justified. Tam had no claim, no proof, and worst of all—no money. She was _broke_, constantly pretending to be rich, boasting about her 8 billion coin fortune while barely scraping together [8 actual coins.](https://www.youtube.com/live/JcRcTRedS_8?feature=shared&t=4242)
+But for every follower, Tam earned herself a rival. Elizabeth was the first to call out Tam’s “fake” queen status, while Raora positioned herself as a competing royal. And to be fair, their suspicions were justified. Tam had no claim, no proof, and worst of all—no money. She was _broke_, constantly pretending to be rich, boasting about her 8 billion coin fortune while barely scraping together [8 actual coins.](https://www.youtube.com/live/JcRcTRedS_8?t=4242)
 
 > Aw man, why did I lie? I don't have 8 billion, bajillion coins or whatever. Eight thousand coins? I would like eight thousand coins. Aw, man!
 
-Yet beneath the ironclad ego and tyrannical tone, Tam was, at heart, a caring queen. Knowing her journey would only last three days—far shorter than others—she spent her time supporting her guildmates: building a base, sharing what little she had, and standing up for them when needed. And yes, there was even space in her allegedly cold heart for a potential romance. She fell for the Hot Pink One, but that crush ended in [disappointment,](https://www.youtube.com/live/fIGfh8GmKY8?feature=shared&t=8234) as the pink maiden was already promised to another.
+Yet beneath the ironclad ego and tyrannical tone, Tam was, at heart, a caring queen. Knowing her journey would only last three days—far shorter than others—she spent her time supporting her guildmates: building a base, sharing what little she had, and standing up for them when needed. And yes, there was even space in her allegedly cold heart for a potential romance. She fell for the Hot Pink One, but that crush ended in [disappointment,](https://www.youtube.com/live/fIGfh8GmKY8?t=8234) as the pink maiden was already promised to another.
 
 ### Chapter 2
 

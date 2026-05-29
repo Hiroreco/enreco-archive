@@ -9,17 +9,17 @@ His morning took a rather troublesome turn when he encountered Raora, who boldly
 
 After this exchange, Gonathon made his daily contribution to Fauna’s library, even though Tam had previously warned him it was a scam. During his visit, he noticed something peculiar—the looming gallows beside FaunaMart. Fauna explained its purpose: punishing those who didn’t know how to read. Though her reasoning was questionable (as she claimed it would teach empathy through reading), Gonathon decided not to comment. Perhaps it was for the greater good?
 
-[A jail behind the library](#embed:https://www.youtube.com/live/LSGUo-UnXwY?feature=shared&t=1912)
+[A jail behind the library](#embed:https://www.youtube.com/live/LSGUo-UnXwY?t=1912)
 
 Later, Gonathon joined Bijou, Raora, Cecilia, and the Hot Pink One to tackle the _Ancient Sewer Dungeon_—a place rumored to be the final dungeon. Despite his usual knightly demeanor, Gonathon was surprisingly "playful" during this expedition. He spent his time running around trying to drink the dirty water and even managed to trick the others into taking a bath in the murky filth, much to Cecilia’s dismay.
 
-[What a lovely bath](#embed:https://www.youtube.com/live/LSGUo-UnXwY?feature=shared&t=9423)
+[What a lovely bath](#embed:https://www.youtube.com/live/LSGUo-UnXwY?t=9423)
 
-At the end of their journey, the group recovered memories of [Amelia Watson](https://www.youtube.com/live/LSGUo-UnXwY?feature=shared&t=8466). Gonathon was stunned to learn that his wife, his pearl, was none other than a famous detective with a storied history of great achievements.
+At the end of their journey, the group recovered memories of [Amelia Watson](https://www.youtube.com/live/LSGUo-UnXwY?t=8466). Gonathon was stunned to learn that his wife, his pearl, was none other than a famous detective with a storied history of great achievements.
 
 Pride and happiness filled his heart, but alongside these emotions came a creeping worry. What would happen when Amelia regained her full memories?
 
-[I will respect her choice](#embed:https://www.youtube.com/live/LSGUo-UnXwY?feature=shared&t=12019)
+[I will respect her choice](#embed:https://www.youtube.com/live/LSGUo-UnXwY?t=12019)
 
 ## Fanart
 

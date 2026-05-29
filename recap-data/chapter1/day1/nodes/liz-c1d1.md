@@ -9,7 +9,7 @@ Elizabeth wielded a massive claymore named Thorn, its fiery scarlet hue reflecti
 
 Or so it should have been.
 
-[Quite the knight](#embed:https://www.youtube.com/live/2qiX7084obE?feature=shared&t=8613)
+[Quite the knight](#embed:https://www.youtube.com/live/2qiX7084obE?t=8613)
 
 Reality painted a different picture. Instead of a tale of a noble knight, Elizabeth's first day became a comedy of errors. She was run over by horses, got [lost](https://www.youtube.com/live/2qiX7084obE?t=8087) repeatedly (even while searching for her own guild), left by her lonesome after everyone promised her a duel, and was teased endlessly for being mistaken as a member of [Amber Coin](https://www.youtube.com/live/2qiX7084obE?t=7205).
 
@@ -19,7 +19,7 @@ The cherry on top? She was branded a harlot simply for hushing the gums of the H
 
 Despite the chaos, Elizabeth found solace in her guildmates, with whom she felt an undeniable connection. Perhaps her nature was to be kind, to stand for the weak, no matter the mishaps. She felt this strongly with the two doggos (see [Elizabeth-Mococo: By Your Side](#edge:mococo-liz)).
 
-By the end of the day, alongside Gonathon G and NinoIna—both members of Cerulean Cup—Elizabeth conquered the _Underworld Dungeon_, reclaiming the lost memories of [Mori Calliope](https://www.youtube.com/live/2qiX7084obE?feature=shared&t=12428). It marked not just the end of her chaotic first day but the beginning of her journey in this strange new world.
+By the end of the day, alongside Gonathon G and NinoIna—both members of Cerulean Cup—Elizabeth conquered the _Underworld Dungeon_, reclaiming the lost memories of [Mori Calliope](https://www.youtube.com/live/2qiX7084obE?t=12428). It marked not just the end of her chaotic first day but the beginning of her journey in this strange new world.
 
 ## Fanart
 

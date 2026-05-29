@@ -15,7 +15,7 @@ Nerissa presented her side first, explaining how she had mistakenly miscalculate
 
 Mococo, however, was not willing to back down.
 
-The doggo accused FaunaMart of engaging in improper business practices, claiming she had been scammed out of her lottery winnings, shortchanged on her rightful prize money, and—most damning of all—hunted down on orders from a FaunaMart employee, causing her immense emotional distress. As compensation, she demanded [_10,000 coins_](https://www.youtube.com/live/wINOVotsvPY?feature=shared&t=1310).
+The doggo accused FaunaMart of engaging in improper business practices, claiming she had been scammed out of her lottery winnings, shortchanged on her rightful prize money, and—most damning of all—hunted down on orders from a FaunaMart employee, causing her immense emotional distress. As compensation, she demanded [_10,000 coins_](https://www.youtube.com/live/wINOVotsvPY?t=1310).
 
 The dispute grew more intense, with neither side willing to concede.
 
@@ -27,4 +27,4 @@ By this point, Nerissa was exhausted, mentally. She just wanted this entire orde
 
 In the end, Nerissa reluctantly agreed to pay Mococo the 10,000 coins. Mococo then added free kisses as part of the deal. Nerissa complied and gave her what she wanted, and with that, the great FaunaMart lawsuit was officially settled. Enemies turned back into friends once more. Yay.
 
-[Well, that was quick](#embed:https://www.youtube.com/live/wINOVotsvPY?feature=shared&t=3185)
+[Well, that was quick](#embed:https://www.youtube.com/live/wINOVotsvPY?t=3185)

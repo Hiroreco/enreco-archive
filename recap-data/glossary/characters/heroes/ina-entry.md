@@ -25,7 +25,7 @@ Ina began her journey with a more reserved demeanor than most. Despite being pla
 
 Upon conquering the [Eldritch Horror Dungeon](#entry:eldritch-horror-dungeon-entry), she recovered memories of herself as Ninomae Ina'nis, a priestess who cared for and tended to lingering souls, sending them off with a smile.
 
-She was always there when others needed help, standing by during conflicts and supporting her guildmates. Toward the end of the first journey, she became one of the key heroes in halting the corruption, discovering the cure, and saving others, especially her sister, from the [depths of darkness.](https://www.youtube.com/live/NdWqpuyH0Zg?feature=shared&t=4490)
+She was always there when others needed help, standing by during conflicts and supporting her guildmates. Toward the end of the first journey, she became one of the key heroes in halting the corruption, discovering the cure, and saving others, especially her sister, from the [depths of darkness.](https://www.youtube.com/live/NdWqpuyH0Zg?t=4490)
 
 Ina proved herself to be loyal and dependable, both to her guild and to her beloved. Even when the latter occasionally hurt her feelings, Ina’s empathetic heart led her to forgive. She gave gifts, love, and even gracefully accepted the Hot Pink One’s desire for romantic "side chicks" without resentment.
 

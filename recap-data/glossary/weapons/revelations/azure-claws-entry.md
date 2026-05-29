@@ -14,6 +14,6 @@ The claws’ vicious design stands in stark contrast to Fuwawa’s fluffy, gentl
 
 Of course, true to her kind-hearted nature, Fuwawa has only ever turned this power on monsters and genuine threats—unlike a certain pink someone who might not be quite as selective.
 
-[Giggles as she minces her enemies](#embed:https://www.youtube.com/live/3s_pVYBEax0?feature=shared&t=5667)
+[Giggles as she minces her enemies](#embed:https://www.youtube.com/live/3s_pVYBEax0?t=5667)
 
 Starting from Chapter 2, the claws also gained an additional [ranged attack.](#entry:revelations-entry)

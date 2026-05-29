@@ -17,7 +17,7 @@ Before she could spiral any further, Nerissa called her. Her voice immediately s
 
 The emotional whiplash was so extreme that Elizabeth couldn't think straight for a good while. One moment she was wallowing in despair, and the next she was right back where she started—bickering with Nerissa as if nothing had happened.
 
-In fact, their relationship seemed to evolve from that point. Their arguments became even more frequent, resembling the kind of quarrels real couples would have (not that Elizabeth would ever admit that). Nerissa, of course, reveled in this, fully embracing her role as the chaos [gremlin](https://www.youtube.com/live/1_dhGL0K5-k?feature=shared&t=2151) in Elizabeth’s life.
+In fact, their relationship seemed to evolve from that point. Their arguments became even more frequent, resembling the kind of quarrels real couples would have (not that Elizabeth would ever admit that). Nerissa, of course, reveled in this, fully embracing her role as the chaos [gremlin](https://www.youtube.com/live/1_dhGL0K5-k?t=2151) in Elizabeth’s life.
 
 [We are not couples!](#embed:https://www.youtube.com/live/1_dhGL0K5-k?start=7439)
 

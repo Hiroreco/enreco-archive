@@ -18,7 +18,7 @@ Shiori was possibly one of the most intriguing heroes. Weird, quirky, unpredicta
 **Name:** Shiori Nyavella
 **Guild:** Scarlet Wand
 
-In the first chapter, Shiori appeared to be little more than the oddball who kept to herself. She hovered on the fringes, avoided drama, asked bizarre questions, and said strange things that raised eyebrows and caused, at times, [psychic damage.](https://www.youtube.com/live/LTIq_0ykLVA?feature=shared&t=8760)
+In the first chapter, Shiori appeared to be little more than the oddball who kept to herself. She hovered on the fringes, avoided drama, asked bizarre questions, and said strange things that raised eyebrows and caused, at times, [psychic damage.](https://www.youtube.com/live/LTIq_0ykLVA?t=8760)
 
 She floated like a leaf in the wind, constantly swept into relationships she never agreed to. Betrothed to Bijou? Sure, until Bijou dumped her on the final day and left her with a baby to raise alone. Dragged into a polygamous relationship with four other women? Yes—only to see it crash and burn at the end.
 

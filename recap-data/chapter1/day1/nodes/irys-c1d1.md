@@ -13,7 +13,7 @@ Little did Shakira know, the pink one was no simpleton. She was someone loyal to
 
 This betrayal was short-lived, however. When the rest of Cerulean Cup arrived to retrieve their wayward guildmate, she eventually returned to her proper guild, albeit reluctantly. After showcasing her unique Revelation, _Light and Darkness_, which some dubbed similar to a [fart](https://www.youtube.com/live/Rk7nZ91vme4?t=2668), she threw herself into the day’s activities. Completing quests, enduring [hushed gums](https://www.youtube.com/live/Rk7nZ91vme4?t=4480), and earning her fair share of [eyebrow-raising](https://www.youtube.com/live/Rk7nZ91vme4?t=5777) remarks.
 
-Her journey culminated in the group’s venture into the _Underworld Dungeon_, where she recovered the memories of [Mori Calliope](https://www.youtube.com/live/Rk7nZ91vme4?feature=shared&t=8690), and also where she was first nicknamed [Hot Pink One](https://www.youtube.com/live/Rk7nZ91vme4?t=7601).
+Her journey culminated in the group’s venture into the _Underworld Dungeon_, where she recovered the memories of [Mori Calliope](https://www.youtube.com/live/Rk7nZ91vme4?t=8690), and also where she was first nicknamed [Hot Pink One](https://www.youtube.com/live/Rk7nZ91vme4?t=7601).
 
 It was a whirlwind of a day for the maiden, filled with ups, downs, and plenty of chaos. But through it all, she had fun, marking the vibrant beginning of the Hot Pink One’s journey.
 

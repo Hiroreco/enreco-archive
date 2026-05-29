@@ -7,7 +7,7 @@ When the time was right, she launched her vlog with great excitement. It was a p
 
 Unfortunately, the two were caught snooping around FaunaMart by Cecilia. In typical fashion, the girl in brown threw her guildmate under the bus without hesitation.
 
-[Get out! You heathen!](#embed:https://www.youtube.com/live/zPJ78C7uNq8?feature=shared&t=360)
+[Get out! You heathen!](#embed:https://www.youtube.com/live/zPJ78C7uNq8?t=360)
 
 With distractions out of the way, it was finally time for her big reveal. She proudly announced her secret project: the grand opening of _NanaEleven_, her very own convenience store.
 
@@ -24,7 +24,7 @@ Despite its seemingly altruistic nature, the lottery tickets contained a hidden 
 
 Speaking of names, the entrepreneur asked Cecilia, her first customer, to give her a fitting title. Cecilia christened her "Nanamoo," a name the owl girl immediately adored for its catchy ring. Thus, Nanamoo was born. The pair unexpectedly bonded over their business dealings, forming an unusual friendship (see [Nanamoo-Cecilia: Friends From Business](#edge:moom-cecilia)).
 
-About an hour after distributing her free lottery tickets, it was time to announce the winners. Unsurprisingly, everyone [won](https://www.youtube.com/live/zPJ78C7uNq8?feature=shared&t=6391). During the celebration, Nanamoo made a cheeky remark about Gonathon looking [pregnant](https://www.youtube.com/live/zPJ78C7uNq8?feature=shared&t=6241), which snowballed into an entire side story (see [Gonathon’s Point of View](#node:gigi)).
+About an hour after distributing her free lottery tickets, it was time to announce the winners. Unsurprisingly, everyone [won](https://www.youtube.com/live/zPJ78C7uNq8?t=6391). During the celebration, Nanamoo made a cheeky remark about Gonathon looking [pregnant](https://www.youtube.com/live/zPJ78C7uNq8?t=6241), which snowballed into an entire side story (see [Gonathon’s Point of View](#node:gigi)).
 
 Though NanaEleven had just opened, it had already made an impact—albeit with a financial loss of 1,000 coins. Despite the apparent success and charm of Nanamoo’s new venture, there was something hidden behind her cheerful smile. Only time would reveal her true intentions.
 

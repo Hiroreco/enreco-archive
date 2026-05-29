@@ -18,7 +18,7 @@ Raora was first a (fake) queen married to another (fake) queen, then a jewel sto
 **Name:** Raora Panthera, Mario
 **Guild:** Amber Coin
 
-Raora’s journey began with a memorable interaction with [Tam Gandr](#entry:kronii-entry), the self-proclaimed queen of the kingdom—whose name Raora could never quite pronounce. That exchange marked the beginning of what would become a defining trait of Raora’s character: she believed _she_ was the rightful ruler of the kingdom, not Tam, thus sparking a playful [rivalry.](https://www.youtube.com/live/8ybUOw9NhMc?feature=shared&t=13146)
+Raora’s journey began with a memorable interaction with [Tam Gandr](#entry:kronii-entry), the self-proclaimed queen of the kingdom—whose name Raora could never quite pronounce. That exchange marked the beginning of what would become a defining trait of Raora’s character: she believed _she_ was the rightful ruler of the kingdom, not Tam, thus sparking a playful [rivalry.](https://www.youtube.com/live/8ybUOw9NhMc?t=13146)
 
 The difference between the two queens? Raora was resolute and unwavering in her desire to become queen—so much so that she even built a castle, complete with designated rooms for each of her guildmates, to prove her conviction.
 

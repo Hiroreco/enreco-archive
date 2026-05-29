@@ -22,7 +22,7 @@ Bijou was unpredictable, _very_ unpredictable. Which was saying something, consi
 
 Just a few days in, she’d already managed to get herself a wife—[Shiori](#entry:shiori-entry)—whom she loved dearly... only to dump her on the final day, leaving her with a child.
 
-She also acquired a mother. Two, actually. And got involved in a polygamous relationship with three other women, all while wearing a wide colon-D smile on her face. A smile she often used to get what she wanted—after all, who could say no to that cute, [pleading expression?](https://www.youtube.com/live/oVguNTPnDww?feature=shared&t=1902)
+She also acquired a mother. Two, actually. And got involved in a polygamous relationship with three other women, all while wearing a wide colon-D smile on her face. A smile she often used to get what she wanted—after all, who could say no to that cute, [pleading expression?](https://www.youtube.com/live/oVguNTPnDww?t=1902)
 
 She claimed to be of royalty, a princess, because of the crown she wore. Whether she was truly royal was up for debate, considering she acted like a literal toddler: always up to mischief, constantly messing about.
 
@@ -33,7 +33,7 @@ But when it came to commitment, Bijou didn’t mess around. Early on, she set he
 
 That hat, as it turned out, would shift the entire narrative, not just for her, but for the whole kingdom. It was a _Stain hat_, and over time, it slowly corrupted its wearer’s mind until they were consumed completely. Bijou was its first victim. She dubbed herself the _Stain Princess_, spreading chaos across the kingdom, corrupting the land with fire, writing cursed tomes titled _Elizabeth Rose Bloodflame x Nerissa Ravencroft_, and dragging others into [corruption](#entry:the-corruption-entry) alongside her.
 
-Ultimately, with the combined efforts of the remaining heroes—most notably her sister, NinoIna—the corruption was purged, and Bijou was saved. She realized how painful it was to be shackled by something beyond her control. In response, she [severed](https://www.youtube.com/live/u3MQlnSHfhA?feature=shared&t=13345) her ties to the polygamy situation, and to Shiori as well.
+Ultimately, with the combined efforts of the remaining heroes—most notably her sister, NinoIna—the corruption was purged, and Bijou was saved. She realized how painful it was to be shackled by something beyond her control. In response, she [severed](https://www.youtube.com/live/u3MQlnSHfhA?t=13345) her ties to the polygamy situation, and to Shiori as well.
 
 ### Chapter 2
 

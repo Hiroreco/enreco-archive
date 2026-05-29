@@ -14,7 +14,7 @@ Libestans took the shape of rabbit-like humanoids, with completely white skin, t
 
 ### Locals
 
-These Libestans were typically ordinary townsfolk found along roads, tucked away behind castles, or scattered throughout other nondescript areas. Interacting with them often led to snippets of everyday life, sometimes humorous, sometimes revealing small [secrets](https://www.youtube.com/live/CFSfP27KTco?feature=shared&t=5386) about the kingdom or the overarching story. While they didn’t directly contribute to the main quests, heroes were encouraged to speak with as many as possible to better understand the world they were adventuring through.
+These Libestans were typically ordinary townsfolk found along roads, tucked away behind castles, or scattered throughout other nondescript areas. Interacting with them often led to snippets of everyday life, sometimes humorous, sometimes revealing small [secrets](https://www.youtube.com/live/CFSfP27KTco?t=5386) about the kingdom or the overarching story. While they didn’t directly contribute to the main quests, heroes were encouraged to speak with as many as possible to better understand the world they were adventuring through.
 
 > I had the most awful dream. There was potato salad everywhere.
 > And these strange women kept delivering more...

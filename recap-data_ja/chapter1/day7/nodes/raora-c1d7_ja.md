@@ -9,4 +9,4 @@
 
 [娘よ！何をしているの？！](#embed:https://www.youtube.com/live/Rd0awHHBTiA?start=4679)
 
-その騒動の後、信じられないほど穏やかな時間が流れた。マリオは新登場のニワトリ捕獲[ミニゲーム](https://www.youtube.com/live/Rd0awHHBTiA?feature=shared&t=6336)に挑戦したり、最近オープンした[ナナイレブン](https://www.youtube.com/live/Rd0awHHBTiA?feature=shared&t=7390)を探検したり、最終日に備えて素材を集めたりと、仲間たちと楽しい時間を過ごす。王国に破滅の気配が漂っているにもかかわらず、その場の空気は驚くほど明るく、マリオにほんのひとときの心の安らぎを与えてくれたのだった。
+その騒動の後、信じられないほど穏やかな時間が流れた。マリオは新登場のニワトリ捕獲[ミニゲーム](https://www.youtube.com/live/Rd0awHHBTiA?t=6336)に挑戦したり、最近オープンした[ナナイレブン](https://www.youtube.com/live/Rd0awHHBTiA?t=7390)を探検したり、最終日に備えて素材を集めたりと、仲間たちと楽しい時間を過ごす。王国に破滅の気配が漂っているにもかかわらず、その場の空気は驚くほど明るく、マリオにほんのひとときの心の安らぎを与えてくれたのだった。
