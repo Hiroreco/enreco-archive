@@ -85,4 +85,4 @@ _またしても_ ダンジョンだった。
 
 そして最後の数分間の記憶は、頭の中でぼやけた霞のように消えてしまう。
 
-[……だが、あのニワトリだけは忘れていなかった。](https://www.youtube.com/live/UBbTSf5A9bc?si=vJ_CiaSHV72da4Gf&t=20816)
+[……だが、あのニワトリだけは忘れていなかった。](#embed:https://www.youtube.com/live/UBbTSf5A9bc?si=vJ_CiaSHV72da4Gf&t=20816)
