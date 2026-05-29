@@ -18,6 +18,6 @@
 
 \- _"The Unquiet Grave"_
 
-See [Roa](#node:roa)
+See [Roa](#node:raora)
 See [Bijou the Stained](#node:bijou)
 See [Roa-Shiori](#node:raora-shiori)

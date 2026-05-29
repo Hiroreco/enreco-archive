@@ -27,23 +27,23 @@ She didn't understand it. Any of this. But there was something about this memori
 
 Alas, despite her worries, a dungeon is a dungeon, and it must be cleared for the sake of heroism. After doing some training with her party at the coliseum and doing some final preparatory quests, it was time to head out. Together with Lady Bloodflame, Sister Shiori and... Fuwawa...
 
-[Mococo ventured into the Labyrinth of Duality.](https://www.youtube.com/live/K3N6S6rIgS0?si=-cs3526AN6jfBFJc&t=6392) 
+[Mococo ventured into the Labyrinth of Duality.](#embed:https://www.youtube.com/live/K3N6S6rIgS0?si=-cs3526AN6jfBFJc&t=6392)
 
 ...
 
-Souls linked together. Her beloved sister, Elizabeth. 
+Souls linked together. Her beloved sister, Elizabeth.
 
 Why did it feel so unnatural...? (see [Liz-Mococo](#edge:liz-mococo))
 
 ...
 
-It hurt. [It hurt so much.](https://www.youtube.com/live/K3N6S6rIgS0?si=Cdj_1r1zngdJVHfX&t=7478) And it only got worse the deeper in they went. 
+It hurt. [It hurt so much.](https://www.youtube.com/live/K3N6S6rIgS0?si=Cdj_1r1zngdJVHfX&t=7478) And it only got worse the deeper in they went.
 
 ...
 
 Eventually. The deed was done.
 
-At the end, there was a vision of the other side. [A home for flowers.](https://www.youtube.com/live/K3N6S6rIgS0?si=Au_nFbVke6oAzvDU&t=9614) 
+At the end, there was a vision of the other side. [A home for flowers.](https://www.youtube.com/live/K3N6S6rIgS0?si=Au_nFbVke6oAzvDU&t=9614)
 
 It was... peaceful. Very peaceful... warm, even. Mococo smiled, giggling and having fun with her party for a moment. She wanted to stay here forever... maybe she'd find a way to come back later!
 
@@ -55,14 +55,14 @@ Her recent worries and pains washed away... lowering her guard completely.
 
 ...
 
-...h-huh? Wait, no, go back...! 
+...h-huh? Wait, no, go back...!
 
 Mococo's mind raced as Fia and Nix spoke to her. S-She didn't care about The Outsider, factions, or anyone else, she had too many questions! She didn't know what to think or do or-
 
 '...oc...an...?'
 
-She heard a voice. Cutting through her thought process, if only for a moment. 
+She heard a voice. Cutting through her thought process, if only for a moment.
 
-...'Moco-chan'...!! 
+...'Moco-chan'...!!
 
 (See [Fuwawa-Mococo](#edge:fuwawa-mococo)).

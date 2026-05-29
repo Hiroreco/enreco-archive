@@ -152,7 +152,7 @@ Her illiteracy should have stopped this, yet, as her eyes looked into [the book.
 
 - Read [Ritual Scripture](#text:ritual-scripture)
 
-["Roa, Turn around."](https://youtu.be/QB1ZSh0yKuc?t=13134)
+["Roa, Turn around."](#embed:https://youtu.be/QB1ZSh0yKuc?t=13134)
 
 Bijou spoke behind Roa, her voice strangely lower than usual. As Roa turned, Bijou whispered the truth.
 

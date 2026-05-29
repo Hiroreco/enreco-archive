@@ -1,5 +1,5 @@
-<!-- My Dearest -->
-<!-- status: It's Complicated -->
+<!-- title: My Dearest -->
+<!-- relationship: It's Complicated -->
 
 > Above the falls where the land breaks,
 
@@ -57,7 +57,7 @@ Would the outcome change? Or would it have hastened the inevitable?
 
 ---
 
-[Why would I need the purification spell if I'm the one cursed? ](#embed:https://youtu.be/QB1ZSh0yKuc?t=10580)
+[Why would I need the purification spell if I'm the one cursed?](#embed:https://youtu.be/QB1ZSh0yKuc?t=10580)
 
 The words dropped from her mouth as Gonathon paused, staring at her in disbelief before running away from the Great Hall.
 

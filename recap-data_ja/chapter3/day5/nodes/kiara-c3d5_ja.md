@@ -18,6 +18,6 @@
 
 - _『安らげぬ墓』_
 
-参照 [ロア](#node:roa)
+参照 [ロア](#node:raora)
 参照 [ビジュー・ザ・ステイン](#node:bijou)
 参照 [ロア-シオリ](#node:raora-shiori)
