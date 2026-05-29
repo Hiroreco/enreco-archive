@@ -118,7 +118,7 @@ The Raven Witch was set, the Bejeweled One prepped, and Sister herself was ready
 
 Shiori unveiled the true nature of outside Libestal. A curse only a few can see and withstand, knowing even a glimpse of its truth. Whatever Roa thought, Shiori knew more.
 
-Why Roa and not another? And how could Roa remember if others do not
+Why Roa and not another? And how could Roa remember if others do not? (See: [Shiori-Roa](#edge:shiori-raora))
 
 Even if Roa herself had forgotten, Shiori Novella had not.
 
