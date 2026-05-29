@@ -35,4 +35,4 @@ After that was out of the way, Ina brandished her new charms and got to work; an
 
 [Catch of the day](#embed:https://www.youtube.com/watch?v=F0V2nxnTEII&t=17982s)
 
-That day, *seven* Lake Kings tried to prove their might, and seven times Ina proved why she was the best fisher in all of Libestal. After exhausting all her bait, Ina deemed it good to call it a day.
+That day, _seven_ Lake Kings tried to prove their might, and seven times Ina proved why she was the best fisher in all of Libestal. After exhausting all her bait, Ina deemed it good to call it a day.
