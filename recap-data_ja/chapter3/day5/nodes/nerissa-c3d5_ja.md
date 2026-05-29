@@ -154,5 +154,4 @@
 （参照: [Lady Bloodflame-Nerissa](#edge:liz-nerissa)）
 
 ## ファンアート
-
-["もっと邪悪なNJが必要だな" by ultra_spring1](https://x.com/ultra_spring1/status/2060136421982105652)
+["Man i need more evil NJ" by ultra_spring1](https://x.com/ultra_spring1/status/2060136421982105652)

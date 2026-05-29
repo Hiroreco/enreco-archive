@@ -58,3 +58,10 @@ As the sun set, she made her way to Nerissa where the two would have a private m
 Finally, she helped work on her garden, putting down some hedge walls before calling it once again.
 
 What would await them on their final day?
+
+## Fanart
+["Hehe" by maviss_03](https://x.com/maviss_03/status/2060320386982838375)
+
+["Wake up Lady Bloodflame!" by grave_robin1](https://x.com/grave_robin1/status/2060174853139841506)
+
+["LBG" by another_achicvc](https://x.com/another_achicvc/status/2060276330831519985)

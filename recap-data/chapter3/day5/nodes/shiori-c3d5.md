@@ -181,3 +181,16 @@ Fuwawa too was [going to experience it as a member of Advent.](https://youtu.be/
 It was truly a hard day's work for [Sister Shiori](https://youtu.be/QB1ZSh0yKuc?t=14082) of the church of Inkwell.
 
 And it seemed there would be more work for Shiori tomorrow, and more would be sacrificed.
+
+## Fanart
+["The Queen in Yellow" by countdaku](https://x.com/countdaku/status/2060344739476500759)
+
+["nun Shiorin!!" by suchikunn](https://x.com/suchikunn/status/2060218154501165505)
+
+["The Queen In Yellow" by monochromelich](https://x.com/monochromelich/status/2060226983368511587)
+
+["please, avert thine eyes" by koizumi_arata](https://x.com/koizumi_arata/status/2060234795255308676)
+
+["A Witch Dancing Through Chaos" by yaymics](https://x.com/yaymics/status/2060281909469495380)
+
+["Outfit update." by okunashi27](https://x.com/okunashi27/status/2060307005722763400)

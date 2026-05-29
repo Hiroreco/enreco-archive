@@ -34,7 +34,6 @@
 そしてアドベントのメンバーたちは[もう一度集結し](https://www.youtube.com/watch?v=FJNKv92ZWdM&t=14450)、その日成し遂げたことを互いに称え合った。どうやら翌日に向けて、さらに何かを準備しているようだった……。
 
 ## ファンアート
+["The Mischeveous Little Princess" by yaymics](https://x.com/yaymics/status/2060282969382674439)
 
-["いたずら好きな小さなプリンセス" by yaymics](https://x.com/yaymics/status/2060282969382674439)
-
-["真のステインド・プリンセス" by castella_yaki](https://x.com/castella_yaki/status/2060141570452758732)
+["THE Stained princess" by castella_yaki](https://x.com/castella_yaki/status/2060141570452758732)
