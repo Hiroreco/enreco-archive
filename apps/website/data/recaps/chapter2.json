@@ -787,35 +787,6 @@
           "selected": false
         },
         {
-          "id": "nix-bae",
-          "source": "nix",
-          "target": "bae",
-          "sourceHandle": "right-2",
-          "targetHandle": "left-2",
-          "type": "fixed",
-          "data": {
-            "relationshipId": "romantic",
-            "title": {
-              "en": "Pretty Purple Chuuni",
-              "ja": "厨二なパープルガール"
-            },
-            "content": {
-              "en": "Beautiful purple hair, a chunni outfit that screams \"I'm edgy\", and a reckless, rogue-ish attitude towards the world.\n\nThough Bae's heart still hurts from Immerkind's rejection, another woman stole her eye. Sweeping in like a hero from legends, Nix saved Bae from the suspicious Libestal guards. Giving the Peasant her number while she was at it.\n\nBut more than that, Nix had given Bae an [opportunity to escape.](https://youtu.be/ZwqLwWTa98E?t=2670)\n\nEscape from the consequences of being a hero.\n\nEscape the pain of a rejected love.\n\nHer brother, Gonathon, worries it might be a rebound, but for now, The Peasant Bae is too enraptured by her purple beauty to agree.",
-              "ja": "美しい紫の髪。\n「私は危険人物だ」と言わんばかりの厨二じみた装い。\nそして、世界を相手にした無鉄砲でローグらしい生き方。\n\nイマーキンドに拒絶された痛みはいまだBaeの胸に残っていた。\n\nそれでも、別の女性が彼女の視線を奪っていく。\n\nまるで伝説の英雄のように現れたNixは、不当に疑いをかけられていたBaeをリベスタルの衛兵たちから救い出した。\n\nそのうえで、ちゃっかり連絡先まで渡していったのだ。\n\nだが、それ以上に――NixはBaeへ[“逃げ道”を与えた。](https://youtu.be/ZwqLwWTa98E?t=2670)\n\nヒーローであるがゆえの責任から逃れる道。\n\n叶わなかった恋の痛みから逃れる道。\n\n兄であるゴナソンは、それが失恋の反動に過ぎないのではと心配している。\n\nだが今のペイザン・ザ・ベイは、紫色の麗しき彼女にすっかり心を奪われていて、そんな言葉に耳を貸す余裕などなかった。"
-            },
-            "pathType": "custom",
-            "day": 0,
-            "offsets": {
-              "HL": 0,
-              "VL": 46,
-              "HC": 0,
-              "VR": -48,
-              "HR": 0
-            }
-          },
-          "selected": false
-        },
-        {
           "id": "shiori-gigi",
           "source": "shiori",
           "target": "gigi",
@@ -1172,6 +1143,35 @@
             "offsets": {
               "HL": 0,
               "VL": -48,
+              "HC": 0,
+              "VR": -48,
+              "HR": 0
+            }
+          },
+          "selected": false
+        },
+        {
+          "id": "nix-bae",
+          "source": "nix",
+          "target": "bae",
+          "sourceHandle": "right-2",
+          "targetHandle": "left-1",
+          "type": "fixed",
+          "data": {
+            "relationshipId": "romantic",
+            "title": {
+              "en": "Pretty Purple Chuuni",
+              "ja": "厨二なパープルガール"
+            },
+            "content": {
+              "en": "Beautiful purple hair, a chunni outfit that screams \"I'm edgy\", and a reckless, rogue-ish attitude towards the world.\n\nThough Bae's heart still hurts from Immerkind's rejection, another woman stole her eye. Sweeping in like a hero from legends, Nix saved Bae from the suspicious Libestal guards. Giving the Peasant her number while she was at it.\n\nBut more than that, Nix had given Bae an [opportunity to escape.](https://youtu.be/ZwqLwWTa98E?t=2670)\n\nEscape from the consequences of being a hero.\n\nEscape the pain of a rejected love.\n\nHer brother, Gonathon, worries it might be a rebound, but for now, The Peasant Bae is too enraptured by her purple beauty to agree.",
+              "ja": "美しい紫の髪。\n「私は危険人物だ」と言わんばかりの厨二じみた装い。\nそして、世界を相手にした無鉄砲でローグらしい生き方。\n\nイマーキンドに拒絶された痛みはいまだBaeの胸に残っていた。\n\nそれでも、別の女性が彼女の視線を奪っていく。\n\nまるで伝説の英雄のように現れたNixは、不当に疑いをかけられていたBaeをリベスタルの衛兵たちから救い出した。\n\nそのうえで、ちゃっかり連絡先まで渡していったのだ。\n\nだが、それ以上に――NixはBaeへ[“逃げ道”を与えた。](https://youtu.be/ZwqLwWTa98E?t=2670)\n\nヒーローであるがゆえの責任から逃れる道。\n\n叶わなかった恋の痛みから逃れる道。\n\n兄であるゴナソンは、それが失恋の反動に過ぎないのではと心配している。\n\nだが今のペイザン・ザ・ベイは、紫色の麗しき彼女にすっかり心を奪われていて、そんな言葉に耳を貸す余裕などなかった。"
+            },
+            "pathType": "custom",
+            "day": 0,
+            "offsets": {
+              "HL": 0,
+              "VL": 46,
               "HC": 0,
               "VR": -48,
               "HR": 0
