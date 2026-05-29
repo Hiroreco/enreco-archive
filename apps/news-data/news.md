@@ -163,3 +163,7 @@ https://x.com/hololive_En/status/2059809432046035217
 https://x.com/hololive_En/status/2059862230284550651
 https://x.com/hololive_En/status/2059805524716409079
 https://x.com/hololive_En/status/2059801833099440588
+https://x.com/hololive_En/status/2060164221028249975
+https://x.com/hololive_En/status/2060171817990713385
+https://x.com/hololive_en/status/2060165477440065964
+https://x.com/hololive_En/status/2060205441700053439
