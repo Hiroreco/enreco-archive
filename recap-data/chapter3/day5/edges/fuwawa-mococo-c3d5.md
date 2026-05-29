@@ -7,15 +7,15 @@ it just doesn’t shatter.
 
 Heat escapes through clear glass,
 its pattern unseen in fragments
-[but no less visible.](https://www.youtube.com/live/K3N6S6rIgS0?si=n12llXgs1OyXASgZ&t=4612)
+[but no less visible.](https://www.youtube.com/live/K3N6S6rIgS0?t=4612)
 
 Opaque glass,
 like shades pulled against sun,
-[hides what most any fool can catch in light.](https://www.youtube.com/live/K3N6S6rIgS0?si=CiX-NuaDzen511Dl&t=4829)
+[hides what most any fool can catch in light.](https://www.youtube.com/live/K3N6S6rIgS0?t=4829)
 
 [...]
 
-[Cuts can be on the surface,](https://www.youtube.com/live/K3N6S6rIgS0?si=2Rwg0yLzwAtvWjBL&t=8220)
+[Cuts can be on the surface,](https://www.youtube.com/live/K3N6S6rIgS0?t=8220)
 unremarked,
 [or slide slickly along fault lines.](https://www.youtube.com/watch?v=Db4P0eDfOMY&t=8212)
 
@@ -29,7 +29,7 @@ at night shadow
 Roughed edges
 slivers
 
-[The dog’s bone](https://www.youtube.com/watch?v=Db4P0eDfOMY&t=10226) [half-consumed](https://www.youtube.com/live/K3N6S6rIgS0?si=CBJ_HNgy7iWT5JA6&t=10279)."
+[The dog’s bone](https://www.youtube.com/watch?v=Db4P0eDfOMY&t=10226) [half-consumed](https://www.youtube.com/live/K3N6S6rIgS0?t=10279)."
  —Maureen Doallas, from Neruda’s Memoirs
 
 ...

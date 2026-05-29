@@ -20,7 +20,7 @@ This cheeriness wouldn't last.
 
 [She was burning. She was burning, and you were laughing, Lady Bloodflame.](#embed:https://www.youtube.com/live/K3N6S6rIgS0?t=7189)
 
-This suffering wouldn't end. With Mococo and Elizabeth linked together, [they shared all damage taken](https://www.youtube.com/live/K3N6S6rIgS0?si=L-1Q5zKuVEmJmCvA&t=6677). You'd think this would mean she would do all she can to protect her little sister, but at every turn, Lady Bloodflame was giggling, cackling... empty laughs. Laughing out of nervousness, or perhaps at teh absurdity of the situation itself. A blue husk. Mococo could feel it. She had noticed her appearance changing, but she didn't know it was this serious. It was hard to recognize her, it felt so, so wrong...
+This suffering wouldn't end. With Mococo and Elizabeth linked together, [they shared all damage taken](https://www.youtube.com/live/K3N6S6rIgS0?t=6677). You'd think this would mean she would do all she can to protect her little sister, but at every turn, Lady Bloodflame was giggling, cackling... empty laughs. Laughing out of nervousness, or perhaps at teh absurdity of the situation itself. A blue husk. Mococo could feel it. She had noticed her appearance changing, but she didn't know it was this serious. It was hard to recognize her, it felt so, so wrong...
 
 And as they died. And died. And died. They were slipping away from each other more and more.
 
