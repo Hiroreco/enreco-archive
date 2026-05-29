@@ -12,7 +12,7 @@ These were the themes that defined the day. Whether through the coordination req
 
 The day's challenge was the **Labyrinth of Duality**, a trial where even the slightest misstep in synchronization could spell failure for the entire group. Every movement, every decision, every choice had to be made in complete harmony with one's partner. Only through absolute unity could the challengers overcome the labyrinth and recover the memories of the twin sisters who embodied the concept of synchronization itself, _Fuwawa Abyssguard and Mococo Abyssguard._
 
-![The Labyrinth of Duality]
+![Labyrinth of Duality](/images-opt/labyrinth-of-duality-opt.webp)
 
 And the theme of togetherness did not remain confined within the dungeon walls. It echoed throughout the heroes' journeys across the day. From the aforementioned sisters struggling to reconcile the bond they once shared, with one still unable to fully comprehend that connection, to the heartfelt reunion between a queen and her loyal knight after so long apart.
 
@@ -24,4 +24,4 @@ And as the final day drew ever closer, tensions tightened across the kingdom lik
 
 When the end finally arrives, will they unite together one last time... or turn their backs against one another when it matters most?
 
-![A sweet poison to open the gate]
+![A sweet poison to open the gate](/images-opt/queen-in-yellow-opt.webp)
