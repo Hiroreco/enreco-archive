@@ -45,6 +45,6 @@ Or at least, she _should_ have called it a day.
 
 Out of nowhere, Fuwawa found herself being chased through Libestal by the ghostly figure of Shakira. Panicked and utterly confused, the poor dog hastily fled through the darkened streets until she accidentally stumbled upon something she absolutely was never meant to see.
 
-[_redacted_](#embed:https://www.youtube.com/watch?v=Db4P0eDfOMY&t=13853s)
+[Don't worry about it, fluffy one](#embed:https://www.youtube.com/watch?v=Db4P0eDfOMY&t=13853s)
 
 At the very least, Fuwawa was allowed to leave unharmed after accidentally intruding upon the hidden location. Within its depths, however, Sister Shiori revealed that she, Nerissa, as well as Mococo, were part of a group known as "Advent."

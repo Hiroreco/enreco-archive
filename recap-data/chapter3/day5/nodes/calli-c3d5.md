@@ -3,7 +3,7 @@
 
 Mordon returned to Libestal a little behind on account of having to be absent for a check-up at the plague doctor and all, which meant she had a lot of things to catch up on.
 
-It didn't help much that Immerkind had a situation she was going through that Mordon just couldn't ignore (see: [Immerkind-Mordon](#edge:calli-cecilia)). Then there was Nerissa with her usual song and dance, scaring the bejeezus out of her every chance she got—seriously, what is [her problem](www.youtube.com/watch?v=UBbTSf5A9bc&t=3428s)?
+It didn't help much that Immerkind had a situation she was going through that Mordon just couldn't ignore (see: [Immerkind-Mordon](#edge:calli-cecilia)). Then there was Nerissa with her usual song and dance, scaring the bejeezus out of her every chance she got—seriously, what is [her problem](https://www.youtube.com/watch?v=UBbTSf5A9bc&t=3428s)?
 
 Then there was Maaz. _Oh boy, was there Maaz._ All Mordon needed from her was an Amulet of Levitation; it should be easy, right? But the demands were relentless: Lapis, upgrade stones, charms, soup, wait, no scratch the soup—wait SCRATCH THE SOUP?! And to boot, calling her an oaf? Mordon was having none of it.
 

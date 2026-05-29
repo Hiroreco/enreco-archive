@@ -27,7 +27,7 @@ export const betrayFamilyChoice: Choice = {
                 en: "Myself",
                 ja: "自分自身",
             },
-            members: ["fuwawa", "nerissa", "bae", "shiori"],
+            members: ["fuwawa", "nerissa", "bae", "shiori", "bijou"],
         },
     ],
 };

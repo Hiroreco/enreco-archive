@@ -13,7 +13,7 @@ export const throwAwayPossessionsChoice: Choice = {
                 en: "In a heartbeat",
                 ja: "迷わず捨てる",
             },
-            members: ["fuwawa"],
+            members: ["fuwawa", "bijou"],
         },
         {
             label: {

@@ -13,14 +13,22 @@ export const whoToTalkToChoice: Choice = {
                 en: "Vega",
                 ja: "ベガ",
             },
-            members: ["liz", "gigi", "kronii"],
+            members: ["liz", "gigi", "kronii", "cecilia", "ina", "calli"],
         },
         {
             label: {
                 en: "Prisoner 0",
                 ja: "囚人番号0",
             },
-            members: ["nerissa", "mococo", "bae", "fuwawa", "raora"],
+            members: [
+                "nerissa",
+                "mococo",
+                "bae",
+                "fuwawa",
+                "raora",
+                "bijou",
+                "shiori",
+            ],
         },
     ],
 };

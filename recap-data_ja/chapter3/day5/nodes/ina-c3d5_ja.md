@@ -27,7 +27,7 @@ _ソ_（so）れほどまでに強い決意を胸に、_ラ_（la）イザーの
 
 そして二人は、お互いが何を考えているのか瞬時に理解した。
 
-[学院の盟友たち](#embed:www.youtube.com/watch?v=F0V2nxnTEII&t=6000s)
+[学院の盟友たち](#embed:https://www.youtube.com/watch?v=F0V2nxnTEII&t=6000s)
 
 その後、フィアの勧めでスター・スピーカーズのヴェガを訪ねたイナは、次の迷宮への道を阻む溶岩湖を渡るための装備を求めた。
 
@@ -43,7 +43,7 @@ _じゃんけんぽん。_
 
 伝統的な意味でのライバルではないが、二人にとってはそれで十分だった。この勝負は伝説として語り継がれるものになるはずだった――
 
-[あっ……負けた……](#embed:%28https://www.youtube.com/watch?v=F0V2nxnTEII&t=6183s%29)
+[あっ……負けた……](#embed:https://www.youtube.com/watch?v=F0V2nxnTEII&t=6183s)
 
 ま、まあ気にしない。
 
@@ -53,7 +53,7 @@ _じゃんけんぽん。_
 
 偉大なるニノイナなら、きっと高い賭けを伴う勝負で彼女を打ち負かせるはず――
 
-[また負けた……](#embed:%28https://www.youtube.com/watch?v=F0V2nxnTEII&t=6230s%29)
+[また負けた……](#embed:https://www.youtube.com/watch?v=F0V2nxnTEII&t=6230s)
 
 ……勝敗はともかく。
 
@@ -85,7 +85,7 @@ _じゃんけんぽん。_
 
 少なくともそのつもりだった。
 
-しかし、その前に彼女はある陰謀へ[巻き込まれることになる。](www.youtube.com/watch?v=F0V2nxnTEII&t=14932s)
+しかし、その前に彼女はある陰謀へ[巻き込まれることになる。](https://www.youtube.com/watch?v=F0V2nxnTEII&t=14932s)
 
 イマーキンド、ゴナソン、そして後から加わったタムが事情を説明した。
 
