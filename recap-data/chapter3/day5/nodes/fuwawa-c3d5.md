@@ -1,5 +1,5 @@
 <!-- title: Fuwawa -->
-<!-- status: Sacrificed -->
+<!-- status: Alive -->
 
 The fluffy one had another dungeon conquest ahead of her today, though this one already felt different from all the previous expeditions. Not only did it promise to uncover long-buried secrets, but she also had to travel alongside a particularly troublesome [someone](https://www.youtube.com/watch?v=Db4P0eDfOMY&t=1153s).
 
@@ -39,10 +39,12 @@ And with nothing else left to accomplish, the fluffy one happily called it a day
 
 ...
 
-Or at least, she should have called it a day.
+Or at least, she _should_ have called it a day.
 
 [B-bau bau?!?!](#embed:https://www.youtube.com/live/Db4P0eDfOMY?si=SXHMGELCh98FJGTW&t=13714)
 
-Fuwawa could no longer recall the events that followed.
+Out of nowhere, Fuwawa found herself being chased through Libestal by the ghostly figure of Shakira. Panicked and utterly confused, the poor dog hastily fled through the darkened streets until she accidentally stumbled upon something she absolutely was never meant to see.
 
-[\*redacted\*](#embed:https://www.youtube.com/watch?v=Db4P0eDfOMY&t=13853s)
+[_redacted_](#embed:https://www.youtube.com/watch?v=Db4P0eDfOMY&t=13853s)
+
+At the very least, Fuwawa was allowed to leave unharmed after accidentally intruding upon the hidden location. Within its depths, however, Sister Shiori revealed that she, Nerissa, as well as Mococo, were part of a group known as "Advent."

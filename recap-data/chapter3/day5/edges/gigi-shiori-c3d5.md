@@ -1,5 +1,4 @@
 <!-- My Dearest -->
-
 <!-- status: It's Complicated -->
 
 > Above the falls where the land breaks,
@@ -14,7 +13,7 @@
 
 > Lonely the nights when the pearl dims,
 
-> A book given by a loved's whim. 
+> A book given by a loved's whim.
 
 > Prized mem'ries that is
 
@@ -24,13 +23,13 @@
 
 ---
 
-Oh, Gonathon, you were always the sweetest of the Knights. Even when you have every right to distrust someone, you choose to believe in them with all your heart. Too kind. 
+Oh, Gonathon, you were always the sweetest of the Knights. Even when you have every right to distrust someone, you choose to believe in them with all your heart. Too kind.
 
 Too foolish.
 
 Did Gonathon's feelings for Shiori fade as he watched her desecrate Shakira's body in the Church of Inkwell?
 
-It was a complicated answer. 
+It was a complicated answer.
 
 The memories they shared. The love they once had, though toxic, was real.
 
@@ -46,7 +45,7 @@ It seemed Shiori was almost revealing the cards Gonathon wanted to know.
 
 Both. Gonathon, ever the simple and honest, answered. Does it truly matter in the end? Either Shiori is still "Shiori" at the end.
 
-Hesistantly, Gonathon brought up the great evils that encroached the land of Libestal. Of the corruption that changed those who step into the lands. 
+Hesistantly, Gonathon brought up the great evils that encroached the land of Libestal. Of the corruption that changed those who step into the lands.
 
 "And what of those who accept the corruption?"
 
@@ -64,7 +63,7 @@ The words dropped from her mouth as Gonathon paused, staring at her in disbelief
 
 "Wait, Gonathon!" Shiori called him.
 
-Too much had been prepared for it all to be lost just before the final bell tolls. 
+Too much had been prepared for it all to be lost just before the final bell tolls.
 
 "Gonathon!"
 
@@ -74,13 +73,13 @@ It takes great courage to commit to justice... It takes great delusion to cling 
 
 She was cursed. "But Gonathon, what if we were all cursed?"
 
-"I don't trust you." The Knight said, yet his voice trembled. 
+"I don't trust you." The Knight said, yet his voice trembled.
 
-"What if we can be cursed together, Gonathon?" 
+"What if we can be cursed together, Gonathon?"
 
 [What if I need you."](#embed:https://youtu.be/QB1ZSh0yKuc?t=10703)
 
-Again. So easily swayed, sweet, dearest Gonathon. 
+Again. So easily swayed, sweet, dearest Gonathon.
 
 As if stalking them, Nerissa Juliet arrived once again, almost like she was afraid something would happen.
 
@@ -102,19 +101,17 @@ She led him to the altar and gestured to a book on the podium.
 
 Then Gonathon began to read:
 
-- [Unknown title](#text:https://youtu.be/QB1ZSh0yKuc?t=11209)
+[Unknown Title](#embed:https://youtu.be/QB1ZSh0yKuc?t=11209)
 
-The text is also below:
-
-"It began even before your eyes moved across the first word, an infectious disease that feeds on your soft tissues and bones. Something behind your eyes wasn't there before; it burrows like worms through your skull like wildfire through thought alone, an idea turned obsession. You are hereby claimed by madness forever more. A puppet with strings for the outer gods as to one chosen by he and I we lay claim to your heart and soul. Your mind and veins must wear a mask forever more and if you are the unchosen what await you is..."
+- Read [Ritual Scripture](#text:ritual-scripture)
 
 And Gonathon read the book, the words coming out faster as the madness swirled around him. An unknown force pressed in his mind as he finished, and a pain struck him...
 
 He was not the chosen one.
 
-Gonathon gasped in pain as the forbidden knowledge filled him. 
+Gonathon gasped in pain as the forbidden knowledge filled him.
 
-Again, Shiori led him to his resting place. 
+Again, Shiori led him to his resting place.
 
 "I'll need you to kill yourself. You're a good boy, aren't you?"
 
@@ -130,9 +127,9 @@ And with a final kiss, Gonathon died.
 
 ---
 
-Gonathon gasped as he clutched the fountain behind him. 
+Gonathon gasped as he clutched the fountain behind him.
 
-"What happened?" His chest was tight, and there was an ache in his very flesh and bones. 
+"What happened?" His chest was tight, and there was an ache in his very flesh and bones.
 
 He was in the dungeon earlier with Nerissa Juliet... and then...
 
