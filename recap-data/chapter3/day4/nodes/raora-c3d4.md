@@ -71,7 +71,7 @@ Revenge.
 
 And Roa promised that she would uncover the truth needed to exact it.
 
-Despite everything, the day continued. Roa, Tam, and Gonathon eventually conquered both the Labyrinth of [Emotion](https://www.youtube.com/watch?v=P3uwaftxSG0&t=6930) and the Labyrinth of [Song](https://www.youtube.com/watch?v=P3uwaftxSG0&t=12080). Peasant had joined them for the first dungeon, though he later decided to solo the second alone.
+Despite everything, the day continued. Roa, Tam, and Gonathon eventually conquered both the Labyrinth of [Emotion](https://www.youtube.com/watch?v=P3uwaftxSG0&t=6930) and the Labyrinth of [Song](https://www.youtube.com/watch?v=P3uwaftxSG0&t=12080). Peasant had joined them for the first dungeon, though she later decided to do the second alone.
 
 Earlier tensions between Roa and Tam had caused some [conflict](https://www.youtube.com/watch?v=P3uwaftxSG0&t=4390), but the two ultimately put aside their differences in order to finish the dungeons together.
 

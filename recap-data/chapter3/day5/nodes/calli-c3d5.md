@@ -27,6 +27,6 @@ Alright, there's a trend. What the hell's going on? Why's everyone suffocating i
 
 [Ever get a feeling of déjà vu?](#embed:https://www.youtube.com/live/UBbTSf5A9bc?si=QV3B2I40qETcZVIz&t=20525)
 
-The next couple of minutes were full of panic: from Mordon; from the conspirators; from Knight Immerkind, who'd found her way here too somehow(?). Mordon ended up discovering the identity of Shakira's killer using her sleight of hand, but she would end up dropping down to the concealed zone built under the church, together with Immerkind. At that point, no matter how much she struggled, she was powerless to stop what was about to happen (see [Sister Shiori](#node:Shiori)), and the last couple of minutes were erased into a blur inside her mind.
+The next couple of minutes were full of panic: from Mordon; from the conspirators; from Knight Immerkind, who'd found her way here too somehow(?). Mordon ended up discovering the identity of Shakira's killer using her sleight of hand, but she would end up dropping down to the concealed zone built under the church, together with Immerkind. At that point, no matter how much she struggled, she was powerless to stop what was about to happen (see [Sister Shiori](#node:shiori)), and the last couple of minutes were erased into a blur inside her mind.
 
 [...but the chicken did not forget.](#embed:https://www.youtube.com/live/UBbTSf5A9bc?si=vJ_CiaSHV72da4Gf&t=20816)
