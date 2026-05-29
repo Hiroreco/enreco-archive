@@ -29,7 +29,7 @@ Shiori gave her a call and Liz picked up instantly, needing to talk to her partn
 
 With Thorn properly upgraded well enough, it was time for the dungeon. Liz, Shiori, Fuwawa, and Mococo set off into a dungeon that would require teamwork. Pain was shared and so was death it seemed.
 
-The entire [potion creation](https://www.youtube.com/watch?v=8J7aGAe42EE&t=6282) was giving her a headache as she tried to understand how it worked. Through the phone, Mococo and Shiori tried to explain before everyone got on the same page. They just needed to prepare two of each potion and then drink them if the room matched.
+The entire [potion creation](https://www.youtube.com/watch?v=8J7aGAe42EE&t=6282) was giving her a headache as she tried to understand how it worked. Through the phone, Mococo and Shiori tried to explain before everyone got on the same page. They just needed to prepare one of each potion and then drink them if the room matched.
 
 With that out of the way, they made their way through the rest of the dungeon to find themselves fighting a [dog with multiple heads](https://www.youtube.com/watch?v=8J7aGAe42EE&t=8618). It spoke twice, at the same time, in complete synchronization.
 
