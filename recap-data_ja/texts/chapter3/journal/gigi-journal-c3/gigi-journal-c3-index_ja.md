@@ -1,4 +1,4 @@
-<!-- entries: gigi-journal-c3d1_ja, gigi-journal-c3d2_ja, gigi-journal-c3d3_ja, gigi-journal-c3d4_ja -->
+<!-- entries: gigi-journal-c3d1_ja, gigi-journal-c3d2_ja, gigi-journal-c3d3_ja, gigi-journal-c3d4_ja, gigi-journal-c3d5_ja -->
 <!-- title: ゴナソンの日誌 -->
 
 <!-- description -->

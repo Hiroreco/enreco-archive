@@ -2,6 +2,4 @@
 
 coin REMAINING
 
-
-
 49578
