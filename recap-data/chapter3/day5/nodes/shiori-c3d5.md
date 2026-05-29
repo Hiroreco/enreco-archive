@@ -23,7 +23,7 @@ Roa.
 
 The cat tried to avoid Sister Shiori, ignoring her greeting until a certain comment was made.
 
-[There's blood leading to your wife's grave.](#embed: https://youtu.be/QB1ZSh0yKuc?t=1094)
+[There's blood leading to your wife's grave.](#embed:https://youtu.be/QB1ZSh0yKuc?t=1094)
 
 The cat was seemingly unbothered by that fact and pushed forward.
 

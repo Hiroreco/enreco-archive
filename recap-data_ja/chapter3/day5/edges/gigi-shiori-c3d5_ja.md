@@ -1,5 +1,5 @@
 <!-- title: 私の大切な人 -->
-<!-- relationship: 複雑な関係 -->
+<!-- relationship: It's Complicated -->
 
 > 滝の上、大地が裂ける場所で、
 >
