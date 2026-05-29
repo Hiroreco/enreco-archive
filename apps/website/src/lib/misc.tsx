@@ -129,6 +129,10 @@ export const CONTRIBUTORS: Credit[] = [
                 name: "fireycar",
                 socials: "https://www.reddit.com/user/Zestyclose_Public372/",
             },
+            {
+                name: "Derpizard",
+                socials: "https://x.com/VoltWag23",
+            },
         ],
     },
     {
@@ -144,12 +148,44 @@ export const CONTRIBUTORS: Credit[] = [
                 socials: null,
             },
             {
-                name: "Squid",
-                socials: "https://x.com/Squid_the_Weeb",
-            },
-            {
                 name: "Minhatory",
                 socials: "https://x.com/minhatory ",
+            },
+            {
+                name: "abnlib",
+                socials: null,
+            },
+            {
+                name: "Beeswithgunz",
+                socials: "https://x.com/Beeswithgunz",
+            },
+            {
+                name: "Hell-Yum",
+                socials: null,
+            },
+            {
+                name: "Javerend",
+                socials: null,
+            },
+            {
+                name: "kaitokei",
+                socials: "https://x.com/kaitokei",
+            },
+            {
+                name: "NairaOo",
+                socials: null,
+            },
+            {
+                name: "Bonitto G",
+                socials: null,
+            },
+            {
+                name: "RayIsMob",
+                socials: null,
+            },
+            {
+                name: "Frostywaffle",
+                socials: null,
             },
         ],
     },
@@ -169,24 +205,39 @@ export const CONTRIBUTORS: Credit[] = [
                 name: "Zephyr Kitten",
                 socials: "https://x.com/ZephyrKitten",
                 credits: {
-                    en: ["Chapter 2: Gigi related entries"],
+                    en: ["Chapter 2, 3: Gigi related entries"],
                     ja: ["第2章：ジジ関連のエントリー"],
                 },
             },
-
             {
-                name: "Fayelinya Luna",
-                socials: "https://fayelinyaluna.carrd.co/",
+                name: "Squid",
+                socials: "https://x.com/Squid_the_Weeb",
                 credits: {
-                    en: ["Chapter 2: Bijou related entries"],
-                    ja: ["第2章：ビジュー関連のエントリー"],
+                    en: ["Chapter 3: Calli, Mococo related entries"],
+                    ja: ["第3章：カリ、モココ関連のエントリー"],
+                },
+            },
+            {
+                name: "SteelPokeNinja",
+                socials: "https://x.com/SteelPokeNinja",
+                credits: {
+                    en: ["Chapter 3: Bijou related entries"],
+                    ja: ["第3章：ビジュー関連のエントリー"],
+                },
+            },
+            {
+                name: "Derpizard",
+                socials: "https://x.com/VoltWag23",
+                credits: {
+                    en: ["Chapter 3: Ina related entries"],
+                    ja: ["第3章：イナ関連のエントリー"],
                 },
             },
             {
                 name: "Alfy",
                 socials: "https://x.com/knightalfy",
                 credits: {
-                    en: ["Chapter 2: Bae, Shiori related entries"],
+                    en: ["Chapter 2, 3: Bae, Shiori related entries"],
                     ja: ["第2章：ベー、シオリ関連のエントリー"],
                 },
             },
@@ -194,25 +245,23 @@ export const CONTRIBUTORS: Credit[] = [
                 name: "KuyaGray",
                 socials: "https://x.com/KuyaGray",
                 credits: {
-                    en: ["Chapter 2: Cecilia related entries"],
+                    en: ["Chapter 2, 3: Cecilia related entries"],
                     ja: ["第2章：セシリア関連のエントリー"],
                 },
             },
-
-            {
-                name: "TsukiBep",
-                socials: "https://x.com/tsukibep",
-                credits: {
-                    en: ["Chapter 2: Ina related entries"],
-                    ja: ["第2章：イナ関連のエントリー"],
-                },
-            },
-
             {
                 name: "SB",
                 socials: "https://x.com/SBERBholo",
                 credits: {
-                    en: ["Chapter 2: Elizabeth related entries"],
+                    en: ["Chapter 2, 3: Elizabeth related entries"],
+                    ja: ["第2章：エリザベス関連のエントリー"],
+                },
+            },
+            {
+                name: "Hashbrownui",
+                socials: "https://x.com/Hashbrownui",
+                credits: {
+                    en: ["Chapter 3: Elizabeth related entries"],
                     ja: ["第2章：エリザベス関連のエントリー"],
                 },
             },
@@ -220,32 +269,23 @@ export const CONTRIBUTORS: Credit[] = [
                 name: "Zel",
                 socials: "https://x.com/zelmaelstrom",
                 credits: {
-                    en: ["Chapter 2: Nerissa related entries"],
+                    en: ["Chapter 2, 3: Nerissa related entries"],
                     ja: ["第2章：ネリッサ関連のエントリー"],
                 },
             },
-
             {
                 name: "Perks",
                 socials: "https://x.com/PerksJAZZBERI",
                 credits: {
-                    en: ["Chapter 2: Kiara related entries"],
+                    en: ["Chapter 2, 3: Kiara related entries"],
                     ja: ["第2章：キアラ関連のエントリー"],
-                },
-            },
-            {
-                name: "esca",
-                socials: "https://x.com/esca_prod",
-                credits: {
-                    en: ["Chapter 2: Kronii related entries"],
-                    ja: ["第2章：クロニー関連のエントリー"],
                 },
             },
             {
                 name: "tom8o",
                 socials: "https://x.com/Tom_8o",
                 credits: {
-                    en: ["Chapter 2: Gigi related entries"],
+                    en: ["Chapter 2, 3: Gigi related entries"],
                     ja: ["第2章：ジジ関連のエントリー"],
                 },
             },
@@ -263,6 +303,30 @@ export const CONTRIBUTORS: Credit[] = [
                 credits: {
                     en: ["Chapter 3: Raora related entries"],
                     ja: ["第3章：ラオラ関連のエントリー"],
+                },
+            },
+            {
+                name: "Fayelinya Luna",
+                socials: "https://fayelinyaluna.carrd.co/",
+                credits: {
+                    en: ["Chapter 2: Bijou related entries"],
+                    ja: ["第2章：ビジュー関連のエントリー"],
+                },
+            },
+            {
+                name: "esca",
+                socials: "https://x.com/esca_prod",
+                credits: {
+                    en: ["Chapter 2: Kronii related entries"],
+                    ja: ["第2章：クロニー関連のエントリー"],
+                },
+            },
+            {
+                name: "TsukiBep",
+                socials: "https://x.com/tsukibep",
+                credits: {
+                    en: ["Chapter 2: Ina related entries"],
+                    ja: ["第2章：イナ関連のエントリー"],
                 },
             },
         ],
