@@ -5,7 +5,7 @@
 
 It seemed all she truly needed was proper rest. When Nerissa awoke, she felt lighter—clearer somehow.
 
-Today, she finally came to [peace with her identity](https://youtu.be/4anxJRoJo4s?t=321). Not as *The Witch*, nor as *Nerissa Juliet*, but simply Nerissa. How exactly she reconciled with herself remained unknown.
+Today, she finally came to [peace with her identity](https://youtu.be/4anxJRoJo4s?t=321). Not as _The Witch_, nor as _Nerissa Juliet_, but simply Nerissa. How exactly she reconciled with herself remained unknown.
 
 Perhaps she spoke with the many versions of herself in her dreams. Or maybe the voices in her head finally convinced her to stop fighting and accept everything at once.
 
@@ -61,7 +61,7 @@ The dungeons had been cleared. Advent's memories had been restored. And somehow,
 
 Yet before closing the book on today's adventure, Nerissa still had one final task left unfinished.
 
-[*"Let me slick my hair back."*](#embed:https://youtu.be/4anxJRoJo4s?t=18874)
+[_"Let me slick my hair back."_](#embed:https://youtu.be/4anxJRoJo4s?t=18874)
 
 At the elegant park she had built earlier, Nerissa stood alone beneath the fading sky, a rose in one hand and a ring in the other. She called Lady Bloodflame, inviting the knight to meet her there. The invitation was accepted, though the evening had yet to arrive.
 
@@ -74,4 +74,5 @@ Eventually, the gods took pity on her. The sunlight finally softened, the heaven
 Then, Lady Bloodflame arrived (see [Lady Bloodflame-Nerissa](#edge:liz-nerissa)).
 
 ## Fanart
+
 ["Man i need more evil NJ" by ultra_spring1](https://x.com/ultra_spring1/status/2060136421982105652)

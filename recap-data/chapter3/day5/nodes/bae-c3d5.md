@@ -60,6 +60,7 @@ Finally, the peasant can leave.
 Coin Count: 49578.
 
 ## Fanart
+
 ["Fishing" by maxartist555](https://x.com/maxartist555/status/2060224549963301202)
 
 ["Hard Working Peasant" by rlus654](https://x.com/rlus654/status/2060179320983675117)

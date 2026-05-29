@@ -124,6 +124,7 @@
 果たして、最後の日には何が待ち受けているのだろうか。
 
 ## ファンアート
+
 ["Hehe" by maviss_03](https://x.com/maviss_03/status/2060320386982838375)
 
 ["Wake up Lady Bloodflame!" by grave_robin1](https://x.com/grave_robin1/status/2060174853139841506)

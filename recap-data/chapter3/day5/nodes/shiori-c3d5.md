@@ -183,6 +183,7 @@ It was truly a hard day's work for [Sister Shiori](https://youtu.be/QB1ZSh0yKuc?
 And it seemed there would be more work for Shiori tomorrow, and more would be sacrificed.
 
 ## Fanart
+
 ["The Queen in Yellow" by countdaku](https://x.com/countdaku/status/2060344739476500759)
 
 ["nun Shiorin!!" by suchikunn](https://x.com/suchikunn/status/2060218154501165505)

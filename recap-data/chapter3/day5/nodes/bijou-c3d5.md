@@ -34,6 +34,7 @@ Bijou finds that she is gaining a taste for sacrifice, wanting to sacrifice Mord
 The members of Advent then [reunite one more time](https://www.youtube.com/watch?v=FJNKv92ZWdM&t=14450), congratulating each other for what they had accomplished that day. It seems they are also preparing something for the next day...
 
 ## Fanart
+
 ["The Mischeveous Little Princess" by yaymics](https://x.com/yaymics/status/2060282969382674439)
 
 ["THE Stained princess" by castella_yaki](https://x.com/castella_yaki/status/2060141570452758732)

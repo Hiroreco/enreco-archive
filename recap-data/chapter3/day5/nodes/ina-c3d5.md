@@ -5,7 +5,7 @@ After some stomach troubles put NinoIna out of commission the day before, she aw
 
 The first thing Ina needed to do today was catch up. Luckily for her, she had bested Maaz already, so the only thing left to do was conquer the Labyrinth of Song. After a few errands, gathering Immerkind, Bijou, and Mordon—who had also been absent from the previous day's events alongside Ina—the four entered Terminus to tackle the [dungeon](https://www.youtube.com/watch?v=F0V2nxnTEII&t=3216s).
 
-And so, without further a_do_, Ina got _re_ady, gathered her _mi_ght, and ventured _fa_rther than she ever had. _So_ determined was she, _la_zer focused on the tasks, ensuring it was done to a _ti_, and collected the memories of [Nerissa Ravencroft](https://www.youtube.com/watch?v=F0V2nxnTEII&t=5527s).
+And so, without further a*do*, Ina got _re_ady, gathered her \_mi_ght, and ventured \_fa_rther than she ever had. \_So_ determined was she, _la_zer focused on the tasks, ensuring it was done to a \_ti_, and collected the memories of [Nerissa Ravencroft](https://www.youtube.com/watch?v=F0V2nxnTEII&t=5527s).
 
 Awakening from the battle, Ina was instructed to sing a song to progress. Of course, with the help of her sister, she chose something [_Simple and clean_](https://www.youtube.com/watch?v=F0V2nxnTEII&t=5799s), and continued to Faust for more insight on what she should do next. Faust instructed Ina to find a companion alongside whom she could venture into the next trial. Ina looked around and met the gaze of Immerkind, and the two knew exactly what the other was thinking.
 
@@ -15,15 +15,15 @@ Continuing along, Ina went to Vega of the Star Speakers on Fia's recommendation 
 
 Ina knew of only one battle that would satisfy Faust's request: a thrilling game of _janken pon_. Her opponent? Mordon Ramsay. Not a rival in a traditional sense, but it didn't matter; for both of them, it was all the rivalry they needed to make the engagement _legenda-_
 
-[oh... I lost...](#embed:(https://www.youtube.com/watch?v=F0V2nxnTEII&t=6183s))
+[oh... I lost...](<#embed:(https://www.youtube.com/watch?v=F0V2nxnTEII&t=6183s)>)
 
 W- well, no matter, another rival was but a few steps away; Immerkind, of course. Surely the great NinoIna could best her in some high stakes-
 
-[Not again...](#embed:(https://www.youtube.com/watch?v=F0V2nxnTEII&t=6230s))
+[Not again...](<#embed:(https://www.youtube.com/watch?v=F0V2nxnTEII&t=6230s)>)
 
 Regardless of the... battles, it seemed Vega was satisfied with the tale, and gave Ina the Fire-Proof shield she was looking for, meaning she would be able to traverse the Labyrinth of Duality with Mordon and Immerkind by her side. Being a party of three meant a few extra hurdles in their mission, but our heroes managed to overcome this and gained the memories of [Fuwawa and Mococo Abyssgard](https://www.youtube.com/watch?v=F0V2nxnTEII&t=13062s).
 
-Ina's next quest was clear: to claim a fish she had only heard in passing, one that would exceed anything she had done before as a humble fisherman. She was going to catch the *Lake King*. To begin, Ina saw it best to return to her Supplier lifestyle, as it had been told that only a supplier was able to catch even a glimpse of this elusive fish. And so, after crafting a few trinkets for her shop, her decision was [final](https://www.youtube.com/watch?v=F0V2nxnTEII&t=14736s).
+Ina's next quest was clear: to claim a fish she had only heard in passing, one that would exceed anything she had done before as a humble fisherman. She was going to catch the _Lake King_. To begin, Ina saw it best to return to her Supplier lifestyle, as it had been told that only a supplier was able to catch even a glimpse of this elusive fish. And so, after crafting a few trinkets for her shop, her decision was [final](https://www.youtube.com/watch?v=F0V2nxnTEII&t=14736s).
 
 Ina may have to work her way back from square one once again, but it would all be worth it. She had faith in that fact. She gathered her rod, and headed to the Fishing spot she had heard the fish was found last... Or at least that was what she _intended_, before being interrupted by a plot that she was about to [get dragged into](www.youtube.com/watch?v=F0V2nxnTEII&t=14932s).
 

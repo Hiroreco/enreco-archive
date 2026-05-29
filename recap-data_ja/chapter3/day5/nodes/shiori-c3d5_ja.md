@@ -312,6 +312,7 @@
 さらなる生贄が捧げられることになるのだから。
 
 ## ファンアート
+
 ["The Queen in Yellow" by countdaku](https://x.com/countdaku/status/2060344739476500759)
 
 ["nun Shiorin!!" by suchikunn](https://x.com/suchikunn/status/2060218154501165505)

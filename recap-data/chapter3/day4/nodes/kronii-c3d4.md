@@ -79,7 +79,7 @@ And so, after everything was finally over, Tam settled down inside the library, 
 
 ## Fanart
 
-["ALL MY HOMIES HATE MAAZ" by _bambooz](https://x.com/_bambooz/status/2060030812884521192)
+["ALL MY HOMIES HATE MAAZ" by \_bambooz](https://x.com/_bambooz/status/2060030812884521192)
 
 ["poor queen" by h0_pj](https://x.com/h0_pj/status/2059994941590511882)
 
