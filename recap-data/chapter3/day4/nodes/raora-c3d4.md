@@ -91,11 +91,11 @@ With the possibility of a grand expedition into the Gap awaiting tomorrow, Roa r
 
 ## Fanart
 
-["The fourth wall..." by unknown](https://vxtwitter.com/reg_501st/status/2060121660523413934)
+["The fourth wall..." by reg_501st](https://x.com/reg_501st/status/2060121660523413934)
 
-["I Have Seen Beyond" by unknown](https://vxtwitter.com/deadbeat_1013/status/2060146863039242663)
+["I Have Seen Beyond" by deadbeat_1013](https://x.com/deadbeat_1013/status/2060146863039242663)
 
-["ENReco has been good" by unknown](https://vxtwitter.com/soransjoestarsc/status/2060190853029638557)
+["ENReco has been good" by soransjoestarsc](https://x.com/soransjoestarsc/status/2060190853029638557)
 
 ["Breaking Deminsions" by chada_ijwtmcs](https://x.com/chada_ijwtmcs/status/2059928827066003771)
 

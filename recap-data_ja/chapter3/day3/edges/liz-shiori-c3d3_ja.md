@@ -55,7 +55,7 @@
 
 ## ファンアート
 
-["teasing the do- I mean knight" by unknown](https://vxtwitter.com/another_achicvc/status/2060013224658194789)
+["teasing the do- I mean knight" by another_achicvc](https://x.com/another_achicvc/status/2060013224658194789)
 
 ["The impossible friendship?" by spaceace_king](https://x.com/spaceace_king/status/2059506198630842400)
 

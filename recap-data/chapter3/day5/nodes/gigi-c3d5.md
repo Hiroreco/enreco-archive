@@ -40,12 +40,13 @@ The die had been cast, and it was unclear whether justice would prevail. Just wh
 [Day 5's journal](#embed:https://www.youtube.com/watch?v=w2BCfGaek4g&t=15879s)
 
 ## Fanart
-["GO GET THEM" by unknown](https://vxtwitter.com/watashigazza/status/2060346032127693058)
 
-["gonathan" by unknown](https://vxtwitter.com/sethhhlhhh/status/2060028013111390505)
+["GO GET THEM" by watashigazza](https://x.com/watashigazza/status/2060346032127693058)
 
-["Good guy pretty tough" by unknown](https://vxtwitter.com/ev_7_w/status/2060076004291314100)
+["gonathan" by sethhhlhhh](https://x.com/sethhhlhhh/status/2060028013111390505)
 
-["Gonathon G." by unknown](https://vxtwitter.com/drac_o_weeb/status/2060103937705881691)
+["Good guy pretty tough" by ev_7_w](https://x.com/ev_7_w/status/2060076004291314100)
 
-["Resting sir knight" by unknown](https://vxtwitter.com/a_mirusa/status/2060156517400342886)
+["Gonathon G." by drac_o_weeb](https://x.com/drac_o_weeb/status/2060103937705881691)
+
+["Resting sir knight" by a_mirusa](https://x.com/a_mirusa/status/2060156517400342886)

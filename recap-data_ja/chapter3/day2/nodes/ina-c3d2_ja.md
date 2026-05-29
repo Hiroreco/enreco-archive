@@ -91,7 +91,7 @@ SIR MEOWを連れたニノイナは、その後エサ用の素材集めや寄付
 
 ## ファンアート
 
-["The elusive river prince" by unknown](https://vxtwitter.com/unreallyhooman/status/2060281474323034538)
+["The elusive river prince" by unreallyhooman](https://x.com/unreallyhooman/status/2060281474323034538)
 
 ["Behold, Sir Meow" by wydken](https://x.com/wydken/status/2059399123233546564)
 

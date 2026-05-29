@@ -17,7 +17,7 @@ As night falls, Immerkind concludes her day by once again writing within her jou
 
 ## Fanart
 
-["Distract" by unknown](https://vxtwitter.com/kirbyotaku/status/2060097726432616808)
+["Distract" by kirbyotaku](https://x.com/kirbyotaku/status/2060097726432616808)
 
 ["Immerkind" by renveriouz](https://x.com/renveriouz/status/2059670465137021289)
 

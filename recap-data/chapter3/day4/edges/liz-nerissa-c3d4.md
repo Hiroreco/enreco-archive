@@ -89,11 +89,11 @@ Request: denied.
 
 ## Fanart
 
-["cut my life expectancy" by unknown](https://vxtwitter.com/renshifter/status/2060093868079812629)
+["cut my life expectancy" by renshifter](https://x.com/renshifter/status/2060093868079812629)
 
-["fishng frenzy" by unknown](https://vxtwitter.com/ogumashiro/status/2060113715911909847)
+["fishng frenzy" by ogumashiro](https://x.com/ogumashiro/status/2060113715911909847)
 
-["I was a demon." by unknown](https://vxtwitter.com/thekaiyip/status/2060134721678651520)
+["I was a demon." by thekaiyip](https://x.com/thekaiyip/status/2060134721678651520)
 
 ["The Princess and Her Knight" by tianshiko](https://x.com/tianshiko/status/2059777733400441067)
 

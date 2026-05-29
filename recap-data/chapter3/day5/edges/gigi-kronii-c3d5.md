@@ -26,6 +26,7 @@ Alas, Tam and Immerkind were unable to locate Shiori's eldritch chambers, in par
 While Tam was quick to object, Gonathon [reminded](https://www.youtube.com/watch?v=w2BCfGaek4g&t=15675s) her that she was now their equal, and had to pull her weight just like the rest of them. And with that, the group parted ways. While Gonathon may no longer be the queen's knight, he had become something even greater: Tam Gandr's most trusted friend.
 
 ## Fanart
-["Maybe?" by unknown](https://vxtwitter.com/painko3o/status/2060263467647385697)
+
+["Maybe?" by painko3o](https://x.com/painko3o/status/2060263467647385697)
 
 ["Thus The Knight Advances Forward" by blaparky](https://x.com/blaparky/status/2060236165077463079)

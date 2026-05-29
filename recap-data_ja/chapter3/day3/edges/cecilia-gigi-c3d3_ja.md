@@ -23,7 +23,7 @@
 
 ## ファンアート
 
-["Must. Get. Stronger." by unknown](https://vxtwitter.com/emillemaiki/status/2060011116093374595)
+["Must. Get. Stronger." by emillemaiki](https://x.com/emillemaiki/status/2060011116093374595)
 
 <!-- liz, nerissa -->
 

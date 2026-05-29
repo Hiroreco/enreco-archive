@@ -117,13 +117,13 @@
 
 ## ファンアート
 
-["Look into my eyes" by unknown](https://vxtwitter.com/unbabbles/status/2060095559336116432)
+["Look into my eyes" by unbabbles](https://x.com/unbabbles/status/2060095559336116432)
 
-["A queen dawned in golden silk" by unknown](https://vxtwitter.com/derved_/status/2060113424143491547)
+["A queen dawned in golden silk" by derved\_](https://x.com/derved_/status/2060113424143491547)
 
-["I really hate nosy people..." by unknown](https://vxtwitter.com/anonamos_701/status/2060147709081014562)
+["I really hate nosy people..." by anonamos_701](https://x.com/anonamos_701/status/2060147709081014562)
 
-["Lost sheep" by unknown](https://vxtwitter.com/spaceace_king/status/2060163598773825963)
+["Lost sheep" by spaceace_king](https://x.com/spaceace_king/status/2060163598773825963)
 
 ["your beloved in my hand" by hanaraiee](https://x.com/hanaraiee/status/2059969082590703623)
 

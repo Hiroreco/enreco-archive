@@ -94,8 +94,9 @@
 そして最後には、一日とは思えないほど濃密な出来事の数々を振り返りながら、タムは静かに腰を下ろし、その日に起きたすべてを["日記"](https://www.youtube.com/live/phkMUVqF6aY?si=tD4nVwbj0z-VL6vP&t=14416)へ書き記したのだった。
 
 ## ファンアート
-["Looks stupid" by unknown](https://vxtwitter.com/albertweskerh/status/2060244059361620194)
 
-["Forget and to be Fallen" by unknown](https://vxtwitter.com/yuutomeh97/status/2060273303160590431)
+["Looks stupid" by albertweskerh](https://x.com/albertweskerh/status/2060244059361620194)
 
-["Tamda" by unknown](https://vxtwitter.com/koizumi_arata/status/2060316172290064839)
+["Forget and to be Fallen" by yuutomeh97](https://x.com/yuutomeh97/status/2060273303160590431)
+
+["Tamda" by koizumi_arata](https://x.com/koizumi_arata/status/2060316172290064839)

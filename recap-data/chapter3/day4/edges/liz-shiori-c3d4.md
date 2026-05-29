@@ -38,4 +38,5 @@ As soon as Nerissa suggested it, Lady Bloodflame hung the call up, right as the 
 It was a wonder the relationship between herself and Shiori was strained at best. Not hateful, but boy did Sister Shiori make it difficult to want to talk to her.
 
 ## Fanart
-["friendliest of spars" by unknown](https://vxtwitter.com/hotchippyy/status/2060102257434411332)
+
+["friendliest of spars" by hotchippyy](https://x.com/hotchippyy/status/2060102257434411332)

@@ -11,6 +11,6 @@
 
 ## ファンアート
 
-["The sheep is EVIL!!!" by unknown](https://vxtwitter.com/mpien6/status/2060021200202649886)
+["The sheep is EVIL!!!" by mpien6](https://x.com/mpien6/status/2060021200202649886)
 
 ["no one will believe you" by ediialex](https://x.com/ediialex/status/2059849718998413634)

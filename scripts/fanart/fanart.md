@@ -22,10 +22,6 @@ cecilia-c3d4
 Hello Fia.
 https://x.com/JTNintendoFan64/status/2059975726158471499
 
-bijou-c3d5
-THE Stained princess
-https://x.com/Castella_yaki/status/2060141570452758732
-
 gigi-shiori-c3d5
 https://x.com/unbabbles/status/2060226332169040380
 liz, bijou
@@ -46,10 +42,6 @@ shiori-c3d5
 A Witch Dancing Through Chaos
 https://x.com/YayMics/status/2060281909469495380
 
-bijou-c3d5
-The Mischeveous Little Princess
-https://x.com/YayMics/status/2060282969382674439
-
 shiori-c3d5
 please, avert thine eyes
 https://x.com/koizumi_arata/status/2060234795255308676
@@ -69,10 +61,6 @@ https://x.com/Another_achicvc/status/2060276330831519985
 liz-c3d5
 Wake up Lady Bloodflame!
 https://x.com/grave_robin1/status/2060174853139841506
-
-nerissa-c3d5
-Man i need more evil NJ
-https://x.com/ultra_spring1/status/2060136421982105652
 
 shiori-c3d5
 The Queen in Yellow

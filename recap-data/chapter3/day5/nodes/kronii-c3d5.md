@@ -1,7 +1,7 @@
 <!-- title: Tam Gandr -->
 <!-- status: Alive -->
 
-Tam woke up and immediately had her name [made fun of.](https://www.youtube.com/watch?v=phkMUVqF6aY&t=1223s) At this point, she barely even reacted anymore. If anything, it only made her curious. If a name as short as "Tam" was enough to become a punchline, then what on earth must her full name have sounded like? 
+Tam woke up and immediately had her name [made fun of.](https://www.youtube.com/watch?v=phkMUVqF6aY&t=1223s) At this point, she barely even reacted anymore. If anything, it only made her curious. If a name as short as "Tam" was enough to become a punchline, then what on earth must her full name have sounded like?
 
 Still, the supplier had work to do, which was to scam an innocent Nerissa while the voice of an orange knight echoed in her head like a devil on her shoulder, feeding her terrible ideas.
 
@@ -57,7 +57,7 @@ Maybe forgetting had never truly been the answer after all.
 
 [This fits me better](#embed:https://www.youtube.com/watch?v=phkMUVqF6aY&t=10540s)
 
-With her chin held high and her past finally accepted, Tam *Gandr* returned to the kingdom in full. She wanted a new pet, a real pet this time, considering she was apparently the only person in existence who didn’t already have one.
+With her chin held high and her past finally accepted, Tam _Gandr_ returned to the kingdom in full. She wanted a new pet, a real pet this time, considering she was apparently the only person in existence who didn’t already have one.
 
 While searching for one, however, she stumbled upon a group calling themselves "Advent," and in doing so, confirmed her suspicions that they were aligned with something far more [sinister.](https://www.youtube.com/watch?v=phkMUVqF6aY&t=10923s). She relayed this [information](https://www.youtube.com/live/phkMUVqF6aY?si=Mc-l9GiKREszkwS_&t=11838) to those closest to her as a warning, leading to an extremely serious discussion.
 
@@ -68,8 +68,9 @@ Still, despite the looming tension hanging over the kingdom, the rest of Tam’s
 And by the end of it all, after a day that felt like an entire lifetime compressed into a single whirlwind, Tam sat down and quietly ["journaled"](https://www.youtube.com/live/phkMUVqF6aY?si=tD4nVwbj0z-VL6vP&t=14416) everything that had happened.
 
 ## Fanart
-["Looks stupid" by unknown](https://vxtwitter.com/albertweskerh/status/2060244059361620194)
 
-["Forget and to be Fallen" by unknown](https://vxtwitter.com/yuutomeh97/status/2060273303160590431)
+["Looks stupid" by albertweskerh](https://x.com/albertweskerh/status/2060244059361620194)
 
-["Tamda" by unknown](https://vxtwitter.com/koizumi_arata/status/2060316172290064839)
+["Forget and to be Fallen" by yuutomeh97](https://x.com/yuutomeh97/status/2060273303160590431)
+
+["Tamda" by koizumi_arata](https://x.com/koizumi_arata/status/2060316172290064839)

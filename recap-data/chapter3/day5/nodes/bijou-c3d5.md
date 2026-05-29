@@ -32,3 +32,8 @@ Following Roa's sacrifice, Bijou returns to her hauntings. She haunts Fuwawa eve
 Bijou finds that she is gaining a taste for sacrifice, wanting to sacrifice Mordon next. As luck would have it, the chef had just come by the church alongside Immerkind, so the three members of the coven brought them down to the basement. Bijou reveals herself as Shakira's killer once more, before Mordon and Immerkind are sacrificed. Not like they'll remember it anyway.
 
 The members of Advent then [reunite one more time](https://www.youtube.com/watch?v=FJNKv92ZWdM&t=14450), congratulating each other for what they had accomplished that day. It seems they are also preparing something for the next day...
+
+## Fanart
+["The Mischeveous Little Princess" by yaymics](https://x.com/yaymics/status/2060282969382674439)
+
+["THE Stained princess" by castella_yaki](https://x.com/castella_yaki/status/2060141570452758732)

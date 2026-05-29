@@ -32,4 +32,5 @@ But conspiracies against those who stood in their way weren't the only thing tha
 For in the darkest of nights, you can find the most shining of stars; a genuine friendship that can last through worlds and time for these two Sisters of the Cloth.
 
 ## Fanart
-["You will not remember anything" by unknown](https://vxtwitter.com/duckmode_cz/status/2060058664241893852)
+
+["You will not remember anything" by duckmode_cz](https://x.com/duckmode_cz/status/2060058664241893852)

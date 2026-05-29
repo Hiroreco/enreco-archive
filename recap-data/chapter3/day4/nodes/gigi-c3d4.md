@@ -35,9 +35,9 @@ From here, Tam roped Gonathon into attempting to [spy](https://www.youtube.com/w
 
 ## Fanart
 
-["bad end" by unknown](https://vxtwitter.com/migokami/status/2060094461913497674)
+["bad end" by migokami](https://x.com/migokami/status/2060094461913497674)
 
-["I miss you" by unknown](https://vxtwitter.com/mushydumplin/status/2060107589023879239)
+["I miss you" by mushydumplin](https://x.com/mushydumplin/status/2060107589023879239)
 
 ["When you fall into a hole and..." by watashigazza](https://x.com/watashigazza/status/2059921794518425650)
 

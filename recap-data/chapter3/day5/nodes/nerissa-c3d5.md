@@ -72,3 +72,6 @@ Minutes passed beneath the relentless [sun,](https://youtu.be/4anxJRoJo4s?t=1932
 Eventually, the gods took pity on her. The sunlight finally softened, the heavens dimmed, and one by one, the stars began to emerge.
 
 Then, Lady Bloodflame arrived (see [Lady Bloodflame-Nerissa](#edge:liz-nerissa)).
+
+## Fanart
+["Man i need more evil NJ" by ultra_spring1](https://x.com/ultra_spring1/status/2060136421982105652)

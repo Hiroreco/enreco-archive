@@ -10,7 +10,7 @@
 
 ## ファンアート
 
-["You deserved more than a passing thought" by unknown](https://vxtwitter.com/kikoshaula/status/2060051984598929410)
+["You deserved more than a passing thought" by kikoshaula](https://x.com/kikoshaula/status/2060051984598929410)
 
 <!-- shiori, calli, gigi -->
 

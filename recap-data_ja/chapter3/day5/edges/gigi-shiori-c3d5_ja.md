@@ -232,10 +232,11 @@
 [「もしもし！ シスター・シオリです！」](#embed:https://youtu.be/w2BCfGaek4g?t=9389)
 
 ## ファンアート
-["doubts?" by unknown](https://vxtwitter.com/monochi_21/status/2060025215992975663)
 
-["Like A Black Pearl In The Sky..." by unknown](https://vxtwitter.com/blaparky/status/2060213161685631405)
+["doubts?" by monochi_21](https://x.com/monochi_21/status/2060025215992975663)
 
-["I do care about you" by unknown](https://vxtwitter.com/shir000__/status/2060290299210117342)
+["Like A Black Pearl In The Sky..." by blaparky](https://x.com/blaparky/status/2060213161685631405)
 
-["Kiss" by unknown](https://vxtwitter.com/painko3o/status/2060299813518790988)
+["I do care about you" by shir000\_\_](https://x.com/shir000__/status/2060290299210117342)
+
+["Kiss" by painko3o](https://x.com/painko3o/status/2060299813518790988)
