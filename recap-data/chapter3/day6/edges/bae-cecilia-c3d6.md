@@ -1,5 +1,5 @@
 <!-- title: Rejected Season 2 -->
-<!-- status: Unrequited Love -->
+<!-- relationship: Unrequited Love -->
 
 Their final day in Libestal and our Peasant's feelings still lingered sorely for Immerkind.
 

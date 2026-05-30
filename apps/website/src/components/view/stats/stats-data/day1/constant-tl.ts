@@ -34,6 +34,13 @@ export const opinionConstantSecretChoice: Choice = {
             },
         },
         {
+            talent: "bae",
+            text: {
+                en: "Lady Bloodflame is very impatient",
+                ja: "レディ・ブラッドフレイムはとてもせっかちだ",
+            },
+        },
+        {
             talent: "shiori",
             text: {
                 en: "It is the year 2011 for Gonathon ! Gonathon is a big fan of HBO ! Gonathon has also apparantly hurt someone just last week and that person sleeps outside !",
