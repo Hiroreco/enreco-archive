@@ -1711,3 +1711,55 @@ https://youtu.be/ZMPRXhq2-hY?si=ARlVZH3vod7m-frF
 https://youtu.be/hIL9FqHkI2k?si=Ew4tIO9XfKsEXAXj
 
 <!-- nerissa, liz, fuwawa, mococo -->
+
+https://youtu.be/6Wd9yM8Xm7M?si=rIYPhQDJBt3TLVUy
+
+<!-- bijou -->
+
+https://youtu.be/pcwMmESVGvw?si=eVOO-g7zYEppI5kf
+
+<!-- fuwawa -->
+
+https://youtu.be/3J-B86BlKxQ?si=YLyQI1UzmA2Abhbr
+
+<!-- bijou -->
+
+https://youtu.be/7Dm-gf6iy8o?si=rR2p-VGLnCSOpXAV
+
+<!-- liz, gigi, cecilia -->
+
+https://youtu.be/ubJl_9L5tfM?si=OgHnQlzVm2cHytXU
+
+<!-- ina, kronii -->
+
+https://youtu.be/fcc2ex3woEE?si=ftlbtYMkryCnyJA_
+
+<!-- bae, gigi, cecilia -->
+
+https://youtu.be/9Gg1BCVbo0A?si=LCoyhEQrGG-UtCmJ
+
+<!-- ina, mococo -->
+
+https://youtu.be/JUFN0wx9qsM?si=M-qN0UEZ8OBU5mUB
+
+<!-- cecilia -->
+
+https://youtu.be/W2e-DAxzYVY?si=XDaJJNcDf1ula9vH
+
+<!-- nerissa, liz, gigi, cecilia -->
+
+https://youtu.be/oJMGfTm1Fp8?si=hnRztXwcn9VQEZz4
+
+<!-- bijou -->
+
+https://www.youtube.com/watch?v=beeeb9Zz63M
+
+<!-- all-c3 -->
+
+https://youtu.be/3_IwN84xe0U?si=Xu3-EJ_8e3eeSi0J
+
+<!-- liz, nerissa -->
+
+https://youtu.be/RcKnoCOglfY?si=PQ-sfJyz6nQghYm-
+
+<!-- nerissa, bae -->

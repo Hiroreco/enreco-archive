@@ -29,6 +29,7 @@ const ALL_C2 = ALL_C1.filter(
     (cat) =>
         cat !== "ame" && cat !== "fauna" && cat !== "gura" && cat !== "moom",
 );
+const ALL_C3 = ALL_C2;
 
 interface ClipMetadata {
     id: string;
@@ -85,6 +86,9 @@ function extractCategoriesFromComment(comment: string): string[] {
     }
     if (categories.includes("all-c2")) {
         return ALL_C2;
+    }
+    if (categories.includes("all-c3")) {
+        return ALL_C3;
     }
 
     return categories;
@@ -344,6 +348,7 @@ function validateCategories(categories: string[], videoId: string): boolean {
             !CATEGORY_ORDER.includes(cat) &&
             cat !== "all-c1" &&
             cat !== "all-c2" &&
+            cat !== "all-c3" &&
             cat !== "highlight",
     );
 
@@ -468,10 +473,7 @@ function sortByUploadDate(items: ClipMetadata[]): ClipMetadata[] {
 }
 
 async function main() {
-    const baseDir = path.resolve(
-        process.cwd(),
-        "clips-data",
-    );
+    const baseDir = path.resolve(process.cwd(), "clips-data");
 
     try {
         await fs.access(baseDir);
@@ -524,10 +526,7 @@ async function main() {
     const animaticsPath = path.join(baseDir, "animatics.md");
     let allAnimatics: ClipMetadata[] = [];
     try {
-        allAnimatics = await processAnimaticsFile(
-            animaticsPath,
-            metadataCache,
-        );
+        allAnimatics = await processAnimaticsFile(animaticsPath, metadataCache);
         console.log(`  ✅ Total animatics: ${allAnimatics.length}`);
     } catch (error) {
         console.error(`❌ Error processing animatics.md:`, error);
