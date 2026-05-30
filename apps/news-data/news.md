@@ -167,3 +167,13 @@ https://x.com/hololive_En/status/2060164221028249975
 https://x.com/hololive_En/status/2060171817990713385
 https://x.com/hololive_en/status/2060165477440065964
 https://x.com/hololive_En/status/2060205441700053439
+https://x.com/hololive_En/status/2060527864488112323
+https://x.com/hololive_En/status/2060526613184311632
+https://x.com/hololive_En/status/2060534707838959898
+https://x.com/hololive_En/status/2060571910426042633
+https://x.com/aozane/status/2060569920111612237
+https://x.com/tskai_xx/status/2060231519206301945
+https://x.com/tskai_xx/status/2060560034938130615
+https://x.com/tskai_xx/status/2060577206427119693
+https://x.com/tskai_xx/status/2060576589927326023
+https://x.com/tskai_xx/status/2060564206341193990
