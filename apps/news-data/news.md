@@ -177,3 +177,5 @@ https://x.com/tskai_xx/status/2060560034938130615
 https://x.com/tskai_xx/status/2060577206427119693
 https://x.com/tskai_xx/status/2060576589927326023
 https://x.com/tskai_xx/status/2060564206341193990
+https://x.com/tskai_xx/status/2060584120720482804
+https://x.com/tskai_xx/status/2060589557842632763
