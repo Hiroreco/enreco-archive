@@ -1,4 +1,4 @@
-<!-- entries: nyavella-diary -->
+<!-- entries: nyavella-diary_ja -->
 <!-- title: ニャヴェラの日記-->
 
 <!-- description -->
