@@ -405,6 +405,35 @@ export const getCharacterIdNameMap = (
             cecilia: "Cecilia Immerkind",
             raora: "Roa Pandora",
             calli: "Mordan Ramsey",
+            liz: "Lady Elizabeth Bloodflame"
+        };
+    }
+     if (chapter === 2) {
+        if (locale === "ja") {
+            return {
+                ...baseMap,
+                cecilia: "ナイト・イマーカインド",
+                raora: "ロア",
+                calli: "モルドン・ラムゼイ",
+                bae: "ペイザン・ザ・ベイ",
+                liz: "レディ・エリザベス・ブラッドフレイム",
+                bijou: "呪われしビジュー",
+                mococo: "小さな魔女 モココ・アビスガード",
+                shiori: "シスター・シオリ",
+                kiara: "シャキーラ",
+            };
+        }
+        return {
+            ...baseMap,
+            cecilia: "Knight Immerkind",
+            raora: "Roa",
+            calli: "Mordon Ramsay",
+            bae: "Peasant Bae",
+            liz: "Lady Elizabeth Bloodflame",
+            bijou: "Bijou the Stained",
+            mococo: "Little Witch Mococo",
+            shiori: "Sister Shiori",
+            kiara: "Shakira"
         };
     }
     return baseMap;
