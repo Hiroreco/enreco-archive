@@ -1,7 +1,7 @@
 <!-- title: The Enlightened -->
 <!-- relationship: Alliance -->
 
-The day starts fresh between Roa and Immerkind. During the past days, grouping up to tackle a dungeon has been a grueling task. They never found the opportunity to do so, and perhaps they never would.
+The day starts fresh between Roa and Immerkind. During the past few days, grouping up to tackle a dungeon has been a grueling task. They never found the opportunity to do so, and perhaps they never would.
 
 Not in this version of reality, at least.
 

@@ -43,7 +43,7 @@ Fuwawa couldn't talk to her today. But sisters had to be there for one another. 
 > I know it's a lot after such strong memories came flowing back, but now I know for sure, we're sisters. Twin sisters! It all makes sense now.
 > It might be all very overwhleming, but that's okay. I'm here for you. I'm always by your side. I love you dearly, so even if it takes you some time to understand it fully, that's okay.
 > I won't lie and say that it's not hard for me, but I love you and this is what sisters do. Let's talk about it more, okay?
-> So I hope we can go back to guarding the Gate of Hell together soon, maybe if the world permits it. At the very least, the only thing I want in this world is to be by your side forever. So let's continue to make even more memories and do our all as the fluffiest, fuzzieset, demon guard dog sisters!
+> So I hope we can go back to guarding the Gate of Hell together soon, maybe if the world permits it. At the very least, the only thing I want in this world is to be by your side forever. So let's continue to make even more memories and do our all as the fluffiest, fuzziest, demon guard dog sisters!
 > I love you!
 >
 > - Fuwawa
