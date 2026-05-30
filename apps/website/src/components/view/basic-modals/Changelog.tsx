@@ -61,7 +61,7 @@ const ChangelogModal = ({ open, onClose }: ChangelogModalProps) => {
                     </DialogDescription>
                 </DialogHeader>
 
-                <div className="flex-1 md:max-h-[60dvh] min-h-0 overflow-auto border-y border-foreground/60 pb-4 px-2">
+                <div className="flex-1 max-h-[60dvh] min-h-0 overflow-auto border-y border-foreground/60 pb-4 px-2">
                     <div className="flex flex-col gap-6 mt-4">
                         {(
                             changelogs as Array<{
