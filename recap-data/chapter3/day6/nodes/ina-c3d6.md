@@ -5,7 +5,7 @@ Waking up on the final day, NinoIna knew something was going to happen. What was
 
 [A sale?](#embed:https://www.youtube.com/watch?v=FRubYpkandA&t=162s)
 
-The day hadn't even started for our hero, and she had already been surprised with the fruits of her labour. Checking her shop, Ina found over *ten thousand* coins waiting for her to claim from Nerissa, who needed the Lake King for stew. That meant, however, that Ina had to restock, which meant gathering more river princes for the bait.
+The day hadn't even started for our hero, and she had already been surprised with the fruits of her labour. Checking her shop, Ina found over _ten thousand_ coins waiting for her to claim from Nerissa, who needed the Lake King for stew. That meant, however, that Ina had to restock, which meant gathering more river princes for the bait.
 
 But as usual, there had to be something to distract her from her fishing, this time being Gonathon, Mordon Ramsay, and later Elizabeth with some rather [troubling](https://www.youtube.com/watch?v=FRubYpkandA&t=827s) news. Ina was stunned: her own sister, a killer? She would have to contemplate this... Over some fishing, of course!
 
@@ -33,10 +33,10 @@ It took a lot, but after a lengthy battle, the heroes were able to capture the m
 
 [Gotcha!](#embed:https://www.youtube.com/watch?v=FRubYpkandA&t=7055s)
 
-After cleansing *the curse* from those affected, the heroes ventured down into Terminus to find their way to the final challenge, _Nullspace_. Inside, the culmination of their abilities was tested. Puzzles, battles, parkour—each and every challenge they had faced thus far had reared its ugly head as a final stand barring their way. But heroes wouldn't ever give up that easily, and so they triumphed.
+After cleansing _the curse_ from those affected, the heroes ventured down into Terminus to find their way to the final challenge, _Nullspace_. Inside, the culmination of their abilities was tested. Puzzles, battles, parkour—each and every challenge they had faced thus far had reared its ugly head as a final stand barring their way. But heroes wouldn't ever give up that easily, and so they triumphed.
 
 All that was left, according to Faust, was _The Order_, a beast ensuring the Nullspace was protected at all costs. The battle was fierce, but they were [victorious](https://www.youtube.com/watch?v=FRubYpkandA&t=8842s).
 
 Now, they could reach Nullspace and find the Outsider... Until Faust had a few words to [say](https://www.youtube.com/watch?v=FRubYpkandA&t=8895s) (see [Faust](#node:faust)).
 
-Refusing to believe his words, Ina denied the Outsider’s proposal, believing his way was not right. With Fia desperately rushing to get Ina out of Nullspace, the Hero found herself in the white box once [more](https://www.youtube.com/watch?v=FRubYpkandA&t=9094s)...
+Refusing to believe his words, Ina denied the Outsider’s proposal, believing his way was not right. With Fia desperately rushing to get Ina out of Nullspace, the Hero found herself in the white box once [more](https://www.youtube.com/watch?v=FRubYpkandA&t=9094s).

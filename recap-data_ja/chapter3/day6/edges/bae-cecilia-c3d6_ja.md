@@ -1,5 +1,5 @@
 <!-- title: リジェクテッド シーズン2 -->
-<!-- status: Unrequited Love -->
+<!-- relationship: Unrequited Love -->
 
 リベスタルでの最後の日を迎えても、我らがペイザンのイマーキンドへの想いは消えることなく胸に残っていた。
 

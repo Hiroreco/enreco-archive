@@ -71,7 +71,7 @@ The fire of her love severed the oppressive **_bonds_** that had bound her for s
 
 And so Roa cried out:
 
-[**_FOR JUSTICE!_**](https://www.youtube.com/watch?v=mZM0OO3VK9s&t=5070)
+[**_FOR JUSTICE!_**](#embed:https://www.youtube.com/watch?v=mZM0OO3VK9s&t=5070)
 
 With the spirit of her beloved wife blazing beside her, Roa set out to confront the evil lurking within these lands.
 

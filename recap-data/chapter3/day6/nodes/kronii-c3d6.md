@@ -21,7 +21,7 @@ At last, it seemed they had reached the end.
 
 But when the heroes finally came face to face with what they believed to be the Outsider, yet another twist awaited them. The journey, it turned out, was not ready to reveal all of its secrets.
 
-And so, this chapter came to a close (see [Faust](#faust)).
+And so, this chapter came to a close (see [Faust](#node:faust)).
 
 As for Tam, who knows what adventures await the Azure Queen in the next journey? For now, this one leaves behind plenty of memories—and perhaps none more fitting than her arriving just in time for the finale.
 
