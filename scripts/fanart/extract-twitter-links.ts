@@ -73,6 +73,7 @@ async function main() {
         "https://x.com/_se_t_/status/1921155712278798577",
         "https://x.com/keiseeaaa/status/1923701440473858538",
         "https://x.com/_se_t_/status/1919743867081130432",
+        "https://x.com/hakosbaelz/status/2060568985067049403",
     ];
 
     // For pieces that were comissioned by another artist, we want to credit them instead
@@ -155,15 +156,9 @@ async function main() {
             // Check for duplicates
             if (linkEntries.some((entry) => entry.url === url)) {
                 const existingFiles = urlToFiles.get(url) || [];
-                console.warn(
-                    `⚠️  Duplicate URL found: ${url}`,
-                );
-                console.warn(
-                    `   First seen in: ${existingFiles[0]}`,
-                );
-                console.warn(
-                    `   Also found in: ${rel}`,
-                );
+                console.warn(`⚠️  Duplicate URL found: ${url}`);
+                console.warn(`   First seen in: ${existingFiles[0]}`);
+                console.warn(`   Also found in: ${rel}`);
                 continue;
             }
 

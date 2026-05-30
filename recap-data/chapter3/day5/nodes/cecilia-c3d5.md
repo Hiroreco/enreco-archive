@@ -61,6 +61,10 @@ There, Immerkind speaks quietly with Juliet one last time.
 
 ## Fanart
 
+["Hello Fia." by jtnintendofan64](https://x.com/jtnintendofan64/status/2059975726158471499)
+
+["Knight Immerkind" by squaredriceball](https://x.com/squaredriceball/status/2059991143493124587)
+
 ["the Knight's Break Day" by jhgardener\_](https://x.com/jhgardener_/status/2060022422196388295)
 
 ["A knight of Libestal" by imabaker111](https://x.com/imabaker111/status/2060047172171874799)

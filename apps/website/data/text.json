@@ -2887,6 +2887,31 @@
       }
     ]
   },
+  "nyavella-diary": {
+    "chapter": 3,
+    "category": "other-writings",
+    "title": {
+      "en": "Nyavella's Diary",
+      "ja": "ニャヴェラの日記"
+    },
+    "description": {
+      "en": "Nyavella's diary that was hidden away in Chapter 3.",
+      "ja": "チャプター3でひっそりと隠されていたニャヴェラの日記。"
+    },
+    "entries": [
+      {
+        "id": "nyavella-diary",
+        "title": {
+          "en": "Nyavella's Diary",
+          "ja": "ニャヴェラの日記"
+        },
+        "content": {
+          "en": "Dear Diary.\nI've had the strangest fog lately.\nI've been plagued with visions of broken bonds\nA funeral where everyone ran out in terror.\n\nA gate to welcome the end of this 'world'.\nBoth left me feeling empty and so very tired.\nNow, I find myself waking to a new world - or a different -timeline perhaps.\nI've lost track of the story and myself.\n\nThe only peace I know is when I see cherry blossoms.\nOnly then do I remember a voice that makes me feel so full of warmth, yet leaves me so full of unshed tears at the same time.",
+          "ja": "親愛なる日記へ。\n\n最近、奇妙な霧に包まれている気がする。\n\n壊れてしまった絆の幻影に悩まされているの。\n\n皆が恐怖に駆られて逃げ出した葬儀。\n\nこの「世界」の終わりを迎え入れるための門。\n\nそのどちらも、私の心にぽっかりと穴を開けて、とても、とても疲れさせる。\n\nそして今、私は新しい世界で目を覚ましている。\n\n――あるいは、別の時間軸なのかもしれない。\n\nもう物語がどこまで進んだのかも、自分が何者なのかも分からなくなってしまった。\n\nそれでも、桜の花を見ている時だけは心が安らぐ。\n\nその時だけ、ある声を思い出せるの。\n\n胸いっぱいに温もりを与えてくれるのに、\n\n同時に、流せない涙で胸をいっぱいにしてしまう声を。"
+        }
+      }
+    ]
+  },
   "ritual-scripture": {
     "chapter": 3,
     "category": "other-writings",

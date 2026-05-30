@@ -48,3 +48,9 @@ Fuwawa couldn't talk to her today. But sisters had to be there for one another. 
 >
 > - Fuwawa
 >   your older sister
+
+## Fanart
+
+["Where is Mococo??? REEEEEEDDDDD!!!" by nyangnyang3580](https://x.com/nyangnyang3580/status/2060332773098037597)
+
+["Where is Mococo??? REEEEEEDDDDD!!!" by nyangnyang3580](https://x.com/nyangnyang3580/status/2060332773098037597)
