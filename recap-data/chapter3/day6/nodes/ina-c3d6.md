@@ -39,4 +39,4 @@ All that was left, according to Faust, was _The Order_, a beast ensuring the Nul
 
 Now, they could reach Nullspace and find the Outsider... Until Faust had a few words to [say](https://www.youtube.com/watch?v=FRubYpkandA&t=8895s) (see [Faust](#node:faust)).
 
-Refusing to believe his words, Ina denied the Outsider’s proposal, believing his way was not right. With Fia desperately rushing to get Ina out of Nullspace, the Hero found herself in the white box once [more](https://www.youtube.com/watch?v=FRubYpkandA&t=9094s).
+Refusing to believe his words, Ina denied the Outsider’s proposal, believing his way was not right. With Fia desperately rushing to get Ina out of Nullspace, the Hero found herself in the white box once [more.](https://www.youtube.com/watch?v=FRubYpkandA&t=9094s)
