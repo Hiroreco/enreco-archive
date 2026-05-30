@@ -3,7 +3,7 @@
 
 It seemed that whoever caused the chaos yesterday wasn't satisfied with her result.
 
-This time, the church of Inkwell was darkened; its front walls, covered by the Roa's dark Illumination posters, gave the usually white and pristine aura a sinister air.
+This time, the church of Inkwell was darkened; its front walls, covered by Roa's dark Illumination posters, gave the usually white and pristine aura a sinister air.
 
 The letter found outside was similarly eerie.
 
@@ -104,7 +104,7 @@ Gonathon was aptly sacrificed as Shiori's first.
 
 It was a shame he was unchosen. Shiori was truly fond of him.
 
-But the plot was already dictated, and the main event was just about to begin for the Chosene.
+But the plot was already dictated, and the main event was just about to begin for the Chosen.
 
 As Shiori began to talk to Bijou about her memory of the past, with almost perfect timing, Roa showed up.
 

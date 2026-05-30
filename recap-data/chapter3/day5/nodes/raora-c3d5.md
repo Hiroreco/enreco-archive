@@ -18,7 +18,7 @@ With a mockery of her wife's corpse as a mere carcass covered in pale, putrid oo
 
 A quest required Roa's immediate attention, so off to the prison cell area she goes. She had a talk with a person called Prisoner Zero. This prisoner shared different views about freedom that the smith cat [resonates with](https://www.youtube.com/watch?v=rFmdOarYXuE&t=2250). Calling this individual a possible member of the Illumination and an Enlightened.
 
-Prison Zero even reveals his true name as:
+Prisoner Zero even reveals his true name as:
 
 [AAAHHHH!](#embed:https://www.youtube.com/live/rFmdOarYXuE?si=z5VHbHRDtqRMz1Wr&t=2446)
 
