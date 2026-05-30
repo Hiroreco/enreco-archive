@@ -155,6 +155,28 @@
             "sourceUrl": "/audio/songs/ingame/ingame-alchemist.mp3",
             "coverUrl": "/images-opt/song-chapter-3-opt.webp",
             "duration": "02:06"
+        },
+        {
+            "title": "High Speed Psycho Stalker",
+            "info": {
+                "en": "Rite of Purification Theme (Chapter 3)",
+                "ja": "浄化の儀式のテーマ（第3章）"
+            },
+            "originalUrl": "https://audiostock.net/tracks/930029",
+            "sourceUrl": "/audio/songs/ingame/ingame-high-speed-psycho-stalker.mp3",
+            "coverUrl": "/images-opt/song-chapter-3-opt.webp",
+            "duration": "02:27"
+        },
+        {
+            "title": "Broken Soul",
+            "info": {
+                "en": "Nullspace Theme (Chapter 3)",
+                "ja": "ヌルスペースのテーマ（第3章）"
+            },
+            "originalUrl": "https://audiostock.net/tracks/34767",
+            "sourceUrl": "/audio/songs/ingame/ingame-broken-soul.mp3",
+            "coverUrl": "/images-opt/song-chapter-3-opt.webp",
+            "duration": "03:18"
         }
     ],
     "stream": [
