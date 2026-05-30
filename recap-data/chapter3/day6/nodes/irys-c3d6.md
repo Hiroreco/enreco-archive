@@ -17,7 +17,7 @@ People welcomed her as though she had returned from a heroic campaign rather tha
 
 [Well well, look who it is](#embed:https://www.youtube.com/watch?v=WVtNDIIdEyg&t=719)
 
-Though slightly embarrassed, the pink one paid little attention to the teasing. Instead, she wandered around the kingdom, catching up on everything she had missed. Upon discovering Tam's castle, she immediately assumed someone had built it for [her](https://www.youtube.com/watch?v=WVtNDIIdEyg&t=783)—the audacity of this woman. She also learned that seemingly everyone had acquired a pet while she had none, and was honestly surprised by how little the kingdom seemed to have changed considering she had only missed *most* of the journey.
+Though slightly embarrassed, the pink one paid little attention to the teasing. Instead, she wandered around the kingdom, catching up on everything she had missed. Upon discovering Tam's castle, she immediately assumed someone had built it for [her](https://www.youtube.com/watch?v=WVtNDIIdEyg&t=783)—the audacity of this woman. She also learned that seemingly everyone had acquired a pet while she had none, and was honestly surprised by how little the kingdom seemed to have changed considering she had only missed _most_ of the journey.
 
 Even the infamous Shakira incident remained unresolved. In fact, it had been dragged back into the spotlight for a trial meant to uncover the mastermind behind the whole affair.
 
@@ -31,9 +31,9 @@ Soon after, the kingdom gathered once more. Despite having barely participated i
 
 And so, all gathered at the castle for the Rite of Purification.
 
-[Tag is *this* serious](#embed:https://www.youtube.com/watch?v=WVtNDIIdEyg&t=3298)
+[Tag is _this_ serious](#embed:https://www.youtube.com/watch?v=WVtNDIIdEyg&t=3298)
 
-To everyone's surprise, Hot Pink One ended up contributing [*somewhat*](https://www.youtube.com/watch?v=WVtNDIIdEyg&t=3910) to the ritual. The purification succeeded, and Advent was finally freed from the curse. With the source of their division removed, the kingdom united for one final push.
+To everyone's surprise, Hot Pink One ended up contributing [_somewhat_](https://www.youtube.com/watch?v=WVtNDIIdEyg&t=3910) to the ritual. The purification succeeded, and Advent was finally freed from the curse. With the source of their division removed, the kingdom united for one final push.
 
 Together, they journeyed into [Nullspace,](https://www.youtube.com/watch?v=WVtNDIIdEyg&t=5363) where they faced trials reminiscent of dungeons from the [past](https://www.youtube.com/watch?v=WVtNDIIdEyg&t=6568) before ultimately confronting a powerful being known as [The Order.](https://www.youtube.com/watch?v=WVtNDIIdEyg&t=6803)
 

@@ -14,14 +14,6 @@ liz-shiori-c3d4
 https://x.com/faelapin/status/2059887586559070234
 mococo, nerissa, bijou
 
-cecilia-c3d5
-Knight Immerkind
-https://x.com/SquaredRiceBall/status/2059991143493124587
-
-cecilia-c3d5
-Hello Fia.
-https://x.com/JTNintendoFan64/status/2059975726158471499
-
 gigi-shiori-c3d5
 https://x.com/unbabbles/status/2060226332169040380
 liz, bijou
@@ -50,14 +42,6 @@ https://x.com/Minalinzee/status/2059853716425945184
 liz-shiori-c3d4
 https://x.com/faelapin/status/2059887586559070234
 mococo, nerissa, bijou
-
-cecilia-c3d4
-Knight Immerkind
-https://x.com/SquaredRiceBall/status/2059991143493124587
-
-cecilia-c3d4
-Hello Fia.
-https://x.com/JTNintendoFan64/status/2059975726158471499
 
 gigi-shiori-c3d5
 https://x.com/unbabbles/status/2060226332169040380
