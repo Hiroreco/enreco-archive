@@ -9,7 +9,7 @@ The letter found outside was similarly eerie.
 
 [The Illumination](#embed:https://youtu.be/QB1ZSh0yKuc?t=381)
 
-[The bloody gift inside.](https://youtu.be/QB1ZSh0yKuc?t=440) would deter any sane person from entering the church.
+[The bloody gift inside](https://youtu.be/QB1ZSh0yKuc?t=440) would deter any sane person from entering the church.
 
 Thankfully, Sister Nerissa Juliet was by Sister Shiori's side and helped clear the mess. They chatted about their plans for today, for the upcoming Labyrinth where Nerissa Juliet had Gonathon as her part, while Shiori wondered about hers.
 
@@ -61,7 +61,7 @@ Speaking of leashes...
 
 With The Flock nearby, she met with Gonathon to fight by his side. With their combined might, their weapons, though weak, eventually pierced the stain's armor.
 
-An old familiar routine. One where they talked beneath the stars, [in a familiar place,](https://youtu.be/QB1ZSh0yKuc?t=4723) enjoying each other's [presence](https://youtu.be/QB1ZSh0yKuc?t=4541)
+An old familiar routine. One where they talked beneath the stars, [in a familiar place,](https://youtu.be/QB1ZSh0yKuc?t=4723) enjoying each other's [presence](https://youtu.be/QB1ZSh0yKuc?t=4541)...
 
 The Flock and Geep, of course.
 
@@ -108,7 +108,7 @@ But the plot was already dictated, and the main event was just about to begin fo
 
 As Shiori began to talk to Bijou about her memory of the past, with almost perfect timing, Roa showed up.
 
-Words said that she was ready to visit the church, but her nature was obvious; Roa was clearly suspicious of Shiori's closeness with Bijou. caring for the Rock of Emotion.
+Words said that she was ready to visit the church, but her nature was obvious; Roa was clearly suspicious of Shiori's closeness with Bijou, caring for the Rock of Emotion.
 
 [Unbeknownst to Roa, there was more that meets the sparkle](#embed:https://youtu.be/QB1ZSh0yKuc?t=11762)
 

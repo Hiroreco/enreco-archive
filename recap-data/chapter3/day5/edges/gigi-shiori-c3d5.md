@@ -69,7 +69,7 @@ Too much had been prepared for it all to be lost just before the final bell toll
 
 The Foolish Knight answered her call. Her sweet words stalled for time and gathered his empathy once again.
 
-It takes great courage to commit to justice... It takes great delusion to cling to a false hope. Still, he listened to Shior's plea.
+It takes great courage to commit to justice... It takes great delusion to cling to a false hope. Still, he listened to Shiori's plea.
 
 She was cursed. "But Gonathon, what if we were all cursed?"
 
@@ -77,7 +77,7 @@ She was cursed. "But Gonathon, what if we were all cursed?"
 
 "What if we can be cursed together, Gonathon?"
 
-[What if I need you."](#embed:https://youtu.be/QB1ZSh0yKuc?t=10703)
+["What if I need you?"](#embed:https://youtu.be/QB1ZSh0yKuc?t=10703)
 
 Again. So easily swayed, sweet, dearest Gonathon.
 
@@ -117,7 +117,7 @@ Again, Shiori led him to his resting place.
 
 The voice beckoned Gonathon.
 
-[He raised his summoning stone](#embed:https://youtu.be/QB1ZSh0yKuc?t=11317).
+[He raised his summoning stone.](#embed:https://youtu.be/QB1ZSh0yKuc?t=11317)
 
 Shiori watched as he gasped for breath, life fading away from her eyes. She approached him slowly, her hand reaching out for him.
 

@@ -1,6 +1,6 @@
 <!-- title: Gonathon's Journal Entry: Day 5 -->
 
-**Day 5????*
+*Day 5????*
 
 There's something wrong with Sister Shiori, Nerissa Juliet, The Little Princess, and ...unsure about the other two.
 

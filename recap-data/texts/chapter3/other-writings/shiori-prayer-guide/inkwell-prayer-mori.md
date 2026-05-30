@@ -1,4 +1,4 @@
-<!-- title: Inkwell Prayer (Mordan version) -->
+<!-- title: Inkwell Prayer (Mordon version) -->
 
 Inkwell Prayer Guide
 
