@@ -64,4 +64,4 @@ Gold was the only thing that mattered in the end.
 
 - An excerpt from the Peasant's Diary
 
-[Source][#out:https://x.com/hakosbaelz/status/2060568985067049403]
+[Source](#out:https://x.com/hakosbaelz/status/2060568985067049403)

@@ -127,7 +127,7 @@ Nerissa and the other members of Advent had been afflicted by a curse. The corru
 
 Once the truth came to light, the rest of Libestal united to save them.
 
-Together, they performed the [Rite of Purification](#embed:https://www.youtube.com/watch?v=hjskrraiXp4&t=5372), freeing Advent from the curse's influence and restoring them to themselves.
+Together, they performed the [Rite of Purification](https://www.youtube.com/watch?v=hjskrraiXp4&t=5372), freeing Advent from the curse's influence and restoring them to themselves.
 
 At last, with old conflicts resolved and former enemies reunited, the heroes set their sights on their final destination.
 

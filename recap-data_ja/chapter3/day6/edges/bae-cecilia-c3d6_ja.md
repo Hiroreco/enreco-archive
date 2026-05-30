@@ -120,4 +120,4 @@
 
 - ペイザンの日記より
 
-[出典]#out:[https://x.com/hakosbaelz/status/2060568985067049403](https://x.com/hakosbaelz/status/2060568985067049403)]
+[出典](#out:https://x.com/hakosbaelz/status/2060568985067049403)
