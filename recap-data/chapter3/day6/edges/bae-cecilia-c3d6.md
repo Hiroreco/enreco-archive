@@ -1,5 +1,5 @@
-<!-- title: Rejected Season 2-->
-<!-- status: Unrequited Love-->
+<!-- title: Rejected Season 2 -->
+<!-- status: Unrequited Love -->
 
 Their final day in Libestal and our Peasant's feelings still lingered sorely for Immerkind.
 
@@ -13,7 +13,7 @@ Unfortunately, it wasn't the Peasant's world; the reality she lived was one wher
 
 But, Peasant The Bae was no longer the cowardly rat that ran away screaming when she first woke in these strange lands. No, the Peasant had found her courage and gold, and had adopted her kids (who are currently, definitely on an adventure somewhere else) and Polar The Bear.
 
-Perhaps this time, Peasant The Bae can find another to call her own. At first it went well, [blushing with flowers in hand](https://youtu.be/Qh33RM1yOtI?t=1560), Peasant gave it to Immerkind.  It was sweet, filled with thoughts of kindness and an innocent love. 
+Perhaps this time, Peasant The Bae can find another to call her own. At first it went well, [blushing with flowers in hand](https://youtu.be/Qh33RM1yOtI?t=1560), Peasant gave it to Immerkind. It was sweet, filled with thoughts of kindness and an innocent love.
 
 A gift that Immerkind graciously accepted, thanking the Peasant for thinking of her fondly. It encouraged Bae, perhaps her intentions were getting through. Perhaps... there was an inkling of love there for her after all.
 
@@ -27,7 +27,7 @@ The knight's response had to wait. There was one last mission to complete. One l
 
 It was fierce but Peasant refused to let any harm come to Immerkind. She may be but a peasant but she had gotten stronger. From the trials she had faced, to the truths she witnessed, too much dice had rolled for Bae to remain on square 1.
 
-Everything had aligned and Peasant and the rest faced the Outsider again. But, as they were ambushed by the Curse again,  Fia was able to transport them back to safety.
+Everything had aligned and Peasant and the rest faced the Outsider again. But, as they were ambushed by the Curse again, Fia was able to transport them back to safety.
 
 There, Peasant faced Immerkind, ever unready to hear her answer, but refused to let things remain unsaid.
 
@@ -43,7 +43,7 @@ Was Immerkind's answer still the same?
 
 "Yes."
 
-Unloved. Unreciprocated. 
+Unloved. Unreciprocated.
 
 Unfortunately, there was no lake nor river for Bae to drown in.
 
@@ -51,20 +51,17 @@ Again, just like a week ago, Bae swore to only love her gold.
 
 Gold was the only thing that mattered in the end.
 
+---
 
---- 
+> Peasant once again remains loveless...
+> proving ONCE AGAIN THAT THE ONLY THING THAT MATTERS IS MONEY.
 
->Peasant once again remains loveless... 
->proving ONCE AGAIN THAT THE ONLY THING THAT MATTERS IS MONEY. 
+> BECAUSE MONEY WILL NEVER LEAVE YOU.
+> MONEY WILL NEVER HURT YOU.
+> MONEY WILL ALWAYS BE BY YOUR SIDE.
 
->BECAUSE MONEY WILL NEVER LEAVE YOU. 
->MONEY WILL NEVER HURT YOU. 
->MONEY WILL ALWAYS BE BY YOUR SIDE.
+> To hell with Immerkind. I stand alone.
 
->To hell with Immerkind. I stand alone.
+- An excerpt from the Peasant's Diary
 
-    - An excerpt from the Peasant's Diary
-
-source: https://x.com/hakosbaelz/status/2060568985067049403?s=20
-
-
+[Source][#out:https://x.com/hakosbaelz/status/2060568985067049403]
