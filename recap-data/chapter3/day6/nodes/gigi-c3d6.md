@@ -3,7 +3,7 @@
 
 Once more the shroud of the Curse had fallen over Libestal. But even as evil and despair engulfed the kingdom, Gonathon G stood resolute. He and his friends had saved the kingdom twice before, and they would do it again. With whimsy in his heart and determination in his eyes, he [strode forth](https://www.youtube.com/watch?v=0erNTlRV7-c&t=322s) into the sixth and final day.
 
-Almost immediately the knight was thrust into action. Immerkind, for her part, had been busy preparing for their day's missions, and after confirming what they knew, the two steeled themselves for their final sneaking mission (see Gonathon-Immerkind). Immerkind showed Gonathon [the castle](https://youtu.be/0erNTlRV7-c?t=1181) she had built from Tam, a stunning monument that paid homage to the past works Gonathon himself had built.
+Almost immediately, the knight was thrust into action. Immerkind, for her part, had been busy preparing for their day's missions, and after confirming what they knew, the two steeled themselves for their final sneaking mission (see Gonathon-Immerkind). Immerkind showed Gonathon [the castle](https://youtu.be/0erNTlRV7-c?t=1181) she had built from Tam, a stunning monument that paid homage to the past works Gonathon himself had built.
 
 In a bit of levity, Gonathon gave some last-minute advice to Bae, who was once more endeavoring to woo Immerkind. In [a cataclysmic and entirely predictable fashion](https://www.youtube.com/watch?v=0erNTlRV7-c&t=1403s), Bae failed utterly, and with this sidequest out of the way, Gonathon made ready to infiltrate the church.
 
@@ -13,7 +13,7 @@ Arriving at Shiori's picnic, Gonathon witnessed that nearly the entire roster of
 
 [A secret between wolves](#embed:https://youtu.be/0erNTlRV7-c?t=2231)
 
-It was here, though, that Shiori's true design was revealed: the picnic was actually a murder trial, and Mordon Ramsay the accused! Gonathon took a moment to chastise the Hot Pink One (who had somehow returned from her weeklong slumber) and [demanded](https://www.youtube.com/watch?v=0erNTlRV7-c&t=2465s) the foul imp cease talking about Tam Gandr. But he could not get distracted by such petty creatures. His beloved wolf needed him! Together with Immerkind, Gonathon took to the stand as Mordon's lawyer. Following [a spirited defense](https://www.youtube.com/watch?v=0erNTlRV7-c&t=2585s) exemplifying the pink-haired cook's stellar character, the two knights called upon Roa.
+It was here, though, that Shiori's true design was revealed: the picnic was actually a murder trial, and Mordon Ramsay was the accused! Gonathon took a moment to chastise the Hot Pink One (who had somehow returned from her weeklong slumber) and [demanded](https://www.youtube.com/watch?v=0erNTlRV7-c&t=2465s) the foul imp cease talking about Tam Gandr. But he could not get distracted by such petty creatures. His beloved wolf needed him! Together with Immerkind, Gonathon took to the stand as Mordon's lawyer. Following [a spirited defense](https://www.youtube.com/watch?v=0erNTlRV7-c&t=2585s) exemplifying the pink-haired cook's stellar character, the two knights called upon Roa.
 
 Where once the pink cat had been made to serve Shiori in implicating Mordon, today she was on the side of Justice once more. She spoke of how it had been Bijou who had [killed Shakira](https://www.youtube.com/watch?v=0erNTlRV7-c&t=3087s), and that Advent were the ones behind it all! While Shiori attempted to call Roa's mental state into doubt, what appeared to be an attempt by the witch to kill Mordon while the others weren't watching sealed her fate. Mordon was exonerated, and the spirit of Shakira was finally allowed to rest.
 
@@ -23,7 +23,7 @@ But the kingdom could not rest easily, as there was still the matter of the Outs
 
 [We are the Knights of Justice!](#embed:https://www.youtube.com/watch?v=0erNTlRV7-c&t=4027s)
 
-Together with his new allies, including Tam, who had finally made an appearance, Gonathon was informed of [their final quest](https://www.youtube.com/watch?v=0erNTlRV7-c&t=4692s): Advent would first be purified, and then the Outsider confronted in Nullspace. Unfortunately, the fates had decided to make this first task as arduous as possible, and it was only after an exasperating chase that Advent was brought back into the fold.
+Together with his new allies, including Tam, who had finally made an appearance, Gonathon was informed of [their final quest](https://www.youtube.com/watch?v=0erNTlRV7-c&t=4692s): Advent would first be purified, and then the Outsider would be confronted in Nullspace. Unfortunately, the fates had decided to make this first task as arduous as possible, and it was only after an exasperating chase that Advent was brought back into the fold.
 
 [The Black Pearl is purified](#embed:https://youtu.be/0erNTlRV7-c?t=6985)
 

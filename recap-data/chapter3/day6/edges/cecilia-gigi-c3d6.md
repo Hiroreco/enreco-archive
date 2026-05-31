@@ -1,9 +1,9 @@
 <!-- title: For Justice! -->
 <!-- relationship: Wolf Pack -->
 
-This was it, the day of reckoning. With the entire concept of justice hanging in the balance, Immerkind and Gonathon would either be remembered as heroes, or be forgotten as failures for all time.
+This was it, the day of reckoning. With the entire concept of justice hanging in the balance, Immerkind and Gonathon would either be remembered as heroes or be forgotten as failures for all time.
 
-Immerkind had busied herself for much of the early day with tending to Roa, the amnesiac cat promising to be her ace in the hole against the machinations of Advent. Upon Gonathon's arrival, Immerkind called him immediately, informing him of [the hole](https://www.youtube.com/watch?v=0erNTlRV7-c&t=973s) she had found near the church and urging him to meet her at the castle.
+Immerkind had busied herself for much of the early day with tending to Roa, the amnesiac cat, promising to be her ace in the hole against the machinations of Advent. Upon Gonathon's arrival, Immerkind called him immediately, informing him of [the hole](https://www.youtube.com/watch?v=0erNTlRV7-c&t=973s) she had found near the church and urging him to meet her at the castle.
 
 A brief [distraction](https://www.youtube.com/watch?v=0erNTlRV7-c&t=1364s) by a fumbling Peasant did nothing to dull the zeal of the knights, and after acquiring some invisibility potions, they readied themselves for their sneaking mission at the church. With most of the adventurers distracted by Shiori's picnic, Immerkind and Gonathon, along with a fugitive Mordan Ramsay, infiltrated Shiori's church. Snooping around the premises, they eventually found a hole in the floor.
 
@@ -19,7 +19,7 @@ While Shiori endeavored to turn suspicion onto Roa's mental fitness, a misunders
 
 [The curse of Advent!](#embed:https://www.youtube.com/watch?v=0erNTlRV7-c&t=3828s)
 
-Realizing that something had to be done, the duo decided that they would need a new approach. Together with Lady Bloodflame, a new order was founded: [the Knights of Justice](https://www.youtube.com/watch?v=0erNTlRV7-c&t=4027s)! Gathering together with the other heroes, the knights learned of what had to be done to save Libestal. First and foremost, they would need to cleanse Advent of their curse and bring them back to the side of good. Alas, this would prove to be a far more arduous task than they realized.
+Realizing that something had to be done, the duo decided that they would need a new approach. Together with Lady Bloodflame, a new order was founded: [the Knights of Justice](https://www.youtube.com/watch?v=0erNTlRV7-c&t=4027s)! Gathering together with the other heroes, the knights learned of what had to be done to save Libestal. First and foremost, they would need to cleanse Advent of its curse and bring it back to the side of good. Alas, this would prove to be a far more arduous task than they realized.
 
 [The Knights spring into action](#embed:https://www.youtube.com/watch?v=euqA3GB8Jc0&t=9008)
 
