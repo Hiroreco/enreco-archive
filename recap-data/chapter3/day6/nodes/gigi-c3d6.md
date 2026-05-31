@@ -9,9 +9,9 @@ In a bit of levity, Gonathon gave some last-minute advice to Bae, who was once m
 
 [The sneaking mission begins](#embed:https://www.youtube.com/watch?v=0erNTlRV7-c&t=1870s)
 
-Arriving at Shiori's picnic, Gonathon witnessed that nearly the entire roster of adventurers had assembled. Slipping away from the revelry with Immerkind and Mordon Ramsay (see Gonathon-Mordon), the trio arrived at Shiori's church. Under the cover of their invisibility potions, they searched the premises for any sign of a way into the depths. Upon locating a hidden passage, they slipped down. But the sight that awaited them was unprecedented: there was [nothing](https://youtu.be/0erNTlRV7-c&t=1908) there at all! Just a simple room of a humble nun. Knowing the altar HAD to be there, the trio frantically began searching, but their efforts were in vain. Realizing they had to return lest they arouse suspicion, the wolf pack returned to the festivities.
+Arriving at Shiori's picnic, Gonathon witnessed that nearly the entire roster of adventurers had assembled. Slipping away from the revelry with Immerkind and Mordon Ramsay (see Gonathon-Mordon), the trio arrived at Shiori's church. Under the cover of their invisibility potions, they searched the premises for any sign of a way into the depths. Upon locating a hidden passage, they slipped down. But the sight that awaited them was unprecedented: there was [nothing](https://youtu.be/0erNTlRV7-c?t=1908) there at all! Just a simple room of a humble nun. Knowing the altar HAD to be there, the trio frantically began searching, but their efforts were in vain. Realizing they had to return lest they arouse suspicion, the wolf pack returned to the festivities.
 
-[A secret between wolves](#embed:https://youtu.be/0erNTlRV7-c&t=2231)
+[A secret between wolves](#embed:https://youtu.be/0erNTlRV7-c?t=2231)
 
 It was here, though, that Shiori's true design was revealed: the picnic was actually a murder trial, and Mordon Ramsay the accused! Gonathon took a moment to chastise the Hot Pink One (who had somehow returned from her weeklong slumber) and [demanded](https://www.youtube.com/watch?v=0erNTlRV7-c&t=2465s) the foul imp cease talking about Tam Gandr. But he could not get distracted by such petty creatures. His beloved wolf needed him! Together with Immerkind, Gonathon took to the stand as Mordon's lawyer. Following [a spirited defense](https://www.youtube.com/watch?v=0erNTlRV7-c&t=2585s) exemplifying the pink-haired cook's stellar character, the two knights called upon Roa.
 
@@ -25,12 +25,12 @@ But the kingdom could not rest easily, as there was still the matter of the Outs
 
 Together with his new allies, including Tam, who had finally made an appearance, Gonathon was informed of [their final quest](https://www.youtube.com/watch?v=0erNTlRV7-c&t=4692s): Advent would first be purified, and then the Outsider confronted in Nullspace. Unfortunately, the fates had decided to make this first task as arduous as possible, and it was only after an exasperating chase that Advent was brought back into the fold.
 
-[The Black Pearl is purified](#embed:https://youtu.be/0erNTlRV7-c&t=6985)
+[The Black Pearl is purified](#embed:https://youtu.be/0erNTlRV7-c?t=6985)
 
-Arriving in the Copied City, the adventurers were given a startling revelation: Faust had been the Outsider all along! It was here they did battle with [the Order](https://youtu.be/0erNTlRV7-c&t=8361), a mighty golem of immense strength. But not even this creature could withstand the fury of justice, and with a powerful final revelation, the beast was slain.
+Arriving in the Copied City, the adventurers were given a startling revelation: Faust had been the Outsider all along! It was here they did battle with [the Order](https://youtu.be/0erNTlRV7-c?t=8361), a mighty golem of immense strength. But not even this creature could withstand the fury of justice, and with a powerful final revelation, the beast was slain.
 
 [I will not undo the memories I have made!](#embed:https://www.youtube.com/watch?v=0erNTlRV7-c&t=8776s)
 
-Upon being given the choice to reset the world for a new one, Gonathon knew his answer without a second thought. He would NEVER give up on his world and the cherished friends he had made. Reunited with his companions in a white void, Gonathon shared [one last conversation](https://www.youtube.com/watch?v=0erNTlRV7-c&t=9512s) with those dear to him. As the curtain fell and Lady Bloodflame engaged in the ancient rite of ["ERP"](https://youtu.be/0erNTlRV7-c&t=9962) with him, one thing remained clear.
+Upon being given the choice to reset the world for a new one, Gonathon knew his answer without a second thought. He would NEVER give up on his world and the cherished friends he had made. Reunited with his companions in a white void, Gonathon shared [one last conversation](https://www.youtube.com/watch?v=0erNTlRV7-c&t=9512s) with those dear to him. As the curtain fell and Lady Bloodflame engaged in the ancient rite of ["ERP"](https://youtu.be/0erNTlRV7-c?t=9962) with him, one thing remained clear.
 
 No matter what trials and tribulations the future held in store, the Humble Knight of Justice would never back down!
