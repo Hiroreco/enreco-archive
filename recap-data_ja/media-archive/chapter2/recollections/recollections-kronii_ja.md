@@ -1,6 +1,6 @@
 <!-- title: 回想 - オーロ・クロニー -->
 <!-- type: youtube -->
-<!-- originalUrl: https://youtu.be/qV7dgz75tVo?si=0-9CnAZpmqpDPNnO -->
+<!-- originalUrl: https://youtu.be/qV7dgz75tVo -->
 
 ### 説明
 

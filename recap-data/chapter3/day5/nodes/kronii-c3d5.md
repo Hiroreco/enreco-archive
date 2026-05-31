@@ -17,11 +17,11 @@ After the conquest, Tam wandered back through the kingdom’s town and stumbled 
 
 In the end, though, the spying revealed nothing she didn’t already know. Still, it left her unsettled. Lately, everyone had been hiding things, acting strangely, speaking in riddles and half-truths. What other secrets were they keeping buried?
 
-It certainly didn’t help that bizarre [builds](https://www.youtube.com/watch?v=phkMUVqF6aY&t=9187s) kept appearing across the kingdom, nor that the final straw came in the form of a literal [floating corpse](https://www.youtube.com/live/phkMUVqF6aY?si=uuYG6FNBeWT0_8oT&t=8580) following her around.
+It certainly didn’t help that bizarre [builds](https://www.youtube.com/watch?v=phkMUVqF6aY&t=9187s) kept appearing across the kingdom, nor that the final straw came in the form of a literal [floating corpse](https://www.youtube.com/live/phkMUVqF6aY?t=8580) following her around.
 
 So Tam decided to investigate. The "Illumination," the strange happenings around the kingdom, the whispers, the corpse—there had to be a source behind it all. She remembered Gonathon mentioning how Shakira’s corpse had once hung within the kingdom’s church, and if anything sinister was festering beneath the surface, a cult seemed the most likely answer.
 
-[What were you all doing down there?](#embed:https://www.youtube.com/live/phkMUVqF6aY?si=AiKMkLpfoMuoexNd&t=9276)
+[What were you all doing down there?](#embed:https://www.youtube.com/live/phkMUVqF6aY?t=9276)
 
 People sneaking underground. Strange conversations cut short the moment they arrived. The floating corpse appearing once again to stalk them through the halls. Everything pointed toward the quartz-colored chapel being the heart of the kingdom’s growing madness.
 
@@ -29,7 +29,7 @@ But before Tam could press anyone further, attention suddenly shifted toward the
 
 Now, cornered by pressure from all sides, Tam reluctantly gave in.
 
-[Queen Tam Gandr](#embed:https://www.youtube.com/live/phkMUVqF6aY?si=_ta3CAW8xmYpjLto&t=9632)
+[Queen Tam Gandr](#embed:https://www.youtube.com/live/phkMUVqF6aY?t=9632)
 
 And then it all came rushing back.
 
@@ -43,7 +43,7 @@ Yet there was no joy in rediscovery. No triumphant revelation. Only heaviness.
 
 A sorrow that settled into her chest like cold rain soaking through cloth. A crushing melancholy that wrapped around her shoulders like royal robes far too heavy to bear.
 
-[Melancholy](#embed:https://www.youtube.com/live/phkMUVqF6aY?si=BSewBKip9cuco_Ak&t=9813)
+[Melancholy](#embed:https://www.youtube.com/live/phkMUVqF6aY?t=9813)
 
 She realized, perhaps for the first time, just how happy she’d been without those memories. Without the burdens. Without the expectations others placed upon her. Back then, she had simply been Tam. Free. Blissfully unaware.
 
@@ -59,13 +59,13 @@ Maybe forgetting had never truly been the answer after all.
 
 With her chin held high and her past finally accepted, Tam _Gandr_ returned to the kingdom in full. She wanted a new pet, a real pet this time, considering she was apparently the only person in existence who didn’t already have one.
 
-While searching for one, however, she stumbled upon a group calling themselves "Advent," and in doing so, confirmed her suspicions that they were aligned with something far more [sinister.](https://www.youtube.com/watch?v=phkMUVqF6aY&t=10923s). She relayed this [information](https://www.youtube.com/live/phkMUVqF6aY?si=Mc-l9GiKREszkwS_&t=11838) to those closest to her as a warning, leading to an extremely serious discussion.
+While searching for one, however, she stumbled upon a group calling themselves "Advent," and in doing so, confirmed her suspicions that they were aligned with something far more [sinister.](https://www.youtube.com/watch?v=phkMUVqF6aY&t=10923s). She relayed this [information](https://www.youtube.com/live/phkMUVqF6aY?t=11838) to those closest to her as a warning, leading to an extremely serious discussion.
 
-[Why are you laughing?](#embed:https://www.youtube.com/live/phkMUVqF6aY?si=m27nPH7zFLp_7-h1&t=12065)
+[Why are you laughing?](#embed:https://www.youtube.com/live/phkMUVqF6aY?t=12065)
 
 Still, despite the looming tension hanging over the kingdom, the rest of Tam’s day was surprisingly warm. She spent time with the people who once were, and still remained, her loyal followers. She acquired a panda named ["Tamda,"](https://www.youtube.com/watch?v=phkMUVqF6aY&t=11704s) whom she "loved" very [dearly](https://www.youtube.com/watch?v=phkMUVqF6aY&t=13155s) and visited the [castle](https://www.youtube.com/watch?v=phkMUVqF6aY&t=12772s) Immerkind had apparently begun constructing in her honor.
 
-And by the end of it all, after a day that felt like an entire lifetime compressed into a single whirlwind, Tam sat down and quietly ["journaled"](https://www.youtube.com/live/phkMUVqF6aY?si=tD4nVwbj0z-VL6vP&t=14416) everything that had happened.
+And by the end of it all, after a day that felt like an entire lifetime compressed into a single whirlwind, Tam sat down and quietly ["journaled"](https://www.youtube.com/live/phkMUVqF6aY?t=14416) everything that had happened.
 
 ## Fanart
 

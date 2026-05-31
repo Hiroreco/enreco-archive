@@ -8,15 +8,15 @@
 
 透明なガラスからは熱が逃げていく。
 その軌跡は欠片の中には見えなくても、
-[確かにそこに存在している。](https://www.youtube.com/live/K3N6S6rIgS0?si=n12llXgs1OyXASgZ&t=4612)
+[確かにそこに存在している。](https://www.youtube.com/live/K3N6S6rIgS0?t=4612)
 
 不透明なガラスは、
 まるで日差しを遮るブラインドのように、
-[光の中なら誰にでも見えるものを隠してしまう。](https://www.youtube.com/live/K3N6S6rIgS0?si=CiX-NuaDzen511Dl&t=4829)
+[光の中なら誰にでも見えるものを隠してしまう。](https://www.youtube.com/live/K3N6S6rIgS0?t=4829)
 
 [...]
 
-[傷は表面に残ることもある。](https://www.youtube.com/live/K3N6S6rIgS0?si=2Rwg0yLzwAtvWjBL&t=8220)
+[傷は表面に残ることもある。](https://www.youtube.com/live/K3N6S6rIgS0?t=8220)
 
 誰にも気づかれないまま。
 
@@ -38,7 +38,7 @@
 鋭い破片。
 
 [犬の骨は](https://www.youtube.com/watch?v=Db4P0eDfOMY&t=10226)
-[半分ほど食い尽くされている。](https://www.youtube.com/live/K3N6S6rIgS0?si=CBJ_HNgy7iWT5JA6&t=10279)」
+[半分ほど食い尽くされている。](https://www.youtube.com/live/K3N6S6rIgS0?t=10279)」
 ――モーリーン・ドアラス『ネルーダの回想録』より
 
 ...

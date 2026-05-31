@@ -5,13 +5,13 @@ The fluffy one had another dungeon conquest ahead of her today, though this one 
 
 As she prepared for the journey, she noticed the kingdom had grown far rowdier than usual. Giant floating text loomed across the skies, posters of the "Illumination" covered the streets, and strange slogans echoed through the town. Fuwawa rarely involved herself in such matters, but even she could not help but grow curious.
 
-["The border will fall"?](#embed:https://www.youtube.com/live/Db4P0eDfOMY?si=IVf_l27WEeApig-Y&t=1666)
+["The border will fall"?](#embed:https://www.youtube.com/live/Db4P0eDfOMY?t=1666)
 
 Certainly mysterious, though she ultimately dismissed it as just another odd hobby people had picked up.
 
 Speaking of hobbies, Fuwawa had recently discovered an intense love for vinyl records. Ever since finding one the day before, she had become determined to collect as many as possible, much to the probable suffering of her neighbors, thanks to the endless blasting of [music](https://www.youtube.com/watch?v=Db4P0eDfOMY&t=1878s) from her home.
 
-Before the dungeon expedition began, she attended a [sparring lesson](https://www.youtube.com/watch?v=Db4P0eDfOMY&t=3915s). Afterwards, she finally joined Lady Bloodflame, Shiori, and Mococo to challenge the [Labyrinth of Duality](https://www.youtube.com/live/Db4P0eDfOMY?si=8ltE2Ks7A8_tgorL&t=6762).
+Before the dungeon expedition began, she attended a [sparring lesson](https://www.youtube.com/watch?v=Db4P0eDfOMY&t=3915s). Afterwards, she finally joined Lady Bloodflame, Shiori, and Mococo to challenge the [Labyrinth of Duality](https://www.youtube.com/live/Db4P0eDfOMY?t=6762).
 
 The dungeon revolved entirely around pairs. Every puzzle, every obstacle, every battle demanded trust, coordination, and precise timing between partners. Compared to the previous dungeons, this one proved far more difficult than expected.
 
@@ -41,7 +41,7 @@ And with nothing else left to accomplish, the fluffy one happily called it a day
 
 Or at least, she _should_ have called it a day.
 
-[B-bau bau?!?!](#embed:https://www.youtube.com/live/Db4P0eDfOMY?si=SXHMGELCh98FJGTW&t=13714)
+[B-bau bau?!?!](#embed:https://www.youtube.com/live/Db4P0eDfOMY?t=13714)
 
 Out of nowhere, Fuwawa found herself being chased through Libestal by the ghostly figure of Shakira. Panicked and utterly confused, the poor dog hastily fled through the darkened streets until she accidentally stumbled upon something she absolutely was never meant to see.
 

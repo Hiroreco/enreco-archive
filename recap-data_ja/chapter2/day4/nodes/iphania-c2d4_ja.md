@@ -8,4 +8,4 @@
 
 ひとまず、姫は英雄たちに次なる任務を下す。それは、次のスターサイト――**スターサイト・カオス**――の調査だ。きっとそこには、忘れ去られた記憶の奥底に、また新たな真実の欠片が隠されているに違いない。
 
-[第三のスターサイト](#embed:https://www.youtube.com/live/wCysZh57hcc?si=KMP3qEYRgLTbpBuq&t=11516)
+[第三のスターサイト](#embed:https://www.youtube.com/live/wCysZh57hcc?t=11516)

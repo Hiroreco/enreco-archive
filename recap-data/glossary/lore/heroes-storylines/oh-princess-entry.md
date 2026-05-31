@@ -22,17 +22,17 @@ At her first meeting with [Princess Iphania,](#entry:iphania-entry) the ancient-
 
 ### How it went
 
-Every waking moment for Cecilia revolved around Iphania. Every quest, every mission, every task was done with duty and devotion, all in hopes of winning the maiden’s heart. Though her affection occasionally veered into [obsession](https://www.youtube.com/live/Icdii90_vSA?si=Jyrns6hejyLxwP1j&t=18262) (such as sneaking into Iphania’s room to leave behind love letters… and sniffing her still-warm bed), her feelings remained sincere.
+Every waking moment for Cecilia revolved around Iphania. Every quest, every mission, every task was done with duty and devotion, all in hopes of winning the maiden’s heart. Though her affection occasionally veered into [obsession](https://www.youtube.com/live/Icdii90_vSA?t=18262) (such as sneaking into Iphania’s room to leave behind love letters… and sniffing her still-warm bed), her feelings remained sincere.
 
 Freakiness aside, things seemed to be looking up for the green knight. Never before had she felt such purpose, never had her life felt so meaningful.
 
-But like any love story, obstacles soon emerged. By the third day of her pursuit, Cecilia noticed that Iphania kept bringing up someone else: the [Outlander](#entry:outsider-entry). Not only did she speak of him often, she did so with admiration and warmth. This shook Cecilia to her core. Her heart [fractured,](https://www.youtube.com/live/Icdii90_vSA?si=ExxsS-YVaBvPL6Uo&t=5066) and despair nearly pushed her to give up.
+But like any love story, obstacles soon emerged. By the third day of her pursuit, Cecilia noticed that Iphania kept bringing up someone else: the [Outlander](#entry:outsider-entry). Not only did she speak of him often, she did so with admiration and warmth. This shook Cecilia to her core. Her heart [fractured,](https://www.youtube.com/live/Icdii90_vSA?t=5066) and despair nearly pushed her to give up.
 
 Fortunately, her comrades, mainly [Gonathon,](#entry:gigi-entry) were there to support her, even if their “support” involved spinning a bizarre theory that Iphania and the Outlander might be siblings. It wasn’t true, of course, but it bought Cecilia a sliver of hope.
 
 As time passed, she gathered the courage to confess. And she did it in the most romantic way she knew: through a heartfelt [serenade.](https://www.youtube.com/live/I75IWfMGVgM?t=7144) As always, the Princess gave no direct response—but even then, Cecilia’s resolve did not waver.
 
-So firm was her love that she was willing to stay behind with Iphania forever, letting her friends continue without her. So emotionally driven that anyone who dared to badmouth Iphania, even [unintentionally,](https://www.youtube.com/live/48HSA_GcOZ0?si=5hds-8Kg9slqsnyV&t=6918) would face her swift judgment. So steadfast was her devotion that when someone else—specifically [Peasant the Bae](#entry:bae-entry)—confessed their love to her, Cecilia gently turned them down.
+So firm was her love that she was willing to stay behind with Iphania forever, letting her friends continue without her. So emotionally driven that anyone who dared to badmouth Iphania, even [unintentionally,](https://www.youtube.com/live/48HSA_GcOZ0?t=6918) would face her swift judgment. So steadfast was her devotion that when someone else—specifically [Peasant the Bae](#entry:bae-entry)—confessed their love to her, Cecilia gently turned them down.
 
 Her heart, after all, only beat for one. Even if the Princess never returned her feelings, Cecilia promised she would protect her all the same.
 
@@ -48,7 +48,7 @@ Her heart, after all, only beat for one. Even if the Princess never returned her
 
 On the final day, as the kingdom prepared to celebrate their victory over the Ruination, tragedy struck.
 
-Iphania was murdered. And Cecilia was [devastated.](https://www.youtube.com/live/LyufI3aiCB0?si=GTfSsdxPIM8QPDg9&t=6682)
+Iphania was murdered. And Cecilia was [devastated.](https://www.youtube.com/live/LyufI3aiCB0?t=6682)
 
 But shortly after, the truth was revealed—Iphania’s soul had not vanished. It now resided as someone known as Fia, the plushie-bodied guide who had led them through their entire journey. She continued to exist, even if in a different form.
 

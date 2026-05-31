@@ -9,14 +9,14 @@ Rejecting the idea, Roa points out that working with the gods isn't part of her 
 
 But the sister says:
 
-[Them is who?](#embed:https://www.youtube.com/live/rFmdOarYXuE?si=dFaA34qa_XbaaqbC&t=862)
+[Them is who?](#embed:https://www.youtube.com/live/rFmdOarYXuE?t=862)
 
 Their hostility was replaced by a chilling consensus; for a moment, they would stop shouting and start listening. They forged a promise to meet again under the looming shadow of the church, a location that felt less like a meeting place and more like an inevitable grave at this point.
 
 Later during the day, as Roa showed the castle Gap to Nerissa and Bijou, the nun appears.
 Like the nimble panther that she is, Roa rushed in to break the scaffolding that Shiori was standing on. But then, Shiori replied with a hollow, mocking pity:
 
-[Oh. What a shame.](#embed:https://www.youtube.com/live/rFmdOarYXuE?si=w8aK6rlxCd-RSVsR&t=11619)
+[Oh. What a shame.](#embed:https://www.youtube.com/live/rFmdOarYXuE?t=11619)
 
 As the night arrived, the Sister of the Cloth approached the gathered members of the Illumination. Standing her ground, Roa demanded Shiori to retreat, confidently declaring that the Sister did not belong in a space reserved for the enlightened.
 

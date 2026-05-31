@@ -13,6 +13,6 @@ Cecilia returns the favor by [checking in on NinoIna](https://www.youtube.com/wa
 
 Suddenly, an announcement rings through the land, and Cecilia learns that her cousin, Shakira, and Roa are getting married! She brings her trusty ukulele and plays a tune, which NinoIna eagerly jumps in to sing along with.
 
-[Wedding singing with NinoIna](#embed:https://www.youtube.com/live/wYTiK9cm_bo?si=9Mkh4yfK-FLDQOC6&t=11252)
+[Wedding singing with NinoIna](#embed:https://www.youtube.com/live/wYTiK9cm_bo?t=11252)
 
 In these final days, Immerkind takes comfort in the wisdom and friendship of NinoIna.

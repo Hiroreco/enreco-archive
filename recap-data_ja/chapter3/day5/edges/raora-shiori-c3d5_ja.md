@@ -15,7 +15,7 @@
 
 だがシスターはこう返した。
 
-[「“彼ら”って誰のこと？」](#embed:https://www.youtube.com/live/rFmdOarYXuE?si=dFaA34qa_XbaaqbC&t=862)
+[「“彼ら”って誰のこと？」](#embed:https://www.youtube.com/live/rFmdOarYXuE?t=862)
 
 その言葉を境に、二人の激しい敵意は不気味な一致へと姿を変えた。
 
@@ -35,7 +35,7 @@
 
 だがシオリは空虚な憐れみを帯びた声でこう返した。
 
-[「あら。残念ね。」](#embed:https://www.youtube.com/live/rFmdOarYXuE?si=w8aK6rlxCd-RSVsR&t=11619)
+[「あら。残念ね。」](#embed:https://www.youtube.com/live/rFmdOarYXuE?t=11619)
 
 夜になると、「布のシスター」はイルミネーションの集会へ姿を現した。
 

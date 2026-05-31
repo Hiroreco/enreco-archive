@@ -6,12 +6,12 @@
 
 そして今回、タムがその3枚目のコイン、いや、幸か不幸かビジューの「お母様コレクション」の新たなターゲットとなってしまったのだ。
 
-[義母](#embed:https://www.youtube.com/live/Zg3rYsc61XI?si=etz5HD7bApu5gkq3&t=11936)
+[義母](#embed:https://www.youtube.com/live/Zg3rYsc61XI?t=11936)
 
 タムは必死でこの妙な関係から逃れようとしたものの、エリザベス・ローズ・ブラッドフレイムの時と同じように、古石乙女はあまりにも狡猾で、するりとこちらの攻撃をかわし、そして何よりもしつこかった。  
 結局、彼女の手のひらから逃れることはできなかったのだ。
 
-[「母さんの目をしているね」](#embed:https://www.youtube.com/live/Zg3rYsc61XI?si=3wQ1uFGal6EzOCiR&t=17320)
+[「母さんの目をしているね」](#embed:https://www.youtube.com/live/Zg3rYsc61XI?t=17320)
 
 ## ファンアート
 

@@ -7,7 +7,7 @@ With a prize up for grabs, Nerissa knew she had to win the spar. All she had to 
 
 But two fights left her with losses, and she had only one more chance to claim this unknown prize. Despite Elizabeth’s combat-ready skills as a knight, Nerissa struck her down without so much as a single mark left on the Witch.
 
-With a laugh and praise, Elizabeth initiated a trade, passing over the [gorgeous ring](https://www.youtube.com/live/uEB2dIe37oo?si=mzKgTVgZtwUq3Rxv&t=20334) she had purchased earlier in the day. Now, she had a reason to give it along with a few excuses.
+With a laugh and praise, Elizabeth initiated a trade, passing over the [gorgeous ring](https://www.youtube.com/live/uEB2dIe37oo?t=20334) she had purchased earlier in the day. Now, she had a reason to give it along with a few excuses.
 
 ---
 

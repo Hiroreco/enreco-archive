@@ -7,4 +7,4 @@
 
 こうして、「シェフ連合」は結成された。それは、小麦粉と涙と、そして拭い去れない財政的絶望の中で生まれた同盟。ただ単にお金を稼ぐためだけではない。自分たちの料理が、誰かに食べられるに*値する*のだと、世界に証明するための切実な挑戦だったのだ。
 
-[料理しなきゃ](#embed:https://www.youtube.com/live/axlJjQQ_rzU?si=HHjSbRqzfwuoRibP&t=1842)
+[料理しなきゃ](#embed:https://www.youtube.com/live/axlJjQQ_rzU?t=1842)

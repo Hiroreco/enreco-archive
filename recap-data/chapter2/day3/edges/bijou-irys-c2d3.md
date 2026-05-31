@@ -7,7 +7,7 @@ Alarm bells rang. The pink lady rushed to the scene, heart pounding, ready to co
 
 But what she found was far from a confrontation.
 
-[Happy Birthday!](#embed:https://www.youtube.com/live/EKjcWfEGsB0?si=s8GiS__Q7mOaFuB_&t=436)
+[Happy Birthday!](#embed:https://www.youtube.com/live/EKjcWfEGsB0?t=436)
 
 From the middle of her shop—specifically, from within a tree trunk that now stood suspiciously at the center of her home—her brother leaped out, bursting into a cheerful, familiar tune, wishing her a happy birthday.
 

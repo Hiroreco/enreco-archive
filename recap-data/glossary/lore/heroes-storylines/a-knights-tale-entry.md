@@ -27,7 +27,7 @@ He was a humble and just knight through and through. He helped others, showed ki
 
 Their tale seemed destined for a happy ending, until the sixth day, when Amelia regained her past memories after conquering the Ancient Sewers Dungeon—and forgot everything about Gonathon.
 
-[And you are?](#embed:https://www.youtube.com/live/i7g-HJMqZ_E?feature=shared&t=5989)
+[And you are?](#embed:https://www.youtube.com/live/i7g-HJMqZ_E?t=5989)
 
 Heartbroken, the humble knight still chose to support her, wishing for nothing but her happiness.
 
@@ -37,14 +37,14 @@ Heartbroken, the humble knight still chose to support her, wishing for nothing b
 
 On the final day, as the battle against the Corruption loomed, Amelia—guided by others and the faint imprint Gonathon had left in her heart—began desperately searching for what she had lost. A “diamond” buried deep within her, someone dear and nearly remembered.
 
-This desperation led her into the arms of the Hot Pink One, who [tried to deceive her](https://www.youtube.com/live/WvRIdaH107U?feature=shared&t=8758) into thinking _she_ was the one Amelia had been searching for. The scene sparked tension and left many spectators displeased. Thankfully, Amelia saw through the ruse, rejected the Hot Pink One’s hand, and followed her heart.
+This desperation led her into the arms of the Hot Pink One, who [tried to deceive her](https://www.youtube.com/live/WvRIdaH107U?t=8758) into thinking _she_ was the one Amelia had been searching for. The scene sparked tension and left many spectators displeased. Thankfully, Amelia saw through the ruse, rejected the Hot Pink One’s hand, and followed her heart.
 
 > So, he pens this story, in hopes that one day, it will be read.
 > And the pearl will remember.
 > And she will want.
 > And she will wish.
 
-In the end, with unwavering loyalty and love, Amelia and Gonathon reunited at the kingdom’s onsen. There, the two [confessed their feelings](https://www.youtube.com/live/mxOT9QEg5dI?feature=shared&t=10312) once more. And although her memories hadn't returned, Amelia chose to take the knight’s hand—ready to forge new ones together.
+In the end, with unwavering loyalty and love, Amelia and Gonathon reunited at the kingdom’s onsen. There, the two [confessed their feelings](https://www.youtube.com/live/mxOT9QEg5dI?t=10312) once more. And although her memories hadn't returned, Amelia chose to take the knight’s hand—ready to forge new ones together.
 
 - [Read "A Knight's Wish"](#text:a-knights-wish)
 

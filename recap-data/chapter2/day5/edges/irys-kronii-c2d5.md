@@ -5,9 +5,9 @@ Red flags had been waving wildly for a while now, and Miss Tammy’s crush—Mis
 
 And honestly, at this point, the pink one was treating Tam like a hobby—just as she'd shamelessly claimed before. Barking orders at her like a pet—no, more accurately, like a maid—pulling her around, playing with her emotions, teetering between mock affection and cruel ridicule. Acting high and mighty, like some smug master lording over her loyal servant.
 
-Tam, ever proud, ever regal—a Queen—had to grit her teeth and endure it all. Not because she wanted to, but because she chose to. For the pink one. Because... well, something about Tam allegedly cheating on her with another pink one, after that long string of [mentally draining](https://www.youtube.com/live/UyN7jwsiiXA?si=SGznht8by7Elxkr8&t=10852) dungeon runs she had with the two bubblegum heads.
+Tam, ever proud, ever regal—a Queen—had to grit her teeth and endure it all. Not because she wanted to, but because she chose to. For the pink one. Because... well, something about Tam allegedly cheating on her with another pink one, after that long string of [mentally draining](https://www.youtube.com/live/UyN7jwsiiXA?t=10852) dungeon runs she had with the two bubblegum heads.
 
-[Pst pst, come here maid](#embed:https://www.youtube.com/live/UyN7jwsiiXA?si=EEw-mKQ4adxI0Uu9&t=13725)
+[Pst pst, come here maid](#embed:https://www.youtube.com/live/UyN7jwsiiXA?t=13725)
 
 It was rare—unheard of, even—to see Tam so vulnerable. And yet, there she was, all her pride swallowed just to hold onto something fleeting. And the worst part? It looked like Miss Pinky was enjoying every second of it.
 

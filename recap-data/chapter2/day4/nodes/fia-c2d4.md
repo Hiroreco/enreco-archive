@@ -3,7 +3,7 @@
 
 Another fragment of memories unfolded before Fia—and with it, a revelation that shook everything to its core.
 
-[The truth about the Outsider](#embed:https://www.youtube.com/live/wCysZh57Hcc?si=yZOPqpzRsa6KSL3D&t=11331)
+[The truth about the Outsider](#embed:https://www.youtube.com/live/wCysZh57Hcc?t=11331)
 
 The Outlander, the nameless swordsman once hailed as the “hero” destined to save the world, was in truth the one who would bring about the end of the universe. He _was_ the great evil. He _was_ the Outsider.
 

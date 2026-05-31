@@ -7,7 +7,7 @@ Immerkind and Gonathon spoke at length about [the Curse of Advent](https://www.y
 
 Before Gonathon would enter the dungeon, however, Immerkind accompanied him on some chores in Libestal's markets. While purchasing items, Immerkind glimpsed the room that Princess Iphania had once dwelled in. The heavy-hearted automaton fell into a [depressive stupor](https://www.youtube.com/watch?v=w2BCfGaek4g&t=5090s) upon seeing where her beloved had been cut down, as it not only dredged up painful memories of that day, but also reminded her of her trepidations in the present. Immerkind opened up to Gonathon, expressing her frustrations and sadness over Fia's seeming disinterest in her. Gonathon reminded Immerkind of the cat's feelings and reassured his beloved friend that all would be well.
 
-[A rose, from one knight to another](#embed:https://www.youtube.com/live/IpNXgvS3QjM?si=cMTVDQKwEE7UhzFE&t=10271)
+[A rose, from one knight to another](#embed:https://www.youtube.com/live/IpNXgvS3QjM?t=10271)
 
 After completing the day's dungeon, Gonathon met up with Shiori, who invited him into her church. It was here that Gonathon was subjected to a most [unholy and despicable ritual](https://www.youtube.com/watch?v=w2BCfGaek4g&t=8804s) by the witch, but the knight soon awoke elsewhere with no memories of the event at all.
 

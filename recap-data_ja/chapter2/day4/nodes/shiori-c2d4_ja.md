@@ -7,13 +7,13 @@
 
 自分の気持ちを伝えるのって、大切なことでしょう？
 
-[スニーク100](#embed:https://www.youtube.com/live/l9VpZ0kmpeY?si=kxtX6JlJhKG0uDhE&t=668)
+[スニーク100](#embed:https://www.youtube.com/live/l9VpZ0kmpeY?t=668)
 
-もちろん、シオリには今日、成し遂げるべき大切な使命があった。皆と同じく、「[スターサイト：クロノス](https://www.youtube.com/live/l9VpZ0kmpeY?si=lhZpQ8N-1lD_eYDy&t=2014)」の調査だ。ベー、フワワ、モココと共に挑み、数々の試練を乗り越えた末、失われた[オーロ・クロニー](https://www.youtube.com/live/l9VpZ0kmpeY?si=IaJKKnb-D4y6qJfY&t=5814)の記憶を取り戻すことに成功した。
+もちろん、シオリには今日、成し遂げるべき大切な使命があった。皆と同じく、「[スターサイト：クロノス](https://www.youtube.com/live/l9VpZ0kmpeY?t=2014)」の調査だ。ベー、フワワ、モココと共に挑み、数々の試練を乗り越えた末、失われた[オーロ・クロニー](https://www.youtube.com/live/l9VpZ0kmpeY?t=5814)の記憶を取り戻すことに成功した。
 
 そしてダンジョンを出た瞬間、別のチームで探索を進めていたゴナソンと鉢合わせる。シオリは好機を逃さず、彼を半ば強引に誘い出し、二人きりの時間を作り出した。
 
-[二人きり](#embed:https://www.youtube.com/live/l9VpZ0kmpeY?si=d0aIf-aCyYQrcc5X&t=5985)
+[二人きり](#embed:https://www.youtube.com/live/l9VpZ0kmpeY?t=5985)
 
 優しくて、誠実で、純粋――まさに彼こそ、シオリがずっと憧れていた存在だった。今、このチャンスを逃せば、二度と彼と結ばれることはないかもしれない。そう考えたシオリは、フェニックスのシャキーラのもとへ向かい、ツンデレらしく不器用な態度で「ブラインドデートの枠を譲ってほしい」と願い出た。
 
@@ -21,7 +21,7 @@
 
 それでも、シオリは諦めなかった。彼女の計画は――このデートをぶち壊し、ゴナソンの心を掴み取ること！
 
-[あああ！溺れるぅ！](#embed:https://www.youtube.com/live/l9VpZ0kmpeY?si=G-v3Mv7AulkgIwP3&t=7526)
+[あああ！溺れるぅ！](#embed:https://www.youtube.com/live/l9VpZ0kmpeY?t=7526)
 
 だが、事態は望んだようには進まなかった。ようやく心の内をさらけ出したにもかかわらず、全てはあっという間に崩れ去ってしまったのだ。（→ [シオリ-ゴナソン：魔女の裁き](#edge:gigi-shiori)）
 
@@ -29,7 +29,7 @@
 
 その夜、シオリは日記を開き、今日あった出来事をすべて書き残した。淡い希望も、そして辛い失恋も、そしてこれから自分がどう歩んでいくのか、その思いの全てを。
 
-[痛いけど、まだ希望はある](#embed:https://www.youtube.com/live/l9VpZ0kmpeY?si=hY1jLc2nVd9MTUO6&t=14316)
+[痛いけど、まだ希望はある](#embed:https://www.youtube.com/live/l9VpZ0kmpeY?t=14316)
 
 ## ファンアート
 

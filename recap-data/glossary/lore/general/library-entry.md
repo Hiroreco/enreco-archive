@@ -24,7 +24,7 @@ The Library radiated a dreamy atmosphere, with a wooden interior intertwined wit
 
 At the heart of the Library stood a small quartz podium set atop a serene pool of water—Fia’s usual place of residence.
 
-Most striking were the endless stacks of bookshelves lining the Library. True to its purpose, the Library housed [lore](https://www.youtube.com/live/5pgqtkxazUo?si=Avq9ghV6qktpwDi8&t=1123) from across the multiverse. Here, the heroes would also submit daily journal entries, as requested by Fia. Any newly discovered book or piece of lore would also be cataloged and made available for reading.
+Most striking were the endless stacks of bookshelves lining the Library. True to its purpose, the Library housed [lore](https://www.youtube.com/live/5pgqtkxazUo?t=1123) from across the multiverse. Here, the heroes would also submit daily journal entries, as requested by Fia. Any newly discovered book or piece of lore would also be cataloged and made available for reading.
 
 ### Lore and Journals
 

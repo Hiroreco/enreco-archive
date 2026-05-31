@@ -24,9 +24,9 @@ And she didn’t do it to flaunt her wealth—though she’d admit her deep pock
 
 > Uh, Romeo, I'll call you later. I'm currently being chased by a dog, she says she wants my money... AH!
 
-More of her heart showed in how she helped Gonathon mend ties with his beloved, acting as his number one [wing-woman.](https://www.youtube.com/live/qdYQ5j-0sQI?feature=shared&t=2806)
+More of her heart showed in how she helped Gonathon mend ties with his beloved, acting as his number one [wing-woman.](https://www.youtube.com/live/qdYQ5j-0sQI?t=2806)
 
-Curiosity was also a defining trait; she proudly embodied the clever, inquisitive spirit of the Scarlet Wand. She explored nearly every corner of the kingdom, speaking to countless citizens, uncovering secrets that others missed. She even [theorized](https://www.youtube.com/live/qdYQ5j-0sQI?feature=shared&t=12299) early on that the king was evil, a claim later proven true. Truly, the Scarlet Wand’s reputation for wit was in good hands.
+Curiosity was also a defining trait; she proudly embodied the clever, inquisitive spirit of the Scarlet Wand. She explored nearly every corner of the kingdom, speaking to countless citizens, uncovering secrets that others missed. She even [theorized](https://www.youtube.com/live/qdYQ5j-0sQI?t=12299) early on that the king was evil, a claim later proven true. Truly, the Scarlet Wand’s reputation for wit was in good hands.
 
 Yet for all her maturity and responsibility, Nerissa’s composure often crumbled in matters of the heart. No, not in the many questionable polygamous ties she shared with four other women, but rather in her growing closeness with one particular scarlet knight: [Elizabeth Rose Bloodflame.](#entry:liz-entry)
 
@@ -47,7 +47,7 @@ Even with her memories in fragments, Nerissa’s diligence never wavered. She ba
 
 Her boundless curiosity stayed with her. Once again, she explored nearly every corner of the kingdom, read through the library’s countless tales, and uncovered stories others overlooked.
 
-Bit by bit, her [memories](https://www.youtube.com/live/5sWjzbacGUY?si=KUn5fSB0crLgmamn&t=12079) returned. They were hazy, but they were hers—precious glimpses of who she was and what had shaped her. She longed to cherish them all: the Scarlet Wand, the corruption, the moments of joy, and the depths of pain.
+Bit by bit, her [memories](https://www.youtube.com/live/5sWjzbacGUY?t=12079) returned. They were hazy, but they were hers—precious glimpses of who she was and what had shaped her. She longed to cherish them all: the Scarlet Wand, the corruption, the moments of joy, and the depths of pain.
 
 Above all, she yearned for her name. Early in her journey, she asked, “Who am I?”
 It was Elizabeth who answered her, without teasing or nicknames.
@@ -55,9 +55,9 @@ It was Elizabeth who answered her, without teasing or nicknames.
 > Well, I mean your name is Nerissa.
 > Some also called yourself ‘Juliet,’ I guess.
 
-It sounded [right.](https://www.youtube.com/live/XfZh_3xb7i0?si=xVwBE_o5TFb2HfsC&t=5287) Being close to Elizabeth felt right. As more memories of the red knight returned—the witch accusations, the teasing, the moment Elizabeth saved her—Nerissa promised herself she would never forget again.
+It sounded [right.](https://www.youtube.com/live/XfZh_3xb7i0?t=5287) Being close to Elizabeth felt right. As more memories of the red knight returned—the witch accusations, the teasing, the moment Elizabeth saved her—Nerissa promised herself she would never forget again.
 
-From then on, she sought out Elizabeth’s company even more. They sparred, exchanged gifts, placed their portraits side by side, and shared the same roof. Elizabeth didn’t push her away; she smiled, [bonded](https://www.youtube.com/live/vMdhvi8dHN4?si=JeT3qPPFMnB0yoCr&t=6692) with Nerissa, and seemed to genuinely enjoy it. Even calling her a “witch” was now done with playful affection.
+From then on, she sought out Elizabeth’s company even more. They sparred, exchanged gifts, placed their portraits side by side, and shared the same roof. Elizabeth didn’t push her away; she smiled, [bonded](https://www.youtube.com/live/vMdhvi8dHN4?t=6692) with Nerissa, and seemed to genuinely enjoy it. Even calling her a “witch” was now done with playful affection.
 
 It was bliss, and Nerissa wanted more.
 

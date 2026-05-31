@@ -27,7 +27,7 @@ _そう、マーズがいた。_
 
 ついに、ずっと奥の手として温存していたあの道具の出番である。
 
-[ドゥーーート ドゥート ドゥート ドゥート](#embed:https://www.youtube.com/live/UBbTSf5A9bc?si=Ff3bsK45D849GVN9&t=12336)
+[ドゥーーート ドゥート ドゥート ドゥート](#embed:https://www.youtube.com/live/UBbTSf5A9bc?t=12336)
 
 その後は――
 
@@ -41,11 +41,11 @@ _またしても_ ダンジョンだった。
 
 それに何より――謎解きが難しい。
 
-[頭が痛い。](https://www.youtube.com/live/UBbTSf5A9bc?si=TijXmLN-N0r_1e9Y&t=18522)
+[頭が痛い。](https://www.youtube.com/live/UBbTSf5A9bc?t=18522)
 
 かなりの忍耐を要したものの、彼女たちは絆の力で少しずつ道を切り開いていく。
 
-居心地の良い小さな家でひと息ついた後、この日最後に取り戻すことになった記憶は、双子の魔界番犬――[フワワ・アビスガードとモココ・アビスガード](https://www.youtube.com/live/UBbTSf5A9bc?si=JMqpBbrJXLiHbPjY&t=19638)のものだった。
+居心地の良い小さな家でひと息ついた後、この日最後に取り戻すことになった記憶は、双子の魔界番犬――[フワワ・アビスガードとモココ・アビスガード](https://www.youtube.com/live/UBbTSf5A9bc?t=19638)のものだった。
 
 まさかあの二人が、本当に双子だったとは。
 
@@ -55,7 +55,7 @@ _またしても_ ダンジョンだった。
 
 店の商品を補充して、あとは寝るだけ――
 
-[!!!](#embed:https://www.youtube.com/live/UBbTSf5A9bc?si=Qth2rf7Z9v4ygpLi&t=20419)
+[!!!](#embed:https://www.youtube.com/live/UBbTSf5A9bc?t=20419)
 
 ……いや、待て。
 
@@ -73,7 +73,7 @@ _またしても_ ダンジョンだった。
 
 グルォォォォォォンド――！？
 
-[デジャヴを感じたことはある？](#embed: [https://www.youtube.com/live/UBbTSf5A9bc?si=QV3B2I40qETcZVIz&t=20525](https://www.youtube.com/live/UBbTSf5A9bc?si=QV3B2I40qETcZVIz&t=20525))
+[デジャヴを感じたことはある？](#embed: [https://www.youtube.com/live/UBbTSf5A9bc?t=20525](https://www.youtube.com/live/UBbTSf5A9bc?t=20525))
 
 その後の数分間は混乱の連続だった。
 
@@ -85,4 +85,4 @@ _またしても_ ダンジョンだった。
 
 そして最後の数分間の記憶は、頭の中でぼやけた霞のように消えてしまう。
 
-[……だが、あのニワトリだけは忘れていなかった。](https://www.youtube.com/live/UBbTSf5A9bc?si=vJ_CiaSHV72da4Gf&t=20816)
+[……だが、あのニワトリだけは忘れていなかった。](https://www.youtube.com/live/UBbTSf5A9bc?t=20816)

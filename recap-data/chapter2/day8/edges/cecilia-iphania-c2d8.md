@@ -11,7 +11,7 @@ There—right there—lay the Princess.
 Still. Lifeless.
 Dead.
 
-[P-Princess?!](#embed:https://www.youtube.com/live/LyufI3aiCB0?si=GTfSsdxPIM8QPDg9&t=6682)
+[P-Princess?!](#embed:https://www.youtube.com/live/LyufI3aiCB0?t=6682)
 
 Time froze. Cecilia’s breath caught. Her voice, her will, everything inside her simply stopped. Disbelief flooded her senses. It wasn’t real. It couldn’t be. The woman she had poured her heart into—gone in an instant.
 
@@ -21,7 +21,7 @@ Cecilia didn’t want to leave. No—she couldn’t. She wanted to go back. To r
 
 Or so she thought.
 
-Then came the truth—absurd, miraculous, beautiful: Fia _was_ the [Princess](https://www.youtube.com/live/LyufI3aiCB0?si=H-D5NeI_IUYhZRio&t=6927).
+Then came the truth—absurd, miraculous, beautiful: Fia _was_ the [Princess](https://www.youtube.com/live/LyufI3aiCB0?t=6927).
 She had survived, reborn—or at least reincarnated—in a small, round, plump cat doll. Ridiculous as it sounded, to Cecilia, it was everything. It didn’t matter what form she took—her conviction to protect the Princess remained as strong as ever.
 
 Her heart knew no bounds. Her love, unshaken. And even if the world twisted, if death loomed, or if everything around them fell apart—Cecilia Immerkind would continue to protect her.

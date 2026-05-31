@@ -22,16 +22,16 @@
 
 **第一の試練**
 
-[ステインが溢れる闘技場](https://www.youtube.com/live/gVAtGMLBJos?si=Yz9FwKwuVtv4e-ZS&t=1423)での連戦が始まります。次々と湧き出すステインをすべて打ち倒さなければゲートは開かず、先へ進むことはできません。戦闘は進むごとに激しさを増していきました。
+[ステインが溢れる闘技場](https://www.youtube.com/live/gVAtGMLBJos?t=1423)での連戦が始まります。次々と湧き出すステインをすべて打ち倒さなければゲートは開かず、先へ進むことはできません。戦闘は進むごとに激しさを増していきました。
 
 **第二の試練**
 
 次に現れたのは「黒い薔薇」の形をしたアーティファクトでした。これを破壊するためには、まず周囲に仕掛けられた謎を解明する必要があったのです。
 出題されたのは――
 
-- [数学問題](https://www.youtube.com/live/EKjcWfEGsB0?si=kbaxo2QGrPfrE5La&t=2999)
-- [順番記憶ロック](https://www.youtube.com/live/Icdii90_vSA?si=5xbkuHBq09Pawbcj&t=16232)
-- [ペア合わせロック](https://www.youtube.com/live/Lp7GyRVbz1c?si=eZeTfPLnxXrZZVP7&t=2892)
+- [数学問題](https://www.youtube.com/live/EKjcWfEGsB0?t=2999)
+- [順番記憶ロック](https://www.youtube.com/live/Icdii90_vSA?t=16232)
+- [ペア合わせロック](https://www.youtube.com/live/Lp7GyRVbz1c?t=2892)
 
 しかし、その間にもステインは容赦なく湧き続け、謎解きは常に命がけの状況でした。すべての黒薔薇を破壊するまで、緊張が途切れることはありませんでした。
 
@@ -48,7 +48,7 @@
 
 アリーナの四隅には再び黒薔薇が配置されており、それぞれに以前と同じ（数学、記憶、ペア合わせ）の謎解きが仕掛けられていました。すべての薔薇を破壊し尽くして初めて、戦いの後に音楽ディスクの入った宝箱へとようやく手が届くのです。
 
-[ステインキング・プロト戦](#embed:https://www.youtube.com/live/gVAtGMLBJos?si=ySvBC15UpSUDHK4E&t=2203)
+[ステインキング・プロト戦](#embed:https://www.youtube.com/live/gVAtGMLBJos?t=2203)
 
 ### 報酬
 

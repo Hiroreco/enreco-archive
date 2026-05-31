@@ -15,7 +15,7 @@
 
 お互いにとって相手は、“とにかく一緒にいるとイライラする存在”だったのだから。
 
-[「その狼なんなの……？」 「そっちこそ、その狼なんなの！？」](#embed:https://www.youtube.com/live/T5wi-wnloHQ?si=Vjj_UD5AY4HRtO95&t=4328)
+[「その狼なんなの……？」 「そっちこそ、その狼なんなの！？」](#embed:https://www.youtube.com/live/T5wi-wnloHQ?t=4328)
 
 フワワから見たモココは、とにかく騒がしい女だった。
 
@@ -30,7 +30,7 @@
 しかも最近では、フワワのことを露骨に無視し始めていた。
 
 ただ普通に商売しているだけなのに――
-[なんという態度だろうか！](https://www.youtube.com/live/T5wi-wnloHQ?si=v_5rlCQFBBMCsWML&t=4030)
+[なんという態度だろうか！](https://www.youtube.com/live/T5wi-wnloHQ?t=4030)
 
 一方、モココから見たフワワは、堅苦しくて融通の利かない女だった。
 
@@ -46,7 +46,7 @@
 
 こっちは忙しいワンコなんだぞ！！
 
-モココにとってフワワは、[時間を割く価値すらない相手](https://www.youtube.com/live/teJSRYWdIXc?si=leIE9vhnHdXZL6Bx&t=4020)だった。
+モココにとってフワワは、[時間を割く価値すらない相手](https://www.youtube.com/live/teJSRYWdIXc?t=4020)だった。
 
 ここ数日積み重なっていた緊張は、ダンジョンへ向かう直前についに爆発する。
 
@@ -58,13 +58,13 @@
 
 ネリッサのパーティから突然追い出されたフワワは、何が起きたのか確かめに行くしかなかった。そして、その発案者がモココだと知ってしまう。
 
-[「早い者勝ち……ってこと？」](#embed:https://www.youtube.com/live/T5wi-wnloHQ?si=aTcjwxw_W4WDJSTt&t=4150)
+[「早い者勝ち……ってこと？」](#embed:https://www.youtube.com/live/T5wi-wnloHQ?t=4150)
 
 結局、一番割を食ったのは哀れなゴナソンだった。
 
 だがその後も、二人の険悪な空気は収まらない。
 
-ラビリンス攻略中ですら、少し近づけば「向こう行って！」の応酬。しかも現実的には、[離れようにも離れられない状況](https://www.youtube.com/live/teJSRYWdIXc?si=x92AjCn_yfBQcyD-&t=5009)ばかりだった。
+ラビリンス攻略中ですら、少し近づけば「向こう行って！」の応酬。しかも現実的には、[離れようにも離れられない状況](https://www.youtube.com/live/teJSRYWdIXc?t=5009)ばかりだった。
 
 二人とも、テルミナスでの用事が終わり次第、さっさと別行動へ戻る気満々だった。
 
@@ -88,7 +88,7 @@
 
 たとえ本心ではやりたくなくても――それが、自分たちにとって本当に大切なもののためなら。
 
-[相互協力――すべてはワフたちのために。](#embed:https://www.youtube.com/live/teJSRYWdIXc?si=DZEMGTYJ5_CVzOnf&t=7542)
+[相互協力――すべてはワフたちのために。](#embed:https://www.youtube.com/live/teJSRYWdIXc?t=7542)
 
 もっとも、この不本意な同盟もここで終わりではない。
 
@@ -102,7 +102,7 @@
 
 当然、新しい約束を交わしたところで、二人の関係性が変わるわけもなく。
 
-本当に、[まったく変わらなかった。](https://www.youtube.com/live/T5wi-wnloHQ?si=X_yx3CZE0nnc9XTO&t=15098)
+本当に、[まったく変わらなかった。](https://www.youtube.com/live/T5wi-wnloHQ?t=15098)
 
 ……それでも。
 

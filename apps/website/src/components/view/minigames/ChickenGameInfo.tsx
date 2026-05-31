@@ -25,7 +25,7 @@ const ChickenGameInfo = () => {
             <p>{t("gameplay")}</p>
             <p>{t("simple")}</p>
             <TimestampHref
-                href="https://www.youtube.com/live/Rd0awHHBTiA?feature=shared&t=6328"
+                href="https://www.youtube.com/live/Rd0awHHBTiA?t=6328"
                 caption={t("timestampCaption")}
                 type="embed"
             />

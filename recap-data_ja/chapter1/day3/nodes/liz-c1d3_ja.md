@@ -3,13 +3,13 @@
 
 エリザベスが目を覚ますと、また一つ記憶の断片が鮮明になった。それは前日にシャキーラと交わした、ある出来事の記憶だった。
 
-[恥](#embed:https://www.youtube.com/live/oVguNTPnDww?feature=shared&t=141)
+[恥](#embed:https://www.youtube.com/live/oVguNTPnDww?t=141)
 
 記憶、か…。王国に迎え入れられたエリザベスは、これまでの旅路に思いを馳せていた。
 
 記憶を奪われ、見知らぬこの世界に降り立った彼女。それでも、新たな仲間たちと出会い、絆を育んできた。最初の二日間で、森カリオペとがうる・ぐらの記憶を取り戻すことにも成功した。しかし、心の奥底では、ふと疑問が湧いてくる――自分自身の記憶は、いつになったら戻るのだろう？ 彼女は、まるで大切な何かを、いや、もしかしたら大切な“誰か”を失ったかのような喪失感を覚えていた。
 
-[午前3時の考え事](#embed:https://www.youtube.com/live/oVguNTPnDww?feature=shared&t=612)
+[午前3時の考え事](#embed:https://www.youtube.com/live/oVguNTPnDww?t=612)
 
 そんな思考にしばし囚われながらも、エリザベスはすぐに気持ちを切り替え、冒険四日目に向けて気合を入れ直すのだった。
 
@@ -21,6 +21,6 @@
 
 その日の後半、ラオラに誘われ、一行はその日のダンジョン――*エルドリッチホラーダンジョン*に挑むことになった。同行者はカリオペと二匹のわんこ。攻略中、モココが誤って穴に落ちてしまい、助けようとしたエリザベスもまた、うっかり同じ状況に陥ってしまう。
 
-[約束を文字通りに受け取りすぎ](#embed:https://www.youtube.com/live/oVguNTPnDww?feature=shared&t=9220)
+[約束を文字通りに受け取りすぎ](#embed:https://www.youtube.com/live/oVguNTPnDww?t=9220)
 
-それでも二人は何とか脱出し、一行は無事にダンジョンを制覇する。そして見事に[一伊那尓栖](https://www.youtube.com/live/oVguNTPnDww?feature=shared&t=7815)の記憶を取り戻すことに成功したのだった。
+それでも二人は何とか脱出し、一行は無事にダンジョンを制覇する。そして見事に[一伊那尓栖](https://www.youtube.com/live/oVguNTPnDww?t=7815)の記憶を取り戻すことに成功したのだった。

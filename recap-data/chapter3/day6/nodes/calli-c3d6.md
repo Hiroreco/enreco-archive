@@ -1,11 +1,11 @@
 <!-- title: Mordon Ramsay -->
 <!-- status: Punished -->
 
-["Shades of gray, as it should be."](#embed:https://www.youtube.com/live/j2loI_6HkqI?si=VG93rRxPE5k-TTRD&t=668)
+["Shades of gray, as it should be."](#embed:https://www.youtube.com/live/j2loI_6HkqI?t=668)
 
 That was Mordon Ramsay's motto as she headed to what she thought would be her final day in this Libestal. She had done this song and dance a couple of times before. There was going to be something crazy coming up soon, and before that took place, she had to at least _try_ to clear her name. That, and Shakira (her pet chicken) was still acting strangely... she had to get to the bottom of it before her time ran out.
 
-The first person she ran into was her friend, fellow wolf-pack member and now lawyer of choice: Cecilia Immerkind. Mordon [confided in her](https://www.youtube.com/live/j2loI_6HkqI?si=cTXDf622IdE-EGHr&t=1298) about her idea to obtain an animal-speaking potion to understand Shakira the Second and get to the bottom of things, as well as about her concerns regarding the group calling themselves "Advent". Immerkind agreed, and the two split off to prepare themselves for the upcoming trial, a small ([and terrifying](https://www.youtube.com/watch?v=j2loI_6HkqI&t=2521)) conversation with Roa beforehand reaffirming her worries at least partially.
+The first person she ran into was her friend, fellow wolf-pack member and now lawyer of choice: Cecilia Immerkind. Mordon [confided in her](https://www.youtube.com/live/j2loI_6HkqI?t=1298) about her idea to obtain an animal-speaking potion to understand Shakira the Second and get to the bottom of things, as well as about her concerns regarding the group calling themselves "Advent". Immerkind agreed, and the two split off to prepare themselves for the upcoming trial, a small ([and terrifying](https://www.youtube.com/watch?v=j2loI_6HkqI&t=2521)) conversation with Roa beforehand reaffirming her worries at least partially.
 
 Before it was time to be judged, though? Pets. More pets. A rabbit called Donut, a fox called Utut, and a cow called... Sister Shiori? Mordon has some interesting naming tendencies. She [showed them all](https://www.youtube.com/watch?v=j2loI_6HkqI&t=3869) to her friend NinoIna and brought up the potions again, but it seemed like the window of opportunity had already passed, as all their needed materials could have only been found in the Labyrinth of Duality. Darn. It is what it is.
 

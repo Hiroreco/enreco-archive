@@ -12,6 +12,6 @@
 
 True to its name, Automaton Assault enables Cecilia to unleash a rapid flurry of spear strikes upon her enemies. While the sheer speed and force of the attack are intimidating, the effect is often slightly undercut by Cecilia’s unshakable habit of shouting an adorably cheerful catchphrase before launching her foes into oblivion.
 
-[Automaton Assault!](#embed:https://www.youtube.com/live/-QKg8Fau9GM?feature=shared&t=1452)
+[Automaton Assault!](#embed:https://www.youtube.com/live/-QKg8Fau9GM?t=1452)
 
 Starting from Chapter 2, the lance also gained an additional [ranged attack.](#entry:revelations-entry)

@@ -21,7 +21,7 @@
 
 さらに囚人ゼロは、自らの本当の名を明かす。
 
-[AAAHHHH!](#embed:https://www.youtube.com/live/rFmdOarYXuE?si=z5VHbHRDtqRMz1Wr&t=2446)
+[AAAHHHH!](#embed:https://www.youtube.com/live/rFmdOarYXuE?t=2446)
 
 リベスタルの住民たちを手助けした後、ロアは再びレディ・ブラッドフレイムと遭遇した。
 

@@ -18,4 +18,4 @@
 
 その問いに応え、アウトランダーの信頼を勝ち取るため、英雄たちは偽りのない、まっすぐな心を彼に伝えた。
 
-[その理由](#embed:https://www.youtube.com/live/9gL4We5utAk?si=BGrT9i5eJGGAoNcL&t=11841)
+[その理由](#embed:https://www.youtube.com/live/9gL4We5utAk?t=11841)

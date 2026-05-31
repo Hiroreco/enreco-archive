@@ -26,27 +26,27 @@
 
 **第一のパズル**
 
-天使の道には、ボタンが配置された[赤いブロックの円](https://www.youtube.com/live/axlJjQQ_rzU?si=MAqpJXpQJXmj2K6e&t=3573)が用意されています。ボタンを押して色を赤から青へと変化させ、悪魔の道に並べられた赤と青の[焚き火](https://www.youtube.com/live/NSOuyMjCxPI?si=03CadFAr7PQ8DJvd&t=4524)と同じ配置にすることで、パズルは解き放たれます。
+天使の道には、ボタンが配置された[赤いブロックの円](https://www.youtube.com/live/axlJjQQ_rzU?t=3573)が用意されています。ボタンを押して色を赤から青へと変化させ、悪魔の道に並べられた赤と青の[焚き火](https://www.youtube.com/live/NSOuyMjCxPI?t=4524)と同じ配置にすることで、パズルは解き放たれます。
 
 **第二のパズル**
 
-天使の道にいるプレイヤーは、[動かせるブロック](https://www.youtube.com/live/axlJjQQ_rzU?si=DDnmLpQW0CXpggdp&t=3694)を操作し、床に描かれた迷路を進めていきます。しかし、その迷路の正しいルートを知るのは悪魔の道にいる仲間だけ。迷路の全貌が描かれた[地図](https://www.youtube.com/live/NSOuyMjCxPI?si=wgLETZiPN-WpX7qy&t=4666)を頼りに、的確な案内をしてもらう必要があるでしょう。
+天使の道にいるプレイヤーは、[動かせるブロック](https://www.youtube.com/live/axlJjQQ_rzU?t=3694)を操作し、床に描かれた迷路を進めていきます。しかし、その迷路の正しいルートを知るのは悪魔の道にいる仲間だけ。迷路の全貌が描かれた[地図](https://www.youtube.com/live/NSOuyMjCxPI?t=4666)を頼りに、的確な案内をしてもらう必要があるでしょう。
 
 - まずは小さな長方形のチュートリアル迷路で、基本的な仕組みを覚えましょう。
 - 本番では、悪魔の道には広大な迷路が、天使の道側には円形のエリアと色付きのブロックが広がっています。
-- **注:** ブロックを黒と赤のテラコッタ製タイルに正しく押し込むことで、ダンジョンの終盤に隠された扉が開き、貴重な[音楽ディスク](https://www.youtube.com/live/A97SrozF36w?si=zNzhwalpOc_S6Tu_&t=7429)を手に入れることができます。
+- **注:** ブロックを黒と赤のテラコッタ製タイルに正しく押し込むことで、ダンジョンの終盤に隠された扉が開き、貴重な[音楽ディスク](https://www.youtube.com/live/A97SrozF36w?t=7429)を手に入れることができます。
 
 **第三のパズル**
 
-奈落の上に浮かぶ迷路を、天使の道にいるプレイヤーが[慎重に渡っていきます](https://www.youtube.com/live/axlJjQQ_rzU?si=8ijRq_d2gpa0y5mv&t=4273)。一方、悪魔の道にいる仲間は広い[平面エリア](https://www.youtube.com/live/NSOuyMjCxPI?si=8UiI1wWq3zOPqzNm&t=5227)に立ち、次々と出現するステインを撃破しなければなりません。悪魔側の立つ位置が、天使側では浮遊する足場として連動しており、両者の緊密な連携が不可欠となるでしょう。
+奈落の上に浮かぶ迷路を、天使の道にいるプレイヤーが[慎重に渡っていきます](https://www.youtube.com/live/axlJjQQ_rzU?t=4273)。一方、悪魔の道にいる仲間は広い[平面エリア](https://www.youtube.com/live/NSOuyMjCxPI?t=5227)に立ち、次々と出現するステインを撃破しなければなりません。悪魔側の立つ位置が、天使側では浮遊する足場として連動しており、両者の緊密な連携が不可欠となるでしょう。
 
 全てのパズルを突破した後、二つのチームはついに合流を果たし、そして、ダンジョンボス――禍々しき二つの頭を持つ竜、**ステインキング・エルピス**との激闘が、勇者たちを待ち受けるのです！
 
-[ステインキング・エルピス戦](#embed:https://www.youtube.com/live/axlJjQQ_rzU?si=imMOupLj1UxTJV2C&t=5896)
+[ステインキング・エルピス戦](#embed:https://www.youtube.com/live/axlJjQQ_rzU?t=5896)
 
 ### 報酬
 
-- ["Caesura of Despair"](https://youtu.be/vBNI979XyoE?si=J7NPq-J5GJfAt8iP) – IRySの音楽ディスク
+- ["Caesura of Despair"](https://youtu.be/vBNI979XyoE) – IRySの音楽ディスク
 - [IRySの記憶](https://www.youtube.com/watch?v=5uaWaQg4pnM)
 
 ## 出典

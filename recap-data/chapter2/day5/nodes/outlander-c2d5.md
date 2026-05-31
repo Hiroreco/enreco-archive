@@ -17,4 +17,4 @@ Yet, both the Princess and the Outlander were left questioning: why? Why go to s
 
 And to answer that question, to solidify their resolve and earn his trust, the heroes gave their honest, heartfelt answers.
 
-[The reasons why](#embed:https://www.youtube.com/live/9gL4We5utAk?si=BGrT9i5eJGGAoNcL&t=11841)
+[The reasons why](#embed:https://www.youtube.com/live/9gL4We5utAk?t=11841)

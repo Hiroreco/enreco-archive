@@ -1,9 +1,9 @@
 <!-- title: エリザベス・ローズ・ブラッドフレイム  -->
 <!-- status: 生存 -->
 
-[お前の忠誠はどこにあるのですか、レディ・ブラッドフレイム？ -ネリッサ](https://www.youtube.com/live/sDjysXFWYbI?si=iRRcGIuE0qZjuCFz&t=12889)
+[お前の忠誠はどこにあるのですか、レディ・ブラッドフレイム？ -ネリッサ](https://www.youtube.com/live/sDjysXFWYbI?t=12889)
 
-[“レディ・ブラッドフレイム”になる前のあなたは、一体誰だったの？ -シオリ](https://www.youtube.com/live/uEB2dIe37oo?si=Th7PtivFyiDvoX66&t=24224)
+[“レディ・ブラッドフレイム”になる前のあなたは、一体誰だったの？ -シオリ](https://www.youtube.com/live/uEB2dIe37oo?t=24224)
 
 レディ・ブラッドフレイムにとって、新たな一日が始まった。
 
@@ -13,27 +13,27 @@
 
 それは他でもない、ニャヴェラだった。
 
-過去に確執があったにもかかわらず、[ニャヴェラは迷いなくレディ・ブラッドフレイムへ助けを求めた](https://www.youtube.com/live/7SzxeEiLGFs?si=0xLO-hXg9J93z33U)。しかも、彼女が今でも自分を憎んでいると思い込んだまま。
+過去に確執があったにもかかわらず、[ニャヴェラは迷いなくレディ・ブラッドフレイムへ助けを求めた](https://www.youtube.com/live/7SzxeEiLGFs)。しかも、彼女が今でも自分を憎んでいると思い込んだまま。
 
-しかし[レディ・ブラッドフレイムは、「ネリッサがニャヴェラを憎んでいない以上、自分も憎むつもりはない」と語る](https://www.youtube.com/live/7SzxeEiLGFs?si=VFR8mRBtyvK_smFa&t=697)。
+しかし[レディ・ブラッドフレイムは、「ネリッサがニャヴェラを憎んでいない以上、自分も憎むつもりはない」と語る](https://www.youtube.com/live/7SzxeEiLGFs?t=697)。
 
 その言葉に、ニャヴェラは心底安堵した様子を見せた。
 
 どうやら二人のわだかまりは、少なくとも今は過去のものとなったらしい。
 
-釣りに必要な素材を集めている最中、[レディ・ブラッドフレイムはネリッサからの手紙を見つける](https://www.youtube.com/live/7SzxeEiLGFs?si=UBlEZyS0QwCJaV6S&t=880)。
+釣りに必要な素材を集めている最中、[レディ・ブラッドフレイムはネリッサからの手紙を見つける](https://www.youtube.com/live/7SzxeEiLGFs?t=880)。
 
 そこには、食料を置いておいたこと、そしてネリッサ自身がレディ・ブラッドフレイムの家へ住み着くことにしたと書かれていた。
 
-[最初こそ戸惑いと苛立ちを覚えた彼女だったが、最終的にはそれを受け入れ、「悪くない考えかもしれない」と納得する](https://www.youtube.com/live/7SzxeEiLGFs?si=9SAbimYe-U8BgnLE&t=1027)。
+[最初こそ戸惑いと苛立ちを覚えた彼女だったが、最終的にはそれを受け入れ、「悪くない考えかもしれない」と納得する](https://www.youtube.com/live/7SzxeEiLGFs?t=1027)。
 
 騎士として、彼女は姫であるネリッサを信頼していたからだ。
 
 （詳しくは: [Liz-Nerissa](#edge:liz-nerissa)）
 
-その後も作業を続ける中、[レディ・ブラッドフレイムは妹モココへ、幻の魚“リバー・プリンス”を釣る間の護衛を頼む](https://www.youtube.com/live/7SzxeEiLGFs?si=QODagI4yUJaXtOhb&t=1293)。
+その後も作業を続ける中、[レディ・ブラッドフレイムは妹モココへ、幻の魚“リバー・プリンス”を釣る間の護衛を頼む](https://www.youtube.com/live/7SzxeEiLGFs?t=1293)。
 
-イマーキンドのペット“Moohternal”について会話していた際、[モココは「いっそ殺してあげたほうが優しい」と口にした](https://www.youtube.com/live/7SzxeEiLGFs?si=Ma9H-4UJ5-ACxqj3&t=1575)。
+イマーキンドのペット“Moohternal”について会話していた際、[モココは「いっそ殺してあげたほうが優しい」と口にした](https://www.youtube.com/live/7SzxeEiLGFs?t=1575)。
 
 だがレディ・ブラッドフレイムは、それを「空腹で変なことを言っているだけ」と軽く流す。
 
@@ -41,11 +41,11 @@
 
 イマーキンドはその答えを受け入れ、それ以上深く追及することはなかった。
 
-それでも、レディ・ブラッドフレイム自身は[イマーキンドと一緒にいると落ち着く](https://www.youtube.com/live/7SzxeEiLGFs?si=U8SOEJqPZ_UVY7HU&t=1937)と感じていた。
+それでも、レディ・ブラッドフレイム自身は[イマーキンドと一緒にいると落ち着く](https://www.youtube.com/live/7SzxeEiLGFs?t=1937)と感じていた。
 
 だが――確実に、何かが変わり始めていた。
 
-[イマーキンドがエンチャント装備との交換を持ちかけた時](https://www.youtube.com/live/7SzxeEiLGFs?si=CsOWpoai3CVrv23t&t=1990)、レディ・ブラッドフレイムは法外な代価を要求してしまう。
+[イマーキンドがエンチャント装備との交換を持ちかけた時](https://www.youtube.com/live/7SzxeEiLGFs?t=1990)、レディ・ブラッドフレイムは法外な代価を要求してしまう。
 
 それは、イマーキンドの知る彼女ではなかった。
 
@@ -59,7 +59,7 @@
 
 ……だが、本当に満足しているのは誰なのだろうか。
 
-家へ戻った彼女は、[ネリッサと共に改装された家を見て回る](https://www.youtube.com/live/7SzxeEiLGFs?si=ifFba7qifUmLJUEe&t=3399)。
+家へ戻った彼女は、[ネリッサと共に改装された家を見て回る](https://www.youtube.com/live/7SzxeEiLGFs?t=3399)。
 
 ネリッサが過去の記憶を覚えていてくれたことに、レディ・ブラッドフレイムは嬉しさを感じていた。そしてネリッサもまた、「あなたに関することは今でもほとんど覚えている」と語る。
 
@@ -71,15 +71,15 @@
 
 その喪失は、今なお彼女の心へ重くのしかかっていた。
 
-その後、ネリッサ、ニャヴェラ、モココ、フワワと共に迷宮へ挑んだ一行は、[見事「知識の迷宮」を攻略し、シオリ・ニャヴェラは記憶の一部を取り戻す](https://www.youtube.com/live/7SzxeEiLGFs?si=eFPBf5I80J69EdQH&t=7734)。
+その後、ネリッサ、ニャヴェラ、モココ、フワワと共に迷宮へ挑んだ一行は、[見事「知識の迷宮」を攻略し、シオリ・ニャヴェラは記憶の一部を取り戻す](https://www.youtube.com/live/7SzxeEiLGFs?t=7734)。
 
-迷宮攻略後の課題として、一行は[スターサイトの語り部ハマルから「交渉」について学ぶよう指示される](https://www.youtube.com/live/7SzxeEiLGFs?si=9--G2e7ocbpz8fCx&t=8288)。
+迷宮攻略後の課題として、一行は[スターサイトの語り部ハマルから「交渉」について学ぶよう指示される](https://www.youtube.com/live/7SzxeEiLGFs?t=8288)。
 
 だがレディ・ブラッドフレイムは、ネリッサが提示する条件へほとんど疑問を抱かなかった。
 
 内容がどれほど怪しく見えても、彼女は何の躊躇もなく了承してしまう。
 
-その後、「Secrets of Terminus」のパズルエリアを攻略したレディ・ブラッドフレイムは、[馬鎧を選ぶよう求められる](https://www.youtube.com/live/7SzxeEiLGFs?si=VGVYwo4Lxb-1nPyL&t=10667)。
+その後、「Secrets of Terminus」のパズルエリアを攻略したレディ・ブラッドフレイムは、[馬鎧を選ぶよう求められる](https://www.youtube.com/live/7SzxeEiLGFs?t=10667)。
 
 選択肢は三つ。
 
@@ -95,7 +95,7 @@
 
 そして、ブラッドフレイム家にはさらに新たな住人が加わることになる。
 
-[まるで運命のいたずらのように、レディ・ブラッドフレイムとネリッサは、それぞれ最初のペットとしてパンダを引き当てた](https://www.youtube.com/live/7SzxeEiLGFs?si=ZnEcDwWdGIjpqrcj&t=11874)。
+[まるで運命のいたずらのように、レディ・ブラッドフレイムとネリッサは、それぞれ最初のペットとしてパンダを引き当てた](https://www.youtube.com/live/7SzxeEiLGFs?t=11874)。
 
 レディ・ブラッドフレイムは“Jack”。
 
@@ -103,13 +103,13 @@
 
 愛らしい新入りたちのおかげで、ブラッドフレイム家はさらに賑やかになっていく。
 
-その後、ネリッサのための畑を整え、地下倉庫を整理していた最中、[ニャヴェラから新聞を売り込みたいとの連絡が届く](https://www.youtube.com/live/7SzxeEiLGFs?si=ir7_5-qY646ToejN&t=13830)。
+その後、ネリッサのための畑を整え、地下倉庫を整理していた最中、[ニャヴェラから新聞を売り込みたいとの連絡が届く](https://www.youtube.com/live/7SzxeEiLGFs?t=13830)。
 
 レディ・ブラッドフレイムは、その新聞の信憑性を疑った。
 
 しかしニャヴェラは「本物だ」と言い張り、ほとんど強引に家へ押しかけ、教会建設費のためだと言って、当初より高い値段で新聞を買わせる。
 
-さらに[レディ・ブラッドフレイムは、なぜ新聞で自分を“コヴェンの一員”と書いたのか問い詰めた](https://www.youtube.com/live/7SzxeEiLGFs?si=kfcj9izo9c-kd_97&t=13951)。
+さらに[レディ・ブラッドフレイムは、なぜ新聞で自分を“コヴェンの一員”と書いたのか問い詰めた](https://www.youtube.com/live/7SzxeEiLGFs?t=13951)。
 
 ニャヴェラは答える。
 
@@ -119,7 +119,7 @@
 
 しかし別れた後も、その言葉は彼女の胸に深く残り続けていた。
 
-しばらくして、[ネリッサがニャヴェラを連れて家へ戻って来る](https://www.youtube.com/live/7SzxeEiLGFs?si=Y_3BnJmHvwLa1Fs_&t=14092)。
+しばらくして、[ネリッサがニャヴェラを連れて家へ戻って来る](https://www.youtube.com/live/7SzxeEiLGFs?t=14092)。
 
 ニャヴェラはネリッサにも新聞を売ろうとするが、レディ・ブラッドフレイムは二人の間へ割って入り、「同じ家に住んでいるのだから新聞は共有すればいい」と主張する。
 

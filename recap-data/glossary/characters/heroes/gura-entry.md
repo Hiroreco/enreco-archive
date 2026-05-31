@@ -21,7 +21,7 @@ Gura was joyful and quirky, someone everyone loved to be around thanks to her bu
 
 Gura was among the most excited to embark on this strange adventure. She lit up whenever she discovered new things—new mechanics, fascinating dungeon designs—clearly enamored by the thought and creativity behind it all. She regularly expressed admiration for the creators of these intricate feats.
 
-She was also savage and sassy, delighting in poking fun at others, especially Tam and [Jyon Watson,](https://www.youtube.com/live/PJtapc2_7ok?si=Zjtfn-It4RAxI-V-&t=7423) _especially_ Jyon. Gura seemed to sense that the two had some sort of preexisting bond—not the romantic kind, but the sort where you’d buy a box of lemons just to leave it in front of the other’s door for no reason. She also loved to mess with Gonathon, fully aware that the knight was head over heels for Jyon.
+She was also savage and sassy, delighting in poking fun at others, especially Tam and [Jyon Watson,](https://www.youtube.com/live/PJtapc2_7ok?t=7423) _especially_ Jyon. Gura seemed to sense that the two had some sort of preexisting bond—not the romantic kind, but the sort where you’d buy a box of lemons just to leave it in front of the other’s door for no reason. She also loved to mess with Gonathon, fully aware that the knight was head over heels for Jyon.
 
 Gura was the founder, or at least, the first member, of the “Appointed Point” cult? Association? Something along those lines. She was the first to don the long, red scarlet hat that became the signature of her [guild](#entry:guilds-entry) and wore it with pride, often boasting about its power and the responsibility that came with it. Thanks to her initiative, the Scarlet Wand members became one of the most united groups.
 

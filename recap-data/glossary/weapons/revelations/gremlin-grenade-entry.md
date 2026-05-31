@@ -10,8 +10,8 @@
 
 ## Details
 
-When activated, the gauntlets launch Gonathon forward, allowing him to perform AoE ground pounds followed by explosions, dealing serious damage to anything unlucky enough to be nearby. Much like Raora’s launch ability, it also lets Gonathon reach places most others can’t… which, yes, he shamelessly exploited to grab [dungeon treasure](https://www.youtube.com/live/VgMSugOH5DA?feature=shared&t=6730).
+When activated, the gauntlets launch Gonathon forward, allowing him to perform AoE ground pounds followed by explosions, dealing serious damage to anything unlucky enough to be nearby. Much like Raora’s launch ability, it also lets Gonathon reach places most others can’t… which, yes, he shamelessly exploited to grab [dungeon treasure](https://www.youtube.com/live/VgMSugOH5DA?t=6730).
 
-[Fist of Fury](#embed:https://www.youtube.com/live/y9KKa_k2VTU?feature=shared&t=8095)
+[Fist of Fury](#embed:https://www.youtube.com/live/y9KKa_k2VTU?t=8095)
 
 Ever since Chapter 2, the weapon gained an additional [ranged attack.](#entry:revelations-entry)

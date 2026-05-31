@@ -14,6 +14,6 @@ The Grim Reaper herself—the literal embodiment of Death—naturally wields a s
 
 As for its ability, it’s as straightforward as Calli herself. No magic, no flashy tricks—just a single, powerful, lateral swing that cleaves clean through her target.
 
-[_*Slashes calmly*_](#embed:https://www.youtube.com/live/xE3JQ1R2DdU?si=EKcdRzMaDtl6p37Z&t=5787)
+[_*Slashes calmly*_](#embed:https://www.youtube.com/live/xE3JQ1R2DdU?t=5787)
 
 Starting from Chapter 2, the weapon also gained an additional [ranged attack.](#entry:revelations-entry)

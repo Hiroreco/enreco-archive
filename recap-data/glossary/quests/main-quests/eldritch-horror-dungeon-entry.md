@@ -24,9 +24,9 @@ The objective was to free a trapped spirit by playing a series of “games,” e
 
 There were three main puzzles:
 
-- **Pot Smashing:** Break the five correct [pots](https://www.youtube.com/live/N3v-MJXHQ0w?si=jWPSiUlHzjpY3R3E&t=3275) among a group, using clues to identify them.
-- **House Maze:** Navigate a confusing [maze](https://www.youtube.com/live/N3v-MJXHQ0w?si=7nPVVdHr_PtQeouW&t=3540) filled with deceptive doors to find the exit.
-- **Lilies of the Valley:** Search various chests to collect [flowers](https://www.youtube.com/live/N3v-MJXHQ0w?si=2D9pH-3fNKE1RX3u&t=4573) known as _Lilies of the Valley_.
+- **Pot Smashing:** Break the five correct [pots](https://www.youtube.com/live/N3v-MJXHQ0w?t=3275) among a group, using clues to identify them.
+- **House Maze:** Navigate a confusing [maze](https://www.youtube.com/live/N3v-MJXHQ0w?t=3540) filled with deceptive doors to find the exit.
+- **Lilies of the Valley:** Search various chests to collect [flowers](https://www.youtube.com/live/N3v-MJXHQ0w?t=4573) known as _Lilies of the Valley_.
 
 ### Rewards
 

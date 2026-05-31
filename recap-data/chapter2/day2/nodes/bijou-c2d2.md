@@ -7,7 +7,7 @@ Bijou was among the first to wake up today, ahead of the dungeon’s grand openi
 
 Her hard work didn’t go unnoticed. Her boss, Roa, gave her something to take on her adventures in return: a little Beast Stain hat! [“A friend?! Wait... a friend?”](https://youtu.be/03m4uWAFfQg?t=4938) Somehow, this seemed oddly familiar to Bijou. Thinking about it made her head ache... but hey, it was friend-shaped. Roa said its name was Bob.
 
-Having given a few folks a tour of her new shop, Bijou teamed up with Roa, Mococo, Kiara, and Gordon to take on the dungeon of the day—[Star Site: Elpis](https://www.youtube.com/live/03m4uWAFfQg?si=v8NPjzKF80d-iANM&t=7792). Upon its completion, the group recovered the memories of [IRyS](https://www.youtube.com/live/03m4uWAFfQg?si=dmDDeTDMq-8PzOVB&t=9908).
+Having given a few folks a tour of her new shop, Bijou teamed up with Roa, Mococo, Kiara, and Gordon to take on the dungeon of the day—[Star Site: Elpis](https://www.youtube.com/live/03m4uWAFfQg?t=7792). Upon its completion, the group recovered the memories of [IRyS](https://www.youtube.com/live/03m4uWAFfQg?t=9908).
 
 Apparently, her brother—the hot pink one, or IRyS now—was a goddess. An alcoholic one, at that. Coincidentally, they ran into each other just after Bijou’s group had finished their conquest. And the very next day would be the gem girl's birthday! Naturally, she reminded her brother the moment she got back from the dungeon. And what did she do? [Forget](https://youtu.be/03m4uWAFfQg?t=11179). Some brother.
 

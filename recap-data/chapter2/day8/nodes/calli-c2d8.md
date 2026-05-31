@@ -31,9 +31,9 @@ In the end, Bae bought it for 2000 coins.
 
 ---
 
-Mordan knew that she would miss these moments with everyone, and she needed to cherish them the best she could. Thus, she took a picture with [the chefs](https://www.youtube.com/live/Ch4qLZhARtY?si=6XoSGMMzfTlRSZ0V&t=6193) and another with the rest of [the wolf pack!](https://www.youtube.com/live/Ch4qLZhARtY?si=uNJIZEhlu-vuZzXE&t=6784)
+Mordan knew that she would miss these moments with everyone, and she needed to cherish them the best she could. Thus, she took a picture with [the chefs](https://www.youtube.com/live/Ch4qLZhARtY?t=6193) and another with the rest of [the wolf pack!](https://www.youtube.com/live/Ch4qLZhARtY?t=6784)
 
-[Last diary entry!](#embed:https://www.youtube.com/live/Ch4qLZhARtY?si=uNJIZEhlu-vuZzXE&t=7627)
+[Last diary entry!](#embed:https://www.youtube.com/live/Ch4qLZhARtY?t=7627)
 
 As fireworks lit up the twilight sky, the banquet had begun—but sadly, even laughter couldn't silence the fate that was fast approaching.
 

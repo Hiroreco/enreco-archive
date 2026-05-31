@@ -5,17 +5,17 @@
 
 愛しの相棒WOOFにご飯をあげると、上機嫌で一日をスタートする。なにせまたしても売り上げが出たのだ！ ただし、今必要な新しい重要鉱石はあまり手元になかった……となれば、やることは決まっている！ 探索して、チャームを作って、みんなと話しながら手に入れられるものを探す時間だ！
 
-人々の店を見て回る中で、タム・ガンドルが昨日の[商売のアドバイスを聞き入れていなかった](https://www.youtube.com/live/K3N6S6rIgS0?si=anhllAV_aKXh0rJy&t=1231)ことに少しがっかりする。あのお店じゃ全然ダメだし……それに、最近はイルミネーションのポスターがどこにでも貼られているのにも少しうんざりしていた。
+人々の店を見て回る中で、タム・ガンドルが昨日の[商売のアドバイスを聞き入れていなかった](https://www.youtube.com/live/K3N6S6rIgS0?t=1231)ことに少しがっかりする。あのお店じゃ全然ダメだし……それに、最近はイルミネーションのポスターがどこにでも貼られているのにも少しうんざりしていた。
 
 だが、そんな気分も長くは続かない。気づけばお気に入りの場所のひとつへ戻っていた。そう、またしてもカラーキャノンの時間だ。そして、みんなも知っているだろう――賭けるなら赤！
 
 最初の二回は残念な結果に終わったが、ほどなくしてモココにはおなじみの歓喜の瞬間が訪れる。
 
-[ガンバリィィィィィィ！！](#embed:https://www.youtube.com/live/K3N6S6rIgS0?si=EKJypjSEVZGT3QkJ&t=2301)
+[ガンバリィィィィィィ！！](#embed:https://www.youtube.com/live/K3N6S6rIgS0?t=2301)
 
 その後はロアの商売を手伝い、愛する姉のレディ・ブラッドフレイムへ連絡を取る。ちょうど馬に轢かれた直後だった。
 
-[またしても。](https://www.youtube.com/live/K3N6S6rIgS0?si=S--IUO1J1n0GPamn&t=2574)
+[またしても。](https://www.youtube.com/live/K3N6S6rIgS0?t=2574)
 
 再会した二人はこれから挑むダンジョンについて話し合う。そこでモココは、自分が少し不安を感じていることを打ち明けた。特にフワワと一緒に行動することについて。
 
@@ -31,7 +31,7 @@
 
 モココには、この件でなぜみんながこれほど大騒ぎしているのか理解できなかった。
 
-[そんなにすごい人だったの？](#embed:https://www.youtube.com/live/K3N6S6rIgS0?si=j-zmKYWYTe5zBzbB&t=3056)
+[そんなにすごい人だったの？](#embed:https://www.youtube.com/live/K3N6S6rIgS0?t=3056)
 
 彼女とはほとんど話したことがない。ただ亡くなったという話を聞いただけだ。
 
@@ -73,7 +73,7 @@
 
 フワワ。
 
-[モココは「二面性の迷宮」へと足を踏み入れた。](#embed:https://www.youtube.com/live/K3N6S6rIgS0?si=-cs3526AN6jfBFJc&t=6392)
+[モココは「二面性の迷宮」へと足を踏み入れた。](#embed:https://www.youtube.com/live/K3N6S6rIgS0?t=6392)
 
 ...
 
@@ -91,7 +91,7 @@
 
 痛い。
 
-[あまりにも痛かった。](https://www.youtube.com/live/K3N6S6rIgS0?si=Cdj_1r1zngdJVHfX&t=7478)
+[あまりにも痛かった。](https://www.youtube.com/live/K3N6S6rIgS0?t=7478)
 
 そして奥へ進むほど、その痛みは増していく。
 
@@ -103,7 +103,7 @@
 
 迷宮の最奥で待っていたのは、向こう側の光景。
 
-[花々のための家。](https://www.youtube.com/live/K3N6S6rIgS0?si=Au_nFbVke6oAzvDU&t=9614)
+[花々のための家。](https://www.youtube.com/live/K3N6S6rIgS0?t=9614)
 
 そこは――穏やかだった。
 
@@ -123,7 +123,7 @@
 
 ...
 
-[リコレクション。](#embed:https://www.youtube.com/live/K3N6S6rIgS0?si=mn3Sq1_IAg4ZA5dN&t=9741)
+[リコレクション。](#embed:https://www.youtube.com/live/K3N6S6rIgS0?t=9741)
 
 ...
 

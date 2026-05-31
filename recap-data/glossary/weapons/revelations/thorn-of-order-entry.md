@@ -14,6 +14,6 @@ If there’s anyone most deserving of a sword, it’s Elizabeth. A true knight t
 
 Upon activation, Thorn unleashes a sweeping lateral strike followed by a powerful explosion. It’s a simple move—but one that speaks volumes through sheer force.
 
-[For honour!](#embed:https://www.youtube.com/live/oVguNTPnDww?si=XWIrWAhx_Nv0aR13&t=1433)
+[For honour!](#embed:https://www.youtube.com/live/oVguNTPnDww?t=1433)
 
 Starting in Chapter 2, the blade also gained an additional [ranged attack.](#entry:revelations-entry)

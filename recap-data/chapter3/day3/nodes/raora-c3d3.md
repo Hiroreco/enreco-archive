@@ -23,7 +23,7 @@ Soon after, Roa, NinoIna, Gonathon, and Bijou enter the enigma known as the [Lab
 
 But the deeper Roa wandered into the day, the louder the voices became.
 
-A disturbing [message](https://www.youtube.com/live/MGo9h3BNyj0?si=8cBYe4AldnmslPaq&t=9585) from the voices inside her head claimed that Shakira’s death occurred because she escaped the simulations, and that Roa now had to uncover the truth if she ever wished to see her again. Rather than reject the message, Roa acknowledged it calmly before explaining the exhausting burden she carried every day, pretending that everything was normal around others. For the sake of her own sanity, she wore a mask of conformity.
+A disturbing [message](https://www.youtube.com/live/MGo9h3BNyj0?t=9585) from the voices inside her head claimed that Shakira’s death occurred because she escaped the simulations, and that Roa now had to uncover the truth if she ever wished to see her again. Rather than reject the message, Roa acknowledged it calmly before explaining the exhausting burden she carried every day, pretending that everything was normal around others. For the sake of her own sanity, she wore a mask of conformity.
 
 By afternoon, the church ceremony finally beckoned, prompting Roa to hurry toward the [event](https://www.youtube.com/watch?v=MGo9h3BNyj0&t=10885).
 

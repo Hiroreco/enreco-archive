@@ -10,4 +10,4 @@
 ビジュー姫は、再び自分の騎士になってほしいと願うように尋ねます。セシリアは、真剣な眼差しでこう宣言しました――
 「分かってるよ。どれだけ時が流れても、私はいつだってあなたの騎士になる。（……払ってくれるならね）」
 
-[正しい値段の騎士](#embed:https://www.youtube.com/live/cyLsX20esBE?si=SrHdLjspnMEAXTDG&t=7344)
+[正しい値段の騎士](#embed:https://www.youtube.com/live/cyLsX20esBE?t=7344)
