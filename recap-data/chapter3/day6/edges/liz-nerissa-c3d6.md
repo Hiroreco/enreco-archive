@@ -19,7 +19,7 @@ It was a demanding order, accepting no room for any other answer than to say 'ye
 
 Falling to one knee, the knight promptly responded with 'okay.'
 
-A command was given and it was a command to be followed.
+A command was given, and it was a command to be followed.
 
 ---
 
@@ -29,9 +29,9 @@ How could the fair maiden think she was cursed? She was beautiful. She could do 
 
 The raven-haired woman was a _hero_ for god's sake!
 
-Then the oddest command was provided. Lady Bloodflame was to not fight Nerissa under any circumstances.
+Then the oddest command was provided. Lady Bloodflame was not to fight Nerissa under any circumstances.
 
-Tilting her head, the knight agreed she would not do so. For why would she need to harm her to begin with?
+Tilting her head, the knight agreed she would not do so. For what reason would she need to harm her to begin with?
 
 ---
 
@@ -80,7 +80,7 @@ If their lives were a game, they had probably played through all the routes imag
 
 Where were they at this point? Honestly, it was still complicated. But one thing was for certain: these two depended on one another, as allies, as friends, as ~~lovers~~ roommates.
 
-And today, as they confront The Outsider, was no different.
+And today, as they confronted The Outsider, it was no different.
 
 Nerissa walked a few steps ahead of Elizabeth, when suddenly the knight stopped to grab her hand and called:
 

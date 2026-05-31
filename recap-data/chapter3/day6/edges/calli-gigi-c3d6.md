@@ -1,7 +1,7 @@
 <!-- title: Wolf Pack Strong Together -->
 <!-- relationship: Wolf Pack -->
 
-Wolf found wolf at the break of dawn. Outside the library, [Mordon crossed paths with Gonathon](https://www.youtube.com/watch?v=0erNTlRV7-c&t=396s), which surprisingly enough led to one of the first real conversations between the two in all of Chapter 3. Both had many things to share.
+Wolf found wolf at the break of dawn. Outside the library, [Mordon crossed paths with Gonathon](https://www.youtube.com/watch?v=0erNTlRV7-c&t=396s), which, surprisingly enough, led to one of the first real conversations between the two in all of Chapter 3. Both had many things to share.
 
 Wolf and wolf think of Shakira. The missing body of Shakira weighed on both their minds. Mordon shared that she had spotted Sister Shiori with the body, while Gonathon shared that he had been haunted by it just the day prior. Even stranger, both wolves noted similar lapses in memory surrounding the Church. Mordon added that even her pet Shakira (the chicken) had reacted repulsively to the place. Unfortunately, neither wolf spoke chicken, so what Shakira (the chicken) truly said was up for interpretation. Together, both made haste for Shakira's grave to meet with Lady Bloodflame.
 
