@@ -3,7 +3,7 @@
 
 With precious little time left before needing to complete the day's dungeon, Gonathon turned to Nerissa Juliet in desperation, asking for her help with making ten Savory Fish Soups. Surprisingly, she obliged without hesitation. Perhaps something had changed in her demeanor after completing the Labyrinth of Song earlier in the day?
 
-As Gonathon and Tam worked through the arduous tasks set by Star Speaker Maaz, Nerissa Juliet joined them at the kingdom's fountain in support. As doubt crept in over the need to struggle (or persevere) through such menial work, conversation among the three drifted toward heavier topics: whether a hero like Gonathon was simply meant to suffer gh whatever was asked of him.
+As Gonathon and Tam worked through the arduous tasks set by Star Speaker Maaz, Nerissa Juliet joined them at the kingdom's fountain in support. As doubt crept in over the need to struggle (or persevere) through such menial work, conversation among the three drifted toward heavier topics: whether a hero like Gonathon was simply meant to suffer whatever was asked of him.
 
 Having witnessed this firsthand several times before, Nerissa Juliet was blunt, telling him to have some [self-respect](https://www.youtube.com/watch?v=mss5t4szFko&t=5660s). Being good didn't mean he had to let others trample over him, the Star Speakers and Sightsee-ers included. For a knight who had, unbeknownst to him, wrestled with this very issue across the Chapters, it was a remark that struck at something deeper.
 

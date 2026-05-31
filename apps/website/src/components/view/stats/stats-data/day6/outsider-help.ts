@@ -25,7 +25,7 @@ export const outsiderHelpChoice: Choice = {
                 "ina",
                 "kronii",
                 "bae",
-                "ceci",
+                "cecilia",
                 "gigi",
                 "raora",
                 "liz",

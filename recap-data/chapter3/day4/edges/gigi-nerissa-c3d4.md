@@ -1,20 +1,22 @@
-<!-- title: Allies For One Reason Only -->
+<!-- title: Mirror Rivals -->
 <!-- relationship: It's Complicated -->
 
-The day began with preparation for the dungeon ahead, as Nerissa Juliet and Gonathon discussed the addition of Bijou the Stained to their party. The knight would not be entering the Labyrinth of Duality alone with the witch after all.
+With precious little time left before needing to complete the day's dungeon, Gonathon turned to Nerissa Juliet in desperation, asking for her help with making ten Savory Fish Soups. Surprisingly, she obliged without hesitation. Perhaps something had changed in her demeanor after completing the Labyrinth of Song earlier in the day?
 
-[You really are so kind](#embed:https://www.youtube.com/watch?v=w2BCfGaek4g&t=4558s)
+As Gonathon and Tam worked through the arduous tasks set by Star Speaker Maaz, Nerissa Juliet joined them at the kingdom's fountain in support. As doubt crept in over the need to struggle (or persevere) through such menial work, conversation among the three drifted toward heavier topics: whether a hero like Gonathon was simply meant to suffer through whatever was asked of him.
 
-After final preparations, the three descended together into the Labyrinth of Duality. Despite all the strange and tangled events that had led to this moment, Gonathon, Nerissa Juliet, and Bijou worked surprisingly well together, eventually emerging from the dungeon in successful completion. The party split ways, though not before Gonathon left with an even warmer impression of Nerissa Juliet.
+Having witnessed this firsthand several times before, Nerissa Juliet was blunt, telling him to have some [self-respect](https://www.youtube.com/watch?v=mss5t4szFko&t=5660s). Being good didn't mean he had to let others trample over him, the Star Speakers and Sightsee-ers included. For a knight who had, unbeknownst to him, wrestled with this very issue across the Chapters, it was a remark that struck at something deeper.
 
-The day took an unexpected turn when Gonathon and Tam, to their surprise, spotted Nerissa and Bijou ascending from the basement of the Church. The ensuing chaos kept the knight conveniently occupied and away from the secret stirring within the holy grounds.
+[What are friends for?](#embed:https://www.youtube.com/watch?v=mss5t4szFko&t=5871s)
 
-[Getting the Queen's Stain hat off as allies](#embed:https://www.youtube.com/watch?v=w2BCfGaek4g&t=11578s)
+Later, following his completion of the Labyrinth of Song, Gonathon met with Nerissa Juliet and reflected warmly on Nerissa Ravencroft, a familiar yet unfamiliar enigma. Having witnessed her [save a child](https://www.youtube.com/watch?v=mss5t4szFko&t=8817s) in the dungeon's memories, quite contrary to events between them a day prior, he could only conclude that somewhere, someway, there was still good in the witch. Indebted to her kindness, Gonathon accepted her invitation to take on the following day's dungeon, the Labyrinth of Duality, with the two of them as mirrors to one another.
 
-Towards the end of the day, Gonathon sought Nerissa Juliet out for assistance with a hunt quest, intending to keep her distracted from Tam and Immerkind, who were quietly investigating the Church and the "Curse of Advent".
+Curious about this rivalry, he challenged Nerissa Juliet to a horse race, coincidentally overlapping with the rivalry requirements for his next main quest. Gonathon, narrowly taking the win, attributed his victory entirely to "latency". Both reaffirmed their intent to tackle tomorrow's dungeon alone together before heading their separate ways.
 
-[Not forty, but forty-thousand coins?!](#embed:https://www.youtube.com/watch?v=w2BCfGaek4g&t=14379s)
+Yet it wasn't long before the two crossed paths again before the day's end, and where things took quite a chaotic turn. Nerissa Juliet's accusations that Gonathon and Tam had peeked on Sister Shiori in the nude, backed swiftly by Lady Bloodflame, pulled the quartet into a tense spiral of deflections.
 
-As Gonathon and Nerissa Juliet hunted together, both noticed how scarce the Stain appeared. So scarce that they even inquired with the gods of the world about it, recalling similar instances of Stain absence in days prior. While waiting, they found themselves next to a gravestone, one that Gonathon noted as "The Last Griffin", a remnant of a Libestal long past. The pair eventually parted ways, and Gonathon's distractions, it seemed, had been a success.
+As Gonathon protested his innocence, Nerissa offered a rather [direct solution](https://www.youtube.com/watch?v=mss5t4szFko&t=10761s) to at least one of his concerns, proposing to show herself to him in the nude. This, of course, sent him fleeing immediately, desperate to avoid any such sight.
 
-While their relationship looks friendly on the outside, it seems now with today's developments that both sides have a different internal outlook on the other. Gonathon believes Nerissa Juliet and the rest of Advent to be cursed by some unknown evil. Nerissa Juliet, on the other hand, wishes to see [Gonathon's downfall](https://www.youtube.com/watch?v=4anxJRoJo4s&t=19316s).
+[Mortal Enemies](#embed:https://www.youtube.com/watch?v=mss5t4szFko&t=11224s)
+
+When the dust finally settled, the relationship between Gonathon and Nerissa remained as unresolved as ever. Friends, rivals, allies, or mortal enemies? Perhaps the following day's dungeon would provide some clarity, though despite their earlier conviction to face it alone together, the day ended with the possibility that all four members in today's kerfuffle would enter together.
