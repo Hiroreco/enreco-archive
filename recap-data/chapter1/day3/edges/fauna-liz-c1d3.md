@@ -13,7 +13,7 @@ Fauna claimed that her efforts, including running FaunaMart, were all for the li
 
 Perhaps there was some truth to Fauna's words, but for now, Elizabeth saw her as a witch—a cunning and greedy one—whose true motives seemed firmly rooted in the pursuit of profit. Only time would reveal whether Fauna's actions were as selfless as she claimed.
 
-[She's just standing there...](#embed:https://www.youtube.com/live/oVguNTPnDww?feature=shared&t=3589)
+[She's just standing there...](#embed:https://www.youtube.com/live/oVguNTPnDww?t=3589)
 
 ## Fanart
 

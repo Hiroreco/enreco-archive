@@ -18,7 +18,7 @@ Raora was first a (fake) queen married to another (fake) queen, then a jewel sto
 **Name:** Raora Panthera, Mario
 **Guild:** Amber Coin
 
-Raora’s journey began with a memorable interaction with [Tam Gandr](#entry:kronii-entry), the self-proclaimed queen of the kingdom—whose name Raora could never quite pronounce. That exchange marked the beginning of what would become a defining trait of Raora’s character: she believed _she_ was the rightful ruler of the kingdom, not Tam, thus sparking a playful [rivalry.](https://www.youtube.com/live/8ybUOw9NhMc?feature=shared&t=13146)
+Raora’s journey began with a memorable interaction with [Tam Gandr](#entry:kronii-entry), the self-proclaimed queen of the kingdom—whose name Raora could never quite pronounce. That exchange marked the beginning of what would become a defining trait of Raora’s character: she believed _she_ was the rightful ruler of the kingdom, not Tam, thus sparking a playful [rivalry.](https://www.youtube.com/live/8ybUOw9NhMc?t=13146)
 
 The difference between the two queens? Raora was resolute and unwavering in her desire to become queen—so much so that she even built a castle, complete with designated rooms for each of her guildmates, to prove her conviction.
 
@@ -42,7 +42,7 @@ The pink cat’s second journey began with a new name, Roa Pandora, and no memor
 
 With the help of her diligent [employees](https://www.youtube.com/live/i54lsw-XjDA?t=692) and her own tireless dedication, Roa managed to bring her vision to life early in the journey.
 
-This time around, her web of relationships became even more tangled. Unlike in the first chapter, Roa actively involved herself in others’ affairs—sometimes _literal_ affairs. She became the third rose to bloom between Tam and the Hot Pink One, ultimately contributing to the collapse of their relationship. Then, her attention shifted to a certain red knight, [Elizabeth.](https://www.youtube.com/live/m2OG5auudrQ?si=8Q0YfMORv-AQL_qj&t=11014)
+This time around, her web of relationships became even more tangled. Unlike in the first chapter, Roa actively involved herself in others’ affairs—sometimes _literal_ affairs. She became the third rose to bloom between Tam and the Hot Pink One, ultimately contributing to the collapse of their relationship. Then, her attention shifted to a certain red knight, [Elizabeth.](https://www.youtube.com/live/m2OG5auudrQ?t=11014)
 
 Despite her efforts, Elizabeth’s heart already belonged to another. Even so, a happy ending still awaited Roa: she eventually found love and married a certain cat-loving maiden, Shakira—ending her second journey on a high note.
 

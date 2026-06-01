@@ -39,4 +39,4 @@
 
 ……だが、シオリは本当に何も覚えていなかったのだろうか？
 
-[この人のこと好きなの？](#embed:https://www.youtube.com/live/vRVwJrdNzGk?si=VAQq5PgF9qr9SyZi&t=2442)
+[この人のこと好きなの？](#embed:https://www.youtube.com/live/vRVwJrdNzGk?t=2442)

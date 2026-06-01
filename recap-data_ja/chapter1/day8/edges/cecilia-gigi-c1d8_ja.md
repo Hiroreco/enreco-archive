@@ -5,10 +5,10 @@
 
 それなのに、なぜかこの二人にだけ、奇妙な現象が起こり始めたのだ。
 
-[また起こったのだ](#embed:https://www.youtube.com/live/4co7VDSYTqU?feature=shared&t=7174)
+[また起こったのだ](#embed:https://www.youtube.com/live/4co7VDSYTqU?t=7174)
 
 そして最終日、ステインキングとの決戦を目前に控えたわずか数分前。二人の頭の中に、再び暗号めいた声が同時に響き渡る。
-[同時に](https://www.youtube.com/live/WvRIdaH107U?feature=shared&t=10298):
+[同時に](https://www.youtube.com/live/WvRIdaH107U?t=10298):
 
 > 忘れてはならない…
 >
@@ -22,8 +22,8 @@
 決戦の時は刻一刻と迫る。二人は戦いを前に、それぞれ独自に推理を巡らせ、この謎の手がかりを解こうと必死だった。
 「四つの色」とは、王国の四つのギルドを指しているのではないか？ そして、その答えはそれぞれのギルドに隠されているのではないか――二人はそう考えた。
 
-急ぎ行動に移したセシリアは、[スカーレットワンドのギルド](https://www.youtube.com/live/4co7VDSYTqU?feature=shared&t=7362)へ。
-一方の[ゴナソン](https://www.youtube.com/live/WvRIdaH107U?feature=shared&t=10343)は、セルリアンカップへと向かう。
+急ぎ行動に移したセシリアは、[スカーレットワンドのギルド](https://www.youtube.com/live/4co7VDSYTqU?t=7362)へ。
+一方の[ゴナソン](https://www.youtube.com/live/WvRIdaH107U?t=10343)は、セルリアンカップへと向かう。
 そして、二人の予想は的中する。
 
 それぞれのギルドの拠点に隠されていたチェストの中には、三つのダイヤモンドと一冊の本が――。

@@ -21,17 +21,17 @@ Reuniting with his queen, Gonathon felt it necessary to show her the site of Shi
 
 Walking around in a daze, the two eventually met up with Nerissa and Lady Bloodflame once more. The two rebels challenged the Shining Stars to a [sparring match.](https://www.youtube.com/watch?v=mss5t4szFko&t=9820s) Tam and her knight easily emerged victorious. However, the malignant pair were not quite done with Gonathon just yet, as Lady Bloodflame swiftly re-emerged, now accusing Gonathon and Tam of having peeked in on an undressed Shiori. With no memory of what occurred in the church's underhalls, Gonathon protested strongly, stating he had never seen an undressed woman in his life.
 
-[You've never seen...your Pearl's pearls?](#embed:https://www.youtube.com/live/mss5t4szFko?si=2GCAnDajg-RWwLYE&t=10705)
+[You've never seen...your Pearl's pearls?](#embed:https://www.youtube.com/live/mss5t4szFko?t=10705)
 
 Gonathon's Pearl...the one he truly loved, one who he had wrenched from the abyss of amnesia and who just as easily vanished in an instant. Hearing the mention of her sent the knight into a spiral of despair. First his Pearl, then Shiori, and now Tam, just how many people would he lose before the Fates were satisfied?
 
 [A knight's crash out](#embed:https://www.youtube.com/watch?v=mss5t4szFko&t=10452s)
 
-Begging Tam to remove the stain [afflicting](https://www.youtube.com/live/mss5t4szFko?si=Kgcqjj6OOeAVnFH-&t=11354) her, the sudden support of Bloodflame and Nerissa caused Tam's senses to spark back into action. Drawing Gonathon aside, she raised the question: could the two truly be trusted?
+Begging Tam to remove the stain [afflicting](https://www.youtube.com/live/mss5t4szFko?t=11354) her, the sudden support of Bloodflame and Nerissa caused Tam's senses to spark back into action. Drawing Gonathon aside, she raised the question: could the two truly be trusted?
 
 From here, Tam roped Gonathon into attempting to [spy](https://www.youtube.com/watch?v=mss5t4szFko&t=12225s) on Shiori, but the now alert witch stonewalled all attempts to access the church basement. Admitting defeat, Tam and Gonathon shared a tender moment, with Gonathon once more determined to save her, no matter the cost.
 
-[Day 4's Journal](#embed:https://www.youtube.com/live/mss5t4szFko?si=KNQp730NMk22wPvl&t=13250)
+[Day 4's Journal](#embed:https://www.youtube.com/live/mss5t4szFko?t=13250)
 
 ## Fanart
 

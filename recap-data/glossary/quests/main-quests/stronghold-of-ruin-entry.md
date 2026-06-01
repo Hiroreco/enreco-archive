@@ -22,15 +22,15 @@ Upon entering, the party received a checkpoint system and five shared lives, set
 
 **First Challenge**
 
-The dungeon began with a gauntlet of [stain-filled arenas](https://www.youtube.com/live/gVAtGMLBJos?si=Yz9FvKwuZtv4e-ZS&t=1423). Each arena required the party to defeat all spawned stains before the gates would open and allow them to move forward. The fights escalated in intensity as they progressed.
+The dungeon began with a gauntlet of [stain-filled arenas](https://www.youtube.com/live/gVAtGMLBJos?t=1423). Each arena required the party to defeat all spawned stains before the gates would open and allow them to move forward. The fights escalated in intensity as they progressed.
 
 **Second Challenge**
 
 Next, the party encountered artifacts represented as black roses. To advance, they had to destroy these roses, but first, the heroes needed to solve puzzles:
 
-- One puzzle involved a series of [math problems](https://www.youtube.com/live/EKjcWfEGsB0?si=kbaxo2QGrPfrE5La&t=2999).
-- Another required solving a sequence [memory lock](https://www.youtube.com/live/Icdii90_vSA?si=5xbkuHBq09Pawbcj&t=16232).
-- The final puzzle was a pair [matching lock](https://www.youtube.com/live/Lp7GyRVbz1c?si=eZeTfPLnxXrZZVP7&t=2892).
+- One puzzle involved a series of [math problems](https://www.youtube.com/live/EKjcWfEGsB0?t=2999).
+- Another required solving a sequence [memory lock](https://www.youtube.com/live/Icdii90_vSA?t=16232).
+- The final puzzle was a pair [matching lock](https://www.youtube.com/live/Lp7GyRVbz1c?t=2892).
 
 All the while, stains continued to spawn endlessly, making puzzle-solving a frantic and dangerous task until all the black roses were destroyed.
 
@@ -47,7 +47,7 @@ The final room housed **Stain King Proto**, who guarded a crystal linked to some
 
 The arena was surrounded by four more black roses, one in each corner, each protected by the same types of puzzles encountered earlier (math, memory, and matching). Only after the roses were destroyed could the chest containing the music disc be accessed post-battle.
 
-[Stain King Proto Fight](#embed:https://www.youtube.com/live/gVAtGMLBJos?si=ySvBC15UpSUDHK4E&t=2203)
+[Stain King Proto Fight](#embed:https://www.youtube.com/live/gVAtGMLBJos?t=2203)
 
 ### Rewards
 

@@ -9,4 +9,4 @@ Bijou is seeking to make amends for the wrongs of her past, but Cecilia stops he
 
 Princess Bijou asks if Cecilia will be her knight once more. Cecilia proclaims solemnly, "You know what? No matter how much time passes, I will always be your knight (if you pay me)."
 
-[Knight for the right price](#embed:https://www.youtube.com/live/cyLsX20esBE?si=SrHdLjspnMEAXTDG&t=7344)
+[Knight for the right price](#embed:https://www.youtube.com/live/cyLsX20esBE?t=7344)

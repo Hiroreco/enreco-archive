@@ -14,6 +14,6 @@ A radiant gem for the Princess of Jewels—it’s only fitting. And while its na
 
 It might not be as magical as the name implies, but it’s brutally effective. After all, getting pelted in the face with diamond-hard rocks at Mach speed? That’ll ruin anyone’s day.
 
-[More Power!](#embed:https://www.youtube.com/live/Fr6yMByDTIs?feature=shared&t=8524)
+[More Power!](#embed:https://www.youtube.com/live/Fr6yMByDTIs?t=8524)
 
 Starting from Chapter 2, the weapon also gained an additional [ranged attack.](#entry:revelations-entry)

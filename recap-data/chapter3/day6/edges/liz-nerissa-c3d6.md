@@ -5,7 +5,7 @@
 
 Jealousy—a complex emotion that typically arises when a valued relationship is perceived to be threatened by a rival.
 
-Lady Bloodflame complimented the Fia hat Immerkind was wearing. It was [cute](https://www.youtube.com/live/6HUbJshXMAI?si=e5-gd5D5-dYNecqs).
+Lady Bloodflame complimented the Fia hat Immerkind was wearing. It was [cute](https://www.youtube.com/live/6HUbJshXMAI).
 
 Nerissa Juliet was not so inclined to believe so. Never before had she sounded so sharp in her tone.
 
@@ -13,7 +13,7 @@ Low tones marked the voice of jealousy as the maiden expected Lady Bloodflame to
 
 A hat that the Princess had given her.
 
-["Don't call other people cute."](#embed:https://www.youtube.com/live/6HUbJshXMAI?si=b73rcQyajINkz-VQ)
+["Don't call other people cute."](#embed:https://www.youtube.com/live/6HUbJshXMAI)
 
 It was a demanding order, accepting no room for any other answer than to say 'yes.'
 

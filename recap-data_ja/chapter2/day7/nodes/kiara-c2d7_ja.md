@@ -7,14 +7,14 @@ _教えてちょうだい！_
 
 一方、リズのお姉様的存在であるシャキーラは、思わぬサプライズを受けることになった。リズはシャキーラを、バラの香りで満たされた部屋へと誘ったのだ。もちろん、_リズにとっては純粋な友情の証だった。_
 
-[ドイツ語でバラ31本を数え上げた！](#embed:https://www.youtube.com/live/ngfdLbrpeM4?si=WEPtJx1R5jje3zOQ&t=5400)
+[ドイツ語でバラ31本を数え上げた！](#embed:https://www.youtube.com/live/ngfdLbrpeM4?t=5400)
 
 このバラが意味するものは何だろう？愛？それとも結婚？
 だが、それはシャキーラとリズの関係を示すものではなかった。むしろ、シャキーラ自身も予想していなかったような、彼女とある女性の間に芽生えつつある特別な感情を暗示していたのだ。まだ二人の間に深い交流はないものの、シャキーラはその女性に心惹かれていた。その理由はシンプル。彼女が「猫」だったから――。
 
-そうして、シャキーラの未来は希望に満ちていた。彼女はフワワの小さなカフェを手伝い、[フワワさんから大きな感謝](https://www.youtube.com/live/ngfdLbrpeM4?si=vEe1MwWo-G92o61N&t=7708)を受け取った。今回は、仲間たちとのドタバタ劇にもしっかり参加し、世界を[救う手助け](https://www.youtube.com/live/ngfdLbrpeM4?si=k8ITOhctAgqchF4l&t=9334)も果たした。前回の冒険と比べても、驚くほど順調な滑り出しだったと言えるだろう。
+そうして、シャキーラの未来は希望に満ちていた。彼女はフワワの小さなカフェを手伝い、[フワワさんから大きな感謝](https://www.youtube.com/live/ngfdLbrpeM4?t=7708)を受け取った。今回は、仲間たちとのドタバタ劇にもしっかり参加し、世界を[救う手助け](https://www.youtube.com/live/ngfdLbrpeM4?t=9334)も果たした。前回の冒険と比べても、驚くほど順調な滑り出しだったと言えるだろう。
 
-[賑やかな「おならパーティー」](#embed:https://www.youtube.com/live/ngfdLbrpeM4?si=kvQVbcOUu1hlwAx6&t=12015)
+[賑やかな「おならパーティー」](#embed:https://www.youtube.com/live/ngfdLbrpeM4?t=12015)
 
 世界の命運が決した今、シャキーラは自分自身の未来を選ぶ時を迎えていた。あのバラに込められた想いも、そして賑やかな「おならパーティー」も…。もし彼女の心に恋が芽生えるとしたら、それはまさにこの時だった。
 
@@ -22,7 +22,7 @@ _教えてちょうだい！_
 
 その後、最終日を迎える直前に、彼女はこの波乱に満ちた一日を日記に書き綴った。
 
-[Liebes Tagebuch!](#embed:https://www.youtube.com/live/ngfdLbrpeM4?si=SDhiMcfQ4LxQdVG1&t=15145)
+[Liebes Tagebuch!](#embed:https://www.youtube.com/live/ngfdLbrpeM4?t=15145)
 
 ## ミーム
 

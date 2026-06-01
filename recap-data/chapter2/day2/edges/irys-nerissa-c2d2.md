@@ -7,4 +7,4 @@ If the world won’t buy from them individually, maybe it would listen to a unit
 
 And so, the seeds of a chef union were sown—an alliance forged in flour, tears, and fiscal despair. A movement not just to make money, but to prove that their food _deserved_ to be eaten.
 
-[We have to cook](#embed:https://www.youtube.com/live/axlJjQQ_rzU?si=HHjSbRqzfwuoRibP&t=1842)
+[We have to cook](#embed:https://www.youtube.com/live/axlJjQQ_rzU?t=1842)

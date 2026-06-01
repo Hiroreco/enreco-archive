@@ -24,15 +24,15 @@
 
 ### パズル
 
-- **ハノイの塔:** 大小さまざまな[輪](https://www.youtube.com/live/bOIlLaFiiE4?si=9T-46rQ15ghlkjRc&t=5810)を大きい順に重ね、すべて3本目の棒へと移し替える、思考力が試されるパズルです。
+- **ハノイの塔:** 大小さまざまな[輪](https://www.youtube.com/live/bOIlLaFiiE4?t=5810)を大きい順に重ね、すべて3本目の棒へと移し替える、思考力が試されるパズルです。
 
-- **橋のパズル:** [色分けされた](https://www.youtube.com/live/bOIlLaFiiE4?si=RRQ8rSSECOVsw8e_&t=6098)橋を巧妙に操作し、レーザートラップや足元の落下を避けながら、慎重に対岸を目指しましょう。
+- **橋のパズル:** [色分けされた](https://www.youtube.com/live/bOIlLaFiiE4?t=6098)橋を巧妙に操作し、レーザートラップや足元の落下を避けながら、慎重に対岸を目指しましょう。
 
-- **守護者誘導パズル:** マネキンのような[守護者](https://www.youtube.com/live/bOIlLaFiiE4?si=-QX63tFq7Cp2tcxT&t=6384)を、プリズマリンの道に沿って高台へと導きます。守護者を地面に埋め込まれた5つの金ブロックすべての上に通過させることができれば、ダンジョンに隠された宝が解放されます。
+- **守護者誘導パズル:** マネキンのような[守護者](https://www.youtube.com/live/bOIlLaFiiE4?t=6384)を、プリズマリンの道に沿って高台へと導きます。守護者を地面に埋め込まれた5つの金ブロックすべての上に通過させることができれば、ダンジョンに隠された宝が解放されます。
 
 ### 報酬
 
-- ["REFLECT"](https://youtu.be/nCQ_zZIiGLA?si=SEr2O2h7CBt2t-05) – がうる・ぐらの音楽ディスク
+- ["REFLECT"](https://youtu.be/nCQ_zZIiGLA) – がうる・ぐらの音楽ディスク
 - [がうる・ぐらの記憶](https://www.youtube.com/watch?v=SDnRHwpnIH4)
 
 ## 出典

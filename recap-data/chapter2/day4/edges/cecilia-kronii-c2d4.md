@@ -5,7 +5,7 @@ After the conclusion of Star Site: Chronos, Cecilia and friends surround Kronii 
 
 Once Immerkind learns the truth of the Outsider, Tam Gandr explains that, thanks to time travel, Iphania and the Outlander could be siblings. This means Cecilia still has a chance, and this moment brings Queen Tam and Cecilia closer.
 
-[Drinks under the bridge](#embed:https://www.youtube.com/live/NGC0VaSUPnE?si=PSdF1DRfJUXe6ZXR&t=15970)
+[Drinks under the bridge](#embed:https://www.youtube.com/live/NGC0VaSUPnE?t=15970)
 
 ## Fanart
 

@@ -16,7 +16,7 @@
 
 ただ、シオリが状況を理解するより先に――
 
-[自ら身を沈めた。](#embed:https://www.youtube.com/live/PNrclGd76n4?si=4kgvZZqQ7ZSILsCG&t=762)
+[自ら身を沈めた。](#embed:https://www.youtube.com/live/PNrclGd76n4?t=762)
 
 その光景はシオリを大いに驚かせた。もっとも、それはこの日彼女がピンクの猫と経験する奇妙な出来事の、ほんの始まりに過ぎなかったのだが。（参照: [Roa-Shiori](#edge:raora-shiori)）
 
@@ -26,14 +26,14 @@
 ――“死”。
 
 その後、彼女は再び礼拝堂の建設へ戻る。
-内部にはまだ仕上げが足りず、シオリは必要な素材を集めるため一日中駆け回っていた。自ら集めたものもあれば、周囲の者たちの[協力](https://www.youtube.com/live/PNrclGd76n4?si=mmjDaUjMDsj1Oy_n&t=1731)によって手に入れたものもある。
+内部にはまだ仕上げが足りず、シオリは必要な素材を集めるため一日中駆け回っていた。自ら集めたものもあれば、周囲の者たちの[協力](https://www.youtube.com/live/PNrclGd76n4?t=1731)によって手に入れたものもある。
 
 さらに道具の強化も必要だったが、その頼み事を任せられる相手は一人しかいなかった。（参照: [Elizabeth-Shiori](#edge:liz-shiori)）
 
 しかし、盛大な催しの準備だけが、この日の課題ではない。
-誰もが向かわなければならなかった場所――それが[ラビリンス・オブ・エモーション](https://www.youtube.com/live/PNrclGd76n4?si=2WQTkle1yjCwGpGA&t=4468)だった。
+誰もが向かわなければならなかった場所――それが[ラビリンス・オブ・エモーション](https://www.youtube.com/live/PNrclGd76n4?t=4468)だった。
 
-そしてダンジョンを攻略した一行は、[鉱石ビジュー](https://www.youtube.com/live/PNrclGd76n4?si=Kgxjy4Ur4T8yNHgN&t=6623)の失われた記憶を取り戻すことに成功する。
+そしてダンジョンを攻略した一行は、[鉱石ビジュー](https://www.youtube.com/live/PNrclGd76n4?t=6623)の失われた記憶を取り戻すことに成功する。
 
 その試練を終えるや否や、シオリは急いで礼拝堂へ戻り、建設作業を再開した。
 
@@ -54,7 +54,7 @@
 
 シャキーラの遺体を収めた。
 
-[きっとみんな、あなたのこと大好きだったよ](#embed:https://www.youtube.com/live/PNrclGd76n4?si=a6pzhY9MFQ1cynEg&t=8494)
+[きっとみんな、あなたのこと大好きだったよ](#embed:https://www.youtube.com/live/PNrclGd76n4?t=8494)
 
 そのあまりにも陰惨な光景は、本来なら美しく輝いていたはずの礼拝堂を不気味に染め上げていた。
 
@@ -82,7 +82,7 @@
 
 とはいえ、その前に彼女はちょっとしたゲームを思いつく。
 
-“魔法”によって作り出したという二種類の["祈祷ガイド"](https://www.youtube.com/live/PNrclGd76n4?si=jC4AcLS2oR_2OdKw&t=10568)を用意したのだ。大半の紙には同じ祈りが書かれていたが、一枚だけ微妙に内容が異なっている。
+“魔法”によって作り出したという二種類の["祈祷ガイド"](https://www.youtube.com/live/PNrclGd76n4?t=10568)を用意したのだ。大半の紙には同じ祈りが書かれていたが、一枚だけ微妙に内容が異なっている。
 
 - [インクウェルの祈り](#text:inkwell-prayer) を読む
 - [インクウェルの祈り：モルドン](#text:inkwell-prayer-mori) を読む
@@ -93,7 +93,7 @@
 
 だが残念ながら――物事は彼女の思惑通りには進かなかった。
 
-[シャキーラの“葬儀”](#embed:https://www.youtube.com/live/PNrclGd76n4?si=ImfMPrcDObUD-33J&t=11195)
+[シャキーラの“葬儀”](#embed:https://www.youtube.com/live/PNrclGd76n4?t=11195)
 
 シオリが祈祷書を配り始めたその時――もちろん有料で――礼拝堂の誰かが、式が始まる前に誤って吊るされたシャキーラの遺体を発見してしまう。
 
@@ -104,7 +104,7 @@
 
 そして、運命の瞬間が訪れる。
 
-[そして犯人は――お前だ！](#embed:https://www.youtube.com/live/PNrclGd76n4?si=U-25q79ncN8CqM0t&t=11587)
+[そして犯人は――お前だ！](#embed:https://www.youtube.com/live/PNrclGd76n4?t=11587)
 
 祈りを唱える群衆の中、一人だけ異なる言葉を口にした者がいた。
 
@@ -147,10 +147,10 @@
 
 そして今や、教会には吊るされた死体という装飾品まで増えた。
 
-[笑いすぎてお腹痛い](#embed:https://www.youtube.com/live/PNrclGd76n4?si=YUWs-Lx27pmKrU9E&t=11960)
+[笑いすぎてお腹痛い](#embed:https://www.youtube.com/live/PNrclGd76n4?t=11960)
 
 その後、騒動が落ち着いた頃。
-シオリは[ビジュー](https://www.youtube.com/live/PNrclGd76n4?si=n8f9_1qAccL1yeSb&t=12068)へ、今回の件について語っていた。
+シオリは[ビジュー](https://www.youtube.com/live/PNrclGd76n4?t=12068)へ、今回の件について語っていた。
 
 なぜこんなことを思いついたのか。
 何を成し遂げたかったのか。
@@ -188,7 +188,7 @@
 困惑。
 そして失望だった。
 
-[「彼女はもっと報われるべきだった」](#embed:https://www.youtube.com/live/PNrclGd76n4?si=OJdhQvYXUEsnh1q0&t=12694)
+[「彼女はもっと報われるべきだった」](#embed:https://www.youtube.com/live/PNrclGd76n4?t=12694)
 
 ## ファンアート
 

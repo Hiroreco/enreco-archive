@@ -18,6 +18,6 @@
 一度発動すれば、イナの頭上には紫の霧が禍々しく渦を巻き、その中から鋭い弾が標的へと放たれる。放たれた弾は複数の敵を貫通し、触れたものを次々と傷つけながら突き進む。
 普段は穏やかな彼女の手によって繰り出されるその攻撃は、美しくもどこか不気味な、まさに古代の力が顕現した瞬間と言えるだろう。
 
-[レーザー発射！](#embed:https://www.youtube.com/live/THllQCVOYzY?si=6WRNsqGVEFR4DDPO&t=4464)
+[レーザー発射！](#embed:https://www.youtube.com/live/THllQCVOYzY?t=4464)
 
 第2章からは、この「ヴァイオレット・ミアズマ」にも、新たな[遠距離攻撃](#entry:revelations-entry)の力が加わった。

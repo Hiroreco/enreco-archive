@@ -17,11 +17,11 @@ Moved by Shiori's words, Gonathon thought back to her time with Bae (see [Bae-Go
 
 Alas, this was not to be as Shiori uncovered the diaries from the previous days, their contents revealing the blackest depths of her encounters with Gonathon. Requesting that Gonathon speak with her, it appeared that history was set to repeat itself in the most tragic way imaginable. But it was here that the noble knight truly took her first steps towards a brighter future. Meeting face to face with the Archiver once more, Gonathon owned up to the sins she had committed and apologized for the way she had used Shiori as a means of escaping the pain of her lost love.
 
-[It was my fault](#embed:https://www.youtube.com/live/mb91g7vQSnA?si=UZkt8f46vWLuP6Do&t=12257)
+[It was my fault](#embed:https://www.youtube.com/live/mb91g7vQSnA?t=12257)
 
 Most important of all for the Humble Knight was the kindness that Shiori gave her, both before and after losing her memories. Gonathon made one final request: that the two continue to speak like this. Departing on a melancholy but fulfilling note, the two promised to meet each other at the banquet tomorrow. And thus, the tale of the fumbling knight had ended. Where the story of Shiori of the Nyavellas goes next is unclear, but one thing is certain. Their story together is far from over.
 
-[I can't recall... but I can feel it](#embed:https://www.youtube.com/live/mb91g7vQSnA?si=tve9IVBF0HJBYQkK&t=12800)
+[I can't recall... but I can feel it](#embed:https://www.youtube.com/live/mb91g7vQSnA?t=12800)
 
 ## Fanart
 

@@ -7,8 +7,8 @@ Nerissa had received the flowers that Elizabeth delivered on Immerkind’s behal
 
 [Flowers for Potato Salad](#embed:https://www.youtube.com/live/gDiqP1BVNXY?t=5870s)
 
-Yet as the day neared its conclusion, Gonathon voiced his concerns regarding the scarlet knight’s growing closeness with Nerissa. Together, the two devised a plan in which Immerkind would [distract](https://www.youtube.com/live/gDiqP1BVNXY?si=brIJNd8eYtG0Na5O&t=15952) Juliet by seeking architectural advice for the house she was building for Tam.
+Yet as the day neared its conclusion, Gonathon voiced his concerns regarding the scarlet knight’s growing closeness with Nerissa. Together, the two devised a plan in which Immerkind would [distract](https://www.youtube.com/live/gDiqP1BVNXY?t=15952) Juliet by seeking architectural advice for the house she was building for Tam.
 
-And true to expectation, Nerissa Juliet provided [excellent advice](https://www.youtube.com/live/gDiqP1BVNXY?si=J46otnAOF0XR5ppt&t=16042), offering thoughtful suggestions regarding both the structure and color scheme of the home. However, despite Immerkind’s desperate insistence that she truly needed the help due to her terrible architectural skills, the blue maiden slowly began to grow suspicious of Immerkind's motives.
+And true to expectation, Nerissa Juliet provided [excellent advice](https://www.youtube.com/live/gDiqP1BVNXY?t=16042), offering thoughtful suggestions regarding both the structure and color scheme of the home. However, despite Immerkind’s desperate insistence that she truly needed the help due to her terrible architectural skills, the blue maiden slowly began to grow suspicious of Immerkind's motives.
 
 Realizing the atmosphere had shifted, Nerissa hurriedly departed, leaving Immerkind scrambling to warn Gonathon before things spiraled even further.

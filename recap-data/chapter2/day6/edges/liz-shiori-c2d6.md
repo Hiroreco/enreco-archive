@@ -21,7 +21,7 @@ _Lies,_ a **_scam_**
 
 And so, a confrontation was much needed.
 
-["Who were you _before_ Lady Bloodflame?"](#embed:https://www.youtube.com/live/uEB2dIe37oo?si=6E-r2kSyXFeSXW_-&t=24060)
+["Who were you _before_ Lady Bloodflame?"](#embed:https://www.youtube.com/live/uEB2dIe37oo?t=24060)
 
 Shiori asked Elizabeth Bloodflame, a knight who swore her loyalty to the Kingdom of Libestal.
 

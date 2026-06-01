@@ -30,7 +30,7 @@ But just as their love story bloomed, tragedy struck. After conquering the [Anci
 > They won't let me get my diamonds. They trapped my diamonds in here!
 > Why have I been forsaken! What have you stolen from me!
 
-Through the guidance of the voices in her head, nudges from those around her, and the lingering feelings buried deep in her heart, she didn’t regain her lost memories—but she found the courage to start anew. Moved by the knight’s steadfast love, Amelia chose to rebuild their bond from scratch. Together, they wove themselves a new [happy ending.](https://www.youtube.com/live/WvRIdaH107U?feature=shared&t=12776)
+Through the guidance of the voices in her head, nudges from those around her, and the lingering feelings buried deep in her heart, she didn’t regain her lost memories—but she found the courage to start anew. Moved by the knight’s steadfast love, Amelia chose to rebuild their bond from scratch. Together, they wove themselves a new [happy ending.](https://www.youtube.com/live/WvRIdaH107U?t=12776)
 
 This marked the close of her chapter—for now. She set off to take care of something important, but the door remains open, if only slightly, for her return to the world and to the knight who still waits.
 

@@ -74,7 +74,7 @@ And let the sadness spread.
 ...
 
 Then—
-A hand. A warmth. A [gentle pat](https://www.youtube.com/live/m5VOeHvSgbI?si=t7-UotzcICQjtvlw&t=16175).
+A hand. A warmth. A [gentle pat](https://www.youtube.com/live/m5VOeHvSgbI?t=16175).
 A silly smile. A moment passed.
 She called me “witch” with laughter now.
 I felt the hurt begin to drown.

@@ -11,12 +11,12 @@ Kiara and Roa meet at Calli's tavern.
 
 To set the steamy atmosphere, Kiara read the fanfic, which aroused her wife. Roa and Kiara both then drank the potions and proceeded to _"have fun"_ in bed.
 
-[Europeans](#embed:https://www.youtube.com/live/8E8Dsgs5e50?si=Cfv40DbMZLJijbq9&t=2031)
+[Europeans](#embed:https://www.youtube.com/live/8E8Dsgs5e50?t=2031)
 
-After... _that_, Roa suggested buying a house from Calli's auction—even offering her last 4000 coins to help pay for it. [Kiara kept raising her own bid on a large house, which she ended up winning anyway.](https://www.youtube.com/live/8E8Dsgs5e50?si=RxtfN_wMGm29Xkzv&t=3612)
+After... _that_, Roa suggested buying a house from Calli's auction—even offering her last 4000 coins to help pay for it. [Kiara kept raising her own bid on a large house, which she ended up winning anyway.](https://www.youtube.com/live/8E8Dsgs5e50?t=3612)
 
 The two moved into their new home fairly quickly, setting up their beds together and putting away their spicy fanfiction.
 
-[A photo of the newlyweds.](#embed:https://www.youtube.com/live/8E8Dsgs5e50?si=ekcHIcDyu86fONhG&t=5322)
+[A photo of the newlyweds.](#embed:https://www.youtube.com/live/8E8Dsgs5e50?t=5322)
 
 And so, there was their happy ending... or perhaps a beginning to a new chapter in their marriage.

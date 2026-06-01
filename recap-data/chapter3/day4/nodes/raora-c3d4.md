@@ -11,7 +11,7 @@ As the day began, she emerged fresh from death.
 
 Not long after, Roa noticed certain people sticking their noses where they did not belong. Sister Shiori and Mococo were casually walking out of her house as though nothing was wrong.
 
-[How dare you steal my house!](#embed:https://www.youtube.com/live/P3uwaftxSG0?si=_LxCATws8CWOOxId&t=537)
+[How dare you steal my house!](#embed:https://www.youtube.com/live/P3uwaftxSG0?t=537)
 
 The founder of the Illumination stood her ground, daring the supposed owner, Mococo, to take the house back by force if she truly believed it belonged to her. With her black sheep wandering beside her, Sister Shiori exchanged insults and verbal abuse with Roa as tensions rapidly escalated. (See [Roa-Shiori](#edge:raora-shiori))
 
@@ -23,7 +23,7 @@ A trail of crimson stains led directly inside her safe haven, whose walls were n
 
 The poster depicted a sealed emblem etched into a square: an unblinking eye suspended above a gap of light. Rays stretched outward like forbidden thoughts leaking through solid walls, while a staircase ascended toward a distant quadrupedal figure standing at the horizon.
 
-[This is the Illumination.](#embed:https://www.youtube.com/live/P3uwaftxSG0?si=6f8WKIyQtdJAb1UJ&t=647)
+[This is the Illumination.](#embed:https://www.youtube.com/live/P3uwaftxSG0?t=647)
 
 Following the blood trail deeper into the basement, Roa descended carefully into the darkness. Before she could reach the bottom, however, she encountered a geometry of horror.
 

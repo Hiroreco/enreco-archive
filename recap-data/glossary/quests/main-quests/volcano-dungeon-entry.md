@@ -22,7 +22,7 @@ The dungeon featured a strong fiery motif, with a structure resembling a colossa
 
 #### Lasers and Traps
 
-Rather than puzzles, the Volcanic Dungeon emphasized physical trials, riddled with dangerous traps throughout its castle interior. These included dodging searing [lasers](https://www.youtube.com/live/N3v-MJXHQ0w?si=rFVQeKPLGv5Zumnz&t=6526) that incinerated on contact and navigating deviously placed [bait traps](https://www.youtube.com/live/N3v-MJXHQ0w?si=8JvYnazYsw-n5I-I&t=7215) disguised as buttons, tempting curious adventurers.
+Rather than puzzles, the Volcanic Dungeon emphasized physical trials, riddled with dangerous traps throughout its castle interior. These included dodging searing [lasers](https://www.youtube.com/live/N3v-MJXHQ0w?t=6526) that incinerated on contact and navigating deviously placed [bait traps](https://www.youtube.com/live/N3v-MJXHQ0w?t=7215) disguised as buttons, tempting curious adventurers.
 
 The arsenal of traps featured:
 
@@ -36,16 +36,16 @@ The arsenal of traps featured:
 
 #### Parkour and Boss Fight
 
-Towards the dungeon's climax, heroes had to ascend through intricate [parkour sequences](https://www.youtube.com/live/72SJQRQ7qi0?si=34q6OX2oqyM_n2rX&t=15634) across various platform types—some that alternated positions, others that appeared only briefly before vanishing. Missing a jump meant falling into certain doom.
+Towards the dungeon's climax, heroes had to ascend through intricate [parkour sequences](https://www.youtube.com/live/72SJQRQ7qi0?t=15634) across various platform types—some that alternated positions, others that appeared only briefly before vanishing. Missing a jump meant falling into certain doom.
 
 At the summit stood the Flame Guardian, a towering statue of a goddess-like figure, who served as the dungeon's final boss. Heroes had to leap across floating platforms while evading the Guardia's fire beams, ultimately reaching the statue and using pickaxes to chip away at its core until its health bar reached zero.
 
-[Flame Guardian Boss Fight](#embed:https://www.youtube.com/live/72SJQRQ7qi0?si=UymqRZv4YuWyiCbi&t=15823)
+[Flame Guardian Boss Fight](#embed:https://www.youtube.com/live/72SJQRQ7qi0?t=15823)
 
 ### Rewards
 
-- ["Hinotori"](https://youtu.be/eDfMDkgheQY?si=LrNua8X-nFdM770M) - A music disc by Takanashi Kiara
-- [Memories](https://youtu.be/A3bQdV_sl08?si=-NxdiYuhunxDUoa1) of Takanashi Kiara
+- ["Hinotori"](https://youtu.be/eDfMDkgheQY) - A music disc by Takanashi Kiara
+- [Memories](https://youtu.be/A3bQdV_sl08) of Takanashi Kiara
 
 ## Sources
 

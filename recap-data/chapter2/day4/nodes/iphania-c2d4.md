@@ -7,4 +7,4 @@ But she needed time. Time to think, to process, to decide what came next.
 
 For now, she tasked the heroes with preparing for their next objective: the investigation of the next Star Site—**Star Site: Chaos**—where they would hopefully uncover even more fragments of truth buried in forgotten memories.
 
-[The Third Star Site](#embed:https://www.youtube.com/live/wCysZh57Hcc?si=KMP3qEYRgLTbpBuq&t=11516)
+[The Third Star Site](#embed:https://www.youtube.com/live/wCysZh57Hcc?t=11516)

@@ -1,7 +1,7 @@
 <!-- title: ロア・パンドラ -->
 <!-- status: 生存 -->
 
-ロア・パンドラは、ある日職業斡旋所を訪れ、そこで[ジュエラー](https://www.youtube.com/live/zmRDeC_aJUM?si=jFDNWI_M9S-nyd&t=1890)の職に意気揚々と就きます。
+ロア・パンドラは、ある日職業斡旋所を訪れ、そこで[ジュエラー](https://www.youtube.com/live/zmRDeC_aJUM?t=1890)の職に意気揚々と就きます。
 城の探索を進めるうちに、フワワ、モココ、ビジュー王女といったシャイニングスターズの仲間たちと出会い、語り合いました。
 やがて彼女はモココとビジュー王女を仲間に引き入れ、共に新たな商売を始めることを決意。
 3人は事業の立ち上げに必要な資源を確保するため、未知の地レムナンツへと旅立ちます。
@@ -18,8 +18,8 @@
 
 [Ｍ Ａ Ｒ Ｉ Ｏ](#embed:https://www.youtube.com/live/zmRDeC_aJUM?t=4844s)
 
-ロアはブラッドフレイム卿との交流を続けます。彼女が纏う[謎めいた気配](https://www.youtube.com/live/zmRDeC_aJUM?si=lv4_37Z3C-neG7Fs&t=6615)や、まるでロアの過去を知っているかのような物言いに、ロアは強く惹かれたからです。
-その後、ビジューから重要な[商談の連絡](https://www.youtube.com/live/zmRDeC_aJUM?si=FyLgQ_zBtSf6EpCZ&t=7104)が入ります。
+ロアはブラッドフレイム卿との交流を続けます。彼女が纏う[謎めいた気配](https://www.youtube.com/live/zmRDeC_aJUM?t=6615)や、まるでロアの過去を知っているかのような物言いに、ロアは強く惹かれたからです。
+その後、ビジューから重要な[商談の連絡](https://www.youtube.com/live/zmRDeC_aJUM?t=7104)が入ります。
 
 ロア、ビジュー、モココは、高まる需要に応えるべく、次々と商品を売りさばいていきました。
 ビジネスモデルはかなり怪しいものでしたが、人々はその魅力に群がります。
@@ -27,7 +27,7 @@
 
 こうしてロアは一日の終わりを、従業員であるビジューとの心温まる通話で締めくくりました。
 
-[さらば](#embed:https://www.youtube.com/live/zmRDeC_aJUM?si=czHTmms2vxXnctbm)
+[さらば](#embed:https://www.youtube.com/live/zmRDeC_aJUM)
 
 ## ファンアート
 

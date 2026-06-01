@@ -25,7 +25,7 @@ She soon wove herself into the kingdom's shenanigans. Despite her relative inact
 > Side Chick #4, let down your water!
 > You were always... my backup plan.
 
-As early as Day 2, she had already claimed a wife—NinoIna—and, despite professing [eternal loyalty](https://www.youtube.com/live/f8W426vzTb8?t=9715) to the purple one, continued to gather more women into her orbit—four more, to be exact. She even attempted to ensnare a fifth: a memory-lost [blonde](https://www.youtube.com/live/pH9lSCrTVMY?feature=shared&t=1792) searching for her beloved. A reminder that the pink one was a member of [Cerulean Cup](#entry:guilds-entry), the supposedly empathetic guild.
+As early as Day 2, she had already claimed a wife—NinoIna—and, despite professing [eternal loyalty](https://www.youtube.com/live/f8W426vzTb8?t=9715) to the purple one, continued to gather more women into her orbit—four more, to be exact. She even attempted to ensnare a fifth: a memory-lost [blonde](https://www.youtube.com/live/pH9lSCrTVMY?t=1792) searching for her beloved. A reminder that the pink one was a member of [Cerulean Cup](#entry:guilds-entry), the supposedly empathetic guild.
 
 Call it karma or collapse, but eventually, her polycule of side chicks unraveled, with only her eternal consort remaining at her side.
 
@@ -42,7 +42,7 @@ And as each day passed, the pink one's entanglement with others grew more and mo
 
 New threads formed: romantic, platonic, and confusing, sometimes all three. She shared mouth-to-mouth meals with a pink cat, declared best friendship with Immerkind (or so the green one claimed), and became part of a peculiar cult known as the "Inbread."
 
-Her familial side blossomed—with Koseki Bijou as her [brother](https://www.youtube.com/live/EKjcWfEGsB0?si=s8GiS__Q7mOaFuB_&t=436), endlessly devoted to her throughout the journey. Ina, her eternal consort, also remained steadfast as her romantic partner. And Tam Gandr, a new and passionate love interest, stood by her side, someone to constantly banter back and forth with.
+Her familial side blossomed—with Koseki Bijou as her [brother](https://www.youtube.com/live/EKjcWfEGsB0?t=436), endlessly devoted to her throughout the journey. Ina, her eternal consort, also remained steadfast as her romantic partner. And Tam Gandr, a new and passionate love interest, stood by her side, someone to constantly banter back and forth with.
 
 Everything was going great, until the [last few days.](#entry:hot-pink-one-collapse-entry)
 

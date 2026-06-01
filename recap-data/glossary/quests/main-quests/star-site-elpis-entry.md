@@ -24,27 +24,27 @@ Designed for at least two people, the dungeon splits the party into two teams, t
 
 **First Puzzle**
 
-The Angelic Side is presented with a [circle of red blocks](https://www.youtube.com/live/axlJjQQ_rzU?si=MAqpJXpQJXmj2K6e&t=3573) topped with buttons. Pressing a button changes the block's color to blue. These colors must be matched to the Demonic Side, where red and blue [campfires](https://www.youtube.com/live/NSOuyMjCxPI?si=03CadFAr7PQ8DJvd&t=4524) are also arranged in a circle.
+The Angelic Side is presented with a [circle of red blocks](https://www.youtube.com/live/axlJjQQ_rzU?t=3573) topped with buttons. Pressing a button changes the block's color to blue. These colors must be matched to the Demonic Side, where red and blue [campfires](https://www.youtube.com/live/NSOuyMjCxPI?t=4524) are also arranged in a circle.
 
 **Second Puzzle**
 
-The Angelic Side is given a [movable block](https://www.youtube.com/live/axlJjQQ_rzU?si=DDnmLpQW0CXpggdp&t=3694), which must be pushed through a floor-based puzzle according to a [maze map](https://www.youtube.com/live/NSOuyMjCxPI?si=wgLETZiPN-WpX7qy&t=4666) only visible on the Demonic Side.
+The Angelic Side is given a [movable block](https://www.youtube.com/live/axlJjQQ_rzU?t=3694), which must be pushed through a floor-based puzzle according to a [maze map](https://www.youtube.com/live/NSOuyMjCxPI?t=4666) only visible on the Demonic Side.
 
 - A small rectangular tutorial map introduces the mechanic.
 - The main puzzle features a larger maze on the Demonic Side, while the Angelic Side sees a circular area with colored blocks on the ground.
-- **Note:** Pushing the block onto a tile made of black and red terracotta unlocks a secret door at the end of the dungeon containing a [music disc](https://www.youtube.com/live/A97SrozF36w?si=zNzhwalpOc_S6Tu_&t=7429).
+- **Note:** Pushing the block onto a tile made of black and red terracotta unlocks a secret door at the end of the dungeon containing a [music disc](https://www.youtube.com/live/A97SrozF36w?t=7429).
 
 **Third Puzzle**
 
-Now floating over an abyss, the maze requires players on the Angelic Side to carefully [navigate](https://www.youtube.com/live/axlJjQQ_rzU?si=8ijRq_d2gpa0y5mv&t=4273) their way through it. The Demonic Side assists by standing on a large [flat area](https://www.youtube.com/live/NSOuyMjCxPI?si=8UiI1wWq3zOPqzNm&t=5227) where stains spawn. The positions of the players on the demonic side correspond to a position on the angelic side represented as a floating platform.
+Now floating over an abyss, the maze requires players on the Angelic Side to carefully [navigate](https://www.youtube.com/live/axlJjQQ_rzU?t=4273) their way through it. The Demonic Side assists by standing on a large [flat area](https://www.youtube.com/live/NSOuyMjCxPI?t=5227) where stains spawn. The positions of the players on the demonic side correspond to a position on the angelic side represented as a floating platform.
 
 After completing the final puzzle, both teams reunite to face the dungeon boss, **Stain King Elpis**, a two-headed dragon.
 
-[Stain King Elpis Fight](#embed:https://www.youtube.com/live/axlJjQQ_rzU?si=imMOupLj1UxTJV2C&t=5896)
+[Stain King Elpis Fight](#embed:https://www.youtube.com/live/axlJjQQ_rzU?t=5896)
 
 ### Rewards
 
-- ["Caesura of Despair"](https://youtu.be/vBNI979XyoE?si=J7NPq-J5GJfAt8iP) – a music disc by IRyS
+- ["Caesura of Despair"](https://youtu.be/vBNI979XyoE) – a music disc by IRyS
 - [Memories](https://www.youtube.com/watch?v=5uaWaQg4pnM) of IRyS
 
 ## Sources

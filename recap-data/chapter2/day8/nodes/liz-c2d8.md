@@ -5,9 +5,9 @@
 
 A knight of honor. Smith of the Jade Forge. Lady Elizabeth Bloodflame.
 
-[Spilled ink, soaked in sorrow](https://www.youtube.com/live/b-jTHH6GK5w?si=-HpFkakfPqE6y6EO&t=363). Written words of emotions across pages filled with lies. Fragile memories sold for coin. Works of a true witch.
+[Spilled ink, soaked in sorrow](https://www.youtube.com/live/b-jTHH6GK5w?t=363). Written words of emotions across pages filled with lies. Fragile memories sold for coin. Works of a true witch.
 
-If the ink speaks the truth, then [let me forget](https://www.youtube.com/live/b-jTHH6GK5w?si=9ftHdvHFDe7BKzLe&t=410). Let me live in a world where the truth is the lie and the lie is the truth.
+If the ink speaks the truth, then [let me forget](https://www.youtube.com/live/b-jTHH6GK5w?t=410). Let me live in a world where the truth is the lie and the lie is the truth.
 
 What is fear? Not for oneself, but for someone else. What quells the flame of concern?
 
@@ -31,9 +31,9 @@ _Promise rings. Nothing more._
 
 Then Nerissa requests a spar, something they've been doing daily now. And yet, Elizabeth makes an even stranger request: to go gambling (see [Nerissa-Elizabeth: Finding Shelter in the Shadows of Hope](#edge:liz-nerissa)).
 
-Back at home, a [heart-to-heart with Kiara](https://www.youtube.com/live/b-jTHH6GK5w?si=oGPHYYz-3nlKro3Y&t=4582) reveals their shared nature as knights—both in thought and action. A reminder that Kiara is moving out is painful for Elizabeth, but she’s happy for her friend.
+Back at home, a [heart-to-heart with Kiara](https://www.youtube.com/live/b-jTHH6GK5w?t=4582) reveals their shared nature as knights—both in thought and action. A reminder that Kiara is moving out is painful for Elizabeth, but she’s happy for her friend.
 
-But Kiara doesn’t let things slide. She asks about Nerissa, about the blue that feels like it lights the flame of her chest. What is she to Elizabeth? A few [joke names](https://www.youtube.com/live/b-jTHH6GK5w?si=E3oALHLYZAo5suDE&t=4950) are tossed around: Princess of Blue, of Gambling, of Sound, of... Potato Salad?
+But Kiara doesn’t let things slide. She asks about Nerissa, about the blue that feels like it lights the flame of her chest. What is she to Elizabeth? A few [joke names](https://www.youtube.com/live/b-jTHH6GK5w?t=4950) are tossed around: Princess of Blue, of Gambling, of Sound, of... Potato Salad?
 
 "Princess of her heart," Kiara says.
 
@@ -41,7 +41,7 @@ The words catch Elizabeth off guard, but she doesn’t deny them. Red in the fac
 
 With the chat with Kiara concluded, Elizabeth moves to find Nerissa once again, replicating something unique to them.
 
-[“Juliet, Juliet!”](#embed:https://www.youtube.com/live/b-jTHH6GK5w?si=wW_PnKZylMBJiFeK&t=5150)
+[“Juliet, Juliet!”](#embed:https://www.youtube.com/live/b-jTHH6GK5w?t=5150)
 
 Though neither remembers the lines fully, it is a cheerful memory for them. Romeo and Juliet. Elizabeth and Nerissa.
 
@@ -51,7 +51,7 @@ When Nerissa gives her the paper, she starts to leave before running back to kis
 
 Even still, with the banquet closing in, Elizabeth wishes to stay and not return to the future.
 
-And moments before, Elizabeth asks Nerissa again, [“Are you okay?”](https://www.youtube.com/live/b-jTHH6GK5w?si=aVt1IOPOs86fL63N&t=6456)
+And moments before, Elizabeth asks Nerissa again, [“Are you okay?”](https://www.youtube.com/live/b-jTHH6GK5w?t=6456)
 
 To make it in time, Elizabeth uses magic and teleports for her princess to make it in time. And the banquet begins (see [Princess-Outlander: A Price for Defying Fate](#edge:iphania-outlander)).
 

@@ -25,11 +25,11 @@ Along the way, Kiara met many of her companions. Though perplexed by the youths 
 
 Focusing on the quests beforehand to prepare for the coming days, Kiara gained more experience as a smith and began trading her goods with others free of charge, for her Noble Spirit as a Knight shines ever bright. Not everyone is in agreement with Kiara's ideals, as Roa Pandora and her employees, the former Princess Bijou and Mococo, enforced [capitalistic ideals](https://youtu.be/5pgqtkxazUo?t=9621). Against all odds, and perhaps due to Kiara's kind nature, she may have convinced Bijou that fairer trades could be made—not just ones with gold.
 
-Soon, Elizabeth calls Kiara to the building area, a large plot of land that our heroes are free to use as they see fit, and shows her the beginnings of their shop. Kiara [marveled](https://www.youtube.com/live/5pgqtkxazUo?si=7diOGxuprXPr80Zl&t=11622) at the craftsmanship Elizabeth showed but was appalled that the other knight was too humble, leaving herself only the area under the stairs to rest, and insisted they share the upper floor.
+Soon, Elizabeth calls Kiara to the building area, a large plot of land that our heroes are free to use as they see fit, and shows her the beginnings of their shop. Kiara [marveled](https://www.youtube.com/live/5pgqtkxazUo?t=11622) at the craftsmanship Elizabeth showed but was appalled that the other knight was too humble, leaving herself only the area under the stairs to rest, and insisted they share the upper floor.
 
 A knight's and hero's work is never done, especially as the deadline looms. Tired, Kiara writes in her journal before departing to rest, pondering what tomorrow could bring.
 
-[Liebes Tagebuch](#embed:https://www.youtube.com/live/5pgqtkxazUo?si=o9cCRFjDiz3cwnjr&t=13675)
+[Liebes Tagebuch](#embed:https://www.youtube.com/live/5pgqtkxazUo?t=13675)
 
 ## Fanart
 

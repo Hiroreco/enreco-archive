@@ -7,7 +7,7 @@ Ill-suited for business talk this early in the day, NinoIna spent little time in
 
 After a period of preparation, NinoIna accepted Shiori's request to reunite their brief adventure party. She formed a team to investigate the first Star Site alongside two other Shining Stars: the Hero's eternal consort and the gear-enchanting Peasant.
 
-[Star Site: Elpis](https://www.youtube.com/live/NSOuyMjCxPI?si=GRnr9rP-JPIfVj1V&t=4512) was designed to deter explorers like them. NinoIna and her betrothed, though forced apart, stood atop contrasting arenas, guiding each other through the mystical mazes of the stronghold. The Hero did what she knew best to aid her allies, using her valiant strength to protect them from the Stain King's malice.
+[Star Site: Elpis](https://www.youtube.com/live/NSOuyMjCxPI?t=4512) was designed to deter explorers like them. NinoIna and her betrothed, though forced apart, stood atop contrasting arenas, guiding each other through the mystical mazes of the stronghold. The Hero did what she knew best to aid her allies, using her valiant strength to protect them from the Stain King's malice.
 
 ["My queen, my goddess!"](#embed:https://youtu.be/NSOuyMjCxPI?t=7102s)
 

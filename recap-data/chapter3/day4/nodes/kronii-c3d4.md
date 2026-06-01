@@ -5,7 +5,7 @@ It was almost funny, really. With her memories of her past self gone, it felt li
 
 Maybe today would finally be peaceful. Just for once. She was only a supplier, after all. People kept throwing fancy titles at her—Queen Tam Gandr this, Queen Tam Gandr that—but that wasn't who she was. She was just Tam. A humble supplier. And suppliers absolutely did not need this much chaos and attention. She'd repeated that fact so many times she'd long since lost count.
 
-[Oh boy, here we go](#embed:https://www.youtube.com/live/JZ2gO4qDJ2w?si=LCJ7Dy9bebQjnA_Q&t=516)
+[Oh boy, here we go](#embed:https://www.youtube.com/live/JZ2gO4qDJ2w?t=516)
 
 Knowing how quick-tempered and impatient she could get, Bae, Roa, and Gonathon accompanied the blue maiden into the Labyrinth of Emotion. Unfortunately for everyone involved, Tam's temper flared almost immediately after they failed to solve a [puzzle](https://www.youtube.com/watch?v=JZ2gO4qDJ2w&t=1872).
 

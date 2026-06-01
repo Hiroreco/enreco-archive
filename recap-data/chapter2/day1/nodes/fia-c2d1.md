@@ -9,4 +9,4 @@ As the heroes defeated that great evil, the world began to crumble. To save them
 
 Now, she asked the heroes for their strength to prevent the Outsider’s emergence. However, the time leap had cost her precious memories. With a heartfelt plea, she urged the heroes to recover her memories to save Libestal and the universe.
 
-[Shining Stars](#embed:https://www.youtube.com/live/2toZfafpyW8?si=DCk9DdbYzYoPk1Un&t=385)
+[Shining Stars](#embed:https://www.youtube.com/live/2toZfafpyW8?t=385)

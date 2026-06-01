@@ -20,7 +20,7 @@ In stark contrast to the grand, mythical settings of the previous four dungeonsâ
 
 ### Puzzles
 
-Compared to the other dungeons, this one featured the simplest challenge: [a quiz](https://www.youtube.com/live/i7g-HJMqZ_E?si=mMXZ1h38Mujkzloh&t=4056). The heroes had to answer a sequence of five questions testing their knowledge of the journey so far. Each question offered multiple choices. A correct answer allowed them to advance; a wrong answer transported them to a chamber filled with Stains, which they had to defeat before trying again.
+Compared to the other dungeons, this one featured the simplest challenge: [a quiz](https://www.youtube.com/live/i7g-HJMqZ_E?t=4056). The heroes had to answer a sequence of five questions testing their knowledge of the journey so far. Each question offered multiple choices. A correct answer allowed them to advance; a wrong answer transported them to a chamber filled with Stains, which they had to defeat before trying again.
 
 Each question was tied to previous dungeon events and memory fragments, with the final question requiring the players to explore the dungeon itself for a hidden clue.
 

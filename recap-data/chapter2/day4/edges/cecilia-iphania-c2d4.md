@@ -19,7 +19,7 @@ She would present it to her. Make her feel cherished. Make her see.
 
 But fate, as always, had other plans.
 
-[Final Boss: Dentist Appointment](#embed:https://www.youtube.com/live/NGC0VaSUPnE?si=49QslMbdrkjW7Ppf&t=19578)
+[Final Boss: Dentist Appointment](#embed:https://www.youtube.com/live/NGC0VaSUPnE?t=19578)
 
 There was no response. Then came an abrupt call for royal duties—a dentist appointment, of all things. Water spilled. Plates shattered. Chaos unfolded.
 

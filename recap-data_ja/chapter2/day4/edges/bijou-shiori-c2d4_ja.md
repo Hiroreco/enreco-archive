@@ -7,7 +7,7 @@
 けれど、それはもう過去の物語。
 そして今、何よりも大切なのは――「現在」なのだ。
 
-[君のために固く輝く石](#embed:https://www.youtube.com/live/l9VpZ0kmpeY?si=fQJJmgoe94G0lyb7&t=12979)
+[君のために固く輝く石](#embed:https://www.youtube.com/live/l9VpZ0kmpeY?t=12979)
 
 恋する相手に拒絶され、深く傷ついたシオリ。
 彼女が痛みに沈む中、ビジューはそっと寄り添い、静かに、そして真摯な言葉を贈った。

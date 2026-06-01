@@ -19,7 +19,7 @@
 
 だが――運命は、やはり別の筋書きを用意していた。
 
-[最終ボス：歯医者の予約](#embed:https://www.youtube.com/live/NGC0VaSUPnE?si=49QslMbdrkjW7Ppf&t=19578)
+[最終ボス：歯医者の予約](#embed:https://www.youtube.com/live/NGC0VaSUPnE?t=19578)
 
 しかし、返事はなかった。その直後、突如告げられた王家の務めは、まさかの「歯医者の予約」だった。水はこぼれ、皿は割れ、混沌は広がる。
 

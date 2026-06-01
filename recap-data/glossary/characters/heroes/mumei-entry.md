@@ -19,7 +19,7 @@ Nanamoo was strange, weird, and arguably unwell—or, if we’re being generous,
 **Names:** Cleopatra Eisenhower Da Vinci The Great III, Darwin Roosevelt DiCaprio Jr., Napoleon Galileo Aristotle Targaryen, Nanamoo
 **Guild:** Amber Coin
 
-Nanamoo—known by an ever-growing list of names—began her journey like most others: with a peculiar obsession for horses. She often made horse noises and shared equine-related commentary. Though technically a member of the Amber Coin [guild](#entry:guilds-entry), she spent most of her time with the Scarlet Wand group, earning herself an honorary title among the [red ranks.](https://www.youtube.com/live/zPJ78C7uNq8?feature=shared&t=360)
+Nanamoo—known by an ever-growing list of names—began her journey like most others: with a peculiar obsession for horses. She often made horse noises and shared equine-related commentary. Though technically a member of the Amber Coin [guild](#entry:guilds-entry), she spent most of her time with the Scarlet Wand group, earning herself an honorary title among the [red ranks.](https://www.youtube.com/live/zPJ78C7uNq8?t=360)
 
 She also claimed never to have lost her [memories](https://www.youtube.com/live/oq_4QZacuso?t=3518), insisting she vividly remembered a past life full of Ferraris, loyal friends, running water, and undeniable coolness. Whether any of that was true was highly questionable. Her erratic ramblings—such as declaring a male knight to be pregnant—only reinforced the belief that she might be a few marbles short.
 
@@ -27,7 +27,7 @@ Nanamoo’s rise to fame—or infamy—began with the launch of her own store: [
 
 > By accepting a ticket, all participants who won have agreed to contribue 10% of their income to a greater cause.
 
-Despite their rivalry, the business war ended with the two swindlers shaking hands, forming an unlikely partnership in the name of profit. Together, Fauna and Nanamoo fled the kingdom with full pockets and reputations... [complicated.](https://www.youtube.com/live/8x-MVX8h9gU?feature=shared&t=1970)
+Despite their rivalry, the business war ended with the two swindlers shaking hands, forming an unlikely partnership in the name of profit. Together, Fauna and Nanamoo fled the kingdom with full pockets and reputations... [complicated.](https://www.youtube.com/live/8x-MVX8h9gU?t=1970)
 
 Her journey was brief, chaotic, and incredibly silly—leaving a lasting impression on all who crossed paths with the ever-horsing, ever-hustling Nanamoo.
 

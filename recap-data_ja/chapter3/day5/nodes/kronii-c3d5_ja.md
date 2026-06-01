@@ -21,13 +21,13 @@
 
 いったい他にどんな秘密が埋もれているのだろうか。
 
-王国中に奇妙な[建築物](https://www.youtube.com/watch?v=phkMUVqF6aY&t=9187s)が次々と現れていることも、その不安を強める一因だった。そして決定打となったのは、文字通りの[宙に浮く死体](https://www.youtube.com/live/phkMUVqF6aY?si=uuYG6FNBeWT0_8oT&t=8580)が彼女の後をついて回っていたことだった。
+王国中に奇妙な[建築物](https://www.youtube.com/watch?v=phkMUVqF6aY&t=9187s)が次々と現れていることも、その不安を強める一因だった。そして決定打となったのは、文字通りの[宙に浮く死体](https://www.youtube.com/live/phkMUVqF6aY?t=8580)が彼女の後をついて回っていたことだった。
 
 そこでタムは調査を決意する。
 
 「イルミネーション」、王国で起きる奇怪な出来事、囁き声、そして死体。すべてには元凶があるはずだった。ゴナソンから、かつてシャキーラの遺体が王国の教会に吊るされていたと聞いたことを思い出す。もし何か邪悪なものが裏で蠢いているのなら、カルト教団こそ最も疑わしい存在だった。
 
-[あなたたち、下で何をしていたの？](#embed:https://www.youtube.com/live/phkMUVqF6aY?si=AiKMkLpfoMuoexNd&t=9276)
+[あなたたち、下で何をしていたの？](#embed:https://www.youtube.com/live/phkMUVqF6aY?t=9276)
 
 地下へ忍び込む人々。近づくと途端に打ち切られる怪しい会話。そして再び姿を現し、廊下をついて回る浮遊する死体。
 
@@ -37,7 +37,7 @@
 
 だが今、四方からの圧力に押され、彼女は渋々それを外す。
 
-[女王タム・ガンドル](#embed:https://www.youtube.com/live/phkMUVqF6aY?si=_ta3CAW8xmYpjLto&t=9632)
+[女王タム・ガンドル](#embed:https://www.youtube.com/live/phkMUVqF6aY?t=9632)
 
 そして、すべてが一気に押し寄せてきた。
 
@@ -57,7 +57,7 @@
 
 冷たい雨に濡れた布のように胸へ沈む悲しみ。王家の衣のように肩へとのしかかる、押し潰されそうな憂鬱。
 
-[憂鬱](#embed:https://www.youtube.com/live/phkMUVqF6aY?si=BSewBKip9cuco_Ak&t=9813)
+[憂鬱](#embed:https://www.youtube.com/live/phkMUVqF6aY?t=9813)
 
 彼女は初めて気づいたのかもしれない。
 
@@ -83,15 +83,15 @@
 
 しかしその途中で、「アドベント」と名乗る集団に遭遇した。そして彼女の疑念は確信へと変わる。彼女たちは何かもっと[邪悪なもの](https://www.youtube.com/watch?v=phkMUVqF6aY&t=10923s)と繋がっているのではないか、と。
 
-タムはその[情報](https://www.youtube.com/live/phkMUVqF6aY?si=Mc-l9GiKREszkwS_&t=11838)を親しい仲間たちへ警告として伝えた。その結果、とても真剣な話し合いが行われることになる。
+タムはその[情報](https://www.youtube.com/live/phkMUVqF6aY?t=11838)を親しい仲間たちへ警告として伝えた。その結果、とても真剣な話し合いが行われることになる。
 
-[なんで笑ってるの？](#embed:https://www.youtube.com/live/phkMUVqF6aY?si=m27nPH7zFLp_7-h1&t=12065)
+[なんで笑ってるの？](#embed:https://www.youtube.com/live/phkMUVqF6aY?t=12065)
 
 それでも、王国に不穏な空気が漂う一方で、その後のタムの一日は意外なほど温かなものだった。
 
 かつての忠臣たち、そして今なお忠臣であり続ける人々と時間を過ごし、彼女は["タムダ"](https://www.youtube.com/watch?v=phkMUVqF6aY&t=11704s)という名のパンダを手に入れる。そしてとても[大切に](https://www.youtube.com/watch?v=phkMUVqF6aY&t=13155s)「可愛がり」、さらにイマーカインドが彼女のために建設を始めたという[城](https://www.youtube.com/watch?v=phkMUVqF6aY&t=12772s)も訪れた。
 
-そして最後には、一日とは思えないほど濃密な出来事の数々を振り返りながら、タムは静かに腰を下ろし、その日に起きたすべてを["日記"](https://www.youtube.com/live/phkMUVqF6aY?si=tD4nVwbj0z-VL6vP&t=14416)へ書き記したのだった。
+そして最後には、一日とは思えないほど濃密な出来事の数々を振り返りながら、タムは静かに腰を下ろし、その日に起きたすべてを["日記"](https://www.youtube.com/live/phkMUVqF6aY?t=14416)へ書き記したのだった。
 
 ## ファンアート
 

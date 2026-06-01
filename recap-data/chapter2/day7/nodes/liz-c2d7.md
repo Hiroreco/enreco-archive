@@ -81,7 +81,7 @@ With the... Gas party underway, Elizabeth finds herself at Nerissa's side throug
 
 Walking back to the forge after the party, she takes a moment to [stare at the burning memories](https://www.youtube.com/live/sDjysXFWYbI?t=13731). Once again, she finds herself face-to-face with Nerissa.
 
-["You're also pretty too."](#embed:https://www.youtube.com/live/sDjysXFWYbI?si=038e-vGsvZvwxgJe&t=13938)
+["You're also pretty too."](#embed:https://www.youtube.com/live/sDjysXFWYbI?t=13938)
 
 It comes out vocally this time. It's not a thought inside Elizabeth’s head—an admission of something.
 

@@ -7,17 +7,17 @@ And what better way to set the tone for such an “event” than witnessing some
 
 As Shiori began her morning, she stumbled across Roa—or at least, someone who looked like Roa. The pink cat said nothing at all. Instead, before Shiori could even process what was happening, she simply—
 
-[To drown herself](#embed:https://www.youtube.com/live/PNrclGd76n4?si=4kgvZZqQ7ZSILsCG&t=762)
+[To drown herself](#embed:https://www.youtube.com/live/PNrclGd76n4?t=762)
 
 It startled Shiori deeply, though it would not be the last strange encounter she would have with the pink feline that day (see [Roa-Shiori](#edge:raora-shiori)). Still, the scene planted an idea in her mind, one that perfectly matched the atmosphere she wanted for the gathering later that night.
 
 Something centered around _death_.
 
-Afterwards, she resumed work on the chapel. The interior still lacked its finishing touches, so Shiori spent the day gathering the final materials she needed. Some she collected herself, while others she acquired through the [help](https://www.youtube.com/live/PNrclGd76n4?si=mmjDaUjMDsj1Oy_n&t=1731) of those around her.
+Afterwards, she resumed work on the chapel. The interior still lacked its finishing touches, so Shiori spent the day gathering the final materials she needed. Some she collected herself, while others she acquired through the [help](https://www.youtube.com/live/PNrclGd76n4?t=1731) of those around her.
 
 She also needed her tools upgraded, and there was only one person she trusted enough to bother for that task (see [Elizabeth-Shiori](#edge:liz-shiori)).
 
-But aside from preparing for her grand event, another matter demanded everyone’s attention: the conquest of the [Labyrinth of Emotion,](https://www.youtube.com/live/PNrclGd76n4?si=2WQTkle1yjCwGpGA&t=4468) where, upon clearing it, the group recovered the memories of [Koseki Bijou.](https://www.youtube.com/live/PNrclGd76n4?si=Kgxjy4Ur4T8yNHgN&t=6623)
+But aside from preparing for her grand event, another matter demanded everyone’s attention: the conquest of the [Labyrinth of Emotion,](https://www.youtube.com/live/PNrclGd76n4?t=4468) where, upon clearing it, the group recovered the memories of [Koseki Bijou.](https://www.youtube.com/live/PNrclGd76n4?t=6623)
 
 Once that ordeal was over, Shiori hurried straight back to the chapel and resumed construction. A chain here, a decoration there, a few final adjustments beneath the glow of polished quartz, and at last—
 
@@ -31,7 +31,7 @@ And inside that container, she placed—
 
 The corpse of Shakira.
 
-[I'm sure everyone loves you](#embed:https://www.youtube.com/live/PNrclGd76n4?si=a6pzhY9MFQ1cynEg&t=8494)
+[I'm sure everyone loves you](#embed:https://www.youtube.com/live/PNrclGd76n4?t=8494)
 
 The sheer morbidity of it stained the chapel’s otherwise radiant beauty. The contrast was horrifying. Sacred quartz walls illuminated a dangling corpse like some grotesque centerpiece. It was the kind of sight that would make most people recoil in nausea.
 
@@ -49,7 +49,7 @@ Because Shiori’s _actual_ plan was to eventually sell the stolen corpse for a 
 
 Still, before that, she devised a little game.
 
-Using what she claimed was “magic,” Shiori created two different versions of a ["prayer guide."](https://www.youtube.com/live/PNrclGd76n4?si=jC4AcLS2oR_2OdKw&t=10568) Most of the copies contained identical prayers, but one was subtly different. According to Shiori’s logic, whoever ended up reading the unique version aloud would reveal themselves as Shakira’s killer.
+Using what she claimed was “magic,” Shiori created two different versions of a ["prayer guide."](https://www.youtube.com/live/PNrclGd76n4?t=10568) Most of the copies contained identical prayers, but one was subtly different. According to Shiori’s logic, whoever ended up reading the unique version aloud would reveal themselves as Shakira’s killer.
 
 - Read [Inkwell Prayer](#text:inkwell-prayer)
 - Read [Inkwell Prayer (Mordon)](#text:inkwell-prayer-mori)
@@ -58,7 +58,7 @@ With everything finally prepared, she summoned the kingdom to the church for the
 
 Unfortunately for her, things did not go quite as planned.
 
-[The "Funeral" of Shakira](#embed:https://www.youtube.com/live/PNrclGd76n4?si=ImfMPrcDObUD-33J&t=11195)
+[The "Funeral" of Shakira](#embed:https://www.youtube.com/live/PNrclGd76n4?t=11195)
 
 As Shiori distributed the prayer sheets—charging people for them, of course—someone inside the chapel accidentally spotted Shakira’s hanging corpse before the ceremony properly began. Shiori had hoped to reveal it dramatically herself, so the surprise being ruined was mildly disappointing.
 
@@ -66,7 +66,7 @@ Still, since everyone already knew, she decided there was no point delaying the 
 
 And thus came the moment of truth.
 
-[And the murderer, is you!](#embed:https://www.youtube.com/live/PNrclGd76n4?si=U-25q79ncN8CqM0t&t=11587)
+[And the murderer, is you!](#embed:https://www.youtube.com/live/PNrclGd76n4?t=11587)
 
 As the crowd recited the prayers aloud, one voice differed from the others.
 
@@ -100,9 +100,9 @@ Well, at least she got a good laugh out of it.
 
 And now she also had a hanging corpse decorating her church.
 
-[My sides hurt](#embed:https://www.youtube.com/live/PNrclGd76n4?si=YUWs-Lx27pmKrU9E&t=11960)
+[My sides hurt](#embed:https://www.youtube.com/live/PNrclGd76n4?t=11960)
 
-Later, after the chaos had settled down, Shiori spoke with [Bijou](https://www.youtube.com/live/PNrclGd76n4?si=n8f9_1qAccL1yeSb&t=12068) about everything that had happened—how the idea came to her, what she had hoped to achieve, and why the outcome left her so deeply puzzled.
+Later, after the chaos had settled down, Shiori spoke with [Bijou](https://www.youtube.com/live/PNrclGd76n4?t=12068) about everything that had happened—how the idea came to her, what she had hoped to achieve, and why the outcome left her so deeply puzzled.
 
 Because if Shakira truly mattered to everyone, then why did nobody mourn her properly?
 
@@ -128,7 +128,7 @@ More than anything else, she felt annoyed. Confused.
 
 And disappointed.
 
-["She deserved better"](#embed:https://www.youtube.com/live/PNrclGd76n4?si=OJdhQvYXUEsnh1q0&t=12694)
+["She deserved better"](#embed:https://www.youtube.com/live/PNrclGd76n4?t=12694)
 
 ## Fanart
 

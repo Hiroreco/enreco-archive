@@ -1,7 +1,7 @@
 <!-- title: Animals -->
 <!-- relationship: The Wolf Pack -->
 
-[Awooooo](#embed:https://www.youtube.com/live/uX0rZYSrb4Q?si=DSfIxWFuDET8gipE&t=404)
+[Awooooo](#embed:https://www.youtube.com/live/uX0rZYSrb4Q?t=404)
 
 Baby, I'm preying on you tonight
 
@@ -13,7 +13,7 @@ Animals
 
 Like animals-mals
 
-[Maybe you think that you can hide](#embed:https://www.youtube.com/live/uX0rZYSrb4Q?si=ygzF1V3H5aVxDjwl&t=6658)
+[Maybe you think that you can hide](#embed:https://www.youtube.com/live/uX0rZYSrb4Q?t=6658)
 
 I can smell your scent for miles
 
