@@ -53,8 +53,27 @@ Near the end, to escalate her already chaotic life, the pink one claimed to be p
 
 For anyone following the story from her perspective, it was easy to lose track of the actual objective everyone came here for.
 
+### Chapter 3
+
+**Name:** Hot Pink One
+**Faction:** Rebellion
+**Job:** Chef
+
+Out of the six days that made up the third journey, the Hot Pink One was present for a whopping... two of them: the first and the last. Needless to say, there wasn't exactly a lot of story from the perspective of this pink menace.
+
+Still, even from her brief appearance, a few details about her adventure can be pieced together.
+
+On the first day, it was clear that her relationship with Tam had not improved in the slightest. The blue maiden remained just as wary of her pink counterpart as ever. Fortunately, her relationship with her pink cat was still going strong, and her consort had even decided to reconcile with her.
+
+The Hot Pink One was also among the few who knew that Shakira had been carrying a child, making news of her murder all the more shocking.
+
+After that, the pink one entered a five-day "slumber," only awakening for the finale. Thoroughly confused by the countless plotlines that had unfolded in her absence, she nevertheless helped complete the final mission before the journey came to an end.
+
+Whether one should be happy that her lack of involvement kept her relationship web wonderfully uncomplicated, or disappointed that she missed out on nearly all of the adventure, remains unclear.
+
 ## Trivia
 
 - Unsurprisingly, as of Chapter 2, the Hot Pink One holds the record for the most romantic (or ex-romantic) partners: Bijou, Nerissa, Shiori, Amelia (for about a minute), Ina, and Tam.
+- In Chapter 1, the Hot Pink One made fun of Peasant the Bae for only appearing on the first and last day of the journey. In Chapter 3, Peasant the Bae returned the favor by making fun of the Hot Pink One for only appearing on the first and last day. Oh, how the turntables.
 
 [irys](#easter:easter-irys)
