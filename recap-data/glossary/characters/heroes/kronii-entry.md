@@ -62,7 +62,7 @@ Thankfully, it seemed that only her royal status had slipped from memory. Tam st
 
 > Queen? Not queen. I'm just Tam. I mine things, upgrade tools. I'm a supplier, not a queen.
 
-Her demeanor, however, remained completely unchanged. Tam was consistently late to each day's adventure, and during every quest and dungeon expedition, there always seemed to be someone eager to support and [assist](https://www.youtube.com/watch?v=JZ2gO4qDJ2w&t=4319) her. Immerkind even went out of their way to build an entire [castle](https://www.youtube.com/watch?v=phkMUVqF6aY&t=12772s) in her honor.
+Her demeanor, however, remained mostly unchanged. Tam was consistently late to each day's adventure, and during every quest and dungeon expedition, there always seemed to be someone eager to support and [assist](https://www.youtube.com/watch?v=JZ2gO4qDJ2w&t=4319) her. Immerkind even went out of their way to build an entire [castle](https://www.youtube.com/watch?v=phkMUVqF6aY&t=12772s) in her honor.
 
 The latter half of the journey was when Tam found herself caught up in increasingly strange circumstances. She accidentally became involved in a ritual, overheard members of Advent discussing something seemingly [evil](https://www.youtube.com/watch?v=phkMUVqF6aY&t=10923s), and eventually regained her memories as Queen Tam Gandr.
 

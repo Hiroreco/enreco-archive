@@ -47,9 +47,26 @@ But then came the twist.
 
 On the final day, Fuwawa, along with Mococo, Bijou, Nerissa, and Shiori, turned away from the other heroes. They rejected Fia’s wish and chose to follow their own path.
 
+### Chapter 3
+
+**Name:** Fuwawa
+**Faction:** Rebellion
+**Job:** Smith
+
+Although the previous chapter left the impression that Fuwawa had become evil and menacing, Chapter 3 quickly proved otherwise. The fluffy one was very much her usual self: cute, hardworking, and eager to avoid trouble whenever possible. While chaos seemed to follow everyone else, Fuwawa did her best to stay out of it.
+
+Truthfully, not much happened from her perspective throughout the journey. The most notable events were acquiring a pet [polar bear](https://www.youtube.com/watch?v=jdWk5-BLjCw&t=3286s) and immediately being terrified of it, finally remembering that Mococo was her twin sister all along, and discovering that she apparently enjoyed terrorizing the neighborhood by blasting [loud music](https://www.youtube.com/watch?v=Db4P0eDfOMY&t=11469s).
+
+> Oh my goodness, why are you so big!? It's terrifying!
+
+Fuwawa also held a slight grudge against Mordon, believing that the pink-haired chef had poisoned Shakira. Ironically, despite her efforts to stay away from trouble, she nearly became a [sacrifice](https://www.youtube.com/watch?v=Db4P0eDfOMY&t=13853s) in a demonic ritual.
+
+On the final day, Fuwawa and the other members of Advent discovered that they had all been afflicted by a mysterious curse. To rid themselves of it, they underwent the Rite of Purification. With the curse finally lifted, the group was reunited with their friends, and everyone stood together once more as the journey came to an end.
+
 ## Trivia
 
 - Fuwawa's chicken flocks in Chapter 1 were murdered, rebuilt, and murdered again—a total of six times.
 - By Chapter 2, Fuwawa had amassed over 60,000 coins, becoming the richest person in the kingdom and surpassing Nerissa's Chapter 1 record of around 50,000 coins.
+- While most adventurers ended Chapter 3 with one or two pets at most, Fuwawa somehow amassed a grand total of **15**.
 
 [fuwawa](#easter:easter-fuwawa)
