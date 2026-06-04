@@ -50,9 +50,28 @@ That was it. Tam [snapped.](#entry:hot-pink-one-collapse-entry)
 
 She cut ties, took revenge, and made a bold play for Ina herself. In a dramatic reversal, the oppressed queen reclaimed her crown—not through royalty, but by clapping back hard and laughing as she came out on top.
 
+### Chapter 3
+
+**Name:** Tam, Tam Gandr
+**Faction:** Shining Stars
+**Job:** Supplier
+
+At the start of Chapter 3, the ever-prideful self-proclaimed queen, Tam Gandr, appeared to have forgotten much of her identity from previous adventures. Whenever others addressed her as a queen, she responded with confusion: "Queen? I'm not a queen." She simply referred to herself as "Tam," with no last name, and most notably, she no longer remembered that Gonathon had once been her loyal servant (see [Once Queen, Now A Friend](#entry:once-queen-now-a-friend)).
+
+Thankfully, it seemed that only her royal status had slipped from memory. Tam still remembered her endless [hatred](https://www.youtube.com/watch?v=sT4tuLP6UJQ&t=801) for the Hot Pink One, how Roa had given her her name, and being stripped of her noble status certainly did not make life any [easier](https://www.youtube.com/watch?v=sT4tuLP6UJQ&t=12617) during this journey.
+
+> Queen? Not queen. I'm just Tam. I mine things, upgrade tools. I'm a supplier, not a queen.
+
+Her demeanor, however, remained completely unchanged. Tam was consistently late to each day's adventure, and during every quest and dungeon expedition, there always seemed to be someone eager to support and [assist](https://www.youtube.com/watch?v=JZ2gO4qDJ2w&t=4319) her. Immerkind even went out of their way to build an entire [castle](https://www.youtube.com/watch?v=phkMUVqF6aY&t=12772s) in her honor.
+
+The latter half of the journey was when Tam found herself caught up in increasingly strange circumstances. She accidentally became involved in a ritual, overheard members of Advent discussing something seemingly [evil](https://www.youtube.com/watch?v=phkMUVqF6aY&t=10923s), and eventually regained her memories as Queen Tam Gandr.
+
+Despite her best efforts to stay out of trouble, trouble had a habit of finding her nonetheless. The whole ordeal was chaotic, but at least the blue maiden had a companion to keep her company. Not a small companion, mind you, but quite a large one: a pet panda named [Tamda](https://www.youtube.com/watch?v=phkMUVqF6aY&t=11704s).
+
 ## Trivia
 
 - Tam was the poorest of all the heroes in Chapter 1; she was also the only person who never managed to surpass the 1,000-coin mark.
 - Tam rarely, if ever, initiated any of the shenanigans she got caught up in during Chapter 2. From Gonathon’s love quarrel, to the pink one’s birth situation, to the child dispute—this poor queen was simply dragged into all of it the moment she rose from bed.
+- In Chapter 3, Tam never built anything herself and was not directly involved in any construction projects around the kingdom. This stands in contrast to previous chapters, where she built a guild house in Chapter 1 and helped organize the Hot Pink One's gender reveal picnic in Chapter 2.
 
 [kronii](#easter:easter-kronii)
