@@ -117,3 +117,7 @@
 ## 関連ストーリー
 
 - 「[青き魔女の眷属（第二の物語）](#entry:maven-in-blue-entry)」も参照。
+
+## クレジット
+
+- エントリーサムネイル作成者：[paw_chie](https://x.com/paw_chie/status/2058764089401528674)

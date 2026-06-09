@@ -74,3 +74,7 @@ No longer an ideal and her devoted follower.
 From that point onward, they would simply be friends.
 
 Good friends.
+
+## Credits
+
+- Entry thumbnail by [RikuJe](https://x.com/RikuJe/status/2061856195133268178)

@@ -1,7 +1,7 @@
 <!-- title: The Illumination -->
 <!-- quote: Guys, what the heck! Where am I?! -->
 <!-- chapters: 2 -->
-<!-- images: (Roa breaking the simulation), (Roa being sacrificed in a ritual) -->
+<!-- images: (Roa breaking the simulation), (Roa being sacrificed in a ritual), (The Illumination Poster) -->
 <!-- model: false -->
 
 ## Overview

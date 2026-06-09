@@ -82,3 +82,7 @@ And the Queen in Yellow was left with her unanswered questions.
 
 - The "Queen in Yellow" and Shiori's ritual storyline were heavily inspired by **_The King in Yellow_**, a collection of horror stories written by **Robert W. Chambers**. Both feature a mysterious yellow-clad figure associated with madness, forbidden knowledge, and sinister rituals.
 - On the final day, Shiori cleverly concealed the ritual chamber by blocking off the direct path leading to it and constructing an ordinary-looking room above the entrance. The deception successfully misled pursuers, causing many to continue searching elsewhere while the hidden chamber remained concealed beneath them.
+
+## Credits
+
+- Entry thumbnail by [Derved](https://x.com/Derved_/status/2060113424143491547)

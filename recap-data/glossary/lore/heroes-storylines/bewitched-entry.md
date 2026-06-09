@@ -83,3 +83,7 @@ Only time would tell.
 ## Related Stories
 
 - See ["Maven in Blue (Second Story)"](#entry:maven-in-blue-entry)
+
+## Credits
+
+- Entry thumbnail by [paw_chie](https://x.com/paw_chie/status/2058764089401528674)
