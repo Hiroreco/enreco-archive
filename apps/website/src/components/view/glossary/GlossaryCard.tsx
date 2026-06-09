@@ -463,7 +463,7 @@ const GlossaryCard = ({ className, bgImage }: GlossaryCardProps) => {
                             src={getBlurDataURL(bgImage)}
                             alt=""
                             fill
-                            className="object-cover blur-xl dark:opacity-20 opacity-40"
+                            className="object-cover blur-xl dark:opacity-10 opacity-30"
                             priority={false}
                         />
                         {/* Dark overlay to ensure content readability */}
@@ -483,7 +483,7 @@ const GlossaryCard = ({ className, bgImage }: GlossaryCardProps) => {
                             src={getBlurDataURL(entryBg)}
                             alt=""
                             fill
-                            className="object-cover blur-md dark:opacity-20 opacity-40"
+                            className="object-cover blur-md dark:opacity-10 opacity-30"
                             priority={false}
                         />
                         {/* Dark overlay to ensure content readability */}

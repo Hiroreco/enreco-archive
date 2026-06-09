@@ -6,7 +6,7 @@
 
 ## Overview
 
-**Memories:** Not Recollected
+**Memories:** [Recollected](https://www.youtube.com/watch?v=Op93qMSs24o)
 **Revelation:** [Shining Emotions](#entry:shining-emotions-entry)
 
 The contrast between the gem maiden’s petite figure, voice, and the chaos she brought upon this journey was quite remarkable, but that’s exactly what Koseki Bijou was. Mischievous, adorable, and unwaveringly committed to whatever she set her sights on—no matter how silly, or how much pain it caused others. A truly special gem.

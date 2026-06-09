@@ -85,4 +85,4 @@ And the Queen in Yellow was left with her unanswered questions.
 
 ## Credits
 
-- Entry thumbnail by [Derved](https://x.com/Derved_/status/2060113424143491547)
+- Entry thumbnail by [kikoshaula](https://x.com/kikoshaula/status/2060510295106388158)

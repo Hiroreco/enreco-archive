@@ -47,4 +47,4 @@ Awaiting the heroes at the end of the labyrinth was the [Prisoner of Duality,](h
 ### Rewards
 
 - ["Lifetime Showtime"](https://www.youtube.com/watch?v=Nj17tbZP4oA) Vinyl – FUWAMOCO
-- [Memories](https://www.youtube.com/watch?v=EuzGZVDBH04&t=29s) of Fuwawa Abyssguard and Mococo Abyssguard.
+- [Memories](https://www.youtube.com/watch?v=EuzGZVDBH04) of Fuwawa Abyssguard and Mococo Abyssguard.

@@ -6,7 +6,7 @@
 
 ## Overview
 
-**Memories:** Not Recollected
+**Memories:** [Recollected](https://www.youtube.com/watch?v=07KOLCi_j20)
 **Revelation:** [Resonant Strike](#entry:resonant-strike-entry)
 
 Nerissa Ravencroft—more precisely, Nerissa _Juliet_ Ravencroft—was a kind and hard-working maiden, always eager to lend a hand to those in need. She had a playful tendency to flirt, meaning every word, even if it was all wrapped in teasing banter. Yet her heart undeniably saved a special place for one particular scarlet knight, a bond that became the talk of the entire journey.

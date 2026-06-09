@@ -93,7 +93,7 @@ In the end, Roa never received the answers she had spent the entire journey sear
 
 Yet despite failing to solve the mystery of the world, she managed to find closure for something far more important.
 
-A trial was held regarding Shakira's death, and afterward her remains were finally cremated. With that final farewell, Roa was at last able to let go.
+A trial was held regarding Shakira's death, and afterward her remains were [finally cremated.](https://www.youtube.com/live/mZM0OO3VK9s?si=Iog2C3k3NOFdVLka&t=4933) With that final farewell, Roa was at last able to let go.
 
 The truth of the world remained elusive.
 

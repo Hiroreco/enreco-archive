@@ -8,7 +8,7 @@
 
 **Day Unlocked:** 6
 
-The **Rite of Purification** was a special trial that took place before the heroes could begin their final mission into Nullspace. Its purpose was to purify the members of Advent and break the Curse that had driven a wedge between them, allowing them to reunite before the chapter's conclusion.
+The **Rite of Purification** was a special trial that took place before the heroes could begin their final mission into [Nullspace.](#entry:nullspace-entry) Its purpose was to purify the members of Advent and break the Curse that had driven a wedge between them, allowing them to reunite before the chapter's conclusion.
 
 ## Details
 
