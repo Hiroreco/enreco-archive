@@ -13,6 +13,6 @@ export const LS_KEYS = {
     HAS_VISITED_TRANSLATION_DISCLAIMER: "has-visited-translation-disclaimer",
     NO_TRANSLATION_YET: "no-translation-yet",
     CURRENT_VERSION_KEY: "enreco-current-version",
-    CURRENT_VERSION: "2026-05-30", // Update this every announcement release
+    CURRENT_VERSION: "2026-06-09", // Update this every announcement release
     COUNTDOWN_UPDATE_VERSION: "countdown-update-version",
 };
