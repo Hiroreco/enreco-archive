@@ -667,6 +667,13 @@
             "ja": "日に日に青くなっていくエリザベス"
           },
           "source": "/images-opt/bewitched-entry-0-opt.webp"
+        },
+        {
+          "title": {
+            "en": "Elizabeth Blue Bloodflame",
+            "ja": "エリザベス・ブルー・ブラッドフレイム"
+          },
+          "source": "/images-opt/bewitched-entry-1-opt.webp"
         }
       ],
       "imageSrc": "/images-opt/bewitched-entry-opt.webp"
@@ -703,6 +710,13 @@
             "ja": "シオリがロアに儀式への参加を強いる様子"
           },
           "source": "/images-opt/yellow-queen-entry-1-opt.webp"
+        },
+        {
+          "title": {
+            "en": "Nyavella's Secret Room, hiding the ritual chamber below",
+            "ja": "ニャヴェラの秘密の部屋、その下に儀式室が隠されている"
+          },
+          "source": "/images-opt/yellow-queen-entry-2-opt.webp"
         }
       ],
       "imageSrc": "/images-opt/yellow-queen-entry-opt.webp"

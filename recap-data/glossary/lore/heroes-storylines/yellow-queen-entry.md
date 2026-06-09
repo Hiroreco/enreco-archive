@@ -1,7 +1,7 @@
 <!-- title: The Queen In Yellow -->
 <!-- quote: Close your eyes, good girl. It'll be over soon. -->
 <!-- chapters: 2 -->
-<!-- images: (The funeral of Shakira), (Shiori forcing Roa to partake in her ritual) -->
+<!-- images: (The funeral of Shakira), (Shiori forcing Roa to partake in her ritual), (Nyavella's Secret Room, hiding the ritual chamber below) -->
 <!-- model: false -->
 
 ## Overview

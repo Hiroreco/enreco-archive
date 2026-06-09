@@ -66,13 +66,13 @@ const GlossaryCard = ({ className, bgImage }: GlossaryCardProps) => {
     >(
         () => ({
             "cat-lore": { label: tGlossary("categories.lore"), icon: <Book /> },
-            "cat-quests": {
-                label: tGlossary("categories.quests"),
-                icon: <Scroll />,
-            },
             "cat-characters": {
                 label: tGlossary("categories.characters"),
                 icon: <UserRound />,
+            },
+            "cat-quests": {
+                label: tGlossary("categories.quests"),
+                icon: <Scroll />,
             },
             "cat-weapons": {
                 label: tGlossary("categories.weapons"),
