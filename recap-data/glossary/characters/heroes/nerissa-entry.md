@@ -65,6 +65,28 @@ Then something inside her cracked. Through a series of events, Nerissa came to a
 
 By the journey’s end, Nerissa, along with Fuwawa, Mococo, Bijou, and Shiori, chose to reject Fia’s plea and carve their own path, setting themselves against the other heroes. How Elizabeth might react, and whether their fragile, growing bond could survive this choice, only time would tell.
 
+### Chapter 3
+
+**Name:** Nerissa Juliet Ravencroft
+**Faction:** Rebellion
+**Job:** Chef
+
+The Blue Witch fully emerged in Chapter 3.
+
+The signs had already been there near the end of the previous journey, where Nerissa's displays of affection toward Elizabeth had begun to cross questionable lines. This time, however, any restraint seemed to vanish entirely. For most of the chapter, Nerissa concerned herself with one thing above all else: keeping Elizabeth firmly under her control. Whether through manipulation, puppeteering, or simple amusement at the knight's expense, she treated Lady Bloodflame less like a companion and more like a toy to be kept on a leash (for more details, see [Bewitched](#entry:bewitched-entry)).
+
+Yet Elizabeth was far from the only target of Nerissa's schemes.
+
+Behind the warm smiles and friendly demeanor she presented to the kingdom lurked a far darker side. Her kindness was convincing enough that even those who initially suspected her of being evil eventually began to trust her. In reality, Nerissa had little hesitation when it came to supporting acts of villainy.
+
+Perhaps the most notable example was her involvement in helping Shiori construct the demonic [ritual chamber](#entry:yellow-queen-entry). Together, they lured unsuspecting victims into its depths, coercing them into participating in rituals and ultimately turning them into sacrifices. Throughout it all, Nerissa rarely seemed troubled by what she was doing. If anything, she appeared to enjoy it.
+
+However, after recovering her memories on Day 4, a new conflict began to emerge within her. The memories forced Nerissa to question her own identity. Was she truly meant to be good? Or was the cruel and manipulative witch she had become her real self all along?
+
+No matter how much she searched for an answer, she never managed to find one before the journey ended.
+
+Perhaps the next chapter will reveal which version of Nerissa is the truth.
+
 ## Notable Writings
 
 - [Read "Maven in Blue"](#text:maven-in-blue)
@@ -77,5 +99,6 @@ By the journey’s end, Nerissa, along with Fuwawa, Mococo, Bijou, and Shiori, c
 - In Chapter 1, Nerissa was the only person to amass over 50,000 coins on her own, making her the richest individual in the entire kingdom.
 - In Chapter 2, Nerissa nearly gave up her work as a chef because no one was buying her food.
 - (Out of character) During a Chapter 2 post-analysis stream, Nerissa expressed that she would like to be called Nerissa Juliet Ravencroft within the ENreco universe, to distinguish herself from _the_ Nerissa Ravencroft.
+- In Chapter 3, Nerissa reclaimed her title as the richest person in the kingdom. By the final day, she possessed over **30,000 coins**, having reached a peak of more than **50,000 coins** at one point during the journey.
 
 [neri](#easter:easter-nerissa)
