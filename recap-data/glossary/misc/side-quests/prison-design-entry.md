@@ -1,7 +1,7 @@
 <!-- title: NPC and Prison Cell Design Ideas -->
 <!-- quote: We look forward to seeing your creations! -->
 <!-- chapters: 2 -->
-<!-- images:  -->
+<!-- images: (Prison Cell Template), (Nerissa visiting a decorated prison cell) -->
 <!-- model: false -->
 
 ## Overview

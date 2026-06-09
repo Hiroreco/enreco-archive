@@ -1,7 +1,7 @@
 <!-- title: Labyrinth of Duality -->
-<!-- quote: -->
+<!-- quote: We walked out of hell and straight into a heaven full of anime, manga, and games. -->
 <!-- chapters: 2 -->
-<!-- images:  -->
+<!-- images: (Labyrinth of Duality Overview #1), (Labyrinth of Duality Overview #2), (Labyrinth of Duality Overview #3), (Entrance to Labyrinth of Duality) -->
 <!-- model: false -->
 
 ## Overview

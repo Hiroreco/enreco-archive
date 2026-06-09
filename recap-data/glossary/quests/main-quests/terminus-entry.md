@@ -1,7 +1,7 @@
 <!-- title: Prison at the End of Infinity -->
 <!-- quote: I don't think I like this place... Bau bau... -->
 <!-- chapters: 2 -->
-<!-- images:  --->
+<!-- images: (Terminus Overview #1), (Terminus Overview #2), (Terminus Overview #3) --->
 <!-- model: false -->
 
 ## Overview

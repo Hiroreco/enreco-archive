@@ -1,7 +1,7 @@
 <!-- title: Nullspace -->
 <!-- quote: The most secure location in the universe -->
 <!-- chapters: 2 -->
-<!-- images: -->
+<!-- images: (Nullspace Overview #1), (Nullspace Overview #2), (Nullspace Overview #3) -->
 <!-- model: false -->
 
 ## Overview

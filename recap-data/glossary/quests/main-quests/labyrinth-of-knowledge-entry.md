@@ -1,7 +1,7 @@
 <!-- title: Labyrinth of Knowledge -->
-<!-- quote: -->
+<!-- quote: How was I supposed to know it was forbidden? -->
 <!-- chapters: 2 -->
-<!-- images:  -->
+<!-- images: (Labyrinth of Knowledge Overview #1), (Labyrinth of Knowledge Overview #2), (Labyrinth of Knowledge Overview #3), (Labyrinth of Knowledge Overview #4), (Entrance to Labyrinth of Knowledge) -->
 <!-- model: false -->
 
 ## Overview

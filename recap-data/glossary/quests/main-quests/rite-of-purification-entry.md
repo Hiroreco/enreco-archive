@@ -1,7 +1,7 @@
 <!-- title: Rite of Purification -->
-<!-- quote:  -->
+<!-- quote: There is one spot Mococo likes to hide. I found her there three times. -->
 <!-- chapters: 2 -->
-<!-- images: -->
+<!-- images: (Ina chasing down two Advent members) -->
 <!-- model: false -->
 
 ## Overview

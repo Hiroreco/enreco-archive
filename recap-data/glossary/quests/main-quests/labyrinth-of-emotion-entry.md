@@ -1,7 +1,7 @@
 <!-- title: Labyrinth of Emotion -->
-<!-- quote: -->
+<!-- quote: I thought people were going crazy over me because I was a magical gem. -->
 <!-- chapters: 2 -->
-<!-- images:  -->
+<!-- images: (Labyrinth of Emnotion Overview #1), (Labyrinth of Emnotion Overview #2), (Entrance to Labyrinth of Emotion) -->
 <!-- model: false -->
 
 ## Overview

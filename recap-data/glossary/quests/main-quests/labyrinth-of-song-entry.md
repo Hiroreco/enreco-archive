@@ -1,7 +1,7 @@
 <!-- title: Labyrinth of Song -->
-<!-- quote: -->
+<!-- quote: I love music. It's a universal magic that anyone can use. -->
 <!-- chapters: 2 -->
-<!-- images:  -->
+<!-- images: (Labyrinth of Song Overview #1), (Labyrinth of Song Overview #2), (Labyrinth of Song Overview #3), (Entrance to Labyrinth of Song) -->
 <!-- model: false -->
 
 ## Overview

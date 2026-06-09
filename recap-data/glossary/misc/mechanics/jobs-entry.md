@@ -1,6 +1,6 @@
 <!-- title: Jobs -->
 <!-- quote: 250 coins for one soup?! -->
-<!-- chapters: 1 -->
+<!-- chapters: 1, 2 -->
 <!-- images: (Jobs Overview), (Jobs and their icons), (Charms made by a Jeweler), (Upgrade Stones made by a Smith), (Food made by a Chef) -->
 <!-- model: false -->
 

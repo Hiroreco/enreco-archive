@@ -14,8 +14,8 @@ There are currently **four minigames**, each originally introduced in **Chapter 
 
 ### Color Cannon
 
-**Appearance:** Chapter 1, Chapter 2
-**Representing Guild:** Amber Coin
+**Appearance:** Chapter 1, Chapter 2, Chapter 3
+**Representing Guild:** Amber Coin (Chapter 1)
 
 A game of chance and tension. Players place wagers on any of the four available colors:
 
@@ -32,8 +32,8 @@ Once the game begins, colors are eliminated one by one on a large board until on
 
 ### Duel Arena
 
-**Appearance:** Chapter 1, Chapter 2
-**Representing Guild:** Jade Sword
+**Appearance:** Chapter 1, Chapter 2, Chapter 3
+**Representing Guild:** Jade Sword (Chapter 1)
 
 A test of strength, reflex, and endurance. Two challengers face off using only wooden swords, and the match continues until one remains standing.
 
