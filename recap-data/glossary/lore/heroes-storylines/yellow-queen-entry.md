@@ -5,25 +5,68 @@
 <!-- model: false -->
 
 ## Overview
+
 **Chapter:** 3
 **Duration:** Day 3 to 6
 
-Shiori started out her journey as a humble sister in her humble church,  said humble church would at the end had a demonic ritual built underneath with the hope to be able to open a portal to a place where everyone would be "free".
+Shiori began her journey as nothing more than a humble sister tending to a humble church. By the end of the adventure, that same church housed a hidden ritual chamber beneath its foundations, built in the hope of opening a gateway to a place where everyone could finally be "free."
 
 ## Details
 
 ### How it started
 
-On the firsrt day of her jounrreyShiori had made it clear that she would be a sister, and built her own church, the Church of the Cloth, as she would call it. It initially started out with not much purpose, she intended to listen to people confess, and do stuff that any sister would do. But it wasn't until she found out Shakira's corpse did those intentions change slightly. She dug up and stole the body without anyone's notice, and on day 3, she hung the body up in her church, ~~put a price tag on it~~, and called everyone in the kingdom to her church to hold what she deemed "a funeral for Shakira".
+From the very first day of the journey, Shiori made it clear what role she wished to play. She would be a sister, and to support that role, she established her own place of worship: the Church of the Cloth.
+
+At first, the church had a simple purpose. Shiori intended to listen to confessions, offer guidance, and perform the duties one might expect from a devoted sister. Things remained relatively ordinary until the discovery of Shakira's corpse.
+
+Without drawing attention to herself, Shiori secretly dug up and took possession of the body. Then, on Day 3, she displayed it within her church, ~~put a price tag on it~~, and invited the entire kingdom to attend what she called "a funeral for Shakira."
 
 ### How it went
-The funeral did not go as well as she'd planned, it was chaotic and the attendees did not collaborate as she'd hoped them too. Shiori held the event for two reaosns, first she wanted Shakira to get the send off she truly deserved and not just a passing thought for others, and second, she wanted something for everyone to be a part of seeing how diverged everyone's path was. But alas, it did not work as as she wanted.
 
-But that didn't deter the sister, on the very next day after the funeral, Shiori started constructing something in secret underneath her church, only letting Nerissa and Bijou aware of it and allowing them to help her out. It turned out to be a room(? find better word for this) with firrer burning, blood dripping, a demonic place, where a portal, or "gate to welcome the end of this 'world'." resided. And once again, the sister had constructed something so everyone would be "together" once more, albeit how morbid the methods were.
+Unfortunately for Shiori, the funeral did not go as she had envisioned. Rather than becoming a heartfelt gathering that united the kingdom, the event quickly descended into chaos. The attendees failed to cooperate, conversations went off the rails, and the solemn atmosphere she had hoped to create never truly materialized.
 
-One by one, Shiori would bring down innocent and unaware souls to take part in a ritual, with each end up with the final step of having the "sacrifices" suffocate themselves. 
+The funeral had served two purposes.
+
+First, Shiori genuinely wanted Shakira to receive a proper farewell rather than becoming a forgotten tragedy.
+
+Second, she wanted to bring everyone together. As the journey progressed, people's paths had diverged so greatly that many barely interacted anymore. The funeral was meant to be a shared moment that reminded everyone they were still part of the same story.
+
+Neither goal was fully realized.
+
+Still, failure did not discourage her.
+
+The very next day, Shiori began work on a secret project beneath her church. Only Nerissa and Bijou were informed of its existence, and only they were allowed to assist. Hidden below the sanctuary, they constructed a ritual chamber.
+
+The underground hall was filled with burning fires, dripping blood, and ominous decorations. It looked less like a place of worship and more like something pulled from a nightmare. At its center stood a mysterious portal—or, as Shiori described it, a gate that would welcome the end of their "world."
+
+In her own strange way, Shiori was once again trying to bring everyone together. The method, however, was considerably more alarming this time.
+
+One by one, unsuspecting adventurers were lured beneath the church and made participants in the ritual. Each ceremony followed a similar pattern, culminating in the "sacrifice" being instructed to suffocate themselves as part of the process.
+
+Whether any of it truly worked remained unclear.
+
+But Shiori continued her efforts regardless.
 
 ### How it ended
-In the end, once again, no satisfying conclusion came to all that Shiori had meticulously planned and made, as the  journey ended abrubtly. Seeing how the "gate" would not have a conclusion, on the final day, Shiori hid it away very smartly so no one owuld be able to find it, and in place, a small, normal room was built, as a disguise to lure those curious mind away from the gate itself.
 
-With much to grieve and frustration to vent, Shiori couldn't do nothing more but to vent it in a diary, a diary hidden in the room mentioned, a diary that ion the end none read, a diary that descrbie the tired sister's thoughts and mind, how lost she felt, and what she yearned now through this tiresome journey.
+In the end, much like many of Shiori's ambitious projects, the ritual never received a proper conclusion.
+
+The journey ended before the gate's purpose could be fully revealed or explored.
+
+Realizing there would be no resolution, Shiori took precautions on the final day. She carefully concealed the ritual chamber and hid any obvious traces of its existence. In its place, she constructed a small, ordinary room designed to distract curious visitors and keep attention away from the gate itself.
+
+And so the church remained standing. Above ground sat a humble chapel.
+
+Below it rested secrets that would never be fully uncovered.
+
+Left with lingering grief and mounting frustration, Shiori found herself unable to do much else besides write.
+
+Hidden within the disguised room was a diary. A diary that no one ever read.
+
+A diary filled with the thoughts of an exhausted sister: her disappointments, her loneliness, her confusion, and her hopes. It chronicled how lost she felt, how little certainty she had about the path ahead, and what she still longed to find at the end of this exhausting journey.
+
+In the end, the gate remained closed.
+
+The diary remained unread.
+
+And the Queen in Yellow was left with her unanswered questions.

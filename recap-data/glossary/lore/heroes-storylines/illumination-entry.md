@@ -7,7 +7,7 @@
 ## Overview
 
 **Chapter:** 3
-**Duration:** Day 1 to 8
+**Duration:** Day 1 to 6
 
 After witnessing the death of her wife on the very first day of Chapter 3, Roa slowly spiraled into madness as she uncovered more and more unsettling secrets hidden within the kingdom they inhabited. What began as a search for justice eventually transformed into an obsession with uncovering the truth of the world itself, leading her to found a cult known as _the Illumination_ and recruit others into her increasingly bizarre beliefs.
 
