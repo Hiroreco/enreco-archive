@@ -43,10 +43,37 @@ Naturally, Mordan found herself tangled in a few shenanigans, too. She almost en
 
 She was, after all, a woman of many talents—one deeply invested in the happiness and well-being of her friends.
 
+### Chapter 3
+
+**Name:** Mordan Ramsey
+**Faction:** Shining Stars
+**Job:** Chef
+
+Mordan only wanted to cook. As such, she began her third journey much the same way she had before: as a chef dedicated to feeding the kingdom. Unfortunately, after baking a chocolate "fertility cake" for the newlywed couple Shakira and Roa, Shakira suddenly died shortly after eating it.
+
+That single incident would cast a shadow over the rest of Mordan's journey.
+
+Accused by many of poisoning the cake, the devastated chef fled into the wilderness, determined to clear her name. Thankfully, she was not alone. Her trusted wolf-pack companions remained by her side throughout the ordeal.
+
+Despite the accusations, Mordan continued trying to do good. She once again established a restaurant for the kingdom, worked hard to support others, and even adopted a pet chicken named "Shakira" in honor of her fallen friend. Slowly but surely, she began rebuilding the trust she had lost and repairing her reputation among those who had turned against her.
+
+Yet the rumors refused to die.
+
+On Day 3, Shiori hosted a [funeral](#entry:yellow-queen-entry) for Shakira within her church. During the event, the allegations surrounding Mordan resurfaced with full force. Between the lingering poisoner rumors and her grim-reaper-like appearance, suspicion once again settled firmly upon the chef's shoulders.
+
+At the end of Day 5, she discovered the identity of Shakira's true killer within the church itself. Unfortunately, before she could do anything with this revelation, she was dropped into a hidden basement and had her memories wiped, leaving her unable to expose what she had learned.
+
+By the time the final day arrived, a formal trial was held to determine whether Mordan was responsible for Shakira's death. Predictably, the proceedings quickly descended into chaos. Still, by the end of the journey, the actual killer openly admitted responsibility, effectively clearing Mordan's name once and for all.
+
+So, was she able to prove her innocence? Technically, yes.
+
+After everything that happened, Mordan seemed to arrive at an important realization: while good food may save the world, she might want to consider a career in counseling as a backup plan.
+
 ## Trivia
 
 - In Chapter 1, Calli’s tavern actually cost her more than it earned, since she was constantly handing out free meals and discounts—most of her “customers” were too broke to pay.
 - Every single divorce Calli officiated on the last day of Chapter 1 was to untangle Bijou’s messy web of relationships.
 - In Chapter 2, Calli became notably wary—and downright fearful—of Shiori, who kept meddling with her businesses and saying unsettling things. Just the goth’s presence alone was enough to send chills down her spine.
+- Calli is the only known adventurer to have kept the same profession across all three chapters, serving as a chef in Chapter 1 (figuratively), Chapter 2, and Chapter 3.
 
 [calli](#easter:easter-calli)
