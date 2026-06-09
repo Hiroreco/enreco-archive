@@ -99,6 +99,6 @@ Perhaps the next chapter will reveal which version of Nerissa is the truth.
 - In Chapter 1, Nerissa was the only person to amass over 50,000 coins on her own, making her the richest individual in the entire kingdom.
 - In Chapter 2, Nerissa nearly gave up her work as a chef because no one was buying her food.
 - (Out of character) During a Chapter 2 post-analysis stream, Nerissa expressed that she would like to be called Nerissa Juliet Ravencroft within the ENreco universe, to distinguish herself from _the_ Nerissa Ravencroft.
-- In Chapter 3, Nerissa reclaimed her title as the richest person in the kingdom. By the final day, she possessed over **30,000 coins**, having reached a peak of more than **50,000 coins** at one point during the journey.
+- While trying to convince Roa to participate in the ritual beneath Shiori's church, the situation became so absurdly funny that Nerissa briefly broke character from laughing.
 
 [neri](#easter:easter-nerissa)

@@ -79,6 +79,6 @@ Making even more money alongside both of her beloved sisters.
 - Her relentless pursuit of wealth made her the third richest hero by the end of Chapter 1 (just behind Fauna and Nerissa) and one of the top earners again in Chapter 2, with coin totals hitting the five-digit mark both times.
 - She bought a whopping **452 lottery tickets** in Chapter 1 (447 from FaunaMart, 5 from NanaEleven). From this, she won only 710 coins at FaunaMart, and 500 coins at NanaEleven (whose tickets were free), but walked away with a 10,000-coin settlement from Nerissa during the lottery fiasco. In the end, she netted a profit of 6,740 coins.
 - When Cecilia requested a 5% cut from the 10,000-coin settlement for her legal services, Mococo handed her 180 coins—a mere 1.8%. Cecilia didn’t question it.
-- Despite dedicating almost her entire Chapter 3 journey to making money, Mococo still failed to become the richest person in the kingdom. That honor instead belonged to Nerissa.
+- Despite dedicating almost her entire Chapter 3 journey to making money, Mococo still failed to become the richest person in the kingdom. That honor instead belonged to Peasant the Bae, ironically so.
 
 [mococo](#easter:easter-mococo)
