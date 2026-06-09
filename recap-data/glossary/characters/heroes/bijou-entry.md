@@ -59,6 +59,24 @@ At the end of the journey, Bijou—along with Fuwawa, Mococo, Nerissa, and Shior
 > The darkness in the heart always takes over, nothing stays pure.
 > MAY THE LANDS BURN!
 
+### Chapter 3
+
+**Name:** Bijou the Stained
+**Faction:** Rebellion
+**Job:** Smith and Jeweler
+
+Bijou woke up and chose evil. Every decision she made was guided by a single goal: causing as much trouble and suffering as possible, simply because she found it entertaining. She wasted no time putting that philosophy into practice. On the very first day, she secretly poisoned a cake, leading to Shakira's death while successfully shifting the blame onto the innocent baker. It was the first move in a grand scheme that would throw the kingdom into chaos.
+
+Even the smallest choices during her adventures were driven by malice. Her antics reached new heights on Day 3, when she purchased Shakira's corpse from Shiori and began using it to terrorize the kingdom. Hidden behind the scenes, Bijou turned the corpse into a tool of fear, haunting unsuspecting victims and luring them into becoming sacrifices for Shiori's ritual.
+
+Perhaps the cruelest part was how she manipulated those who trusted her. Roa Pandora, Shakira's own wife, believed Bijou was someone she could rely on. Instead, she became one of Bijou's victims—tormented by the corpse hauntings and ultimately deceived into becoming a sacrifice herself.
+
+Bijou also appeared to be one of Shiori's most enthusiastic supporters. The two had long shared a peculiar bond that stretched back to previous journeys, and throughout the adventure, Bijou rarely missed an opportunity to aid Shiori's plans.
+
+On the final day, Bijou finally revealed herself as the true killer all along—though the confession was quickly brushed aside due to time constraints. Yet what lingered most was not the reveal itself, but her final admission. In the end, she reminded everyone that the "curse" was never responsible for her actions.
+
+Everything she did, she did entirely of her own free will.
+
 ## Notable Writings
 
 - [Read "Fire and Flight (Volume 1)"](#text:fire-and-flight-1)
@@ -69,5 +87,6 @@ At the end of the journey, Bijou—along with Fuwawa, Mococo, Nerissa, and Shior
 
 - By playing the music disc "Violet"—as a prank to mess with Ina, Bijou accidentally made one of the most iconic moments that defined Chapter 1, between Gonathon G and Amelia Watson.
 - Many others had a habit of calling the gem princess "Biboo," which usually prompted Bijou to correct them.
+- Bijou poisoning the cake that killed Shakira on the very first day of Chapter 3 was carried out so discreetly that almost nobody (even the viewers) suspected her involvement, and the truth remained hidden until she personally confessed near the end of the journey.
 
 [bijou](#easter:easter-bijou)
