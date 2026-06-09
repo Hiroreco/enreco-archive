@@ -49,6 +49,11 @@ const InfoGeneral = () => {
                 <p className="mt-4 leading-relaxed">
                     {t("welcome", { series: t("series") })}
                 </p>
+                <p className="mt-4 leading-relaxed">
+                    {t.rich("dontbesacred", {
+                        strong: (chunks) => <strong>{chunks}</strong>,
+                    })}
+                </p>
             </div>
 
             {/* What is ENreco */}

@@ -1,7 +1,7 @@
 <!-- title: Bewitched -->
 <!-- quote: Lose yourself in the sound -->
 <!-- chapters: 2 -->
-<!-- images: (Elizabeth turning blue day by day) -->
+<!-- images: (Elizabeth turning blue day by day), (Elizabeth Blue Bloodflame) -->
 <!-- model: false -->
 
 ## Overview

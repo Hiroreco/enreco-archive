@@ -66,6 +66,7 @@ As Nerissa, alongside four others, turned against Fia and the other heroes, this
 ## Related Stories
 
 - See ["Fire and Flight (First Story)"](#entry:fire-and-flight-entry)
+- See ["Bewitched" (Continuation)](#entry:bewitched-entry)
 
 ## Credits
 

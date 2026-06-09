@@ -53,9 +53,9 @@ Naturally, that didn’t pan out. But when Shakira hit her lowest point, feeling
 **Faction:** Shining Stars
 **Job:** Smith
 
-Shakira began her third journey as she always did: cheerful, bright, and full of energy.
+Shakira began her third journey as she always did: cheerful, bright, and full of energy!
 
-Then she ate a cake and died.
+...Then she ate a cake and died.
 
 This occurred before the first day was even halfway over.
 
@@ -69,7 +69,7 @@ Shakira suddenly died in front of numerous witnesses, including her wife, Roa. T
 
 **Day 2**
 
-A [memorial](https://www.youtube.com/watch?v=VXqngzJKNZU&t=1012) was constructed in Shakira's honor, and her body was laid to rest. The peace was short-lived.
+A [memorial](https://www.youtube.com/live/VXqngzJKNZU?si=Lk47ID3gL5Yxfg6o&t=3096) was constructed in Shakira's honor, and her body was laid to rest. The peace was short-lived.
 
 Later that same day, Shiori secretly dug up the corpse and took it for herself.
 
@@ -102,5 +102,6 @@ And at long last, the phoenix was allowed to rest, hopefully to return once more
 - The name **Shakira** was actually suggested by Gonathon, since Tanakisha Karia was a bit too much of a mouthful to read.
 - Shakira often boasted about her ability to speak “the language of the gods,” otherwise known as **German**, proudly being one of only two in the entire kingdom who could.
 - Shakira was absent for the majority of Chapter 3 because she was busy IRL, so she had her "death" planned out from the get-go.
+- Whenever people paid tribute to Shakira's corpse during Chapter 3, it became customary to sing _Hips Don't Lie_ by, well, Shakira.
 
 [kiara](#easter:easter-kiara)
