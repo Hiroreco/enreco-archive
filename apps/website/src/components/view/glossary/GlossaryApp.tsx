@@ -18,7 +18,7 @@ const GlossaryApp = ({ bgImage }: ItemsAppProps) => {
         <div className="w-screen h-dvh flex flex-col items-center justify-center overflow-hidden">
             <GlossaryProvider>
                 <GlossaryCard
-                    className="md:max-w-[900px] w-[95vw] mt-8 sm:mt-2"
+                    className="md:max-w-[900px] 2xl:max-w-[1100px] w-[95vw] mt-8 sm:mt-2"
                     bgImage={bgImage}
                 />
             </GlossaryProvider>
