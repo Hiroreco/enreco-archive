@@ -47,9 +47,38 @@ But nothing stood out more than her unwavering love and devotion for the kingdom
 
 In the end, her love was never reciprocated. Heartbroken but resolute, she upheld her vow to protect the princess. Even when tragedy struck on the final day and the princess was slain by the Curse, Cecilia pressed on. And when she learned that Fia, the Librarian who had guided them all along, was Iphania herself, still alive and well in the [Library,](#entry:library-entry) it gave her all the reason she needed to keep fighting.
 
+### Chapter 3
+
+**Name:** Knight Immerkind
+**Faction:** Shining Stars
+**Job:** Supplier
+
+As kindhearted as ever, Knight Immerkind entered Chapter 3 much the same as she had in previous journeys. She carried herself with the same noble demeanor, the same unwavering devotion to helping others, and, of course, the same undying love she held for Fia.
+
+This time, however, her bonds with her wolf-pack companions grew stronger than ever. Whether offering emotional support or diving headfirst into their latest schemes, Immerkind was rarely far from Gonathon and the rest of the group. She joined them in investigating the suspicious activities surrounding Shiori's church and even stepped up as Mordon's lawyer during the trial on the final day, doing her best to defend her friend.
+
+And while Immerkind continued to love, she also found herself loved in return. Peasant the Bae once again confessed her feelings to the knight, and once again, Immerkind gently turned her down. Her heart already belonged to someone else, and no matter how many journeys passed, her feelings remained unchanged—even if that love was never returned.
+
+Yet perhaps the greatest development in Immerkind's story was not found in romance or heroics, but in labor.
+
+For years, she had built a reputation as someone who happily relied on the resources, homes, and generosity of others. Then, in a shocking turn of events, she somehow found herself volunteering to construct a castle for Tam and Tamda, Tam's beloved panda companion. For the first time, Immerkind experienced the wonders of manual labor firsthand.
+
+She _definitely_ did not complain while placing every single block.
+
+She _certainly_ did not question why she agreed to this.
+
+And she _absolutely_ enjoyed the process from beginning to end.
+
+Mhm, for sure.
+
+The resulting "castles" were less majestic fortresses and more a collection of walls surrounding large amounts of empty space, but that was hardly the point. For perhaps the first time in her adventures, Immerkind had actually built something with her own hands.
+
+And for that, many were proud of her.
+
 ## Trivia
 
 - Despite her vast web of connections in Chapter 1, Cecilia had never once interacted with Peasant the Bae—who, in fact, was the only person she hadn’t interacted with at all. Which made it all the more surprising when, in the second chapter, the latter developed a crush on her.
 - In both Chapter 1 and 2, Cecilia was the only one who did not build herself a house nor a store.
+- Cecilia's "castle made of gold" for Tam's pet, Tamda, consisted of the grand total of one single gold block.
 
 [cecilia](#easter:easter-cecilia)
