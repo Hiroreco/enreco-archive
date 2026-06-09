@@ -76,7 +76,8 @@
 
 ## 関連ストーリー
 
-- [「炎と飛翔（第一の物語）」を見る](#entry:fire-and-flight-entry)
+- [「炎と飛翔（第一の物語）」](#entry:fire-and-flight-entry)を参照。
+- [「ビウィッチド」（続編）を見る](#entry:bewitched-entry) を参照。
 
 ## クレジット
 
