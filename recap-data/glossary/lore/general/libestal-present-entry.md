@@ -1,7 +1,7 @@
 <!-- title: Kingdom of Libestal (Present) -->
 <!-- quote: You know where to find me. I'll be waiting, back where it all began. -->
 <!-- chapters: 2 -->
-<!-- images:  --->
+<!-- images: (Present Libestal Overview #1), (Present Libestal Overview #2), (Present Libestal Overview #3), (Present Libestal Overview #4), (Present Libestal Overview #5), (Present Libestal Overview #6), (Present Libestal Overview #7), (Present Libestal Overview #8) --->
 <!-- model: false -->
 
 ## Overview

@@ -1,7 +1,7 @@
 <!-- title: The Outsider -->
 <!-- quote: My vengeance is only beginning!  -->
 <!-- chapters: 0, 1 -->
-<!-- images: (The Libestal King, a guise of the Outsider), (The battle against The Captive), (The Outlander's appearance), (First meeting with the Outlander), (The Outlander's final moments in Chapter 2)  -->
+<!-- images: (The Libestal King, a guise of the Outsider), (The battle against The Captive), (The Outlander's appearance), (First meeting with the Outlander), (The Outlander's final moments in Chapter 2), (Faust revealing himself to be the Outsider)  -->
 <!-- model: false -->
 
 ## Overview
