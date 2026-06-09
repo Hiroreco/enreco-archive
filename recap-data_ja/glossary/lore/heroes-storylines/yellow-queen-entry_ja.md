@@ -139,4 +139,4 @@
 
 ## クレジット
 
-- エントリーサムネイル作成者：[Derved](https://x.com/Derved_/status/2060113424143491547)
+- エントリーサムネイル作成者：[kikoshaula](https://x.com/kikoshaula/status/2060510295106388158)
