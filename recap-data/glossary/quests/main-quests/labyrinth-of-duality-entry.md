@@ -24,25 +24,25 @@ As its name suggested, the Labyrinth of Duality revolved around cooperation. Man
 
 **Pressure Plate Synchronization**
 
-The first step was for players to split into two groups and stand on designated pressure plates on their respective red and blue sides at the same time. This synchronized the souls of both groups, so that any damage or effects to one group would be applied to the other as well. It also unlocked the doors, allowing the groups to proceed deeper into the labyrinth.
+The [first step](https://www.youtube.com/live/QB1ZSh0yKuc?si=ayUaPngIzPwepmxR&t=6466) was for players to split into two groups and stand on designated pressure plates on their respective red and blue sides at the same time. This synchronized the souls of both groups, so that any damage or effects to one group would be applied to the other as well. It also unlocked the doors, allowing the groups to proceed deeper into the labyrinth.
 
 **Color Pattern Matching**
 
-In this puzzle, one group was shown a sequence of colored blocks and their positions. They then had to relay this information to the other group, who could not see the pattern themselves. The second group had to correctly recreate the arrangement in order to unlock the path forward. Meanwhile, the first group had to avoid constant hazards raining from above.
+In this puzzle, one group was shown a [sequence](https://www.youtube.com/live/QB1ZSh0yKuc?si=2UXmXANIgBIWtQrn&t=6731) of colored blocks and their positions. They then had to relay this information to the other group, who could not see the pattern themselves. The second group had to correctly recreate the arrangement in order to unlock the path forward. Meanwhile, the first group had to avoid constant hazards raining from above.
 
 **The Potion Brewing Challenge**
 
-This challenge tested communication and coordination. One group had the ability to brew potions using a special brewing stand. The other had to overcome obstacles which required potion abilities to succeed. Through communication and coordination, they brewed and consumed potions such as Water Breathing or Fire Resistance to survive environmental hazards including flooding chambers and lava-filled sections.
+This challenge tested communication and coordination. One group had the ability to [brew potions](https://www.youtube.com/live/QB1ZSh0yKuc?si=Gco22VKzkEC80tf7&t=6965) using a special brewing stand. The other had to overcome obstacles which required potion abilities to succeed. Through communication and coordination, they brewed and consumed potions such as Water Breathing or Fire Resistance to survive environmental hazards including flooding chambers and lava-filled sections.
 
 **Mirrored Parkour and Navigation**
 
-The final puzzle before the boss room combined platforming with the dungeon's signature duality mechanics. Players navigated mirrored pathways where actions on one side directly affected the other.
+The final puzzle before the boss room combined [platforming](https://www.youtube.com/live/QB1ZSh0yKuc?si=-we8L-3Gr1A6UEEg&t=8961) with the dungeon's signature duality mechanics. Players navigated mirrored pathways where actions on one side directly affected the other.
 
 Stepping on a platform would cause the corresponding platform on the other side to disappear. Careful coordination was essential, as both sides had to progress together without accidentally trapping or dropping the other player. Successfully reaching the end of the course granted access to the final boss arena.
 
 **Final Boss – Prisoner of Duality**
 
-Awaiting the heroes at the end of the labyrinth was the Prisoner of Duality, a massive three-headed hound. Unlike the challenges leading up to it, the boss fight did not require synchronization or puzzle-solving mechanics.
+Awaiting the heroes at the end of the labyrinth was the [Prisoner of Duality,](https://www.youtube.com/live/QB1ZSh0yKuc?si=AGGhJsVZiBoDMIeR&t=9439) a massive three-headed hound. Unlike the challenges leading up to it, the boss fight did not require synchronization or puzzle-solving mechanics.
 
 ### Rewards
 

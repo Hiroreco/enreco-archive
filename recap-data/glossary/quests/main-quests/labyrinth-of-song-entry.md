@@ -22,13 +22,13 @@ The entire realm possessed a dreamlike atmosphere, as though it had been pulled 
 
 **Outside the Castle**
 
-Before reaching the castle itself, players first had to traverse a giant floating musical score suspended in the void. This section served as a parkour challenge, with various notes acting as platforms, including some colorful ones. The arrangement of these colorful notes was more than decoration, however, as their positions provided the solution needed to unlock a secret room later in the dungeon.
+Before reaching the castle itself, players first had to traverse a giant [floating](https://www.youtube.com/live/o-aseqW0iiU?si=MiSsLvntxHuV0nKD&t=4705) musical score suspended in the void. This section served as a parkour challenge, with various notes acting as platforms, including some colorful ones. The arrangement of these colorful notes was more than decoration, however, as their positions provided the solution needed to unlock a secret room later in the dungeon.
 
-Beyond the score lay another puzzle involving circular arrangements of musical notes surrounded by matching circles of trees. Players had to identify the tree corresponding to each note and rotate the circles until the notes and trees were properly aligned.
+Beyond the score lay another puzzle involving circular [arrangements](https://www.youtube.com/live/o-aseqW0iiU?si=eOkGCgF_YZi2i2aF&t=4884) of musical notes surrounded by matching circles of trees. Players had to identify the tree corresponding to each note and rotate the circles until the notes and trees were properly aligned.
 
 **Inside the Castle**
 
-Most of the labyrinth's puzzles took place within the castle. At its center stood a large chamber containing a giant musical score and a collection of rainbow-colored notes that could be adjusted. Several puzzle rooms branched off from this hub, with only one unlocked at first. Completing each room revealed a note sequence, which could be input into the giant score to unlock the next room.
+Most of the labyrinth's puzzles took place within the castle. At its center stood a large chamber containing a giant [musical](https://www.youtube.com/live/o-aseqW0iiU?si=D6h7xU7j6E2hcLZ_&t=5295) score and a collection of rainbow-colored notes that could be adjusted. Several puzzle rooms branched off from this hub, with only one unlocked at first. Completing each room revealed a note sequence, which could be input into the giant score to unlock the next room.
 
 One room featured a piano that played four notes before summoning four Stains. Each Stain produced a note when struck, and players had to defeat them in the same order that the piano had played the notes.
 
@@ -42,7 +42,7 @@ The final clue obtained from the castle's puzzle rooms revealed the melody neede
 
 ### Final Boss – Prisoner of Song
 
-At the end of the labyrinth awaited the Prisoner of Song, a large bird-like creature.
+At the end of the labyrinth awaited the [Prisoner of Song,](https://www.youtube.com/live/o-aseqW0iiU?si=BbhUXEf2WGVIrowI&t=6263) a large bird-like creature.
 
 Compared to the bosses of the previous labyrinths, this encounter was considerably more straightforward. The Prisoner of Song possessed only a single phase and did not have the complex mechanics found in earlier battles, making it one of the simpler bosses to defeat.
 

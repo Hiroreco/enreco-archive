@@ -22,7 +22,7 @@ One moment, adventurers would find themselves traversing a lush jungle filled wi
 
 **Jungle Area**
 
-The first section of the labyrinth took place within a towering structure hidden deep in the jungle. The area focused heavily on platforming challenges, requiring players to make use of several different types of jump pads.
+The [first section](https://www.youtube.com/live/vRVwJrdNzGk?si=SUgOom9oSP0W_IV0&t=4641) of the labyrinth took place within a towering structure hidden deep in the jungle. The area focused heavily on platforming challenges, requiring players to make use of several different types of jump pads.
 
 Some jump pads launched players high into the air, while others allowed them to float slowly back down. Certain pads even cause players to float against the ceiling, creating unique traversal challenges.
 
@@ -30,7 +30,7 @@ A secret bookmark could be obtained by discovering a hidden opening in one of th
 
 **Snow Area**
 
-The second major section led players into a frozen castle filled with a variety of puzzles.
+The [second major](https://www.youtube.com/live/vRVwJrdNzGk?si=Lftg-m25oNwpg-9F&t=5659) section led players into a frozen castle filled with a variety of puzzles.
 
 The first challenge required players to trace beams of light between colored blocks and use the resulting sequence to unlock the next puzzle. Afterward came a rotating bridge puzzle, where the bridges had to be repositioned to create a path forward.
 
@@ -42,7 +42,7 @@ A second secret bookmark could be obtained after melting the ice. Players had to
 
 **Final Boss – Prisoner of Knowledge**
 
-At the end of the labyrinth awaited the Prisoner of Knowledge. The battle took place upon a dark and gloomy platform suspended above a vast sea of lava.
+At the end of the labyrinth awaited the [Prisoner of Knowledge.](https://www.youtube.com/live/vRVwJrdNzGk?si=mVW010XXB4VrqGP0&t=7080) The battle took place upon a dark and gloomy platform suspended above a vast sea of lava.
 
 The encounter consisted of two phases. Defeating the first phase rewarded players with the final bookmark. If all three bookmarks had been collected throughout the dungeon, a chest containing Shiori's music disc would appear inside the church-like structure found at the end of the labyrinth.
 
