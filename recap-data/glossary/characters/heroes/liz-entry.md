@@ -65,18 +65,36 @@ She couldn’t remember that life—not fully. But she could feel traces of it, 
 > Kindness need not feel soft to be real.
 > Sometimes, it is simply what remains when everything else has burned away.”
 
+### Chapter 3
+
+**Name:** Lady Bloodflame
+**Faction:** Rebellion
+**Job:** Supplier (Day 1) and Smith (Day 2+)
+
+Once an honorable knight who upheld her principles above all else, Lady Bloodflame's story in Chapter 3 was a tragic one. Much of the woman people knew seemed to vanish when Nerissa cast a spell upon her on the very first day, transforming Elizabeth into a manipulated, slobbering puppet for the witch to toy with. From that moment onward, nearly her entire journey revolved around the effects of that enchantment and the hold it had over her (for more details, see [Bewitched](#entry:bewitched-entry)).
+
+Yet despite everything, the flame of justice within her never fully went out.
+
+No matter how dim it became, traces of the old Elizabeth remained. She continued to help others whenever she could, stood beside the people she believed were in the right, and maintained the bonds she cherished. This was especially true for Mococo, whom she continued to love dearly even after the revelation that the two were not actually sisters, despite Mococo having believed so since the very beginning.
+
+Between the chaos, she still found joy in simple things. She adored the sight of others' pets, exchanged playful banter with her friends, and sought moments of normalcy whenever they presented themselves. Though the witch's influence remained wrapped tightly around her, her heart continued to long for what was right, what was familiar, and what truly belonged to her.
+
+And perhaps, in the next tale, that lingering spark will finally be enough to break the spell for good.
+
 ## Notable Writings
 
-- [Read "Knight's Log 0001](#text:liz-journal-c2d1)
-- [Read "Knight's Log 0002](#text:liz-journal-c2d2)
-- [Read "Knight's Log 0003](#text:liz-journal-c2d4)
-- [Read "Knight's Log 0004](#text:liz-journal-c2d5)
-- [Read "Knight's Log 0005](#text:liz-journal-c2d6)
-- [Read "Knight's Log 0006](#text:liz-journal-c2d7)
+### Chapter 2
+
+- [Read "Knight's Log 0001"](#text:liz-journal-c2d1)
+- [Read "Knight's Log 0002"](#text:liz-journal-c2d2)
+- [Read "Knight's Log 0003"](#text:liz-journal-c2d4)
+- [Read "Knight's Log 0004"](#text:liz-journal-c2d5)
+- [Read "Knight's Log 0005"](#text:liz-journal-c2d6)
+- [Read "Knight's Log 0006"](#text:liz-journal-c2d7)
 
 ## Trivia
 
 - In Chapter 1, Elizabeth had an impressive, almost theatrical habit—whenever she found herself in a different situation, a song would play in her head that perfectly matched the mood. Over the course of the journey, she cycled through at least ten different tracks.
-- As of Chapter 2, Elizabeth is **the only one** who has not missed a single day in this enigmatic journey.
+- As of Chapter 3, Elizabeth is **the only participant** to have appeared on every single day of ENreco without missing one. She also holds the record for the highest number of streams among all participants, with a total of **25 streams** across the three chapters.
 
 [liz](#easter:easter-liz)
