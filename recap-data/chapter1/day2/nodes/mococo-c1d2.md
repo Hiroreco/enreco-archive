@@ -7,11 +7,11 @@ Being the sociable doggo she was, Mococo wasted no time seeking companionship. S
 
 She had her eyes on the intriguing promise of lottery tickets being sold there. Before she could explain further, she received an ad call from Fauna herself, enthusiastically pitching the lottery and its grand prizes. While Elizabeth and Fuwawa seemed indifferent, Mococo was hooked. Without giving them much of a choice, she dragged the two to check out the shop.
 
-[Let's go to FaunaMart!](#embed:https://www.youtube.com/live/0rhoyO69kAQ?feature=shared&t=703)
+[Let's go to FaunaMart!](#embed:https://www.youtube.com/live/0rhoyO69kAQ?t=703)
 
 At FaunaMart, Mococo dove right in and bought her first lottery ticket. She reasoned it was best to play it safe—after all, this could be a scam. Therefore, Mococo, being the responsible doggo that she was, bought only one, two, three... four... sixty-eight tickets. She spent every last coin she had, her tail wagging with excitement.
 
-Elizabeth and Fuwawa exchanged worried glances as Mococo gleefully held her mountain of tickets, certain she’d struck gold. She assured Elizabeth that she’d soon be rich and promised to treat her friends once she hit the [jackpot](https://www.youtube.com/live/0rhoyO69kAQ?feature=shared&t=1310). Elizabeth, though still concerned, wished her the best of luck.
+Elizabeth and Fuwawa exchanged worried glances as Mococo gleefully held her mountain of tickets, certain she’d struck gold. She assured Elizabeth that she’d soon be rich and promised to treat her friends once she hit the [jackpot](https://www.youtube.com/live/0rhoyO69kAQ?t=1310). Elizabeth, though still concerned, wished her the best of luck.
 
 [68 tickets please!](#embed:https://www.youtube.com/live/0rhoyO69kAQ?t=923)
 
@@ -19,7 +19,7 @@ With their detour to FaunaMart complete, the group returned to focus on their go
 
 [Why did you buy so much...?](#embed:https://www.youtube.com/live/0rhoyO69kAQ?t=2365)
 
-Getting back on track, the second dungeon proved challenging, but together, the group triumphed. They solved the puzzles, fought through peril, and recovered memories of [Gawr Gura](https://www.youtube.com/live/0rhoyO69kAQ?feature=shared&t=4841).
+Getting back on track, the second dungeon proved challenging, but together, the group triumphed. They solved the puzzles, fought through peril, and recovered memories of [Gawr Gura](https://www.youtube.com/live/0rhoyO69kAQ?t=4841).
 
 As the day drew to a close, Mococo felt fulfilled by their adventure. Her thoughts, however, lingered on the jackpot she was certain awaited her. With dreams of riches dancing in her mind, she settled down for the night, a smile on her face and her paws crossed for good fortune. As innocent as she was, this marked the beginning of a storyline nobody saw coming.
 

@@ -33,9 +33,9 @@ _[「お前の顔がナプキンみたいだ！」](#embed:https://www.youtube.c
 
 ---
 
-モーダンは、この仲間たちと過ごした瞬間が、きっと恋しくなるだろうと知っていた。だからこそ、できる限りこの時間を大切にしなければならないと。そうして彼女は、[シェフたち](https://www.youtube.com/live/Ch4qLZhARtY?si=6XoSGMMzfTlRSZ0V&t=6193)や[狼の群れ](https://www.youtube.com/live/Ch4qLZhARtY?si=uNJIZEhlu-vuZzXE&t=6784)と共に、思い出の写真を収めていったのだった。
+モーダンは、この仲間たちと過ごした瞬間が、きっと恋しくなるだろうと知っていた。だからこそ、できる限りこの時間を大切にしなければならないと。そうして彼女は、[シェフたち](https://www.youtube.com/live/Ch4qLZhARtY?t=6193)や[狼の群れ](https://www.youtube.com/live/Ch4qLZhARtY?t=6784)と共に、思い出の写真を収めていったのだった。
 
-[最後の日記！](#embed:https://www.youtube.com/live/Ch4qLZhARtY?si=uNJIZEhlu-vuZzXE&t=7627)
+[最後の日記！](#embed:https://www.youtube.com/live/Ch4qLZhARtY?t=7627)
 
 夕暮れの空を花火が彩る中、宴は賑やかに始まった――しかし、その笑い声も、彼らに迫りくる運命を打ち消すことはできなかった。
 

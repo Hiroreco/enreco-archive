@@ -29,7 +29,7 @@ Those phones were soon taken by a mysterious local rebel named Nix, who altered 
 
 And then came the choice.
 
-[Rebellion vs Shinging Stars](#embed:https://www.youtube.com/live/2rnclFeQ5EM?si=gc6xDzQakf3gCmrw&t=2787)
+[Rebellion vs Shinging Stars](#embed:https://www.youtube.com/live/2rnclFeQ5EM?t=2787)
 
 Nix asked the heroes to decide whether they would join the “Rebellion” or remain with the “Shining Stars.” Just as Fia herself had once said, once they arrived in this world, the heroes alone would decide what path to take next.
 

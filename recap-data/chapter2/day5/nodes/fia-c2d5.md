@@ -3,7 +3,7 @@
 
 Another piece of Fia's memory resurfaced—perhaps the final fragment. But rather than tying all the threads together, this revelation only unraveled more.
 
-[The Princess' Doll](#embed:https://www.youtube.com/live/98bQ3awzWLM?si=8VkaP1-inxJZVfpp&t=9357)
+[The Princess' Doll](#embed:https://www.youtube.com/live/98bQ3awzWLM?t=9357)
 
 This memory was quiet. Personal. The Princess’s favorite doll, a gift from her mother, the Queen. A doll meant to watch over her, to protect her when no one else could. The Queen had been gentle, wise, and endlessly kind—a beacon of peace amidst growing chaos.
 

@@ -58,10 +58,31 @@ Notable wise words from Mother found in Chapter 2:
 
 [Not a quote but Mother skipped a certain lesson for Bae](https://youtu.be/Lp7GyRVbz1c?t=7171)
 
+### Chapter 3
+
+**Name:** Peasant, Bae
+**Faction:** Rebellion
+**Job:** Supplier
+
+If one were to compare Peasant The Bae from Chapter 2 to Peasant from Chapter 3, one can glimpse the how her character improved and, in some ways, stayed the same.
+
+Bae stayed mostly true to her peasant identity by living a very modest lifestyle with her pet companion, [Polar the Bear the polar bear](https://youtu.be/BmINsLSSjq0?t=5654). The experiences from her last adventure allowed her to be braver, from fighting Stains to protect her friends to conquering a dungeon on her own, Peasant had truly grown to be a fine hero.
+
+And a fine fisher. Between the fights and the quests, Peasant and Polar spent their days in Libestal fishing for the illustrous River Prince and the Lake King, being [the first to catch](https://youtu.be/Ap9GUELHGSg?t=5150) the latter.
+
+Unfortunately, some lessons had to be relearned as Peasant once again pursued Immerkind's affections.
+
+At first, it seemed Peasant was moving on from the Knight with how smitten she was with Nix, joining her Rebellion rather than siding with Fia; Peasant seemed to have fallen for her rogueish and Chuuni charms but the crush was very short-lived as Bae's eyes fell on Immerkind again.
+
+With the support and help of her friends, Peasant eventually managed to confess. For a moment, it seemed like the Kind Knight would give her a chance but eventually it was all for naught as Immerkind admitted her [feelings](<[/25eDkZ3PTounlO_l9PliEA](https://youtu.be/Qh33RM1yOtI?t=9516)>) hadn't changed.
+
+Bae would swear fealty to money once again. Fitting as she could be often seen charging her fellow heroes high fees for her services though it seemed like she had a change of heart at the last day, setting the prices of the goods in her shop to a more generous price.
+
 ## Trivia
 
 - Despite only being around for two days and showing little interest in the kingdom, Bae somehow ended up with more coins than Tam in Chapter 1, narrowly avoiding the title of the kingdom’s poorest.
 - When Bae wore the Stain Hat in Chapter 2, it caused quite a stir. Many feared she was falling to corruption like so many did in Chapter 1—especially since she kept complaining about headaches while wearing it. Thankfully, she turned out fine.
 - Bae takes great pride in her title as _“Peasant”_ and was quick to put anyone in their place if they dared think it was something shameful.
+- Peasant the Bae, to everyone's surprise, was the richest person at the end of Chapter 3, amassing a total of 53,725 coins.
 
 [bae](#easter:easter-bae)

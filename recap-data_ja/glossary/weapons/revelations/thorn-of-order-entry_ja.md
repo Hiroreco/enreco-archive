@@ -14,6 +14,6 @@
 
 能力が発動すると、ソーンは大きく横薙ぎに一閃を放ち、その後には強力な爆発が巻き起こります。その動き自体はシンプルながらも、ソーンの圧倒的な破壊力がすべてを物語っているかのようです。
 
-[名誉のために！](#embed:https://www.youtube.com/live/oVguNTPnDww?si=XWIrWAhx_Nv0aR13&t=1433)
+[名誉のために！](#embed:https://www.youtube.com/live/oVguNTPnDww?t=1433)
 
 そして第2章からは、このソーンに新たな力が覚醒！　なんと[遠距離攻撃](#entry:revelations-entry)も可能になりました。

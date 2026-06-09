@@ -39,7 +39,7 @@ She boldly [claimed](https://www.youtube.com/watch?v=euqA3GB8Jc0&t=7841) that th
 
 As the crowd made its way toward the castle, they crossed paths with Princess Bijou, who cheerfully announced that she had killed [Shakira](https://www.youtube.com/watch?v=euqA3GB8Jc0&t=8078).
 
-Her confession was met not with outrage, but with confusion and indifference.
+Her confession was met not with outrage but with confusion and indifference.
 
 The united group then launched a frantic chase through the castle halls in pursuit of Advent. After much running, cornering, and confusion, all five were finally captured.
 

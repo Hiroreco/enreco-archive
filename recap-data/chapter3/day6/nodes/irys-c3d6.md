@@ -15,7 +15,7 @@ As she emerged from her slumber and joined the final quest, she was greeted with
 
 People welcomed her as though she had returned from a heroic campaign rather than slept through ninety percent of the journey. She was given food, gifts, and supplies to help prepare for the road ahead. Even her consort greeted her with [warmth](https://www.youtube.com/watch?v=WVtNDIIdEyg&t=427), despite having been abandoned for most of the expedition. Naturally, a few couldn't resist poking fun at her absence either.
 
-[Well well, look who it is](#embed:https://www.youtube.com/watch?v=WVtNDIIdEyg&t=719)
+[Well, well, look who it is](#embed:https://www.youtube.com/watch?v=WVtNDIIdEyg&t=719)
 
 Though slightly embarrassed, the pink one paid little attention to the teasing. Instead, she wandered around the kingdom, catching up on everything she had missed. Upon discovering Tam's castle, she immediately assumed someone had built it for [her](https://www.youtube.com/watch?v=WVtNDIIdEyg&t=783)—the audacity of this woman. She also learned that seemingly everyone had acquired a pet while she had none, and was honestly surprised by how little the kingdom seemed to have changed considering she had only missed _most_ of the journey.
 

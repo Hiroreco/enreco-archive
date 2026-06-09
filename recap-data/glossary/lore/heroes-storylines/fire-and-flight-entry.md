@@ -30,7 +30,7 @@ Nerissa, of course, delighted in every flustered reaction. Every chance she got,
 
 No matter how hard Elizabeth tried to deny it, her heart always betrayed her. On the fourth day, during the infamous [Lottery Fiasco](#entry:lottery-fiasco-entry), when Nerissa and Gonathon were trying to get information about the fugitive Mococo, Gonathon jokingly asked Nerissa to say she hated Elizabeth.
 
-Those words shattered Elizabeth’s composure. The mere thought of being hated by Nerissa caused her to completely lose her usual knightly demeanor, leading to quite the emotional outburst. Later, Nerissa clarified that she hadn’t meant it, and the [misunderstanding](https://www.youtube.com/live/1_dhGL0K5-k?si=OCYF7bUx3zTLXPnC&start=1127) was resolved.
+Those words shattered Elizabeth’s composure. The mere thought of being hated by Nerissa caused her to completely lose her usual knightly demeanor, leading to quite the emotional outburst. Later, Nerissa clarified that she hadn’t meant it, and the [misunderstanding](https://www.youtube.com/live/1_dhGL0K5-k?start=1127) was resolved.
 
 From there, the bond between them only deepened—or rather, the antics intensified. Nerissa’s teasing became even more relentless. At one point, she even claimed she was pregnant with Elizabeth’s child just to get a reaction out of her.
 
@@ -40,14 +40,14 @@ But no matter how many headaches the blue menace caused, Elizabeth cared deeply 
 
 On the final day of Chapter 1, when the corruption was at its peak, Nerissa succumbed to it.
 
-But instead of pushing her away, Elizabeth—despite her deep hatred for the corruption and the danger it posed—remained calm. She took Nerissa’s hand, and [saved her.](https://www.youtube.com/live/_urPfTQnLes?feature=shared&t=12224)
+But instead of pushing her away, Elizabeth—despite her deep hatred for the corruption and the danger it posed—remained calm. She took Nerissa’s hand, and [saved her.](https://www.youtube.com/live/_urPfTQnLes?t=12224)
 
 > Hello there, maiden.
 > You hear that beautiful music? Join and listen even more.
 
 Before this took place, Elizabeth and Nerissa had a heated argument. Nerissa, ever skeptical and sharp-eyed, tried to convince the scarlet knight that the King, the very one Elizabeth had sworn loyalty to, might not be as righteous as he seemed. That he could be manipulating everyone from the shadows.
 
-To Elizabeth, this was nothing short of [blasphemy.](https://www.youtube.com/live/_urPfTQnLes?feature=shared&t=6832) Her faith in the King was unwavering, and the idea that he could be anything but noble infuriated her. She nearly came to resent Nerissa for daring to say such things.
+To Elizabeth, this was nothing short of [blasphemy.](https://www.youtube.com/live/_urPfTQnLes?t=6832) Her faith in the King was unwavering, and the idea that he could be anything but noble infuriated her. She nearly came to resent Nerissa for daring to say such things.
 
 Yet, when the time came—despite the anger, despite the doubts, despite the emotional distance that argument had carved between them—Elizabeth saved her anyway.
 

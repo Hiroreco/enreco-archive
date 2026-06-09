@@ -20,7 +20,7 @@
 「私はこの世界を救う。  
 そして、姫と結婚する」と。
 
-[私の導きの光](#embed:https://www.youtube.com/live/cyLsX20esBE?si=V7s8jRdSb-bw9IzT&t=8520)
+[私の導きの光](#embed:https://www.youtube.com/live/cyLsX20esBE?t=8520)
 
 ## ファンアート
 

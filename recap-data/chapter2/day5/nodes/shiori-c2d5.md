@@ -15,7 +15,7 @@ Like the others, Shiori was then challenged by the Outlander to a duel—a trial
 
 And in classic Shiori fashion, she took the opportunity to jab, tease, and prod. She mocked the Outlander, though at first, it seemed like her usual playful snark. But then, her tone shifted—less whimsical, more biting. Her words carried an odd weight, a hint of something deeper. She spoke not just to the Outlander but also to herself. About how they were alike.
 
-[You and I are similar, after all](#embed:https://www.youtube.com/live/98bQ3awzWLM?si=4vKuhvHq9ARFIyAF&t=8794)
+[You and I are similar, after all](#embed:https://www.youtube.com/live/98bQ3awzWLM?t=8794)
 
 Two people who _"watch over stories, and feel conflicted that they can’t be part of them,"_ who _"break the rules often."_
 
@@ -25,7 +25,7 @@ What did she mean by that? Did it tie into her title—Archiver?
 
 Later, when the Princess and the Outlander asked the heroes about their reason for saving the kingdom, the others gave answers that varied: confusion, pride, and profit. But Shiori’s answer was different.
 
-[The scripts](#embed:https://www.youtube.com/live/98bQ3awzWLM?si=GlbL7dJkjV0wglfU&t=9223)
+[The scripts](#embed:https://www.youtube.com/live/98bQ3awzWLM?t=9223)
 
 > I'm just doing my job, and being a dirty, horrible self-inserter like him. I'm fighting for my duty, because I am Shiori Nyavella.
 
@@ -39,7 +39,7 @@ Still, not everything had to be tangled in mystery. At least one of the question
 
 She ended her day with rare, quiet moments—sharing them with [Bijou](https://www.youtube.com/live/98bQ3awzWLM?t=15814) and later, a bonding conversation with a sleepy Elizabeth. All of it, as always, inked into her diary—yet another page, yet another piece of the puzzle that was Shiori.
 
-[A moment to cool down](#embed:https://www.youtube.com/live/98bQ3awzWLM?si=Zv5vHxEzlcKhAmcH&t=18947)
+[A moment to cool down](#embed:https://www.youtube.com/live/98bQ3awzWLM?t=18947)
 
 ## Memes
 

@@ -1,6 +1,6 @@
 <!-- title: Jobs -->
 <!-- quote: 250 coins for one soup?! -->
-<!-- chapters: 1 -->
+<!-- chapters: 1, 2 -->
 <!-- images: (Jobs Overview), (Jobs and their icons), (Charms made by a Jeweler), (Upgrade Stones made by a Smith), (Food made by a Chef) -->
 <!-- model: false -->
 
@@ -33,7 +33,7 @@ Crafting involved using a large grid similar to a crafting table but with more c
 
 Smiths also gained a passive combat buff: a scaling chance to deal increased damage on hit, based on their job level.
 
-[A smith making an upgrade stone](#embed:https://www.youtube.com/live/wnQuawM-3Jc?si=eqo6EHO6IVC2c43c&t=1180)
+[A smith making an upgrade stone](#embed:https://www.youtube.com/live/wnQuawM-3Jc?t=1180)
 
 #### Jeweler
 
@@ -46,7 +46,7 @@ A board filled with various stat buffs would be shown briefly before going blank
 
 Charms came in three different colors. Heroes could equip one charm of each color, encouraging thoughtful stat combinations.
 
-[A jeweler making a charm](#embed:https://www.youtube.com/live/pEAXwijhfFY?si=4jbm3iseM7W5lCMp&t=16078)
+[A jeweler making a charm](#embed:https://www.youtube.com/live/pEAXwijhfFY?t=16078)
 
 #### Chef
 
@@ -57,7 +57,7 @@ Chefs prepared meals that granted powerful, long-lasting buffs. The cooking syst
 
 The more meals a chef prepared, the higher the level their cooking pot became. Higher levels increased the chance of creating Gourmet food, which offered stronger or extended effects.
 
-[A chef making food](#embed:https://www.youtube.com/live/XfZh_3xb7i0?si=_LANDkLQRUBJTQg3&t=9331)
+[A chef making food](#embed:https://www.youtube.com/live/XfZh_3xb7i0?t=9331)
 
 #### Supplier
 
@@ -72,4 +72,4 @@ Once durability ran out, points could be allocated to enchant tools with traits 
 
 Suppliers also had exclusive charms that boosted their mining effectiveness. When paired with high job levels and upgraded tools, they became unmatched in resource gathering.
 
-[A supplier enchanting a pickaxe](#embed:https://www.youtube.com/live/NGC0VaSUPnE?si=OLvHrK407SXwIXA8&t=18854)
+[A supplier enchanting a pickaxe](#embed:https://www.youtube.com/live/NGC0VaSUPnE?t=18854)

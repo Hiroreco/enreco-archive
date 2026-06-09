@@ -20,7 +20,7 @@ And in that moment, she made a vow—soft but certain, spoken to no one but the 
 She would save the world.
 And she would marry the princess.
 
-[My guiding light](#embed:https://www.youtube.com/live/cyLsX20esBE?si=V7s8jRdSb-bw9IzT&t=8520)
+[My guiding light](#embed:https://www.youtube.com/live/cyLsX20esBE?t=8520)
 
 ## Fanart
 

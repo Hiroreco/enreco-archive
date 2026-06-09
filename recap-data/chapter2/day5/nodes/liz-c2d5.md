@@ -5,7 +5,7 @@ Right from the start of the fifth day, Elizabeth already had company. She was gr
 
 With actual people around her this time—unlike the solitude of the day before—Elizabeth joined the gang to tackle the Star Site: Chronos dungeon. Upon completion, she recovered memories of Ouro Kronii and came to a simple yet powerful realization: having others around really did make all the [difference](https://www.youtube.com/live/9gL4We5utAk?t=6644s).
 
-Next came the Star Site: Chaos dungeon, presumably one of the last major ones and a particularly intriguing one, where the aspect of chance dictated the flow. Still, alongside Bijou, Shiori, and Nerissa, Elizabeth powered through and recovered the memories of [Hakos Baelz](https://www.youtube.com/live/9gL4We5utAk?si=1zrJ9s4OAUQLt_pm&t=9740).
+Next came the Star Site: Chaos dungeon, presumably one of the last major ones and a particularly intriguing one, where the aspect of chance dictated the flow. Still, alongside Bijou, Shiori, and Nerissa, Elizabeth powered through and recovered the memories of [Hakos Baelz](https://www.youtube.com/live/9gL4We5utAk?t=9740).
 
 Then came a true test of strength and courage. The Outlander challenged Elizabeth to a duel—a trial to determine if the heroes were worthy of carrying the fate of the world. Though she stumbled a few times, Elizabeth held her ground and proved her worth.
 

@@ -59,6 +59,24 @@ While the two eventually reconciled, this heartbreak would leave a lasting impac
 
 While the future remains murky, particularly given the climactic conclusion of Chapter 2, Gonathon has come out of his adventures in ancient Libestal determined to fight for what he believes in and right his past wrongs.
 
+### Chapter 3
+
+**Name:** Gonathon G
+**Faction:** Shining Stars
+**Job:** Smith
+
+Chapter 3 saw many of Gonathon's most closefuly held beliefs put to the test. Over half of Fia's adventurers threw in their lot with a Rebel faction seemingly opposed to the goals they had worked so hard to obtain. This included some of Gonathon's most [trusted](https://www.youtube.com/watch?v=2rnclFeQ5EM&t=4700) companions, leaving the knight with few allies.
+
+To make matters worse, Queen Tam Gandr, willingly allowed a stain to affix itself to her head and expunge her memories a fact which shook Gonathon to his core (for more details, see [Once Queen, Now Friends](#entry:queen-friends-entry)).
+
+But Gonathon was a true knight and did not so easily back down. Throughout his time in the present day Libestal, Gonathon's focus was divided into two objectives: find a way to recover Tam's memories and discover the secrets of the baleful "Curse of Advent" that was afflicting the land.
+
+The Curse of Advent proved more challenging to overcome. Despite Gonathon striving to see the good in others, it became apparent that many of those he had called friends were directly responsible for the curse, with Shiori at the center of it all. The knight's relationship with the maiden in monocrhome remained ever so [complicated.](https://www.youtube.com/watch?v=J8CAzdF1qb4&t=11119)
+
+> We will not be fighting for anything. We will be fighting for our own justice.
+
+Thankfully Gonathon was not alone. Together with Immerkind, NinoIna, and Tam, the humble knight formed a new order of justice to confront the evils afflicting the land. In the end, they were able to purify the members of Advent, but many mysteries remain.
+
 ## Notable Writings
 
 - [Read "A Knight's Tale"](#text:a-knights-tale)

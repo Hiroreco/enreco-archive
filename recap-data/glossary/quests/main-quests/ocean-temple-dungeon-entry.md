@@ -24,15 +24,15 @@ Today, the dungeon is an empty shell of what Atlantis once was. To enter, the he
 
 ### Puzzles
 
-- **Tower of Hanoi:** Stack all the [rings](https://www.youtube.com/live/bOIlLaFiiE4?si=9T-46rQ15ghlkjRc&t=5810) on the third rod in decreasing size order.
+- **Tower of Hanoi:** Stack all the [rings](https://www.youtube.com/live/bOIlLaFiiE4?t=5810) on the third rod in decreasing size order.
 
-- **Bridge Puzzle:** Activate [color-coded](https://www.youtube.com/live/bOIlLaFiiE4?si=RRQ8rSSECOvsw8e_&t=6098) bridges while avoiding laser traps and falls to reach the other side.
+- **Bridge Puzzle:** Activate [color-coded](https://www.youtube.com/live/bOIlLaFiiE4?t=6098) bridges while avoiding laser traps and falls to reach the other side.
 
-- **Directional Guard Puzzle:** Lead a [mannequin](https://www.youtube.com/live/bOIlLaFiiE4?si=-QX63tFq7Cp2tcxT&t=6384) guard on the prismarine route to an elevated platform. Allowing the guard to pass over the five embedded golden blocks in the ground unlocks the dungeon's treasure.
+- **Directional Guard Puzzle:** Lead a [mannequin](https://www.youtube.com/live/bOIlLaFiiE4?t=6384) guard on the prismarine route to an elevated platform. Allowing the guard to pass over the five embedded golden blocks in the ground unlocks the dungeon's treasure.
 
 ### Rewards
 
-- ["REFLECT"](https://youtu.be/nCQ_zZIiGLA?si=SEr2O2h7CBt2t-05) – a music disc by Gawr Gura
+- ["REFLECT"](https://youtu.be/nCQ_zZIiGLA) – a music disc by Gawr Gura
 - [Memories](https://www.youtube.com/watch?v=SDnRHwpnIH4) of Gawr Gura
 
 ## Sources

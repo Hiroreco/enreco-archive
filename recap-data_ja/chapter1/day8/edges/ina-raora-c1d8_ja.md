@@ -6,4 +6,4 @@
 そして、マリオがビジューの母親であることが判明した今……もはや、導き出される答えはただ一つしかない。  
 そう、マリオこそが、イナ自身の母親でもあったのだ！
 
-[そんな気がしてた](#embed:https://www.youtube.com/live/NdWqpuyOHZg?feature=shared&t=923)
+[そんな気がしてた](#embed:https://www.youtube.com/live/NdWqpuyOHZg?t=923)

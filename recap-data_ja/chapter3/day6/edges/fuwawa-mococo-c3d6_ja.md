@@ -3,7 +3,7 @@
 
 「……読んだよ。」
 「読んだの……？」
-「それに、あなたの気持ちも……[ちゃんと届いたよ](https://www.youtube.com/live/5fdrGFsRtQw?si=qV37p2qPX4X7ukjF&t=1095)。」
+「それに、あなたの気持ちも……[ちゃんと届いたよ](https://www.youtube.com/live/5fdrGFsRtQw?t=1095)。」
 
 モココの言葉を聞き、フワワの瞳は輝きに満ちた。
 
@@ -23,7 +23,7 @@
 
 たとえ血の繋がった姉妹ではなかったとしても、一緒に過ごした時間には確かな意味があったのだから。
 
-["思い出こそがモコちゃんをモコちゃんたらしめているんだよ！"](#embed:https://www.youtube.com/live/5fdrGFsRtQw?si=wlgB4uZnNgmHu1mn&t=1132)
+["思い出こそがモコちゃんをモコちゃんたらしめているんだよ！"](#embed:https://www.youtube.com/live/5fdrGFsRtQw?t=1132)
 
 二人は「バウバウ」を交わしながら語り合う。
 
@@ -37,7 +37,7 @@
 
 誰かと話す時は必ず三人以上の会話になり、どんな依頼や冒険も二人で力を合わせて挑んだ。
 
-もちろん、[意見がぶつかることもあった](https://www.youtube.com/live/5fdrGFsRtQw?si=_TRdqIo5tRvApsbj&t=3766)。
+もちろん、[意見がぶつかることもあった](https://www.youtube.com/live/5fdrGFsRtQw?t=3766)。
 
 けれど、喧嘩をしない兄弟姉妹なんているだろうか。
 
@@ -53,7 +53,7 @@
 
 すべてを二人で乗り越えていった。
 
-旅の途中、フワワが溶岩へ落ちてしまった時には、モココは[姉を助けようと迷うことなく飛び込んだ](https://www.youtube.com/live/5fdrGFsRtQw?si=MWUSPLMwyJSH1oNp&t=10095)。
+旅の途中、フワワが溶岩へ落ちてしまった時には、モココは[姉を助けようと迷うことなく飛び込んだ](https://www.youtube.com/live/5fdrGFsRtQw?t=10095)。
 
 その結果、自分まで大怪我を負うことになったとしても。
 

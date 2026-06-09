@@ -14,6 +14,6 @@
 
 その能力は、カリ本人と同じくらいシンプルそのもの。魔法のような派手な仕掛けはなく、ただひたすらに、刃をひと振り。横一文字に放たれる強烈な一撃が、標的を真っ二つに切り裂きます。
 
-[**静かに斬り払う**](#embed:https://www.youtube.com/live/xE3JQ1R2DdU?si=EKcdRzMaDtl6p37Z&t=5787)
+[**静かに斬り払う**](#embed:https://www.youtube.com/live/xE3JQ1R2DdU?t=5787)
 
 そして第2章からは、この鎌にも新たに[遠距離攻撃](#entry:revelations-entry)の力が備わることとなりました。

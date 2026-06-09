@@ -9,7 +9,7 @@ And yet... it didn't feel like the end.
 
 Though joy and cheerfulness radiated through the kingdom, the heroes couldn’t shake a lingering unease. They were, after all, no strangers to the closing chapters of a long journey—chapters that might appear peaceful on the surface, yet hide something far more ominous beneath. They knew better than anyone: never celebrate too soon.
 
-[Something feels off](#embed:https://www.youtube.com/live/FlPFFE5_X3Y?si=JPrfvOJ4Iqheojny&t=10019)
+[Something feels off](#embed:https://www.youtube.com/live/FlPFFE5_X3Y?t=10019)
 
 The final day awaited.
 

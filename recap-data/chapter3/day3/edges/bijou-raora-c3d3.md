@@ -17,7 +17,7 @@ Roa warns the princess that the sheep are now among us.
 
 [AMOGUS](#embed:https://www.youtube.com/watch?v=MGo9h3BNyj0&t=5050)
 
-The two members of The Illumination promise to visit the Gap tomorrow [together](https://www.youtube.com/live/MGo9h3BNyj0?si=lFpqAsO1PTKpUedz&t=5196).
+The two members of The Illumination promise to visit the Gap tomorrow [together](https://www.youtube.com/live/MGo9h3BNyj0?t=5196).
 
 Alongside NinoIna and Gonathon, both Bijou and Roa find an open window that leads outside the castle while going through the Labyrinth of Emotion.
 

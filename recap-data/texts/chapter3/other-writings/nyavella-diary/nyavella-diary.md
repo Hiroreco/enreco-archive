@@ -7,7 +7,7 @@ A funeral where everyone ran out in terror.
 
 A gate to welcome the end of this 'world'.
 Both left me feeling empty and so very tired.
-Now, I find myself waking to a new world - or a different -timeline perhaps.
+Now, I find myself waking to a new world - or a different timeline perhaps.
 I've lost track of the story and myself.
 
 The only peace I know is when I see cherry blossoms.

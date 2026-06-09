@@ -7,7 +7,7 @@
 
 そして、その予感は的中する――二人の関係は、実にあっけなく、何のわだかまりもなく終わりを迎えたのだった。
 
-[彼女はただ去っていった](#embed:https://www.youtube.com/live/u3MQlnSHfhA?feature=shared&t=14216)
+[彼女はただ去っていった](#embed:https://www.youtube.com/live/u3MQlnSHfhA?t=14216)
 
 こうして、ついにビジューは結婚という名の束縛から完全に解き放たれた。
 そして今、彼女はこれまでの人生で感じたことのないほどの自由を噛みしめていた。

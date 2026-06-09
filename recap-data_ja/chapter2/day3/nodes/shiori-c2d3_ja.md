@@ -6,11 +6,11 @@
 
 だったら――食べ物なんかじゃなくて、_ファンフィクション_ を売ってみるのはどうだろう？
 
-[ヘンテコ](#embed:https://www.youtube.com/live/gVAtGMLBJos?si=EyxaXf2cdLNBNqxy&t=1107)
+[ヘンテコ](#embed:https://www.youtube.com/live/gVAtGMLBJos?t=1107)
 
 書くことにかけては、いつだって彼女の得意分野だった。奇妙で閃きに満ちた彼女の頭脳、これを使わない手はないだろう。
 だが、いざ（もちろん受賞間違いなし！）と意気込むデビュー作に取りかかる前に、まずは英雄としての仕事を片づける必要があった。
-ビジュー、IRyS、ベイという奇妙な仲間たちと（なぜか[光るPP](https://www.youtube.com/live/gVAtGMLBJos?si=mrbHkeRHaHJ4S9E_&t=824)の話ばかりしていたが）、シオリは[廃墟の要塞](https://www.youtube.com/live/gVAtGMLBJos?si=zG-ew6n0Tlswdg3s&t=1239)を調査することに。もちろん、道中では[アウトランダー](https://www.youtube.com/live/gVAtGMLBJos?si=LS1xN-4KPGBFQuTx&t=2884)と姫のことをネタに、始終茶々を入れていたのは言うまでもない。
+ビジュー、IRyS、ベイという奇妙な仲間たちと（なぜか[光るPP](https://www.youtube.com/live/gVAtGMLBJos?t=824)の話ばかりしていたが）、シオリは[廃墟の要塞](https://www.youtube.com/live/gVAtGMLBJos?t=1239)を調査することに。もちろん、道中では[アウトランダー](https://www.youtube.com/live/gVAtGMLBJos?t=2884)と姫のことをネタに、始終茶々を入れていたのは言うまでもない。
 
 さて、改めて真剣な話に戻ろう――小説だ。
 
@@ -18,7 +18,7 @@
 だが、何かが足りない。物語が……どうにもおとなしいのだ。
 その時、まさに天啓が走った！ そうだ、_やおい_ だ。
 
-[Sea x Lovers](#embed:https://www.youtube.com/live/gVAtGMLBJos?si=O2p37u0sm5cNAVEe&t=5653)
+[Sea x Lovers](#embed:https://www.youtube.com/live/gVAtGMLBJos?t=5653)
 
 かくして、小説は完成した。
 
@@ -37,7 +37,7 @@
 
 その後、彼女は「謙虚な騎士」と結んだ新しい絆を日記に記し、今日という日を締めくくった。
 
-[ゴナソンの記録](#embed:https://www.youtube.com/live/gVAtGMLBJos?si=PSU7h0E2fe8YmwFW&t=9968)
+[ゴナソンの記録](#embed:https://www.youtube.com/live/gVAtGMLBJos?t=9968)
 
 またひとつページを書き上げ、またひとつ記憶を安全な場所に保存する。
 

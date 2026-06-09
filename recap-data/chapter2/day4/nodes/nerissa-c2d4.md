@@ -27,6 +27,6 @@ Yep. Hidden among the shelves and papers was Elizabeth’s personal collection o
 
 [UwU what's this?](#embed:https://youtu.be/zVWvu3ozXKM?t=7313s)
 
-The rest of the day was spent exploring the newly revealed lands and diving deep into the [lore](https://www.youtube.com/live/zVWvu3ozXKM?si=1z93z1yY4ce4TH9M&t=16144) of the kingdom. Curious as ever, Nerissa couldn’t help but theorize and investigate, much like she had in her first journey. Always chasing answers, always wondering.
+The rest of the day was spent exploring the newly revealed lands and diving deep into the [lore](https://www.youtube.com/live/zVWvu3ozXKM?t=16144) of the kingdom. Curious as ever, Nerissa couldn’t help but theorize and investigate, much like she had in her first journey. Always chasing answers, always wondering.
 
 After all, even in a world of fleeting horses and forgotten pasts, some instincts—like curiosity—never fade.

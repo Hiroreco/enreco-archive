@@ -11,7 +11,7 @@ But when being told that her fellow knight has spoken about killing her faction,
 
 After a brief pause, the red-haired knight turns to her comrade and pulls them aside to ask if this is true or not.
 
-[Maybe he was just having a bad day](#embed:https://www.youtube.com/live/rg_rZ8reBVA?si=qei9FYAh1GMaor4L&t=11754)
+[Maybe he was just having a bad day](#embed:https://www.youtube.com/live/rg_rZ8reBVA?t=11754)
 
 With a small back-and-forth between her fellow knight and her princess, there is an initial wave of relief when Gonathon is thought to be right about Ramsay, but it's swept away by Nerissa's distrust. To quickly resolve their issues, Lady Bloodflame suggests they go for a drink to talk over their differences.
 
@@ -27,7 +27,7 @@ But the idea of sitting up in a tree for the first time seemed charming enough t
 
 All of this for some fresh air with words of concern from Gonathon. Once again, she was being told she didn't look like herself. That she looked... unusual.
 
-["Homochromia? Heterophia? Homoph-"](#embed:https://www.youtube.com/live/rg_rZ8reBVA?si=2jRlzsVofqqO3fDB&t=12842)
+["Homochromia? Heterophia? Homoph-"](#embed:https://www.youtube.com/live/rg_rZ8reBVA?t=12842)
 
 Again, it was nothing more than a lot of traveling, work, and the loss of her close friend, Shakira.
 

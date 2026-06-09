@@ -8,7 +8,7 @@
 二度と誰にも縛られない。そう決意した彼女は、すべての縁を断ち切ることを選びます。
 その最初の一歩が、シオリとの離婚でした。
 
-[お前はダメ親父だ](#embed:https://www.youtube.com/live/u3MQlnSHfhA?feature=shared&t=13345)
+[お前はダメ親父だ](#embed:https://www.youtube.com/live/u3MQlnSHfhA?t=13345)
 
 突然の宣言に、シオリは愕然とします。
 これまでの関係の中で、彼女は何も悪いことなどしていないのに。

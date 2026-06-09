@@ -5,21 +5,21 @@
 
 そして、まるで世界がその小さな願いを聞き届けたかのように、一羽の羽毛の友が現れた。
 
-[やぁ、小さな子！](#embed:https://www.youtube.com/live/geV0HyX5LUA?si=Go2F6QDRR0qDVuZC&t=1177)
+[やぁ、小さな子！](#embed:https://www.youtube.com/live/geV0HyX5LUA?t=1177)
 
 ニワトリ。フワワが心から大切に思っている生き物だ。以前の旅では、ほとんどの時間をニワトリの群れを育てることに費やし、彼女は彼らを家族のように愛してきた。その温かい感覚が再び――たとえ小さな出会いであっても――戻ってきたことは、疲れた心にそよ風のように優しく染み渡った。
 
-そのニワトリは、小さくてやんちゃで、いつも[ちょこまかと走り回って](https://www.youtube.com/live/geV0HyX5LUA?si=2wRpax8PI0MsZJg6&t=1331)ばかり。フワワは、彼が逃げ出さないようにと、あの手この手で様々な工夫を凝らした。そして、ようやくカフェの中に落ち着かせることができたとき、彼女はその子を「モコちゃん」と名付けた。それは、今も心から恋い慕う、大切な相棒への静かなオマージュだった。
+そのニワトリは、小さくてやんちゃで、いつも[ちょこまかと走り回って](https://www.youtube.com/live/geV0HyX5LUA?t=1331)ばかり。フワワは、彼が逃げ出さないようにと、あの手この手で様々な工夫を凝らした。そして、ようやくカフェの中に落ち着かせることができたとき、彼女はその子を「モコちゃん」と名付けた。それは、今も心から恋い慕う、大切な相棒への静かなオマージュだった。
 
-少し気持ちが落ち着いたフワワは、次なる目標へと視線を向けた。ダンジョン攻略を進めるため、仲間に協力を求めたのだ。最初に訪れたのは[廃墟の要塞](https://www.youtube.com/live/geV0HyX5LUA?si=J38XCoSl-nVt5AHh&t=1863)。次に、シオリ、モココ、ベイと共に[スターサイト・クロノス](https://www.youtube.com/live/geV0HyX5LUA?si=AMeAFfmmilO48tEp&t=4763)へ挑み、そこで[オーロ・クロニー](https://www.youtube.com/live/geV0HyX5LUA?si=2vIMbyUxKOHbQ2y5&t=8554)の記憶を取り戻すことに成功した。
+少し気持ちが落ち着いたフワワは、次なる目標へと視線を向けた。ダンジョン攻略を進めるため、仲間に協力を求めたのだ。最初に訪れたのは[廃墟の要塞](https://www.youtube.com/live/geV0HyX5LUA?t=1863)。次に、シオリ、モココ、ベイと共に[スターサイト・クロノス](https://www.youtube.com/live/geV0HyX5LUA?t=4763)へ挑み、そこで[オーロ・クロニー](https://www.youtube.com/live/geV0HyX5LUA?t=8554)の記憶を取り戻すことに成功した。
 
-それからフワワは再びカフェ作りに戻った。まだ資材は不足していたが、ありがたいことに[シャキーラ](https://www.youtube.com/live/geV0HyX5LUA?si=a98N053xbj--51z9&t=3509)が快く石を提供してくれたおかげで、建築が少し進んだ。小さな店主のカフェは[まだ売上ゼロ](https://www.youtube.com/live/geV0HyX5LUA?si=2WqV9LXEoUfycxxp&t=3849)だったけれど、それでも希望は消えていなかった。夢はまだ遠くでキラキラと輝き続けていて――しかも、もう独りぼっちではなかった。モコちゃんが、いつもそばにいてくれたから。
+それからフワワは再びカフェ作りに戻った。まだ資材は不足していたが、ありがたいことに[シャキーラ](https://www.youtube.com/live/geV0HyX5LUA?t=3509)が快く石を提供してくれたおかげで、建築が少し進んだ。小さな店主のカフェは[まだ売上ゼロ](https://www.youtube.com/live/geV0HyX5LUA?t=3849)だったけれど、それでも希望は消えていなかった。夢はまだ遠くでキラキラと輝き続けていて――しかも、もう独りぼっちではなかった。モコちゃんが、いつもそばにいてくれたから。
 
-[モコちゃ〜ん](#embed:https://www.youtube.com/live/geV0HyX5LUA?si=MON2jav5merqyE4a&t=3907)
+[モコちゃ〜ん](#embed:https://www.youtube.com/live/geV0HyX5LUA?t=3907)
 
 ――少なくとも、ほんのひとときは。
 
-[モコ…ちゃん？](#embed:https://www.youtube.com/live/geV0HyX5LUA?si=qZPau0VzbYTi2o2i&t=9171)
+[モコ…ちゃん？](#embed:https://www.youtube.com/live/geV0HyX5LUA?t=9171)
 
 フワワが用事のため外へ出て、戻ってきたとき――モコちゃんの姿はなかった。
 
@@ -35,7 +35,7 @@
 
 カフェは空っぽ。フワワは、その空っぽの中に座っていた。
 
-[バウバウ…](#embed:https://www.youtube.com/live/geV0HyX5LUA?si=LCtvw4QaRwM0kijj&t=11917)
+[バウバウ…](#embed:https://www.youtube.com/live/geV0HyX5LUA?t=11917)
 
 けれど、そんな空っぽの空間の中にも――確かに、まだ希望は残っていた（参照 [シャキーラ-フワワ](#edge:kiara-fuwawa)）。
 

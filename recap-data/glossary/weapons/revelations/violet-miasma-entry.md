@@ -14,6 +14,6 @@ Ina serves as a priestess to the Ancient Ones, and this very book, tied to those
 
 When activated, a swirling purple cloud materializes above Ina, firing piercing shots in the direction she aims. These projectiles pass through multiple enemies, dealing damage in their wake—a beautiful, eerie display of ancient might in the hands of someone so unexpectedly gentle.
 
-[Firing my lasers!](#embed:https://www.youtube.com/live/THllQCVOYzY?si=6WRNsqGVEFR4DDPO&t=4464)
+[Firing my lasers!](#embed:https://www.youtube.com/live/THllQCVOYzY?t=4464)
 
 Starting from Chapter 2, the book also gained an additional [ranged attack.](#entry:revelations-entry)

@@ -5,7 +5,7 @@
 
 嫉妬――それは、大切な関係が誰かに脅かされていると感じたときに生まれる複雑な感情。
 
-ある日、レディ・ブラッドフレイムは、イマーカインドが被っていたフィアの帽子を[可愛い](https://www.youtube.com/live/6HUbJshXMAI?si=e5-gd5D5-dYNecqs)と褒めた。
+ある日、レディ・ブラッドフレイムは、イマーカインドが被っていたフィアの帽子を[可愛い](https://www.youtube.com/live/6HUbJshXMAI)と褒めた。
 
 しかし、ネリッサ・ジュリエットはそうは思わなかった。
 
@@ -15,7 +15,7 @@
 
 しかも、その帽子は姫から贈られたものだった。
 
-[「他の人を可愛いって呼ばないで。」](#embed:https://www.youtube.com/live/6HUbJshXMAI?si=b73rcQyajINkz-VQ)
+[「他の人を可愛いって呼ばないで。」](#embed:https://www.youtube.com/live/6HUbJshXMAI)
 
 有無を言わせぬ命令だった。
 

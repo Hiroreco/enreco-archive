@@ -34,7 +34,7 @@
 
 また、スミスには戦闘に役立つパッシブ効果もあり、レベルが上がるごとに攻撃時に追加ダメージを与える確率が上昇します。
 
-[スミスがアップグレードストーンを作る様子](#embed:https://www.youtube.com/live/wnQuawM-3Jc?si=eqo6EHO6IVC2c43c&t=1180)
+[スミスがアップグレードストーンを作る様子](#embed:https://www.youtube.com/live/wnQuawM-3Jc?t=1180)
 
 #### ジュエラー
 
@@ -47,7 +47,7 @@
 
 チャームには3つの色があり、勇者たちはそれぞれ1つずつ装備可能です。どのステータスを組み合わせるか、戦略が試されます。
 
-[ジュエラーがチャームを作る様子](#embed:https://www.youtube.com/live/pEAXwijhfFY?si=4jbm3iseM7W5lCMp&t=16078)
+[ジュエラーがチャームを作る様子](#embed:https://www.youtube.com/live/pEAXwijhfFY?t=16078)
 
 #### シェフ
 
@@ -58,7 +58,7 @@
 
 作った料理の数に応じて調理鍋のレベルがアップし、高レベルになるほど、通常よりも効果が強力、または持続時間が長い「グルメ料理」が生まれる確率が上昇します。
 
-[シェフが料理を作る様子](#embed:https://www.youtube.com/live/XfZh_3xb7i0?si=_LANDkLQRUBJTQg3&t=9331)
+[シェフが料理を作る様子](#embed:https://www.youtube.com/live/XfZh_3xb7i0?t=9331)
 
 #### サプライヤー
 
@@ -73,4 +73,4 @@
 
 また、サプライヤー専用のチャームも存在し、採掘効率をさらに高めることが可能です。高レベルの職業能力と強化された道具を組み合わせれば、資源収集において彼女たちに匹敵する者はいないでしょう。
 
-[サプライヤーがピッケルにエンチャントを付与する様子](#embed:https://www.youtube.com/live/NGC0VaSUPnE?si=OLvHrK407SXwIXA8&t=18854)
+[サプライヤーがピッケルにエンチャントを付与する様子](#embed:https://www.youtube.com/live/NGC0VaSUPnE?t=18854)

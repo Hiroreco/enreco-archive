@@ -5,4 +5,4 @@
 
 信頼を新たにした姫は、英雄たちに命を下します。アウトランダーたちが「ルイネーション」の痕跡を突き止めたという〈滅びの要塞〉へ赴き、その調査にあたるようと。
 
-[第一歩は踏み出された](#embed:https://www.youtube.com/live/wnQuawM-3Jc?si=NMPjiwmImedgxhEN&t=8564)
+[第一歩は踏み出された](#embed:https://www.youtube.com/live/wnQuawM-3Jc?t=8564)

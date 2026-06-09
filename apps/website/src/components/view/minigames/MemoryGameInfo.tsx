@@ -29,7 +29,7 @@ const MemoryGameInfo = () => {
             <p>{t("scoring")}</p>
             <p>{t("multiplayer")}</p>
             <TimestampHref
-                href="https://www.youtube.com/live/iAYrdIlfVf0?feature=shared&t=4271"
+                href="https://www.youtube.com/live/iAYrdIlfVf0?t=4271"
                 caption={t("timestampCaption")}
                 type="embed"
             />

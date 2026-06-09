@@ -20,7 +20,7 @@ Mori Calliope, now with the memories of a disciple of Death itself, didn’t go 
 
 Calli was one of the few whose reason for being transported to this enigmatic universe was known—and, in typical fashion, she got hit by [a truck.](https://www.youtube.com/live/xE3JQ1R2DdU?t=331) Timid and somewhat more reserved than others, she tried to avoid chaos whenever she could, mostly keeping to herself. She eventually recalled her past self as Mori Calliope—a reaper, a disciple of Death—after conquering the Underworld Dungeon.
 
-Calli was a woman of justice, standing firmly for what was right and a trustworthy ally to those on the same path, like Elizabeth. Still, she made quite a name for herself by running a tavern called **Death Do Us Part**, which didn’t just serve food—it offered divorce services, too. Seeing how the kingdom was bursting with love, she recognized an opportunity, fully expecting those couples to fall apart in the end. Naturally, those married were appalled… until they actually lined up for her [services](https://www.youtube.com/live/evcruocvE3g?feature=shared&t=11280) on the last day.
+Calli was a woman of justice, standing firmly for what was right and a trustworthy ally to those on the same path, like Elizabeth. Still, she made quite a name for herself by running a tavern called **Death Do Us Part**, which didn’t just serve food—it offered divorce services, too. Seeing how the kingdom was bursting with love, she recognized an opportunity, fully expecting those couples to fall apart in the end. Naturally, those married were appalled… until they actually lined up for her [services](https://www.youtube.com/live/evcruocvE3g?t=11280) on the last day.
 
 > They all start of so naive. In the end, it'll all come crashing down and they'll thank me later.
 
@@ -33,9 +33,9 @@ Calli also played a critical role in the battle against the corruption on the fi
 
 The reaper’s second journey began with a duty already resting on her shoulders. Along with Shakira, she was chosen as one of the “Lore Keepers,” tasked with recording the heroes’ daily adventures for the Library.
 
-Unlike many others, she retained all her memories from the previous journey. So, she thought, why not build another food establishment? Being a chef again felt only natural. Adopting the name _Mordan Ramsey_, she opened a new restaurant that doubled as an inn—offering both meals and lodging—and even included a secret fight club, where she and her [“Wolf Pack”](https://www.youtube.com/live/uX0rZYSrb4Q?si=ygzF1V3H5aVxDjwl&t=6658) occasionally held sparring sessions.
+Unlike many others, she retained all her memories from the previous journey. So, she thought, why not build another food establishment? Being a chef again felt only natural. Adopting the name _Mordan Ramsey_, she opened a new restaurant that doubled as an inn—offering both meals and lodging—and even included a secret fight club, where she and her [“Wolf Pack”](https://www.youtube.com/live/uX0rZYSrb4Q?t=6658) occasionally held sparring sessions.
 
-That wasn’t all. Calli also put her other skills to work by opening a therapy stall, offering a listening ear and wise counsel to troubled hearts for a modest fee of 300 coins. This service quickly proved indispensable; as the kingdom’s chaos escalated, more and more people [flocked](https://www.youtube.com/live/ABO6qUKDBG0?si=zw4PRzXBRiyCgpjw&t=14246) to her for help—so many, in fact, that the therapist herself began to wish she could get therapy.
+That wasn’t all. Calli also put her other skills to work by opening a therapy stall, offering a listening ear and wise counsel to troubled hearts for a modest fee of 300 coins. This service quickly proved indispensable; as the kingdom’s chaos escalated, more and more people [flocked](https://www.youtube.com/live/ABO6qUKDBG0?t=14246) to her for help—so many, in fact, that the therapist herself began to wish she could get therapy.
 
 > It may be best to confront the issue at the source... Have you considered murder as an option?
 
@@ -43,10 +43,39 @@ Naturally, Mordan found herself tangled in a few shenanigans, too. She almost en
 
 She was, after all, a woman of many talents—one deeply invested in the happiness and well-being of her friends.
 
+### Chapter 3
+
+**Name:** Mordan Ramsey
+**Faction:** Shining Stars
+**Job:** Chef
+
+Mordan only wanted to cook. As such, she began her third journey much the same way she had before: as a chef dedicated to feeding the kingdom. Unfortunately, after baking a chocolate "fertility cake" for the newlywed couple Shakira and Roa, Shakira [suddenly died](https://www.youtube.com/watch?v=jWrom0fcdQk&t=7142) shortly after eating it.
+
+That single incident would cast a shadow over the rest of Mordan's journey.
+
+> No, it's all a big misunderstanding... I only cook food for good!
+
+Thankfully, she was not alone. Her trusted wolf-pack companions remained by her side throughout the ordeal. Despite the accusations, Mordan continued trying to do [good.](https://www.youtube.com/watch?v=VXqngzJKNZU&t=1351) She once again established a restaurant for the kingdom, worked hard to support others, and even adopted a pet chicken named ["Shakira"](https://www.youtube.com/watch?v=VXqngzJKNZU&t=4546) in honor of her fallen friend.
+
+Slowly but surely, she began rebuilding the trust she had lost and repairing her reputation among those who had turned against her.
+
+Yet the rumors refused to die.
+
+On Day 3, Shiori hosted a [funeral](#entry:yellow-queen-entry) for Shakira within her church. During the event, the allegations surrounding Mordan resurfaced with full force. Between the lingering poisoner rumors and her grim-reaper-like appearance, [suspicion](https://www.youtube.com/live/PNrclGd76n4?t=11587) once again settled firmly upon the chef's shoulders.
+
+At the end of Day 5, she discovered the identity of Shakira's true killer within the [church](https://www.youtube.com/live/UBbTSf5A9bc?t=20419) itself. Unfortunately, before she could do anything with this revelation, she was dropped into a hidden basement and had her memories wiped, leaving her unable to expose what she had learned.
+
+By the time the final day arrived, a formal trial was held to determine whether Mordan was responsible for Shakira's death. Predictably, the proceedings quickly descended into [chaos.](https://www.youtube.com/watch?v=j2loI_6HkqI&t=7162) Still, by the end of the journey, the actual killer openly admitted responsibility, effectively clearing Mordan's name once and for all.
+
+So, was she able to prove her innocence? Technically, yes.
+
+After everything that happened, Mordan seemed to arrive at an important realization: while good food may save the world, she might want to consider a career in counseling as a backup plan.
+
 ## Trivia
 
 - In Chapter 1, Calli’s tavern actually cost her more than it earned, since she was constantly handing out free meals and discounts—most of her “customers” were too broke to pay.
 - Every single divorce Calli officiated on the last day of Chapter 1 was to untangle Bijou’s messy web of relationships.
 - In Chapter 2, Calli became notably wary—and downright fearful—of Shiori, who kept meddling with her businesses and saying unsettling things. Just the goth’s presence alone was enough to send chills down her spine.
+- Calli is the only known adventurer to have kept the same profession across all three chapters, serving as a chef in Chapter 1 (figuratively), Chapter 2, and Chapter 3.
 
 [calli](#easter:easter-calli)

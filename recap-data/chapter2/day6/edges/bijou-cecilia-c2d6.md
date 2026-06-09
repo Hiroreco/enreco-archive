@@ -5,7 +5,7 @@ Bijou had already done so much for Cecilia throughout this journey—quietly, co
 
 Today proved that Bijou’s strengths extended far beyond material support.
 
-[Yoshi yoshi](#embed:https://www.youtube.com/live/I75IWfMGVgM?si=ec5M5jzztWb0Awye&t=9214)
+[Yoshi yoshi](#embed:https://www.youtube.com/live/I75IWfMGVgM?t=9214)
 
 At Cecilia’s lowest—heart shattered, love unreturned, spirit broken—it was Bijou who stood by her side (with Gonathon too, of course), offering not just comfort, but reassurance. For someone so small, so bubbly, Bijou carried a quiet gravity, a gentleness that could reach past all the noise and pull someone back from their worst thoughts.
 

@@ -1,13 +1,13 @@
 <!-- title: Mordon Ramsay -->
 <!-- status: Punished -->
 
-["Shades of gray, as it should be."](#embed:https://www.youtube.com/live/j2loI_6HkqI?si=VG93rRxPE5k-TTRD&t=668)
+["Shades of gray, as it should be."](#embed:https://www.youtube.com/live/j2loI_6HkqI?t=668)
 
 That was Mordon Ramsay's motto as she headed to what she thought would be her final day in this Libestal. She had done this song and dance a couple of times before. There was going to be something crazy coming up soon, and before that took place, she had to at least _try_ to clear her name. That, and Shakira (her pet chicken) was still acting strangely... she had to get to the bottom of it before her time ran out.
 
-The first person she ran into was her friend, fellow wolf-pack member and now lawyer of choice: Cecilia Immerkind. Mordon [confided in her](https://www.youtube.com/live/j2loI_6HkqI?si=cTXDf622IdE-EGHr&t=1298) about her idea to obtain an animal-speaking potion to understand Shakira the Second and get to the bottom of things, as well as about her concerns regarding the group calling themselves "Advent". Immerkind agreed, and the two split off to prepare themselves for the upcoming trial, a small ([and terrifying](https://www.youtube.com/watch?v=j2loI_6HkqI&t=2521)) conversation with Roa beforehand reaffirming her worries at least partially.
+The first person she ran into was her friend, fellow wolf-pack member, and now lawyer of choice: Cecilia Immerkind. Mordon [confided in her](https://www.youtube.com/live/j2loI_6HkqI?t=1298) about her idea to obtain an animal-speaking potion to understand Shakira the Second and get to the bottom of things, as well as about her concerns regarding the group calling themselves "Advent". Immerkind agreed, and the two split off to prepare themselves for the upcoming trial, a small ([and terrifying](https://www.youtube.com/watch?v=j2loI_6HkqI&t=2521)) conversation with Roa beforehand reaffirming her worries at least partially.
 
-Before it was time to be judged, though? Pets. More pets. A rabbit called Donut, a fox called Utut, and a cow called... Sister Shiori? Mordon has some interesting naming tendencies. She [showed them all](https://www.youtube.com/watch?v=j2loI_6HkqI&t=3869) to her friend NinoIna and brought up the potions again, but it seemed like the window of opportunity had already passed, as all their needed materials could have only been found in the Labyrinth of Duality. Darn. It is what it is.
+Before it was time to be judged, though? Pets. More pets. A rabbit called Donut, a fox called Utut, and a cow called... Sister Shiori? Mordon has some interesting naming tendencies. She [showed them all](https://www.youtube.com/watch?v=j2loI_6HkqI&t=3869) to her friend NinoIna and brought up the potions again, but it seemed like the window of opportunity had already passed, as all the materials they needed could have only been found in the Labyrinth of Duality. Darn. It is what it is.
 
 Gonathon arrived not long after to warn Mordon of his findings regarding the Curse of Advent. He told her the fluffy one, Fuwawa, was already under their spell. She... didn't really notice. After all, they never got along to begin with. In her own [words:](https://www.youtube.com/watch?v=j2loI_6HkqI&t=4757) _"I don't really trust her because she doesn't trust me and I don't trust anyone who doesn't trust me so I don't trust her"_. After meeting up with Immerkind, the three wolf-pack members entered Sister Shiori's church and discovered...!
 
@@ -15,9 +15,9 @@ Gonathon arrived not long after to warn Mordon of his findings regarding the Cur
 
 They even dug a little bit around the walls to make sure nothing was hidden, but... there wasn't anything out of the ordinary. The mission was a failure, and the passage of time wasn't exactly on their side either. The trial was about to begin.
 
-Arriving at the picnic table, it wasn't too long until Lady Bloodflame's [commanding voice](https://www.youtube.com/watch?v=j2loI_6HkqI&t=6630) rung out from the top of the stage, announcing the beginning of the trial. Her defense attorneys, Gonathon and Immerkind, were quick to defend her with any and all evidence they may have had—which wasn't a lot, but it's honest work! The prosecuting Sister Shiori wasn't letting up her offense, and it seemed to be a trial for the ages...
+Arriving at the picnic table, it wasn't too long until Lady Bloodflame's [commanding voice](https://www.youtube.com/watch?v=j2loI_6HkqI&t=6630) rung out from the top of the stage, announcing the beginning of the trial. Her defense attorneys, Gonathon and Immerkind, were quick to defend her with any evidence they may have had, which wasn't a lot, but it's honest work! The prosecuting Sister Shiori wasn't letting up on her offense, and it seemed to be a trial for the ages...
 
-For approximately a minute, anyway. Things descended into chaos fast. Everyone was speaking over each other, plus at some point Roa derailed the trial entirely and everyone just kinda left...
+For approximately a minute, anyway. Things descended into chaos fast. Everyone was speaking over each other, plus at some point, Roa derailed the trial entirely, and everyone just kinda left...
 
 ["I'm innocent! Yay- AAAAAAAAAAA"](#embed:https://www.youtube.com/watch?v=j2loI_6HkqI&t=7162)
 
@@ -33,4 +33,4 @@ Mordon wasn't really keen on rushing things, but at this point, whatever, man. U
 
 Once THAT was dealt with, it was time to finally enter Nullspace. Mordon stayed mostly to herself as their adventure would come to a close for the time being (see: [Faust](#node:faust)). It was a perilous final stretch, but once it was all done with, Mordon refused to offer her strength to The Outsider. Good food would SAVE the world, not REFORM it!
 
-Although, she's thinking it is time to try something new moving forward. Being a chef is a good life... but [her counseling gig wasn't too bad](https://www.youtube.com/watch?v=j2loI_6HkqI&t=132480) either. Maybe she'd focus on that a little bit more in the future.
+Although she's thinking it is time to try something new moving forward. Being a chef is a good life... but [her counseling gig wasn't too bad](https://www.youtube.com/watch?v=j2loI_6HkqI&t=132480) either. Maybe she'd focus on that a little bit more in the future.

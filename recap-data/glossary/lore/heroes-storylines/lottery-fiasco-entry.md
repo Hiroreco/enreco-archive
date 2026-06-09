@@ -52,7 +52,7 @@ Mococo demanded **10,000 gold** in compensation for her emotional damage. Fauna 
 
 ### How it ended
 
-Feeling bad for the fuzzy one and just wanting to end the whole ordeal, Fauna later called Mococo over and agreed to settle the matter. She paid the dog a generous sum of 10,000 gold… along with [some kisses.](https://www.youtube.com/live/wINOVotsvPY?feature=shared&t=3185)
+Feeling bad for the fuzzy one and just wanting to end the whole ordeal, Fauna later called Mococo over and agreed to settle the matter. She paid the dog a generous sum of 10,000 gold… along with [some kisses.](https://www.youtube.com/live/wINOVotsvPY?t=3185)
 
 And just like that, they were friends again.
 Hurray.

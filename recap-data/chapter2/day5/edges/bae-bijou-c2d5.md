@@ -9,7 +9,7 @@ Bijou was worried as memories of the past slowly returned to her. Something had 
 
 Then, Bijou's memories wholly returned.
 
-[MY CHILD!](#embed:https://www.youtube.com/live/AwTYvoyB3Xo?si=A-xdbbE2L2KNBO9B&t=8173)
+[MY CHILD!](#embed:https://www.youtube.com/live/AwTYvoyB3Xo?t=8173)
 
 The hat on Bae's head wasn't an evil artifact! It was her child! Her child with her beloved Shiori Nyavella.
 

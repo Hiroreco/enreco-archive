@@ -22,7 +22,7 @@ One participant was "cursed" and sought to sabotage the purification without bei
 
 The ritual could be completed by either correctly seating everyone in numerical order or by identifying and voting out the cursed individual.
 
-[The Ritual](#embed:https://www.youtube.com/live/tJ_YXGE3o2w?si=PuRoJPyk6DJCIjQC&t=5809)
+[The Ritual](#embed:https://www.youtube.com/live/tJ_YXGE3o2w?t=5809)
 
 ### Rewards
 

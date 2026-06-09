@@ -155,7 +155,7 @@
 
 乙女は薔薇と指輪を差し出し、自信に満ちた声で宣言する。
 
-["レディ・ブラッドフレイム、私のものになって"](#embed:https://www.youtube.com/live/4anxJRoJo4s?si=cYDR5cbVw-5VqPK_&t=19610)
+["レディ・ブラッドフレイム、私のものになって"](#embed:https://www.youtube.com/live/4anxJRoJo4s?t=19610)
 
 ジェイドナイトに迷いはなかった。
 

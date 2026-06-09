@@ -3,7 +3,7 @@
 
 After an arduous journey through the depths of Nullspace and the defeat of its guardian, the Order, the heroes finally breached its heart—only for Faust to drop his guise and reveal his true identity as the **Outsider**.
 
-[The Egg of Creation](#embed:https://www.youtube.com/live/6HUbJshXMAI?si=RHKD-zag2fdO7-px&t=9048)
+[The Egg of Creation](#embed:https://www.youtube.com/live/6HUbJshXMAI?t=9048)
 
 The Outsider confessed that the trials, hidden memories, and challenges the heroes faced were all orchestrated by him to cultivate their unique power: **Revelation**. He then presented them with the ultimate secret of Nullspace, the **Egg of Creation**, a primordial crucible capable of remaking the entire multiverse.
 

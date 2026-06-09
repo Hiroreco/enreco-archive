@@ -4,7 +4,6 @@ import TranslationDislaimerModal from "@/components/view/basic-modals/Translatio
 import GlossaryApp from "@/components/view/glossary/GlossaryApp";
 import { NowPlayingToast } from "@/components/view/jukebox/NowPlayingToast";
 import VideoArchiveApp from "@/components/view/media-archive/MediaArchiveApp";
-import BingoApp from "@/components/view/minigames/bingo/BingoApp";
 import useIsMobileViewport from "@/hooks/useIsMobileViewport";
 import { useLocalizedData } from "@/hooks/useLocalizedData";
 import { LS_KEYS } from "@/lib/constants";
@@ -220,7 +219,7 @@ export const ViewAppWrapper = () => {
                             <TabsTrigger value="archive">
                                 <Film size={24} />
                             </TabsTrigger>
-                            <TabsTrigger value="bingo" title="Bingo">
+                            {/* <TabsTrigger value="bingo" title="Bingo">
                                 <Image
                                     src="/images-opt/bingo-logo-opt.webp"
                                     alt="Bingo"
@@ -228,7 +227,7 @@ export const ViewAppWrapper = () => {
                                     width={24}
                                     className="h-6 w-auto"
                                 />
-                            </TabsTrigger>
+                            </TabsTrigger> */}
                         </TabsList>
                     )}
                     {!isMobile && (
@@ -253,19 +252,19 @@ export const ViewAppWrapper = () => {
                                     icon: <Film size={24} />,
                                     label: tApp("mediaArchive"),
                                 },
-                                {
-                                    value: "bingo",
-                                    icon: (
-                                        <Image
-                                            src="/images-opt/bingo-logo-opt.webp"
-                                            alt="Bingo"
-                                            height={24}
-                                            width={24}
-                                            className="size-6 object-contain"
-                                        />
-                                    ),
-                                    label: tApp("bingo"),
-                                },
+                                // {
+                                //     value: "bingo",
+                                //     icon: (
+                                //         <Image
+                                //             src="/images-opt/bingo-logo-opt.webp"
+                                //             alt="Bingo"
+                                //             height={24}
+                                //             width={24}
+                                //             className="size-6 object-contain"
+                                //         />
+                                //     ),
+                                //     label: tApp("bingo"),
+                                // },
                             ].map(({ value, icon, label }) => (
                                 <HoverTabTrigger
                                     key={value}
@@ -288,7 +287,7 @@ export const ViewAppWrapper = () => {
                             <TabsTrigger value="archive">
                                 <Film size={24} />
                             </TabsTrigger>
-                            <TabsTrigger value="bingo" title="Bingo">
+                            {/* <TabsTrigger value="bingo" title="Bingo">
                                 <Image
                                     src="/images-opt/bingo-logo-opt.webp"
                                     alt="Bingo"
@@ -296,7 +295,7 @@ export const ViewAppWrapper = () => {
                                     width={24}
                                     className="h-6 w-auto"
                                 />
-                            </TabsTrigger>
+                            </TabsTrigger> */}
                         </TabsList>
                     )}
                 </Tabs>
@@ -338,7 +337,7 @@ export const ViewAppWrapper = () => {
                             <VideoArchiveApp bgImage={bgImage} />
                         </motion.div>
                     )}
-                    {appType === "bingo" && (
+                    {/* {appType === "bingo" && (
                         <motion.div
                             key="bingo"
                             initial={{ opacity: 0 }}
@@ -348,7 +347,7 @@ export const ViewAppWrapper = () => {
                         >
                             <BingoApp />
                         </motion.div>
-                    )}
+                    )} */}
                 </AnimatePresence>
             </div>
         </div>

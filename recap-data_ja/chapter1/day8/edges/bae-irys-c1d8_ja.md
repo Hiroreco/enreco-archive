@@ -10,16 +10,16 @@
 
 _ホットピンクワン。_
 
-[近寄るな！](#embed:https://www.youtube.com/live/t5NGryTaGqk?feature=shared&t=1055)
+[近寄るな！](#embed:https://www.youtube.com/live/t5NGryTaGqk?t=1055)
 
 あのピンクの女は、ベーの怒りをこれでもかと煽る存在だった。見下すようなその顔つき、「農民」と呼びかける態度。そして何よりも最悪なのは──妻が何人もいることを、これみよがしに自慢してやまないことだった。
 
 [妻が五人もいるって本当？](#embed:https://www.youtube.com/watch?v=t5NGryTaGqk&t=2169s)
 
 当初、ベーは彼女と関わりを持つことを避けていた。しかし、堪忍袋の緒が切れた時、彼女は決意した──いや、誓ったのだ。このピンクの厄介者に、これでもかと苦しみを与えてやると。  
-その日一日、ベーはありとあらゆる手を使って[鬱陶しさ](https://www.youtube.com/live/t5NGryTaGqk?feature=shared&t=3285)を発揮することに専念した。人前で彼女をからかい、愛する「永遠の伴侶」を奪おうと画策し、隙あらば嫌味をぶつける。失うものが何もないベーにとって、それは当然の権利であり、そして何よりも最高に愉快な時間だった。
+その日一日、ベーはありとあらゆる手を使って[鬱陶しさ](https://www.youtube.com/live/t5NGryTaGqk?t=3285)を発揮することに専念した。人前で彼女をからかい、愛する「永遠の伴侶」を奪おうと画策し、隙あらば嫌味をぶつける。失うものが何もないベーにとって、それは当然の権利であり、そして何よりも最高に愉快な時間だった。
 
-[お前は私の人生のステインだ](#embed:https://www.youtube.com/live/t5NGryTaGqk?feature=shared&t=4918)
+[お前は私の人生のステインだ](#embed:https://www.youtube.com/live/t5NGryTaGqk?t=4918)
 
 ## ファンアート
 

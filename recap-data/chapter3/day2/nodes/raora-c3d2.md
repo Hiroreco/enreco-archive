@@ -3,7 +3,7 @@
 
 **_The world isn't what it seems._**
 
-After a bewildering discovery [the day before](https://www.youtube.com/live/XD-K3AirOdA?si=VKEfitM4PWY7qAbl&t=19434), Roa became convinced that the world itself was a simulation. Compared to the truth lurking beyond Libestal's walls, the problems surrounding the Fia, the Outsider, and the Stains suddenly felt insignificant.
+After a bewildering discovery [the day before](https://www.youtube.com/live/XD-K3AirOdA?t=19434), Roa became convinced that the world itself was a simulation. Compared to the truth lurking beyond Libestal's walls, the problems surrounding the Fia, the Outsider, and the Stains suddenly felt insignificant.
 
 People deserved to know the truth. They deserved to understand the reality they were trapped in.
 
@@ -39,7 +39,7 @@ The walls surrounding Libestal's fields had been heavily fortified since yesterd
 
 She was certain the sheep would be waiting there.
 
-[And there it was.](#embed:https://www.youtube.com/live/uSz1tR2SU28?si=x0pZ-JwpYBM0rzT5&t=18492)
+[And there it was.](#embed:https://www.youtube.com/live/uSz1tR2SU28?t=18492)
 
 Roa stared at the proof she had been searching for, but before she could fully process it, the powers beyond abruptly tore her away and sent her back to the village.
 

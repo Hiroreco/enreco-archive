@@ -5,7 +5,7 @@ The final day had arrived, and it felt special for more than just being the end 
 
 Though she was still a little confuzzled about the sister part. Just the day before, her identical counterpart couldn't accept that they were related. She wondered if anything had changed overnight. Perhaps things would be different now? (see [Fuwawa-Mococo](#edge:fuwawa-mococo)).
 
-There was certainly no shortage of things happening today. A trial to uncover Shakira's murderer, a picnic, and for some reason, Shiori constructing what appeared to be a death trap.
+There was certainly no shortage of things happening today. A trial to uncover Shakira's murderer, a picnic, and for some reason, Shiori was constructing what appeared to be a death trap.
 
 [Be careful up there!](#embed:https://www.youtube.com/watch?v=mIsHnxTVoFM&t=1514s)
 

@@ -24,7 +24,7 @@
 
 その瞬間、心の堤防が決壊しました。
 
-[終わった](#embed:https://www.youtube.com/live/I75IWfMGVgM?si=u-PlbeDW8LMpZi8Y&t=9163)
+[終わった](#embed:https://www.youtube.com/live/I75IWfMGVgM?t=9163)
 
 あふれ出る涙――それは弱さからではなく、報われない愛の重みに押し潰された、切ない心の叫びでした。
 

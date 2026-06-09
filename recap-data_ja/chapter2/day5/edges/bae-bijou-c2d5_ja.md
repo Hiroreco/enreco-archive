@@ -9,7 +9,7 @@
 
 やがて、ビジューの記憶は完全に蘇ります。
 
-[我が子よ！](#embed:https://www.youtube.com/live/AwTYvoyB3Xo?si=A-xdbbE2L2KNBO9B&t=8173)
+[我が子よ！](#embed:https://www.youtube.com/live/AwTYvoyB3Xo?t=8173)
 
 ベイの頭に乗っていた“帽子”――それは邪悪なアーティファクトなどではなかったのです！なんと、それはビジュー自身の子どもでした！愛するシオリ・ニャヴェラとの間に授かった、大切な我が子。
 

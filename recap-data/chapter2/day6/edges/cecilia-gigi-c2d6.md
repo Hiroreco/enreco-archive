@@ -5,7 +5,7 @@ Realizing that even after pouring her entire heart out—after every gesture, ev
 
 And once again, as if fate had him on standby, Gonathon was there.
 
-[Orange and Green](#embed:https://www.youtube.com/live/I75IWfMGVgM?si=ie9yZ74ftKZFa7Vb&t=9258)
+[Orange and Green](#embed:https://www.youtube.com/live/I75IWfMGVgM?t=9258)
 
 The Green Knight, usually so composed, crumbled—tears streaming, heartbreaking, all hope slipping away. Others tried to comfort her, offered gentle words, and told her what she wanted to hear. But Gonathon? Gonathon cut through it all with honesty. No false hope, no sugarcoating—just a raw, steady reminder that he wouldn’t let her drown in this sadness again. Not this time. Not after everything.
 
@@ -17,7 +17,7 @@ And then, not long after, the green one turned around and offered the same emoti
 
 Turns out, sometimes, the best cure for a breaking heart is a fellow disaster who knows how to hold yours together. These two? Definitely each other’s designated emotional support gremlins.
 
-[Green and Orange](#embed:https://www.youtube.com/live/I75IWfMGVgM?si=zgv4cfWTrxUWc4j3&t=10106)
+[Green and Orange](#embed:https://www.youtube.com/live/I75IWfMGVgM?t=10106)
 
 ## Memes
 

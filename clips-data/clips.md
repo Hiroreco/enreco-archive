@@ -1676,10 +1676,6 @@ https://youtu.be/khXFu9RhSDA?si=8KqF78DJfRAlQz1F
 
 <!-- nerissa, shiori, bijou, raora -->
 
-https://youtu.be/t3skQ_Z5vT8?si=mY24ok-hAl6woQoH
-
-<!-- fuwawa, nerissa, calli, liz -->
-
 https://youtu.be/MFCCVAFpyLE?si=DtnTWHyEhVKF2BWk
 
 <!-- kronii, cecilia -->
@@ -1731,10 +1727,6 @@ https://youtu.be/7Dm-gf6iy8o?si=rR2p-VGLnCSOpXAV
 https://youtu.be/ubJl_9L5tfM?si=OgHnQlzVm2cHytXU
 
 <!-- ina, kronii -->
-
-https://youtu.be/fcc2ex3woEE?si=ftlbtYMkryCnyJA_
-
-<!-- bae, gigi, cecilia -->
 
 https://youtu.be/9Gg1BCVbo0A?si=LCoyhEQrGG-UtCmJ
 

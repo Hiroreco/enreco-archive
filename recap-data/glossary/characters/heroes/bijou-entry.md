@@ -22,7 +22,7 @@ Bijou was unpredictable, _very_ unpredictable. Which was saying something, consi
 
 Just a few days in, she’d already managed to get herself a wife—[Shiori](#entry:shiori-entry)—whom she loved dearly... only to dump her on the final day, leaving her with a child.
 
-She also acquired a mother. Two, actually. And got involved in a polygamous relationship with three other women, all while wearing a wide colon-D smile on her face. A smile she often used to get what she wanted—after all, who could say no to that cute, [pleading expression?](https://www.youtube.com/live/oVguNTPnDww?feature=shared&t=1902)
+She also acquired a mother. Two, actually. And got involved in a polygamous relationship with three other women, all while wearing a wide colon-D smile on her face. A smile she often used to get what she wanted—after all, who could say no to that cute, [pleading expression?](https://www.youtube.com/live/oVguNTPnDww?t=1902)
 
 She claimed to be of royalty, a princess, because of the crown she wore. Whether she was truly royal was up for debate, considering she acted like a literal toddler: always up to mischief, constantly messing about.
 
@@ -33,18 +33,18 @@ But when it came to commitment, Bijou didn’t mess around. Early on, she set he
 
 That hat, as it turned out, would shift the entire narrative, not just for her, but for the whole kingdom. It was a _Stain hat_, and over time, it slowly corrupted its wearer’s mind until they were consumed completely. Bijou was its first victim. She dubbed herself the _Stain Princess_, spreading chaos across the kingdom, corrupting the land with fire, writing cursed tomes titled _Elizabeth Rose Bloodflame x Nerissa Ravencroft_, and dragging others into [corruption](#entry:the-corruption-entry) alongside her.
 
-Ultimately, with the combined efforts of the remaining heroes—most notably her sister, NinoIna—the corruption was purged, and Bijou was saved. She realized how painful it was to be shackled by something beyond her control. In response, she [severed](https://www.youtube.com/live/u3MQlnSHfhA?feature=shared&t=13345) her ties to the polygamy situation, and to Shiori as well.
+Ultimately, with the combined efforts of the remaining heroes—most notably her sister, NinoIna—the corruption was purged, and Bijou was saved. She realized how painful it was to be shackled by something beyond her control. In response, she [severed](https://www.youtube.com/live/u3MQlnSHfhA?t=13345) her ties to the polygamy situation, and to Shiori as well.
 
 ### Chapter 2
 
 **Name:** Koseki Bijou
 **Job:** Jeweler
 
-In this second chapter, the mischievous gem maiden had lost all memories of her previous journey. So naturally, she did what made perfect sense: declared a random stranger—[the Hot Pink One](#entry:irys-entry)—as her [brother](https://www.youtube.com/live/xzAqu4vkY7I?si=eLLiweZ183nhGJCJ&t=2233).
+In this second chapter, the mischievous gem maiden had lost all memories of her previous journey. So naturally, she did what made perfect sense: declared a random stranger—[the Hot Pink One](#entry:irys-entry)—as her [brother](https://www.youtube.com/live/xzAqu4vkY7I?t=2233).
 
 She was obsessed with this “onii-chan,” wagging after her whenever she was near, snuggling up to her like an actual little brother asking about her school day (don’t question the gender dynamic here). She cared so much about her that she was even willing to leap off a cliff beside her during her darkest moment. She even organized an entire gender reveal party in her honor. Once again, Bijou's dedication and commitment were front and center.
 
-In contrast, her so-called brother had done virtually nothing good for her. If anything, she caused her more familial trauma than comfort, to the point where the poor gem had to rely on _maps_ as her coping [mechanism](https://www.youtube.com/live/4_zJe0t0558?si=fuv5o4ggw4tby11g&t=13403).
+In contrast, her so-called brother had done virtually nothing good for her. If anything, she caused her more familial trauma than comfort, to the point where the poor gem had to rely on _maps_ as her coping [mechanism](https://www.youtube.com/live/4_zJe0t0558?t=13403).
 
 Bijou also served as a diligent employee at the Gacharm business, a loyal wingwoman and sidekick for her boss, Roa, and a loving sister to Ina—once again, the two reunited from their past journey. Tam also became her mother, simply because Bijou wanted her to be. Déjà vu?
 
@@ -59,6 +59,26 @@ At the end of the journey, Bijou—along with Fuwawa, Mococo, Nerissa, and Shior
 > The darkness in the heart always takes over, nothing stays pure.
 > MAY THE LANDS BURN!
 
+### Chapter 3
+
+**Name:** Bijou the Stained
+**Faction:** Rebellion
+**Job:** Smith and Jeweler
+
+Bijou woke up and chose [evil.](https://www.youtube.com/watch?v=VuwvH2nOWxI&t=2083) Every decision she made was guided by a single goal: causing as much trouble and suffering as possible, simply because she found it entertaining. She wasted no time putting that philosophy into practice. On the very first day, she secretly [poisoned](https://www.youtube.com/watch?v=VuwvH2nOWxI&t=5975) a cake, leading to Shakira's death while successfully shifting the blame onto the innocent baker. It was the first move in a grand scheme that would throw the kingdom into chaos.
+
+> Join me. Let the darkness consume you. It is nice here in the shadows
+
+Even the smallest choices during her adventures were driven by malice. Her antics reached new heights on Day 3, when she [purchased](https://www.youtube.com/watch?v=3iXshLxO3-E&t=16490) Shakira's corpse from Shiori and began using it to terrorize the kingdom. Hidden behind the scenes, Bijou turned the corpse into a [tool](https://youtu.be/60_Pduc0ODY?t=3137) of fear, haunting unsuspecting victims and luring them into becoming sacrifices for Shiori's [ritual.](#entry:yellow-queen-entry)
+
+Perhaps the cruelest part was how she manipulated those who trusted her. Roa Pandora, Shakira's own wife, believed Bijou was someone she could rely on. Instead, she became one of Bijou's victims—tormented by the corpse hauntings and ultimately deceived into becoming a [sacrifice](https://www.youtube.com/watch?v=FJNKv92ZWdM&t=12230) herself.
+
+Bijou also appeared to be one of Shiori's most enthusiastic supporters. The two had long shared a peculiar bond that stretched back to previous journeys, and throughout the adventure, Bijou rarely missed an opportunity to aid Shiori's plans.
+
+On the final day, Bijou finally revealed herself as the true killer all along—though the confession was quickly brushed aside due to time constraints. Yet what lingered most was not the reveal itself, but her final admission. In the end, she reminded everyone that the "curse" was never responsible for her actions.
+
+Everything she did, she did entirely of her own [free will.](https://www.youtube.com/watch?v=-v3wKaDqyI4&t=12910)
+
 ## Notable Writings
 
 - [Read "Fire and Flight (Volume 1)"](#text:fire-and-flight-1)
@@ -69,5 +89,6 @@ At the end of the journey, Bijou—along with Fuwawa, Mococo, Nerissa, and Shior
 
 - By playing the music disc "Violet"—as a prank to mess with Ina, Bijou accidentally made one of the most iconic moments that defined Chapter 1, between Gonathon G and Amelia Watson.
 - Many others had a habit of calling the gem princess "Biboo," which usually prompted Bijou to correct them.
+- Bijou poisoning the cake that killed Shakira on the very first day of Chapter 3 was carried out so discreetly that almost nobody (even the viewers) suspected her involvement, and the truth remained hidden until she personally confessed near the end of the journey.
 
 [bijou](#easter:easter-bijou)

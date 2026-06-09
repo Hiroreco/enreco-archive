@@ -13,7 +13,7 @@
 
 その事実を何度言い続けたのか、もう本人ですら数え切れなくなっていた。
 
-[あーはいはい、始まりましたよっと](#embed:https://www.youtube.com/live/JZ2gO4qDJ2w?si=LCJ7Dy9bebQjnA_Q&t=516)
+[あーはいはい、始まりましたよっと](#embed:https://www.youtube.com/live/JZ2gO4qDJ2w?t=516)
 
 短気でせっかちな自覚があるからこそ、ベー、ロア、そしてゴナソンは、青き乙女と共に「ラビリンス・オブ・エモーション」へ同行した。
 

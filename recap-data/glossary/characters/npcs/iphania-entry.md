@@ -51,3 +51,29 @@ Yet even now, she refused to give in. This time, rather than change the past, sh
 Most of the heroes agreed without hesitation.
 But not all.
 **Fuwawa, Mococo, Bijou, Nerissa, and Shiori** declared they would go their own path, unable—or unwilling—to follow Fia any further.
+
+### Chapter 3
+
+After the events of Chapter 2, Fia was left dejected after realizing that, despite everything the heroes had accomplished, fate had still repeated itself. However, she had not completely lost hope. Through a clue left behind in the Outsider's book, she discovered that he could be found "back where it all began" and concluded that he had somehow returned to present-day Libestal.
+
+> Now, his anger leads him on a destructive path.
+> We have to find him, and stop him, before he lays waste to all the worlds we love!
+
+_Note: As Fia herself could not leave the Library, she communicated with the heroes throughout their journey via the FiaPhone._
+
+Although Fia remained determined to stop the Outsider, not everyone continued to place their trust in her. Upon arriving in present-day Libestal and meeting Nix, the heroes were offered a choice: remain loyal to Fia and the Shining Stars, or join Nix and the Rebellion. Throughout the chapter, the heroes were also frequently presented with choices where they could either follow Fia's advice or act against her wishes.
+
+Even so, Fia continued supporting the heroes from afar, guiding them through their search for the Outsider and helping them uncover the mysteries surrounding Terminus, the anomalies, and the lost memories of Advent.
+
+At the end of the journey, the heroes finally reached the heart of Nullspace, where the truth was revealed. Faust, the mysterious ally who had guided them throughout Chapter 3, was in fact the [Outsider](#entry:outsider-entry) himself.
+
+There, the Outsider revealed the Egg of Creation, an artifact capable of recreating the countless worlds across the myriad realms. With its power, he intended to wipe everything clean and remake reality anew, free from the cycles of fate and suffering that had defined existence until now.
+
+The Outsider then asked the heroes to lend him their strength and help bring this new world into existence. Fia, however, strongly opposed his plan and pleaded with the heroes not to accept his offer.
+
+> Please... Please, don't do this...
+> My Shining Stars... You can't...
+
+Before the Outsider could respond to the heroes' answers, the Curse suddenly appeared once more. Fia urgently warned the heroes that they had to leave immediately.
+
+Moments later, the Looking-Glass Shard activated once again. Before anyone could understand what was happening, the heroes were whisked away from Nullspace and transported to an unknown realm, leaving the outcome of the battle between the Outsider and the Curse unresolved.

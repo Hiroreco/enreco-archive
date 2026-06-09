@@ -20,7 +20,7 @@ But, as Shiori noted as she built the platform by the picnic blankets, dying by 
 
 [And who keeps stealing from her Church?!](#embed:https://youtu.be/6r0cA5reqOA?t=1374)
 
-Advent refined the platform and included a place to hide a [certain body with hips that don't lie.](https://youtu.be/6r0cA5reqOA?t=1931) Shiori was truly a Sister of the Cloth to think of a funeral pyre for Shakira, and soon enough the preparations were done.
+Advent refined the platform and included a place to hide a [certain body with hips that don't lie.](https://youtu.be/6r0cA5reqOA?t=1931) Shiori was truly a Sister of the Cloth to think of a funeral pyre for Shakira, and soon enough, the preparations were done.
 
 At the picnic, they finally discovered [Shakira's body](https://youtu.be/6r0cA5reqOA?t=4414) beneath the stage. Lady Bloodflame dived for the body, enduring flames, and began to accost Roa with it as an attempt to bring her memories back. To the cat, a madwoman had started shoving a stranger's dead body at her face, and she fled in horror while the others gave chase.
 
@@ -62,7 +62,7 @@ One must wonder what a purification ritual would entail. Would it be conducted i
 
 For Libestal, you must be smacked with wooden swords. Again and again until you inevitably pass out.
 
-One by one they were caught until the fuzzy one remained... and perhaps she was too intent on winning the game as she hid. But the alarm bells rang and she was found. A tight chase with only a few seconds to spare, but the Shining Stars did it; they had succeeded.
+One by one they were caught until the fuzzy one remained... and perhaps she was too intent on winning the game as she hid. But the alarm bells rang, and she was found. A tight chase with only a few seconds to spare, but the Shining Stars did it; they had succeeded.
 
 Advent was purified. And now, the final dungeon.
 
@@ -72,7 +72,7 @@ The mysterious individual gave Shiori a choice. Would she join in destroying thi
 
 [**Yes.**](#embed:https://youtu.be/6r0cA5reqOA?t=11186)
 
-Again. Again. Shiori had lived, and remembered, the Libestals from the past few adventures.
+Again. Again. Shiori had lived and remembered the Libestals from the past few adventures.
 
 Again and again, nobody but **The Archiver** understood.
 
@@ -96,19 +96,19 @@ What Gates of Hell would be revealed?
 
 Bright pink flowers decorated the ceiling.
 
-Simple and warm, with a fireplace that brought a gentle heat to the ones that should live in it and lit the cherry blossom walls.
+Simple and warm, with a fireplace that brought a gentle heat to those who lived in it and lit the cherry blossom walls.
 
 There, the three found a diary.
 
 - Read [Nyavella's Diary](#text:nyavella-diary)
 
-They agreed to not read the diary, to let the person who owned this home have their privacy as they searched for anything suspicious.
+They agreed not to read the diary, to let the person who owned this home have their privacy as they searched for anything suspicious.
 
 Ultimately, it was decided there was nothing here.
 
 It was around this time that Gonathon missed Nyavella's call.
 
-It was perhaps tragic that Gonathon G will never know how Nyavella had truly treasured him in the end.
+It was perhaps tragic that Gonathon G would never know how Nyavella had truly treasured him in the end.
 
 Her regrets and pain.
 
