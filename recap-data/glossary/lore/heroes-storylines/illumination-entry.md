@@ -1,7 +1,7 @@
 <!-- title: The Illumination -->
-<!-- quote:  -->
+<!-- quote: Guys, what the heck! Where am I?! -->
 <!-- chapters: 2 -->
-<!-- images:  -->
+<!-- images: (Roa breaking the simulation), (Roa being sacrificed in a ritual) -->
 <!-- model: false -->
 
 ## Overview
@@ -19,9 +19,11 @@ On the first day of the third chapter, everything seemed perfectly normal. Birds
 
 Then tragedy struck.
 
-After consuming what was believed to be the "Cake of Fertility," Shakira was poisoned and ultimately died right before Roa's eyes. Overwhelmed with grief, Roa swore she would uncover the culprit behind the murder and bring them to justice.
+> Shakira? My wife! SHAKIRA!
 
-While pursuing clues and searching throughout the kingdom, however, Roa accidentally stumbled upon places she was seemingly never meant to see. Strange stretches of land, broken terrain, and locations that appeared incomplete planted a dangerous idea in her mind: perhaps the kingdom itself was not real.
+After consuming what was believed to be the "Cake of Fertility," Shakira was poisoned and ultimately [died](https://www.youtube.com/watch?v=XD-K3AirOdA&t=6590) right before Roa's eyes. Overwhelmed with grief, Roa swore she would uncover the culprit behind the murder and bring them to justice.
+
+While pursuing clues and searching throughout the kingdom, however, Roa accidentally stumbled upon [places](https://www.youtube.com/live/XD-K3AirOdA?t=19434) she was seemingly never meant to see. Strange stretches of land, broken terrain, and locations that appeared incomplete planted a dangerous idea in her mind: perhaps the kingdom itself was not real.
 
 The possibility that the world was some form of simulation shattered Roa's understanding of reality. Once the thought entered her mind, she could not let it go.
 
@@ -37,7 +39,7 @@ She discovered strange "exits" leading beyond the boundaries of the world, vast 
 
 Even more unsettling was the presence of a _sheep._
 
-No matter where she went beyond the kingdom's borders, the creature always seemed to be there. Watching. Waiting.
+No matter where she went beyond the kingdom's borders, the [creature](https://www.youtube.com/live/uSz1tR2SU28?t=18492) always seemed to be there. Watching. Waiting.
 
 At first it was merely strange, but over time Roa grew increasingly paranoid. Eventually, simply catching sight of the sheep was enough to send her into a panic. What had once been curiosity became genuine fear.
 
@@ -49,7 +51,7 @@ To those who witnessed these sights and agreed with her conclusions, Roa gave a 
 
 They were "Enlightened."
 
-On Day 4, she officially founded the Illumination, a group dedicated to uncovering the truth behind their reality. Acting as its leader, Roa designed a custom poster to represent the organization and plastered it across the kingdom. Homes, walls, public spaces—wherever there was room, an Illumination poster soon followed.
+She officially founded the [Illumination,](https://www.youtube.com/live/P3uwaftxSG0?t=537) a group dedicated to uncovering the truth behind their reality. Acting as its leader, Roa designed a custom poster to represent the organization and plastered it across the kingdom. Homes, walls, public spaces—wherever there was room, an Illumination poster soon followed.
 
 By then, the search for answers had become her entire life.
 
@@ -61,7 +63,9 @@ While all of this was unfolding, Roa was still struggling to process the loss of
 
 The grief she had been suppressing soon returned in a far more terrifying form.
 
-Around Day 4, Roa began seeing Shakira's corpse wandering the kingdom.
+> My wife... you're so majestic.
+
+Around Day 4, Roa began seeing Shakira's [corpse](https://www.youtube.com/watch?v=P3uwaftxSG0&t=2710) wandering the kingdom.
 
 The lifeless body followed her wherever she went, whispering to her in a distorted, demonic voice. Every encounter left Roa terrified, often sending her fleeing in tears. The appearances became increasingly frequent until they culminated on Day 5.
 
@@ -71,7 +75,7 @@ It was there that the horrifying truth was revealed. The corpse was not truly Sh
 
 It was Bijou.
 
-Using the body like a puppet, Bijou had manipulated Roa into believing her beloved wife had come back to her. Worse still, Bijou confessed that she herself had been responsible for Shakira's death, despite the trust and friendship Roa had placed in the gem princess.
+Using the body like a puppet, Bijou had [manipulated](https://www.youtube.com/watch?v=rFmdOarYXuE&t=12830) Roa into believing her beloved wife had come back to her. Worse still, Bijou confessed that she herself had been responsible for Shakira's death, despite the trust and friendship Roa had placed in the gem princess.
 
 Betrayed and emotionally shattered, Roa was then forced to participate in the ritual, reading cryptic scriptures and offering a sacrifice as part of the twisted ceremony.
 
@@ -83,7 +87,7 @@ Roa had forgotten. The Illumination. Shakira. The grief. The obsession. The madn
 
 It was as though everything that had consumed her over the previous week had simply vanished. For a brief time, she acted like her old self once again.
 
-Only after others reminded her of everything that had happened did her memories return.
+Only after [others](https://www.youtube.com/watch?v=mZM0OO3VK9s&t=4915) reminded her of everything that had happened did her memories return.
 
 In the end, Roa never received the answers she had spent the entire journey searching for. The limited time they had within the world came to an end before she could uncover the truth behind the kingdom or determine whether her theories had been correct.
 
@@ -94,3 +98,7 @@ A trial was held regarding Shakira's death, and afterward her remains were final
 The truth of the world remained elusive.
 
 But the widow finally found peace.
+
+## Related Stories
+
+- See ["The Queen In Yellow"](#entry:yellow-queen-entry)
