@@ -1,20 +1,37 @@
-<!-- title: Tanakisha "Shakira" Karia of the Oranges -->
+<!-- title: Shakira -->
 <!-- status: Dead -->
 
-Back in the mysterious white room, Tanakisha Karia found herself awakened once more. This time didn't feel too different for her. For one, she was able to recognize some familiar faces, such as Lady Bloodflame, Roa, and Mordon Ramsay's... These were the people she knew she could trust.
+Back in the mysterious white room, Tanakisha Karia awakened once more. This time, things felt familiar. Among the gathered souls were faces she recognized—Lady Bloodflame, Roa, and Mordon Ramsay's. Faces she knew she could trust.
 
-New adventures awaited her. The orange phoenix reclaimed the name "Shakira", an old name of hers that was short and sweet. To pair with that, she returned to the Smith job as that was what she was best at. What was also sweet was her reunion with her wife. See [Kiara-Raora: Freaky Deaky Taste](#edge:kiara-raora)
+A new adventure stretched out before her.
 
-If there was one thing Shakira wanted, it was to have children. That was when an opportunity presented itself! Shakira was offered a guaranteed chance at bearing a child. All she had to do? _Eat a cake_.
+The orange phoenix reclaimed an old name, one that was short, simple, and dear to her heart: **Shakira**. Along with it came a return to the Smith profession, the craft she knew best. Better still was the reunion with her beloved wife. See [Kiara-Roa](#edge:kiara-raora)
 
-After she explored the lands and completed side quests, she was finally able to acquire that sweet, sweet, chocolatey slice of magic. What a joyful day, Shakira thought, as she climbed up the town's fountain. Standing literally on the top of the world, everything seemed to have gone well for her. She had great friends, a loving wife, and a potential future raising a family.
+Life seemed to be falling perfectly into place.
+
+If there was one thing Shakira longed for, it was to have children. Then an opportunity appeared before her—a guaranteed chance to bear a child. The requirement was surprisingly simple:
+
+_Eat a cake._
+
+After days of exploration and countless side quests, she finally obtained the prize: a sweet, chocolatey slice of magic. Standing atop the town fountain, Shakira couldn't help but smile. From up there, it felt as though she was standing on top of the world itself.
+
+She had loyal friends. A loving wife. And perhaps, soon, a family of her own.
 
 _What could possibly go wro—_
 
 **That cake.**
 
-Immediately, the phoenix's throat tightened. As if she were strangulated by a rope around her neck, she choked and fell to her knees, trying to gasp for air. All she faced was the sharp, cold breeze when all the background voices and her sensations faded away. The cake itself tasted rancid and bitter, which contrasted with its sugary scent.
-And so, Shakira plunged into the fountain water below.
+The moment she swallowed it, her throat seized shut.
+
+Shakira collapsed to her knees, clawing desperately for air as though an invisible rope had tightened around her neck. The sweet aroma had been a lie; beneath it lurked a taste that was rancid, bitter, and wrong. The bustling sounds of the town faded into silence. Her senses dulled. All that remained was the sharp sting of the wind against her skin.
+
+Then her footing gave way.
+
+The phoenix tumbled from the fountain's peak and plunged into the water below.
+
+And just like that, her story ended.
+
+...Or rather, it became everyone else's problem.
 
 [Tanakisha Karia of the Oranges was DEAD.](#embed:https://www.youtube.com/watch?v=u0Tu7_vfmQo&t=6294s)
 
