@@ -73,6 +73,32 @@ When Fia called on the heroes to fight the Outsider, five of them refused: Neris
 
 Ever calculating, ever perceptive of her surroundings, everything Shiori did throughout this journey—whether silly or serious—was always done with _intention_. And now, it’s time for one of the most complex characters in this entire tale to step into the spotlight.
 
+### Chapter 3
+
+**Name:** Sister Shiori, Shiori Novella
+**Faction:** Rebellion
+**Job:** ~~Chef~~ Sister
+
+Continuing from the buildup from Chapter 2, Shiori Novella had truly outdone herself for her third journey. Behind the humble identity of a Sister lurked a... darker and complicated figure.
+
+After all, it was Shiori who gave beloved Shakira a [proper funeral](https://www.youtube.com/live/PNrclGd76n4?si=ImfMPrcDObUD-33J&t=11195) only then to sell her body to the highest bidder.
+
+It was Shiori whose brilliant madness led to constructing the Gates of Hell beneath the simple Church; its existence leading to the [sacrifice](https://youtu.be/QB1ZSh0yKuc?t=11209) of several other heroes (don't worry, they were all fine in the end).
+
+Was it a true attempt to escape the endless cycle Shiori found herself in? Wherein she's the only one to truly remember everything while the people around her continued to forget and repeat a similar adventure. Or was it a macabre game, sacrificing those around her in an attempt to find the "chosen"?
+
+Whatever the true answer was, it piqued the interest of the heroes around her. The memories from before, though forgotten, may have led them to be suspicious of the Sister. But they were unmatched; her cunning left them [questioning](https://youtu.be/0erNTlRV7-c?t=1910) their own reality in the end.
+
+That's not to say Shiori was a lone wolf throughout her days in Libestal. Much of her company was with Advent, particularly Nerissa Ravencroft and Koseki Bijou, as [they helped](https://youtu.be/QB1ZSh0yKuc?t=2465) with Shiori's plot in addition to their own schemes.
+
+And though mischievous Shiori may be, she truly cared for her fellow Advent girls, supporting them when needed as confusion came whenever they recovered their memories.
+
+And another, Gonathon G.
+
+It seemed that the echoes of [Nyavella](https://www.youtube.com/live/vRVwJrdNzGk?si=VAQq5PgF9qr9SyZi&t=2442) still remained in Shiori, not too far whenever Gonathon was involved. How much of Nyavella was truly in Shiori Novella, we may never know, but it seemed enough for Shiori herself to admit a fondness for Gonathon.
+
+But at the end, despite the wondrous buildup and the madness Shiori gave for Chapter 3, time was against her as some loose ends remained. The _plot_ came calling and, like those around her, she was beholden to the script all the same.
+
 ## Notable Writings
 
 - [Read "Sea x Lovers"](#text:sea-x-lovers)
