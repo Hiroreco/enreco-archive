@@ -49,7 +49,7 @@ She was, after all, a woman of many talents—one deeply invested in the happine
 **Faction:** Shining Stars
 **Job:** Chef
 
-Mordan only wanted to cook. As such, she began her third journey much the same way she had before: as a chef dedicated to feeding the kingdom. Unfortunately, after baking a chocolate "fertility cake" for the newlywed couple Shakira and Roa, Shakira[ suddenly died](https://www.youtube.com/watch?v=jWrom0fcdQk&t=7142) shortly after eating it.
+Mordan only wanted to cook. As such, she began her third journey much the same way she had before: as a chef dedicated to feeding the kingdom. Unfortunately, after baking a chocolate "fertility cake" for the newlywed couple Shakira and Roa, Shakira [suddenly died](https://www.youtube.com/watch?v=jWrom0fcdQk&t=7142) shortly after eating it.
 
 That single incident would cast a shadow over the rest of Mordan's journey.
 

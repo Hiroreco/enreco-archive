@@ -25,6 +25,13 @@ export const CHARACTER_ORDER = [
 ];
 
 export const GLOSSARY_MAIN_QUESTS_ORDER = [
+    "nullspace",
+    "rite-of-purification",
+    "labyrinth-of-duality",
+    "labyrinth-of-song",
+    "labyrinth-of-emotion",
+    "labyrinth-of-knowledge",
+    "terminus",
     "heart-of-ruin",
     "stronghold-of-ruin",
     "star-site-chaos",
@@ -38,6 +45,7 @@ export const GLOSSARY_MAIN_QUESTS_ORDER = [
 ];
 
 export const GLOSSARY_LORE_GENERAL_ORDER = [
+    "libestal-present",
     "libestal-ancient",
     "libestal-ficta",
     "library",
@@ -50,6 +58,10 @@ export const GLOSSARY_LORE_GENERAL_ORDER = [
 export const GLOSSARY_LORE_LOCATIONS_ORDER = ["library", "sanctuary"];
 
 export const GLOSSARY_LORE_HEROES_STORYLINES_ORDER = [
+    "queen-friends",
+    "illumination",
+    "bewitched",
+    "yellow-queen",
     "maven-in-blue",
     "humble-knight-witch",
     "hot-pink-one-collapse",

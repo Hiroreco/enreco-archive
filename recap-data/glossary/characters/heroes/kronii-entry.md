@@ -56,7 +56,7 @@ She cut ties, took revenge, and made a bold play for Ina herself. In a dramatic 
 **Faction:** Shining Stars
 **Job:** Supplier
 
-At the start of Chapter 3, the ever-prideful self-proclaimed queen, Tam Gandr, appeared to have forgotten much of her identity from previous adventures. Whenever others addressed her as a queen, she responded with confusion: "Queen? I'm not a queen." She simply referred to herself as "Tam," with no last name, and most notably, she no longer remembered that Gonathon had once been her loyal servant (see [Once Queen, Now A Friend](#entry:once-queen-now-a-friend)).
+At the start of Chapter 3, the ever-prideful self-proclaimed queen, Tam Gandr, appeared to have forgotten much of her identity from previous adventures. Whenever others addressed her as a queen, she responded with confusion: "Queen? I'm not a queen." She simply referred to herself as "Tam," with no last name, and most notably, she no longer remembered that Gonathon had once been her loyal servant (see [Once Queen, Now A Friend](#entry:queen-friends-entry)).
 
 Thankfully, it seemed that only her royal status had slipped from memory. Tam still remembered her endless [hatred](https://www.youtube.com/watch?v=sT4tuLP6UJQ&t=801) for the Hot Pink One, how Roa had given her her name, and being stripped of her noble status certainly did not make life any [easier](https://www.youtube.com/watch?v=sT4tuLP6UJQ&t=12617) during this journey.
 

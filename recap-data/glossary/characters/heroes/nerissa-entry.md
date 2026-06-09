@@ -91,6 +91,8 @@ Perhaps the next chapter will reveal which version of Nerissa is the truth.
 
 ## Notable Writings
 
+**Chapter 2**
+
 - [Read "Maven in Blue"](#text:maven-in-blue)
 - [Read "Stanzas" (by Emily Bronte)](#text:stanzas)
 - [Read "Go, Lovely Rose" (by Edmund Waller)](#text:go-lovely-rose)

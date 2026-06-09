@@ -7,7 +7,8 @@
         "ja": "職業"
       },
       "chapters": [
-        1
+        1,
+        2
       ],
       "quote": {
         "en": "250 coins for one soup?!",
@@ -71,7 +72,7 @@
         "ja": "今度こそ赤に賭けるしかない！"
       },
       "content": {
-        "en": "## Overview\n\nAside from the usual questing, the heroes could take some time off to relax and refresh their minds by participating in the kingdom’s minigames. These ranged from simple tests of strength and intelligence to losing all your savings betting on a color.\n\n## Details\n\nThere are currently **four minigames**, each originally introduced in **Chapter 1**, with every game representing one of the four [guilds,](#entry:guilds-entry) reflecting its respective guild's ideology (only in Chapter 1).\n\n### Color Cannon\n\n**Appearance:** Chapter 1, Chapter 2\n**Representing Guild:** Amber Coin\n\nA game of chance and tension. Players place wagers on any of the four available colors:\n\n- **Blue** (x2 multiplier) – 12 positions\n- **Green** (x3 multiplier) – 8 positions\n- **Yellow** (x5 multiplier) – 4 positions\n- **Red** (x10 multiplier) – 1 position\n\nOnce the game begins, colors are eliminated one by one on a large board until only one color remains. Those who bet on the final surviving color receive their wager multiplied accordingly. High risk, high reward.\n\n[Color Cannon Gameplay (Chapter 1)](#embed:https://www.youtube.com/live/qFnAgJtQtiY?t=12469)\n\n[Color Cannon Gameplay (Chapter 2)](#embed:https://www.youtube.com/live/MXqotm_8_Hc?t=1333)\n\n### Duel Arena\n\n**Appearance:** Chapter 1, Chapter 2\n**Representing Guild:** Jade Sword\n\nA test of strength, reflex, and endurance. Two challengers face off using only wooden swords, and the match continues until one remains standing.\n\nIn Chapter 2, an added rule ensures the match ends in a draw if both participants are still standing after one minute. Furthermore, they could also place bets on which side they thought would come out victorious.\n\n[Duel Arena Gameplay (Chapter 1)](#embed:https://www.youtube.com/live/M3cuDNZrIKM?t=7495)\n\n[Duel Arena Gameplay (Chapter 2)](#embed:https://www.youtube.com/live/AxQVdUrmVZU?t=7524)\n\n### Mind’s Eye\n\n**Appearance:** Chapter 1\n**Representing Guild:** Scarlet Wand\n\nA memory-based minigame where four players compete to recreate a color arrangement shown for a few seconds. Each correct color grants **+1 point**, and perfectly recreating a full arrangement awards bonus points based on the number of colors involved, while incorrect guesses deduct **-5 points**. As the rounds progress, the difficulty increases with more complex patterns and color combinations. The player with the highest score at the end wins.\n\n[Mind's Eye Gameplay](#embed:https://www.youtube.com/live/iAYrdIlfVf0?t=4445)\n\n### Chicken Rescue\n\n**Appearance:** Chapter 1\n**Representing Guild:** Cerulean Cup\n\nA solo challenge where the player must control a basket to catch chickens falling from the sky on a 2D grid. Basket movement mirrors the player’s own movements. The objective is to catch as many chickens as possible within the time limit of one minute. Scores are recorded on a leaderboard, encouraging more attempts and competition.\n\n[Chicken Rescue Gameplay](#embed:https://www.youtube.com/live/Rd0awHHBTiA?t=6662)\n\n_Note: You can try out Color Cannon, Mind's Eye, and Chicken Rescue yourself on ENreco Archive._",
+        "en": "## Overview\n\nAside from the usual questing, the heroes could take some time off to relax and refresh their minds by participating in the kingdom’s minigames. These ranged from simple tests of strength and intelligence to losing all your savings betting on a color.\n\n## Details\n\nThere are currently **four minigames**, each originally introduced in **Chapter 1**, with every game representing one of the four [guilds,](#entry:guilds-entry) reflecting its respective guild's ideology (only in Chapter 1).\n\n### Color Cannon\n\n**Appearance:** Chapter 1, Chapter 2, Chapter 3\n**Representing Guild:** Amber Coin (Chapter 1)\n\nA game of chance and tension. Players place wagers on any of the four available colors:\n\n- **Blue** (x2 multiplier) – 12 positions\n- **Green** (x3 multiplier) – 8 positions\n- **Yellow** (x5 multiplier) – 4 positions\n- **Red** (x10 multiplier) – 1 position\n\nOnce the game begins, colors are eliminated one by one on a large board until only one color remains. Those who bet on the final surviving color receive their wager multiplied accordingly. High risk, high reward.\n\n[Color Cannon Gameplay (Chapter 1)](#embed:https://www.youtube.com/live/qFnAgJtQtiY?t=12469)\n\n[Color Cannon Gameplay (Chapter 2)](#embed:https://www.youtube.com/live/MXqotm_8_Hc?t=1333)\n\n### Duel Arena\n\n**Appearance:** Chapter 1, Chapter 2, Chapter 3\n**Representing Guild:** Jade Sword (Chapter 1)\n\nA test of strength, reflex, and endurance. Two challengers face off using only wooden swords, and the match continues until one remains standing.\n\nIn Chapter 2, an added rule ensures the match ends in a draw if both participants are still standing after one minute. Furthermore, they could also place bets on which side they thought would come out victorious.\n\n[Duel Arena Gameplay (Chapter 1)](#embed:https://www.youtube.com/live/M3cuDNZrIKM?t=7495)\n\n[Duel Arena Gameplay (Chapter 2)](#embed:https://www.youtube.com/live/AxQVdUrmVZU?t=7524)\n\n### Mind’s Eye\n\n**Appearance:** Chapter 1\n**Representing Guild:** Scarlet Wand\n\nA memory-based minigame where four players compete to recreate a color arrangement shown for a few seconds. Each correct color grants **+1 point**, and perfectly recreating a full arrangement awards bonus points based on the number of colors involved, while incorrect guesses deduct **-5 points**. As the rounds progress, the difficulty increases with more complex patterns and color combinations. The player with the highest score at the end wins.\n\n[Mind's Eye Gameplay](#embed:https://www.youtube.com/live/iAYrdIlfVf0?t=4445)\n\n### Chicken Rescue\n\n**Appearance:** Chapter 1\n**Representing Guild:** Cerulean Cup\n\nA solo challenge where the player must control a basket to catch chickens falling from the sky on a 2D grid. Basket movement mirrors the player’s own movements. The objective is to catch as many chickens as possible within the time limit of one minute. Scores are recorded on a leaderboard, encouraging more attempts and competition.\n\n[Chicken Rescue Gameplay](#embed:https://www.youtube.com/live/Rd0awHHBTiA?t=6662)\n\n_Note: You can try out Color Cannon, Mind's Eye, and Chicken Rescue yourself on ENreco Archive._",
         "ja": "## 概要\n\n勇者たちは冒険の合間に、王国で用意されたミニゲームで一息つき、気分転換を楽しんでいました。内容は、腕力や知力を試すシンプルなものから、全財産を賭けて一攫千金を狙う（あるいは失ってしまう）ハラハラドキドキのものまで多岐にわたります。\n\n## 詳細\n\n現在確認されているミニゲームは**4種類**。これらはすべて**第1章**で初登場し、当時の[ギルド](#entry:guilds-entry)の理念がそれぞれに反映されていました（※第1章のみの要素です）。\n\n### カラーカノン\n\n**登場:** 第1章、第2章\n**担当ギルド:** アンバーコイン\n\n運とスリルが魅力のゲーム。プレイヤーは次の4色のいずれかに賭けることができます。\n\n- **青**（倍率x2）– 12マス\n- **緑**（倍率x3）– 8マス\n- **黄**（倍率x5）– 4マス\n- **赤**（倍率x10）– 1マス\n\nゲームが始まると、大きな盤上から色が一つずつ消されていき、最後に残った色に賭けていたプレイヤーが賞金を獲得します。リスクは大きいですが、見返りもまた莫大です！\n\n[カラーカノン プレイ映像（第1章）](#embed:https://www.youtube.com/live/qFnAgJtQtiY?t=12469)\n\n[カラーカノン プレイ映像（第2章）](#embed:https://www.youtube.com/live/MXqotm_8_Hc?t=1333)\n\n### デュエルアリーナ\n\n**登場:** 第1章、第2章\n**担当ギルド:** ジェイドソード\n\n力、反射神経、そして持久力が試される試合です。木の剣だけを使い、二人の挑戦者が一騎打ちを行います。最後に立っていた者が勝者となります。\n\n**第2章**からは新ルールが追加され、1分経過して両者が立っていた場合は引き分けとなりました。また、観客は勝利すると思う側に賭けることもできました。\n\n[デュエルアリーナ プレイ映像（第1章）](#embed:https://www.youtube.com/live/M3cuDNZrIKM?t=7495)\n\n[デュエルアリーナ プレイ映像（第2章）](#embed:https://www.youtube.com/live/AxQVdUrmVZU?t=7524)\n\n### マインズアイ\n\n**登場:** 第1章\n**担当ギルド:** スカーレットワンド\n\n記憶力が試されるゲームです。4人のプレイヤーが、数秒間だけ表示される色の配置をできる限り正確に再現します。正解した色一つにつき**+1点**。さらに、完璧に再現できた場合はボーナス点（色の数に応じて増加）を獲得できます。間違ってしまった場合は、**-5点**を失ってしまいます。ラウンドが進むごとにパターンは複雑化し、難易度も上昇していきます。最終的に最も高得点を稼いだプレイヤーが勝者となります。\n\n[マインズアイ プレイ映像](#embed:https://www.youtube.com/live/iAYrdIlfVf0?t=4445)\n\n### チキンレスキュー\n\n**登場:** 第1章\n**担当ギルド:** セルリアンカップ\n\n一人で挑戦するソロプレイ型のゲームです。プレイヤーは自分の動きに合わせてかごを操作し、空から落ちてくるニワトリたちを2Dグリッド上でキャッチしていきます。制限時間は1分間。より多くのニワトリを救い出すほどスコアが伸び、その記録はリーダーボードに残されます。何度も挑戦し、ランキング上位を目指すプレイヤーが後を絶ちませんでした。\n\n[チキンレスキュー プレイ映像](#embed:https://www.youtube.com/live/Rd0awHHBTiA?t=6662)\n\n_補足: ENreco Archive では、今回ご紹介したカラーカノン、マインズアイ、チキンレスキューを実際に体験することができます。_"
       },
       "thumbnailSrc": "/images-opt/minigames-entry-opt-thumb.webp",
@@ -299,6 +300,42 @@
         }
       ],
       "imageSrc": "/images-opt/portraits-entry-opt.webp"
+    },
+    {
+      "id": "prison-design-entry",
+      "title": {
+        "en": "NPC and Prison Cell Design Ideas",
+        "ja": "NPC＆牢獄房デザインアイデア"
+      },
+      "chapters": [
+        2
+      ],
+      "quote": {
+        "en": "We look forward to seeing your creations!",
+        "ja": "皆さんの作品を楽しみにしています！"
+      },
+      "content": {
+        "en": "## Overview\n\nThe NPC and Prison Cell Design Ideas event was a community contest that ran from `March 15, 2026, to April 15, 2026 (PDT).` During the event, fans were invited to design a prison cell and create a prisoner NPC complete with custom dialogue. Selected submissions would have the chance to be incorporated into the world featured in Chapter 3.\n\n## Details\n\nTo participate, fans were provided with a prison cell template (Minecraft: Java Edition version 1.21.1) and were tasked with decorating it within the given boundaries. All builds had to be created using approved building materials and follow the rules outlined.\n\nIn addition to designing the cell itself, participants could create a unique prisoner NPC to inhabit it, complete with their own dialogue.\n\nMany of the submitted designs were later incorporated into Chapter 3 and could be found throughout the prison realm [Terminus](#entry:terminus-entry), where heroes encountered the custom-built cells and their inhabitants while exploring the facility.\n\n## References\n\n- Event Tweet: [hololive English](#out:https://twitter.com/hololive_En/status/2028306298396368976)",
+        "ja": "## 概要\n\nNPC＆牢獄房デザインアイデアは、`2026年3月15日から2026年4月15日（PDT）まで`開催されたコミュニティコンテストである。\n\nイベント期間中、ファンたちは牢獄房をデザインし、オリジナルのセリフを備えた囚人NPCを制作するよう募集された。選ばれた作品は、チャプター3の世界に実際に採用される可能性があった。\n\n## 詳細\n\n参加者には牢獄房のテンプレート（Minecraft: Java Edition バージョン1.21.1）が配布され、指定された範囲内で自由に装飾を行うことが求められた。\n\nすべての建築は許可された建築素材のみを使用し、定められたルールに従う必要があった。\n\nまた、牢獄房そのものをデザインするだけでなく、そこに住むオリジナルの囚人NPCを作成し、独自のセリフを用意することも可能だった。\n\n投稿されたデザインの多くは後にチャプター3へ実装され、英雄たちが施設を探索する中で、牢獄領域である[ターミナス](#entry:terminus-entry)の各所に配置されたカスタム牢獄房やその住人たちと出会うことになった。\n\n## 参考資料\n\n- イベント告知ポスト: [hololive English](#out:https://twitter.com/hololive_En/status/2028306298396368976)"
+      },
+      "thumbnailSrc": "/images-opt/prison-design-entry-opt-thumb.webp",
+      "galleryImages": [
+        {
+          "title": {
+            "en": "Prison Cell Template",
+            "ja": "牢獄房テンプレート"
+          },
+          "source": "/images-opt/prison-design-entry-0-opt.webp"
+        },
+        {
+          "title": {
+            "en": "Nerissa visiting a decorated prison cell",
+            "ja": "装飾された牢獄房を訪れるネリッサ"
+          },
+          "source": "/images-opt/prison-design-entry-1-opt.webp"
+        }
+      ],
+      "imageSrc": "/images-opt/prison-design-entry-opt.webp"
     }
   ]
 }

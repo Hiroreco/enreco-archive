@@ -50,7 +50,7 @@ import SectionJumper from "@/components/view/glossary/SectionJumper";
 import GlossaryInfo from "@/components/view/glossary/GlossaryInfo";
 import { useTranslations } from "next-intl";
 
-const NUM_OF_CHAPTERS = 2;
+const NUM_OF_CHAPTERS = 3;
 
 interface GlossaryCardProps {
     className?: string;

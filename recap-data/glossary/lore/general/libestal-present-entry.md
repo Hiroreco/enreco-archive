@@ -30,7 +30,7 @@ Just like in Chapter 2, there were also four main [occupations](#entry:jobs-entr
 
 Present-day Libestal closely resembled the kingdom from Chapter 1. Its overall layout, atmosphere, and architecture shared many similarities with Libestal Ficta, including the colosseum and the quartz-built castle. However, some familiar landmarks were grander, larger, and more refined than their earlier counterparts.
 
-Much like in Chapter 2, a temple-like structure stood at the center of the kingdom. This building served as the entrance to the [Library](#entry:library-entry), where [Fia](#entry:fia-entry) resided.
+Much like in Chapter 2, a temple-like structure stood at the center of the kingdom. This building served as the entrance to the [Library](#entry:library-entry), where [Fia](#entry:iphania-entry) resided.
 
 **Kingdom Houses**
 
@@ -38,7 +38,7 @@ One notable difference from previous versions of the kingdom was the introductio
 
 **Terminus**
 
-Within the kingdom existed a rift in space that served as a gateway to the Prison at the End of Infinity: [Terminus](#entry:terminus). Through this passage, heroes could travel back and forth to the realm where [Faust](#entry:outsider-entry) resided.
+Within the kingdom existed a rift in space that served as a gateway to the Prison at the End of Infinity: [Terminus](#entry:terminus-entry). Through this passage, heroes could travel back and forth to the realm where [Faust](#entry:outsider-entry) resided.
 
 ### Quests
 

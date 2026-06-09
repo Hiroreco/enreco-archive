@@ -22,7 +22,7 @@ Despite its oppressive appearance, Terminus acted as a hub for the chapter's pro
 
 "Labyrinths" were the dungeons of this chapter. Each one could only be accessed through a designated prison cell and was themed around a member—or members—of Advent. There were four in total:
 
-- [Labyrinth of Knowledge](#entry:labirynth-of-knowledge-entry) – Unlocked on Day 2; accessible through Cell 0502; contained Shiori Novella's memories.
-- [Labyrinth of Emotion](#entry:labirynth-of-emotion-entry) – Unlocked on Day 3; accessible through Cell 0414; contained Koseki Bijou's memories.
-- [Labyrinth of Song](#entry:labirynth-of-knowledge-entry) – Unlocked on Day 4; accessible through Cell 1121; contained Nerissa Ravencroft's memories.
-- [Labyrinth of Duality](#entry:labirynth-of-duality-entry) – Unlocked on Day 5; accessible through Cells 0201–0202; contained Fuwawa Abyssguard and Mococo Abyssguard's memories.
+- [Labyrinth of Knowledge](#entry:labyrinth-of-knowledge-entry) – Unlocked on Day 2; accessible through Cell 0502; contained Shiori Novella's memories.
+- [Labyrinth of Emotion](#entry:labyrinth-of-emotion-entry) – Unlocked on Day 3; accessible through Cell 0414; contained Koseki Bijou's memories.
+- [Labyrinth of Song](#entry:labyrinth-of-knowledge-entry) – Unlocked on Day 4; accessible through Cell 1121; contained Nerissa Ravencroft's memories.
+- [Labyrinth of Duality](#entry:labyrinth-of-duality-entry) – Unlocked on Day 5; accessible through Cells 0201–0202; contained Fuwawa Abyssguard and Mococo Abyssguard's memories.

@@ -85,7 +85,7 @@ And perhaps, in the next tale, that lingering spark will finally be enough to br
 
 ## Notable Writings
 
-### Chapter 2
+**Chapter 2**
 
 - [Read "Knight's Log 0001"](#text:liz-journal-c2d1)
 - [Read "Knight's Log 0002"](#text:liz-journal-c2d2)

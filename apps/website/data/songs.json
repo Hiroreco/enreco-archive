@@ -6,7 +6,7 @@
                 "en": "Official Trailer Theme",
                 "ja": "公式トレーラーテーマ"
             },
-            "originalUrl": "https://www.youtube.com/watch?v=OnMxjFRlywA&ab_channel=hololiveEnglish",
+            "originalUrl": "https://www.youtube.com/watch?v=OnMxjFRlywA",
             "sourceUrl": "/audio/songs/enreco/enreco-trailer.mp3",
             "coverUrl": "/images-opt/song-chapter-1-opt.webp",
             "duration": "01:30"
@@ -17,7 +17,7 @@
                 "en": "Official Theme for Chapter 1",
                 "ja": "第1章の公式テーマ"
             },
-            "originalUrl": "https://www.youtube.com/watch?v=NoJImTCKgrY&ab_channel=Release-Topic",
+            "originalUrl": "https://www.youtube.com/watch?v=NoJImTCKgrY",
             "sourceUrl": "/audio/songs/enreco/enreco-start-again.mp3",
             "coverUrl": "/images-opt/song-enreco-start-again-opt.webp",
             "duration": "03:40"
@@ -28,10 +28,21 @@
                 "en": "Official Theme for Chapter 2",
                 "ja": "第2章の公式テーマ"
             },
-            "originalUrl": "https://www.youtube.com/watch?v=nUrITFpI85A&ab_channel=hololiveEnglish",
+            "originalUrl": "https://www.youtube.com/watch?v=nUrITFpI85A",
             "sourceUrl": "/audio/songs/enreco/enreco-monster.mp3",
             "coverUrl": "/images-opt/song-enreco-monster-opt.webp",
             "duration": "03:37"
+        },
+        {
+            "title": "Freaky Deaky Love",
+            "info": {
+                "en": "Official Theme for Chapter 3",
+                "ja": "第3章の公式テーマ"
+            },
+            "originalUrl": "https://www.youtube.com/watch?v=YBtaIGEkEOc",
+            "sourceUrl": "/audio/songs/enreco/enreco-freaky-deaky-love.mp3",
+            "coverUrl": "/images-opt/song-enreco-freaky-deaky-love-opt.webp",
+            "duration": "02:48"
         }
     ],
     "ingame": [
@@ -168,13 +179,13 @@
             "duration": "02:27"
         },
         {
-            "title": "Broken Soul",
+            "title": "Broken Souls",
             "info": {
                 "en": "Nullspace Theme (Chapter 3)",
                 "ja": "ヌルスペースのテーマ（第3章）"
             },
             "originalUrl": "https://audiostock.net/tracks/34767",
-            "sourceUrl": "/audio/songs/ingame/ingame-broken-soul.mp3",
+            "sourceUrl": "/audio/songs/ingame/ingame-broken-souls.mp3",
             "coverUrl": "/images-opt/song-chapter-3-opt.webp",
             "duration": "03:18"
         }

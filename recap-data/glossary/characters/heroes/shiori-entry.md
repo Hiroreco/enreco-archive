@@ -104,7 +104,7 @@ But at the end, despite the wondrous buildup and the madness Shiori gave for Cha
 
 ## Notable Writings
 
-### Chapter 2
+**Chapter 2**
 
 - [Read "Sea x Lovers"](#text:sea-x-lovers)
 - [Read "Chicken"](#text:chicken)
@@ -117,7 +117,7 @@ But at the end, despite the wondrous buildup and the madness Shiori gave for Cha
 - [Read "Tam x Tam"](#text:tam-x-tam)
 - [Read "Kiara Roa Snu"](#text:kiara-roa-snu)
 
-### Chapter 3"
+**Chapter 3**
 
 - [Read "Nyavella's Diary"](#text:nyavella-diary)
 
