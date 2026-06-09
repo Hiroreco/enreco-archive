@@ -64,7 +64,7 @@ Following the events of Chapter 2, the Outsider left behind a note for Fia, hint
 
 Early in their search for the Outsider, the heroes began exploring the Prison at the End of Infinity, [Terminus](#entry:terminus-entry), hoping to uncover clues about his whereabouts. There, they encountered a mysterious figure known as **Faust.** Claiming to have once been a prisoner of Terminus who had managed to escape his cell, Faust explained that he nevertheless remained trapped within the realm itself.
 
-Faust possessed knowledge that could aid the heroes in their quest and offered his assistance. However, his help came with a condition: in return, the heroes would owe him a favor to be repaid at a later time.
+Faust possessed knowledge that could aid the heroes in their quest. At first, he proposed a deal: in return for his help, the heroes would owe him a favor to be repaid at a later time. But this turned out to be a test, and he gave his advice freely, while telling the heroes to remember his offer for later.
 
 As the chapter progressed, Faust guided the heroes through Terminus and helped them navigate the challenges that stood in their way. Eventually, their journey led them to the heart of Nullspace, where the truth was finally revealed.
 
