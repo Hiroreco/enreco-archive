@@ -6,7 +6,7 @@
 
 ## Overview
 
-**Memories:** Not Recollected
+**Memories:** [Recollected](https://www.youtube.com/watch?v=EuzGZVDBH04)
 **Revelation:** [Azure Claws](#entry:azure-claws-entry)
 
 Fuwawa Abyssgard was one of the few "normal" heroes amidst the chaos. Rarely dragged into the dramatic antics of others, she remained a hardworking and honest doggo who dutifully completed her tasks and quietly warmed the hearts of those around her.

@@ -6,7 +6,7 @@
 
 ## Overview
 
-**Memories:** Not Recollected
+**Memories:** [Recollected](https://www.youtube.com/watch?v=EuzGZVDBH04)
 **Revelation:** [Fuchsia Claws](#entry:fuchsia-claws-entry)
 
 Mococo Abyssgard was hardly the image of a typical hero. Notorious for her lottery addiction in Chapter 1, she was helpless against the thrill of gambling. She was one of the most chaotic and shameless of the bunch, willing to do just about anything to line her own pockets.

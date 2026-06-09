@@ -81,4 +81,4 @@
 ### 報酬
 
 - 「[Lifetime Showtime](https://www.youtube.com/watch?v=Nj17tbZP4oA)」レコード ― FUWAMOCO
-- フワワ・アビスガードとモココ・アビスガードの[記憶](https://www.youtube.com/watch?v=EuzGZVDBH04&t=29s)
+- フワワ・アビスガードとモココ・アビスガードの[記憶](https://www.youtube.com/watch?v=EuzGZVDBH04)
