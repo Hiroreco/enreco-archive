@@ -99,6 +99,9 @@ It seemed that the echoes of [Nyavella](https://www.youtube.com/live/vRVwJrdNzGk
 
 But at the end, despite the wondrous buildup and the madness Shiori gave for Chapter 3, time was against her as some loose ends remained. The _plot_ came calling and, like those around her, she was beholden to the script all the same.
 
+> The only peace I know is when I see cherry blossoms.
+> Only then do I remember a voice that makes me feel so full of warmth, yet leaves me so full of unshed tears at the same time.
+
 ## Notable Writings
 
 - [Read "Sea x Lovers"](#text:sea-x-lovers)

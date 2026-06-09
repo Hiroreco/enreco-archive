@@ -63,9 +63,11 @@ Out of the six days that made up the third journey, the Hot Pink One was present
 
 Still, even from her brief appearance, a few details about her adventure can be pieced together.
 
-On the first day, it was clear that her relationship with Tam had not improved in the slightest. The blue maiden remained just as wary of her pink counterpart as ever. Fortunately, her relationship with her pink cat was still going strong, and her consort had even decided to reconcile with her.
+On the first day, it was clear that her [relationship](https://www.youtube.com/watch?v=sT4tuLP6UJQ&t=801) with Tam had not improved in the slightest. The blue maiden remained just as wary of her pink counterpart as ever. Fortunately, her relationship with her [pink cat](https://www.youtube.com/watch?v=M1lDsivuVb8&t=7815) was still going strong, and her consort had even decided to reconcile with her.
 
 The Hot Pink One was also among the few who knew that Shakira had been carrying a child, making news of her murder all the more shocking.
+
+> Did no one know she had a baby?!
 
 After that, the pink one entered a five-day "slumber," only awakening for the finale. Thoroughly confused by the countless plotlines that had unfolded in her absence, she nevertheless helped complete the final mission before the journey came to an end.
 

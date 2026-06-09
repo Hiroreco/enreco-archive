@@ -65,17 +65,19 @@ At the end of the journey, Bijou—along with Fuwawa, Mococo, Nerissa, and Shior
 **Faction:** Rebellion
 **Job:** Smith and Jeweler
 
-Bijou woke up and chose evil. Every decision she made was guided by a single goal: causing as much trouble and suffering as possible, simply because she found it entertaining. She wasted no time putting that philosophy into practice. On the very first day, she secretly poisoned a cake, leading to Shakira's death while successfully shifting the blame onto the innocent baker. It was the first move in a grand scheme that would throw the kingdom into chaos.
+Bijou woke up and chose [evil.](https://www.youtube.com/watch?v=VuwvH2nOWxI&t=2083) Every decision she made was guided by a single goal: causing as much trouble and suffering as possible, simply because she found it entertaining. She wasted no time putting that philosophy into practice. On the very first day, she secretly [poisoned](https://www.youtube.com/watch?v=VuwvH2nOWxI&t=5975) a cake, leading to Shakira's death while successfully shifting the blame onto the innocent baker. It was the first move in a grand scheme that would throw the kingdom into chaos.
 
-Even the smallest choices during her adventures were driven by malice. Her antics reached new heights on Day 3, when she purchased Shakira's corpse from Shiori and began using it to terrorize the kingdom. Hidden behind the scenes, Bijou turned the corpse into a tool of fear, haunting unsuspecting victims and luring them into becoming sacrifices for Shiori's ritual.
+> Join me. Let the darkness consume you. It is nice here in the shadows
 
-Perhaps the cruelest part was how she manipulated those who trusted her. Roa Pandora, Shakira's own wife, believed Bijou was someone she could rely on. Instead, she became one of Bijou's victims—tormented by the corpse hauntings and ultimately deceived into becoming a sacrifice herself.
+Even the smallest choices during her adventures were driven by malice. Her antics reached new heights on Day 3, when she [purchased](https://www.youtube.com/watch?v=3iXshLxO3-E&t=16490) Shakira's corpse from Shiori and began using it to terrorize the kingdom. Hidden behind the scenes, Bijou turned the corpse into a [tool](https://youtu.be/60_Pduc0ODY?t=3137) of fear, haunting unsuspecting victims and luring them into becoming sacrifices for Shiori's [ritual.](#entry:yellow-queen-entry)
+
+Perhaps the cruelest part was how she manipulated those who trusted her. Roa Pandora, Shakira's own wife, believed Bijou was someone she could rely on. Instead, she became one of Bijou's victims—tormented by the corpse hauntings and ultimately deceived into becoming a [sacrifice](https://www.youtube.com/watch?v=FJNKv92ZWdM&t=12230) herself.
 
 Bijou also appeared to be one of Shiori's most enthusiastic supporters. The two had long shared a peculiar bond that stretched back to previous journeys, and throughout the adventure, Bijou rarely missed an opportunity to aid Shiori's plans.
 
 On the final day, Bijou finally revealed herself as the true killer all along—though the confession was quickly brushed aside due to time constraints. Yet what lingered most was not the reveal itself, but her final admission. In the end, she reminded everyone that the "curse" was never responsible for her actions.
 
-Everything she did, she did entirely of her own free will.
+Everything she did, she did entirely of her own [free will.](https://www.youtube.com/watch?v=-v3wKaDqyI4&t=12910)
 
 ## Notable Writings
 

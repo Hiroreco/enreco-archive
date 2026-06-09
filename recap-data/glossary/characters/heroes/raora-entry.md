@@ -60,6 +60,8 @@ What should have been a celebration of life became the beginning of a nightmare 
 
 Determined to uncover the truth, Roa threw herself into the investigation, even founding a secret society known as the Illumination to aid in her search. Yet at every turn, new horrors awaited her. Every lead seemed to bring more confusion, every answer led to another mystery, and every attempt to regain control of the situation only seemed to make things worse.
 
+> I knew it! This place is not real! I am leaving now! AHHH!
+
 From that point onward, her life became a seemingly endless series of twists, turns, and misfortunes. It often felt as though the world itself had conspired to inflict the maximum amount of suffering upon her. Whether through tragedy, manipulation, supernatural horrors, or cruel revelations, Roa rarely caught a break throughout the entire journey (for more details, see [Illumination](#entry:illumination-entry)).
 
 Yet despite everything, she was never completely alone.

@@ -69,7 +69,7 @@ Shakira suddenly died in front of numerous witnesses, including her wife, Roa. T
 
 **Day 2**
 
-A memorial was constructed in Shakira's honor, and her body was laid to rest. The peace was short-lived.
+A [memorial](https://www.youtube.com/watch?v=VXqngzJKNZU&t=1012) was constructed in Shakira's honor, and her body was laid to rest. The peace was short-lived.
 
 Later that same day, Shiori secretly dug up the corpse and took it for herself.
 
@@ -81,11 +81,11 @@ At the end of the day, Bijou purchased the corpse for an absurd amount of money,
 
 **Day 4**
 
-Bijou began using Shakira's corpse to haunt various residents throughout the kingdom. Needless to say, this did not help anyone's emotional state.
+Bijou began using Shakira's corpse to [haunt](https://youtu.be/60_Pduc0ODY?t=3137) various residents throughout the kingdom. Needless to say, this did not help anyone's emotional state.
 
 **Day 5**
 
-Things escalated even further. Using the corpse as bait, Bijou lured unsuspecting adventurers to Shiori's church—more specifically, to the hidden ritual chamber beneath it.
+Things escalated even further. Using the [corpse](https://www.youtube.com/watch?v=FJNKv92ZWdM&t=12230) as bait, Bijou lured unsuspecting adventurers to Shiori's church—more specifically, to the hidden ritual chamber beneath it.
 
 There, the corpse became part of a series of increasingly disturbing demonic rituals.
 
@@ -93,9 +93,9 @@ There, the corpse became part of a series of increasingly disturbing demonic rit
 
 A trial was held to determine who was responsible for Shakira's death. No definitive conclusion was reached before the journey came to an end. However, those closest to Shakira finally found the closure they had been searching for.
 
-Her body was cremated. Her loved ones were able to say their final goodbyes.
+Her body was [cremated.](https://www.youtube.com/live/mZM0OO3VK9s?si=KSXeqRUkr5neW-iv&t=4932) Her loved ones were able to say their final goodbyes.
 
-And at long last, the phoenix was allowed to rest.
+And at long last, the phoenix was allowed to rest, hopefully to return once more in the next tale.
 
 ## Trivia
 

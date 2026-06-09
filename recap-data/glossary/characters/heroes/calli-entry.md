@@ -49,21 +49,23 @@ She was, after all, a woman of many talents—one deeply invested in the happine
 **Faction:** Shining Stars
 **Job:** Chef
 
-Mordan only wanted to cook. As such, she began her third journey much the same way she had before: as a chef dedicated to feeding the kingdom. Unfortunately, after baking a chocolate "fertility cake" for the newlywed couple Shakira and Roa, Shakira suddenly died shortly after eating it.
+Mordan only wanted to cook. As such, she began her third journey much the same way she had before: as a chef dedicated to feeding the kingdom. Unfortunately, after baking a chocolate "fertility cake" for the newlywed couple Shakira and Roa, Shakira[ suddenly died](https://www.youtube.com/watch?v=jWrom0fcdQk&t=7142) shortly after eating it.
 
 That single incident would cast a shadow over the rest of Mordan's journey.
 
-Accused by many of poisoning the cake, the devastated chef fled into the wilderness, determined to clear her name. Thankfully, she was not alone. Her trusted wolf-pack companions remained by her side throughout the ordeal.
+> No, it's all a big misunderstanding... I only cook food for good!
 
-Despite the accusations, Mordan continued trying to do good. She once again established a restaurant for the kingdom, worked hard to support others, and even adopted a pet chicken named "Shakira" in honor of her fallen friend. Slowly but surely, she began rebuilding the trust she had lost and repairing her reputation among those who had turned against her.
+Thankfully, she was not alone. Her trusted wolf-pack companions remained by her side throughout the ordeal. Despite the accusations, Mordan continued trying to do [good.](https://www.youtube.com/watch?v=VXqngzJKNZU&t=1351) She once again established a restaurant for the kingdom, worked hard to support others, and even adopted a pet chicken named ["Shakira"](https://www.youtube.com/watch?v=VXqngzJKNZU&t=4546) in honor of her fallen friend.
+
+Slowly but surely, she began rebuilding the trust she had lost and repairing her reputation among those who had turned against her.
 
 Yet the rumors refused to die.
 
-On Day 3, Shiori hosted a [funeral](#entry:yellow-queen-entry) for Shakira within her church. During the event, the allegations surrounding Mordan resurfaced with full force. Between the lingering poisoner rumors and her grim-reaper-like appearance, suspicion once again settled firmly upon the chef's shoulders.
+On Day 3, Shiori hosted a [funeral](#entry:yellow-queen-entry) for Shakira within her church. During the event, the allegations surrounding Mordan resurfaced with full force. Between the lingering poisoner rumors and her grim-reaper-like appearance, [suspicion](https://www.youtube.com/live/PNrclGd76n4?t=11587) once again settled firmly upon the chef's shoulders.
 
-At the end of Day 5, she discovered the identity of Shakira's true killer within the church itself. Unfortunately, before she could do anything with this revelation, she was dropped into a hidden basement and had her memories wiped, leaving her unable to expose what she had learned.
+At the end of Day 5, she discovered the identity of Shakira's true killer within the [church](https://www.youtube.com/live/UBbTSf5A9bc?t=20419) itself. Unfortunately, before she could do anything with this revelation, she was dropped into a hidden basement and had her memories wiped, leaving her unable to expose what she had learned.
 
-By the time the final day arrived, a formal trial was held to determine whether Mordan was responsible for Shakira's death. Predictably, the proceedings quickly descended into chaos. Still, by the end of the journey, the actual killer openly admitted responsibility, effectively clearing Mordan's name once and for all.
+By the time the final day arrived, a formal trial was held to determine whether Mordan was responsible for Shakira's death. Predictably, the proceedings quickly descended into [chaos.](https://www.youtube.com/watch?v=j2loI_6HkqI&t=7162) Still, by the end of the journey, the actual killer openly admitted responsibility, effectively clearing Mordan's name once and for all.
 
 So, was she able to prove her innocence? Technically, yes.
 

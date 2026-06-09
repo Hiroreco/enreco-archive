@@ -75,9 +75,11 @@ Once an honorable knight who upheld her principles above all else, Lady Bloodfla
 
 Yet despite everything, the flame of justice within her never fully went out.
 
-No matter how dim it became, traces of the old Elizabeth remained. She continued to help others whenever she could, stood beside the people she believed were in the right, and maintained the bonds she cherished. This was especially true for Mococo, whom she continued to love dearly even after the revelation that the two were not actually sisters, despite Mococo having believed so since the very beginning.
+No matter how dim it became, traces of the old Elizabeth remained. She continued to help others whenever she could, [stood beside](https://www.youtube.com/live/6HUbJshXMAI?si=uvmlKus8NUoFqmw1&t=1740) the people she believed were in the right, and maintained the bonds she cherished. This was especially true for Mococo, whom she continued to love dearly even after the revelation that the two were not actually [sisters,](https://www.youtube.com/live/6HUbJshXMAI?si=03E3DaFB1PluNBzV&t=1256) despite Mococo having believed so since the very beginning.
 
-Between the chaos, she still found joy in simple things. She adored the sight of others' pets, exchanged playful banter with her friends, and sought moments of normalcy whenever they presented themselves. Though the witch's influence remained wrapped tightly around her, her heart continued to long for what was right, what was familiar, and what truly belonged to her.
+> I made you a promise and I will forever keep it. I'll always protect you and I promise to protect you, too.
+
+Between the chaos, she still found joy in simple things. She adored the sight of others' [pets,](https://www.youtube.com/live/FzangfLML4E?si=G-BCEkVTmYCKRKAp&t=2296) exchanged playful banter with her friends, and sought moments of normalcy whenever they presented themselves. Though the witch's influence remained wrapped tightly around her, her heart continued to long for what was right, what was familiar, and what truly belonged to her.
 
 And perhaps, in the next tale, that lingering spark will finally be enough to break the spell for good.
 

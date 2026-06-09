@@ -77,11 +77,13 @@ The signs had already been there near the end of the previous journey, where Ner
 
 Yet Elizabeth was far from the only target of Nerissa's schemes.
 
-Behind the warm smiles and friendly demeanor she presented to the kingdom lurked a far darker side. Her kindness was convincing enough that even those who initially suspected her of being evil eventually began to trust her. In reality, Nerissa had little hesitation when it came to supporting acts of villainy.
+Behind the warm smiles and friendly demeanor she presented to the kingdom lurked a far darker side. Her kindness was convincing enough that even those who initially suspected her of being evil eventually began to [trust](https://www.youtube.com/watch?v=4anxJRoJo4s&t=12414) her. In reality, Nerissa had little hesitation when it came to supporting acts of villainy.
 
 Perhaps the most notable example was her involvement in helping Shiori construct the demonic [ritual chamber](#entry:yellow-queen-entry). Together, they lured unsuspecting victims into its depths, coercing them into participating in rituals and ultimately turning them into sacrifices. Throughout it all, Nerissa rarely seemed troubled by what she was doing. If anything, she appeared to enjoy it.
 
-However, after recovering her memories on Day 4, a new conflict began to emerge within her. The memories forced Nerissa to question her own identity. Was she truly meant to be good? Or was the cruel and manipulative witch she had become her real self all along?
+However, after recovering her memories on Day 4, a new [conflict](https://youtu.be/60_Pduc0ODY?t=7243) began to emerge within her. The memories forced Nerissa to question her own identity. Was she truly meant to be good? Or was the cruel and manipulative witch she had become her real self all along?
+
+> In the past, I had let others tell me who I was based on their memories. But now that I have the full picture back, I feel as though I do not recognize myself.
 
 No matter how much she searched for an answer, she never managed to find one before the journey ended.
 
@@ -100,5 +102,13 @@ Perhaps the next chapter will reveal which version of Nerissa is the truth.
 - In Chapter 2, Nerissa nearly gave up her work as a chef because no one was buying her food.
 - (Out of character) During a Chapter 2 post-analysis stream, Nerissa expressed that she would like to be called Nerissa Juliet Ravencroft within the ENreco universe, to distinguish herself from _the_ Nerissa Ravencroft.
 - While trying to convince Roa to participate in the ritual beneath Shiori's church, the situation became so absurdly funny that Nerissa briefly broke character from laughing.
+- Nerissa's stream titles in Chapter 3 when combined together reads out a poem:
+
+> Shakles Fall
+> From her hands
+> Worlds will fall
+> In her trance
+> What goes up, must come down
+> Lose yourself in the sound
 
 [neri](#easter:easter-nerissa)

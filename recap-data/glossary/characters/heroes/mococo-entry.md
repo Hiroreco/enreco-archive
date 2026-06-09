@@ -57,17 +57,19 @@ Money! Money! Money!
 
 Why bother worrying about the kingdom's problems or saving the world when there was wealth to be made? That was the mindset Mococo entered her third journey with, and she committed to it wholeheartedly.
 
-Throughout most of the chapter, she cared about little else besides growing her fortune. She spent her days digging for valuables, hunting for profit wherever she could find it, and on the very first day managed to exploit a loophole to claim multiple houses for herself, quickly establishing her reputation as the kingdom's self-proclaimed "premier landlord." Even with a murder case unfolding around her, Mococo remained remarkably unconcerned.
+Throughout most of the chapter, she cared about little else besides growing her fortune. She spent her days digging for valuables, hunting for profit wherever she could find it, and on the very first day managed to exploit a loophole to claim [multiple houses](https://www.youtube.com/watch?v=PkPzzhx2hrc&t=6499) for herself, quickly establishing her reputation as the kingdom's self-proclaimed "premier landlord." Even with a murder case unfolding around her, Mococo remained remarkably unconcerned.
 
-Her entrepreneurial ambitions didn't stop there. For the first two days, she held a complete monopoly over the kingdom's charms, a valuable buff item, thanks to being the only jeweler around. Naturally, she was more than happy to brag about it. When others eventually took up the jeweler profession themselves, however, Mococo became fiercely protective of her business, repeatedly crashing out at her new competitors in a desperate attempt to preserve her beloved "Moco-poly."
+> I'm Little Witch Mococo and I want to make jewels, money, riches, all that stuff!
 
-She also appeared to possess a mysterious passive ability that caused her to automatically ignore every call from Immerkind, though scholars have yet to determine the exact mechanics behind this phenomenon.
+Her entrepreneurial ambitions didn't stop there. For the first two days, she held a complete monopoly over the kingdom's charms, a valuable buff item, thanks to being the only jeweler around. Naturally, she was more than happy to brag about it. When others eventually took up the jeweler profession themselves, however, Mococo became fiercely [protective](https://www.youtube.com/live/AQ80hyGfzxI?t=790) of her business, repeatedly crashing out at her new competitors in a desperate attempt to preserve her beloved "Moco-poly."
+
+She also appeared to possess a mysterious passive ability that caused her to automatically ignore [every call](https://www.youtube.com/live/AQ80hyGfzxI?t=2932) from Immerkind, though scholars have yet to determine the exact mechanics behind this phenomenon.
 
 It wasn't until the final days of the journey that Mococo finally began looking beyond money. Instead, her attention shifted to something far more important: family.
 
-To her surprise, she discovered that the person she had spent much of the adventure viewing as an annoying nuisance—constantly scolding her and getting in her way—was actually her twin sister, Fuwawa. The revelation was difficult for Mococo to accept. Not only had she never viewed Fuwawa as anything more than a bystander in her life, but she had also spent the entire journey believing that Elizabeth was her true sister.
+To her surprise, she discovered that the person she had spent much of the adventure viewing as an annoying nuisance—constantly scolding her and getting in her way—was actually her twin sister, Fuwawa. The revelation was [difficult](https://www.youtube.com/watch?v=Db4P0eDfOMY&t=10347) for Mococo to accept. Not only had she never viewed Fuwawa as anything more than a bystander in her life, but she had also spent the entire journey believing that Elizabeth was her true sister.
 
-Eventually, after taking time to process everything, Mococo came to accept the truth. Rather than choosing between them, she embraced both bonds, continuing to love Elizabeth as her foster sister while welcoming Fuwawa as her real one.
+Eventually, after taking time to process everything, Mococo came to [accept](https://www.youtube.com/live/5fdrGFsRtQw?t=1132) the truth. Rather than choosing between them, she embraced both bonds, continuing to love Elizabeth as her foster sister while welcoming Fuwawa as her real one.
 
 And so, as she stepped into the final mission, Mococo largely ignored the complicated lore revelations surrounding her and instead focused on what truly mattered:
 
