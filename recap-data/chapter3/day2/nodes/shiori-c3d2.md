@@ -49,7 +49,7 @@ She had never really been the type to boast about herself, let alone dwell on he
 
 With the day's major task finally completed, most people gradually began heading off to rest. Shiori, however, stayed awake far longer than the others to work on something she had already planned since the previous day: the construction of a church.
 
-_The Church of Inkwell._
+_The Church of the Cloth._
 
 She _was_ a sister, after all, and a sister needed a place where people could gather, seek comfort, and receive help from others. It suited the kind-hearted archivist perfectly.
 
@@ -93,6 +93,6 @@ Oh forgot to mention, she dug ug a grave and stole Shakira's corpse.
 
 <!-- gigi, calli -->
 
-["Like a dog" by i](https://x.com/noirstein/status/2059159977097625646)
+["Like a dog" by noirstein](https://x.com/noirstein/status/2059159977097625646)
 
 <!-- liz -->
