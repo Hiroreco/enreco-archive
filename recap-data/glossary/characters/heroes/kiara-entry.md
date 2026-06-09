@@ -47,9 +47,60 @@ Her relationships in this chapter were far more entangled than in the first, whe
 
 Naturally, that didn’t pan out. But when Shakira hit her lowest point, feeling alone in a kingdom overflowing with romance, she found hope in an unexpected place: a certain beeg cat. In a sudden, heartwarming turn, Kiara married Roa, her newfound admiration [blossoming](https://www.youtube.com/live/ngfdLbrpeM4?t=13080) into love. Her second chapter closed on a truly wholesome note. She’d finally earned the happy ending to her love story—what more could anyone want?
 
+### Chapter 3
+
+**Name:** Tanakisha Karia
+**Faction:** Shining Stars
+**Job:** Smith
+
+Shakira began her third journey as she always did: cheerful, bright, and full of energy.
+
+Then she ate a cake and died.
+
+This occurred before the first day was even halfway over.
+
+While this untimely death prevented Shakira from directly participating in any of the kingdom's events for the remainder of the journey, her absence ended up becoming one of the most influential forces in Chapter 3. The shockwaves left behind by her death touched nearly everyone in the kingdom, shaping countless stories long after the phoenix herself was gone.
+
+Here is what transpired in the days that followed.
+
+**Day 1**
+
+Shakira suddenly died in front of numerous witnesses, including her wife, Roa. The tragedy devastated Roa, who spent the following days consumed by grief. Her search for answers eventually spiraled into paranoia, madness, and the founding of the [Illumination](#entry:illumination-entry), a cult dedicated to uncovering the truth behind the kingdom itself.
+
+**Day 2**
+
+A memorial was constructed in Shakira's honor, and her body was laid to rest. The peace was short-lived.
+
+Later that same day, Shiori secretly dug up the corpse and took it for herself.
+
+**Day 3**
+
+Shiori displayed Shakira's corpse inside her church and invited the entire kingdom to attend what she called a [funeral](#entry:yellow-queen-entry) for the fallen phoenix. The event was predictably chaotic.
+
+At the end of the day, Bijou purchased the corpse for an absurd amount of money, becoming its new owner.
+
+**Day 4**
+
+Bijou began using Shakira's corpse to haunt various residents throughout the kingdom. Needless to say, this did not help anyone's emotional state.
+
+**Day 5**
+
+Things escalated even further. Using the corpse as bait, Bijou lured unsuspecting adventurers to Shiori's church—more specifically, to the hidden ritual chamber beneath it.
+
+There, the corpse became part of a series of increasingly disturbing demonic rituals.
+
+**Day 6**
+
+A trial was held to determine who was responsible for Shakira's death. No definitive conclusion was reached before the journey came to an end. However, those closest to Shakira finally found the closure they had been searching for.
+
+Her body was cremated. Her loved ones were able to say their final goodbyes.
+
+And at long last, the phoenix was allowed to rest.
+
 ## Trivia
 
 - The name **Shakira** was actually suggested by Gonathon, since Tanakisha Karia was a bit too much of a mouthful to read.
 - Shakira often boasted about her ability to speak “the language of the gods,” otherwise known as **German**, proudly being one of only two in the entire kingdom who could.
+- Shakira was absent for the majority of Chapter 3 because she was busy IRL, so she had her "death" planned out from the get-go.
 
 [kiara](#easter:easter-kiara)
