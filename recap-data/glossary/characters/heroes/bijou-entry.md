@@ -1,7 +1,7 @@
 <!-- title: Koseki Bijou -->
 <!-- quote: Wooden shovel. -->
 <!-- chapters: -1 -->
-<!-- images: (Bijou's Chapter 1 Profile), (Bijou holding up her Revelation), (Bijou griefing over her rock comrades), (Bijou's Chapter 2 Profile), (Bijou turning against Fia) -->
+<!-- images: (Bijou's Chapter 1 Profile), (Bijou holding up her Revelation), (Bijou griefing over her rock comrades), (Bijou's Chapter 2 Profile), (Bijou turning against Fia), (Recollection - Koseki Bijou) -->
 <!-- model: false -->
 
 ## Overview

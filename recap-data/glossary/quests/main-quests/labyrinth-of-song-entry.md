@@ -49,4 +49,4 @@ Compared to the bosses of the previous labyrinths, this encounter was considerab
 ### Rewards
 
 - ["In My Feelings"](https://www.youtube.com/watch?v=07KOLCi_j20) vinyl – Nerissa Ravencroft
-- [Memories](https://www.youtube.com/watch?v=07KOLCi_j20) of Nerissa Ravencroft.
+- [Memories](https://www.youtube.com/watch?v=Ekdph_wAXlc) of Nerissa Ravencroft.

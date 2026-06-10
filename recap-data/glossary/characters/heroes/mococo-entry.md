@@ -1,7 +1,7 @@
 <!-- title: Mococo Abyssgard -->
 <!-- quote: I'm not a criminal, I'm Mococo! -->
 <!-- chapters: -1 -->
-<!-- images: (Mococo's Chapter 1 Profile), (Mococo fighting along with Fuwawa), (Mococo's Chapter 2 Profile), (Mococo turning against Fia in Chapter 2's Ending) -->
+<!-- images: (Mococo's Chapter 1 Profile), (Mococo fighting along with Fuwawa), (Mococo's Chapter 2 Profile), (Mococo turning against Fia in Chapter 2's Ending), (Recollection - Mococo Abyssguard) -->
 <!-- model: false -->
 
 ## Overview
