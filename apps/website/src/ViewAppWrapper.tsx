@@ -17,74 +17,106 @@ import {
 import { cn } from "@enreco-archive/common-ui/lib/utils";
 import useLightDarkModeSwitcher from "@enreco-archive/common/hooks/useLightDarkModeSwitcher";
 import { AnimatePresence, motion } from "framer-motion";
-import { Film, LibraryBig, Workflow } from "lucide-react";
+import {
+    Film,
+    LibraryBig,
+    PanelLeftClose,
+    PanelLeftOpen,
+    Workflow,
+} from "lucide-react";
 import { useTranslations } from "next-intl";
-import Image from "next/image";
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useState } from "react";
 import ViewApp from "./ViewApp";
 import LoadingPage from "./components/view/chart/LoadingPage";
 import { useSettingStore } from "./store/settingStore";
 
-const HoverTabTrigger = ({
+const LS_SIDEBAR_KEY = "sidebar-labels-collapsed";
+
+const NavTabTrigger = ({
     value,
     icon,
     label,
+    collapsed,
     selected,
 }: {
     value: string;
     icon: React.ReactNode;
     label: string;
+    collapsed: boolean;
     selected: boolean;
 }) => {
     const [hovered, setHovered] = useState(false);
-    const labelRef = useRef<HTMLSpanElement>(null);
-    const [labelWidth, setLabelWidth] = useState(0);
-
-    useEffect(() => {
-        if (labelRef.current) {
-            const el = labelRef.current;
-            const prev = el.style.cssText;
-            el.style.cssText =
-                "width:auto;opacity:0;position:absolute;pointer-events:none;";
-            setLabelWidth(el.scrollWidth);
-            el.style.cssText = prev;
-        }
-    }, [label]);
+    const showLabel = collapsed ? hovered : true;
+    const labelActive = hovered || selected;
 
     return (
-        <div
-            className="relative"
+        <TabsTrigger
+            className="group relative flex items-center justify-start w-10 p-0 bg-transparent border-none shadow-none data-[state=active]:bg-transparent data-[state=active]:shadow-none"
+            value={value}
             onMouseEnter={() => setHovered(true)}
             onMouseLeave={() => setHovered(false)}
         >
-            <TabsTrigger
-                className="group relative flex items-center justify-start w-10 p-0 bg-transparent border-none shadow-none data-[state=active]:bg-transparent data-[state=active]:shadow-none"
-                value={value}
-            >
-                <span className="flex items-center justify-center w-10 h-10 rounded-md transition-colors group-hover:bg-accent group-hover:text-accent-foreground group-data-[state=active]:bg-accent shrink-0 bg-card">
-                    {icon}
-                </span>
-            </TabsTrigger>
+            <span className="flex items-center justify-center w-10 h-10 rounded-md transition-colors group-hover:bg-accent group-hover:text-accent-foreground group-data-[state=active]:bg-accent shrink-0 bg-card">
+                {icon}
+            </span>
             <motion.span
-                ref={labelRef}
-                className="absolute top-0 left-11 flex items-center justify-center h-10 px-3 rounded-md overflow-hidden whitespace-nowrap pointer-events-none bg-accent text-accent-foreground text-sm font-semibold"
+                className={cn(
+                    "absolute top-0 left-11 flex items-center justify-center h-10 px-3 rounded-md overflow-hidden whitespace-nowrap text-sm transition-colors",
+                    labelActive
+                        ? "bg-accent text-accent-foreground"
+                        : "bg-card text-foreground",
+                )}
                 animate={{
-                    width: hovered ? labelWidth : 0,
-                    opacity: hovered ? 1 : 0,
+                    width: showLabel ? "5.25rem" : 0,
+                    opacity: showLabel ? 1 : 0,
                 }}
                 transition={{ duration: 0.18, ease: "easeOut" }}
             >
                 {label}
             </motion.span>
-        </div>
+        </TabsTrigger>
     );
 };
+
+const ToggleButton = ({
+    collapsed,
+    onClick,
+}: {
+    collapsed: boolean;
+    onClick: () => void;
+}) => (
+    <button
+        onClick={onClick}
+        className={cn(
+            "flex items-center justify-center w-10 h-10 rounded-md bg-card mt-1 transition-all",
+            "hover:brightness-90",
+            "text-muted-foreground",
+        )}
+        aria-label={
+            collapsed ? "Expand sidebar labels" : "Collapse sidebar labels"
+        }
+    >
+        {collapsed ? <PanelLeftOpen size={20} /> : <PanelLeftClose size={20} />}
+    </button>
+);
 
 export const ViewAppWrapper = () => {
     const [isLoading, setIsLoading] = useState(true);
     const [viewAppVisible, setViewAppVisible] = useState(false);
+    const [labelsCollapsed, setLabelsCollapsed] = useState(() => {
+        if (typeof window === "undefined") return false;
+        return localStorage.getItem(LS_SIDEBAR_KEY) === "true";
+    });
     const themeType = useSettingStore((state) => state.themeType);
     const tApp = useTranslations("apps");
+
+    const toggleLabelsCollapsed = () => {
+        setLabelsCollapsed((v) => {
+            const next = !v;
+            localStorage.setItem(LS_SIDEBAR_KEY, String(next));
+            return next;
+        });
+    };
 
     const useDarkMode = useLightDarkModeSwitcher(themeType);
     const appType = useViewStore((state) => state.appType);
@@ -125,19 +157,60 @@ export const ViewAppWrapper = () => {
         // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [isLoading, openChangeLogModal]);
 
-    // Set chapter-specific colors
     useEffect(() => {
         const chapterColors = {
-            0: "207 39.1% 59.4%", // Blue for Chapter 1
-            1: "340 40% 45%", // Reddish pink for Chapter 2
-            2: "25 40% 53%", // Orange for Chapter 3
+            0: "207 39.1% 59.4%",
+            1: "340 40% 45%",
+            2: "25 40% 53%",
         };
-
         const accentColor =
             chapterColors[chapter as keyof typeof chapterColors] ||
             chapterColors[0];
         document.documentElement.style.setProperty("--accent", accentColor);
     }, [chapter]);
+
+    const navItems = [
+        {
+            value: "chart",
+            icon: <Workflow size={20} />,
+            mobileIcon: <Workflow size={24} />,
+            label: tApp("chart"),
+        },
+        {
+            value: "glossary",
+            icon: <LibraryBig size={20} />,
+            mobileIcon: <LibraryBig size={24} />,
+            label: tApp("glossary"),
+        },
+        {
+            value: "archive",
+            icon: <Film size={20} />,
+            mobileIcon: <Film size={24} />,
+            label: tApp("mediaArchive"),
+        },
+        // {
+        //     value: "bingo",
+        //     icon: (
+        //         <Image
+        //             src="/images-opt/bingo-logo-opt.webp"
+        //             alt="Bingo"
+        //             height={20}
+        //             width={20}
+        //             className="h-5 w-5 object-contain"
+        //         />
+        //     ),
+        //     mobileIcon: (
+        //         <Image
+        //             src="/images-opt/bingo-logo-opt.webp"
+        //             alt="Bingo"
+        //             height={24}
+        //             width={24}
+        //             className="h-6 w-auto"
+        //         />
+        //     ),
+        //     label: tApp("bingo"),
+        // },
+    ];
 
     return (
         <div>
@@ -146,9 +219,7 @@ export const ViewAppWrapper = () => {
             {isLoading && (
                 <LoadingPage
                     useDarkMode={useDarkMode}
-                    onStart={() => {
-                        setIsLoading(false);
-                    }}
+                    onStart={() => setIsLoading(false)}
                     setViewAppVisible={() => setViewAppVisible(true)}
                 />
             )}
@@ -202,100 +273,56 @@ export const ViewAppWrapper = () => {
                         },
                     )}
                 >
+                    {/* ── Mobile: vertical when on chart, horizontal otherwise ── */}
                     {isMobile && appType === "chart" && (
-                        <TabsList
-                            className={cn("flex-col h-fit", {
-                                "flex-col h-fit":
-                                    !isMobile ||
-                                    (isMobile && appType === "chart"),
-                            })}
-                        >
-                            <TabsTrigger value="chart">
-                                <Workflow size={24} />
-                            </TabsTrigger>
-                            <TabsTrigger value="glossary">
-                                <LibraryBig size={24} />
-                            </TabsTrigger>
-                            <TabsTrigger value="archive">
-                                <Film size={24} />
-                            </TabsTrigger>
-                            {/* <TabsTrigger value="bingo" title="Bingo">
-                                <Image
-                                    src="/images-opt/bingo-logo-opt.webp"
-                                    alt="Bingo"
-                                    height={24}
-                                    width={24}
-                                    className="h-6 w-auto"
-                                />
-                            </TabsTrigger> */}
+                        <TabsList className="flex-col h-fit">
+                            {navItems.map(({ value, mobileIcon, label }) => (
+                                <TabsTrigger
+                                    key={value}
+                                    value={value}
+                                    title={label}
+                                >
+                                    {mobileIcon}
+                                </TabsTrigger>
+                            ))}
                         </TabsList>
                     )}
+                    {isMobile && appType !== "chart" && (
+                        <TabsList>
+                            {navItems.map(({ value, mobileIcon, label }) => (
+                                <TabsTrigger
+                                    key={value}
+                                    value={value}
+                                    title={label}
+                                >
+                                    {mobileIcon}
+                                </TabsTrigger>
+                            ))}
+                        </TabsList>
+                    )}
+
+                    {/* ── Desktop: always-visible OR hover-only labels ── */}
                     {!isMobile && (
                         <TabsList
                             className={cn(
                                 "flex-col h-fit bg-transparent border-none gap-1",
                             )}
                         >
-                            {[
-                                {
-                                    value: "chart",
-                                    icon: <Workflow size={24} />,
-                                    label: tApp("chart"),
-                                },
-                                {
-                                    value: "glossary",
-                                    icon: <LibraryBig size={24} />,
-                                    label: tApp("glossary"),
-                                },
-                                {
-                                    value: "archive",
-                                    icon: <Film size={24} />,
-                                    label: tApp("mediaArchive"),
-                                },
-                                // {
-                                //     value: "bingo",
-                                //     icon: (
-                                //         <Image
-                                //             src="/images-opt/bingo-logo-opt.webp"
-                                //             alt="Bingo"
-                                //             height={24}
-                                //             width={24}
-                                //             className="size-6 object-contain"
-                                //         />
-                                //     ),
-                                //     label: tApp("bingo"),
-                                // },
-                            ].map(({ value, icon, label }) => (
-                                <HoverTabTrigger
+                            {navItems.map(({ value, icon, label }) => (
+                                <NavTabTrigger
                                     key={value}
                                     value={value}
                                     icon={icon}
                                     label={label}
+                                    collapsed={labelsCollapsed}
                                     selected={appType === value}
                                 />
                             ))}
-                        </TabsList>
-                    )}
-                    {isMobile && appType !== "chart" && (
-                        <TabsList>
-                            <TabsTrigger value="chart">
-                                <Workflow size={24} />
-                            </TabsTrigger>
-                            <TabsTrigger value="glossary">
-                                <LibraryBig size={24} />
-                            </TabsTrigger>
-                            <TabsTrigger value="archive">
-                                <Film size={24} />
-                            </TabsTrigger>
-                            {/* <TabsTrigger value="bingo" title="Bingo">
-                                <Image
-                                    src="/images-opt/bingo-logo-opt.webp"
-                                    alt="Bingo"
-                                    height={24}
-                                    width={24}
-                                    className="h-6 w-auto"
-                                />
-                            </TabsTrigger> */}
+
+                            <ToggleButton
+                                collapsed={labelsCollapsed}
+                                onClick={toggleLabelsCollapsed}
+                            />
                         </TabsList>
                     )}
                 </Tabs>
@@ -303,7 +330,7 @@ export const ViewAppWrapper = () => {
                 <AnimatePresence mode="wait">
                     {appType === "chart" && (
                         <motion.div
-                            key={`chart`}
+                            key="chart"
                             initial={{ opacity: 0 }}
                             animate={{ opacity: 1 }}
                             exit={{ opacity: 0 }}
