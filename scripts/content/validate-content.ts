@@ -24,7 +24,10 @@ async function validateLocale(locale: string) {
         "apps/website/data/text.json",
     );
     // All chapters now in a single recaps folder with bilingual content
-    const CHAPTERS_DIR = path.resolve(process.cwd(), "apps/website/data/recaps");
+    const CHAPTERS_DIR = path.resolve(
+        process.cwd(),
+        "apps/website/data/recaps",
+    );
 
     // --- HELPERS ---
     async function getMarkdownFiles(dir: string): Promise<string[]> {
@@ -60,9 +63,7 @@ async function validateLocale(locale: string) {
 
             return textIds;
         } catch (error: any) {
-            console.warn(
-                `Warning: Could not load text data: ${error.message}`,
-            );
+            console.warn(`Warning: Could not load text data: ${error.message}`);
             return new Set();
         }
     }
@@ -88,7 +89,9 @@ async function validateLocale(locale: string) {
                     );
                     const json = JSON.parse(raw);
                     chapterRelationships[chapterNum] = new Set(
-                        Object.values(json.relationships).map((r: any) => r.name),
+                        Object.values(json.relationships).map(
+                            (r: any) => r.name,
+                        ),
                     );
                 } catch (error: any) {
                     console.warn(
@@ -348,6 +351,23 @@ async function validateLocale(locale: string) {
             }
         }
 
+        // --- #embed must always be on its own line, meaning the line can only contain the #embed tag and whitespace ---
+        const EMBED_LINE_RE = /\[([^\]]*)\]\(#embed:[^\s)]+\)/g;
+        let temp;
+        while ((temp = EMBED_LINE_RE.exec(content))) {
+            const full = temp[0]; // e.g. [First steps completed](#embed:https://...)
+            const lineStart = content.lastIndexOf("\n", temp.index) + 1;
+            const lineEndRaw = content.indexOf("\n", temp.index);
+            const lineEnd = lineEndRaw === -1 ? content.length : lineEndRaw;
+            const line = content.slice(lineStart, lineEnd);
+            if (line.trim() !== full) {
+                console.warn(
+                    `[${relPath}] #embed tag must be on its own line without other text: ${full}`,
+                );
+                hasErrors = true;
+            }
+        }
+
         // --- Edge/Node title check ---
         if (relPath.includes("edges") || relPath.includes("nodes")) {
             const firstLine = lines[0].trim();
@@ -482,10 +502,14 @@ async function validateLocale(locale: string) {
     }
 
     if (hasErrors) {
-        console.error(`❌ Validation completed with errors for locale: ${locale}`);
+        console.error(
+            `❌ Validation completed with errors for locale: ${locale}`,
+        );
         return true;
     } else {
-        console.log(`✅ All content references are valid for locale: ${locale}`);
+        console.log(
+            `✅ All content references are valid for locale: ${locale}`,
+        );
         return false;
     }
 }

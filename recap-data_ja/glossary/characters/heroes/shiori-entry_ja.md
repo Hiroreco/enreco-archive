@@ -116,7 +116,7 @@
 
 ## 注目の書物
 
-### 第2章
+**第2章**
 
 - ["Sea x Lovers"](#text:sea-x-lovers) を読む
 - ["Chicken"](#text:chicken) を読む
@@ -129,7 +129,7 @@
 - ["Tam x Tam"](#text:tam-x-tam) を読む
 - ["キアラ・ロア・スヌ"](#text:kiara-roa-snu) を読む
 
-### 第3章
+**第3章**
 
 - [ニャヴェラの日記](#text:nyavella-diary)を読む
 

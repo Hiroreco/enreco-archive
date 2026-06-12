@@ -25,7 +25,7 @@ A voice in the crowd commanded Mordan's attention. It was Bijou and her very own
 
 The patent that Ina soon showed seemed to be drawn on a napkin—something Mordan loudly mocked.
 
-_[“You look like a napkin!”](#embed:https://www.youtube.com/live/Ch4qLZhARtY?t=5648)_
+[“You look like a napkin!”](#embed:https://www.youtube.com/live/Ch4qLZhARtY?t=5648)
 
 In the end, Bae bought it for 2000 coins.
 

@@ -9,7 +9,7 @@
 
 だが、何が起きてもいいように警戒しておく必要があることだけは分かっていた。
 
-――[セールだって？](#embed:https://www.youtube.com/watch?v=FRubYpkandA&t=162s)
+[セールだって？](#embed:https://www.youtube.com/watch?v=FRubYpkandA&t=162s)
 
 英雄の一日はまだ始まったばかりだというのに、早くも努力の成果が現れていた。
 

@@ -100,8 +100,7 @@
 
 ["やあ、ペイザント"](#embed:https://youtu.be/t0aLqfBeqK0?t=9172)
 
-胸を高鳴らせながら、ベイは彼女へ挨拶を返す。
-（参照: [Bae-Cecilia](#embed:bae-cecilia)）
+胸を高鳴らせながら、ベイは彼女へ挨拶を返す。（参照: [Bae-Cecilia](#edge:bae-cecilia)）
 
 完全にデートとは言えない約束を交わした後、ベイはその場を後にする。
 その途中でシオリと少しだけ[記憶について](https://youtu.be/t0aLqfBeqK0?t=9367)語り合った。

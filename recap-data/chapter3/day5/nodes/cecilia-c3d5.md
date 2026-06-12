@@ -13,7 +13,7 @@ While continuing work on the castle, Immerkind stumbles across Sister Shiori and
 
 How could someone so kind possibly be evil?
 
-Conflicted beyond belief, Immerkind runs frantically through Libestal. "I am so conflicted!" the knight cries as she sprints through the city. Her eyes suddenly fall upon a small window high along the castle walls. Through sheer determination and questionable physics, she somehow discovers [a way out.](#embed:https://www.youtube.com/watch?v=IpNXgvS3QjM&t=3970)
+Conflicted beyond belief, Immerkind runs frantically through Libestal. "I am so conflicted!" the knight cries as she sprints through the city. Her eyes suddenly fall upon a small window high along the castle walls. Through sheer determination and questionable physics, she somehow discovers [a way out.](https://www.youtube.com/watch?v=IpNXgvS3QjM&t=3970)
 
 The voices in her head quickly [notify Roa](https://www.youtube.com/watch?v=IpNXgvS3QjM&t=4289) of this monumental discovery. Immerkind escorts Roa to the wall and proudly demonstrates the escape route. Then, in an act of pure kindness, she assists Roa by [pushing her directly off the wall](https://www.youtube.com/watch?v=IpNXgvS3QjM&t=4690).
 
