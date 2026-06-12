@@ -284,6 +284,49 @@
       "imageSrc": "/images-opt/libestal-ficta-entry-opt.webp"
     },
     {
+      "id": "terminus-entry",
+      "title": {
+        "en": "Prison at the End of Infinity",
+        "ja": "無限の果ての牢獄"
+      },
+      "chapters": [
+        2
+      ],
+      "quote": {
+        "en": "I don't think I like this place... Bau bau...",
+        "ja": "私、この場所あまり好きじゃないかも……バウバウ……"
+      },
+      "content": {
+        "en": "## Overview\n\nThe Prison at the End of Infinity, also known as **Terminus**, was a realm introduced in Chapter 3 where [Faust](#entry:outsider-entry) resided. It served as the setting for many of the chapter's major quests, as its countless prison cells provided access to important locations, including the labyrinths that held Advent's lost memories.\n\n## Details\n\n### Appearance\n\nTerminus was an immense and foreboding prison suspended beyond the boundaries of ordinary reality. At its center lay a vast, empty courtyard surrounded by towering walls of blackstone, while rows upon rows of prison cells stretched endlessly along its perimeter.\n\nThe atmosphere was cold, grim, and unsettling. Most of the prison was dimly lit, with many cells stood abandoned, though others were far from empty. Some had been uniquely [decorated](#entry:prison-design-entry) to reflect the identities of their occupants, while others housed mysterious individuals whose knowledge or actions were vital to advancing the story.\n\nDespite its oppressive appearance, Terminus acted as a hub for the chapter's progression. Through a dimensional rift located within the realm, heroes could freely travel between the prison and the Kingdom of Libestal.\n\n### Labyrinths\n\n\"Labyrinths\" were the dungeons of this chapter. Each one could only be accessed through a designated prison cell and was themed around a member—or members—of Advent. There were four in total:\n\n- [Labyrinth of Knowledge](#entry:labyrinth-of-knowledge-entry) – Unlocked on Day 2; accessible through Cell 0502; contained Shiori Novella's memories.\n- [Labyrinth of Emotion](#entry:labyrinth-of-emotion-entry) – Unlocked on Day 3; accessible through Cell 0414; contained Koseki Bijou's memories.\n- [Labyrinth of Song](#entry:labyrinth-of-knowledge-entry) – Unlocked on Day 4; accessible through Cell 1121; contained Nerissa Ravencroft's memories.\n- [Labyrinth of Duality](#entry:labyrinth-of-duality-entry) – Unlocked on Day 5; accessible through Cells 0201–0202; contained Fuwawa Abyssguard and Mococo Abyssguard's memories.",
+        "ja": "## 概要\n\n**無限の果ての牢獄**、またの名を**ターミナス**は、チャプター3で登場した領域であり、[ファウスト](#entry:outsider-entry)が居を構えていた場所である。\n\n無数の牢獄房を有するこの場所は、チャプターにおける数多くの主要クエストの舞台となった。\n\nそれらの牢獄房は、アドベントの失われた記憶が眠る迷宮をはじめとする重要な場所への入口として機能していた。\n\n## 詳細\n\n### 外観\n\nターミナスは、通常の現実の境界を越えた場所に存在する、巨大で不気味な監獄である。\n\nその中心には広大で何もない中庭が広がり、その周囲を黒石で造られた高い壁が取り囲んでいた。\n\nさらに外周には、果てしなく続く牢獄房の列が並んでいる。\n\n全体の雰囲気は冷たく、陰鬱で、不安を掻き立てるものだった。\n\n監獄の大部分は薄暗く照らされており、多くの牢獄房は無人のまま放置されていた。\n\nしかし、すべてが空というわけではない。\n\n中には住人の個性を反映して独自に[装飾された牢獄房](#entry:prison-design-entry)も存在し、また別の房には、物語を進めるうえで重要な知識や役割を持つ謎めいた人物たちが収容されていた。\n\nその圧迫感のある見た目とは裏腹に、ターミナスはチャプター進行の中心地として機能していた。\n\n領域内に存在する次元の裂け目を利用することで、英雄たちはターミナスとリベスタル王国の間を自由に行き来することができた。\n\n### 迷宮\n\n「迷宮」は、このチャプターにおけるダンジョンを指す。\n\n各迷宮へは指定された牢獄房を通してのみ入ることができ、それぞれアドベントの一人、あるいは複数人をテーマとしていた。\n\n全部で4つ存在する。\n\n- [知識の迷宮](#entry:labyrinth-of-knowledge-entry) ― 2日目に解放。0502号房から入場可能。シオリ・ノヴェラの記憶が収められている。\n- [感情の迷宮](#entry:labyrinth-of-emotion-entry) ― 3日目に解放。0414号房から入場可能。古石ビジューの記憶が収められている。\n- [歌の迷宮](#entry:labyrinth-of-song-entry) ― 4日目に解放。1121号房から入場可能。ネリッサ・レイヴンクロフトの記憶が収められている。\n- [二重性の迷宮](#entry:labyrinth-of-duality-entry) ― 5日目に解放。0201号房および0202号房から入場可能。フワワ・アビスガードとモココ・アビスガードの記憶が収められている。"
+      },
+      "thumbnailSrc": "/images-opt/terminus-entry-opt-thumb.webp",
+      "galleryImages": [
+        {
+          "title": {
+            "en": "Terminus Overview #1",
+            "ja": "ターミナス 全景 #1"
+          },
+          "source": "/images-opt/terminus-entry-0-opt.webp"
+        },
+        {
+          "title": {
+            "en": "Terminus Overview #2",
+            "ja": "ターミナス 全景 #2"
+          },
+          "source": "/images-opt/terminus-entry-1-opt.webp"
+        },
+        {
+          "title": {
+            "en": "Terminus Overview #3",
+            "ja": "ターミナス 全景 #3"
+          },
+          "source": "/images-opt/terminus-entry-2-opt.webp"
+        }
+      ],
+      "imageSrc": "/images-opt/terminus-entry-opt.webp"
+    },
+    {
       "id": "library-entry",
       "title": {
         "en": "The Library",
