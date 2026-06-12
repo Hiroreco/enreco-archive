@@ -17,7 +17,7 @@
 
 だからこそ、彼女は必死にすべての本を集めていたのでした。
 
-- [図書館の伝承アーカイブ朗読](#embed:https://youtu.be/C6kmnHsopgM)
+[図書館の伝承アーカイブ朗読](#embed:https://youtu.be/C6kmnHsopgM)
 
 ---
 

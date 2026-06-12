@@ -35,7 +35,7 @@ Being an awkward introvert at the party, Mordan and Nerissa shared a bond over f
 
 Not going to lie, the therapist secretly rooted for this to happen so that she could sell a house to the expecting family. Plus, it was an opportunity to try family counseling services again with the newly formed polycule.
 
-_[God Mordan told Ina to forget about the HPO.](#embed:https://www.youtube.com/live/WG748SwXQVo?t=15053)_
+[God Mordan told Ina to forget about the HPO.](#embed:https://www.youtube.com/live/WG748SwXQVo?t=15053)
 
 With that out of the way, it was time to get some rest before the big auction tomorrow.
 

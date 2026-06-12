@@ -37,7 +37,7 @@ Second, there were Bae's memories. [Who was Mother](https://youtu.be/L7rBGepFrXA
 
 But it wasn't just Bae who was troubled, since a distressed Bijou soon called for help; [Bijou's beloved, Shiori, and Gonathon were talking once again](https://youtu.be/L7rBGepFrXA?t=10880). Caught between trusting her wife and repeating her mistake, Bijou turned to Bae for advice. Despite the tensions earlier in the day, Bae still held Bijou as a friend. She told her to trust Shiori and that they could begin the custody battle/family therapy session with Mordan soon.
 
-[**_The dispute was... a Mess_**](#embed:https://youtu.be/L7rBGepFrXA?t=11850).
+[**_The dispute was... a Mess_**](#embed:https://youtu.be/L7rBGepFrXA?t=11850)
 
 It was one filled with drama, tears, and deceit that soap operas can only dream of having. Inspired by a suggestion from Mordan, [Bae bought another hat/child](https://youtu.be/L7rBGepFrXA?t=11383) and [renamed the real Khaos](https://youtu.be/L7rBGepFrXA?t=11464) to test Bijou. A ploy that [Bijou fell for](https://youtu.be/L7rBGepFrXA?t=12085), proving that Bae deserved primary custody. Not that anybody disagreed. But alas, the subject of home suitability came up, and, in an unexpected twist, Mordan's tavern seemed like the top choice for the children's home. A home that was accepted then dropped when everyone, except Gonathon, turned on Mordan after they mistakenly thought the chef insulted the group (it was only Shiori).
 
