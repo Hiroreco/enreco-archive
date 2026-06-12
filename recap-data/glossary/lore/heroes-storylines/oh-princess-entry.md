@@ -63,4 +63,4 @@ Will it continue? Only time will tell.
 
 ## Credits
 
-- Entry thumbnail by [eile_winters](https://x.com/eule_winters/status/1919969659094499795)
+- Entry thumbnail by [Eule_Winters](https://x.com/eule_winters/status/1919969659094499795)

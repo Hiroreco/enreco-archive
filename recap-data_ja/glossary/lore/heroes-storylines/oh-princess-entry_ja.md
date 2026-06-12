@@ -64,4 +64,4 @@
 
 ## クレジット
 
-- サムネイル提供: [eile_winters](https://x.com/eule_winters/status/1919969659094499795)
+- サムネイル提供: [Eule_Winters](https://x.com/eule_winters/status/1919969659094499795)
