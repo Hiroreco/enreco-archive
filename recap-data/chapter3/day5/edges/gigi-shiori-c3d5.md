@@ -2,22 +2,14 @@
 <!-- relationship: It's Complicated -->
 
 > Above the falls where the land breaks,
-
 > Under pink blossoms, two hearts ache.
-
 > The script was written,
-
->                          In Libestal.
-
+> In Libestal.
 >
-
 > Lonely the nights when the pearl dims,
-
 > A book given by a loved's whim.
-
 > Prized mem'ries that is
-
->                            Lost Libestal.
+> Lost Libestal.
 
 - "Unknown", in "The Knight in Orange," 2011.
 
