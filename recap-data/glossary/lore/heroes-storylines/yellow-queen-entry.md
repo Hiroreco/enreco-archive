@@ -15,15 +15,15 @@ Shiori began her journey as nothing more than a humble sister tending to a humbl
 
 ### How it started
 
-From the very first day of the journey, Shiori made it clear what role she wished to play. She would be a sister, and to support that role, she established her own place of worship: the Church of the Cloth.
+From the very first day of the journey, Shiori made it clear what role she wished to play. She [would be a sister,](https://www.youtube.com/live/vRVwJrdNzGk?t=16897) and to support that role, she established her own place of worship: the Church of the Cloth.
 
 At first, the church had a simple purpose. Shiori intended to listen to confessions, offer guidance, and perform the duties one might expect from a devoted sister. Things remained relatively ordinary until the discovery of Shakira's corpse.
 
-Without drawing attention to herself, Shiori secretly dug up and took possession of the body. Then, on Day 3, she displayed it within her church, ~~put a price tag on it~~, and invited the entire kingdom to attend what she called "a funeral for Shakira."
+Without drawing attention to herself, Shiori [secretly dug up](https://www.youtube.com/watch?t=9012&v=vRVwJrdNzGk) and took possession of the body. Then, on Day 3, she displayed it within her church, ~~put a price tag on it~~, and invited the entire kingdom to attend what she called "a funeral for Shakira."
 
 ### How it went
 
-Unfortunately for Shiori, the [funeral](https://www.youtube.com/live/PNrclGd76n4?t=8494) did not go as she had envisioned. Rather than becoming a heartfelt gathering that united the kingdom, the event quickly descended into chaos. The attendees failed to cooperate, conversations went off the rails, and the solemn atmosphere she had hoped to create never truly materialized.
+Unfortunately for Shiori, [the funeral](https://www.youtube.com/live/PNrclGd76n4?t=8494) did not go as she had envisioned. Rather than becoming a heartfelt gathering that united the kingdom, the event quickly descended into chaos. The attendees failed to cooperate, conversations went off the rails, and the solemn atmosphere she had hoped to create never truly materialized.
 
 > Shakira deserved better than a passing thought...
 
@@ -37,13 +37,13 @@ Neither goal was fully realized.
 
 Still, failure did not discourage her.
 
-The very next day, Shiori began work on a secret project beneath her church. Only Nerissa and Bijou were informed of its existence, and only they were allowed to assist. Hidden below the sanctuary, they constructed a [ritual chamber.](https://youtu.be/QB1ZSh0yKuc?t=12603)
+The very next day, Shiori began work on a secret project beneath her church. Only Nerissa and Bijou were informed of its existence, and only they were allowed to assist. Hidden below the sanctuary, they constructed [a ritual chamber.](https://youtu.be/QB1ZSh0yKuc?t=12603)
 
 The underground hall was filled with burning fires, dripping blood, and ominous decorations. It looked less like a place of worship and more like something pulled from a nightmare. At its center stood a mysterious portal—or, as Shiori described it, a gate that would welcome the end of their "world."
 
 In her own strange way, Shiori was once again trying to bring everyone together. The method, however, was considerably more alarming this time.
 
-One by one, unsuspecting adventurers were lured beneath the church and made participants in the ritual. Each ceremony followed a similar pattern, culminating in the "sacrifice" being instructed to suffocate themselves as part of the process.
+One by one, [unsuspecting adventurers were lured](https://www.youtube.com/live/w2BCfGaek4g?t=9170) beneath the church and made participants in the ritual. Each ceremony followed a similar pattern, culminating in the "sacrifice" being instructed to suffocate themselves as part of the process.
 
 Whether any of it truly worked remained unclear.
 
@@ -59,7 +59,7 @@ Realizing there would be no resolution, Shiori took precautions on the final day
 
 And so the church remained standing. Above ground sat a humble chapel.
 
-Below it rested [secrets](https://youtu.be/0erNTlRV7-c?t=1910) that would never be fully uncovered.
+Below it [rested secrets](https://youtu.be/0erNTlRV7-c?t=1910) that would never be fully uncovered.
 
 Left with lingering grief and mounting frustration, Shiori found herself unable to do much else besides write.
 
