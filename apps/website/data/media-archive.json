@@ -1082,6 +1082,53 @@
     ]
   },
   {
+    "id": "c3-animation",
+    "title": {
+      "en": "Theme and Animation - Chapter 3",
+      "ja": "テーマ＆アニメーション - 第3章"
+    },
+    "description": {
+      "en": "Official theme and animation made for Chapter 3",
+      "ja": "第3章のために制作された公式テーマソングとアニメーション"
+    },
+    "info": {
+      "en": "",
+      "ja": ""
+    },
+    "chapter": 3,
+    "thumbnailUrl": "/images-opt/c3-animation-freaky-opt.webp",
+    "entries": [
+      {
+        "title": {
+          "en": "Freaky Deaky Love - Chapter 3 Theme Song",
+          "ja": "Freaky Deaky Love - 第3章テーマソング"
+        },
+        "originalUrl": "https://www.youtube.com/watch?v=YBtaIGEkEOc",
+        "thumbnailUrl": "/images-opt/c3-animation-freaky-opt.webp",
+        "info": {
+          "en": "### Description\n\nReleased on May 24, 2026, _Freaky Deaky Love_ is the official theme song for the third chapter of ENigmatic Recollection. It is performed by Takanashi Kiara, Hakos Baelz, Koseki Bijou, and Raora Panthera.\n\nStepping away from the heavy, dark tone of Chapter 2's theme, this track blends an upbeat, danceable tech-house rhythm with jazzy brass melodies, creating a catchy yet deeply ironic tonal contrast. Lyrically, the song tackles the chapter's overarching themes of **betrayal, separation, and fractured relationships**—masking the bitter pain of \"broken bonds\" behind an energetic, deceptively playful facade.",
+          "ja": "### 説明\n\n2026年5月24日に公開された『Freaky Deaky Love』は、『ENigmatic Recollection』第3章の公式テーマソング。歌唱を担当するのは、小鳥遊キアラ、ハコス・ベールズ、古石ビジュー、ラオーラ・パンテラの4人です。\n\n第2章テーマソングの重く陰鬱な雰囲気から一転し、本楽曲はアップテンポで踊りやすいテックハウスのリズムにジャジーなブラスサウンドを融合。耳に残る軽快なサウンドでありながら、その裏では**裏切り、別離、そして壊れてしまった人間関係**という第3章全体を貫くテーマを描いています。エネルギッシュでどこか遊び心のある表現の奥に、「失われた絆」がもたらす苦しみや痛みを隠し持つ、皮肉に満ちたコントラストが特徴の楽曲です"
+        },
+        "src": "https://www.youtube.com/watch?v=YBtaIGEkEOc",
+        "type": "youtube"
+      },
+      {
+        "title": {
+          "en": "Chapter 3 - Loading Screen",
+          "ja": "第3章 - ローディング画面"
+        },
+        "originalUrl": "https://www.youtube.com/watch?v=ZSkPr-qXud0",
+        "thumbnailUrl": "/images-opt/c3-animation-shards-opt.webp",
+        "info": {
+          "en": "### Description\n\nThis loading screen was used by most of the talents as they prepared to begin each day of Chapter 3. It features a looping animation of shattered shards drifting downward against a red-and-black background, with each fragment reflecting the profile of a different member.\n\nThe background music is the instrumental version of **Freaky Deaky Love**, the official theme song of Chapter 3.",
+          "ja": "### 説明\n\nこのローディング画面は、第3章の各配信日を始める準備中に、多くのタレントたちが使用していたものです。赤と黒を基調とした背景の中で、砕け散ったガラスの破片がゆっくりと舞い落ちるループアニメーションとなっており、それぞれの欠片には異なるメンバーの横顔が映し出されています。\n\nBGMには、第3章の公式テーマソングである**『フリーキー・ディーキー・ラブ』**のインストゥルメンタル版が使用されています。"
+        },
+        "src": "https://cdn.enreco-archive.net/c3-animation-shards-opt.mp4",
+        "type": "video"
+      }
+    ]
+  },
+  {
     "id": "c3-merch",
     "title": {
       "en": "Official Merchandise - 2026",
