@@ -27,8 +27,6 @@ Proclaiming she was simply Tam now, the former queen left Immerkind to profusely
 
 ["Oh..." by werocosmiko](https://x.com/werocosmiko/status/2058800535583522856)
 
-["Take it off, my Queen" by kenjikokun](https://x.com/kenjikokun/status/2058892291201441835)
-
 ["my name is Tam! who are you?" by dasdokter](https://x.com/dasdokter/status/2058789765709975701)
 
 ["photorealistic depiction of rolling to take the hat" by leisurepass](https://x.com/leisurepass/status/2058779256814010493)

@@ -207,18 +207,7 @@ async function run() {
         }
 
         // TODO: remove this
-        const blacklist = [
-            "https://x.com/gaby_joestar/status/2059100327647801566",
-            "https://x.com/kenjikokun/status/2058892291201441835",
-            "https://x.com/Legz0s/status/2058813041404457219",
-            "https://x.com/rikuje/status/2059591111849758865",
-            "https://x.com/seapupu290495/status/2059279544922911168",
-            "https://x.com/werocosmiko/status/2058800535583522856",
-            "https://x.com/kurxkur/status/2059745113660699001",
-            "https://x.com/vvtoll/status/2059823321966116895",
-            "https://x.com/koizumi_arata/status/2059890256988488105",
-            "https://x.com/yerbmeow/status/2059706394303996057",
-        ];
+        const blacklist: string[] = [];
         if (blacklist.includes(entry.url)) {
             console.log(`↻ Skipping ${entry.url} (blacklisted)`);
             continue;
