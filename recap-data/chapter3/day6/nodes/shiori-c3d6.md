@@ -113,3 +113,13 @@ It was perhaps tragic that Gonathon G would never know how Nyavella had truly tr
 Her regrets and pain.
 
 And her love.
+
+## Fanart
+
+["be good" by elisbian\_](https://x.com/elisbian_/status/2063900624891310290)
+
+<!-- gigi -->
+
+["had to draw her.... 🤍🖤" by hanillust\_](https://x.com/hanillust_/status/2061762107071189171)
+
+["nyavella x the archiver doodle page" by krabsticksart](https://x.com/krabsticksart/status/2064893548840079782)

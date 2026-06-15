@@ -223,3 +223,13 @@ _「あーもう、いいや。出てきて、ニャヴェラ。」_
 苦しみも。
 
 そして――愛も。
+
+## ファンアート
+
+["be good" by elisbian\_](https://x.com/elisbian_/status/2063900624891310290)
+
+<!-- gigi -->
+
+["had to draw her.... 🤍🖤" by hanillust\_](https://x.com/hanillust_/status/2061762107071189171)
+
+["nyavella x the archiver doodle page" by krabsticksart](https://x.com/krabsticksart/status/2064893548840079782)

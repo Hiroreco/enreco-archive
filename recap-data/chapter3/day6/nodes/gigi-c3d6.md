@@ -34,3 +34,7 @@ Arriving in the Copied City, the adventurers were given a startling revelation: 
 Upon being given the choice to reset the world for a new one, Gonathon knew his answer without a second thought. He would NEVER give up on his world and the cherished friends he had made. Reunited with his companions in a white void, Gonathon shared [one last conversation](https://www.youtube.com/watch?v=0erNTlRV7-c&t=9512s) with those dear to him. As the curtain fell and Lady Bloodflame engaged in the ancient rite of ["ERP"](https://youtu.be/0erNTlRV7-c?t=9962) with him, one thing remained clear.
 
 No matter what trials and tribulations the future held in store, the Humble Knight of Justice would never back down!
+
+## Fanart
+
+["Let nature heal you 💚🧡" by ediialex](https://x.com/ediialex/status/2063096154938577080)

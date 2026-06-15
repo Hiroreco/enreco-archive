@@ -14,3 +14,7 @@ Roa also informed Bijou that Nerissa had joined the Illumination, and the three 
 [The Betrayal](#embed:https://youtu.be/rFmdOarYXuE?t=12825)
 
 Bijou reveals herself before Roa as she is about to be sacrificed to the Outer Gods, taunting her about how she had been working with her wife's killer. Awakening following the sacrifice, Roa finds [her memories fading, unsure if Bijou is a friend...](https://www.youtube.com/watch?v=rFmdOarYXuE&t=12970)
+
+## Fanart
+
+["betrayal" by dinas81800](https://x.com/dinas81800/status/2064710659250831625)

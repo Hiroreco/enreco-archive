@@ -46,3 +46,13 @@ When presented with the option to destroy everything they had known, to restart 
 ["No."](#embed:https://www.youtube.com/watch?v=6HUbJshXMAI&t=9236)
 
 It seemed like all of their efforts were foiled again. They would have to fight another exhausting fight to try to stop this Outsider. Hopefully, the next time would be the last.
+
+## Fanart
+
+["When the Flamed knight burns away… 💄" by paw_chie](https://x.com/paw_chie/status/2064050368494113003)
+
+["Practice✍️" by unknown](https://fxtwitter.com/j1nnu/status/2064485607272005768)
+
+<!-- cecilia -->
+
+["Some of my fav moments from Lady Bloodflame's POV" by lyriasshin](https://x.com/lyriasshin/status/2065805909448638615)

@@ -37,6 +37,14 @@ It was a challenge, and after many sleepless nights and _forty_ whole minutes of
 
 ## Fanart
 
+["the treasurer of the student council" by jhgardener\_](https://x.com/jhgardener_/status/2065798997676281894)
+
+<!-- cecilia, calli, liz, gigi, ina -->
+
+["Colors✨" by kei_myon](https://x.com/kei_myon/status/2066198093612392552)
+
+<!-- kiara, liz, gigi, ina, cecilia -->
+
 ["Chilling, fishing, ENreco back!" by arciarcy](https://x.com/arciarcy/status/2058998196836422078)
 
 ["the River Prince is what?" by fluumf](https://x.com/fluumf/status/2058858304902980051)

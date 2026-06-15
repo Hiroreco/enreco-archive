@@ -58,3 +58,11 @@ And with that revelation, a new Curse emerged.
 Immerkind gasped as the entity's overwhelming power washed across Nullspace itself, sending ripples through reality. Realizing there was no time left, Fia used the last of her strength to teleport the group back to the safety of the library.
 
 To be continued.
+
+## Fanart
+
+["knight academy Immerkind" by vanssey\_](https://x.com/vanssey_/status/2063324689124974750)
+
+["Immerkind’s dream" by suitabledeer](https://x.com/suitabledeer/status/2064927635801563318)
+
+<!-- gigi, iphania -->

@@ -25,4 +25,6 @@
 
 ## ファンアート
 
+["Gonathon and Nyvella" by yppah1060](https://x.com/yppah1060/status/2065911460220506594)
+
 ["Gonathon knows the secret..." by spaceace_king](https://x.com/spaceace_king/status/2058783609037959576)

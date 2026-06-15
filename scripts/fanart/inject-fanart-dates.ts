@@ -1,11 +1,11 @@
 import fs from "fs/promises";
 import path from "path";
-import puppeteer from "puppeteer";
 
 const FANART_JSON = path.resolve(
     process.cwd(),
     "apps/website/data/fanart.json",
 );
+const FAILED_DATES_MD = path.resolve(process.cwd(), "failed_dates.md");
 
 interface FanartEntry {
     url: string;
@@ -22,59 +22,94 @@ interface FanartEntry {
     }>;
     videos: Array<{ src: string; type: "video" }>;
     type: "art" | "meme";
-    postDate?: string; // ISO date string
+    postDate?: string;
 }
 
-async function getPostDate(url: string, page: any): Promise<string | null> {
+interface FailedEntry {
+    url: string;
+    reason: string;
+}
+
+// Twitter Snowflake epoch: Nov 4, 2010 01:42:54.657 UTC
+const TWITTER_EPOCH = 1288834974657n;
+
+// Extract tweet status ID from an x.com or twitter.com URL
+function extractStatusId(url: string): string | null {
+    const match = url.match(/status\/(\d+)/);
+    return match ? match[1] : null;
+}
+
+// Derive ISO date directly from the Snowflake ID — no network needed.
+// Works for all tweets posted after Nov 2010 (when Snowflake IDs were introduced).
+function snowflakeToDate(statusId: string): string {
+    const id = BigInt(statusId);
+    const timestampMs = (id >> 22n) + TWITTER_EPOCH;
+    return new Date(Number(timestampMs)).toISOString();
+}
+
+// Fallback: fetch date from the free FxTwitter API (no login required).
+// Used only when the status ID can't be extracted from the URL.
+async function fetchDateFromFxTwitter(url: string): Promise<string | null> {
+    const match = url.match(/(?:x\.com|twitter\.com)\/([^/]+)\/status\/(\d+)/);
+    if (!match) return null;
+
+    const [, username, statusId] = match;
+    const apiUrl = `https://api.fxtwitter.com/${username}/status/${statusId}`;
+
     try {
-        console.log(`→ Fetching date for ${url}`);
-
-        await page.goto(url, {
-            waitUntil: "networkidle2",
-            timeout: 30000,
+        const res = await fetch(apiUrl, {
+            headers: { "User-Agent": "fanart-date-fetcher/1.0" },
         });
-
-        // Wait for the time element to be present
-        await page.waitForSelector("time[datetime]", { timeout: 10000 });
-
-        // Extract the datetime attribute from the time element
-        const datetime = await page.evaluate(() => {
-            const timeElement = document.querySelector("time[datetime]");
-            return timeElement ? timeElement.getAttribute("datetime") : null;
-        });
-
-        if (datetime) {
-            console.log(`  ✅ Found date: ${datetime}`);
-            return datetime;
-        } else {
-            console.warn(`  ⚠ No datetime found for ${url}`);
-            return null;
-        }
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        const data = await res.json();
+        const ts = data?.tweet?.created_timestamp;
+        if (!ts) throw new Error("No created_timestamp in response");
+        return new Date(ts * 1000).toISOString();
     } catch (err: any) {
-        console.warn(`  ✖ Failed to get date for ${url}: ${err.message}`);
-        return null;
+        throw new Error(`FxTwitter API failed: ${err.message}`);
     }
 }
 
+async function getPostDate(url: string): Promise<string> {
+    const statusId = extractStatusId(url);
+
+    if (statusId) {
+        // Fast path: decode directly from the Snowflake ID, no network needed
+        return snowflakeToDate(statusId);
+    }
+
+    // Slow path: status ID not in URL (shouldn't normally happen), hit the API
+    console.log(
+        `  ⚠ No status ID in URL, falling back to FxTwitter API: ${url}`,
+    );
+    const date = await fetchDateFromFxTwitter(url);
+    if (!date) throw new Error("Could not extract date via any method");
+    return date;
+}
+
+async function writeFailedDates(failed: FailedEntry[]): Promise<void> {
+    if (failed.length === 0) return;
+    const timestamp = new Date().toISOString();
+    const lines = [
+        `# Failed Date Lookups`,
+        ``,
+        `Generated: ${timestamp}`,
+        ``,
+        ...failed.map((f) => `- ${f.url}\n  - Reason: ${f.reason}`),
+        ``,
+    ];
+    await fs.writeFile(FAILED_DATES_MD, lines.join("\n"), "utf-8");
+    console.log(
+        `\n⚠ Wrote ${failed.length} failed entry(ies) to failed_dates.md`,
+    );
+}
+
 async function main() {
-    // Load existing fanart data
     const fanartEntries: FanartEntry[] = JSON.parse(
         await fs.readFile(FANART_JSON, "utf-8"),
     );
 
     console.log(`📊 Processing ${fanartEntries.length} fanart entries...`);
-
-    const browser = await puppeteer.launch({
-        headless: true,
-        args: ["--no-sandbox", "--disable-setuid-sandbox"],
-    });
-    const page = await browser.newPage();
-
-    await page.setUserAgent(
-        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) " +
-            "AppleWebKit/537.36 (KHTML, like Gecko) " +
-            "Chrome/120.0.0.0 Safari/537.36",
-    );
 
     const blacklist = [
         "https://x.com/yppah1060/status/1830867181598580907",
@@ -89,49 +124,48 @@ async function main() {
 
     let processedCount = 0;
     let skippedCount = 0;
+    const failedEntries: FailedEntry[] = [];
 
     for (const entry of fanartEntries) {
-        // Skip if already has postDate
         if (entry.postDate) {
-            console.log(
-                `↻ Skipping ${entry.url} (already has date: ${entry.postDate})`,
-            );
             skippedCount++;
             continue;
         }
 
-        // Skip blacklisted URLs
         if (blacklist.includes(entry.url)) {
-            console.log(`⚠ Skipping blacklisted URL: ${entry.url}`);
             skippedCount++;
             continue;
         }
 
-        const postDate = await getPostDate(entry.url, page);
-
-        if (postDate) {
+        try {
+            const postDate = await getPostDate(entry.url);
             entry.postDate = postDate;
             processedCount++;
+            console.log(`  ✅ ${entry.url} → ${postDate}`);
+        } catch (err: any) {
+            console.warn(`  ✖ Failed ${entry.url}: ${err.message}`);
+            failedEntries.push({ url: entry.url, reason: err.message });
         }
-
-        // Throttle requests to avoid rate limiting
-        await new Promise((resolve) => setTimeout(resolve, 2000));
     }
 
-    await browser.close();
-
-    // Sort by postDate (newest first, then by existing sorting for entries without dates)
-
-    // Write back to fanart.json
     await fs.writeFile(
         FANART_JSON,
         JSON.stringify(fanartEntries, null, 2),
         "utf-8",
     );
 
-    console.log(`✅ Updated ${processedCount} entries with dates`);
-    console.log(`↻ Skipped ${skippedCount} entries (already had dates)`);
-    console.log(`📊 Sorted ${fanartEntries.length} total entries by date`);
+    await writeFailedDates(failedEntries);
+
+    console.log(`\n✅ Updated ${processedCount} entries with dates`);
+    console.log(
+        `↻ Skipped ${skippedCount} entries (already had dates or blacklisted)`,
+    );
+    if (failedEntries.length > 0) {
+        console.log(
+            `✖ Failed ${failedEntries.length} entries (see failed_dates.md)`,
+        );
+    }
+    console.log(`📊 Total entries: ${fanartEntries.length}`);
     console.log(`💾 Updated ${FANART_JSON}`);
 }
 

@@ -104,3 +104,11 @@
 そう悟ったフィアは、残された最後の力を振り絞り、一行を安全な図書館へと転送した。
 
 ――つづく。
+
+## ファンアート
+
+["knight academy Immerkind" by vanssey\_](https://x.com/vanssey_/status/2063324689124974750)
+
+["Immerkind’s dream" by suitabledeer](https://x.com/suitabledeer/status/2064927635801563318)
+
+<!-- gigi, iphania -->

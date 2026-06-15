@@ -36,3 +36,9 @@
 こうして、ふわふわの少女による三度目の旅は[幕を閉じた。](https://www.youtube.com/watch?v=mIsHnxTVoFM&t=11522s)
 
 そして彼女は、次に待ち受ける新たな冒険の日を楽しみに待つのだった。
+
+## ファンアート
+
+["ENreco moments" by daqqie0_0](https://x.com/daqqie0_0/status/2064487694122856468)
+
+<!-- mococo -->

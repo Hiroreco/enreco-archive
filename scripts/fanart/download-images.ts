@@ -32,6 +32,18 @@ const VIDEO_OUT_DIR = path.resolve(
     "new-videos",
 );
 const EXTENSIONS = ["jpg", "png", "webp", "gif"];
+const DOWNLOADED_VIDEOS_MD = path.resolve(
+    process.cwd(),
+    "scripts",
+    "fanart",
+    "downloaded_videos.md",
+);
+const FAILED_DOWNLOADS_MD = path.resolve(
+    process.cwd(),
+    "scripts",
+    "fanart",
+    "failed_downloads.md",
+);
 
 interface LinkEntry {
     url: string;
@@ -40,6 +52,46 @@ interface LinkEntry {
     chapter: string;
     day: string;
     character: string;
+}
+
+async function loadDownloadedVideos(): Promise<Set<string>> {
+    try {
+        const content = await fs.readFile(DOWNLOADED_VIDEOS_MD, "utf-8");
+        const urls = content
+            .split("\n")
+            .map((line) => line.replace(/^-\s*/, "").trim())
+            .filter((line) => line.startsWith("http"));
+        return new Set(urls);
+    } catch {
+        return new Set();
+    }
+}
+
+async function markVideoDownloaded(url: string): Promise<void> {
+    const line = `- ${url}\n`;
+    await fs.appendFile(DOWNLOADED_VIDEOS_MD, line, "utf-8");
+}
+
+interface FailedEntry {
+    url: string;
+    reason: string;
+}
+
+async function writeFailedDownloads(failed: FailedEntry[]): Promise<void> {
+    if (failed.length === 0) return;
+    const timestamp = new Date().toISOString();
+    const lines = [
+        `# Failed Downloads`,
+        ``,
+        `Generated: ${timestamp}`,
+        ``,
+        ...failed.map((f) => `- ${f.url}\n  - Reason: ${f.reason}`),
+        ``,
+    ];
+    await fs.writeFile(FAILED_DOWNLOADS_MD, lines.join("\n"), "utf-8");
+    console.log(
+        `\n⚠ Wrote ${failed.length} failed download(s) to failed_downloads.md`,
+    );
 }
 
 async function downloadBuffer(url: string): Promise<Buffer> {
@@ -53,7 +105,6 @@ async function downloadVideoWithYtDlp(
     outputPath: string,
 ): Promise<void> {
     try {
-        // Check if yt-dlp is installed
         await execAsync("yt-dlp --version");
     } catch (error) {
         throw new Error(
@@ -76,6 +127,9 @@ async function run() {
     await fs.mkdir(OUT_DIR, { recursive: true });
     await fs.mkdir(VIDEO_CHECK_DIR, { recursive: true });
 
+    const downloadedVideos = await loadDownloadedVideos();
+    const failedDownloads: FailedEntry[] = [];
+
     const browser = await puppeteer.launch({ headless: true });
     const page = await browser.newPage();
     await page.setUserAgent(
@@ -85,48 +139,44 @@ async function run() {
     );
 
     for (const entry of data) {
-        // derive base name from author + postId
         const postIdMatch = entry.url.match(/status\/(\d+)/);
         const postId = postIdMatch ? postIdMatch[1] : "unknown";
         const baseName = `${entry.author}-${postId}`;
 
-        // PRE-CHECK: skip if already downloaded (including videos)
+        // PRE-CHECK: skip if already downloaded
         const videoExtensions = ["mp4", "webm", "mov"];
-        const allExtensions = [...EXTENSIONS, ...videoExtensions];
-        const already = allExtensions.some((ext) => {
-            const noIdx = path.join(OUT_DIR, `${baseName}.${ext}`);
-            const idx0 = path.join(OUT_DIR, `${baseName}-0.${ext}`);
-            const noIdxOpt = path.join(OUT_DIR, `${baseName}-opt.${ext}`);
-            const idx0Opt = path.join(OUT_DIR, `${baseName}-0-opt.${ext}`);
-            // Also check video directory
-            const videoNoIdx = path.join(VIDEO_CHECK_DIR, `${baseName}.${ext}`);
-            const videoIdx0 = path.join(
-                VIDEO_CHECK_DIR,
-                `${baseName}-0.${ext}`,
-            );
-            const videoNoIdxOpt = path.join(
-                VIDEO_CHECK_DIR,
-                `${baseName}-opt.${ext}`,
-            );
-            const videoIdx0Opt = path.join(
-                VIDEO_CHECK_DIR,
-                `${baseName}-0-opt.${ext}`,
-            );
-            return (
-                existsSync(noIdx) ||
-                existsSync(idx0) ||
-                existsSync(noIdxOpt) ||
-                existsSync(idx0Opt) ||
-                existsSync(videoNoIdx) ||
-                existsSync(videoIdx0) ||
-                existsSync(videoNoIdxOpt) ||
-                existsSync(videoIdx0Opt)
-            );
-        });
+        const already =
+            EXTENSIONS.some((ext) => {
+                const noIdx = path.join(OUT_DIR, `${baseName}.${ext}`);
+                const idx0 = path.join(OUT_DIR, `${baseName}-0.${ext}`);
+                const noIdxOpt = path.join(OUT_DIR, `${baseName}-opt.${ext}`);
+                const idx0Opt = path.join(OUT_DIR, `${baseName}-0-opt.${ext}`);
+                return (
+                    existsSync(noIdx) ||
+                    existsSync(idx0) ||
+                    existsSync(noIdxOpt) ||
+                    existsSync(idx0Opt)
+                );
+            }) ||
+            videoExtensions.some((ext) => {
+                const noIdx = path.join(OUT_DIR, `${baseName}.${ext}`);
+                const idx0 = path.join(OUT_DIR, `${baseName}-0.${ext}`);
+                const noIdxOpt = path.join(OUT_DIR, `${baseName}-opt.${ext}`);
+                const idx0Opt = path.join(OUT_DIR, `${baseName}-0-opt.${ext}`);
+                return (
+                    existsSync(noIdx) ||
+                    existsSync(idx0) ||
+                    existsSync(noIdxOpt) ||
+                    existsSync(idx0Opt)
+                );
+            }) ||
+            downloadedVideos.has(entry.url);
+
         if (already) {
-            // console.lzog(`↻ Skipping ${baseName} (already downloaded)`);
+            // console.log(`↻ Skipping ${baseName} (already downloaded)`);
             continue;
         }
+
         // TODO: remove this
         const blacklist = [
             "https://x.com/gaby_joestar/status/2059100327647801566",
@@ -147,7 +197,6 @@ async function run() {
 
         console.log(`→ Visiting ${entry.url}`);
 
-        // Set up request interception to capture image URLs only
         const imageUrls: string[] = [];
 
         await page.setRequestInterception(true);
@@ -155,7 +204,6 @@ async function run() {
         page.on("request", (request) => {
             const url = request.url();
 
-            // Capture high-quality image requests
             if (
                 url.includes("pbs.twimg.com/media") &&
                 /\.(jpg|png|gif|webp)/i.test(url)
@@ -174,7 +222,6 @@ async function run() {
                 timeout: 60000,
             });
 
-            // Wait for either images or videos
             await Promise.race([
                 page.waitForSelector('article img[src*="twimg.com/media"]', {
                     timeout: 10000,
@@ -182,14 +229,10 @@ async function run() {
                 page.waitForSelector("article video", {
                     timeout: 10000,
                 }),
-            ]).catch(() => {
-                // If neither selector is found, continue anyway
-            });
+            ]).catch(() => {});
 
-            // Wait a bit more to ensure all media requests are captured
             await new Promise((resolve) => setTimeout(resolve, 3000));
 
-            // Also get images from the DOM as fallback
             const domImages = await page.evaluate(() => {
                 const imgs = document.querySelectorAll(
                     'article img[src*="twimg.com/media"]',
@@ -199,13 +242,11 @@ async function run() {
                 );
             });
 
-            // Check for videos in the DOM
             const hasVideo = await page.evaluate(() => {
                 const videos = document.querySelectorAll("article video");
                 return videos.length > 0;
             });
 
-            // Combine and deduplicate image URLs
             const allImageUrls = [...new Set([...imageUrls, ...domImages])];
 
             console.log(
@@ -214,11 +255,9 @@ async function run() {
 
             let mediaIndex = 0;
 
-            // Download images
             for (const rawUrl of allImageUrls) {
                 let imageUrl = rawUrl;
 
-                // Force high-res for images
                 if (imageUrl.includes("name=")) {
                     imageUrl = imageUrl.replace(/name=[^&]*/, "name=orig");
                 } else {
@@ -251,18 +290,23 @@ async function run() {
                     console.warn(
                         `  ✖ Failed to download image: ${err.message}`,
                     );
+                    failedDownloads.push({
+                        url: entry.url,
+                        reason: `Image download failed (${fileName}): ${err.message}`,
+                    });
                 }
 
                 mediaIndex++;
             }
 
-            // Download video using yt-dlp if video is present
             if (hasVideo && !SKIP_VIDEOS) {
                 const videoFileName = `${baseName}-${mediaIndex}.mp4`;
                 const videoOutPath = path.join(VIDEO_OUT_DIR, videoFileName);
 
-                if (existsSync(videoOutPath)) {
-                    console.log(`  ↻ Skipping existing ${videoFileName}`);
+                if (downloadedVideos.has(entry.url)) {
+                    console.log(
+                        `  ↻ Skipping already-logged video for ${entry.url}`,
+                    );
                 } else {
                     console.log(
                         `  ↳ Downloading video with yt-dlp: ${entry.url}`,
@@ -270,7 +314,6 @@ async function run() {
                     try {
                         await downloadVideoWithYtDlp(entry.url, videoOutPath);
 
-                        // Find the downloaded file (yt-dlp might change the extension)
                         const files = await fs.readdir(VIDEO_OUT_DIR);
                         const downloadedFile = files.find((f) =>
                             f.startsWith(`${baseName}-${mediaIndex}.`),
@@ -278,6 +321,8 @@ async function run() {
 
                         if (downloadedFile) {
                             console.log(`  ✅ Saved ${downloadedFile}`);
+                            await markVideoDownloaded(entry.url);
+                            downloadedVideos.add(entry.url);
                         } else {
                             console.warn(
                                 `  ⚠ Video downloaded but file not found`,
@@ -297,12 +342,10 @@ async function run() {
         } catch (err: any) {
             console.warn(`  ✖ Failed ${entry.url}: ${err.message}`);
         } finally {
-            // Clean up request interception
             await page.setRequestInterception(false);
             page.removeAllListeners("request");
         }
 
-        // throttle 2s
         await new Promise((r) => setTimeout(r, 2000));
     }
 

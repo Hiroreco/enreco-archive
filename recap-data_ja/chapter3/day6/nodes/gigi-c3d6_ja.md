@@ -154,3 +154,7 @@
 謙虚なる正義の騎士ゴナソンは、
 
 決して退くことはない。
+
+## ファンアート
+
+["Let nature heal you 💚🧡" by ediialex](https://x.com/ediialex/status/2063096154938577080)

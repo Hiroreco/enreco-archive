@@ -107,6 +107,6 @@ _インクウェル教会。_
 
 <!-- gigi, calli -->
 
-["Like a dog" by i](https://x.com/noirstein/status/2059159977097625646)
+["Like a dog" by noirstein](https://x.com/noirstein/status/2059159977097625646)
 
 <!-- liz -->

@@ -175,3 +175,9 @@
 
 > 口づけて、ひげ麦の畑を抜けて
 > 毎夜、青々とした草原のそばで──
+
+## ファンアート
+
+["【The Distraction】" by kirbyotaku](https://x.com/kirbyotaku/status/2063393826446983218)
+
+<!-- cecilia, gigi -->

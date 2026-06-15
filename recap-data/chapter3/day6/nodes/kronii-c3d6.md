@@ -26,3 +26,9 @@ And so, this chapter came to a close (see [Faust](#node:faust)).
 As for Tam, who knows what adventures await the Azure Queen in the next journey? For now, this one leaves behind plenty of memories—and perhaps none more fitting than her arriving just in time for the finale.
 
 [LOOK AT ME TAMDAAA!](#embed:https://www.youtube.com/watch?v=b0h8kilUBQk&t=4851)
+
+## Fanart
+
+["s3 knights (and queen)" by leisurecass](https://x.com/leisurecass/status/2063813238198800559)
+
+<!-- gigi, cecilia, ina -->
