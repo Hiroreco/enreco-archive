@@ -226,6 +226,12 @@ _「あーもう、いいや。出てきて、ニャヴェラ。」_
 
 ## ファンアート
 
+["a little ragebait won't kill anyone... right?" by rracuna](https://x.com/rracuna/status/2060672075841335678)
+
+["Queen in yellow" by kurochanai](https://x.com/kurochanai/status/2060723450235527541)
+
+["She still gave it her all, despite everything." by yeyas_ink](https://x.com/yeyas_ink/status/2061123903939047514)
+
 ["What lies in the church?" by detectivefalyn](https://x.com/detectivefalyn/status/2061851858671431733)
 
 <!-- gigi, calli, bijou, raora, cecilia, nerissa -->

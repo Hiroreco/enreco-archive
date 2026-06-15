@@ -36,3 +36,6 @@ Following the rite, the group of heroes heads off to enter Nullspace and try to 
 Reaching the Heart of Nullspace, the group runs into Faust, who, somewhat obviously, turns out to be the Outsider! (See: [Faust](#node:faust)) When the Outsider asks Bijou to lend him her power to use the Egg of Creation, [Bijou agrees](https://www.youtube.com/watch?v=-v3wKaDqyI4&t=12470). After all, "may the lands burn."
 
 Once reunited with the others in the white room once more, Bijou [meets with Shiori](https://www.youtube.com/watch?v=-v3wKaDqyI4&t=12910) one last time to discuss the curse. It seems it was bold of the others to assume that the curse was the cause of their actions, and it was not of their own volition...
+
+## Fanart
+["little villain" by dinas81800](https://x.com/dinas81800/status/2060749113491415174)

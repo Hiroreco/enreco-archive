@@ -75,6 +75,8 @@ _いや、これは今はまだチェストの中にしまっておこう。_
 
 ## ファンアート
 
+["💄"stealing is wrong so...,"" by bulusekai](https://x.com/bulusekai/status/2061192041938452925)
+
 ["The Devil Laughed" by kizuru09](https://x.com/kizuru09/status/2059417591895167198)
 
 ["defintely not brainwashed" by arionwatches](https://x.com/arionwatches/status/2059149876219543732)

@@ -29,6 +29,10 @@
 
 ## ファンアート
 
+["Brotherhood" by yuutomeh97](https://x.com/yuutomeh97/status/2060753684892631372)
+
+<!-- gigi -->
+
 ["grrrrr" by yuutomeh97](https://x.com/yuutomeh97/status/2062096900892074078)
 
 <!-- gigi -->

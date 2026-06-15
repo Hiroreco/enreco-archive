@@ -42,3 +42,8 @@ Her soul? V̵̲̔͛͘͝͠I̴̻̟͇̺̹̾͂̾͋͝V̶̙̹̘̪̀̽̈́̍͠Ầ̵̼̰
 Desperately clutching onto her beloved's relics, she vented a jagged, abyssal scream into the night.
 
 Her voice breaking against the silence of a world that had [betrayed her](https://www.youtube.com/watch?v=rFmdOarYXuE&t=13045).
+
+## Fanart
+["Bad Memories." by lowbitstudio](https://x.com/lowbitstudio/status/2060589033366151285)
+
+["“You are… the Chosen One”" by haruisarting](https://x.com/haruisarting/status/2060752451419160982)

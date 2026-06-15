@@ -95,4 +95,10 @@ As if declaring her love for the last time before this world came to an end, she
 [What is ERP?](#embed:https://youtu.be/hjskrraiXp4?t=10258)
 
 ## Fanart
+["One yuri with tragic ending and a side of potato salad for me please" by np_mango](https://x.com/np_mango/status/2060603442087723384)
+
+["get behind me, pwincess!!!" by legz0s](https://x.com/legz0s/status/2060664146870534329)
+
+["I needed to draw Lady Bloodflame's full transformation" by hanaswing](https://x.com/hanaswing/status/2061287583280165347)
+
 ["“Our Fate…” V1 💄🎼" by paw_chie](https://x.com/paw_chie/status/2062937057589440712)

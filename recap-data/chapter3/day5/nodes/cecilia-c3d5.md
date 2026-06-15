@@ -61,6 +61,10 @@ There, Immerkind speaks quietly with Juliet one last time.
 
 ## Fanart
 
+["time to build more castles!!✨" by jhgardener_](https://x.com/jhgardener_/status/2060375394378006988)
+
+<!-- kronii -->
+
 ["Hello Fia." by jtnintendofan64](https://x.com/jtnintendofan64/status/2059975726158471499)
 
 ["Knight Immerkind" by squaredriceball](https://x.com/squaredriceball/status/2059991143493124587)

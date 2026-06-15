@@ -54,6 +54,10 @@ _団結_
 
 ## ファンアート
 
+["Selling chicken : D" by bunbbun1](https://x.com/bunbbun1/status/2061213107641634959)
+
+<!-- shiori, kiara, bae, calli, gigi, liz, bijou -->
+
 ["Sacrifice" by keenbiscuit](https://x.com/keenbiscuit/status/2060358342921613402)
 
 <!-- shiori, bijou, raora, nerissa, kiara -->

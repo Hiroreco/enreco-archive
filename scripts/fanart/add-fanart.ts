@@ -180,6 +180,24 @@ async function findRecapFile(
         // edges directory doesn't exist either
     }
 
+    // Try recaps directory
+    const recaps = path.resolve(
+        process.cwd(),
+        "recap-data",
+        `chapter${chapter}`,
+        `day${day}`,
+        "recaps",
+    );
+    try {
+        const files = await fs.readdir(recaps);
+        const found = files.find((f) => f === exactFilename);
+        if (found) {
+            return path.join(recaps, found);
+        }
+    } catch {
+        // recaps directory doesn't exist either
+    }
+
     return null;
 }
 

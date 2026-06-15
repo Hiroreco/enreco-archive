@@ -61,6 +61,10 @@ What would await them on their final day?
 
 ## Fanart
 
+["Proceed" by cressentiaqin](https://x.com/cressentiaqin/status/2060377428254745084)
+
+["Anatomy of an Obedient Dog" by renshifter](https://x.com/renshifter/status/2060833544881295862)
+
 ["Wake up Lady Bloodflame!" by grave_robin1](https://x.com/grave_robin1/status/2060174853139841506)
 
 ["LBG" by another_achicvc](https://x.com/another_achicvc/status/2060276330831519985)

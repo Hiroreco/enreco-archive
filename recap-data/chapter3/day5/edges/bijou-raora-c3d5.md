@@ -17,4 +17,8 @@ Bijou reveals herself before Roa as she is about to be sacrificed to the Outer G
 
 ## Fanart
 
+["Insert Reverse Flash meme \* : D" by bunbbun1](https://x.com/bunbbun1/status/2061212551766241373)
+
+["Reveal." by seapupu290495](https://x.com/seapupu290495/status/2060405159914795401)
+
 ["betrayal" by dinas81800](https://x.com/dinas81800/status/2064710659250831625)
