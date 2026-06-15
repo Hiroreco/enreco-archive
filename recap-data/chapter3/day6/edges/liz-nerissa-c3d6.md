@@ -93,3 +93,6 @@ As if declaring her love for the last time before this world came to an end, she
 **BONUS YURI CONTENT**
 
 [What is ERP?](#embed:https://youtu.be/hjskrraiXp4?t=10258)
+
+## Fanart
+["“Our Fate…” V1 💄🎼" by paw_chie](https://x.com/paw_chie/status/2062937057589440712)

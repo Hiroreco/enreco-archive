@@ -95,6 +95,10 @@
 
 ## ファンアート
 
+["if the stain hat stayed on her head a bit longer" by yuutomeh97](https://x.com/yuutomeh97/status/2062457090636132737)
+
+<!-- nerissa -->
+
 ["Looks stupid" by albertweskerh](https://x.com/albertweskerh/status/2060244059361620194)
 
 ["Forget and to be Fallen" by yuutomeh97](https://x.com/yuutomeh97/status/2060273303160590431)

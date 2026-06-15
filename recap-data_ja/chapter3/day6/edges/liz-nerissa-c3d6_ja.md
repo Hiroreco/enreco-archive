@@ -139,3 +139,6 @@
 **おまけの百合コンテンツ**
 
 [ERPって何？](#embed:https://youtu.be/hjskrraiXp4?t=10258)
+
+## ファンアート
+["“Our Fate…” V1 💄🎼" by paw_chie](https://x.com/paw_chie/status/2062937057589440712)

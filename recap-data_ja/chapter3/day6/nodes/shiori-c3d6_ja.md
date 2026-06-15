@@ -226,6 +226,14 @@ _「あーもう、いいや。出てきて、ニャヴェラ。」_
 
 ## ファンアート
 
+["What lies in the church?" by detectivefalyn](https://x.com/detectivefalyn/status/2061851858671431733)
+
+<!-- gigi, calli, bijou, raora, cecilia, nerissa -->
+
+["Sister Shiori👁‍🗨" by nekobandito](https://x.com/nekobandito/status/2062415660949688463)
+
+["Thy Queen in Yellow" by tabsarts](https://x.com/tabsarts/status/2062691686493700409)
+
 ["be good" by elisbian\_](https://x.com/elisbian_/status/2063900624891310290)
 
 <!-- gigi -->

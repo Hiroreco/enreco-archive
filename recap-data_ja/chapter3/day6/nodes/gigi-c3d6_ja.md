@@ -157,4 +157,6 @@
 
 ## ファンアート
 
+["MY ROLL SLOP QUEEN" by tabsarts](https://x.com/tabsarts/status/2062089772857000191)
+
 ["Let nature heal you 💚🧡" by ediialex](https://x.com/ediialex/status/2063096154938577080)

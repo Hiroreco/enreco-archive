@@ -27,6 +27,8 @@ While Tam was quick to object, Gonathon [reminded](https://www.youtube.com/watch
 
 ## Fanart
 
+["Friend~ 🍊⌚️" by rikuje](https://x.com/rikuje/status/2061856195133268178)
+
 ["Headcanon where Tam took Gonathan in as a child and he becomes a knight to protect his mom" by haitang_21](https://x.com/haitang_21/status/2064346782000402934)
 
 ["Maybe?" by painko3o](https://x.com/painko3o/status/2060263467647385697)

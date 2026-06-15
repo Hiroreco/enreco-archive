@@ -101,6 +101,8 @@ _まったくもって心外だった。_
 
 ## ファンアート
 
+["woof" by legz0s](https://x.com/legz0s/status/2061779746850316398)
+
 ["When the Flamed knight burns away… 💄" by paw_chie](https://x.com/paw_chie/status/2064050368494113003)
 
 ["Practice✍️" by unknown](https://fxtwitter.com/j1nnu/status/2064485607272005768)

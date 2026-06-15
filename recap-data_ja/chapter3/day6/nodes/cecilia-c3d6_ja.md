@@ -107,6 +107,16 @@
 
 ## ファンアート
 
+["More....more Knight Academy stories......" by blueplankton](https://x.com/blueplankton/status/2061805458273472937)
+
+<!-- ina, gigi -->
+
+["are you confusing loyalty for love?" by reideero](https://x.com/reideero/status/2061874282221695085)
+
+["Immerkind and Fia ✨" by hiraethshoujo](https://x.com/hiraethshoujo/status/2060759577180958742)
+
+<!-- iphania -->
+
 ["knight academy Immerkind" by vanssey\_](https://x.com/vanssey_/status/2063324689124974750)
 
 ["Immerkind’s dream" by suitabledeer](https://x.com/suitabledeer/status/2064927635801563318)

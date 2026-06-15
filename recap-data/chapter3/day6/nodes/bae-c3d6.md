@@ -78,3 +78,6 @@ Faust shortly showed up. (See: [Faust](#node:faust))
 He asked Bae if she would join him in destroying the world. To start anew.
 
 Of course not! That would mean destroying her gold! Luckily, when all seemed lost as The Curse revealed itself, Fia saved Bae once again.
+
+## Fanart
+["Polar🐻‍❄️" by insfidelie](https://x.com/insfidelie/status/2062218706487226480)

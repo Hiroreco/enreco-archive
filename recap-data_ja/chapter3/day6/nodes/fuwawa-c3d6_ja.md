@@ -39,6 +39,10 @@
 
 ## ファンアート
 
+["YOU WILL NEVER CATCH ADVENTTT!!!✌️🩵🧡" by sakdken](https://x.com/sakdken/status/2062129039465427429)
+
+<!-- gigi -->
+
 ["ENreco moments" by daqqie0_0](https://x.com/daqqie0_0/status/2064487694122856468)
 
 <!-- mococo -->

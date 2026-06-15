@@ -51,6 +51,8 @@ _「なんて……美しい景色なのでしょう。」_
 
 ## ファンアート
 
+[""we could enjoy the view together?"" by kuriducks](https://x.com/kuriducks/status/2061935673603670104)
+
 ["it was the only option, right? ...right?" by ogumashiro](https://x.com/ogumashiro/status/2058899855821406310)
 
 ["Nerissa’s Opening Screen" by i](https://x.com/paw_chie/status/2058764089401528674)

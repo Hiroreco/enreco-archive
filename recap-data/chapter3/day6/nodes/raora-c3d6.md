@@ -84,3 +84,8 @@ As the world faded into a familiar white garden, Roa renewed her vow.
 The fire within her burned brighter than ever, tempering her resolve to see the revolution she had begun through to its end.
 
 And this time, she would not forget why she fought.
+
+## Fanart
+["illumination" by elisbian_](https://x.com/elisbian_/status/2062883223378817167)
+
+<!-- shiori, kiara -->

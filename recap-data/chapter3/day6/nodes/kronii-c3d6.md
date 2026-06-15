@@ -29,6 +29,10 @@ As for Tam, who knows what adventures await the Azure Queen in the next journey?
 
 ## Fanart
 
+["grrrrr" by yuutomeh97](https://x.com/yuutomeh97/status/2062096900892074078)
+
+<!-- gigi -->
+
 ["s3 knights (and queen)" by leisurecass](https://x.com/leisurecass/status/2063813238198800559)
 
 <!-- gigi, cecilia, ina -->

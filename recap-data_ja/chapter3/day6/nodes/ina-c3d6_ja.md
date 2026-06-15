@@ -163,6 +163,18 @@ _オーダー._
 
 ## ファンアート
 
+["Young Knights" by nukiknd](https://x.com/nukiknd/status/2061840852964790388)
+
+<!-- gigi, liz, cecilia -->
+
+["A hero who's a farmer is still a hero" by anonamos_701](https://x.com/anonamos_701/status/2061916012476530917)
+
+["Aura farming 🤫" by tentacleluver](https://x.com/tentacleluver/status/2061833656591962181)
+
+["knight academy arc" by bulusekai](https://x.com/bulusekai/status/2062291767375090001)
+
+<!-- liz -->
+
 ["騎士學院" by yppah1060](https://x.com/yppah1060/status/2063061450487374146)
 
 <!-- gigi -->
