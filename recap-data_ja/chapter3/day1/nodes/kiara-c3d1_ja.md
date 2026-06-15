@@ -68,3 +68,9 @@ _これ以上何が悪い方向に転ぶというのだろう――_
 ここから先は、みんなの問題になった。
 
 [オレンジ家のタナキシャ・カリアは死亡した。](#embed:https://www.youtube.com/watch?v=u0Tu7_vfmQo&t=6294s)
+
+## ファンアート
+
+["The Phoenix Who Burned the Brightest" by yaymics](https://x.com/yaymics/status/2059535825772179735)
+
+["Oh, mori, when you cook like that you make a wawa go dead" by ogumashiro](https://x.com/ogumashiro/status/2059019424930132298)

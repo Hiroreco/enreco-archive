@@ -226,6 +226,8 @@
 
 ## ファンアート
 
+["It's okay Gonathon" by maskofgabriel](https://x.com/maskofgabriel/status/2061511256465416339)
+
 ["doubts?" by monochi_21](https://x.com/monochi_21/status/2060025215992975663)
 
 ["Like A Black Pearl In The Sky..." by blaparky](https://x.com/blaparky/status/2060213161685631405)

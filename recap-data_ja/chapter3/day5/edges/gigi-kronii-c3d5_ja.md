@@ -103,6 +103,12 @@
 
 ## ファンアート
 
+["That time Tam and Gonathan finds something under the church...." by seapupu290495](https://x.com/seapupu290495/status/2061844592589508786)
+
+["Friend~ 🍊⌚️" by rikuje](https://x.com/rikuje/status/2061856195133268178)
+
+["Headcanon where Tam took Gonathan in as a child and he becomes a knight to protect his mom" by haitang_21](https://x.com/haitang_21/status/2064346782000402934)
+
 ["Maybe?" by painko3o](https://x.com/painko3o/status/2060263467647385697)
 
 ["Thus The Knight Advances Forward" by blaparky](https://x.com/blaparky/status/2060236165077463079)

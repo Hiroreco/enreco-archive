@@ -104,3 +104,27 @@
 そう悟ったフィアは、残された最後の力を振り絞り、一行を安全な図書館へと転送した。
 
 ――つづく。
+
+## ファンアート
+
+["The Princesses Faithful and Devoted Knight: Immerkind" by yaymics](https://x.com/yaymics/status/2060657104776515850)
+
+["아카데미 수업에 펜싱 있기를 희망합니다" by eule_winters](https://x.com/eule_winters/status/2061433458719867353)
+
+<!-- gigi -->
+
+["More....more Knight Academy stories......" by blueplankton](https://x.com/blueplankton/status/2061805458273472937)
+
+<!-- ina, gigi -->
+
+["are you confusing loyalty for love?" by reideero](https://x.com/reideero/status/2061874282221695085)
+
+["Immerkind and Fia ✨" by hiraethshoujo](https://x.com/hiraethshoujo/status/2060759577180958742)
+
+<!-- iphania -->
+
+["knight academy Immerkind" by vanssey\_](https://x.com/vanssey_/status/2063324689124974750)
+
+["Immerkind’s dream" by suitabledeer](https://x.com/suitabledeer/status/2064927635801563318)
+
+<!-- gigi, iphania -->

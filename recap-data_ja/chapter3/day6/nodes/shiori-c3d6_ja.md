@@ -223,3 +223,27 @@ _「あーもう、いいや。出てきて、ニャヴェラ。」_
 苦しみも。
 
 そして――愛も。
+
+## ファンアート
+
+["a little ragebait won't kill anyone... right?" by rracuna](https://x.com/rracuna/status/2060672075841335678)
+
+["Queen in yellow" by kurochanai](https://x.com/kurochanai/status/2060723450235527541)
+
+["She still gave it her all, despite everything." by yeyas_ink](https://x.com/yeyas_ink/status/2061123903939047514)
+
+["What lies in the church?" by detectivefalyn](https://x.com/detectivefalyn/status/2061851858671431733)
+
+<!-- gigi, calli, bijou, raora, cecilia, nerissa -->
+
+["Sister Shiori👁‍🗨" by nekobandito](https://x.com/nekobandito/status/2062415660949688463)
+
+["Thy Queen in Yellow" by tabsarts](https://x.com/tabsarts/status/2062691686493700409)
+
+["be good" by elisbian\_](https://x.com/elisbian_/status/2063900624891310290)
+
+<!-- gigi -->
+
+["had to draw her.... 🤍🖤" by hanillust\_](https://x.com/hanillust_/status/2061762107071189171)
+
+["nyavella x the archiver doodle page" by krabsticksart](https://x.com/krabsticksart/status/2064893548840079782)

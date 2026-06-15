@@ -40,3 +40,59 @@ All that was left, according to Faust, was _The Order_, a beast ensuring the Nul
 Now, they could reach Nullspace and find the Outsider... Until Faust had a few words to [say](https://www.youtube.com/watch?v=FRubYpkandA&t=8895s) (see [Faust](#node:faust)).
 
 Refusing to believe his words, Ina denied the Outsider’s proposal, believing his way was not right. With Fia desperately rushing to get Ina out of Nullspace, the Hero found herself in the white box once [more.](https://www.youtube.com/watch?v=FRubYpkandA&t=9094s)
+
+## Fanart
+
+["NinoIna's days at the knight academy" by ninomaeinanis](https://x.com/ninomaeinanis/status/2060742933947822454)
+
+["how ninoina was moving on the advent chase minigame with 20 seconds left on the clock" by sunfish_blue](https://x.com/sunfish_blue/status/2061105376054202616)
+
+<!-- raora, mococo -->
+
+["The Knight Academy Arc shall continue" by ninomaeinanis](https://x.com/ninomaeinanis/status/2061312864867238345)
+
+["From their knight academy days" by sevfen_](https://x.com/sevfen_/status/2061359794816954455)
+
+<!-- gigi, cecilia -->
+
+["dusts off tablet,, I CANNOT NOT DRAW THIS BEING" by da_bunker](https://x.com/da_bunker/status/2061362507185590778)
+
+["ENreco Knight Academy" by weiiyxn](https://x.com/weiiyxn/status/2061408480117043483)
+
+<!-- gigi -->
+
+["3 apples tall" by komilius](https://x.com/komilius/status/2061447833266553335)
+
+<!-- irys -->
+
+["My knight can't be this cool... (,, ‸ ,, )" by ani_019](https://x.com/ani_019/status/2061531593185923469)
+
+["Just two knights practicing sword fighting" by zeranium17](https://x.com/zeranium17/status/2061532134154936360)
+
+<!-- gigi -->
+
+["all grown up" by logiies](https://x.com/logiies/status/2061582211657204142)
+
+<!-- gigi -->
+
+["oyaoya ikemen 🐙" by __mahiru03](https://x.com/__mahiru03/status/2061598864063287625)
+
+["hero in training" by user_fmky8372](https://x.com/user_fmky8372/status/2061499039078855038)
+
+["look at my knight brooo omfg 😭" by suityofstars](https://x.com/suityofstars/status/2061605813882593773)
+
+["Young Knights" by nukiknd](https://x.com/nukiknd/status/2061840852964790388)
+
+<!-- gigi, liz, cecilia -->
+
+["A hero who's a farmer is still a hero" by anonamos_701](https://x.com/anonamos_701/status/2061916012476530917)
+
+["Aura farming 🤫" by tentacleluver](https://x.com/tentacleluver/status/2061833656591962181)
+
+["knight academy arc" by bulusekai](https://x.com/bulusekai/status/2062291767375090001)
+
+<!-- liz -->
+
+["騎士學院" by yppah1060](https://x.com/yppah1060/status/2063061450487374146)
+
+<!-- gigi -->

@@ -79,10 +79,6 @@ The quiet rise of rebellion awakened.
 
 ## Memes
 
-["That heel turn tho" by creakhead](https://x.com/_creakhead/status/1921475227248218432)
-
-<!-- calli, ina, kiara, bae, kronii, irys, fuwawa, mococo, nerissa, shiori, bijou, liz, gigi, cecilia, raora -->
-
 ["ENreco 3" by Durmple](https://x.com/DomenikTimm/status/1922039494254997891)
 
 <!-- shiori, bijou, mococo, fuwawa, nerissa -->
@@ -98,4 +94,3 @@ The quiet rise of rebellion awakened.
 ["Enigmatic Recollection: Chains Of Fate (2007)" by EmicoOtero](https://x.com/EmicoOtero/status/1921417355772522542)
 
 <!-- calli, ina, kiara, bae, kronii, irys, fuwawa, mococo, nerissa, shiori, bijou, liz, gigi, cecilia, raora -->
-

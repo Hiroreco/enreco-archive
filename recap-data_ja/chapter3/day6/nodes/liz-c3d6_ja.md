@@ -98,3 +98,19 @@ _まったくもって心外だった。_
 アウトサイダーを止めるためには、再び過酷な戦いへ挑まなければならない。
 
 願わくば――次こそが最後の戦いとなることを。
+
+## ファンアート
+
+["blue does suits her" by leuvi_tte](https://x.com/leuvi_tte/status/2060717919643029885)
+
+["Flame for justice" by genzinn_96](https://x.com/genzinn_96/status/2061007299960074300)
+
+["woof" by legz0s](https://x.com/legz0s/status/2061779746850316398)
+
+["When the Flamed knight burns away… 💄" by paw_chie](https://x.com/paw_chie/status/2064050368494113003)
+
+["Practice✍️" by unknown](https://fxtwitter.com/j1nnu/status/2064485607272005768)
+
+<!-- cecilia -->
+
+["Some of my fav moments from Lady Bloodflame's POV" by lyriasshin](https://x.com/lyriasshin/status/2065805909448638615)

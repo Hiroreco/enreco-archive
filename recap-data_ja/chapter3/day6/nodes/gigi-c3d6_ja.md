@@ -154,3 +154,25 @@
 謙虚なる正義の騎士ゴナソンは、
 
 決して退くことはない。
+
+## ファンアート
+
+["Knight Gonathon" by popintarts](https://x.com/popintarts/status/2060520149971874300)
+
+<!-- kronii, ina, cecilia, calli -->
+
+["Gonathon" by starfontaine39](https://x.com/starfontaine39/status/2060581298755027345)
+
+["The End" by a_nom_](https://x.com/a_nom_/status/2060678583744598179)
+
+<!-- cecilia, kronii -->
+
+["Upright Strength: Courage, Compassion, Resilience." by hato9113](https://x.com/hato9113/status/2061066582961672440)
+
+["See you next time!" by angu0303](https://x.com/angu0303/status/2061123193067405794)
+
+["a selfish request such as his, could never be true." by itscoartee](https://x.com/itscoartee/status/2061302803948265568)
+
+["MY ROLL SLOP QUEEN" by tabsarts](https://x.com/tabsarts/status/2062089772857000191)
+
+["Let nature heal you 💚🧡" by ediialex](https://x.com/ediialex/status/2063096154938577080)

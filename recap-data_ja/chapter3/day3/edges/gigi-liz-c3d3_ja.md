@@ -78,6 +78,8 @@
 
 ## ファンアート
 
+["my favourite scene" by mcrtj00](https://x.com/mcrtj00/status/2062040202055733310)
+
 ["knights in arms!" by leisurepass](https://x.com/leisurepass/status/2059803062642848245)
 
 <!-- nerissa, cecilia -->

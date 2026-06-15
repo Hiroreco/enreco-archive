@@ -34,3 +34,13 @@ As one does.
 In the end, every member of Advent was freed. With everyone united once more, the heroes ventured into the Nullspace, overcame its many challenges, found the Outsider, and uncovered yet another shocking twist (see [Faust](#node:faust)).
 
 The fluffy one's third journey had [come to an end,](https://www.youtube.com/watch?v=mIsHnxTVoFM&t=11522s) leaving her to await whatever adventure awaited her next.
+
+## Fanart
+
+["YOU WILL NEVER CATCH ADVENTTT!!!✌️🩵🧡" by sakdken](https://x.com/sakdken/status/2062129039465427429)
+
+<!-- gigi -->
+
+["ENreco moments" by daqqie0_0](https://x.com/daqqie0_0/status/2064487694122856468)
+
+<!-- mococo -->

@@ -65,3 +65,8 @@ Gold was the only thing that mattered in the end.
 - An excerpt from the Peasant's Diary
 
 [Source](#out:https://x.com/hakosbaelz/status/2060568985067049403)
+
+## Fanart
+["the answer remains the same, but..." by jhgardener_](https://x.com/jhgardener_/status/2060753373612409236)
+
+["🎲🍵Peasant you deserve it" by fongban_](https://x.com/fongban_/status/2061028752981991871)

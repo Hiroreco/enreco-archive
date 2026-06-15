@@ -98,3 +98,10 @@
 そして、呪いの正体が姿を現し、すべてが終わったかに思えたその時――
 
 フィアが再びベイを救ってくれたのだった。
+
+## ファンアート
+["perhaps, the wealth that the peasant lacked was never the gold." by drysphere](https://x.com/drysphere/status/2060587005382480350)
+
+["A Peasant’s Love Returned Empty: Peasant the Bae" by yaymics](https://x.com/yaymics/status/2060656630937559516)
+
+["Polar🐻‍❄️" by insfidelie](https://x.com/insfidelie/status/2062218706487226480)

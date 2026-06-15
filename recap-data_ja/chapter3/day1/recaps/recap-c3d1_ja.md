@@ -82,3 +82,8 @@
 ## 公式作品
 
 ["Freaky Deaky Love (Chapter 3 テーマソング)"](https://www.youtube.com/watch?v=YBtaIGEkEOc)
+
+## ファンアート
+["Trauma : D" by bunbbun1](https://x.com/bunbbun1/status/2061213393269526713)
+
+<!-- kiara, raora, gigi, calli, bijou -->

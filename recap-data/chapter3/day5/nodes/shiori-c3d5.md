@@ -184,6 +184,14 @@ And it seemed there would be more work for Shiori tomorrow, and more would be sa
 
 ## Fanart
 
+["It is quite a shame, isn't it? My king." by kikoshaula](https://x.com/kikoshaula/status/2060510295106388158)
+
+<!-- raora, bijou, nerissa -->
+
+["The sister lies" by nokone4](https://x.com/nokone4/status/2060515277389922464)
+
+<!-- cecilia -->
+
 ["The Queen in Yellow" by countdaku](https://x.com/countdaku/status/2060344739476500759)
 
 ["nun Shiorin!!" by suchikunn](https://x.com/suchikunn/status/2060218154501165505)

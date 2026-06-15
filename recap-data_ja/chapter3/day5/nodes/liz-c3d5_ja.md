@@ -125,7 +125,9 @@
 
 ## ファンアート
 
-["Hehe" by maviss_03](https://x.com/maviss_03/status/2060320386982838375)
+["Proceed" by cressentiaqin](https://x.com/cressentiaqin/status/2060377428254745084)
+
+["Anatomy of an Obedient Dog" by renshifter](https://x.com/renshifter/status/2060833544881295862)
 
 ["Wake up Lady Bloodflame!" by grave_robin1](https://x.com/grave_robin1/status/2060174853139841506)
 

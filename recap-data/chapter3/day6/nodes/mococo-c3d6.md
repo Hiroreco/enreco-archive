@@ -36,3 +36,8 @@ Eventually, Nerissa Juliet called her for a picnic... and it turned out to be a 
 They successfully evaded their pursuers for a long time and were on their way to do it again! Mococo in particular was their sneakiest soldier, [not being caught once](https://www.youtube.com/live/5fdrGFsRtQw?t=9175) in almost thirty minutes of pursuit! But alas, the pressure eventually became too much, and she was captured by her old, mortal enemy, NinoIna. How dare she!!!
 
 The curse was supposedly lifted, but truth be told, Mococo didn't really feel any different as she made her way through Nullspace. Oh well! None of this complicated stuff [made any sense](https://www.youtube.com/live/5fdrGFsRtQw?t=11217) to her, anyway. She was just happy to look toward the future (see: [Faust](#node:faust)). In a new world, she'd have the time to make even more money, as well as treasure the connections that really matter, regardless of whether everyone else treated them as evil for it.
+
+## Fanart
+["sister sister" by a_lonekm9581](https://x.com/a_lonekm9581/status/2060634202367025282)
+
+<!-- fuwawa, liz -->

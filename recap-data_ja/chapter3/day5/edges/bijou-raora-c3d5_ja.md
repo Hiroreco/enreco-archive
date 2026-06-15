@@ -30,3 +30,11 @@
 アウターゴッドへの生贄に捧げられようとしていたロアの前に、ビジューは姿を現す。そして、自分がずっとロアの妻を殺した相手と手を組んでいたのだと嘲るように告げた。
 
 生贄の儀式を経て目覚めたロアは、[記憶が薄れていく感覚に襲われる。ビジューが友人だったのかどうかさえ分からなくなりながら……](https://www.youtube.com/watch?v=rFmdOarYXuE&t=12970)
+
+## ファンアート
+
+["Insert Reverse Flash meme \* : D" by bunbbun1](https://x.com/bunbbun1/status/2061212551766241373)
+
+["Reveal." by seapupu290495](https://x.com/seapupu290495/status/2060405159914795401)
+
+["betrayal" by dinas81800](https://x.com/dinas81800/status/2064710659250831625)

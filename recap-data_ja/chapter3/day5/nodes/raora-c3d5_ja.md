@@ -58,3 +58,8 @@ V̵̲̔͛͘͝͠I̴̻̟͇̺̹̾͂̾͋͝V̶̙̹̘̪̀̽̈́̍͠Ầ̵̼̰̰̗͉̎̾
 最愛の人の遺品を必死に抱き締めながら、ロアは夜空へ向けて深淵のような絶叫を解き放った。
 
 その叫びは、彼女を[裏切った](https://www.youtube.com/watch?v=rFmdOarYXuE&t=13045)世界の静寂へと虚しく砕け散っていった。
+
+## ファンアート
+["Bad Memories." by lowbitstudio](https://x.com/lowbitstudio/status/2060589033366151285)
+
+["“You are… the Chosen One”" by haruisarting](https://x.com/haruisarting/status/2060752451419160982)

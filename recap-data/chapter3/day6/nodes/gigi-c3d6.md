@@ -34,3 +34,25 @@ Arriving in the Copied City, the adventurers were given a startling revelation: 
 Upon being given the choice to reset the world for a new one, Gonathon knew his answer without a second thought. He would NEVER give up on his world and the cherished friends he had made. Reunited with his companions in a white void, Gonathon shared [one last conversation](https://www.youtube.com/watch?v=0erNTlRV7-c&t=9512s) with those dear to him. As the curtain fell and Lady Bloodflame engaged in the ancient rite of ["ERP"](https://youtu.be/0erNTlRV7-c?t=9962) with him, one thing remained clear.
 
 No matter what trials and tribulations the future held in store, the Humble Knight of Justice would never back down!
+
+## Fanart
+
+["Knight Gonathon" by popintarts](https://x.com/popintarts/status/2060520149971874300)
+
+<!-- kronii, ina, cecilia, calli -->
+
+["Gonathon" by starfontaine39](https://x.com/starfontaine39/status/2060581298755027345)
+
+["The End" by a_nom_](https://x.com/a_nom_/status/2060678583744598179)
+
+<!-- cecilia, kronii -->
+
+["Upright Strength: Courage, Compassion, Resilience." by hato9113](https://x.com/hato9113/status/2061066582961672440)
+
+["See you next time!" by angu0303](https://x.com/angu0303/status/2061123193067405794)
+
+["a selfish request such as his, could never be true." by itscoartee](https://x.com/itscoartee/status/2061302803948265568)
+
+["MY ROLL SLOP QUEEN" by tabsarts](https://x.com/tabsarts/status/2062089772857000191)
+
+["Let nature heal you 💚🧡" by ediialex](https://x.com/ediialex/status/2063096154938577080)

@@ -4,7 +4,7 @@ import path from "path";
 import sharp from "sharp";
 
 const SHARED_IMAGES_FOLDER = "shared-resources/images";
-const SHARED_VIDEOS_FOLDER = "shared-resources/videos";
+const SHARED_VIDEOS_FOLDER = "shared-resources/new-videos";
 const DESTINATIONS = ["shared-resources/thumbnails"];
 const BLUR_DATA_DESTINATION = "shared-resources";
 

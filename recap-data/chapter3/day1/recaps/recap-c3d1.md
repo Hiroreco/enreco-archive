@@ -33,3 +33,8 @@ They still have the exact same job system as before, but who caaaaares about any
 ## Official Work
 
 ["Freaky Deaky Love (Chapter 3 Theme Song)"](#out:https://www.youtube.com/watch?v=YBtaIGEkEOc)
+
+## Fanart
+["Trauma : D" by bunbbun1](https://x.com/bunbbun1/status/2061213393269526713)
+
+<!-- kiara, raora, gigi, calli, bijou -->

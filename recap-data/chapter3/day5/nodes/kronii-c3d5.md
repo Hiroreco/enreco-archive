@@ -69,6 +69,14 @@ And by the end of it all, after a day that felt like an entire lifetime compress
 
 ## Fanart
 
+["this moment so cute" by fongban_](https://x.com/fongban_/status/2060384264932450421)
+
+<!-- cecilia -->
+
+["if the stain hat stayed on her head a bit longer" by yuutomeh97](https://x.com/yuutomeh97/status/2062457090636132737)
+
+<!-- nerissa -->
+
 ["Looks stupid" by albertweskerh](https://x.com/albertweskerh/status/2060244059361620194)
 
 ["Forget and to be Fallen" by yuutomeh97](https://x.com/yuutomeh97/status/2060273303160590431)

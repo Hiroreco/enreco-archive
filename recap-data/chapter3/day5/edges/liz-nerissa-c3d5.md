@@ -79,3 +79,9 @@ _cues in_
 
 > Kiss me, out of the bearded barley
 > Nightly, beside the green green grass
+
+## Fanart
+
+["【The Distraction】" by kirbyotaku](https://x.com/kirbyotaku/status/2063393826446983218)
+
+<!-- cecilia, gigi -->

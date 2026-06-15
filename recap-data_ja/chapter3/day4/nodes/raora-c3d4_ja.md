@@ -87,6 +87,8 @@
 
 ## ファンアート
 
+["The Devil Reversed: Freedom, Revelation, Liberation." by hato9113](https://x.com/hato9113/status/2060362430388355349)
+
 ["The fourth wall..." by reg_501st](https://x.com/reg_501st/status/2060121660523413934)
 
 ["I Have Seen Beyond" by deadbeat_1013](https://x.com/deadbeat_1013/status/2060146863039242663)

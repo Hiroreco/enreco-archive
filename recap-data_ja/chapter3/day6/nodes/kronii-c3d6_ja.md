@@ -26,3 +26,17 @@
 そしてタムはというと――蒼き女王に次はどんな冒険が待っているのだろうか。今はまだ分からない。だが、この旅が数多くの思い出を残したことだけは確かだ。そして何よりも彼女らしい思い出といえば、やはりフィナーレにぎりぎり間に合ったことかもしれない。
 
 [見てくれよタムだああああ！](#embed:https://www.youtube.com/watch?v=b0h8kilUBQk&t=4851)
+
+## ファンアート
+
+["Brotherhood" by yuutomeh97](https://x.com/yuutomeh97/status/2060753684892631372)
+
+<!-- gigi -->
+
+["grrrrr" by yuutomeh97](https://x.com/yuutomeh97/status/2062096900892074078)
+
+<!-- gigi -->
+
+["s3 knights (and queen)" by leisurecass](https://x.com/leisurecass/status/2063813238198800559)
+
+<!-- gigi, cecilia, ina -->
