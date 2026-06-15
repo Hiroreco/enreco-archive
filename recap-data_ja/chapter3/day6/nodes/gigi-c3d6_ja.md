@@ -167,7 +167,7 @@
 
 ["Gonathon" by starfontaine39](https://x.com/starfontaine39/status/2060581298755027345)
 
-["The End" by a_nom_](https://x.com/a_nom_/status/2060678583744598179)
+["The End" by a*nom*](https://x.com/a_nom_/status/2060678583744598179)
 
 <!-- cecilia, kronii -->
 

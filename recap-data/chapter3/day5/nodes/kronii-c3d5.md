@@ -69,7 +69,7 @@ And by the end of it all, after a day that felt like an entire lifetime compress
 
 ## Fanart
 
-["this moment so cute" by fongban_](https://x.com/fongban_/status/2060384264932450421)
+["this moment so cute" by fongban\_](https://x.com/fongban_/status/2060384264932450421)
 
 <!-- cecilia -->
 

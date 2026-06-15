@@ -175,7 +175,7 @@ _オーダー._
 
 ["The Knight Academy Arc shall continue" by ninomaeinanis](https://x.com/ninomaeinanis/status/2061312864867238345)
 
-["From their knight academy days" by sevfen_](https://x.com/sevfen_/status/2061359794816954455)
+["From their knight academy days" by sevfen\_](https://x.com/sevfen_/status/2061359794816954455)
 
 <!-- gigi, cecilia -->
 
@@ -199,7 +199,7 @@ _オーダー._
 
 <!-- gigi -->
 
-["oyaoya ikemen 🐙" by __mahiru03](https://x.com/__mahiru03/status/2061598864063287625)
+["oyaoya ikemen 🐙" by \_\_mahiru03](https://x.com/__mahiru03/status/2061598864063287625)
 
 ["hero in training" by user_fmky8372](https://x.com/user_fmky8372/status/2061499039078855038)
 

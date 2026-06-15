@@ -38,6 +38,7 @@ They successfully evaded their pursuers for a long time and were on their way to
 The curse was supposedly lifted, but truth be told, Mococo didn't really feel any different as she made her way through Nullspace. Oh well! None of this complicated stuff [made any sense](https://www.youtube.com/live/5fdrGFsRtQw?t=11217) to her, anyway. She was just happy to look toward the future (see: [Faust](#node:faust)). In a new world, she'd have the time to make even more money, as well as treasure the connections that really matter, regardless of whether everyone else treated them as evil for it.
 
 ## Fanart
+
 ["sister sister" by a_lonekm9581](https://x.com/a_lonekm9581/status/2060634202367025282)
 
 <!-- fuwawa, liz -->

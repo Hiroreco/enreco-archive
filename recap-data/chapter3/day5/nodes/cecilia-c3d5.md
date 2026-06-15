@@ -61,7 +61,7 @@ There, Immerkind speaks quietly with Juliet one last time.
 
 ## Fanart
 
-["time to build more castles!!✨" by jhgardener_](https://x.com/jhgardener_/status/2060375394378006988)
+["time to build more castles!!✨" by jhgardener\_](https://x.com/jhgardener_/status/2060375394378006988)
 
 <!-- kronii -->
 

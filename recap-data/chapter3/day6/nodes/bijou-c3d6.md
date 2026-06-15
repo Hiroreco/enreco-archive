@@ -38,4 +38,5 @@ Reaching the Heart of Nullspace, the group runs into Faust, who, somewhat obviou
 Once reunited with the others in the white room once more, Bijou [meets with Shiori](https://www.youtube.com/watch?v=-v3wKaDqyI4&t=12910) one last time to discuss the curse. It seems it was bold of the others to assume that the curse was the cause of their actions, and it was not of their own volition...
 
 ## Fanart
+
 ["little villain" by dinas81800](https://x.com/dinas81800/status/2060749113491415174)

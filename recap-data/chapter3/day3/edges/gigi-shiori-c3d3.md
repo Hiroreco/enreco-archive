@@ -16,4 +16,5 @@ Perhaps it was finally time to stop deluding himself.
 Perhaps it was finally time to let go.
 
 ## Fanart
+
 ["[Humble Knight's Tale] Chapter 2 - Sunset" by dyusenjin](https://x.com/dyusenjin/status/2061174345142280678)

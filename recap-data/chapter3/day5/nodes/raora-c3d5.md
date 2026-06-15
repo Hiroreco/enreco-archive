@@ -44,6 +44,7 @@ Desperately clutching onto her beloved's relics, she vented a jagged, abyssal sc
 Her voice breaking against the silence of a world that had [betrayed her](https://www.youtube.com/watch?v=rFmdOarYXuE&t=13045).
 
 ## Fanart
+
 ["Rkgk 🐱!" by chiipzzer](https://x.com/chiipzzer/status/2061362608804941969)
 
 ["Bad Memories." by lowbitstudio](https://x.com/lowbitstudio/status/2060589033366151285)

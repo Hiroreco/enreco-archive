@@ -68,4 +68,5 @@ She heard a voice. Cutting through her thought process, if only for a moment.
 (See [Fuwawa-Mococo](#edge:fuwawa-mococo)).
 
 ## Fanart
+
 ["precious" by a_lonekm9581](https://x.com/a_lonekm9581/status/2060152806276026707)

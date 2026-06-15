@@ -35,6 +35,7 @@ They still have the exact same job system as before, but who caaaaares about any
 ["Freaky Deaky Love (Chapter 3 Theme Song)"](#out:https://www.youtube.com/watch?v=YBtaIGEkEOc)
 
 ## Fanart
+
 ["The Rebellion" by chalek0](https://x.com/chalek0/status/2059396208527888550)
 
 <!-- liz, raora, irys, mococo, nerissa, shiori, fuwawa, bijou, bae -->

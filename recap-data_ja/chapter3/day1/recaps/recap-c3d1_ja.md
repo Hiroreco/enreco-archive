@@ -84,6 +84,7 @@
 ["Freaky Deaky Love (Chapter 3 テーマソング)"](https://www.youtube.com/watch?v=YBtaIGEkEOc)
 
 ## ファンアート
+
 ["The Rebellion" by chalek0](https://x.com/chalek0/status/2059396208527888550)
 
 <!-- liz, raora, irys, mococo, nerissa, shiori, fuwawa, bijou, bae -->

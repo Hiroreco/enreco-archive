@@ -60,6 +60,7 @@ V̵̲̔͛͘͝͠I̴̻̟͇̺̹̾͂̾͋͝V̶̙̹̘̪̀̽̈́̍͠Ầ̵̼̰̰̗͉̎̾
 その叫びは、彼女を[裏切った](https://www.youtube.com/watch?v=rFmdOarYXuE&t=13045)世界の静寂へと虚しく砕け散っていった。
 
 ## ファンアート
+
 ["Rkgk 🐱!" by chiipzzer](https://x.com/chiipzzer/status/2061362608804941969)
 
 ["Bad Memories." by lowbitstudio](https://x.com/lowbitstudio/status/2060589033366151285)

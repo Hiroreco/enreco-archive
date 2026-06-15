@@ -52,7 +52,7 @@
 
 ## ファンアート
 
-[""My shining star"" by jhgardener_](https://x.com/jhgardener_/status/2058557857478639935)
+[""My shining star"" by jhgardener\_](https://x.com/jhgardener_/status/2058557857478639935)
 
 <!-- iphania -->
 
