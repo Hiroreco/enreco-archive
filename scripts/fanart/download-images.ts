@@ -1,7 +1,6 @@
 import { existsSync } from "fs";
 import fs from "fs/promises";
 import path from "path";
-import puppeteer from "puppeteer";
 import { exec } from "child_process";
 import { promisify } from "util";
 
@@ -52,6 +51,22 @@ interface LinkEntry {
     chapter: string;
     day: string;
     character: string;
+}
+
+interface FxTwitterPhoto {
+    url: string;
+    width: number;
+    height: number;
+}
+
+interface FxTwitterVideo {
+    url: string;
+    type: string;
+}
+
+interface FxTwitterMedia {
+    photos?: FxTwitterPhoto[];
+    videos?: FxTwitterVideo[];
 }
 
 async function loadDownloadedVideos(): Promise<Set<string>> {
@@ -120,6 +135,28 @@ async function downloadVideoWithYtDlp(
     await execAsync(command);
 }
 
+// Fetch media URLs from the FxTwitter API (no login required)
+async function fetchMediaFromFxTwitter(
+    tweetUrl: string,
+): Promise<FxTwitterMedia | null> {
+    const match = tweetUrl.match(
+        /(?:x\.com|twitter\.com)\/([^/]+)\/status\/(\d+)/,
+    );
+    if (!match) return null;
+
+    const [, username, statusId] = match;
+    const apiUrl = `https://api.fxtwitter.com/${username}/status/${statusId}`;
+
+    const res = await fetch(apiUrl, {
+        headers: { "User-Agent": "fanart-downloader/1.0" },
+    });
+    if (!res.ok)
+        throw new Error(`FxTwitter API returned ${res.status} for ${tweetUrl}`);
+
+    const data = await res.json();
+    return (data?.tweet?.media as FxTwitterMedia) ?? null;
+}
+
 async function run() {
     const data: LinkEntry[] = JSON.parse(
         await fs.readFile(LINKS_JSON, "utf-8"),
@@ -129,14 +166,6 @@ async function run() {
 
     const downloadedVideos = await loadDownloadedVideos();
     const failedDownloads: FailedEntry[] = [];
-
-    const browser = await puppeteer.launch({ headless: true });
-    const page = await browser.newPage();
-    await page.setUserAgent(
-        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) " +
-            "AppleWebKit/537.36 (KHTML, like Gecko) " +
-            "Chrome/120.0.0.0 Safari/537.36",
-    );
 
     for (const entry of data) {
         const postIdMatch = entry.url.match(/status\/(\d+)/);
@@ -195,75 +224,23 @@ async function run() {
             continue;
         }
 
-        console.log(`→ Visiting ${entry.url}`);
-
-        const imageUrls: string[] = [];
-
-        await page.setRequestInterception(true);
-
-        page.on("request", (request) => {
-            const url = request.url();
-
-            if (
-                url.includes("pbs.twimg.com/media") &&
-                /\.(jpg|png|gif|webp)/i.test(url)
-            ) {
-                if (!imageUrls.includes(url)) {
-                    imageUrls.push(url);
-                }
-            }
-
-            request.continue();
-        });
+        console.log(`→ Fetching ${entry.url}`);
 
         try {
-            await page.goto(entry.url, {
-                waitUntil: "networkidle2",
-                timeout: 60000,
-            });
+            const media = await fetchMediaFromFxTwitter(entry.url);
 
-            await Promise.race([
-                page.waitForSelector('article img[src*="twimg.com/media"]', {
-                    timeout: 10000,
-                }),
-                page.waitForSelector("article video", {
-                    timeout: 10000,
-                }),
-            ]).catch(() => {});
-
-            await new Promise((resolve) => setTimeout(resolve, 3000));
-
-            const domImages = await page.evaluate(() => {
-                const imgs = document.querySelectorAll(
-                    'article img[src*="twimg.com/media"]',
-                );
-                return Array.from(imgs).map(
-                    (img) => (img as HTMLImageElement).src,
-                );
-            });
-
-            const hasVideo = await page.evaluate(() => {
-                const videos = document.querySelectorAll("article video");
-                return videos.length > 0;
-            });
-
-            const allImageUrls = [...new Set([...imageUrls, ...domImages])];
+            const photos = media?.photos ?? [];
+            const videos = media?.videos ?? [];
 
             console.log(
-                `Found ${allImageUrls.length} images${hasVideo ? " and 1 video" : ""}`,
+                `Found ${photos.length} images${videos.length > 0 ? ` and ${videos.length} video(s)` : ""}`,
             );
 
             let mediaIndex = 0;
 
-            for (const rawUrl of allImageUrls) {
-                let imageUrl = rawUrl;
-
-                if (imageUrl.includes("name=")) {
-                    imageUrl = imageUrl.replace(/name=[^&]*/, "name=orig");
-                } else {
-                    imageUrl +=
-                        (imageUrl.includes("?") ? "&" : "?") + "name=orig";
-                }
+            for (const photo of photos) {
+                // FxTwitter already returns original-resolution URLs
+                const imageUrl = photo.url;
 
                 const extMatch = imageUrl.match(
                     /\.(jpg|png|gif|webp)(?:\?|$)/i,
@@ -299,7 +276,7 @@ async function run() {
                 mediaIndex++;
             }
 
-            if (hasVideo && !SKIP_VIDEOS) {
+            if (videos.length > 0 && !SKIP_VIDEOS) {
                 const videoFileName = `${baseName}-${mediaIndex}.mp4`;
                 const videoOutPath = path.join(VIDEO_OUT_DIR, videoFileName);
 
@@ -308,48 +285,65 @@ async function run() {
                         `  ↻ Skipping already-logged video for ${entry.url}`,
                     );
                 } else {
-                    console.log(
-                        `  ↳ Downloading video with yt-dlp: ${entry.url}`,
-                    );
+                    // Try to download via direct URL first; fall back to yt-dlp
+                    const videoUrl = videos[0].url;
+                    console.log(`  ↳ Downloading video: ${videoUrl}`);
                     try {
-                        await downloadVideoWithYtDlp(entry.url, videoOutPath);
-
-                        const files = await fs.readdir(VIDEO_OUT_DIR);
-                        const downloadedFile = files.find((f) =>
-                            f.startsWith(`${baseName}-${mediaIndex}.`),
+                        const buffer = await downloadBuffer(videoUrl);
+                        await fs.mkdir(VIDEO_OUT_DIR, { recursive: true });
+                        await fs.writeFile(videoOutPath, buffer);
+                        console.log(`  ✅ Saved ${videoFileName}`);
+                        await markVideoDownloaded(entry.url);
+                        downloadedVideos.add(entry.url);
+                    } catch {
+                        // Direct fetch failed — fall back to yt-dlp using the original tweet URL
+                        console.log(
+                            `  ↳ Direct fetch failed, trying yt-dlp...`,
                         );
+                        try {
+                            await downloadVideoWithYtDlp(
+                                entry.url,
+                                videoOutPath,
+                            );
 
-                        if (downloadedFile) {
-                            console.log(`  ✅ Saved ${downloadedFile}`);
-                            await markVideoDownloaded(entry.url);
-                            downloadedVideos.add(entry.url);
-                        } else {
+                            const files = await fs.readdir(VIDEO_OUT_DIR);
+                            const downloadedFile = files.find((f) =>
+                                f.startsWith(`${baseName}-${mediaIndex}.`),
+                            );
+
+                            if (downloadedFile) {
+                                console.log(`  ✅ Saved ${downloadedFile}`);
+                                await markVideoDownloaded(entry.url);
+                                downloadedVideos.add(entry.url);
+                            } else {
+                                console.warn(
+                                    `  ⚠ Video downloaded but file not found`,
+                                );
+                            }
+                        } catch (err: any) {
                             console.warn(
-                                `  ⚠ Video downloaded but file not found`,
+                                `  ✖ Failed to download video: ${err.message}`,
                             );
                         }
-                    } catch (err: any) {
-                        console.warn(
-                            `  ✖ Failed to download video: ${err.message}`,
-                        );
                     }
                 }
             }
 
-            if (allImageUrls.length === 0 && !hasVideo) {
+            if (photos.length === 0 && videos.length === 0) {
                 console.warn(`  ⚠ No media found at ${entry.url}`);
             }
         } catch (err: any) {
             console.warn(`  ✖ Failed ${entry.url}: ${err.message}`);
-        } finally {
-            await page.setRequestInterception(false);
-            page.removeAllListeners("request");
+            failedDownloads.push({
+                url: entry.url,
+                reason: err.message,
+            });
         }
 
-        await new Promise((r) => setTimeout(r, 2000));
+        await new Promise((r) => setTimeout(r, 500));
     }
 
-    await browser.close();
+    await writeFailedDownloads(failedDownloads);
     console.log("✅ All done.");
 }
 
