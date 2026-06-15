@@ -81,6 +81,10 @@ _そんなこと、あり得るの？_
 
 ## ファンアート
 
+["the truth" by huyne_e](https://x.com/huyne_e/status/2061147199162269970)
+
+["Illumination" by sophyucha](https://x.com/sophyucha/status/2060435336975532132)
+
 ["For those who would stare into god's domain" by lordjoeboto](https://x.com/lordjoeboto/status/2059772151700308443)
 
 ["Third eye unlocked" by madchaco](https://x.com/madchaco/status/2059674141452865976)

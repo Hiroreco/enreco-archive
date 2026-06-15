@@ -73,6 +73,10 @@
 
 ## ファンアート
 
+[""From wife, to a friend and a foe?"" by xrandomred](https://x.com/xrandomred/status/2062569005349761287)
+
+<!-- shiori -->
+
 ["A Witch Born in Flame" by yaymics](https://x.com/yaymics/status/2058861249048268810)
 
 ["is this The Witch of ENreco's Past in question" by i](https://x.com/Legz0s/status/2058813041404457219)

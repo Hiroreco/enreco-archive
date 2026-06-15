@@ -36,3 +36,12 @@ After that was out of the way, Ina brandished her new charms and got to work; an
 [Catch of the day](#embed:https://www.youtube.com/watch?v=F0V2nxnTEII&t=17982s)
 
 That day, _seven_ Lake Kings tried to prove their might, and seven times Ina proved why she was the best fisher in all of Libestal. After exhausting all her bait, Ina deemed it good to call it a day.
+
+## Fanart
+["Mococloset : D" by bunbbun1](https://x.com/bunbbun1/status/2061214354759127342)
+
+<!-- mococo -->
+
+[""Do you have time to hang out with us, my sister?"" by mpien6](https://x.com/mpien6/status/2060775826954858904)
+
+<!-- shiori, nerissa, bijou -->

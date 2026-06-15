@@ -163,6 +163,10 @@ _オーダー._
 
 ## ファンアート
 
+["Good ol' days" by lordjoeboto](https://x.com/lordjoeboto/status/2061724968195416090)
+
+<!-- liz, gigi, cecilia -->
+
 ["NinoIna's days at the knight academy" by ninomaeinanis](https://x.com/ninomaeinanis/status/2060742933947822454)
 
 ["how ninoina was moving on the advent chase minigame with 20 seconds left on the clock" by sunfish_blue](https://x.com/sunfish_blue/status/2061105376054202616)

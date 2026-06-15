@@ -29,6 +29,10 @@ Upon writing one more letter to Iphania and Gonathon, she retires for the night.
 
 ## Fanart
 
+["patpatpat~" by nei_0n](https://x.com/nei_0n/status/2061503862952145084)
+
+<!-- gigi -->
+
 [To new beginnings by Floomf](https://x.com/fluumf/status/1919736845048676373)
 
 <!-- kronii -->

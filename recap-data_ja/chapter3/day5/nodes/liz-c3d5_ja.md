@@ -125,6 +125,8 @@
 
 ## ファンアート
 
+["...In the embrace of Bloodflame." by 01neeto](https://x.com/01neeto/status/2060377718118638010)
+
 ["Proceed" by cressentiaqin](https://x.com/cressentiaqin/status/2060377428254745084)
 
 ["Anatomy of an Obedient Dog" by renshifter](https://x.com/renshifter/status/2060833544881295862)

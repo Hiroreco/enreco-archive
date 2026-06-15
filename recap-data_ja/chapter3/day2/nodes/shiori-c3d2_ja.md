@@ -99,6 +99,8 @@ _インクウェル教会。_
 
 ## ファンアート
 
+["In the mirror you see the darkest side of you." by riritcu](https://x.com/riritcu/status/2062501063446417519)
+
 ["Pixel Shiori" by okunashi27](https://x.com/okunashi27/status/2059224755480494511)
 
 ["Praying for your sins" by koemi_54](https://x.com/koemi_54/status/2059185732686643230)

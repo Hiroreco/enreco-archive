@@ -117,6 +117,8 @@
 
 ## ファンアート
 
+[""Have you seen The Yellow Sign?"" by thecatborg](https://x.com/thecatborg/status/2061155013481648638)
+
 ["Look into my eyes" by unbabbles](https://x.com/unbabbles/status/2060095559336116432)
 
 ["A queen dawned in golden silk" by derved\_](https://x.com/derved_/status/2060113424143491547)
