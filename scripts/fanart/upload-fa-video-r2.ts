@@ -5,12 +5,7 @@ import dotenv from "dotenv";
 
 dotenv.config();
 
-const VIDEO_DIR = path.resolve(
-    process.cwd(),
-    "apps",
-    "shared-resources",
-    "new-videos",
-);
+const VIDEO_DIR = path.resolve(process.cwd(), "shared-resources", "new-videos");
 
 const r2 = new S3Client({
     region: "auto",
@@ -77,7 +72,7 @@ async function main() {
         const videoPath = path.join(VIDEO_DIR, videoFile);
 
         // Upload to R2
-        const r2Key = `news/videos/${videoFile}`;
+        const r2Key = `${videoFile}`;
         const videoUrl = await uploadToR2(videoPath, r2Key);
 
         if (!videoUrl) {
