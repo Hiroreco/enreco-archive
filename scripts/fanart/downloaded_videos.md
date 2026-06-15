@@ -38,6 +38,13 @@
 - https://x.com/hiroavrs/status/1923420440363413772
 - https://x.com/erbloodflame/status/1922836899917332646
 - https://x.com/emicootero/status/1921417355772522542
-- https://x.com/arciarcy/status/2058998196836422078
 - https://x.com/sleepyyua/status/2059493524073275753
 - https://x.com/kirbyotaku/status/2063393826446983218
+- https://x.com/paw_chie/status/1923480569280856202
+- https://x.com/werocosmiko/status/2058800535583522856
+- https://x.com/kenjikokun/status/2058892291201441835
+- https://x.com/gaby_joestar/status/2059100327647801566
+- https://x.com/albertweskerh/status/2060618516831908306
+- https://x.com/komilius/status/2061447833266553335
+- https://x.com/nekobandito/status/2062415660949688463
+- https://x.com/arciarcy/status/2058998196836422078
