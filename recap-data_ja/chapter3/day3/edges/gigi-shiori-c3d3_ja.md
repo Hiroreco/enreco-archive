@@ -16,3 +16,7 @@
 もう、自分を誤魔化すのはやめるべきなのかもしれない。
 
 もう、彼女を手放す時なのかもしれない。
+
+## ファンアート
+
+["[Humble Knight's Tale] Chapter 2 - Sunset" by dyusenjin](https://x.com/dyusenjin/status/2061174345142280678)

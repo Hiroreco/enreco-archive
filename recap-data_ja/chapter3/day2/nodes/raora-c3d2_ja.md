@@ -103,15 +103,19 @@
 
 ## ファンアート
 
-["The sheep was only the begining..." by lavendulan](https://x.com/lavendulan/status/2060002325646000178)
+["The sheep" by fennykaaaa](https://x.com/fennykaaaa/status/2061768343846273268)
+
+["60/100 "Illumination"" by hechium](https://x.com/hechium/status/2061016041052901473)
+
+["sadge" by kei_myon](https://x.com/kei_myon/status/2059268149724504226)
+
+["And that's how the Illumination was born..." by lavendulan](https://x.com/lavendulan/status/2060002325646000178)
 
 ["The Sheep" by ddolbang11](https://x.com/ddolbang11/status/2059634430579499467)
 
 ["It's so beautiful" by keenbiscuit](https://x.com/keenbiscuit/status/2059587053827104775)
 
 ["An enigma" by snoweagle110](https://x.com/snoweagle110/status/2059457701491683746)
-
-["The Onesheep is real." by lavendulan](https://x.com/lavendulan/status/2059301550082916615)
 
 ["raora doodles" by chiipzzer](https://x.com/chiipzzer/status/2059212797926355037)
 

@@ -184,6 +184,18 @@ And it seemed there would be more work for Shiori tomorrow, and more would be sa
 
 ## Fanart
 
+["POV You're BLF and you're in a double kabedon" by _n4hkz_](https://x.com/_n4hkz_/status/2061591055888244965)
+
+<!-- liz, nerissa -->
+
+["Double Kabedon" by thekaiyip](https://x.com/thekaiyip/status/2060869375914307914)
+
+<!-- nerissa, kronii -->
+
+["At the doors of hell" by tabsarts](https://x.com/tabsarts/status/2060512596621762995)
+
+["summon your horse" by hotchippyy](https://x.com/hotchippyy/status/2060368076508627049)
+
 ["It is quite a shame, isn't it? My king." by kikoshaula](https://x.com/kikoshaula/status/2060510295106388158)
 
 <!-- raora, bijou, nerissa -->

@@ -132,6 +132,8 @@ And disappointed.
 
 ## Fanart
 
+["Sister of the Cloth" by reendhw](https://x.com/reendhw/status/2060849524567118056)
+
 ["ENreco Shiorin" by ristarx1](https://x.com/ristarx1/status/2060085997812191528)
 
 ["draw with me" by anonamos_701](https://x.com/anonamos_701/status/2059700098410725415)

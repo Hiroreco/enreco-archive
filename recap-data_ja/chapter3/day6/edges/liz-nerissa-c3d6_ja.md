@@ -141,6 +141,7 @@
 [ERPって何？](#embed:https://youtu.be/hjskrraiXp4?t=10258)
 
 ## ファンアート
+
 ["One yuri with tragic ending and a side of potato salad for me please" by np_mango](https://x.com/np_mango/status/2060603442087723384)
 
 ["get behind me, pwincess!!!" by legz0s](https://x.com/legz0s/status/2060664146870534329)

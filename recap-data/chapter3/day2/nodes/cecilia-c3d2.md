@@ -47,6 +47,10 @@ At the end of the day, Immerkind [bids farewell to Fia](https://www.youtube.com/
 
 ## Fanart
 
+[""My shining star"" by jhgardener\_](https://x.com/jhgardener_/status/2058557857478639935)
+
+<!-- iphania -->
+
 ["Morning talk with Fia" by hanaswing](https://x.com/hanaswing/status/2059365424047771767?)
 
 ["I love this Knight so much..." by appletomo\_](https://x.com/appletomo_/status/2059161978942140699)

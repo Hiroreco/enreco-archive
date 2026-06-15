@@ -28,6 +28,10 @@ When the end finally arrives, will they unite together one last time... or turn 
 
 ## Fanart
 
+["「Broken bonds and unbreakable bonds」" by yuri_kyanon](https://x.com/yuri_kyanon/status/2060766769179140543)
+
+<!-- mococo, fuwawa, shiori, nerissa, bijou -->
+
 ["Selling chicken : D" by bunbbun1](https://x.com/bunbbun1/status/2061213107641634959)
 
 <!-- shiori, kiara, bae, calli, gigi, liz, bijou -->

@@ -48,3 +48,5 @@
 - https://x.com/komilius/status/2061447833266553335
 - https://x.com/nekobandito/status/2062415660949688463
 - https://x.com/arciarcy/status/2058998196836422078
+- https://x.com/nei_0n/status/2061503862952145084
+- https://x.com/fennykaaaa/status/2061768343846273268

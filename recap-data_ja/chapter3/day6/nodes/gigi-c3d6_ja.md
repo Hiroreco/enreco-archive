@@ -157,13 +157,17 @@
 
 ## ファンアート
 
+[""For Gonathan G."" by anonkun52297249](https://x.com/anonkun52297249/status/2061734874315440499)
+
+["Gonathon" by starfontaine39](https://x.com/starfontaine39/status/2060481885856567618)
+
 ["Knight Gonathon" by popintarts](https://x.com/popintarts/status/2060520149971874300)
 
 <!-- kronii, ina, cecilia, calli -->
 
 ["Gonathon" by starfontaine39](https://x.com/starfontaine39/status/2060581298755027345)
 
-["The End" by a_nom_](https://x.com/a_nom_/status/2060678583744598179)
+["The End" by a*nom*](https://x.com/a_nom_/status/2060678583744598179)
 
 <!-- cecilia, kronii -->
 

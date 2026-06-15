@@ -114,3 +114,13 @@ _じゃんけんぽん。_
 そして七度すべてで、イナはなぜ自分がリベスタル最高の釣り人なのかを証明してみせたのである。
 
 ついに餌を使い切ったところで、イナはこの日の冒険を終えることにした。
+
+## ファンアート
+
+["Mococloset : D" by bunbbun1](https://x.com/bunbbun1/status/2061214354759127342)
+
+<!-- mococo -->
+
+[""Do you have time to hang out with us, my sister?"" by mpien6](https://x.com/mpien6/status/2060775826954858904)
+
+<!-- shiori, nerissa, bijou -->

@@ -163,6 +163,10 @@ _オーダー._
 
 ## ファンアート
 
+["Good ol' days" by lordjoeboto](https://x.com/lordjoeboto/status/2061724968195416090)
+
+<!-- liz, gigi, cecilia -->
+
 ["NinoIna's days at the knight academy" by ninomaeinanis](https://x.com/ninomaeinanis/status/2060742933947822454)
 
 ["how ninoina was moving on the advent chase minigame with 20 seconds left on the clock" by sunfish_blue](https://x.com/sunfish_blue/status/2061105376054202616)
@@ -171,7 +175,7 @@ _オーダー._
 
 ["The Knight Academy Arc shall continue" by ninomaeinanis](https://x.com/ninomaeinanis/status/2061312864867238345)
 
-["From their knight academy days" by sevfen_](https://x.com/sevfen_/status/2061359794816954455)
+["From their knight academy days" by sevfen\_](https://x.com/sevfen_/status/2061359794816954455)
 
 <!-- gigi, cecilia -->
 
@@ -195,7 +199,7 @@ _オーダー._
 
 <!-- gigi -->
 
-["oyaoya ikemen 🐙" by __mahiru03](https://x.com/__mahiru03/status/2061598864063287625)
+["oyaoya ikemen 🐙" by \_\_mahiru03](https://x.com/__mahiru03/status/2061598864063287625)
 
 ["hero in training" by user_fmky8372](https://x.com/user_fmky8372/status/2061499039078855038)
 

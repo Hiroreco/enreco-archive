@@ -35,6 +35,8 @@
 
 ## ファンアート
 
+["The Magician Reversed: Trickery, Deception, Manipulation." by hato9113](https://x.com/hato9113/status/2064213451191578692)
+
 ["The Mischeveous Little Princess" by yaymics](https://x.com/yaymics/status/2060282969382674439)
 
 ["THE Stained princess" by castella_yaki](https://x.com/castella_yaki/status/2060141570452758732)

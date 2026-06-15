@@ -100,6 +100,7 @@
 フィアが再びベイを救ってくれたのだった。
 
 ## ファンアート
+
 ["perhaps, the wealth that the peasant lacked was never the gold." by drysphere](https://x.com/drysphere/status/2060587005382480350)
 
 ["A Peasant’s Love Returned Empty: Peasant the Bae" by yaymics](https://x.com/yaymics/status/2060656630937559516)

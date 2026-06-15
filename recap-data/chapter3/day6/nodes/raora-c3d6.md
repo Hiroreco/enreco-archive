@@ -86,10 +86,11 @@ The fire within her burned brighter than ever, tempering her resolve to see the 
 And this time, she would not forget why she fought.
 
 ## Fanart
+
 ["“I’ll avenge you, for justice”" by padiberhoodie](https://x.com/padiberhoodie/status/2060638862758851054)
 
 ["Illuminated : D" by bunbbun1](https://x.com/bunbbun1/status/2061212089944043946)
 
-["illumination" by elisbian_](https://x.com/elisbian_/status/2062883223378817167)
+["illumination" by elisbian\_](https://x.com/elisbian_/status/2062883223378817167)
 
 <!-- shiori, kiara -->

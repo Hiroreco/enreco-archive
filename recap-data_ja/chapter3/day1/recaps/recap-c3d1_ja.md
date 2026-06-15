@@ -84,6 +84,13 @@
 ["Freaky Deaky Love (Chapter 3 テーマソング)"](https://www.youtube.com/watch?v=YBtaIGEkEOc)
 
 ## ファンアート
+
+["The Rebellion" by chalek0](https://x.com/chalek0/status/2059396208527888550)
+
+<!-- liz, raora, irys, mococo, nerissa, shiori, fuwawa, bijou, bae -->
+
+["“The Heroes and the King”" by paw_chie](https://x.com/paw_chie/status/2057702434123010232)
+
 ["Trauma : D" by bunbbun1](https://x.com/bunbbun1/status/2061213393269526713)
 
 <!-- kiara, raora, gigi, calli, bijou -->

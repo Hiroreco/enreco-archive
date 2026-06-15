@@ -29,6 +29,12 @@ The humble knight’s day ended with a quaint interaction with Roa, one that too
 
 ## Fanart
 
+["[Humble Knight's Tale] Chapter 1 - Memory" by dyusenjin](https://x.com/dyusenjin/status/2060284508818289126)
+
+["Tired" by keenbiscuit](https://x.com/keenbiscuit/status/2057385404459073665)
+
+<!-- raora -->
+
 ["Gonthon G" by ozasdf](https://x.com/ozasdf/status/2059014654471610581)
 
 ["My knight" by rikuje](https://x.com/rikuje/status/2058920482318254455)

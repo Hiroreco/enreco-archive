@@ -226,6 +226,10 @@ _「あーもう、いいや。出てきて、ニャヴェラ。」_
 
 ## ファンアート
 
+["I pray God will curse the Writer." by artiedoko](https://x.com/artiedoko/status/2060697638526394528)
+
+[""Last day"" by nonononame75679](https://x.com/nonononame75679/status/2060790815094714392)
+
 ["a little ragebait won't kill anyone... right?" by rracuna](https://x.com/rracuna/status/2060672075841335678)
 
 ["Queen in yellow" by kurochanai](https://x.com/kurochanai/status/2060723450235527541)

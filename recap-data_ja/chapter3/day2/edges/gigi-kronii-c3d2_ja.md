@@ -19,6 +19,8 @@
 
 ## ファンアート
 
+["I’m no longer your queen" by doreedogawa](https://x.com/doreedogawa/status/2062402391022903790)
+
 ["And you are?" by dreamplanes256](https://x.com/dreamplanes256/status/2059590123571089495)
 
 ["My queen..." by _hydrawxyl_](https://x.com/_hydrawxyl_/status/2059280317782126859)

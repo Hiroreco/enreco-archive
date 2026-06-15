@@ -135,6 +135,8 @@ Gonathon missed the first call and quickly redialed.
 
 ## Fanart
 
+[""I do care about you.”" by yogkashipan](https://x.com/yogkashipan/status/2060483951500935242)
+
 ["It's okay Gonathon" by maskofgabriel](https://x.com/maskofgabriel/status/2061511256465416339)
 
 ["doubts?" by monochi_21](https://x.com/monochi_21/status/2060025215992975663)

@@ -87,6 +87,8 @@
 
 ## ファンアート
 
+["Broken Bonds 🪞⛓️" by ruffiankeizeddo](https://x.com/ruffiankeizeddo/status/2061280799673245888)
+
 ["the treasurer of the student council" by jhgardener\_](https://x.com/jhgardener_/status/2065798997676281894)
 
 <!-- cecilia, calli, liz, gigi, ina -->

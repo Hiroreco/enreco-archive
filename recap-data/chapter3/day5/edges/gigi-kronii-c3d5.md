@@ -27,6 +27,8 @@ While Tam was quick to object, Gonathon [reminded](https://www.youtube.com/watch
 
 ## Fanart
 
+["[Humble Knight's Tale] Chapter 3 - ̷M̷y̷ ̷Q̷u̷e̷e̷n̷ My Friend" by dyusenjin](https://x.com/dyusenjin/status/2062156480162456006)
+
 ["That time Tam and Gonathan finds something under the church...." by seapupu290495](https://x.com/seapupu290495/status/2061844592589508786)
 
 ["Friend~ 🍊⌚️" by rikuje](https://x.com/rikuje/status/2061856195133268178)

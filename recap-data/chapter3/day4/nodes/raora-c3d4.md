@@ -91,6 +91,12 @@ With the possibility of a grand expedition into the Gap awaiting tomorrow, Roa r
 
 ## Fanart
 
+[""They cling to the script, I have touched the hand that writes it."" by anonkun52297249](https://x.com/anonkun52297249/status/2061326661061386616)
+
+["GOD EYES" by a_dvste](https://x.com/a_dvste/status/2064428707775742060)
+
+["ROA at the end of the map" by d1n0_s4r3](https://x.com/d1n0_s4r3/status/2059651339052065054)
+
 ["The Devil Reversed: Freedom, Revelation, Liberation." by hato9113](https://x.com/hato9113/status/2060362430388355349)
 
 ["The fourth wall..." by reg_501st](https://x.com/reg_501st/status/2060121660523413934)
