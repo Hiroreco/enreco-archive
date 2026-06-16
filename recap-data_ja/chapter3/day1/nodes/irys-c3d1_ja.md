@@ -128,6 +128,8 @@
 
 ## ファンアート
 
+["She who manipulates, she who deceives." by hiroavrs](https://x.com/hiroavrs/status/2046605312908829044)
+
 ["The Bane of Queen Tam Gandr'" by danishakmal_04](https://x.com/danishakmal_04/status/2059461243694665933)
 
 ["Hot Pink One!" by bebeko_z](https://x.com/bebeko_z/status/2058918410294296703)

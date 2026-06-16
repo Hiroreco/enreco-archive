@@ -43,6 +43,10 @@ Refusing to believe his words, Ina denied the Outsider’s proposal, believing h
 
 ## Fanart
 
+["Friendly duel" by hiroavrs](https://x.com/hiroavrs/status/2062188953013506547)
+
+<!-- cecilia -->
+
 ["Good ol' days" by lordjoeboto](https://x.com/lordjoeboto/status/2061724968195416090)
 
 <!-- liz, gigi, cecilia -->

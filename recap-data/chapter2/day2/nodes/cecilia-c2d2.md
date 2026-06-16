@@ -17,7 +17,7 @@ After sobering up with Nerissa's water and discussions with Iphania and Fia, the
 
 [Restful sleep](#embed:https://www.youtube.com/live/48HSA_GcOZ0?t=10944)
 
-### Fanart
+## Fanart
 
 [Soul by Nellepoof](https://x.com/nellepoof/status/1896555698835841279)
 

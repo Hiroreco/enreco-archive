@@ -50,3 +50,5 @@
 - https://x.com/arciarcy/status/2058998196836422078
 - https://x.com/nei_0n/status/2061503862952145084
 - https://x.com/fennykaaaa/status/2061768343846273268
+- https://x.com/hiroavrs/status/2046605312908829044
+- https://x.com/hiroavrs/status/2061101372221878764

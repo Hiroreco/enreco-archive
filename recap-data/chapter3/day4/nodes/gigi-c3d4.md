@@ -35,6 +35,8 @@ From here, Tam roped Gonathon into attempting to [spy](https://www.youtube.com/w
 
 ## Fanart
 
+["I'm slowly starting to forget your face..." by haitang_21](https://x.com/haitang_21/status/2062180001521557814)
+
 ["bad end" by migokami](https://x.com/migokami/status/2060094461913497674)
 
 ["I miss you" by mushydumplin](https://x.com/mushydumplin/status/2060107589023879239)

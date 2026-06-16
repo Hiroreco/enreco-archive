@@ -87,6 +87,8 @@ And this time, she would not forget why she fought.
 
 ## Fanart
 
+["The tragic tale of Roa" by hiroavrs](https://x.com/hiroavrs/status/2061101372221878764)
+
 ["“I’ll avenge you, for justice”" by padiberhoodie](https://x.com/padiberhoodie/status/2060638862758851054)
 
 ["Illuminated : D" by bunbbun1](https://x.com/bunbbun1/status/2061212089944043946)
