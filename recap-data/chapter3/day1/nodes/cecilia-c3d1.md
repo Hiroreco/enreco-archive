@@ -28,3 +28,9 @@ Immerkind travels to Terminus, where she encounters Tam and Gonathon. They mull 
 The whiplash of emotional events in the new kingdom left Immerkind exhausted. She picks up her trusty fishing rod and departs to the nearest river, where [HeroIna saves her](https://www.youtube.com/live/rjNDjL6R3-s?t=14439). They discuss the events of the day and how they are adjusting to this new world they found themselves in (see [Cecilia-Ina](#edge:cecilia-ina)). Immerkind was inspired by the toils of the Knight and resolved herself to work harder to keep up.
 
 Immerkind ends the day by continuing to write her thoughts in her diary and her desire to help Fia, but with some reservations.
+
+## Fanart
+
+["Reunion soon" by hiroavrs](https://x.com/hiroavrs/status/2053129555704225804)
+
+<!-- gigi -->

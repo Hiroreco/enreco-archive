@@ -17,7 +17,7 @@
 
 [安らかな眠り](#embed:https://www.youtube.com/live/48HSA_GcOZ0?t=10944)
 
-### ファンアート
+## ファンアート
 
 [Soul by Nellepoof](https://x.com/nellepoof/status/1896555698835841279)
 

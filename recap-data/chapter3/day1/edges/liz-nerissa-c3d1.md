@@ -29,6 +29,8 @@ When the time came for her to decide what occupation to take, she did not think 
 
 ## Fanart
 
+["Liz when she meets Nerissa" by hiroavrs](https://x.com/hiroavrs/status/2045518878344982881)
+
 [""we could enjoy the view together?"" by kuriducks](https://x.com/kuriducks/status/2061935673603670104)
 
 ["it was the only option, right? ...right?" by ogumashiro](https://x.com/ogumashiro/status/2058899855821406310)

@@ -108,3 +108,7 @@ _なんて懐かしいのだろう。_
 ["throwing up..." by usually0fflin3](https://x.com/usually0fflin3/status/2059850891390505116)
 
 ["I'M NORMAL ABOUT THEM" by unreallyhooman](https://x.com/unreallyhooman/status/2059854215741055454)
+
+## ミーム
+
+["Bloodraven in a nutshell"](https://x.com/hiroavrs/status/2059497616006893609)
