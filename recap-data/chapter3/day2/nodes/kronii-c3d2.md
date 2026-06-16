@@ -27,6 +27,8 @@ As late as she had been to everything, the Azure Maiden still had a pretty good 
 
 ## Fanart
 
+["Tam... are you eating something?" by cipher4109](https://x.com/cipher4109/status/2062190822217351240)
+
 ["A Queen Defeated by Love" by yaymics](https://x.com/yaymics/status/2059190927319539968)
 
 ["who are you?" by koizumi_arata](https://x.com/koizumi_arata/status/2059069809602465854)

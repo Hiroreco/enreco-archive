@@ -73,6 +73,8 @@
 
 ## ファンアート
 
+["Come back, witch" by hanaswing](https://x.com/hanaswing/status/2058609660681212337)
+
 [""From wife, to a friend and a foe?"" by xrandomred](https://x.com/xrandomred/status/2062569005349761287)
 
 <!-- shiori -->

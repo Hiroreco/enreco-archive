@@ -146,6 +146,8 @@
 
 ## ファンアート
 
+["Surely she is not evil, right?" by haaro_69](https://x.com/haaro_69/status/2058264818264789002)
+
 ["In the mirror..." by orangestar09](https://x.com/orangestar09/status/2058977113420763633)
 
 ["she lowkey evil" by unbabbles](https://x.com/unbabbles/status/2058265094564266080)

@@ -55,6 +55,8 @@ Lady Bloodflame, please remain who you are...
 
 ## Fanart
 
+["Blue eye" by hanaswing](https://x.com/hanaswing/status/2059645558709473389)
+
 ["She's not well" by eyes0p0d](https://x.com/eyes0p0d/status/2060058635653591515)
 
 ["Shakira...???" by haiwazenko](https://x.com/haiwazenko/status/2059740911723020292)

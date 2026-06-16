@@ -47,6 +47,8 @@ At the end of the day, Immerkind [bids farewell to Fia](https://www.youtube.com/
 
 ## Fanart
 
+["(Day 2) immerkind trying her best to fix her mistake" by jhgardener\_](https://x.com/jhgardener_/status/2059291995815002238)
+
 [""My shining star"" by jhgardener\_](https://x.com/jhgardener_/status/2058557857478639935)
 
 <!-- iphania -->

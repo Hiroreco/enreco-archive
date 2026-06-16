@@ -82,6 +82,14 @@ _cues in_
 
 ## Fanart
 
+[""What have I done..."" by legz0s](https://x.com/legz0s/status/2060020294199529617)
+
+["Stay behind me, Pwincess!" by suitabledeer](https://x.com/suitabledeer/status/2061757048484663616)
+
+<!-- cecilia -->
+
+[""Blue is my favorite color, and it suits you... perfectly."" by scheraschera267](https://x.com/scheraschera267/status/2064323498282258525)
+
 ["【The Distraction】" by kirbyotaku](https://x.com/kirbyotaku/status/2063393826446983218)
 
 <!-- cecilia, gigi -->

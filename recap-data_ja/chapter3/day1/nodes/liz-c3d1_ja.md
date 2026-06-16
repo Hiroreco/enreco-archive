@@ -149,6 +149,8 @@
 
 ## ファンアート
 
+["( \*｀ω´)" by mcrtj00](https://x.com/mcrtj00/status/2034498049784074414)
+
 ["The Knight Bound by Loyalty" by yaymics](https://x.com/yaymics/status/2058876559474196636)
 
 ["so happy for her" by mokujyan](https://x.com/mokujyan/status/2058746541754744940)

@@ -63,3 +63,9 @@ Not the destination,
 But the bonds they shared along the way.
 
 ![](/images-opt/recap-c3-2-opt.webp)
+
+## Fanart
+
+["my delusions" by lestkrr](https://x.com/lestkrr/status/2061721713641959620)
+
+<!-- raora, shiori -->

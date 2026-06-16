@@ -37,3 +37,7 @@ She panicked. She... she recognized she was being greedy. A lot of people don't 
 Elizabeth's current state wasn't helping. She was relapsing over many things regarding Nerissa Juliet and Sister Shiori, but in her heart... she was still Mococo's sister. She could only hope the fuzzy one would still feel the same...
 
 ["...it does make me... no. This should make me happy."](#embed:https://www.youtube.com/live/8J7aGAe42EE?t=9477)
+
+## Fanart
+
+["「the price of recollection」animatic" by m_agho](https://x.com/m_agho/status/2060157909905068335)

@@ -61,6 +61,8 @@ V̵̲̔͛͘͝͠I̴̻̟͇̺̹̾͂̾͋͝V̶̙̹̘̪̀̽̈́̍͠Ầ̵̼̰̰̗͉̎̾
 
 ## ファンアート
 
+["Looping The Border" by mayobi_png](https://x.com/mayobi_png/status/2063780024738627709)
+
 ["Rkgk 🐱!" by chiipzzer](https://x.com/chiipzzer/status/2061362608804941969)
 
 ["Bad Memories." by lowbitstudio](https://x.com/lowbitstudio/status/2060589033366151285)

@@ -43,6 +43,14 @@ Refusing to believe his words, Ina denied the Outsider’s proposal, believing h
 
 ## Fanart
 
+["Nino Ina the young squire" by dreamplanes256](https://x.com/dreamplanes256/status/2062949099721388537)
+
+["knight academy NinoIna" by vanssey\_](https://x.com/vanssey_/status/2062584884925759605)
+
+["potato and beans" by komilius](https://x.com/komilius/status/2061749703625392257)
+
+<!-- gigi -->
+
 ["Friendly duel" by hiroavrs](https://x.com/hiroavrs/status/2062188953013506547)
 
 <!-- cecilia -->

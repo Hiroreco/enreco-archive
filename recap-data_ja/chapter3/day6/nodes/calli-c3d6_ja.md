@@ -136,3 +136,7 @@ _法廷でな！_
 [カウンセラーの仕事も案外悪くなかった。](https://www.youtube.com/watch?v=j2loI_6HkqI&t=132480)
 
 これからは、そちらにも少し力を入れてみるかもしれない。
+
+## ファンアート
+
+["but a humble chef" by piretto24k](https://x.com/piretto24k/status/2062286320274145312)

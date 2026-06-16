@@ -43,6 +43,8 @@ After all, Roa was the one who stayed behind to see Tam off at the very end of t
 
 ## Fanart
 
+["Tim Gandr" by underdatv](https://x.com/underdatv/status/2059456590550565054)
+
 ["phone call" by albertweskerh](https://x.com/albertweskerh/status/2060618516831908306)
 
 ["SAY IT!!" by wankonanoo](https://x.com/wankonanoo/status/2059498769469845534)

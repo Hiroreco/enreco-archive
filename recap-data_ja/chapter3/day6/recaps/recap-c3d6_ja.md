@@ -71,3 +71,9 @@
 その道のりで彼女たちが分かち合った絆なのだ。
 
 ![](/images-opt/recap-c3-2-opt.webp)
+
+## ファンアート
+
+["my delusions" by lestkrr](https://x.com/lestkrr/status/2061721713641959620)
+
+<!-- raora, shiori -->

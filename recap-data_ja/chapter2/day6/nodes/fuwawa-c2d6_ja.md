@@ -27,6 +27,10 @@
 
 ## ファンアート
 
+["Excited for chapter 3" by hiroavrs](https://x.com/hiroavrs/status/2016529962816471416)
+
+<!-- mococo -->
+
 ["Libestal's Young Chef (Part 2)" by Dreamplanes](https://x.com/Dreamplanes256/status/1922931113174917132)
 
 <!-- shiori -->

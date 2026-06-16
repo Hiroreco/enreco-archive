@@ -28,6 +28,10 @@ When the end finally arrives, will they unite together one last time... or turn 
 
 ## Fanart
 
+["Pets" by snoweagle110](https://x.com/snoweagle110/status/2061628237361623259)
+
+<!-- calli, ina, kiara, bae, kronii, fuwawa, shiori, nerissa, mococo, raora, liz, bijou, cecilia, gigi -->
+
 ["「Broken bonds and unbreakable bonds」" by yuri_kyanon](https://x.com/yuri_kyanon/status/2060766769179140543)
 
 <!-- mococo, fuwawa, shiori, nerissa, bijou -->
