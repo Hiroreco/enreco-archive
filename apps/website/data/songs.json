@@ -159,7 +159,7 @@
         {
             "title": "Alchemist",
             "info": {
-                "en": "Labirynth of Emotions Theme (Chapter 3)",
+                "en": "Labyrinth of Emotions Theme (Chapter 3)",
                 "ja": "感情の迷宮のテーマ（第3章）"
             },
             "originalUrl": "https://audiostock.net/tracks/34767",
@@ -544,6 +544,51 @@
             "sourceUrl": "/audio/songs/talent/talent-play-dice.mp3",
             "coverUrl": "/images-opt/song-talent-play-dice-opt.webp",
             "duration": "03:43"
+        },
+        {
+            "title": "Monsters and Men",
+            "info": {
+                "en": "Obtained in Labyrinth of Knowledge",
+                "ja": "知識の迷宮で入手"
+            },
+            "originalUrl": "https://www.youtube.com/watch?v=NX1ZCKJ67dc",
+            "sourceUrl": "/audio/songs/talent/talent-monsters-and-men.mp3",
+            "coverUrl": "/images-opt/song-talent-monsters-and-men-opt.webp",
+            "duration": "03:36"
+        },
+        {
+            "title": "ROCK IN!",
+            "info": {
+                "en": "Obtained in Labyrinth of Emotion",
+                "ja": "感情の迷宮で入手"
+            },
+            "originalUrl": "https://www.youtube.com/watch?v=XSZ0iMP80QQ",
+            "sourceUrl": "/audio/songs/talent/talent-rock-in.mp3",
+            "coverUrl": "/images-opt/song-talent-rock-in-opt.webp",
+            "duration": "03:37"
+        },
+
+        {
+            "title": "In My Feelings",
+            "info": {
+                "en": "Obtained in Labyrinth of Song",
+                "ja": "歌の迷宮で入手"
+            },
+            "originalUrl": "https://www.youtube.com/watch?v=07KOLCi_j20",
+            "sourceUrl": "/audio/songs/talent/talent-in-my-feelings.mp3",
+            "coverUrl": "/images-opt/song-talent-in-my-feelings-opt.webp",
+            "duration": "03:28"
+        },
+        {
+            "title": "Born to be \"BAU\"DOL☆★",
+            "info": {
+                "en": "Obtained in Labyrinth of Duality",
+                "ja": "二元性の迷宮で入手"
+            },
+            "originalUrl": "https://www.youtube.com/watch?v=aThUfmKQgaY",
+            "sourceUrl": "/audio/songs/talent/talent-born-to-be-baudol.mp3",
+            "coverUrl": "/images-opt/song-talent-born-to-be-baudol-opt.webp",
+            "duration": "03:35"
         }
     ],
     "special": [
