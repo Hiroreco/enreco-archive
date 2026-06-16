@@ -142,7 +142,13 @@
 
 ## ファンアート
 
-["😮?!" by ron__melon](https://x.com/ron__melon/status/2063277565318750271)
+["A kiss between a knight and a witch 🥀" by akan_emi](https://x.com/akan_emi/status/2065896694642888795)
+
+["BLOODRAVEN DIVORCE ERA RRAAAAAHHHHH" by padiberhoodie](https://x.com/padiberhoodie/status/2062762939351011757)
+
+["i love ENreco roleplay" by meyshi29](https://x.com/meyshi29/status/2060928465998946593)
+
+["😮?!" by ron\_\_melon](https://x.com/ron__melon/status/2063277565318750271)
 
 <!-- gigi, cecilia -->
 

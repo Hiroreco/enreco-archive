@@ -87,6 +87,10 @@
 
 ## ファンアート
 
+["She's here for me (self insert 2)" by f1shtako](https://x.com/f1shtako/status/2064147187018191040)
+
+["Pretty late with this one but.. self insert 👍" by f1shtako](https://x.com/f1shtako/status/2064062943164015096)
+
 ["Broken Bonds 🪞⛓️" by ruffiankeizeddo](https://x.com/ruffiankeizeddo/status/2061280799673245888)
 
 ["the treasurer of the student council" by jhgardener\_](https://x.com/jhgardener_/status/2065798997676281894)

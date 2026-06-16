@@ -91,6 +91,8 @@ SIR MEOWを連れたニノイナは、その後エサ用の素材集めや寄付
 
 ## ファンアート
 
+["ENReco Ina" by artofdinn](https://x.com/artofdinn/status/2061644831731204226)
+
 ["The River prince is real!!!" by chalek0](https://x.com/chalek0/status/2059043126958764390)
 
 <!-- cecilia -->

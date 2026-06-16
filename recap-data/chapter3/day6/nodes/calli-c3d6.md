@@ -34,3 +34,7 @@ Mordon wasn't really keen on rushing things, but at this point, whatever, man. U
 Once THAT was dealt with, it was time to finally enter Nullspace. Mordon stayed mostly to herself as their adventure would come to a close for the time being (see: [Faust](#node:faust)). It was a perilous final stretch, but once it was all done with, Mordon refused to offer her strength to The Outsider. Good food would SAVE the world, not REFORM it!
 
 Although she's thinking it is time to try something new moving forward. Being a chef is a good life... but [her counseling gig wasn't too bad](https://www.youtube.com/watch?v=j2loI_6HkqI&t=132480) either. Maybe she'd focus on that a little bit more in the future.
+
+## Fanart
+
+["but a humble chef" by piretto24k](https://x.com/piretto24k/status/2062286320274145312)

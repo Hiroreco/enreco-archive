@@ -37,7 +37,7 @@ It was then that a dark shadow descended, as Nerissa revealed herself. Realizing
 
 ## Fanart
 
-["Gonathon G" by _nhase](https://x.com/_nhase/status/2060566043584807034)
+["Gonathon G" by \_nhase](https://x.com/_nhase/status/2060566043584807034)
 
 ["Conturbatio et Decretum" by spiderlycoris](https://x.com/spiderlycoris/status/2060350494179205611)
 

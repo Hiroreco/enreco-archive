@@ -37,6 +37,8 @@ With a wistful melancholy, Gonathon described his [monarch](https://www.youtube.
 
 ## Fanart
 
+["For her." by pepi_crza](https://x.com/pepi_crza/status/2060490872572031167)
+
 ["we love our Queen!" by enefwastaken](https://x.com/enefwastaken/status/2060142855461462315)
 
 <!-- raora -->

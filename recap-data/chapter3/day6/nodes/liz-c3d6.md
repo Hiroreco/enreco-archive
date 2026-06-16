@@ -49,6 +49,8 @@ It seemed like all of their efforts were foiled again. They would have to fight 
 
 ## Fanart
 
+["ちょっと遅れたけどENrecoシーズン3お疲れさま～！" by momomos_art](https://x.com/momomos_art/status/2061723266486829440)
+
 ["Lady Bloodflame Fan Design" by wherechisomei](https://x.com/wherechisomei/status/2066509504913760743)
 
 ["blue does suits her" by leuvi_tte](https://x.com/leuvi_tte/status/2060717919643029885)

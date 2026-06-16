@@ -73,3 +73,7 @@
 あのふわふわの妹も、変わらずそう思っていてくれることを願うしかなかった。
 
 [「……それは私を……いや。これは喜ぶべきことなんだ。」](#embed:https://www.youtube.com/live/8J7aGAe42EE?t=9477)
+
+## ファンアート
+
+["「the price of recollection」animatic" by m_agho](https://x.com/m_agho/status/2060157909905068335)

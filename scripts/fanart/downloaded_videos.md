@@ -53,3 +53,6 @@
 - https://x.com/hiroavrs/status/2046605312908829044
 - https://x.com/hiroavrs/status/2061101372221878764
 - https://x.com/mayobi_png/status/2063780024738627709
+- https://x.com/3l30s/status/2019428298770772202
+- https://x.com/m_agho/status/2060157909905068335
+- https://x.com/lestkrr/status/2061721713641959620

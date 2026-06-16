@@ -17,4 +17,6 @@
 
 ## ファンアート
 
+["DAY 5" by 3l30s](https://x.com/3l30s/status/2019428298770772202)
+
 ["humble knight more like fumble knight" by Gardener](https://x.com/jhgardener_/status/1920897502833787226)

@@ -163,6 +163,10 @@ _オーダー._
 
 ## ファンアート
 
+["Nino Ina the young squire" by dreamplanes256](https://x.com/dreamplanes256/status/2062949099721388537)
+
+["knight academy NinoIna" by vanssey\_](https://x.com/vanssey_/status/2062584884925759605)
+
 ["potato and beans" by komilius](https://x.com/komilius/status/2061749703625392257)
 
 <!-- gigi -->

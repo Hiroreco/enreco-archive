@@ -135,6 +135,10 @@ Gonathon missed the first call and quickly redialed.
 
 ## Fanart
 
+[""What if we can be cursed... together?"" by jayteamations](https://x.com/jayteamations/status/2060253408620355731)
+
+["Good night… sweet prince 🧡" by another_achicvc](https://x.com/another_achicvc/status/2060942403905949877)
+
 [""I do care about you.”" by yogkashipan](https://x.com/yogkashipan/status/2060483951500935242)
 
 ["It's okay Gonathon" by maskofgabriel](https://x.com/maskofgabriel/status/2061511256465416339)

@@ -24,3 +24,7 @@ They were also in sync when it was time for them to make their final decision, m
 Or... more accurately, to one fluffy one...
 
 As long as there's... [only](https://www.youtube.com/watch?v=mIsHnxTVoFM&t=11736s) the two of them.
+
+## Fanart
+
+["FuwaMoco" by fukuinu_daddy](https://x.com/fukuinu_daddy/status/2060552295612658040)

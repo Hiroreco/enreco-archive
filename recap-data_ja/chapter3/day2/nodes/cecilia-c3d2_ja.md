@@ -52,6 +52,8 @@
 
 ## ファンアート
 
+["(Day 2) immerkind trying her best to fix her mistake" by jhgardener\_](https://x.com/jhgardener_/status/2059291995815002238)
+
 [""My shining star"" by jhgardener\_](https://x.com/jhgardener_/status/2058557857478639935)
 
 <!-- iphania -->

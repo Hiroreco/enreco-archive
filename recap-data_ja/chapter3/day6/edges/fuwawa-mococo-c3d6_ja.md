@@ -70,3 +70,7 @@
 片方のふわふわな少女にとっては――
 
 [二人だけ](https://www.youtube.com/watch?v=mIsHnxTVoFM&t=11736s)でさえいられれば、それでよかったのだ。
+
+## ファンアート
+
+["FuwaMoco" by fukuinu_daddy](https://x.com/fukuinu_daddy/status/2060552295612658040)
