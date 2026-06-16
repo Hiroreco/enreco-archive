@@ -163,6 +163,10 @@ _オーダー._
 
 ## ファンアート
 
+["potato and beans" by komilius](https://x.com/komilius/status/2061749703625392257)
+
+<!-- gigi -->
+
 ["Friendly duel" by hiroavrs](https://x.com/hiroavrs/status/2062188953013506547)
 
 <!-- cecilia -->

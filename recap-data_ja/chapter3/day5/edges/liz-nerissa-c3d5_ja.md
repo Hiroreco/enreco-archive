@@ -178,6 +178,8 @@
 
 ## ファンアート
 
+[""Blue is my favorite color, and it suits you... perfectly."" by scheraschera267](https://x.com/scheraschera267/status/2064323498282258525)
+
 ["【The Distraction】" by kirbyotaku](https://x.com/kirbyotaku/status/2063393826446983218)
 
 <!-- cecilia, gigi -->

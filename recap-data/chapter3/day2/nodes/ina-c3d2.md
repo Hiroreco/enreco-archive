@@ -29,6 +29,10 @@ After procuring the time piece, Ina determined it best to aid Tam in her quest t
 
 ## Fanart
 
+["The River prince is real!!!" by chalek0](https://x.com/chalek0/status/2059043126958764390)
+
+<!-- cecilia -->
+
 ["The elusive river prince" by unreallyhooman](https://x.com/unreallyhooman/status/2060281474323034538)
 
 ["Behold, Sir Meow" by wydken](https://x.com/wydken/status/2059399123233546564)

@@ -101,6 +101,8 @@ _まったくもって心外だった。_
 
 ## ファンアート
 
+["Lady Bloodflame Fan Design" by wherechisomei](https://x.com/wherechisomei/status/2066509504913760743)
+
 ["blue does suits her" by leuvi_tte](https://x.com/leuvi_tte/status/2060717919643029885)
 
 ["Flame for justice" by genzinn_96](https://x.com/genzinn_96/status/2061007299960074300)

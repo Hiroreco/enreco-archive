@@ -17,6 +17,8 @@ Bijou reveals herself before Roa as she is about to be sacrificed to the Outer G
 
 ## Fanart
 
+["That peak moment in ENReco 3" by lemisterrai](https://x.com/lemisterrai/status/2065774088824779159)
+
 ["Insert Reverse Flash meme \* : D" by bunbbun1](https://x.com/bunbbun1/status/2061212551766241373)
 
 ["Reveal." by seapupu290495](https://x.com/seapupu290495/status/2060405159914795401)

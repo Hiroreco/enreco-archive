@@ -96,6 +96,10 @@ As if declaring her love for the last time before this world came to an end, she
 
 ## Fanart
 
+["😮?!" by ron__melon](https://x.com/ron__melon/status/2063277565318750271)
+
+<!-- gigi, cecilia -->
+
 ["One yuri with tragic ending and a side of potato salad for me please" by np_mango](https://x.com/np_mango/status/2060603442087723384)
 
 ["get behind me, pwincess!!!" by legz0s](https://x.com/legz0s/status/2060664146870534329)

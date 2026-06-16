@@ -68,6 +68,8 @@ Gold was the only thing that mattered in the end.
 
 ## Fanart
 
+["A snippet of a charming duo." by standingplace12](https://x.com/standingplace12/status/2065674004283756564)
+
 ["the answer remains the same, but..." by jhgardener\_](https://x.com/jhgardener_/status/2060753373612409236)
 
 ["🎲🍵Peasant you deserve it" by fongban\_](https://x.com/fongban_/status/2061028752981991871)
