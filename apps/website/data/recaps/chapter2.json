@@ -2408,6 +2408,35 @@
           "selected": false
         },
         {
+          "id": "shiori-gigi",
+          "source": "shiori",
+          "target": "gigi",
+          "sourceHandle": "right-2",
+          "targetHandle": "left-2",
+          "type": "fixed",
+          "data": {
+            "relationshipId": "its-complicated",
+            "title": {
+              "en": "Perhaps, I Should Let Go",
+              "ja": "手放すべきなのかもしれない"
+            },
+            "content": {
+              "en": "Gonathon was still desperately clinging to whatever remained of his relationship with Shiori, but after the events that unfolded at her church today... he wasn't sure he could keep doing it anymore.\n\n[I'm gonna throw up...](#embed:https://www.youtube.com/live/uLitDJpSaKQ?t=11538)\n\nLearning that Shiori had hung Shakira's corpse above her so-called \"funeral\" was already horrifying enough. Realizing that the monochrome maiden had secretly dug up the body herself without anyone noticing only made things worse.\n\nWhat little certainty Gonathon still held onto began crumbling apart.\n\nThe feelings he once tried so hard to preserve now felt weaker than ever, slowly fading toward complete collapse. Even [Immerkind](https://www.youtube.com/live/uLitDJpSaKQ?t=11720) recognized how unhealthy this attachment had become for him. Deep down, Gonathon was beginning to realize the same thing himself.\n\nPerhaps it was finally time to stop deluding himself.\n\nPerhaps it was finally time to let go.\n\n## Fanart\n\n[\"[Humble Knight's Tale] Chapter 2 - Sunset\" by dyusenjin](https://x.com/dyusenjin/status/2061174345142280678)",
+              "ja": "ゴナソンはまだ必死に、シオリとの関係に残されたものへ縋りついていた。だが、今日教会で起きた出来事を経て――もう限界なのかもしれないと感じ始めていた。\n\n[吐きそうだ……](#embed:https://www.youtube.com/live/uLitDJpSaKQ?t=11538)\n\nシオリが、いわゆる“葬式”の場でシャキーラの遺体を吊るしていたと知っただけでも十分に恐ろしかった。しかも、その遺体を誰にも気づかれないまま、彼女自身が密かに掘り起こしていたと知り、事態はさらに悪化する。\n\nゴナソンがかろうじて抱えていた確信は、音を立てて崩れ始めていた。\n\n必死に守ろうとしてきた想いも、今ではかつてないほど弱まり、完全に消え去ろうとしている。\n\n[イマーキンド](https://www.youtube.com/live/uLitDJpSaKQ?t=11720)ですら、この執着がどれほど不健全なものになっているかを理解していた。そしてゴナソン自身も、心のどこかでは同じことに気づき始めていた。\n\nもう、自分を誤魔化すのはやめるべきなのかもしれない。\n\nもう、彼女を手放す時なのかもしれない。\n\n## ファンアート\n\n[\"[Humble Knight's Tale] Chapter 2 - Sunset\" by dyusenjin](https://x.com/dyusenjin/status/2061174345142280678)"
+            },
+            "pathType": "custom",
+            "day": 2,
+            "offsets": {
+              "HL": 0,
+              "VL": 120,
+              "HC": 0,
+              "VR": -124,
+              "HR": 0
+            }
+          },
+          "selected": false
+        },
+        {
           "id": "liz-nerissa",
           "source": "liz",
           "target": "nerissa",
