@@ -8,7 +8,7 @@ import { getCardFanartData } from "@/components/view/chart-cards/card-fanart-uti
 import { ViewMarkdown } from "@/components/view/markdown/Markdown";
 import { EdgeLinkClickHandler } from "@/components/view/markdown/EdgeLink";
 import { NodeLinkClickHandler } from "@/components/view/markdown/NodeLink";
-import { ImageNodeType } from "@enreco-archive/common/types";
+import { FixedEdgeType, ImageNodeType } from "@enreco-archive/common/types";
 import { isMobileViewport, isNode } from "@/lib/utils";
 
 import Image from "next/image";
@@ -33,6 +33,9 @@ import { useShallow } from "zustand/react/shallow";
 import { useLocalizedData } from "@/hooks/useLocalizedData";
 import { cn } from "@enreco-archive/common-ui/lib/utils";
 
+import { ChevronLeftIcon } from "lucide-react";
+import { Button } from "@enreco-archive/common-ui/components/button";
+
 interface Props {
     isCardOpen: boolean;
     onCardClose: () => void;
@@ -40,6 +43,8 @@ interface Props {
     onEdgeLinkClicked: EdgeLinkClickHandler;
     setChartShrink: (width: number) => void;
     onDayChange: (newDay: number) => void;
+    history: (ImageNodeType | FixedEdgeType)[];
+    goBack: () => void;
 }
 
 const NodeCard = ({
@@ -49,6 +54,8 @@ const NodeCard = ({
     onEdgeLinkClicked,
     setChartShrink,
     onDayChange,
+    history,
+    goBack,
 }: Props) => {
     const tNodeCard = useTranslations("cards.nodeCard");
     const tConstants = useTranslations("constants");
@@ -129,6 +136,7 @@ const NodeCard = ({
             ></VaulDrawer>
         );
     }
+    console.log(renderContent, "renderContent", selectedNode, nodeTeam);
 
     const availiableNodes: ImageNodeType[] = [];
     for (const chart of charts) {
@@ -166,6 +174,16 @@ const NodeCard = ({
             >
                 {/* Header */}
                 <div className="flex-none flex flex-col items-center">
+                    {history.length > 0 && (
+                        <Button
+                            variant="ghost"
+                            size="icon"
+                            onClick={goBack}
+                            className="absolute top-6 left-6 z-20 bg-black/50 rounded-xl p-1"
+                        >
+                            <ChevronLeftIcon className="h-4 w-4" />
+                        </Button>
+                    )}
                     <Stack className="w-full">
                         <StackItem className="relative">
                             <NodeCardDeco

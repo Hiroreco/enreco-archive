@@ -111,6 +111,10 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
     const setDay = useViewStore((state) => state.setDay);
     const setChapter = useViewStore((state) => state.setChapter);
 
+    const history = useViewStore((state) => state.history);
+    const goBack = useViewStore((state) => state.goBack);
+    const clearHistory = useViewStore((state) => state.clearHistory);
+
     const currentCard = useViewStore((state) => state.currentCard);
     const openNodeCard = useViewStore((state) => state.openNodeCard);
     const openEdgeCard = useViewStore((state) => state.openEdgeCard);
@@ -256,6 +260,7 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
         setChapter(newChapter);
         setDay(newDay);
         setBrowserHash(`${newChapter}/${newDay}`);
+        clearHistory();
     }
 
     /* Event handler functions */
@@ -425,6 +430,8 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
                     onDayChange={(newDay) => {
                         changeWorkingData(chapter, newDay);
                     }}
+                    history={history}
+                    goBack={goBack}
                     setChartShrink={setChartShrinkAndFit}
                 />
 
@@ -436,6 +443,8 @@ const ViewApp = ({ isInLoadingScreen, bgImage }: Props) => {
                     onDayChange={(newDay) => {
                         changeWorkingData(chapter, newDay);
                     }}
+                    history={history}
+                    goBack={goBack}
                     setChartShrink={setChartShrinkAndFit}
                 />
             </div>

@@ -33,6 +33,9 @@ import { useViewStore } from "@/store/viewStore";
 import { useShallow } from "zustand/react/shallow";
 import { useLocalizedData } from "@/hooks/useLocalizedData";
 
+import { ChevronLeftIcon } from "lucide-react";
+import { Button } from "@enreco-archive/common-ui/components/button";
+
 interface Props {
     isCardOpen: boolean;
     onCardClose: () => void;
@@ -40,6 +43,8 @@ interface Props {
     onEdgeLinkClicked: EdgeLinkClickHandler;
     onDayChange: (newDay: number) => void;
     setChartShrink: (width: number) => void;
+    history: (ImageNodeType | FixedEdgeType)[];
+    goBack: () => void;
 }
 
 const EdgeCard = ({
@@ -49,6 +54,8 @@ const EdgeCard = ({
     onNodeLinkClicked,
     onDayChange,
     setChartShrink,
+    history,
+    goBack,
 }: Props) => {
     const tEdgeCard = useTranslations("cards.edgeCard");
     const tConstants = useTranslations("constants");
@@ -185,6 +192,16 @@ const EdgeCard = ({
             >
                 {/* Header */}
                 <div className="flex flex-col items-center">
+                    {history.length > 0 && (
+                        <Button
+                            variant="ghost"
+                            size="icon"
+                            onClick={goBack}
+                            className="absolute top-6 left-6 z-20 bg-black/50 rounded-lg p-1"
+                        >
+                            <ChevronLeftIcon className="h-4 w-4" />
+                        </Button>
+                    )}
                     <Stack className="w-full">
                         <StackItem className="relative">
                             <EdgeCardDeco color={backgroundColor} />

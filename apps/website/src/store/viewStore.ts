@@ -1,3 +1,4 @@
+import { isNode } from "@/lib/utils";
 import {
     FixedEdgeType,
     ImageNodeType,
@@ -62,22 +63,58 @@ interface ViewUiSlice {
     closeCard: () => void;
 
     selectedElement: ImageNodeType | FixedEdgeType | null;
-    selectElement: (element: ImageNodeType | FixedEdgeType) => void;
+    selectElement: (
+        element: ImageNodeType | FixedEdgeType,
+        fromHistory?: boolean,
+    ) => void;
     deselectElement: () => void;
+    goBack: () => void;
+    history: (ImageNodeType | FixedEdgeType)[];
+    clearHistory: () => void;
 }
 
 const createUiSlice: StateCreator<ViewStoreType, [], [], ViewUiSlice> = (
     set,
+    get,
 ) => ({
     currentCard: null,
     openNodeCard: () => set(() => ({ currentCard: "node" })),
     openEdgeCard: () => set(() => ({ currentCard: "edge" })),
     openSettingsCard: () => set(() => ({ currentCard: "setting" })),
-    closeCard: () => set(() => ({ currentCard: null })),
+    closeCard: () => set(() => ({ currentCard: null, history: [] })),
 
     selectedElement: null,
-    selectElement: (element) => set(() => ({ selectedElement: element })),
-    deselectElement: () => set(() => ({ selectedElement: null })),
+    selectElement: (element, fromHistory = false) => {
+        const { selectedElement, history } = get();
+        const newHistory = [...history];
+
+        if (selectedElement && !fromHistory) {
+            newHistory.push(selectedElement);
+        }
+
+        set(() => ({
+            selectedElement: element,
+            history: newHistory,
+        }));
+    },
+    deselectElement: () => set(() => ({ selectedElement: null, history: [] })),
+    goBack: () => {
+        const { history } = get();
+        if (history.length > 0) {
+            const newHistory = [...history];
+            const previousElement = newHistory.pop()!;
+
+            set({
+                selectedElement: previousElement,
+                history: newHistory,
+                currentCard: isNode(previousElement) ? "node" : "edge",
+            });
+        }
+    },
+    clearHistory: () => {
+        set(() => ({ history: [] }));
+    },
+    history: [],
 });
 
 /** Slice to hold the visibility of various elements of the relationship chart. */
