@@ -12,7 +12,7 @@ import { FixedEdgeType, ImageNodeType } from "@enreco-archive/common/types";
 import { isMobileViewport, isNode } from "@/lib/utils";
 
 import Image from "next/image";
-import { useEffect, useMemo, useRef } from "react";
+import { useCallback, useEffect, useMemo, useRef } from "react";
 import CardDaySwitcher from "@/components/view/chart-cards/CardDaySwitcher";
 import CardUtilities from "@/components/view/chart-cards/CardUtilities";
 import { Check } from "lucide-react";
@@ -28,7 +28,7 @@ import {
 import { useTranslations } from "next-intl";
 import PrevNextDayNavigation from "@/components/view/chart-cards/PrevNextDayNavigation";
 import { AnimatePresence, motion } from "framer-motion";
-import { useViewStore } from "@/store/viewStore";
+import { HistoryEntry, useViewStore } from "@/store/viewStore";
 import { useShallow } from "zustand/react/shallow";
 import { useLocalizedData } from "@/hooks/useLocalizedData";
 import { cn } from "@enreco-archive/common-ui/lib/utils";
@@ -43,7 +43,7 @@ interface Props {
     onEdgeLinkClicked: EdgeLinkClickHandler;
     setChartShrink: (width: number) => void;
     onDayChange: (newDay: number) => void;
-    history: (ImageNodeType | FixedEdgeType)[];
+    history: HistoryEntry[];
     goBack: () => void;
 }
 
@@ -60,7 +60,27 @@ const NodeCard = ({
     const tNodeCard = useTranslations("cards.nodeCard");
     const tConstants = useTranslations("constants");
 
-    const contentRef = useRef<HTMLDivElement>(null);
+    const setPendingScrollTop = useViewStore(
+        (state) => state.setPendingScrollTop,
+    );
+    const scrollRestorePosition = useViewStore(
+        (state) => state.scrollRestorePosition,
+    );
+    const clearScrollRestorePosition = useViewStore(
+        (state) => state.clearScrollRestorePosition,
+    );
+
+    const contentDomRef = useRef<HTMLDivElement | null>(null);
+    const contentRef = useCallback(
+        (node: HTMLDivElement | null) => {
+            contentDomRef.current = node;
+            if (node !== null && scrollRestorePosition !== null) {
+                node.scrollTop = scrollRestorePosition;
+                clearScrollRestorePosition();
+            }
+        },
+        [scrollRestorePosition, clearScrollRestorePosition],
+    );
 
     const readStatus = usePersistedViewStore((state) => state.readStatus);
     const setReadStatus = usePersistedViewStore((state) => state.setReadStatus);
@@ -86,8 +106,15 @@ const NodeCard = ({
 
     // Reset scroll position when selectedNode changes
     useEffect(() => {
-        if (contentRef.current) {
-            contentRef.current.scrollTop = 0;
+        if (contentDomRef.current) {
+            contentDomRef.current.scrollTop = 0;
+        }
+    }, [selectedNode]);
+
+    // Reset scroll position when selectedNode changes (but not from goBack)
+    useEffect(() => {
+        if (scrollRestorePosition === null && contentDomRef.current) {
+            contentDomRef.current.scrollTop = 0;
         }
     }, [selectedNode]);
 
@@ -160,6 +187,22 @@ const NodeCard = ({
         1: tNodeCard("job"),
         2: tNodeCard("job"),
     };
+
+    const handleNodeLinkClicked: NodeLinkClickHandler = useCallback(
+        (node) => {
+            setPendingScrollTop(contentDomRef.current?.scrollTop ?? 0);
+            onNodeLinkClicked(node);
+        },
+        [onNodeLinkClicked, setPendingScrollTop],
+    );
+
+    const handleEdgeLinkClicked: EdgeLinkClickHandler = useCallback(
+        (edge) => {
+            setPendingScrollTop(contentDomRef.current?.scrollTop ?? 0);
+            onEdgeLinkClicked(edge);
+        },
+        [onEdgeLinkClicked, setPendingScrollTop],
+    );
 
     return (
         <VaulDrawer
@@ -280,8 +323,8 @@ const NodeCard = ({
                             transition={{ duration: 0.3 }}
                         >
                             <ViewMarkdown
-                                onEdgeLinkClicked={onEdgeLinkClicked}
-                                onNodeLinkClicked={onNodeLinkClicked}
+                                onEdgeLinkClicked={handleEdgeLinkClicked}
+                                onNodeLinkClicked={handleNodeLinkClicked}
                                 className="md:px-4 px-2"
                             >
                                 {contentWithoutFanart || tNodeCard("noContent")}

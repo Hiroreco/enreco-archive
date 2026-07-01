@@ -14,7 +14,7 @@ import { FixedEdgeType, ImageNodeType } from "@enreco-archive/common/types";
 import { isEdge, isMobileViewport } from "@/lib/utils";
 
 import { useReactFlow } from "@xyflow/react";
-import { useEffect, useMemo, useRef } from "react";
+import { useCallback, useEffect, useMemo, useRef } from "react";
 import Image from "next/image";
 import {
     Tooltip,
@@ -29,7 +29,7 @@ import {
 import { useTranslations } from "next-intl";
 import PrevNextDayNavigation from "@/components/view/chart-cards/PrevNextDayNavigation";
 import { AnimatePresence, motion } from "framer-motion";
-import { useViewStore } from "@/store/viewStore";
+import { HistoryEntry, useViewStore } from "@/store/viewStore";
 import { useShallow } from "zustand/react/shallow";
 import { useLocalizedData } from "@/hooks/useLocalizedData";
 
@@ -43,7 +43,7 @@ interface Props {
     onEdgeLinkClicked: EdgeLinkClickHandler;
     onDayChange: (newDay: number) => void;
     setChartShrink: (width: number) => void;
-    history: (ImageNodeType | FixedEdgeType)[];
+    history: HistoryEntry[];
     goBack: () => void;
 }
 
@@ -60,7 +60,27 @@ const EdgeCard = ({
     const tEdgeCard = useTranslations("cards.edgeCard");
     const tConstants = useTranslations("constants");
 
-    const contentRef = useRef<HTMLDivElement>(null);
+    const setPendingScrollTop = useViewStore(
+        (state) => state.setPendingScrollTop,
+    );
+    const scrollRestorePosition = useViewStore(
+        (state) => state.scrollRestorePosition,
+    );
+    const clearScrollRestorePosition = useViewStore(
+        (state) => state.clearScrollRestorePosition,
+    );
+
+    const contentDomRef = useRef<HTMLDivElement | null>(null);
+    const contentRef = useCallback(
+        (node: HTMLDivElement | null) => {
+            contentDomRef.current = node;
+            if (node !== null && scrollRestorePosition !== null) {
+                node.scrollTop = scrollRestorePosition;
+                clearScrollRestorePosition();
+            }
+        },
+        [scrollRestorePosition, clearScrollRestorePosition],
+    );
     const { getNode } = useReactFlow();
 
     const { selectedEdge, chapter, day } = useViewStore(
@@ -87,8 +107,15 @@ const EdgeCard = ({
 
     // Reset scroll position and header visibility when selectedEdge changes
     useEffect(() => {
-        if (contentRef.current) {
-            contentRef.current.scrollTop = 0;
+        if (contentDomRef.current) {
+            contentDomRef.current.scrollTop = 0;
+        }
+    }, [selectedEdge]);
+
+    // Reset scroll position when selectedNode changes (but not from goBack)
+    useEffect(() => {
+        if (scrollRestorePosition === null && contentDomRef.current) {
+            contentDomRef.current.scrollTop = 0;
         }
     }, [selectedEdge]);
 
@@ -125,11 +152,27 @@ const EdgeCard = ({
         ? (getNode(selectedEdge.target)! as ImageNodeType)
         : null;
 
+    const handleNodeLinkClicked: NodeLinkClickHandler = useCallback(
+        (node) => {
+            setPendingScrollTop(contentDomRef.current?.scrollTop ?? 0);
+            onNodeLinkClicked(node);
+        },
+        [onNodeLinkClicked, setPendingScrollTop],
+    );
+
+    const handleEdgeLinkClicked: EdgeLinkClickHandler = useCallback(
+        (edge) => {
+            setPendingScrollTop(contentDomRef.current?.scrollTop ?? 0);
+            onEdgeLinkClicked(edge);
+        },
+        [onEdgeLinkClicked, setPendingScrollTop],
+    );
+
     // Resolve fresh node by id at click time to avoid stale references after day switches
     const handleNodeIconClick = (nodeId: string) => {
         const node = getNode(nodeId) as ImageNodeType | null;
         if (node) {
-            onNodeLinkClicked(node);
+            handleNodeLinkClicked(node);
         }
     };
 
@@ -320,8 +363,8 @@ const EdgeCard = ({
                             transition={{ duration: 0.3 }}
                         >
                             <ViewMarkdown
-                                onEdgeLinkClicked={onEdgeLinkClicked}
-                                onNodeLinkClicked={onNodeLinkClicked}
+                                onEdgeLinkClicked={handleEdgeLinkClicked}
+                                onNodeLinkClicked={handleNodeLinkClicked}
                                 className="md:px-4 px-2"
                             >
                                 {contentWithoutFanart || "No content available"}

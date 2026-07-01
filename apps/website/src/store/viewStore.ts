@@ -24,6 +24,11 @@ export type ModalType =
     | null;
 export type AppType = "chart" | "glossary" | "archive" | "bingo";
 
+export type HistoryEntry = {
+    element: ImageNodeType | FixedEdgeType;
+    scrollTop: number;
+};
+
 type ViewStoreType = ViewDataSlice &
     ViewUiSlice &
     ViewVisibilitySlice &
@@ -69,8 +74,14 @@ interface ViewUiSlice {
     ) => void;
     deselectElement: () => void;
     goBack: () => void;
-    history: (ImageNodeType | FixedEdgeType)[];
+    history: HistoryEntry[];
     clearHistory: () => void;
+
+    pendingScrollTop: number;
+    setPendingScrollTop: (scrollTop: number) => void;
+
+    scrollRestorePosition: number | null;
+    clearScrollRestorePosition: () => void;
 }
 
 const createUiSlice: StateCreator<ViewStoreType, [], [], ViewUiSlice> = (
@@ -85,16 +96,20 @@ const createUiSlice: StateCreator<ViewStoreType, [], [], ViewUiSlice> = (
 
     selectedElement: null,
     selectElement: (element, fromHistory = false) => {
-        const { selectedElement, history } = get();
+        const { selectedElement, history, pendingScrollTop } = get();
         const newHistory = [...history];
 
         if (selectedElement && !fromHistory) {
-            newHistory.push(selectedElement);
+            newHistory.push({
+                element: selectedElement,
+                scrollTop: pendingScrollTop,
+            });
         }
 
         set(() => ({
             selectedElement: element,
             history: newHistory,
+            pendingScrollTop: 0,
         }));
     },
     deselectElement: () => set(() => ({ selectedElement: null, history: [] })),
@@ -102,12 +117,13 @@ const createUiSlice: StateCreator<ViewStoreType, [], [], ViewUiSlice> = (
         const { history } = get();
         if (history.length > 0) {
             const newHistory = [...history];
-            const previousElement = newHistory.pop()!;
+            const { element: previousElement, scrollTop } = newHistory.pop()!;
 
             set({
                 selectedElement: previousElement,
                 history: newHistory,
                 currentCard: isNode(previousElement) ? "node" : "edge",
+                scrollRestorePosition: scrollTop,
             });
         }
     },
@@ -115,6 +131,13 @@ const createUiSlice: StateCreator<ViewStoreType, [], [], ViewUiSlice> = (
         set(() => ({ history: [] }));
     },
     history: [],
+    pendingScrollTop: 0,
+    setPendingScrollTop: (scrollTop) =>
+        set(() => ({ pendingScrollTop: scrollTop })),
+
+    scrollRestorePosition: null,
+    clearScrollRestorePosition: () =>
+        set(() => ({ scrollRestorePosition: null })),
 });
 
 /** Slice to hold the visibility of various elements of the relationship chart. */
